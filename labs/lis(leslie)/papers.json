@@ -1,0 +1,765 @@
+[
+  {
+    "page_url": "https://arxiv.org/pdf/2603.09971",
+    "pdf_path": "pdfs/2026-tiptop-a-modular-open-vocabulary-planning-system-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.09971.pdf",
+    "title": "TiPToP: A Modular Open-Vocabulary Planning System for Robotic Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2603.27797",
+    "pdf_path": "pdfs/2026-which-reconstruction-model-should-a-robot-use-routing-image-to-3d-models-for-cost-aware-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.27797.pdf",
+    "title": "Which Reconstruction Model Should a Robot Use? Routing Image-to-3D Models for Cost-Aware Robotic Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2410.23643",
+    "pdf_path": "pdfs/2025-scenecomplete-open-world-3d-scene-completion-in-cluttered-real-world-environments-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.23643.pdf",
+    "title": "SceneComplete: Open-World 3D Scene Completion in Cluttered Real World Environments for Robot Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2409.18073",
+    "pdf_path": "pdfs/2025-infer-human-s-intentions-before-following-natural-language-instructions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.18073.pdf",
+    "title": "Infer Human\u2019s Intentions Before Following Natural Language Instructions",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2409.07429",
+    "pdf_path": "pdfs/2025-agent-workflow-memory.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.07429.pdf",
+    "title": "Agent Workflow Memory",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2505.10844",
+    "pdf_path": "pdfs/2025-creativity-or-brute-force-using-brainteasers-as-a-window-into-the-problem-solving-abilities-of-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.10844.pdf",
+    "title": "Creativity or Brute Force? Using Brainteasers as a Window into the Problem-Solving Abilities of Large Language Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2410.10101",
+    "pdf_path": "pdfs/2025-learning-linear-attention-in-polynomial-time.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.10101.pdf",
+    "title": "Learning Linear Attention in Polynomial Time",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2505.02216",
+    "pdf_path": "pdfs/2025-llm-guided-probabilistic-program-induction-for-pomdp-model-estim.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.02216.pdf",
+    "title": "LLM-Guided Probabilistic Program Induction for POMDP Model Estim",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2409.08202.pdf",
+    "pdf_path": "pdfs/2025-what-makes-a-maze-look-like-a-maze.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.08202.pdf",
+    "title": "What Makes a Maze Look Like a Maze?",
+    "year": 2025
+  },
+  {
+    "page_url": "https://magic-2024.github.io/magic.pdf",
+    "pdf_path": "pdfs/2025-one-shot-manipulation-strategy-learning-by-making-contact-analogies.pdf",
+    "pdf_url": "https://magic-2024.github.io/magic.pdf",
+    "title": "One-Shot Manipulation Strategy Learning by Making Contact Analogies",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2410.02193",
+    "pdf_path": "pdfs/2025-guiding-long-horizon-task-and-motion-planning-with-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.02193.pdf",
+    "title": "Guiding Long-Horizon Task and Motion Planning with Vision Language Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2501.00296",
+    "pdf_path": "pdfs/2025-predicate-invention-from-pixels-via-pretrained-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.00296.pdf",
+    "title": "Predicate Invention from Pixels via Pretrained Vision-Language Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2502.06146",
+    "pdf_path": "pdfs/2025-guided-exploration-for-efficient-relational-model-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.06146.pdf",
+    "title": "Guided Exploration for Efficient Relational Model Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2502.01800",
+    "pdf_path": "pdfs/2025-flow-based-domain-randomization-for-learning-and-sequencing-robotic-skills.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.01800.pdf",
+    "title": "Flow-based Domain Randomization for Learning and Sequencing Robotic Skills",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/wp-content/uploads/2025/06/paper_mit_small.pdf",
+    "pdf_path": "pdfs/2025-rationally-engineering-rational-robots.pdf",
+    "pdf_url": "https://lis.csail.mit.edu/wp-content/uploads/2025/06/paper_mit_small.pdf",
+    "title": "Rationally Engineering Rational Robots",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2306.13196",
+    "pdf_path": "pdfs/2024-dimsam-diffusion-models-as-samplers-for-task-and-motion-planning-under-partial-observability.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.13196.pdf",
+    "title": "DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2402.15025.pdf",
+    "pdf_path": "pdfs/2024-practice-makes-perfect-planning-to-learn-skill-parameter-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.15025.pdf",
+    "title": "Practice Makes Perfect: Planning to Learn Skill Parameter Policies",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2403.10454",
+    "pdf_path": "pdfs/2024-partially-observable-task-and-motion-planning-with-uncertainty-and-risk-awareness.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.10454.pdf",
+    "title": "Partially Observable Task and Motion Planning with Uncertainty and Risk Awareness",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2408.04760",
+    "pdf_path": "pdfs/2024-embodied-uncertainty-aware-object-segmentation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.04760.pdf",
+    "title": "Embodied Uncertainty-Aware Object Segmentation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2402.01103",
+    "pdf_path": "pdfs/2024-compositional-generative-modeling-a-single-model-is-not-all-you-need.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.01103.pdf",
+    "title": "Compositional Generative Modeling: A Single Model is Not All You Need",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2305.11014.pdf",
+    "pdf_path": "pdfs/2024-generalized-planning-in-pddl-domains-with-pretrained-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.11014.pdf",
+    "title": "Generalized Planning in PDDL Domains with Pretrained Large Language Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2406.05572",
+    "pdf_path": "pdfs/2024-trust-the-proc3s-solving-long-horizon-robotics-problems-with-llms-and-constraint-satisfaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.05572.pdf",
+    "title": "Trust the PRoC3S: Solving Long-Horizon Robotics Problems with LLMs and Constraint Satisfaction",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2407.17394",
+    "pdf_path": "pdfs/2024-towards-practical-finite-sample-bounds-for-motion-planning-in-tamp.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.17394.pdf",
+    "title": "Towards Practical Finite Sample Bounds for Motion Planning in TAMP",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.arxiv.org/pdf/2409.19226",
+    "pdf_path": "pdfs/2024-learning-to-bridge-the-gap-efficient-novelty-recovery-with-planning-and-reinforcement-learning.pdf",
+    "pdf_url": "https://www.arxiv.org/pdf/2409.19226.pdf",
+    "title": "Learning to Bridge the Gap: Efficient Novelty Recovery with Planning and Reinforcement Learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2405.03864.pdf",
+    "pdf_path": "pdfs/2024-learning-planning-abstractions-from-language.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.03864.pdf",
+    "title": "Learning Planning Abstractions from Language",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2310.08576.pdf",
+    "pdf_path": "pdfs/2024-learning-to-act-from-actionless-video-through-dense-correspondences.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08576.pdf",
+    "title": "Learning to Act from Actionless Video through Dense Correspondences",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2312.08566.pdf",
+    "pdf_path": "pdfs/2024-learning-adaptive-planning-representations-with-natural-language-guidance.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.08566.pdf",
+    "title": "Learning Adaptive Planning Representations with Natural Language Guidance",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2403.17124.pdf",
+    "pdf_path": "pdfs/2024-grounding-language-plans-in-demonstrations-through-counter-factual-perturbations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.17124.pdf",
+    "title": "Grounding Language Plans in Demonstrations through Counter-factual Perturbations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2405.11928",
+    "pdf_path": "pdfs/2024-set-it-up-functional-object-arrangement-with-compositional-generative-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.11928.pdf",
+    "title": "\u201cSet It Up!\u201d: Functional Object Arrangement with Compositional Generative Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2405.06906.pdf",
+    "pdf_path": "pdfs/2024-finding-structure-in-logographic-writing-with-library-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.06906.pdf",
+    "title": "Finding Structure in Logographic Writing with Library Learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2410.07166.pdf",
+    "pdf_path": "pdfs/2024-embodied-agent-interface-a-single-line-to-evaluate-llms-for-embodied-decision-making.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.07166.pdf",
+    "title": "Embodied Agent Interface: A Single Line to Evaluate LLMs for Embodied Decision Making",
+    "year": 2024
+  },
+  {
+    "page_url": "https://blade-bot.github.io/blade.pdf",
+    "pdf_path": "pdfs/2024-blade-learning-compositional-behaviors-from-demonstration-and-language.pdf",
+    "pdf_url": "https://blade-bot.github.io/blade.pdf",
+    "title": "BLADE: Learning Compositional Behaviors from Demonstration and Language",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2409.15774",
+    "pdf_path": "pdfs/2024-bi-level-belief-space-search-for-compliant-part-mating-under-uncertainty.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.15774.pdf",
+    "title": "Bi-Level Belief Space Search for Compliant Part Mating Under Uncertainty",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2203.09634.pdf",
+    "pdf_path": "pdfs/2023-predicate-invention-for-bilevel-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2203.09634.pdf",
+    "title": "Predicate Invention for Bilevel Planning",
+    "year": 2023
+  },
+  {
+    "page_url": "http://arxiv.org/abs/2309.00966",
+    "pdf_path": "pdfs/2023-compositional-diffusion-based-continuous-constraint-solvers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.00966.pdf",
+    "title": "Compositional Diffusion-Based Continuous Constraint Solvers",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2310.16035",
+    "pdf_path": "pdfs/2023-what-s-left-concept-grounding-with-logic-enhanced-foundation-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.16035.pdf",
+    "title": "What\u2019s Left? Concept Grounding with Logic-Enhanced Foundation Models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2312.03682",
+    "pdf_path": "pdfs/2023-what-planning-problem-can-a-relational-neural-network-solve.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.03682.pdf",
+    "title": "What Planning Problem Can A Relational Neural Network Solve",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2303.05487",
+    "pdf_path": "pdfs/2023-learning-rational-subgoals-from-demonstrations-and-instructions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.05487.pdf",
+    "title": "Learning Rational Subgoals from Demonstrations and Instructions",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2309.02551.pdf",
+    "pdf_path": "pdfs/2023-continual-improvement-of-threshold-based-novelty-detection.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.02551.pdf",
+    "title": "Continual Improvement of Threshold-Based Novelty Detection",
+    "year": 2023
+  },
+  {
+    "page_url": "https://proceedings.mlr.press/v229/mendez-mendez23a/mendez-mendez23a.pdf",
+    "pdf_path": "pdfs/2023-embodied-lifelong-learning-for-task-and-motion-planning.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v229/mendez-mendez23a/mendez-mendez23a.pdf",
+    "title": "Embodied Lifelong Learning for Task and Motion Planning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2212.04554.pdf",
+    "pdf_path": "pdfs/2023-task-directed-exploration-in-continuous-pomdps-for-robotic-manipulation-of-articulated-objects.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2212.04554.pdf",
+    "title": "Task-Directed Exploration in Continuous POMDPs for Robotic Manipulation of Articulated Objects",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2212.02671.pdf",
+    "pdf_path": "pdfs/2023-visibility-aware-navigation-among-movable-obstacles.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2212.02671.pdf",
+    "title": "Visibility-Aware Navigation Among Movable Obstacles",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2304.13826",
+    "pdf_path": "pdfs/2023-programmatically-grounded-compositionally-generalizable-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.13826.pdf",
+    "title": "Programmatically Grounded, Compositionally Generalizable Robotic Manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2303.13483",
+    "pdf_path": "pdfs/2023-ns3d-neuro-symbolic-grounding-of-3d-objects-and-relations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.13483.pdf",
+    "title": "NS3D: Neuro-Symbolic Grounding of 3D Objects and Relations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2308.07931",
+    "pdf_path": "pdfs/2023-distilled-feature-fields-enable-open-ended-few-shot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2308.07931.pdf",
+    "title": "Distilled Feature Fields Enable Open-Ended Few-Shot Manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2302.03573",
+    "pdf_path": "pdfs/2023-local-neural-descriptor-fields-locally-conditioned-object-representations-for-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.03573.pdf",
+    "title": "Local Neural Descriptor Fields: Locally Conditioned Object Representations for Manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2210.11522",
+    "pdf_path": "pdfs/2023-composing-ensembles-of-pre-trained-models-via-iterative-consensus.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.11522.pdf",
+    "title": "Composing Ensembles of Pre-trained Models via Iterative Consensus",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2211.15657.pdf",
+    "pdf_path": "pdfs/2023-is-conditional-generative-modeling-all-you-need-for-decision-making.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2211.15657.pdf",
+    "title": "Is Conditional Generative Modeling all You Need for Decision-Making?",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2304.08463",
+    "pdf_path": "pdfs/2023-learning-to-render-novel-views-from-wide-baseline-stereo-pairs.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.08463.pdf",
+    "title": "Learning to Render Novel Views from Wide-Baseline Stereo Pairs",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2302.11552",
+    "pdf_path": "pdfs/2023-reduce-reuse-recycle-compositional-generation-with-energy-based-diffusion-models-and-mcmc.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.11552.pdf",
+    "title": "Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2211.04604",
+    "pdf_path": "pdfs/2023-structdiffusion-language-guided-creation-of-physically-valid-structures-using-unseen-objects.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2211.04604.pdf",
+    "title": "StructDiffusion: Language-Guided Creation of Physically-Valid Structures using Unseen Objects",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2303.04137",
+    "pdf_path": "pdfs/2023-diffusion-policy-visuomotor-policy-learning-via-action-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.04137.pdf",
+    "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2303.04912",
+    "pdf_path": "pdfs/2023-embodied-active-learning-of-relational-state-abstractions-for-bilevel-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.04912.pdf",
+    "title": "Embodied Active Learning of Relational State Abstractions for Bilevel Planning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2026-384-tiptop-a-modular-open-vocabulary-planning-system-for-robotic-manipulation-william-shen-nishanth-kumar-sahit-chintala.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.09971.pdf",
+    "title": "[384] TiPToP: A Modular Open-Vocabulary Planning System for Robotic Manipulation ( William Shen*, Nishanth Kumar*, Sahit Chintalapudi, Jie Wang, Christopher Watson, Edward Hu, Jing",
+    "year": 2026
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2026-383-which-reconstruction-model-should-a-robot-use-routing-image-to-3d-models-for-cost-aware-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.27797.pdf",
+    "title": "[383] Which Reconstruction Model Should a Robot Use? Routing Image-to-3D Models for Cost-Aware Robotic Manipulation (",
+    "year": 2026
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2026-386-open-world-task-and-motion-planning-via-vision-language-model-generated-constraints.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.09971.pdf",
+    "title": "[386] Open-World Task and Motion Planning Via Vision-Language Model Generated Constraints (",
+    "year": 2026
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2025-381-scenecomplete-open-world-3d-scene-completion-in-cluttered-real-world-environments-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.23643.pdf",
+    "title": "[381] SceneComplete: Open-World 3D Scene Completion in Cluttered Real World Environments for Robot Manipulation (",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2025-379-infer-human-s-intentions-before-following-natural-language-instructions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.18073.pdf",
+    "title": "[379] Infer Human\u2019s Intentions Before Following Natural Language Instructions (",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2025-378-agent-workflow-memory-zora.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.07429.pdf",
+    "title": "[378] Agent Workflow Memory ( Zora",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2025-377-creativity-or-brute-force-using-brainteasers-as-a-window-into-the-problem-solving-abilities-of-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.10844.pdf",
+    "title": "[377] Creativity or Brute Force? Using Brainteasers as a Window into the Problem-Solving Abilities of Large Language Models (",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2025-376-learning-linear-attention-in-polynomial-time.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.10101.pdf",
+    "title": "[376] Learning Linear Attention in Polynomial Time (",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2025-375-llm-guided-probabilistic-program-induction-for-pomdp-model-estim.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.02216.pdf",
+    "title": "[375] LLM-Guided Probabilistic Program Induction for POMDP Model Estim (",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2025-374-what-makes-a-maze-look-like-a-maze.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.08202.pdf",
+    "title": "[374] What Makes a Maze Look Like a Maze? (",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2025-373-one-shot-manipulation-strategy-learning-by-making-contact-analogies.pdf",
+    "pdf_url": "https://magic-2024.github.io/magic.pdf",
+    "title": "[373] One-Shot Manipulation Strategy Learning by Making Contact Analogies (",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2025-372-guiding-long-horizon-task-and-motion-planning-with-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.02193.pdf",
+    "title": "[372] Guiding Long-Horizon Task and Motion Planning with Vision Language Models (",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2025-371-predicate-invention-from-pixels-via-pretrained-vision-language-models-ashay-athalye-nishanth-kumar-tom-silver-yichao.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.00296.pdf",
+    "title": "[371] Predicate Invention from Pixels via Pretrained Vision-Language Models ( Ashay Athalye*, Nishanth Kumar*, Tom Silver, Yichao Liang, Tom\u00e1s Lozano-P\u00e9rez, Leslie Pack Kaelbling )",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2025-370-guided-exploration-for-efficient-relational-model-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.06146.pdf",
+    "title": "[370] Guided Exploration for Efficient Relational Model Learning (",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2025-368-flow-based-domain-randomization-for-learning-and-sequencing-robotic-skills.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.01800.pdf",
+    "title": "[368] Flow-based Domain Randomization for Learning and Sequencing Robotic Skills (",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2025-366-rationally-engineering-rational-robots-leslie-kaelbling-and-tomas-lozano-perez-in-designing-an-intelligence-george-k.pdf",
+    "pdf_url": "https://lis.csail.mit.edu/wp-content/uploads/2025/06/paper_mit_small.pdf",
+    "title": "[366] Rationally Engineering Rational Robots ( Leslie Kaelbling and Tomas Lozano-Perez ), In Designing an Intelligence (George Konidaris Ed.) MIT Press ,",
+    "year": 2025
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-365-dimsam-diffusion-models-as-samplers-for-task-and-motion-planning-under-partial-observability.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.13196.pdf",
+    "title": "[365] DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-364-practice-makes-perfect-planning-to-learn-skill-parameter-policies-nishanth-kumar-and-tom-silver-and-willie-mcclinton.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.15025.pdf",
+    "title": "[364] Practice Makes Perfect: Planning to Learn Skill Parameter Policies ( Nishanth Kumar and Tom Silver and Willie McClinton and Linfeng Zhao and Stephen Proulx and Tom\u00e1s Lozano-P",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-363-partially-observable-task-and-motion-planning-with-uncertainty-and-risk-awareness.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.10454.pdf",
+    "title": "[363] Partially Observable Task and Motion Planning with Uncertainty and Risk Awareness (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-361-embodied-uncertainty-aware-object-segmentation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.04760.pdf",
+    "title": "[361] Embodied Uncertainty-Aware Object Segmentation (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-360-compositional-generative-modeling-a-single-model-is-not-all-you-need-yilun-du-and-leslie-kaelbling-in-international-.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.01103.pdf",
+    "title": "[360] Compositional Generative Modeling: A Single Model is Not All You Need ( Yilun Du and Leslie Kaelbling ), In International Conference on Machine Learning (ICML) ,",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-359-generalized-planning-in-pddl-domains-with-pretrained-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.11014.pdf",
+    "title": "[359] Generalized Planning in PDDL Domains with Pretrained Large Language Models (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-358-trust-the-proc3s-solving-long-horizon-robotics-problems-with-llms-and-constraint-satisfaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.05572.pdf",
+    "title": "[358] Trust the PRoC3S: Solving Long-Horizon Robotics Problems with LLMs and Constraint Satisfaction (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-357-towards-practical-finite-sample-bounds-for-motion-planning-in-tamp.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.17394.pdf",
+    "title": "[357] Towards Practical Finite Sample Bounds for Motion Planning in TAMP (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-356-learning-to-bridge-the-gap-efficient-novelty-recovery-with-planning-and-reinforcement-learning.pdf",
+    "pdf_url": "https://www.arxiv.org/pdf/2409.19226.pdf",
+    "title": "[356] Learning to Bridge the Gap: Efficient Novelty Recovery with Planning and Reinforcement Learning (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-351-learning-planning-abstractions-from-language.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.03864.pdf",
+    "title": "[351] Learning Planning Abstractions from Language (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-350-learning-to-act-from-actionless-video-through-dense-correspondences.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08576.pdf",
+    "title": "[350] Learning to Act from Actionless Video through Dense Correspondences (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-349-learning-adaptive-planning-representations-with-natural-language-guidance.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.08566.pdf",
+    "title": "[349] Learning Adaptive Planning Representations with Natural Language Guidance (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-348-grounding-language-plans-in-demonstrations-through-counter-factual-perturbations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.17124.pdf",
+    "title": "[348] Grounding Language Plans in Demonstrations through Counter-factual Perturbations (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-347-set-it-up-functional-object-arrangement-with-compositional-generative-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.11928.pdf",
+    "title": "[347] \u201cSet It Up!\u201d: Functional Object Arrangement with Compositional Generative Models (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-346-finding-structure-in-logographic-writing-with-library-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.06906.pdf",
+    "title": "[346] Finding Structure in Logographic Writing with Library Learning (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-344-embodied-agent-interface-a-single-line-to-evaluate-llms-for-embodied-decision-making.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.07166.pdf",
+    "title": "[344] Embodied Agent Interface: A Single Line to Evaluate LLMs for Embodied Decision Making (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-343-blade-learning-compositional-behaviors-from-demonstration-and-language.pdf",
+    "pdf_url": "https://blade-bot.github.io/blade.pdf",
+    "title": "[343] BLADE: Learning Compositional Behaviors from Demonstration and Language (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2024-342-bi-level-belief-space-search-for-compliant-part-mating-under-uncertainty.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.15774.pdf",
+    "title": "[342] Bi-Level Belief Space Search for Compliant Part Mating Under Uncertainty (",
+    "year": 2024
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-341-predicate-invention-for-bilevel-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2203.09634.pdf",
+    "title": "[341] Predicate Invention for Bilevel Planning (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-339-compositional-diffusion-based-continuous-constraint-solvers-yang-zhutian-and-mao-jiayuan-and-du-yilun-and-wu-jiajun-.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.00966.pdf",
+    "title": "[339] Compositional Diffusion-Based Continuous Constraint Solvers ( Yang, Zhutian and Mao, Jiayuan and Du, Yilun and Wu, Jiajun and Tenenbaum, Joshua B. and Lozano-Perez, Tomas and",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-336-what-s-left-concept-grounding-with-logic-enhanced-foundation-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.16035.pdf",
+    "title": "[336] What\u2019s Left? Concept Grounding with Logic-Enhanced Foundation Models (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-335-what-planning-problem-can-a-relational-neural-network-solve.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.03682.pdf",
+    "title": "[335] What Planning Problem Can A Relational Neural Network Solve (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-334-learning-rational-subgoals-from-demonstrations-and-instructions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.05487.pdf",
+    "title": "[334] Learning Rational Subgoals from Demonstrations and Instructions (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-332-continual-improvement-of-threshold-based-novelty-detection-abe-ejilemele-and-jorge-mendez-mendez-in-collas-23-worksh.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.02551.pdf",
+    "title": "[332] Continual Improvement of Threshold-Based Novelty Detection ( Abe Ejilemele and Jorge Mendez-Mendez ), In CoLLAs-23 Workshop Track ,",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-331-embodied-lifelong-learning-for-task-and-motion-planning-jorge-mendez-mendez-and-leslie-pack-kaelbling-and-tom-s-loza.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v229/mendez-mendez23a/mendez-mendez23a.pdf",
+    "title": "[331] Embodied Lifelong Learning for Task and Motion Planning ( Jorge Mendez-Mendez and Leslie Pack Kaelbling and Tom\u00e1s Lozano-P\u00e9rez ), In Proceedings of the 7th Conference on Robo",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-330-task-directed-exploration-in-continuous-pomdps-for-robotic-manipulation-of-articulated-objects.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2212.04554.pdf",
+    "title": "[330] Task-Directed Exploration in Continuous POMDPs for Robotic Manipulation of Articulated Objects (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-329-visibility-aware-navigation-among-movable-obstacles.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2212.02671.pdf",
+    "title": "[329] Visibility-Aware Navigation Among Movable Obstacles (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-327-programmatically-grounded-compositionally-generalizable-robotic-manipulation-renhao-wang-jiayuan-mao-joy-hsu-hang-zh.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.13826.pdf",
+    "title": "[327] Programmatically Grounded, Compositionally Generalizable Robotic Manipulation ( Renhao Wang, Jiayuan Mao, Joy Hsu, Hang Zhao, Jiajun Wu and Yang Gao ), In International Confe",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-326-ns3d-neuro-symbolic-grounding-of-3d-objects-and-relations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.13483.pdf",
+    "title": "[326] NS3D: Neuro-Symbolic Grounding of 3D Objects and Relations (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-325-distilled-feature-fields-enable-open-ended-few-shot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2308.07931.pdf",
+    "title": "[325] Distilled Feature Fields Enable Open-Ended Few-Shot Manipulation (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-324-local-neural-descriptor-fields-locally-conditioned-object-representations-for-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.03573.pdf",
+    "title": "[324] Local Neural Descriptor Fields: Locally Conditioned Object Representations for Manipulation (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-323-composing-ensembles-of-pre-trained-models-via-iterative-consensus.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.11522.pdf",
+    "title": "[323] Composing Ensembles of Pre-trained Models via Iterative Consensus (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-322-is-conditional-generative-modeling-all-you-need-for-decision-making.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2211.15657.pdf",
+    "title": "[322] Is Conditional Generative Modeling all You Need for Decision-Making? (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-320-learning-to-render-novel-views-from-wide-baseline-stereo-pairs.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.08463.pdf",
+    "title": "[320] Learning to Render Novel Views from Wide-Baseline Stereo Pairs (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-319-reduce-reuse-recycle-compositional-generation-with-energy-based-diffusion-models-and-mcmc-yilun-du-conor-durkan-robi.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.11552.pdf",
+    "title": "[319] Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC ( Yilun Du, Conor Durkan, Robin Strudel, Joshua B. Tenenbaum, Sander Dieleman, Ro",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-318-structdiffusion-language-guided-creation-of-physically-valid-structures-using-unseen-objects.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2211.04604.pdf",
+    "title": "[318] StructDiffusion: Language-Guided Creation of Physically-Valid Structures using Unseen Objects (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-317-diffusion-policy-visuomotor-policy-learning-via-action-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.04137.pdf",
+    "title": "[317] Diffusion Policy: Visuomotor Policy Learning via Action Diffusion (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-316-embodied-active-learning-of-relational-state-abstractions-for-bilevel-planning-li-amber-and-silver-tom-in-conference.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.04912.pdf",
+    "title": "[316] Embodied Active Learning of Relational State Abstractions for Bilevel Planning ( Li, Amber and Silver, Tom ), In Conference on Lifelong Learning Agents (CoLLAs) ,",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-315-dimsam-diffusion-models-as-samplers-for-task-and-motion-planning-under-partial-observability.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.13196.pdf",
+    "title": "[315] DiMSam: Diffusion Models as Samplers for Task and Motion Planning under Partial Observability (",
+    "year": 2023
+  },
+  {
+    "page_url": "https://lis.csail.mit.edu/publications/",
+    "pdf_path": "pdfs/2023-311-distilled-feature-fields-enable-few-shot-language-guided-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2308.07931.pdf",
+    "title": "[311] Distilled Feature Fields Enable Few-Shot Language-Guided Manipulation (",
+    "year": 2023
+  }
+]

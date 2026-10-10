@@ -1,0 +1,303 @@
+[
+  {
+    "page_url": "https://craftaug.github.io/",
+    "pdf_path": "pdfs/2026-craft-video-diffusion-for-bimanual-robot-data-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.03552.pdf",
+    "title": "CRAFT: Video Diffusion for Bimanual Robot Data Generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://dexmulti.github.io/",
+    "pdf_path": "pdfs/2026-concurrent-prehensile-and-nonprehensile-manipulation-a-practical-approach-to-multi-stage-dexterous-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.11655.pdf",
+    "title": "Concurrent Prehensile and Nonprehensile Manipulation: A Practical Approach to Multi-Stage Dexterous Tasks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://handful-dex.github.io/",
+    "pdf_path": "pdfs/2026-handful-sequential-grasp-conditioned-dexterous-manipulation-with-resource-awareness.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.25126.pdf",
+    "title": "HANDFUL: Sequential Grasp-Conditioned Dexterous Manipulation with Resource Awareness",
+    "year": 2026
+  },
+  {
+    "page_url": "https://toannguyen1904.github.io/ICLR/",
+    "pdf_path": "pdfs/2026-iclr-in-context-imitation-learning-with-visual-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.07530.pdf",
+    "title": "ICLR: In-Context Imitation Learning with Visual Reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://qdigvla.github.io/",
+    "pdf_path": "pdfs/2026-red-teaming-vision-language-action-models-via-quality-diversity-prompt-generation-for-robust-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.12510.pdf",
+    "title": "Red-Teaming Vision-Language-Action Models via Quality Diversity Prompt Generation for Robust Robot Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://zshanggu.github.io/zeyu-prefail/",
+    "pdf_path": "pdfs/2026-prefail-identifying-precursors-to-failures-in-robotic-lift-and-place-tasks-to-improve-task-execution-performance.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.16921.pdf",
+    "title": "PREFAIL: Identifying Precursors to Failures in Robotic Lift-and-Place Tasks to Improve Task Execution Performance",
+    "year": 2026
+  },
+  {
+    "page_url": "https://misoshiruseijin.github.io/SENSEI/",
+    "pdf_path": "pdfs/2026-fix-the-mind-not-the-move-interpretable-ai-assistance-via-knowledge-gap-localization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.05602.pdf",
+    "title": "Fix the Mind, Not the Move: Interpretable AI Assistance via Knowledge-Gap Localization",
+    "year": 2026
+  },
+  {
+    "page_url": "https://ropaaug.github.io/",
+    "pdf_path": "pdfs/2026-ropa-synthetic-robot-pose-generation-for-rgb-d-bimanual-data-augmentation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.19454.pdf",
+    "title": "ROPA: Synthetic Robot Pose Generation for RGB-D Bimanual Data Augmentation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://geodex2p.github.io/",
+    "pdf_path": "pdfs/2026-learning-geometry-aware-nonprehensile-pushing-and-pulling-with-dexterous-hands.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.18455.pdf",
+    "title": "Learning Geometry-Aware Nonprehensile Pushing and Pulling with Dexterous Hands",
+    "year": 2026
+  },
+  {
+    "page_url": "https://impact-planning.github.io/",
+    "pdf_path": "pdfs/2026-impact-intelligent-motion-planning-with-acceptable-contact-trajectories-via-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.10110.pdf",
+    "title": "IMPACT: Intelligent Motion Planning with Acceptable Contact Trajectories via Vision-Language Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://v-morals.onrender.com/",
+    "pdf_path": "pdfs/2026-v-morals-visual-morse-graph-aided-discovery-of-regions-of-attraction-in-a-learned-space.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.23524.pdf",
+    "title": "V-MORALS: Visual Morse Graph-Aided Discovery of Regions of Attraction in a Learned Space",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scoopdiff.github.io/",
+    "pdf_path": "pdfs/2026-scoop-d-state-based-sim2real-generative-policy-for-generalizable-mixed-liquid-solid-scooping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.11566.pdf",
+    "title": "SCOOP'D: State-based Sim2Real Generative Policy for Generalizable Mixed-Liquid-Solid Scooping",
+    "year": 2026
+  },
+  {
+    "page_url": "https://sressers.github.io/OCRA/",
+    "pdf_path": "pdfs/2026-ocra-object-centric-learning-with-3d-and-tactile-priors-for-human-to-robot-action-transfer.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.14401.pdf",
+    "title": "OCRA: Object-Centric Learning with 3D and Tactile Priors for Human-to-Robot Action Transfer",
+    "year": 2026
+  },
+  {
+    "page_url": "https://step-packing.github.io/",
+    "pdf_path": "pdfs/2026-preference-conditioned-reinforcement-learning-for-space-time-efficient-online-3d-bin-packing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.07800.pdf",
+    "title": "Preference-Conditioned Reinforcement Learning for Space-Time Efficient Online 3D Bin Packing",
+    "year": 2026
+  },
+  {
+    "page_url": "https://github.com/mj-hwang/ReCouPLe",
+    "pdf_path": "pdfs/2026-causally-robust-reward-learning-from-reason-augmented-preference-feedback.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.04861.pdf",
+    "title": "Causally Robust Reward Learning From Reason-Augmented Preference Feedback",
+    "year": 2026
+  },
+  {
+    "page_url": "https://louhz.github.io/drex.github.io/",
+    "pdf_path": "pdfs/2026-d-rex-differentiable-real-to-sim-to-real-engine-for-learning-dexterous-grasping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.01151.pdf",
+    "title": "D-REX: Differentiable Real-to-Sim-to-Real Engine for Learning Dexterous Grasping",
+    "year": 2026
+  },
+  {
+    "page_url": "https://manipbench.github.io/",
+    "pdf_path": "pdfs/2025-manipbench-benchmarking-vision-language-models-for-low-level-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.09698.pdf",
+    "title": "ManipBench: Benchmarking Vision-Language Models for Low-Level Robot Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://dcodaaug.github.io/D-CODA/",
+    "pdf_path": "pdfs/2025-d-coda-diffusion-for-coordinated-dual-arm-data-augmentation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.04860.pdf",
+    "title": "D-CODA: Diffusion for Coordinated Dual-Arm Data Augmentation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://sites.google.com/view/diffusivegrain/home",
+    "pdf_path": "pdfs/2025-granular-loco-manipulation-repositioning-rocks-through-strategic-sand-avalanche.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.12934.pdf",
+    "title": "Granular Loco-Manipulation: Repositioning Rocks Through Strategic Sand Avalanche",
+    "year": 2025
+  },
+  {
+    "page_url": "https://sihengz02.github.io/RoLA/",
+    "pdf_path": "pdfs/2025-robot-learning-from-any-images.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.22970.pdf",
+    "title": "Robot Learning from Any Images",
+    "year": 2025
+  },
+  {
+    "page_url": "https://hesic73.github.io/SeqMultiGrasp/",
+    "pdf_path": "pdfs/2025-sequential-multi-object-grasping-with-one-dexterous-hand.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.09078.pdf",
+    "title": "Sequential Multi-Object Grasping with One Dexterous Hand",
+    "year": 2025
+  },
+  {
+    "page_url": "https://slurm-lab-usc.github.io/motif-hand/",
+    "pdf_path": "pdfs/2025-the-motif-hand-a-robotic-hand-for-multimodal-observations-with-thermal-inertial-and-force-sensors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.19201.pdf",
+    "title": "The MOTIF Hand: A Robotic Hand for Multimodal Observations with Thermal, Inertial, and Force Sensors",
+    "year": 2025
+  },
+  {
+    "page_url": "https://github.com/interaction-lab/HRIBench",
+    "pdf_path": "pdfs/2025-hribench-benchmarking-vision-language-models-for-real-time-human-perception-in-human-robot-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.20566.pdf",
+    "title": "HRIBench: Benchmarking Vision-Language Models for Real-Time Human Perception in Human-Robot Interaction",
+    "year": 2025
+  },
+  {
+    "page_url": "https://physbench.github.io/",
+    "pdf_path": "pdfs/2025-physbench-benchmarking-and-enhancing-vision-language-models-for-physical-world-understanding.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.16411.pdf",
+    "title": "PhysBench: Benchmarking and Enhancing Vision-Language Models for Physical World Understanding",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2403.16188",
+    "pdf_path": "pdfs/2025-cross-domain-multi-modal-few-shot-object-detection-via-rich-text.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.16188.pdf",
+    "title": "Cross-domain Multi-modal Few-shot Object Detection via Rich Text",
+    "year": 2025
+  },
+  {
+    "page_url": "https://sope-dex.github.io/",
+    "pdf_path": "pdfs/2024-learning-to-singulate-objects-in-packed-environments-using-a-dexterous-hand.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.00643.pdf",
+    "title": "Learning to Singulate Objects in Packed Environments using a Dexterous Hand",
+    "year": 2024
+  },
+  {
+    "page_url": "https://sites.google.com/usc.edu/gpt-fabrics/home",
+    "pdf_path": "pdfs/2024-gpt-fabric-smoothing-and-folding-fabric-by-leveraging-pre-trained-foundation-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.09640.pdf",
+    "title": "GPT-Fabric: Smoothing and Folding Fabric by Leveraging Pre-Trained Foundation Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://sites.google.com/view/grain-corl2024/home",
+    "pdf_path": "pdfs/2024-learning-granular-media-avalanche-behavior-for-indirectly-manipulating-obstacles-on-a-granular-slope.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.01898.pdf",
+    "title": "Learning Granular Media Avalanche Behavior for Indirectly Manipulating Obstacles on a Granular Slope",
+    "year": 2024
+  },
+  {
+    "page_url": "https://voxact-b.github.io/",
+    "pdf_path": "pdfs/2024-voxact-b-voxel-based-acting-and-stabilizing-policy-for-bimanual-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.04152.pdf",
+    "title": "VoxAct-B: Voxel-Based Acting and Stabilizing Policy for Bimanual Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://sites.google.com/view/slip-bagging/",
+    "pdf_path": "pdfs/2023-bagging-by-learning-to-singulate-layers-using-interactive-perception.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.16898.pdf",
+    "title": "Bagging by Learning to Singulate Layers Using Interactive Perception",
+    "year": 2023
+  },
+  {
+    "page_url": "https://sites.google.com/view/autobag",
+    "pdf_path": "pdfs/2023-autobag-learning-to-open-plastic-bags-and-insert-objects.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.17217.pdf",
+    "title": "AutoBag: Learning to Open Plastic Bags and Insert Objects",
+    "year": 2023
+  },
+  {
+    "page_url": "https://slurm-lab-usc.github.io/publications/",
+    "pdf_path": "pdfs/2026-impact-intelligent-motion-planning-with-acceptable-contact-trajectories-via-vision-language-models-yiyang-ling-karan-owa.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.10110.pdf",
+    "title": "IMPACT: Intelligent Motion Planning with Acceptable Contact Trajectories via Vision-Language Models Yiyang Ling*, Karan Owalekar*, Oluwatobiloba Adesanya, Erdem B\u0131y\u0131k, Daniel Seita",
+    "year": 2026
+  },
+  {
+    "page_url": "https://slurm-lab-usc.github.io/publications/",
+    "pdf_path": "pdfs/2026-ocra-object-centric-learning-with-3d-and-tactile-priors-for-human-to-robot-action-transfer-kuanning-wang-ke-fan-yuqian-f.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.14401.pdf",
+    "title": "OCRA: Object-Centric Learning with 3D and Tactile Priors for Human-to-Robot Action Transfer Kuanning Wang*, Ke Fan*, Yuqian Fu, Siyu Lin, Hu Luo, Daniel Seita, Yanwei Fu, Yu-Gang J",
+    "year": 2026
+  },
+  {
+    "page_url": "https://slurm-lab-usc.github.io/publications/",
+    "pdf_path": "pdfs/2026-d-rex-differentiable-real-to-sim-to-real-engine-for-learning-dexterous-grasping-haozhe-lou-mingtong-zhang-haoran-geng-ha.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.01151.pdf",
+    "title": "D-REX: Differentiable Real-to-Sim-to-Real Engine for Learning Dexterous Grasping Haozhe Lou*, Mingtong Zhang*, Haoran Geng, Hanyang Zhou, Sicheng He, Zhiyuan Gao, Siheng Zhao, Jiag",
+    "year": 2026
+  },
+  {
+    "page_url": "https://slurm-lab-usc.github.io/publications/",
+    "pdf_path": "pdfs/2025-manipbench-benchmarking-vision-language-models-for-low-level-robot-manipulation-enyu-zhao-vedant-raval-hejia-zhang-jiage.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.09698.pdf",
+    "title": "ManipBench: Benchmarking Vision-Language Models for Low-Level Robot Manipulation Enyu Zhao*, Vedant Raval*, Hejia Zhang*, Jiageng Mao, Zeyu Shangguan, Stefanos Nikolaidis, Yue Wang",
+    "year": 2025
+  },
+  {
+    "page_url": "https://slurm-lab-usc.github.io/publications/",
+    "pdf_path": "pdfs/2025-d-coda-diffusion-for-coordinated-dual-arm-data-augmentation-i-chun.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.04860.pdf",
+    "title": "D-CODA: Diffusion for Coordinated Dual-Arm Data Augmentation I-Chun",
+    "year": 2025
+  },
+  {
+    "page_url": "https://slurm-lab-usc.github.io/publications/",
+    "pdf_path": "pdfs/2025-robot-learning-from-any-images-siheng-zhao-jiageng-mao-wei-chow-zeyu-shangguan-tianheng-shi-rong-xue-yuxi-zheng-yijia-we.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.22970.pdf",
+    "title": "Robot Learning from Any Images Siheng Zhao*, Jiageng Mao*, Wei Chow, Zeyu Shangguan, Tianheng Shi, Rong Xue, Yuxi Zheng, Yijia Weng, Yang You, Daniel Seita, Leonidas Guibas, Sergey",
+    "year": 2025
+  },
+  {
+    "page_url": "https://slurm-lab-usc.github.io/publications/",
+    "pdf_path": "pdfs/2025-the-motif-hand-a-robotic-hand-for-multimodal-observations-with-thermal-inertial-and-force-sensors-hanyang-zhou-haozhe-lo.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.19201.pdf",
+    "title": "The MOTIF Hand: A Robotic Hand for Multimodal Observations with Thermal, Inertial, and Force Sensors Hanyang Zhou*, Haozhe Lou*, Wenhao Liu*, Enyu Zhao, Yue Wang, Daniel Seita @inp",
+    "year": 2025
+  },
+  {
+    "page_url": "https://slurm-lab-usc.github.io/publications/",
+    "pdf_path": "pdfs/2025-physbench-benchmarking-and-enhancing-vision-language-models-for-physical-world-understanding-wei-chow-jiageng-mao-boyi-l.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.16411.pdf",
+    "title": "PhysBench: Benchmarking and Enhancing Vision-Language Models for Physical World Understanding Wei Chow*, Jiageng Mao*, Boyi Li, Daniel Seita, Vitor Campagnolo Guizilini, Yue Wang @",
+    "year": 2025
+  },
+  {
+    "page_url": "https://slurm-lab-usc.github.io/publications/",
+    "pdf_path": "pdfs/2024-gpt-fabric-smoothing-and-folding-fabric-by-leveraging-pre-trained-foundation-models-vedant-raval-enyu-zhao-hejia-zhang-s.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.09640.pdf",
+    "title": "GPT-Fabric: Smoothing and Folding Fabric by Leveraging Pre-Trained Foundation Models Vedant Raval*, Enyu Zhao*, Hejia Zhang, Stefanos Nikolaidis, Daniel Seita @inproceedings{raval2",
+    "year": 2024
+  },
+  {
+    "page_url": "https://slurm-lab-usc.github.io/publications/",
+    "pdf_path": "pdfs/2024-voxact-b-voxel-based-acting-and-stabilizing-policy-for-bimanual-manipulation-i-chun.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.04152.pdf",
+    "title": "VoxAct-B: Voxel-Based Acting and Stabilizing Policy for Bimanual Manipulation I-Chun",
+    "year": 2024
+  },
+  {
+    "page_url": "https://slurm-lab-usc.github.io/publications/",
+    "pdf_path": "pdfs/2023-bagging-by-learning-to-singulate-layers-using-interactive-perception-lawrence.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.16898.pdf",
+    "title": "Bagging by Learning to Singulate Layers Using Interactive Perception Lawrence",
+    "year": 2023
+  },
+  {
+    "page_url": "https://slurm-lab-usc.github.io/publications/",
+    "pdf_path": "pdfs/2023-autobag-learning-to-open-plastic-bags-and-insert-objects-lawrence.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.17217.pdf",
+    "title": "AutoBag: Learning to Open Plastic Bags and Insert Objects Lawrence",
+    "year": 2023
+  }
+]

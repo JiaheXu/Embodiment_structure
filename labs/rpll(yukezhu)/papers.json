@@ -1,0 +1,681 @@
+[
+  {
+    "page_url": "https://arxiv.org/abs/2602.16710",
+    "pdf_path": "pdfs/2026-egoscale-scaling-dexterous-manipulation-with-diverse-egocentric-human-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.16710.pdf",
+    "title": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2512.14689",
+    "pdf_path": "pdfs/2026-chip-adaptive-compliance-for-humanoid-control-through-hindsight-perturbation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.14689.pdf",
+    "title": "CHIP: Adaptive Compliance for Humanoid Control through Hindsight Perturbation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2602.15922",
+    "pdf_path": "pdfs/2026-dreamzero-world-action-models-are-zero-shot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.15922.pdf",
+    "title": "DreamZero: World Action Models are Zero-shot Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2606.19980",
+    "pdf_path": "pdfs/2026-enpire-agentic-robot-policy-self-improvement-in-the-real-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.19980.pdf",
+    "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2607.05369",
+    "pdf_path": "pdfs/2026-gap-a-graph-as-policy-multi-agent-self-learning-harness-for-variational-automation-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.05369.pdf",
+    "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2606.05160",
+    "pdf_path": "pdfs/2026-grail-generating-humanoid-loco-manipulation-from-3d-assets-and-video-priors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.05160.pdf",
+    "title": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2607.21571",
+    "pdf_path": "pdfs/2026-beyond-episodic-evaluation-memory-architectural-bottlenecks-in-sequential-embodied-question-answering.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.21571.pdf",
+    "title": "Beyond Episodic Evaluation: Memory Architectural Bottlenecks in Sequential Embodied Question Answering",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2604.13645",
+    "pdf_path": "pdfs/2026-a-mechanistic-analysis-of-sim-and-real-co-training-in-generative-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.13645.pdf",
+    "title": "A Mechanistic Analysis of Sim-and-Real Co-Training in Generative Robot Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2603.22435",
+    "pdf_path": "pdfs/2026-cap-x-a-framework-for-benchmarking-and-improving-coding-agents-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.22435.pdf",
+    "title": "CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2602.06949",
+    "pdf_path": "pdfs/2026-dreamdojo-a-generalist-robot-world-model-from-large-scale-human-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.06949.pdf",
+    "title": "DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2604.24833",
+    "pdf_path": "pdfs/2026-motionbricks-scalable-real-time-motions-with-modular-latent-generative-model-and-smart-primitives.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.24833.pdf",
+    "title": "MotionBricks: Scalable Real-Time Motions with Modular Latent Generative Model and Smart Primitives",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2603.03818",
+    "pdf_path": "pdfs/2026-pretrained-vision-language-action-models-are-surprisingly-resistant-to-forgetting-in-continual-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.03818.pdf",
+    "title": "Pretrained Vision-Language-Action Models are Surprisingly Resistant to Forgetting in Continual Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2606.16178",
+    "pdf_path": "pdfs/2026-scaling-short-term-memory-of-visuomotor-policies-for-long-horizon-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.16178.pdf",
+    "title": "Scaling Short-Term Memory of Visuomotor Policies for Long-Horizon Tasks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2606.25136v1",
+    "pdf_path": "pdfs/2026-memory-retrieval-in-visuomotor-policies-for-long-horizon-robot-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.25136v1.pdf",
+    "title": "Memory Retrieval in Visuomotor Policies for Long-Horizon Robot Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2607.09648",
+    "pdf_path": "pdfs/2026-b-spline-policy-accelerating-manipulation-policies-via-b-spline-action-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.09648.pdf",
+    "title": "B-spline Policy: Accelerating Manipulation Policies via B-spline Action Representations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2607.00272",
+    "pdf_path": "pdfs/2026-aspire-agentic-skills-discovery-for-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.00272.pdf",
+    "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2606.20905",
+    "pdf_path": "pdfs/2026-vesta-a-generalist-embodied-reasoning-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.20905.pdf",
+    "title": "Vesta: A Generalist Embodied Reasoning Model",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2601.02427",
+    "pdf_path": "pdfs/2026-nitrogen-an-open-foundation-model-for-generalist-gaming-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.02427.pdf",
+    "title": "NitroGen: An Open Foundation Model for Generalist Gaming Agents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2512.01061",
+    "pdf_path": "pdfs/2026-opening-the-sim-to-real-door-for-humanoid-pixel-to-action-policy-transfer.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.01061.pdf",
+    "title": "Opening the Sim-to-Real Door for Humanoid Pixel-to-Action Policy Transfer",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2511.15200",
+    "pdf_path": "pdfs/2026-viral-visual-sim-to-real-at-scale-for-humanoid-loco-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.15200.pdf",
+    "title": "VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2606.02800",
+    "pdf_path": "pdfs/2026-cosmos-3-omnimodal-world-models-for-physical-ai.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.02800.pdf",
+    "title": "Cosmos 3: Omnimodal World Models for Physical AI",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2509.09769",
+    "pdf_path": "pdfs/2026-mimicdroid-in-context-learning-for-humanoid-robot-manipulation-from-human-play-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.09769.pdf",
+    "title": "MimicDroid: In-Context Learning for Humanoid Robot Manipulation from Human Play Videos",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2603.25725",
+    "pdf_path": "pdfs/2026-softmimicgen-a-data-generation-system-for-scalable-robot-learning-in-deformable-object-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.25725.pdf",
+    "title": "SoftMimicGen: A Data Generation System for Scalable Robot Learning in Deformable Object Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2603.04356",
+    "pdf_path": "pdfs/2026-robocasa365-a-large-scale-simulation-framework-for-training-and-benchmarking-generalist-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.04356.pdf",
+    "title": "RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2510.07730",
+    "pdf_path": "pdfs/2026-deas-detached-value-learning-with-action-sequence-for-scalable-offline-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.07730.pdf",
+    "title": "DEAS: DEtached value learning with Action Sequence for Scalable Offline RL",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2511.00091",
+    "pdf_path": "pdfs/2026-self-improving-vision-language-action-models-with-data-generation-via-residual-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.00091.pdf",
+    "title": "Self-Improving Vision-Language-Action Models with Data Generation via Residual RL",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2501.02116",
+    "pdf_path": "pdfs/2026-humanoid-locomotion-and-manipulation-current-progress-and-challenges-in-control-planning-and-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.02116.pdf",
+    "title": "Humanoid Locomotion and Manipulation: Current Progress and Challenges in Control, Planning, and Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2603.04363",
+    "pdf_path": "pdfs/2026-manipulationnet-an-infrastructure-for-benchmarking-real-world-robot-manipulation-with-physical-skill-challenges-and-embo.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.04363.pdf",
+    "title": "ManipulationNet: An Infrastructure for Benchmarking Real-World Robot Manipulation with Physical Skill Challenges and Embodied Multimodal Reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2506.18960",
+    "pdf_path": "pdfs/2026-forte-tactile-force-and-slip-sensing-on-compliant-fingers-for-delicate-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.18960.pdf",
+    "title": "FORTE: Tactile Force and Slip Sensing on Compliant Fingers for Delicate Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2603.15563",
+    "pdf_path": "pdfs/2025-the-pokeagent-challenge-competitive-and-long-context-learning-at-scale.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.15563.pdf",
+    "title": "The PokeAgent Challenge: Competitive and Long-Context Learning at Scale",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2511.04831",
+    "pdf_path": "pdfs/2025-isaac-lab-a-gpu-accelerated-simulation-framework-for-multi-modal-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.04831.pdf",
+    "title": "Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2511.07727",
+    "pdf_path": "pdfs/2025-llm-grop-visually-grounded-robot-task-and-motion-planning-with-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.07727.pdf",
+    "title": "LLM-GROP: Visually Grounded Robot Task and Motion Planning with Large Language Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2511.00062",
+    "pdf_path": "pdfs/2025-world-simulation-with-video-foundation-models-for-physical-ai.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.00062.pdf",
+    "title": "World Simulation with Video Foundation Models for Physical AI",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2506.14727",
+    "pdf_path": "pdfs/2025-casper-inferring-diverse-intents-for-assistive-teleoperation-with-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.14727.pdf",
+    "title": "Casper: Inferring Diverse Intents for Assistive Teleoperation with Vision Language Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2508.03944",
+    "pdf_path": "pdfs/2025-constraint-preserving-data-generation-for-visuomotor-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.03944.pdf",
+    "title": "Constraint-Preserving Data Generation for Visuomotor Policy Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2505.12705",
+    "pdf_path": "pdfs/2025-dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.12705.pdf",
+    "title": "DreamGen: Unlocking Generalization in Robot Learning through Video World Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2505.15659",
+    "pdf_path": "pdfs/2025-flare-robot-learning-with-implicit-world-modeling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.15659.pdf",
+    "title": "FLARE: Robot Learning with Implicit World Modeling",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2505.13441",
+    "pdf_path": "pdfs/2025-graspmolmo-generalizable-task-oriented-grasping-via-large-scale-synthetic-data-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.13441.pdf",
+    "title": "GraspMolmo: Generalizable Task-Oriented Grasping via Large-Scale Synthetic Data Generation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2502.20396",
+    "pdf_path": "pdfs/2025-sim-to-real-reinforcement-learning-for-vision-based-dexterous-manipulation-on-humanoids.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.20396.pdf",
+    "title": "Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2510.07077",
+    "pdf_path": "pdfs/2025-vision-language-action-models-for-robotics-a-review-towards-real-world-applications.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.07077.pdf",
+    "title": "Vision-Language-Action Models for Robotics: A Review Towards Real-World Applications",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2504.04395",
+    "pdf_path": "pdfs/2025-human-level-competitive-pok-mon-via-scalable-offline-reinforcement-learning-with-transformers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.04395.pdf",
+    "title": "Human-Level Competitive Pok\u00e9mon via Scalable Offline Reinforcement Learning with Transformers",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2410.21257",
+    "pdf_path": "pdfs/2025-one-step-diffusion-policy-fast-visuomotor-policies-via-diffusion-distillation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.21257.pdf",
+    "title": "One-Step Diffusion Policy: Fast Visuomotor Policies via Diffusion Distillation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2502.01143",
+    "pdf_path": "pdfs/2025-asap-aligning-simulation-and-real-world-physics-for-learning-agile-humanoid-whole-body-skills.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.01143.pdf",
+    "title": "ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2503.24361",
+    "pdf_path": "pdfs/2025-sim-and-real-co-training-a-simple-recipe-for-vision-based-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.24361.pdf",
+    "title": "Sim-and-Real Co-Training: A Simple Recipe for Vision-Based Robotic Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2410.06237",
+    "pdf_path": "pdfs/2025-bumble-unifying-reasoning-and-acting-with-vision-language-models-for-building-wide-mobile-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.06237.pdf",
+    "title": "BUMBLE: Unifying Reasoning and Acting with Vision-Language Models for Building-wide Mobile Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2410.24185",
+    "pdf_path": "pdfs/2025-dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.24185.pdf",
+    "title": "DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2410.21229",
+    "pdf_path": "pdfs/2025-hover-versatile-neural-whole-body-controller-for-humanoid-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.21229.pdf",
+    "title": "HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2409.16012",
+    "pdf_path": "pdfs/2025-presto-fast-motion-planning-using-diffusion-models-based-on-key-configuration-environment-representation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.16012.pdf",
+    "title": "PRESTO: Fast Motion Planning Using Diffusion Models Based on Key-Configuration Environment Representation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2411.02704",
+    "pdf_path": "pdfs/2025-rt-affordance-affordances-are-versatile-intermediate-representations-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.02704.pdf",
+    "title": "RT-Affordance: Affordances are Versatile Intermediate Representations for Robot Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2411.00965",
+    "pdf_path": "pdfs/2025-spot-se-3-pose-trajectory-diffusion-for-object-centric-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.00965.pdf",
+    "title": "SPOT: SE(3) Pose Trajectory Diffusion for Object-Centric Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.arxiv.org/abs/2408.10188",
+    "pdf_path": "pdfs/2025-longvila-scaling-long-context-visual-language-models-for-long-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.10188.pdf",
+    "title": "LongVILA: Scaling Long-Context Visual Language Models for Long Videos",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2503.14734",
+    "pdf_path": "pdfs/2025-gr00t-n1-an-open-foundation-model-for-generalist-humanoid-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.14734.pdf",
+    "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2411.03682",
+    "pdf_path": "pdfs/2025-legato-cross-embodiment-imitation-using-a-grasping-tool.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.03682.pdf",
+    "title": "LEGATO: Cross-Embodiment Imitation Using a Grasping Tool",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2411.11188",
+    "pdf_path": "pdfs/2024-amago-2-breaking-the-multi-task-barrier-in-meta-reinforcement-learning-with-transformers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.11188.pdf",
+    "title": "AMAGO-2: Breaking the Multi-Task Barrier in Meta-Reinforcement Learning with Transformers",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2410.12773",
+    "pdf_path": "pdfs/2024-harmon-whole-body-motion-generation-of-humanoid-robots-from-language-descriptions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.12773.pdf",
+    "title": "Harmon: Whole-Body Motion Generation of Humanoid Robots from Language Descriptions",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2410.22689",
+    "pdf_path": "pdfs/2024-multi-task-interactive-robot-fleet-learning-with-visual-world-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.22689.pdf",
+    "title": "Multi-Task Interactive Robot Fleet Learning with Visual World Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2410.11792",
+    "pdf_path": "pdfs/2024-okami-teaching-humanoid-robots-manipulation-skills-through-single-video-imitation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.11792.pdf",
+    "title": "OKAMI: Teaching Humanoid Robots Manipulation Skills through Single Video Imitation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2406.13301",
+    "pdf_path": "pdfs/2024-ardup-active-region-video-diffusion-for-universal-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.13301.pdf",
+    "title": "ARDuP: Active Region Video Diffusion for Universal Policies",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2403.00929",
+    "pdf_path": "pdfs/2024-prime-scaffolding-manipulation-tasks-with-behavior-primitives-for-data-efficient-imitation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.00929.pdf",
+    "title": "PRIME: Scaffolding Manipulation Tasks with Behavior Primitives for Data-Efficient Imitation Learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2312.07843",
+    "pdf_path": "pdfs/2024-foundation-models-in-robotics-applications-challenges-and-the-future.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.07843.pdf",
+    "title": "Foundation Models in Robotics: Applications, Challenges, and the Future",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2402.07872",
+    "pdf_path": "pdfs/2024-pivot-iterative-visual-prompting-elicits-actionable-knowledge-for-vlms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.07872.pdf",
+    "title": "PIVOT: Iterative Visual Prompting Elicits Actionable Knowledge for VLMs",
+    "year": 2024
+  },
+  {
+    "page_url": "https://eureka-research.github.io/dr-eureka/assets/dreureka-paper.pdf",
+    "pdf_path": "pdfs/2024-dreureka-language-model-guided-sim-to-real-transfer.pdf",
+    "pdf_url": "https://eureka-research.github.io/dr-eureka/assets/dreureka-paper.pdf",
+    "title": "DrEureka: Language Model Guided Sim-To-Real Transfer",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2403.12945",
+    "pdf_path": "pdfs/2024-droid-a-large-scale-in-the-wild-robot-manipulation-dataset.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.12945.pdf",
+    "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2405.19758",
+    "pdf_path": "pdfs/2024-interpret-interactive-predicate-learning-from-language-feedback-for-generalizable-task-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.19758.pdf",
+    "title": "InterPreT: Interactive Predicate Learning from Language Feedback for Generalizable Task Planning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://robocasa.ai/assets/robocasa_rss24.pdf",
+    "pdf_path": "pdfs/2024-robocasa-large-scale-simulation-of-everyday-tasks-for-generalist-robots.pdf",
+    "pdf_url": "https://robocasa.ai/assets/robocasa_rss24.pdf",
+    "title": "RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2309.15110",
+    "pdf_path": "pdfs/2024-doduo-dense-visual-correspondence-from-unsupervised-semantic-aware-flow.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.15110.pdf",
+    "title": "Doduo: Dense Visual Correspondence from Unsupervised Semantic-Aware Flow",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2311.02058",
+    "pdf_path": "pdfs/2024-lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.02058.pdf",
+    "title": "LOTUS: Continual Imitation Learning for Robot Manipulation Through Unsupervised Skill Discovery",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2310.17552",
+    "pdf_path": "pdfs/2024-model-based-runtime-monitoring-with-interactive-imitation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.17552.pdf",
+    "title": "Model-Based Runtime Monitoring with Interactive Imitation Learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2310.08864",
+    "pdf_path": "pdfs/2024-open-x-embodiment-robotic-learning-datasets-and-rt-x-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08864.pdf",
+    "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2310.09971",
+    "pdf_path": "pdfs/2024-amago-scalable-in-context-reinforcement-learning-for-adaptive-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.09971.pdf",
+    "title": "AMAGO: Scalable In-Context Reinforcement Learning for Adaptive Agents",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2310.12931",
+    "pdf_path": "pdfs/2024-eureka-human-level-reward-design-via-coding-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.12931.pdf",
+    "title": "Eureka: Human-Level Reward Design via Coding Large Language Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2212.04492",
+    "pdf_path": "pdfs/2024-few-view-object-reconstruction-with-unknown-categories-and-camera-poses.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2212.04492.pdf",
+    "title": "Few-View Object Reconstruction with Unknown Categories and Camera Poses",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2306.09509",
+    "pdf_path": "pdfs/2024-granger-causal-interaction-skill-chains.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.09509.pdf",
+    "title": "Granger Causal Interaction Skill Chains",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2305.16291",
+    "pdf_path": "pdfs/2024-voyager-an-open-ended-embodied-agent-with-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.16291.pdf",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2401.12497",
+    "pdf_path": "pdfs/2024-building-minimal-and-reusable-causal-state-abstractions-for-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.12497.pdf",
+    "title": "Building Minimal and Reusable Causal State Abstractions for Reinforcement Learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2309.01952",
+    "pdf_path": "pdfs/2023-deep-imitation-learning-for-humanoid-loco-manipulation-through-human-teleoperation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.01952.pdf",
+    "title": "Deep Imitation Learning for Humanoid Loco-manipulation through Human Teleoperation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2310.08549",
+    "pdf_path": "pdfs/2023-cross-episodic-curriculum-for-transformer-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08549.pdf",
+    "title": "Cross-Episodic Curriculum for Transformer Agents",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2306.03310",
+    "pdf_path": "pdfs/2023-libero-benchmarking-knowledge-transfer-in-lifelong-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.03310.pdf",
+    "title": "LIBERO: Benchmarking Knowledge Transfer in Lifelong Robot Learning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2302.04858",
+    "pdf_path": "pdfs/2023-re-vilm-retrieval-augmented-visual-language-model-for-zero-and-few-shot-image-captioning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.04858.pdf",
+    "title": "Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot Image Captioning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2310.14386",
+    "pdf_path": "pdfs/2023-learning-generalizable-manipulation-policies-with-object-centric-3d-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.14386.pdf",
+    "title": "Learning Generalizable Manipulation Policies with Object-Centric 3D Representations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://ut-austin-rpl.github.io/publications/",
+    "pdf_path": "pdfs/2023-mimicgen-a-data-generation-system-for-scalable-robot-learning-using-human-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.17596.pdf",
+    "title": "MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://ut-austin-rpl.github.io/publications/",
+    "pdf_path": "pdfs/2023-mimicplay-long-horizon-imitation-learning-by-watching-human-play.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.12422.pdf",
+    "title": "MimicPlay: Long-Horizon Imitation Learning by Watching Human Play",
+    "year": 2023
+  },
+  {
+    "page_url": "https://ut-austin-rpl.github.io/publications/",
+    "pdf_path": "pdfs/2023-mutex-learning-unified-policies-from-multimodal-task-specifications.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.14320.pdf",
+    "title": "MUTEX: Learning Unified Policies from Multimodal Task Specifications",
+    "year": 2023
+  },
+  {
+    "page_url": "https://ut-austin-rpl.github.io/publications/",
+    "pdf_path": "pdfs/2023-interactive-robot-learning-from-verbal-correction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.17555.pdf",
+    "title": "Interactive Robot Learning from Verbal Correction",
+    "year": 2023
+  },
+  {
+    "page_url": "https://ut-austin-rpl.github.io/publications/",
+    "pdf_path": "pdfs/2023-symbolic-state-space-optimization-for-long-horizon-mobile-manipulation-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.11889.pdf",
+    "title": "Symbolic State Space Optimization for Long Horizon Mobile Manipulation Planning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://ut-austin-rpl.github.io/publications/",
+    "pdf_path": "pdfs/2023-vima-general-robot-manipulation-with-multimodal-prompts.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.03094.pdf",
+    "title": "VIMA: General Robot Manipulation with Multimodal Prompts",
+    "year": 2023
+  },
+  {
+    "page_url": "https://ut-austin-rpl.github.io/publications/",
+    "pdf_path": "pdfs/2023-robot-learning-on-the-job-human-in-the-loop-autonomy-and-learning-during-deployment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2211.08416.pdf",
+    "title": "Robot Learning on the Job: Human-in-the-Loop Autonomy and Learning During Deployment",
+    "year": 2023
+  },
+  {
+    "page_url": "https://ut-austin-rpl.github.io/publications/",
+    "pdf_path": "pdfs/2023-fast-monocular-scene-reconstruction-with-global-sparse-local-dense-grids.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.13220.pdf",
+    "title": "Fast Monocular Scene Reconstruction with Global-Sparse Local-Dense Grids",
+    "year": 2023
+  },
+  {
+    "page_url": "https://ut-austin-rpl.github.io/publications/",
+    "pdf_path": "pdfs/2023-ditto-in-the-house-building-articulated-models-of-indoor-scenes-through-interactive-perception.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.01295.pdf",
+    "title": "Ditto in the House: Building Articulated Models of Indoor Scenes through Interactive Perception",
+    "year": 2023
+  },
+  {
+    "page_url": "https://ut-austin-rpl.github.io/publications/",
+    "pdf_path": "pdfs/2023-learning-to-walk-by-steering-perceptive-quadrupedal-locomotion-in-dynamic-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2209.09233.pdf",
+    "title": "Learning to Walk by Steering: Perceptive Quadrupedal Locomotion in Dynamic Environments",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2605.27724",
+    "pdf_path": "pdfs/2026-humanoidmimicgen-data-generation-for-loco-manipulation-via-whole-body-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.27724.pdf",
+    "title": "HumanoidMimicGen: Data Generation for Loco-Manipulation via Whole-Body Planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2607.00033",
+    "pdf_path": "pdfs/2026-learning-dexterous-manipulation-using-contact-wrench-guidance-from-human-demonstration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.00033.pdf",
+    "title": "Learning Dexterous Manipulation Using Contact Wrench Guidance From Human Demonstration",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2607.15275",
+    "pdf_path": "pdfs/2026-robottt-context-scaling-for-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.15275.pdf",
+    "title": "RoboTTT: Context Scaling for Robot Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2606.28276",
+    "pdf_path": "pdfs/2026-simfoundry-modular-and-automated-scene-generation-for-policy-learning-and-evaluation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.28276.pdf",
+    "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2606.17055",
+    "pdf_path": "pdfs/2026-t-rex-tactile-reactive-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.17055.pdf",
+    "title": "T-Rex: Tactile-Reactive Dexterous Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2511.07820",
+    "pdf_path": "pdfs/2026-sonic-supersizing-motion-tracking-for-natural-humanoid-whole-body-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.07820.pdf",
+    "title": "SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2505.22626",
+    "pdf_path": "pdfs/2026-scizor-a-self-supervised-approach-to-data-curation-for-large-scale-imitation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.22626.pdf",
+    "title": "SCIZOR: A Self-Supervised Approach to Data Curation for Large-Scale Imitation Learning",
+    "year": 2026
+  }
+]

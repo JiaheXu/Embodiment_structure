@@ -1,0 +1,128 @@
+[
+  {
+    "page_url": "https://saumyasaxena.github.io/grapheqa/",
+    "pdf_path": "pdfs/2025-grapheqa-using-3d-semantic-scene-graphs-for-real-time-embodied-question-answering.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.14480.pdf",
+    "title": "GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering",
+    "year": 2025
+  },
+  {
+    "page_url": "https://iamlab-cmu.github.io/publications/",
+    "pdf_path": "pdfs/2025-cascaded-diffusion-models-for-neural-motion-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.15157.pdf",
+    "title": "Cascaded Diffusion Models for Neural Motion Planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://iamlab-cmu.github.io/publications/",
+    "pdf_path": "pdfs/2025-autonomous-sensor-exchange-and-calibration-for-cornstalk-nitrate-monitoring-robot.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.10585.pdf",
+    "title": "Autonomous Sensor Exchange and Calibration for Cornstalk Nitrate Monitoring Robot",
+    "year": 2025
+  },
+  {
+    "page_url": "https://myunusseker.github.io/publications.html",
+    "pdf_path": "pdfs/2025-grounded-task-axes-zero-shot-semantic-skill-generalization-via-task-axis-controllers-and-visual-foundation-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.11680.pdf",
+    "title": "Grounded Task Axes: Zero-Shot Semantic Skill Generalization Via Task-Axis Controllers and Visual Foundation Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://iamlab-cmu.github.io/publications/",
+    "pdf_path": "pdfs/2025-audio-visual-contact-classification-for-tree-structures-in-agriculture.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.12665.pdf",
+    "title": "Audio-Visual Contact Classification for Tree Structures in Agriculture",
+    "year": 2025
+  },
+  {
+    "page_url": "https://iamlab-cmu.github.io/publications/",
+    "pdf_path": "pdfs/2025-recoverychaining-learning-local-recovery-policies-for-robust-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.13979.pdf",
+    "title": "RecoveryChaining: Learning Local Recovery Policies for Robust Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://iamlab-cmu.github.io/publications/",
+    "pdf_path": "pdfs/2025-optimal-interactive-learning-on-the-job-via-facility-location-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.00490.pdf",
+    "title": "Optimal Interactive Learning on the Job via Facility Location Planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://iamlab-cmu.github.io/sonicboom/",
+    "pdf_path": "pdfs/2025-sonicboom-contact-localization-using-array-of-microphones.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.09878.pdf",
+    "title": "SonicBoom: Contact Localization Using Array of Microphones",
+    "year": 2025
+  },
+  {
+    "page_url": "https://sites.google.com/view/deltahands/",
+    "pdf_path": "pdfs/2024-deltahands-a-synergistic-dexterous-hand-framework-based-on-delta-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.05266.pdf",
+    "title": "DELTAHANDS: A Synergistic Dexterous Hand Framework Based on Delta Robots",
+    "year": 2024
+  },
+  {
+    "page_url": "https://xianyicheng.github.io/HiDex-Website/",
+    "pdf_path": "pdfs/2024-enhancing-dexterity-in-robotic-manipulation-via-hierarchical-contact-exploration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.00383.pdf",
+    "title": "Enhancing Dexterity in Robotic Manipulation via Hierarchical Contact Exploration",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.ri.cmu.edu/publications/leveraging-simulation-based-model-preconditions-for-fast-action-parameter-optimization-with-multiple-models/",
+    "pdf_path": "pdfs/2024-leveraging-simulation-based-model-preconditions-for-fast-action-parameter-optimization-with-multiple-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.11313.pdf",
+    "title": "Leveraging Simulation-Based Model Preconditions for Fast Action Parameter Optimization with Multiple Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://sites.google.com/view/tilde-",
+    "pdf_path": "pdfs/2024-tilde-teleoperation-for-dexterous-in-hand-manipulation-learning-with-a-deltahand.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.18804.pdf",
+    "title": "Tilde: Teleoperation for Dexterous In-Hand Manipulation Learning with a DeltaHand",
+    "year": 2024
+  },
+  {
+    "page_url": "https://kantor-lab.github.io/cornbot/",
+    "pdf_path": "pdfs/2024-towards-autonomous-crop-monitoring-inserting-sensors-in-cluttered-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.03697.pdf",
+    "title": "Towards Autonomous Crop Monitoring: Inserting Sensors in Cluttered Environments",
+    "year": 2024
+  },
+  {
+    "page_url": "https://kantor-lab.github.io/tree_gnn/",
+    "pdf_path": "pdfs/2024-towards-robotic-tree-manipulation-leveraging-graph-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.07479.pdf",
+    "title": "Towards Robotic Tree Manipulation: Leveraging Graph Representations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://robotics-transformer-x.github.io./",
+    "pdf_path": "pdfs/2024-open-x-embodiment-robotic-learning-datasets-and-rt-x-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08864.pdf",
+    "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://iamlab-cmu.github.io/publications/",
+    "pdf_path": "pdfs/2023-linear-delta-arrays-for-compliant-dexterous-distributed-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2206.04596.pdf",
+    "title": "Linear Delta Arrays for Compliant Dexterous Distributed Manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://sites.google.com/view/recoverylearning",
+    "pdf_path": "pdfs/2023-efficient-recovery-learning-using-model-predictive-meta-reasoning.pdf",
+    "pdf_url": "https://www.ri.cmu.edu/app/uploads/2023/03/submission_camera_ready.pdf",
+    "title": "Efficient Recovery Learning using Model Predictive Meta-Reasoning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://myunusseker.github.io/SumGP/",
+    "pdf_path": "pdfs/2024-estimating-material-properties-of-interacting-objects-using-sum-gp-ucb.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.11749.pdf",
+    "title": "Estimating Material Properties of Interacting Objects Using Sum-GP-UCB",
+    "year": 2024
+  }
+]

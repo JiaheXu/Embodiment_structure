@@ -1,0 +1,2 @@
+Multi-robot, multi-sensor exploration of multifarious environments with full mission aerial autonomy
+Exploring the Most Sectors at the {DARPA Subterranean Challenge Finals}

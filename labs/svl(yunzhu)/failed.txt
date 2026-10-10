@@ -1,0 +1,2 @@
+VT-Refine: Learning Bimanual Assembly with Visuo-Tactile Feedback via Simulation Fine-Tuning
+GenDP: 3D Semantic Fields for Category-Level Generalizable Diffusion Policy

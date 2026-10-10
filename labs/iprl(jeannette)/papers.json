@@ -1,0 +1,100 @@
+[
+  {
+    "page_url": "https://www.arxiv.org/abs/2505.01630",
+    "pdf_path": "pdfs/2025-deformable-cargo-transport-in-microgravity-with-astrobee.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.01630.pdf",
+    "title": "Deformable Cargo Transport in Microgravity with Astrobee",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2501.11742",
+    "pdf_path": "pdfs/2025-force-aware-autonomous-robotic-surgery.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.11742.pdf",
+    "title": "Force-Aware Autonomous Robotic Surgery",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2608.01402",
+    "pdf_path": "pdfs/2026-demystifying-when-and-why-vlas-fail-in-contact-rich-tasks-and-how-to-fix-them.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.01402.pdf",
+    "title": "Demystifying When and Why VLAs Fail in Contact-Rich Tasks and How to Fix Them",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2508.19476",
+    "pdf_path": "pdfs/2025-gentle-object-retraction-in-dense-clutter-using-multimodal-force-sensing-and-imitation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.19476.pdf",
+    "title": "Gentle Object Retraction in Dense Clutter Using Multimodal Force Sensing and Imitation Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2212.13332",
+    "pdf_path": "pdfs/2024-development-and-evaluation-of-a-learning-based-model-for-real-time-haptic-texture-rendering.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2212.13332.pdf",
+    "title": "Development and Evaluation of a Learning-based Model for Real-time Haptic Texture Rendering",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2402.09564",
+    "pdf_path": "pdfs/2024-tactile-informed-action-primitives-mitigate-jamming-in-dense-clutter.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.09564.pdf",
+    "title": "Tactile-Informed Action Primitives Mitigate Jamming in Dense Clutter",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2310.02532",
+    "pdf_path": "pdfs/2023-shasta-fuse-camera-lidar-sensor-fusion-to-model-shape-and-spatio-temporal-affinities-for-3d-multi-object-tracking.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.02532.pdf",
+    "title": "ShaSTA-Fuse: Camera-LiDAR Sensor Fusion to Model Shape and Spatio-Temporal Affinities for 3D Multi-Object Tracking",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2205.06333",
+    "pdf_path": "pdfs/2023-visuomotor-control-in-multi-object-scenes-using-object-aware-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2205.06333.pdf",
+    "title": "Visuomotor Control in Multi-Object Scenes Using Object-Aware Representations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://iprl.stanford.edu/publications",
+    "pdf_path": "pdfs/2026-breaking-lock-in-preserving-steerability-under-low-data-vla-post-training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.01630.pdf",
+    "title": "Breaking Lock-In: Preserving Steerability under Low-Data VLA Post-Training",
+    "year": 2026
+  },
+  {
+    "page_url": "https://iprl.stanford.edu/publications",
+    "pdf_path": "pdfs/2026-conference-on-robot-learning-corl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.01402.pdf",
+    "title": "Conference on Robot Learning (CoRL),",
+    "year": 2026
+  },
+  {
+    "page_url": "https://iprl.stanford.edu/publications",
+    "pdf_path": "pdfs/2025-scaffolding-dexterous-manipulation-with-vision-language-models-vincent-de-bakker-joey-hejna-tyler-ga-wei-lum-onur-celik-.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.19476.pdf",
+    "title": "Scaffolding Dexterous Manipulation with Vision-Language Models Vincent de Bakker, Joey Hejna, Tyler Ga Wei Lum, Onur Celik, Aleksandar Taranovic, Denis Blessing, Gerhard Neumann, J",
+    "year": 2025
+  },
+  {
+    "page_url": "https://iprl.stanford.edu/publications",
+    "pdf_path": "pdfs/2024-ieee-transactions-on-haptics-march.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2212.13332.pdf",
+    "title": "IEEE Transactions on Haptics, March",
+    "year": 2024
+  },
+  {
+    "page_url": "https://iprl.stanford.edu/publications",
+    "pdf_path": "pdfs/2024-ieee-international-conference-on-robotics-and-automation-icra.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.09564.pdf",
+    "title": "IEEE International Conference on Robotics and Automation (ICRA),",
+    "year": 2024
+  },
+  {
+    "page_url": "https://iprl.stanford.edu/publications",
+    "pdf_path": "pdfs/2024-dexmots-dexterous-manipulation-with-differentiable-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2212.13332.pdf",
+    "title": "DexMOTS : Dexterous Manipulation with Differentiable Simulation",
+    "year": 2024
+  }
+]

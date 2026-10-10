@@ -1,0 +1,1 @@
+Adversarial Game-Theoretic Algorithm for Dexterous Grasp Synthesis

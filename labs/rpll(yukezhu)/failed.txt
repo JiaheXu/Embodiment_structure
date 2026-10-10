@@ -1,0 +1,7 @@
+HumanoidMimicGen: Data Generation for Loco-Manipulation via Whole-Body Planning
+Learning Dexterous Manipulation Using Contact Wrench Guidance From Human Demonstration
+RoboTTT: Context Scaling for Robot Policies
+SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation
+T-Rex: Tactile-Reactive Dexterous Manipulation
+SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control
+SCIZOR: A Self-Supervised Approach to Data Curation for Large-Scale Imitation Learning

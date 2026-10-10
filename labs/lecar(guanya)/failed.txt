@@ -1,0 +1,1 @@
+WoCoCo: Learning Whole-Body Humanoid Control with Sequential Contacts Chong Zhang * , Wenli Xiao * , Tairan He, Guanya Shi Conference on Robot Learning (CoRL) ,

@@ -1,0 +1,170 @@
+[
+  {
+    "page_url": "https://arxiv.org/abs/2409.05865",
+    "pdf_path": "pdfs/2025-robot-utility-models-general-policies-for-zero-shot-deployment-in-new-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.05865.pdf",
+    "title": "Robot Utility Models: General Policies for Zero-Shot Deployment in New Environments",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2409.08276",
+    "pdf_path": "pdfs/2025-anyskin-plug-and-play-skin-sensing-for-robotic-touch.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.08276.pdf",
+    "title": "AnySkin: Plug-and-play Skin Sensing for Robotic Touch",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2410.23289",
+    "pdf_path": "pdfs/2025-bridging-the-human-to-robot-dexterity-gap-through-object-oriented-rewards.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.23289.pdf",
+    "title": "Bridging the Human to Robot Dexterity Gap through Object-Oriented Rewards",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2411.04999",
+    "pdf_path": "pdfs/2025-dynamem-online-dynamic-spatio-semantic-memory-for-open-world-mobile-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.04999.pdf",
+    "title": "DynaMem: Online Dynamic Spatio-Semantic Memory for Open World Mobile Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2410.02749",
+    "pdf_path": "pdfs/2025-training-language-models-on-synthetic-edit-sequences-improves-code-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.02749.pdf",
+    "title": "Training Language Models on Synthetic Edit Sequences Improves Code Synthesis",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2409.12192",
+    "pdf_path": "pdfs/2024-dynamo-in-domain-dynamics-pretraining-for-visuo-motor-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.12192.pdf",
+    "title": "DynaMo: In-Domain Dynamics Pretraining for Visuo-Motor Control",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2406.07539",
+    "pdf_path": "pdfs/2024-baku-an-efficient-transformer-for-multi-task-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.07539.pdf",
+    "title": "BAKU: An Efficient Transformer for Multi-Task Policy Learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2403.07870",
+    "pdf_path": "pdfs/2024-open-teach-a-versatile-teleoperation-system-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.07870.pdf",
+    "title": "OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2401.12202",
+    "pdf_path": "pdfs/2024-ok-robot-what-really-matters-in-integrating-open-knowledge-models-for-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.12202.pdf",
+    "title": "OK-Robot: What Really Matters in Integrating Open-Knowledge Models for Robotics",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2412.06784",
+    "pdf_path": "pdfs/2025-p3-po-prescriptive-point-priors-for-visuo-spatial-generalization-of-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.06784.pdf",
+    "title": "P3-PO: Prescriptive Point Priors for Visuo-Spatial Generalization of Robot Policies",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2403.03181",
+    "pdf_path": "pdfs/2024-vq-bet-behavior-generation-with-latent-actions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.03181.pdf",
+    "title": "VQ-BeT: Behavior Generation with Latent Actions",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2406.04318",
+    "pdf_path": "pdfs/2024-adaptive-sampling-of-k-space-in-magnetic-resonance-for-rapid-pathology-prediction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.04318.pdf",
+    "title": "Adaptive Sampling of k-space in Magnetic Resonance for Rapid Pathology Prediction",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2402.10211",
+    "pdf_path": "pdfs/2024-hierarchical-state-space-models-for-continuous-sequence-to-sequence-modeling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.10211.pdf",
+    "title": "Hierarchical State Space Models for Continuous Sequence-to-Sequence Modeling",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2312.07540",
+    "pdf_path": "pdfs/2024-diff-history-for-neural-language-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.07540.pdf",
+    "title": "diff History for Neural Language Agents",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2311.16098",
+    "pdf_path": "pdfs/2024-on-bringing-robots-home.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.16098.pdf",
+    "title": "On Bringing Robots Home",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2309.12300",
+    "pdf_path": "pdfs/2024-see-to-touch-learning-tactile-dexterity-through-visual-incentives.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.12300.pdf",
+    "title": "See to Touch: Learning Tactile Dexterity through Visual Incentives",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2305.19240",
+    "pdf_path": "pdfs/2023-nethack-is-hard-to-hack.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.19240.pdf",
+    "title": "NetHack is Hard to Hack",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2303.12076.pdf",
+    "pdf_path": "pdfs/2023-dexterity-from-touch-self-supervised-pre-training-of-tactile-representations-with-robotic-play.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.12076.pdf",
+    "title": "Dexterity from Touch: Self-Supervised Pre-Training of Tactile Representations with Robotic Play",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2210.01116.pdf",
+    "pdf_path": "pdfs/2023-that-sounds-right-auditory-self-supervision-for-dynamic-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.01116.pdf",
+    "title": "That Sounds Right: Auditory Self-Supervision for Dynamic Robot Manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2303.01497",
+    "pdf_path": "pdfs/2023-teach-a-robot-to-fish-versatile-imitation-from-one-minute-of-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.01497.pdf",
+    "title": "Teach a Robot to FISH: Versatile Imitation from One Minute of Demonstrations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2210.05663",
+    "pdf_path": "pdfs/2023-clip-fields-weakly-supervised-semantic-fields-for-robotic-memory.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.05663.pdf",
+    "title": "CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2210.10047.pdf",
+    "pdf_path": "pdfs/2023-from-play-to-policy-conditional-behavior-generation-from-uncurated-robot-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.10047.pdf",
+    "title": "From play to policy: Conditional behavior generation from uncurated robot data",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2210.06463.pdf",
+    "pdf_path": "pdfs/2023-holo-dex-teaching-dexterity-with-immersive-mixed-reality.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.06463.pdf",
+    "title": "Holo-Dex: Teaching Dexterity with Immersive Mixed Reality",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2203.13251",
+    "pdf_path": "pdfs/2023-dexterous-imitation-made-easy-a-learning-based-framework-for-efficient-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2203.13251.pdf",
+    "title": "Dexterous Imitation Made Easy: A Learning-Based Framework for Efficient Dexterous Manipulation",
+    "year": 2023
+  }
+]

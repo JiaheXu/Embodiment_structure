@@ -1,0 +1,247 @@
+[
+  {
+    "page_url": "https://lift4d.github.io/",
+    "pdf_path": "pdfs/2026-lift4d-harmonizing-single-view-3d-estimation-for-4d-reconstruction-in-the-wild.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.23688.pdf",
+    "title": "Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rayrope.github.io/",
+    "pdf_path": "pdfs/2026-rayrope-projective-ray-positional-encoding-for-multi-view-attention.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.15275.pdf",
+    "title": "RayRoPE: Projective Ray Positional Encoding for Multi-view Attention",
+    "year": 2026
+  },
+  {
+    "page_url": "https://ghost-human-demo.github.io/",
+    "pdf_path": "pdfs/2026-ghost-hierarchical-sub-goal-policies-for-generalizing-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.10025.pdf",
+    "title": "GHOST: Hierarchical Sub-Goal Policies for Generalizing Robot Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://temporalscorerescaling.github.io/",
+    "pdf_path": "pdfs/2026-temporal-score-rescaling-for-temperature-sampling-in-diffusion-and-flow-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.01184.pdf",
+    "title": "Temporal Score Rescaling for Temperature Sampling in Diffusion and Flow Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://flow3r-project.github.io/",
+    "pdf_path": "pdfs/2026-flow3r-factored-flow-prediction-for-scalable-visual-geometry-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.20157.pdf",
+    "title": "Flow3r: Factored Flow Prediction for Scalable Visual Geometry Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://qitaozhao.github.io/E-RayZer",
+    "pdf_path": "pdfs/2026-e-rayzer-self-supervised-3d-reconstruction-as-spatial-visual-pre-training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.10950.pdf",
+    "title": "E-RayZer: Self-supervised 3D Reconstruction as Spatial Visual Pre-training",
+    "year": 2026
+  },
+  {
+    "page_url": "https://yehonathanlitman.github.io/edit_ctrl/",
+    "pdf_path": "pdfs/2026-editctrl-disentangled-local-and-global-control-for-real-time-generative-video-editing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.15031.pdf",
+    "title": "EditCtrl: Disentangled Local and Global Control for Real-Time Generative Video Editing",
+    "year": 2026
+  },
+  {
+    "page_url": "https://demodiffusion.github.io/",
+    "pdf_path": "pdfs/2026-demodiffusion-one-shot-human-imitation-using-pre-trained-diffusion-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.20668.pdf",
+    "title": "DemoDiffusion: One-Shot Human Imitation using Pre-trained Diffusion Policy",
+    "year": 2026
+  },
+  {
+    "page_url": "https://crisp-real2sim.github.io/CRISP-Real2Sim/",
+    "pdf_path": "pdfs/2026-crisp-contact-guided-real2sim-from-monocular-video-with-planar-scene-primitives.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.14696.pdf",
+    "title": "CRISP: Contact-Guided Real2Sim from Monocular Video with Planar Scene Primitives",
+    "year": 2026
+  },
+  {
+    "page_url": "https://judyye.github.io/haptic-www/",
+    "pdf_path": "pdfs/2026-predicting-4d-hand-trajectory-from-monocular-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.08329.pdf",
+    "title": "Predicting 4D Hand Trajectory from Monocular Videos",
+    "year": 2026
+  },
+  {
+    "page_url": "https://yehonathanlitman.github.io/light_switch/",
+    "pdf_path": "pdfs/2025-lightswitch-multi-view-relighting-with-material-guided-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.06494.pdf",
+    "title": "LightSwitch: Multi-view Relighting with Material-guided Diffusion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://homangab.github.io/gen2act/",
+    "pdf_path": "pdfs/2025-gen2act-human-video-generation-in-novel-scenarios-enables-generalizable-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.16283.pdf",
+    "title": "Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://qitaozhao.github.io/DiffusionSfM",
+    "pdf_path": "pdfs/2025-diffusionsfm-predicting-structure-and-motion-via-ray-origin-and-endpoint-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.05473.pdf",
+    "title": "DiffusionSfM: Predicting Structure and Motion via Ray Origin and Endpoint Diffusion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://himangim.github.io/UniPhy",
+    "pdf_path": "pdfs/2025-uniphy-learning-a-unified-constitutive-model-for-inverse-physics-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.16971.pdf",
+    "title": "UniPhy: Learning a Unified Constitutive Model for Inverse Physics Simulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://aerial-megadepth.github.io/",
+    "pdf_path": "pdfs/2025-aerialmegadepth-learning-aerial-ground-reconstruction-and-view-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.13157.pdf",
+    "title": "AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis",
+    "year": 2025
+  },
+  {
+    "page_url": "https://turbo-3d.github.io/",
+    "pdf_path": "pdfs/2025-turbo3d-ultra-fast-text-to-3d-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.04470.pdf",
+    "title": "Turbo3D: Ultra-fast Text-to-3D Generation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://alexeybokhovkin.github.io/scenefactor/",
+    "pdf_path": "pdfs/2025-scenefactor-factored-latent-3d-diffusion-for-controllable-3d-scene-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.01801.pdf",
+    "title": "SceneFactor: Factored Latent 3D Diffusion for Controllable 3D Scene Generation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://yehonathanlitman.github.io/material_fusion/",
+    "pdf_path": "pdfs/2025-materialfusion-enhancing-inverse-rendering-with-material-diffusion-priors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.15273.pdf",
+    "title": "MaterialFusion: Enhancing Inverse Rendering with Material Diffusion Priors",
+    "year": 2025
+  },
+  {
+    "page_url": "https://jefftan969.github.io/dressrecon/",
+    "pdf_path": "pdfs/2025-dressrecon-freeform-4d-human-reconstruction-from-monocular-video.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.20563.pdf",
+    "title": "DressRecon: Freeform 4D Human Reconstruction from Monocular Video",
+    "year": 2025
+  },
+  {
+    "page_url": "https://qitaozhao.github.io/",
+    "pdf_path": "pdfs/2024-sparse-view-pose-estimation-and-reconstruction-via-analysis-by-generative-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.03570.pdf",
+    "title": "Sparse-view Pose Estimation and Reconstruction via Analysis by Generative Synthesis",
+    "year": 2024
+  },
+  {
+    "page_url": "https://homangab.github.io/track2act/",
+    "pdf_path": "pdfs/2024-track2act-predicting-point-tracks-from-internet-videos-enables-diverse-zero-shot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.01527.pdf",
+    "title": "Track2Act: Predicting Point Tracks from Internet Videos Enables Diverse Zero-shot Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://upfusion3d.github.io/",
+    "pdf_path": "pdfs/2024-upfusion-novel-view-diffusion-from-unposed-sparse-view-observations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.06661.pdf",
+    "title": "UpFusion: Novel View Diffusion from Unposed Sparse View Observations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://judyye.github.io/ghop-www/",
+    "pdf_path": "pdfs/2024-g-hop-generative-hand-object-prior-for-interaction-reconstruction-and-grasp-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.12383.pdf",
+    "title": "G-HOP: Generative Hand-Object Prior for Interaction Reconstruction and Grasp Synthesis",
+    "year": 2024
+  },
+  {
+    "page_url": "https://mvd-fusion.github.io//",
+    "pdf_path": "pdfs/2024-mvd-fusion-single-view-3d-via-depth-consistent-multi-view-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.03656.pdf",
+    "title": "MVD-Fusion: Single-view 3D via Depth-consistent Multi-view Generation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://jasonyzhang.com/RayDiffusion/",
+    "pdf_path": "pdfs/2024-cameras-as-rays-pose-estimation-via-ray-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.14817.pdf",
+    "title": "Cameras as Rays: Pose Estimation via Ray Diffusion",
+    "year": 2024
+  },
+  {
+    "page_url": "https://homangab.github.io/hopman/",
+    "pdf_path": "pdfs/2024-towards-generalizable-zero-shot-manipulation-via-translating-human-interaction-plans.pdf",
+    "pdf_url": "https://homangab.github.io/hopman/hopman_paper_appendix.pdf",
+    "title": "Towards Generalizable Zero-Shot Manipulation via Translating Human Interaction Plans",
+    "year": 2024
+  },
+  {
+    "page_url": "https://robopen.github.io/",
+    "pdf_path": "pdfs/2024-roboagent-towards-sample-efficient-robot-manipulation-with-semantic-augmentations-and-action-chunking.pdf",
+    "pdf_url": "https://robopen.github.io/media/roboagent.pdf",
+    "title": "RoboAgent: Towards Sample Efficient Robot Manipulation with Semantic Augmentations and Action Chunking",
+    "year": 2024
+  },
+  {
+    "page_url": "https://amyxlase.github.io/relpose-plus-plus/",
+    "pdf_path": "pdfs/2024-relpose-recovering-6d-poses-from-sparse-view-observations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.04926.pdf",
+    "title": "RelPose++: Recovering 6D Poses from Sparse-view Observations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://judyye.github.io/diffhoi-www/",
+    "pdf_path": "pdfs/2023-diffusion-guided-reconstruction-of-everyday-hand-object-interaction-clips.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.05663.pdf",
+    "title": "Diffusion-Guided Reconstruction of Everyday Hand-Object Interaction Clips",
+    "year": 2023
+  },
+  {
+    "page_url": "https://agi-labs.github.io/manipulate-by-seeing/",
+    "pdf_path": "pdfs/2023-manipulate-by-seeing-creating-manipulation-controllers-from-pre-trained-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.08135.pdf",
+    "title": "Manipulate by Seeing: Creating Manipulation Controllers from Pre-Trained Representations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://alexeybokhovkin.github.io/mesh2tex/",
+    "pdf_path": "pdfs/2023-mesh2tex-generating-mesh-textures-from-image-queries.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.05868.pdf",
+    "title": "Mesh2Tex: Generating Mesh Textures from Image Queries",
+    "year": 2023
+  },
+  {
+    "page_url": "https://sites.google.com/andrew.cmu.edu/affordance-robotics/home",
+    "pdf_path": "pdfs/2023-visual-affordance-prediction-for-guiding-robot-exploration.pdf",
+    "pdf_url": "https://homangab.github.io/papers/affordance_exploration_icra.pdf",
+    "title": "Visual Affordance Prediction for Guiding Robot Exploration",
+    "year": 2023
+  },
+  {
+    "page_url": "https://analogicalnets.github.io/",
+    "pdf_path": "pdfs/2023-analogy-forming-transformers-for-few-shot-3d-parsing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.14382.pdf",
+    "title": "Analogy-Forming Transformers for Few-Shot 3D Parsing",
+    "year": 2023
+  },
+  {
+    "page_url": "https://sparsefusion.github.io/",
+    "pdf_path": "pdfs/2023-sparsefusion-distilling-view-conditioned-diffusion-for-3d-reconstruction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2212.00792.pdf",
+    "title": "SparseFusion: Distilling View-conditioned Diffusion for 3D Reconstruction",
+    "year": 2023
+  },
+  {
+    "page_url": "https://judyye.github.io/affordiffusion-www/",
+    "pdf_path": "pdfs/2023-affordance-diffusion-synthesizing-hand-object-interactions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.12538.pdf",
+    "title": "Affordance Diffusion: Synthesizing Hand-Object Interactions",
+    "year": 2023
+  }
+]

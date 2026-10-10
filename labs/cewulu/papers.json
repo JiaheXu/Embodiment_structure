@@ -1,0 +1,65 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:QYdC8u9Cj1oC",
+    "pdf_path": "pdfs/2026-gaussctrl-modulating-3d-foundation-models-for-interactive-point-centric-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.21231.pdf",
+    "title": "GaussCtrl: Modulating 3D Foundation Models for Interactive Point-Centric Robot Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:t4D0O4_aSK8C",
+    "pdf_path": "pdfs/2026-linkcot-a-chain-of-thought-dataset-for-robotic-manipulation-through-physical-links.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.20180.pdf",
+    "title": "LinkCoT: A Chain-of-Thought Dataset for Robotic Manipulation through Physical Links",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:z1MdAF-ZMRkC",
+    "pdf_path": "pdfs/2026-unidex-a-robot-foundation-suite-for-universal-dexterous-hand-control-from-egocentric-human-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.20474.pdf",
+    "title": "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:v-0aJSwFXRcC",
+    "pdf_path": "pdfs/2026-unitracker-learning-universal-whole-body-motion-tracking-for-humanoid-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.08730.pdf",
+    "title": "UniTracker: Learning Universal Whole-Body Motion Tracking for Humanoid Robots",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:t1-M5mOiIjwC",
+    "pdf_path": "pdfs/2026-evo-rl-evolutionary-curriculum-reinforcement-learning-for-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.05814.pdf",
+    "title": "Evo-RL: Evolutionary Curriculum Reinforcement Learning for Vision-Language-Action Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:O_2pm6lCLf8C",
+    "pdf_path": "pdfs/2026-discovering-latent-spatial-reasoning-in-vision-language-models-for-task-oriented-grasping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.17459.pdf",
+    "title": "Discovering Latent Spatial Reasoning in Vision-Language Models for Task-Oriented Grasping",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:SpbeaW3--B0C",
+    "pdf_path": "pdfs/2026-dit-world-a-unified-action-conditioned-world-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.00464.pdf",
+    "title": "DiT-World: A Unified Action-Conditioned World Model",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:FmwjAcIgmIkC",
+    "pdf_path": "pdfs/2026-large-video-planner-enables-generalizable-robot-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.00103.pdf",
+    "title": "Large Video Planner Enables Generalizable Robot Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:iaaW3ZIFhlQC",
+    "pdf_path": "pdfs/2025-imagidrive-a-unified-imagination-and-planning-framework-for-autonomous-driving.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.12757.pdf",
+    "title": "ImagiDrive: A Unified Imagination-and-Planning Framework for Autonomous Driving",
+    "year": 2025
+  }
+]

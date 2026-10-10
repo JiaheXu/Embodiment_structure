@@ -1,0 +1,310 @@
+[
+  {
+    "page_url": "https://sim2reason.github.io/",
+    "pdf_path": "pdfs/2026-solving-physics-olympiad-via-reinforcement-learning-on-physics-simulators.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.11805.pdf",
+    "title": "Solving Physics Olympiad via Reinforcement Learning on Physics Simulators",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rl-textfeedback.github.io/",
+    "pdf_path": "pdfs/2026-expanding-the-capabilities-of-reinforcement-learning-via-text-feedback.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.02482.pdf",
+    "title": "Expanding the Capabilities of Reinforcement Learning via Text Feedback",
+    "year": 2026
+  },
+  {
+    "page_url": "https://taldatech.github.io/lpwm-web/",
+    "pdf_path": "pdfs/2026-latent-particle-world-models-self-supervised-object-centric-stochastic-dynamics-modeling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.04553.pdf",
+    "title": "Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling",
+    "year": 2026
+  },
+  {
+    "page_url": "https://vipra-project.github.io/",
+    "pdf_path": "pdfs/2026-vipra-video-prediction-for-robot-actions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.07732.pdf",
+    "title": "ViPRA: Video Prediction for Robot Actions",
+    "year": 2026
+  },
+  {
+    "page_url": "https://iterative-img-gen.github.io/",
+    "pdf_path": "pdfs/2026-iterative-refinement-improves-compositional-image-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.15286.pdf",
+    "title": "Iterative Refinement Improves Compositional Image Generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://generalist-locomotion.github.io/",
+    "pdf_path": "pdfs/2025-locoformer-generalist-locomotion-via-long-context-adaptation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.23745.pdf",
+    "title": "LocoFormer: Generalist Locomotion via Long-context Adaptation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://deep-reactive-policy.com",
+    "pdf_path": "pdfs/2025-deep-reactive-policy-learning-reactive-manipulator-motion-planning-for-dynamic-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.06953.pdf",
+    "title": "Deep Reactive Policy: Learning Reactive Manipulator Motion Planning for Dynamic Environments",
+    "year": 2025
+  },
+  {
+    "page_url": "https://mihdalal.github.io/neuralmotionplanner/",
+    "pdf_path": "pdfs/2025-neural-mp-a-generalist-neural-motion-planner.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.05864.pdf",
+    "title": "Neural MP: A Generalist Neural Motion Planner",
+    "year": 2025
+  },
+  {
+    "page_url": "https://llm-liar.github.io/",
+    "pdf_path": "pdfs/2025-can-llms-lie-investigation-beyond-hallucination.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.03518.pdf",
+    "title": "Can LLMs Lie? Investigation beyond Hallucination",
+    "year": 2025
+  },
+  {
+    "page_url": "https://diffusion-scaling.github.io/",
+    "pdf_path": "pdfs/2025-diffusion-beats-autoregressive-in-data-constrained-settings.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.15857.pdf",
+    "title": "Diffusion Beats Autoregressive in Data-Constrained Settings",
+    "year": 2025
+  },
+  {
+    "page_url": "https://unidisc.github.io/",
+    "pdf_path": "pdfs/2025-unified-multimodal-discrete-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.20853.pdf",
+    "title": "Unified Multimodal Discrete Diffusion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://self-questioning.github.io/",
+    "pdf_path": "pdfs/2025-self-questioning-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.03682.pdf",
+    "title": "Self-Questioning Language Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://rent-rl.github.io/",
+    "pdf_path": "pdfs/2025-maximizing-confidence-alone-improves-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.22660.pdf",
+    "title": "Maximizing Confidence Alone Improves Reasoning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://jasonjzliu.com/factr/",
+    "pdf_path": "pdfs/2025-factr-force-attending-curriculum-training-for-contact-rich-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.17432.pdf",
+    "title": "FACTR: Force-Attending Curriculum Training for Contact-Rich Policy Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://dexwild.github.io/",
+    "pdf_path": "pdfs/2025-dexwild-dexterous-human-interactions-for-in-the-wild-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.07813.pdf",
+    "title": "DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies",
+    "year": 2025
+  },
+  {
+    "page_url": "https://mihdalal.github.io/manipgen/",
+    "pdf_path": "pdfs/2025-local-policies-enable-zero-shot-long-horizon-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.22332.pdf",
+    "title": "Local Policies Enable Zero-shot Long-horizon Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://sapg-rl.github.io",
+    "pdf_path": "pdfs/2024-sapg-split-and-aggregate-policy-gradients.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.20230.pdf",
+    "title": "SAPG: Split and Aggregate Policy Gradients",
+    "year": 2024
+  },
+  {
+    "page_url": "https://linzhiqiu.github.io/papers/vqascore/",
+    "pdf_path": "pdfs/2024-evaluating-text-to-visual-generation-with-image-to-text-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.01291.pdf",
+    "title": "Evaluating Text-to-Visual Generation with Image-to-Text Generation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://linzhiqiu.github.io/papers/genai_bench/",
+    "pdf_path": "pdfs/2024-genai-bench-evaluating-and-improving-compositional-text-to-visual-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.13743.pdf",
+    "title": "GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://robotics-transformer-x.github.io/",
+    "pdf_path": "pdfs/2024-open-x-embodiment-robotic-learning-datasets-and-rt-x-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08864.pdf",
+    "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://sites.google.com/view/meta-evolve",
+    "pdf_path": "pdfs/2024-meta-evolve-continuous-robot-evolution-for-one-to-many-policy-transfer.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.03534.pdf",
+    "title": "Meta-Evolve: Continuous Robot Evolution for One-to-many Policy Transfer",
+    "year": 2024
+  },
+  {
+    "page_url": "https://spin-robot.github.io/",
+    "pdf_path": "pdfs/2024-spin-simultaneous-perception-interaction-and-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.07991.pdf",
+    "title": "SPIN: Simultaneous Perception, Interaction and Navigation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://vader-vid.github.io",
+    "pdf_path": "pdfs/2024-video-diffusion-alignment-via-reward-gradient.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.08737.pdf",
+    "title": "Video Diffusion Alignment via Reward Gradient",
+    "year": 2024
+  },
+  {
+    "page_url": "https://diffusion-tta.github.io/",
+    "pdf_path": "pdfs/2023-diffusion-tta-test-time-adaptation-of-discriminative-models-via-generative-feedback.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.16102.pdf",
+    "title": "Diffusion-TTA: Test-time Adaptation of Discriminative Models via Generative Feedback",
+    "year": 2023
+  },
+  {
+    "page_url": "https://door-open.github.io",
+    "pdf_path": "pdfs/2024-adaptive-mobile-manipulation-for-articulated-objects-in-the-open-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.14403.pdf",
+    "title": "Adaptive Mobile Manipulation for Articulated Objects In the Open World",
+    "year": 2024
+  },
+  {
+    "page_url": "https://llm-can-optimize-vlm.github.io/",
+    "pdf_path": "pdfs/2024-language-models-as-black-box-optimizers-for-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.05950.pdf",
+    "title": "Language Models as Black-Box Optimizers for Vision-Language Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://linzhiqiu.github.io/papers/visual_gpt_score/",
+    "pdf_path": "pdfs/2024-revisiting-the-role-of-language-priors-in-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.01879.pdf",
+    "title": "Revisiting the Role of Language Priors in Vision-Language Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://extreme-parkour.github.io/",
+    "pdf_path": "pdfs/2024-extreme-parkour-with-legged-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.14341.pdf",
+    "title": "Extreme Parkour with Legged Robots",
+    "year": 2024
+  },
+  {
+    "page_url": "https://dash-through-interaction.github.io/",
+    "pdf_path": "pdfs/2023-dash-a-framework-for-designing-anthropomorphic-soft-hands-through-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.04784.pdf",
+    "title": "DASH: A Framework for Designing Anthropomorphic Soft Hands through Interaction",
+    "year": 2023
+  },
+  {
+    "page_url": "https://dexfunc.github.io/",
+    "pdf_path": "pdfs/2023-dexterous-functional-grasping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.02975.pdf",
+    "title": "Dexterous Functional Grasping",
+    "year": 2023
+  },
+  {
+    "page_url": "https://play-fusion.github.io/",
+    "pdf_path": "pdfs/2023-playfusion-skill-acquisition-via-diffusion-from-language-annotated-play.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.04549.pdf",
+    "title": "PlayFusion: Skill Acquisition via Diffusion from Language-Annotated Play",
+    "year": 2023
+  },
+  {
+    "page_url": "https://diffusion-classifier.github.io/",
+    "pdf_path": "pdfs/2023-your-diffusion-model-is-secretly-a-zero-shot-classifier.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.16203.pdf",
+    "title": "Your Diffusion Model is Secretly a Zero-Shot Classifier",
+    "year": 2023
+  },
+  {
+    "page_url": "https://internet-explorer-ssl.github.io/",
+    "pdf_path": "pdfs/2023-internet-explorer-targeted-representation-learning-on-the-open-web.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.14051.pdf",
+    "title": "Internet Explorer: Targeted Representation Learning on the Open Web",
+    "year": 2023
+  },
+  {
+    "page_url": "https://slot-tta.github.io",
+    "pdf_path": "pdfs/2023-test-time-adaptation-with-slot-centric-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2203.11194.pdf",
+    "title": "Test-time Adaptation with Slot-Centric Models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://human-world-model.github.io/",
+    "pdf_path": "pdfs/2023-structured-world-models-from-human-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2308.10901.pdf",
+    "title": "Structured World Models from Human Videos",
+    "year": 2023
+  },
+  {
+    "page_url": "https://robo-affordances.github.io/",
+    "pdf_path": "pdfs/2023-affordances-from-human-videos-as-a-versatile-representation-for-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.08488.pdf",
+    "title": "Affordances from Human Videos as a Versatile Representation for Robotics",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.cs.cmu.edu/~dpathak/",
+    "pdf_path": "pdfs/2023-webpage-abstract-bibtex-arxiv-vision-language-models-vlms-are-impactful-in-part-because-they-can-be-applied-to-a-variety.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.01879.pdf",
+    "title": "webpage | abstract | bibtex | arXiv Vision-language models (VLMs) are impactful in part because they can be applied to a variety of visual understanding tasks in a zero-shot fashio",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.cs.cmu.edu/~dpathak/",
+    "pdf_path": "pdfs/2023-webpage-abstract-bibtex-arxiv-the-ability-to-quickly-learn-a-new-task-with-minimal-instruction-known-as-few-shot-learnin.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2301.06267.pdf",
+    "title": "webpage | abstract | bibtex | arXiv The ability to quickly learn a new task with minimal instruction - known as few-shot learning - is a central aspect of intelligent agents. Class",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.cs.cmu.edu/~dpathak/",
+    "pdf_path": "pdfs/2023-multimodality-helps-unimodality-cross-modal-few-shot-learning-with-multimodal-models-zhiqiu-lin-samuel-yu-zhiyi-kuang-de.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2301.06267.pdf",
+    "title": "Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning with Multimodal Models Zhiqiu Lin*, Samuel Yu*, Zhiyi Kuang, Deepak Pathak, Deva Ramanan CVPR",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.cs.cmu.edu/~dpathak/",
+    "pdf_path": "pdfs/2023-webpage-abstract-bibtex-arxiv-demo-in-the-media-locomotion-has-seen-dramatic-progress-for-walking-or-running-across-chal.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.11330.pdf",
+    "title": "webpage | abstract | bibtex | arXiv | demo | in the media Locomotion has seen dramatic progress for walking or running across challenging terrains. However, robotic quadrupeds are ",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.cs.cmu.edu/~dpathak/",
+    "pdf_path": "pdfs/2023-legs-as-manipulator-pushing-quadrupedal-agility-beyond-locomotion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.11330.pdf",
+    "title": "Legs as Manipulator: Pushing Quadrupedal Agility Beyond Locomotion",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.cs.cmu.edu/~dpathak/",
+    "pdf_path": "pdfs/2023-webpage-abstract-bibtex-arxiv-robotic-agents-that-operate-autonomously-in-the-real-world-need-to-continuously-explore-th.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.06604.pdf",
+    "title": "webpage | abstract | bibtex | arXiv Robotic agents that operate autonomously in the real world need to continuously explore their environment and learn from the data collected, wit",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.cs.cmu.edu/~dpathak/",
+    "pdf_path": "pdfs/2023-alan-autonomously-exploring-robotic-agents-in-the-real-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.06604.pdf",
+    "title": "ALAN : Autonomously Exploring Robotic Agents in the Real World",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.cs.cmu.edu/~dpathak/",
+    "pdf_path": "pdfs/2023-webpage-pdf-abstract-bibtex-code-demo-video-a-majority-of-approaches-solve-the-problem-of-video-frame-interpolation-by-c.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2012.08512.pdf",
+    "title": "webpage | pdf | abstract | bibtex | code | demo video A majority of approaches solve the problem of video frame interpolation by computing bidirectional optical flow between adjace",
+    "year": 2023
+  }
+]

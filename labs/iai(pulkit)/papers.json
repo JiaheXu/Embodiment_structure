@@ -1,0 +1,359 @@
+[
+  {
+    "page_url": "https://arxiv.org/abs/2601.19897",
+    "pdf_path": "pdfs/2026-self-distillation-enables-continual-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.19897.pdf",
+    "title": "Self-Distillation Enables Continual Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2510.17792",
+    "pdf_path": "pdfs/2025-softmimic-learning-compliant-whole-body-control-from-examples.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.17792.pdf",
+    "title": "SoftMimic: Learning Compliant Whole-body Control from Examples",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2509.04441",
+    "pdf_path": "pdfs/2025-dexop-a-device-for-robotic-transfer-of-dexterous-human-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.04441.pdf",
+    "title": "DEXOP: A Device for Robotic Transfer of Dexterous Human Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2507.01008",
+    "pdf_path": "pdfs/2025-dexwrist-a-robotic-wrist-for-constrained-and-dynamic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.01008.pdf",
+    "title": "DexWrist: A Robotic Wrist for Constrained and Dynamic Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2411.00704",
+    "pdf_path": "pdfs/2024-learning-to-look-around-enhancing-teleoperation-and-learning-with-a-human-like-actuated-neck.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.00704.pdf",
+    "title": "Learning to Look Around: Enhancing Teleoperation and Learning with a Human-like Actuated Neck",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2411.02207",
+    "pdf_path": "pdfs/2024-collective-model-intelligence-requires-compatible-specialization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.02207.pdf",
+    "title": "Collective model intelligence requires compatible specialization",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2411.18676",
+    "pdf_path": "pdfs/2024-embodied-red-teaming-for-auditing-robotic-foundation-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.18676.pdf",
+    "title": "Embodied Red Teaming for Auditing Robotic Foundation Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2509.04259",
+    "pdf_path": "pdfs/2025-rl-s-razor-why-online-reinforcement-learning-forgets-less.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.04259.pdf",
+    "title": "RL's Razor: Why Online Reinforcement Learning Forgets Less",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2503.06358",
+    "pdf_path": "pdfs/2025-language-model-personalization-via-reward-factorization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.06358.pdf",
+    "title": "Language Model Personalization via Reward Factorization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2502.10894",
+    "pdf_path": "pdfs/2025-bridging-the-sim-to-real-gap-for-athletic-loco-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.10894.pdf",
+    "title": "Bridging the Sim-to-Real Gap for Athletic Loco-Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2412.01770",
+    "pdf_path": "pdfs/2025-robot-learning-with-super-linear-scaling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.01770.pdf",
+    "title": "Robot Learning with Super-Linear Scaling",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2502.19402",
+    "pdf_path": "pdfs/2025-general-intelligence-requires-reward-based-pretraining.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.19402.pdf",
+    "title": "General Intelligence Requires Reward-Based Pretraining",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2411.02214",
+    "pdf_path": "pdfs/2025-dexhub-and-dart-towards-internet-scale-robot-data-collection.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.02214.pdf",
+    "title": "DexHub and DART: Towards Internet Scale Robot Data Collection",
+    "year": 2025
+  },
+  {
+    "page_url": "https://residual-assembly.github.io/",
+    "pdf_path": "pdfs/2025-from-imitation-to-refinement-residual-rl-for-precise-visual-assembly.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.16677.pdf",
+    "title": "From Imitation to Refinement \u2013 Residual RL for Precise Visual Assembly",
+    "year": 2025
+  },
+  {
+    "page_url": "https://taochenshh.github.io/projects/veg-peeling",
+    "pdf_path": "pdfs/2025-vegetable-peeling-a-case-study-in-constrained-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.07884.pdf",
+    "title": "Vegetable Peeling: A Case Study in Constrained Dexterous Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2502.12355",
+    "pdf_path": "pdfs/2025-hovering-flight-of-soft-actuated-insect-scale-micro-aerial-vehicles-using-deep-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.12355.pdf",
+    "title": "Hovering Flight of Soft-Actuated Insect-Scale Micro Aerial Vehicles using Deep Reinforcement Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2410.13837",
+    "pdf_path": "pdfs/2025-orso-accelerating-reward-design-via-online-reward-selection-and-policy-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.13837.pdf",
+    "title": "ORSO: Accelerating Reward Design via Online Reward Selection and Policy Optimization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2412.12953",
+    "pdf_path": "pdfs/2025-efficient-diffusion-transformer-policies-with-mixture-of-expert-denoisers-for-multitask-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.12953.pdf",
+    "title": "Efficient Diffusion Transformer Policies with Mixture of Expert Denoisers for Multitask Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2409.00588",
+    "pdf_path": "pdfs/2025-diffusion-policy-policy-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.00588.pdf",
+    "title": "Diffusion Policy Policy Optimization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2502.05970",
+    "pdf_path": "pdfs/2025-known-unknowns-out-of-distribution-property-prediction-in-materials-and-molecules.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.05970.pdf",
+    "title": "Known Unknowns: Out-of-Distribution Property Prediction in Materials and Molecules",
+    "year": 2025
+  },
+  {
+    "page_url": "https://eyesighthand.github.io/",
+    "pdf_path": "pdfs/2024-eyesight-hand-design-of-a-fully-actuated-dexterous-robot-hand-with-integrated-vision-based-tactile-sensors-and-compliant.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.06265.pdf",
+    "title": "EyeSight Hand: Design of a Fully-Actuated Dexterous Robot Hand with Integrated Vision-Based Tactile Sensors and Compliant Actuation",
+    "year": 2024
+  },
+  {
+    "page_url": "http://arxiv.org/abs/2403.03949",
+    "pdf_path": "pdfs/2024-reconciling-reality-through-simulation-a-real-to-sim-to-real-approach-for-robust-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.03949.pdf",
+    "title": "Reconciling Reality through Simulation: A Real-To-Sim-to-Real Approach for Robust Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2411.04987",
+    "pdf_path": "pdfs/2024-few-shot-task-learning-through-inverse-generative-modeling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.04987.pdf",
+    "title": "Few-Shot Task Learning through Inverse Generative Modeling",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2406.00681",
+    "pdf_path": "pdfs/2024-learning-multimodal-behaviors-from-scratch-with-diffusion-policy-gradient.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.00681.pdf",
+    "title": "Learning Multimodal Behaviors from Scratch with Diffusion Policy Gradient",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2407.16186",
+    "pdf_path": "pdfs/2024-position-automatic-environment-shaping-is-the-next-frontier-in-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.16186.pdf",
+    "title": "Position: Automatic Environment Shaping is the Next Frontier in RL",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2407.13755",
+    "pdf_path": "pdfs/2024-random-latent-exploration-for-deep-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.13755.pdf",
+    "title": "Random Latent Exploration for Deep Reinforcement Learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2205.02824",
+    "pdf_path": "pdfs/2024-rapid-locomotion-via-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2205.02824.pdf",
+    "title": "Rapid Locomotion via Reinforcement Learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2402.16828",
+    "pdf_path": "pdfs/2024-training-neural-networks-from-scratch-with-parallel-low-rank-adapters.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.16828.pdf",
+    "title": "Training Neural Networks From Scratch with Parallel Low-Rank Adapters",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2405.06639",
+    "pdf_path": "pdfs/2024-value-augmented-sampling-for-language-model-alignment-and-personalization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.06639.pdf",
+    "title": "Value Augmented Sampling for Language Model Alignment and Personalization",
+    "year": 2024
+  },
+  {
+    "page_url": "https://open-eqa.github.io/assets/pdfs/paper.pdf",
+    "pdf_path": "pdfs/2024-openeqa-embodied-question-answering-in-the-era-of-foundation-models.pdf",
+    "pdf_url": "https://open-eqa.github.io/assets/pdfs/paper.pdf",
+    "title": "OpenEQA: Embodied question answering in the era of foundation models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2309.14321",
+    "pdf_path": "pdfs/2024-lifelong-robot-learning-with-human-assisted-language-planners.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.14321.pdf",
+    "title": "Lifelong Robot Learning with Human Assisted Language Planners",
+    "year": 2024
+  },
+  {
+    "page_url": "http://arxiv.org/abs/2405.01402",
+    "pdf_path": "pdfs/2024-learning-force-control-for-legged-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.01402.pdf.pdf",
+    "title": "Learning Force Control for Legged Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2402.19464.pdf",
+    "pdf_path": "pdfs/2024-curiosity-driven-red-teaming-for-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.19464.pdf",
+    "title": "Curiosity-driven Red-teaming for Large Language Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://imitation-juicer.github.io/",
+    "pdf_path": "pdfs/2024-juicer-data-efficient-imitation-learning-for-robotic-assembly.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.03729.pdf",
+    "title": "JUICER: Data-Efficient Imitation Learning for Robotic Assembly",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2407.03995",
+    "pdf_path": "pdfs/2024-roer-regularized-optimal-experience-replay.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.03995.pdf",
+    "title": "ROER: Regularized Optimal Experience Replay",
+    "year": 2024
+  },
+  {
+    "page_url": "https://rank2reward.github.io/",
+    "pdf_path": "pdfs/2024-rank2reward-learning-shaped-reward-functions-from-passive-video.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.14735.pdf",
+    "title": "Rank2Reward: Learning Shaped Reward Functions from Passive Video",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2408.04142",
+    "pdf_path": "pdfs/2024-everyday-finger-a-robotic-finger-that-meets-the-needs-of-everyday-interactive-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.04142.pdf",
+    "title": "Everyday finger: a robotic finger that meets the needs of everyday interactive manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://taochenshh.github.io/projects/visual-dexterity",
+    "pdf_path": "pdfs/2023-visual-dexterity-in-hand-reorientation-of-novel-and-complex-object-shapes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2211.11744.pdf",
+    "title": "Visual Dexterity: In-Hand Reorientation of Novel and Complex Object Shapes",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2310.04413.pdf",
+    "pdf_path": "pdfs/2023-beyond-uniform-sampling-offline-reinforcement-learning-with-imbalanced-datasets.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.04413.pdf",
+    "title": "Beyond Uniform Sampling: Offline Reinforcement Learning with Imbalanced Datasets",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2307.04751",
+    "pdf_path": "pdfs/2023-shelving-stacking-hanging-relational-pose-diffusion-for-multi-modal-rearrangement.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.04751.pdf",
+    "title": "Shelving, Stacking, Hanging: Relational Pose Diffusion for Multi-modal Rearrangement",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2311.01405",
+    "pdf_path": "pdfs/2023-learning-to-see-physical-properties-with-active-sensing-motor-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.01405.pdf",
+    "title": "Learning to See Physical Properties with Active Sensing Motor Policies",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2307.03186",
+    "pdf_path": "pdfs/2023-tgrl-an-algorithm-for-teacher-guided-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.03186.pdf",
+    "title": "TGRL: An Algorithm for Teacher Guided Reinforcement Learning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://minyoungg.github.io/vqtorch/",
+    "pdf_path": "pdfs/2023-straightening-out-the-straight-through-estimator-overcoming-optimization-challenges-in-vector-quantized-networks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.08842.pdf",
+    "title": "Straightening Out the Straight-Through Estimator: Overcoming Optimization Challenges in Vector Quantized Networks",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2307.12983",
+    "pdf_path": "pdfs/2023-parallel-q-learning-scaling-off-policy-reinforcement-learning-under-massively-parallel-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.12983.pdf",
+    "title": "Parallel Q-Learning: Scaling Off-policy Reinforcement Learning under Massively Parallel Simulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2307.06333.pdf",
+    "pdf_path": "pdfs/2023-diagnosis-feedback-adaptation-a-human-in-the-loop-framework-for-test-time-policy-adaptation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.06333.pdf",
+    "title": "Diagnosis, Feedback, Adaptation: A Human-in-the-Loop Framework for Test-Time Policy Adaptation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://gmargo11.github.io/dribblebot",
+    "pdf_path": "pdfs/2023-dribblebot-dynamic-legged-manipulation-in-the-wild.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.01159.pdf",
+    "title": "DribbleBot: Dynamic Legged Manipulation in the Wild",
+    "year": 2023
+  },
+  {
+    "page_url": "https://taochenshh.github.io/projects/tactofind",
+    "pdf_path": "pdfs/2023-tactofind-a-tactile-only-system-for-object-retrieval.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.13482.pdf",
+    "title": "TactoFind: A Tactile Only System for Object Retrieval",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/pdf/2211.15657.pdf",
+    "pdf_path": "pdfs/2023-is-conditional-generative-modeling-all-you-need-for-decision-making.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2211.15657.pdf",
+    "title": "Is Conditional Generative Modeling all you need for Decision Making?",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2304.14329",
+    "pdf_path": "pdfs/2023-learning-to-extrapolate-a-transductive-approach.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.14329.pdf",
+    "title": "Learning to Extrapolate: A Transductive Approach",
+    "year": 2023
+  },
+  {
+    "page_url": "https://minyoungg.github.io/overparam/",
+    "pdf_path": "pdfs/2023-the-low-rank-simplicity-bias-in-deep-networks.pdf",
+    "pdf_url": "https://minyoungg.github.io/overparam/resources/overparam-v3.pdf",
+    "title": "The Low-Rank Simplicity Bias in Deep Networks",
+    "year": 2023
+  },
+  {
+    "page_url": "https://yanweiw.github.io/noise2ptz/",
+    "pdf_path": "pdfs/2023-visual-pre-training-for-navigation-what-can-we-learn-from-noise.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2207.00052.pdf",
+    "title": "Visual Pre-training for Navigation: What Can We Learn from Noise?",
+    "year": 2023
+  }
+]

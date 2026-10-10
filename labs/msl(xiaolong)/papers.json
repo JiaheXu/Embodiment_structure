@@ -1,0 +1,394 @@
+[
+  {
+    "page_url": "https://arxiv.org/abs/2511.14756",
+    "pdf_path": "pdfs/2026-hmc-learning-heterogeneous-meta-control-for-contact-rich-loco-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.14756.pdf",
+    "title": "HMC: Learning Heterogeneous Meta-Control for Contact-Rich Loco-Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2512.23675",
+    "pdf_path": "pdfs/2026-end-to-end-test-time-training-for-long-context.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.23675.pdf",
+    "title": "End-to-End Test-Time Training for Long Context",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2511.19584",
+    "pdf_path": "pdfs/2026-learning-massively-multitask-world-models-for-continuous-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.19584.pdf",
+    "title": "Learning Massively Multitask World Models for Continuous Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2509.13317",
+    "pdf_path": "pdfs/2026-3d-aware-region-prompted-vision-language-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.13317.pdf",
+    "title": "3D Aware Region Prompted Vision Language Model",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2512.03743",
+    "pdf_path": "pdfs/2026-cross-embodied-co-design-for-dexterous-hands.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.03743.pdf",
+    "title": "Cross-embodied Co-design for Dexterous Hands",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2506.14770",
+    "pdf_path": "pdfs/2026-gmt-general-motion-tracking-for-humanoid-whole-body-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.14770.pdf",
+    "title": "GMT: General Motion Tracking for Humanoid Whole-Body Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2507.12440",
+    "pdf_path": "pdfs/2026-egovla-learning-vision-language-action-models-from-egocentric-human-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.12440.pdf",
+    "title": "EgoVLA: Learning Vision-Language-Action Models from Egocentric Human Videos",
+    "year": 2026
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2503.13441",
+    "pdf_path": "pdfs/2025-humanoid-policy-human-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.13441.pdf",
+    "title": "Humanoid Policy ~ Human Policy",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2505.20404",
+    "pdf_path": "pdfs/2025-co-design-of-soft-gripper-with-neural-physics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.20404.pdf",
+    "title": "Co-Design of Soft Gripper with Neural Physics",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2506.17198",
+    "pdf_path": "pdfs/2025-dex1b-learning-with-1b-demonstrations-for-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.17198.pdf",
+    "title": "Dex1B: Learning with 1B Demonstrations for Dexterous Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2407.04620",
+    "pdf_path": "pdfs/2025-learning-to-learn-at-test-time-rnns-with-expressive-hidden-states.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.04620.pdf",
+    "title": "Learning to (Learn at Test Time): RNNs with Expressive Hidden States",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2505.03738",
+    "pdf_path": "pdfs/2025-amo-adaptive-motion-optimization-for-hyper-dexterous-humanoid-whole-body-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.03738.pdf",
+    "title": "AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2412.04453",
+    "pdf_path": "pdfs/2025-navila-legged-robot-vision-language-action-model-for-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.04453.pdf",
+    "title": "NaVILA: Legged Robot Vision-Language-Action Model for Navigation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2504.05298",
+    "pdf_path": "pdfs/2025-one-minute-video-generation-with-test-time-training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.05298.pdf",
+    "title": "One-Minute Video Generation with Test-Time Training",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2412.07773",
+    "pdf_path": "pdfs/2025-mobile-television-predictive-motion-priors-for-humanoid-whole-body-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.07773.pdf",
+    "title": "Mobile-TeleVision: Predictive Motion Priors for Humanoid Whole-Body Control",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2404.12379",
+    "pdf_path": "pdfs/2025-dynamic-gaussians-mesh-consistent-mesh-reconstruction-from-monocular-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.12379.pdf",
+    "title": "Dynamic Gaussians Mesh: Consistent Mesh Reconstruction from Monocular Videos",
+    "year": 2025
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2407.18902",
+    "pdf_path": "pdfs/2024-lessons-from-learning-to-spin-pens.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.18902.pdf",
+    "title": "Lessons from Learning to Spin \u201cPens\u201d",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2407.01512",
+    "pdf_path": "pdfs/2024-open-television-teleoperation-with-immersive-active-visual-feedback.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.01512.pdf",
+    "title": "Open-TeleVision: Teleoperation with Immersive Active Visual Feedback",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2403.16967",
+    "pdf_path": "pdfs/2024-visual-whole-body-control-for-legged-loco-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.16967.pdf",
+    "title": "Visual Whole-Body Control for Legged Loco-Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2407.16680",
+    "pdf_path": "pdfs/2024-a-simulation-benchmark-for-autonomous-racing-with-large-scale-human-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.16680.pdf",
+    "title": "A Simulation Benchmark for Autonomous Racing with Large-Scale Human Data",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2406.01584",
+    "pdf_path": "pdfs/2024-spatialrgpt-grounded-spatial-reasoning-in-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.01584.pdf",
+    "title": "SpatialRGPT: Grounded Spatial Reasoning in Vision-Language Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2402.16796",
+    "pdf_path": "pdfs/2024-expressive-whole-body-control-for-humanoid-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.16796.pdf",
+    "title": "Expressive Whole-Body Control for Humanoid Robots",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2312.06639",
+    "pdf_path": "pdfs/2024-harmonic-mobile-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.06639.pdf",
+    "title": "Harmonic Mobile Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2406.07480",
+    "pdf_path": "pdfs/2024-image-neural-field-diffusion-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.07480.pdf",
+    "title": "Image Neural Field Diffusion Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2312.07504",
+    "pdf_path": "pdfs/2024-colmap-free-3d-gaussian-splatting.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.07504.pdf",
+    "title": "COLMAP-Free 3D Gaussian Splatting",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2312.01853",
+    "pdf_path": "pdfs/2024-robot-synesthesia-in-hand-manipulation-with-visuotactile-sensing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.01853.pdf",
+    "title": "Robot Synesthesia: In-Hand Manipulation with Visuotactile Sensing",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2310.16828",
+    "pdf_path": "pdfs/2024-td-mpc2-scalable-robust-world-models-for-continuous-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.16828.pdf",
+    "title": "TD-MPC2: Scalable, Robust World Models for Continuous Control",
+    "year": 2024
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2309.05655",
+    "pdf_path": "pdfs/2023-dynamic-handover-throw-and-catch-with-bimanual-hands.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.05655.pdf",
+    "title": "Dynamic Handover: Throw and Catch with Bimanual Hands",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2308.16891",
+    "pdf_path": "pdfs/2023-gnfactor-multi-task-real-robot-learning-with-generalizable-neural-feature-fields.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2308.16891.pdf",
+    "title": "GNFactor: Multi-Task Real Robot Learning with Generalizable Neural Feature Fields",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2310.16029",
+    "pdf_path": "pdfs/2023-finetuning-offline-world-models-in-the-real-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.16029.pdf",
+    "title": "Finetuning Offline World Models in the Real World",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2307.04577",
+    "pdf_path": "pdfs/2023-anyteleop-a-general-vision-based-dexterous-robot-arm-hand-teleoperation-system.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.04577.pdf",
+    "title": "AnyTeleop: A General Vision-Based Dexterous Robot Arm-Hand Teleoperation System",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2303.10880",
+    "pdf_path": "pdfs/2023-rotating-without-seeing-towards-in-hand-dexterity-through-touch.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.10880.pdf",
+    "title": "Rotating without Seeing: Towards In-hand Dexterity through Touch",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2304.01201",
+    "pdf_path": "pdfs/2023-neural-volumetric-memory-for-visual-locomotion-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.01201.pdf",
+    "title": "Neural Volumetric Memory for Visual Locomotion Control",
+    "year": 2023
+  },
+  {
+    "page_url": "https://arxiv.org/abs/2303.04803",
+    "pdf_path": "pdfs/2023-open-vocabulary-panoptic-segmentation-with-text-to-image-diffusion-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.04803.pdf",
+    "title": "Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2026-lai-wei-xuanbin-peng-ri-zhao-qiu-tianshu-huang-xuxin-cheng-xiaolong-wang-hmc-learning-heterogeneous-meta-control-for-con.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.14756.pdf",
+    "title": "Lai Wei*, Xuanbin Peng*, Ri-Zhao Qiu, Tianshu Huang, Xuxin Cheng, Xiaolong Wang. HMC: Learning Heterogeneous Meta-Control for Contact-Rich Loco-Manipulation. International Conferen",
+    "year": 2026
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2026-arnuv-tandon-karan-dalal-xinhao-li-daniel-koceja-marcel-r-d-sam-buchanan-xiaolong-wang-jure-leskovec-sanmi-koyejo-tatsun.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.23675.pdf",
+    "title": "Arnuv Tandon, Karan Dalal, Xinhao Li, Daniel Koceja, Marcel R\u00f8d, Sam Buchanan, Xiaolong Wang, Jure Leskovec, Sanmi Koyejo, Tatsunori Hashimoto, Carlos Guestrin, Jed McCaleb, Yejin ",
+    "year": 2026
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2026-nicklas-hansen-hao-su-xiaolong-wang-learning-massively-multitask-world-models-for-continuous-control-international-confe.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.19584.pdf",
+    "title": "Nicklas Hansen, Hao Su\ufe0e\ufe0e\u271d\ufe0e, Xiaolong Wang\u271d\ufe0e. Learning Massively Multitask World Models for Continuous Control. International Conference on Learning Representations (ICLR) ,",
+    "year": 2026
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2026-an-chieh-cheng-yang-fu-yukang-chen-zhijian-liu-xiaolong-li-subhashree-radhakrishnan-song-han-yao-lu-jan-kautz-pavlo-molc.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.13317.pdf",
+    "title": "An-Chieh Cheng, Yang Fu, Yukang Chen, Zhijian Liu, Xiaolong Li, Subhashree Radhakrishnan, Song Han, Yao Lu, Jan Kautz, Pavlo Molchanov, Hongxu Yin\u271d\ufe0e, Xiaolong Wang\u271d\ufe0e, Sifei Liu\u271d\ufe0e. ",
+    "year": 2026
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2026-kehlani-fay-darin-anthony-djapri-anya-zorin-james-clinton-ali-el-lahib-hao-su-michael-t-tolley-sha-yi-xiaolong-wang-cros.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.03743.pdf",
+    "title": "Kehlani Fay, Darin Anthony Djapri, Anya Zorin, James Clinton, Ali El Lahib, Hao Su, Michael T. Tolley, Sha Yi, Xiaolong Wang. Cross-embodied Co-design for Dexterous Hands. Internat",
+    "year": 2026
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2026-zixuan-chen-mazeyu-ji-xuxin-cheng-xuanbin-peng-xue-bin-peng-xiaolong-wang-gmt-general-motion-tracking-for-humanoid-whole.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.14770.pdf",
+    "title": "Zixuan Chen*, Mazeyu Ji*, Xuxin Cheng, Xuanbin Peng, Xue Bin Peng\u2020, Xiaolong Wang\u2020. GMT: General Motion Tracking for Humanoid Whole-Body Control. International Conference on Intell",
+    "year": 2026
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2026-ruihan-yang-qinxi-yu-yecheng-wu-rui-yan-borui-li-an-chieh-cheng-xueyan-zou-yunhao-fang-xuxin-cheng-ri-zhao-qiu-hongxu-yi.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.12440.pdf",
+    "title": "Ruihan Yang*, Qinxi Yu*, Yecheng Wu, Rui Yan, Borui Li, An-Chieh Cheng, Xueyan Zou, Yunhao Fang, Xuxin Cheng, Ri-Zhao Qiu, Hongxu Yin, Sifei Liu, Song Han, Yao Lu, Xiaolong Wang. E",
+    "year": 2026
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2025-ri-zhao-qiu-shiqi-yang-xuxin-cheng-chaitanya-chawla-jialong-li-tairan-he-ge-yan-david-j-yoon-ryan-hoque-lars-paulsen-ge-.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.13441.pdf",
+    "title": "Ri-Zhao Qiu*, Shiqi Yang*, Xuxin Cheng*, Chaitanya Chawla, Jialong Li, Tairan He, Ge Yan, David J. Yoon, Ryan Hoque, Lars Paulsen, Ge Yang, Jian Zhang, Sha Yi, Guanya Shi, Xiaolong",
+    "year": 2025
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2025-sha-yi-xueqian-bai-adabhav-singh-jianglong-ye-michael-t-tolley-xiaolong-wang-co-design-of-soft-gripper-with-neural-physi.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.20404.pdf",
+    "title": "Sha Yi*, Xueqian Bai*, Adabhav Singh, Jianglong Ye, Michael T Tolley, Xiaolong Wang. Co-Design of Soft Gripper with Neural Physics. Conference on Robot Learning (CoRL) ,",
+    "year": 2025
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2025-jianglong-ye-keyi-wang-chengjing-yuan-ruihan-yang-yiquan-li-jiyue-zhu-yuzhe-qin-xueyan-zou-and-xiaolong-wang-dex1b-learn.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.17198.pdf",
+    "title": "Jianglong Ye* , Keyi Wang*, Chengjing Yuan, Ruihan Yang, Yiquan Li, Jiyue Zhu, Yuzhe Qin, Xueyan Zou, and Xiaolong Wang. Dex1B: Learning with 1B Demonstrations for Dexterous Manipu",
+    "year": 2025
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2025-jialong-li-xuxin-cheng-tianshu-huang-shiqi-yang-ri-zhao-qiu-xiaolong-wang-amo-adaptive-motion-optimization-for-hyper-dex.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.03738.pdf",
+    "title": "Jialong Li, Xuxin Cheng, Tianshu Huang, Shiqi Yang, Ri-Zhao Qiu, Xiaolong Wang. AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control. Robotics: Science",
+    "year": 2025
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2025-an-chieh-cheng-yandong-ji-zhaojing-yang-zaitian-gongye-xueyan-zou-jan-kautz-erdem-b-y-k-hongxu-yin-sifei-liu-xiaolong-wa.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.04453.pdf",
+    "title": "An-Chieh Cheng*, Yandong Ji*, Zhaojing Yang*, Zaitian Gongye, Xueyan Zou, Jan Kautz, Erdem B\u0131y\u0131k, Hongxu Yin, Sifei Liu, Xiaolong Wang. NaVILA: Legged Robot Vision-Language-Action ",
+    "year": 2025
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2025-karan-dalal-daniel-koceja-gashon-hussein-jiarui-xu-yue-zhao-youjin-song-shihao-han-ka-chun-cheung-jan-kautz-carlos-guest.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.05298.pdf",
+    "title": "Karan Dalal*, Daniel Koceja*, Gashon Hussein*, Jiarui Xu*, Yue Zhao+, Youjin Song+, Shihao Han, Ka Chun Cheung, Jan Kautz, Carlos Guestrin, Tatsunori Hashimoto, Sanmi Koyejo, Yejin",
+    "year": 2025
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2025-chenhao-lu-xuxin-cheng-jialong-li-shiqi-yang-mazeyu-ji-chengjing-yuan-ge-yang-sha-yi-xiaolong-wang-mobile-television-pre.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.07773.pdf",
+    "title": "Chenhao Lu*, Xuxin Cheng*, Jialong Li*, Shiqi Yang, Mazeyu Ji, Chengjing Yuan, Ge Yang, Sha Yi, Xiaolong Wang. Mobile-TeleVision: Predictive Motion Priors for Humanoid Whole-Body C",
+    "year": 2025
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2025-isabella-liu-hao-su-xiaolong-wang-dynamic-gaussians-mesh-consistent-mesh-reconstruction-from-monocular-videos-internatio.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.12379.pdf",
+    "title": "Isabella Liu, Hao Su\u2020, Xiaolong Wang\u2020. Dynamic Gaussians Mesh: Consistent Mesh Reconstruction from Monocular Videos. International Conference on Learning Representations (ICLR) ,",
+    "year": 2025
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2024-jun-wang-ying-yuan-haichuan-che-haozhi-qi-yi-ma-jitendra-malik-xiaolong-wang-lessons-from-learning-to-spin-pens-conferen.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.18902.pdf",
+    "title": "Jun Wang*, Ying Yuan*, Haichuan Che*, Haozhi Qi*, Yi Ma, Jitendra Malik, Xiaolong Wang. Lessons from Learning to Spin \u201cPens\u201d. Conference on Robot Learning (CoRL) ,",
+    "year": 2024
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2024-xuxin-cheng-jialong-li-shiqi-yang-ge-yang-xiaolong-wang-open-television-teleoperation-with-immersive-active-visual-feedb.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.01512.pdf",
+    "title": "Xuxin Cheng*, Jialong Li*, Shiqi Yang, Ge Yang, Xiaolong Wang. Open-TeleVision: Teleoperation with Immersive Active Visual Feedback. Conference on Robot Learning (CoRL) ,",
+    "year": 2024
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2024-xuxin-cheng-yandong-ji-junming-chen-ruihan-yang-ge-yang-xiaolong-wang-expressive-whole-body-control-for-humanoid-robots-.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.16796.pdf",
+    "title": "Xuxin Cheng*, Yandong Ji*, Junming Chen, Ruihan Yang, Ge Yang, Xiaolong Wang. Expressive Whole-Body Control for Humanoid Robots. Robotics: Science and Systems (RSS) ,",
+    "year": 2024
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2024-ying-yuan-haichuan-che-yuzhe-qin-binghao-huang-zhao-heng-yin-kang-won-lee-yi-wu-soo-chul-lim-xiaolong-wang-robot-synesth.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.01853.pdf",
+    "title": "Ying Yuan*, Haichuan Che*, Yuzhe Qin*, Binghao Huang, Zhao-Heng Yin, Kang-Won Lee, Yi Wu, Soo-Chul Lim, Xiaolong Wang. Robot Synesthesia: In-Hand Manipulation with Visuotactile Sen",
+    "year": 2024
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2023-binghao-huang-yuanpei-chen-tianyu-wang-yuzhe-qin-yaodong-yang-nikolay-atanasov-xiaolong-wang-dynamic-handover-throw-and-.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.05655.pdf",
+    "title": "Binghao Huang*, Yuanpei Chen*, Tianyu Wang, Yuzhe Qin, Yaodong Yang, Nikolay Atanasov, Xiaolong Wang. Dynamic Handover: Throw and Catch with Bimanual Hands . Conference on Robot Le",
+    "year": 2023
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2023-yuzhe-qin-wei-yang-binghao-huang-karl-van-wyk-hao-su-xiaolong-wang-yu-wei-chao-dieter-fox-anyteleop-a-general-vision-bas.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.04577.pdf",
+    "title": "Yuzhe Qin, Wei Yang, Binghao Huang, Karl Van Wyk, Hao Su, Xiaolong Wang, Yu-Wei Chao, Dieter Fox. AnyTeleop: A General Vision-Based Dexterous Robot Arm-Hand Teleoperation System. R",
+    "year": 2023
+  },
+  {
+    "page_url": "https://xiaolonw.github.io/publication_select.html",
+    "pdf_path": "pdfs/2023-zhao-heng-yin-binghao-huang-yuzhe-qin-qifeng-chen-xiaolong-wang-rotating-without-seeing-towards-in-hand-dexterity-throug.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.10880.pdf",
+    "title": "Zhao-Heng Yin*, Binghao Huang*, Yuzhe Qin, Qifeng Chen, Xiaolong Wang. Rotating without Seeing: Towards In-hand Dexterity through Touch. Robotics: Science and Systems (RSS) ,",
+    "year": 2023
+  }
+]
