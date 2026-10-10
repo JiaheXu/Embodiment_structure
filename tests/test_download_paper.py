@@ -491,6 +491,48 @@ def test_collect_lab_uses_bilibili_video_ai_extraction(tmp_path, monkeypatch):
     assert (found, new) == (1, 1)
 
 
+def test_collect_lab_fetches_google_scholar_pages_until_min_year(tmp_path, monkeypatch):
+    lab_dir = tmp_path / "goldberg"
+    lab_dir.mkdir()
+    (lab_dir / "link.txt").write_text(
+        "https://scholar.google.com/citations?hl=en&user=abc&view_op=list_works&sortby=pubdate\n"
+    )
+    calls = []
+
+    def scholar_row(title, arxiv_id, year):
+        return f"""
+        <tr class="gsc_a_tr">
+          <td class="gsc_a_t">
+            <a href="/citations?view_op=view_citation&amp;citation_for_view=abc" class="gsc_a_at">{title}</a>
+            <div class="gs_gray">arXiv preprint arXiv:{arxiv_id}<span class="gs_oph">, {year}</span></div>
+          </td>
+          <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">{year}</span></td>
+        </tr>
+        """
+
+    pages = [
+        "<table>" + scholar_row("Robot Policy Learning One", "2601.00001", 2026) + "</table>",
+        "<table>"
+        + scholar_row("Robot Policy Learning Two", "2301.00002", 2023)
+        + scholar_row("Old Robot Policy Learning", "2201.00003", 2022)
+        + "</table>",
+    ]
+
+    def fake_fetch_text(url, timeout):
+        calls.append(url)
+        return pages[len(calls) - 1]
+
+    monkeypatch.setattr("labs.download_paper.fetch_text", fake_fetch_text)
+
+    found, new = collect_lab(lab_dir, min_year=2023, timeout=1, dry_run=True, extractor="static")
+
+    assert (found, new) == (2, 2)
+    assert len(calls) == 2
+    assert "pagesize=100" in calls[0]
+    assert "cstart=0" in calls[0]
+    assert "cstart=100" in calls[1]
+
+
 def test_fetch_bilibili_video_metadata_limits_playlist_to_latest_first_page(monkeypatch):
     calls = []
 
@@ -631,6 +673,38 @@ def test_download_pdf_retries_transient_ssl_errors(tmp_path, monkeypatch):
         if calls["count"] == 1:
             raise ssl.SSLError("DECRYPTION_FAILED_OR_BAD_RECORD_MAC")
         return FakeResponse()
+
+    monkeypatch.setattr("labs.download_paper.urlopen", fake_urlopen)
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda seconds: None)
+
+    destination = tmp_path / "paper.pdf"
+    download_pdf("https://example.com/paper.pdf", destination, timeout=1)
+
+    assert destination.read_bytes() == b"%PDF"
+    assert calls["count"] == 2
+
+
+def test_download_pdf_retries_ssl_errors_during_read(tmp_path, monkeypatch):
+    calls = {"count": 0}
+
+    class FakeResponse:
+        def __init__(self, should_fail):
+            self.should_fail = should_fail
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, exc_type, exc, traceback):
+            return False
+
+        def read(self):
+            if self.should_fail:
+                raise ssl.SSLError("DECRYPTION_FAILED_OR_BAD_RECORD_MAC")
+            return b"%PDF"
+
+    def fake_urlopen(request, timeout):
+        calls["count"] += 1
+        return FakeResponse(should_fail=calls["count"] == 1)
 
     monkeypatch.setattr("labs.download_paper.urlopen", fake_urlopen)
     monkeypatch.setattr("labs.download_paper.time.sleep", lambda seconds: None)

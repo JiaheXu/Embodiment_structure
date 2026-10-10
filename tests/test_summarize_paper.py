@@ -4,6 +4,7 @@ from labs.summarize_paper import (
     build_pdf_summary_payload,
     build_pdf_summary_prompt,
     build_summary_prompt,
+    main,
     paper_summary_path,
     select_papers_to_summarize,
 )
@@ -35,6 +36,24 @@ def test_select_papers_skips_existing_summaries_unless_forced(tmp_path):
 
     assert select_papers_to_summarize(lab_dir, [paper], force=False) == []
     assert select_papers_to_summarize(lab_dir, [paper], force=True) == [paper]
+
+
+def test_main_all_regenerates_existing_summaries(tmp_path, monkeypatch):
+    lab_dir = tmp_path / "labs" / "airlab(basti)"
+    lab_dir.mkdir(parents=True)
+    (lab_dir / "link.txt").write_text("https://example.com\n")
+    captured = {}
+
+    def fake_summarize_lab(lab_dir, timeout, max_chars, force, dry_run, limit, source):
+        captured["force"] = force
+        return (0, 0)
+
+    monkeypatch.setattr("labs.summarize_paper.summarize_lab", fake_summarize_lab)
+
+    exit_code = main(["--labs-root", str(tmp_path / "labs"), "--all"])
+
+    assert exit_code == 0
+    assert captured["force"] is True
 
 
 def test_build_summary_prompt_contains_required_sections():

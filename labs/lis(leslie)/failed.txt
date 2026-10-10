@@ -1,4 +1,0 @@
-PROXY: Learning Object-Centric Manipulation Policies from a Single RGB-D Image
-Hybrid Declarative-Imperative Representations for Hybrid Discrete-Continuous Decision-Making
-[382] PROXY: Learning Object-Centric Manipulation Policies from a Single RGB-D Image ( Maggie
-[345] Hybrid Declarative-Imperative Representations for Hybrid Discrete-Continuous Decision-Making (

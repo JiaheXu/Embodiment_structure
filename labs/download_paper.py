@@ -17,7 +17,7 @@ from http.client import IncompleteRead, InvalidURL
 from pathlib import Path
 from typing import Iterable
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote, quote_plus, urljoin, urlparse, urlunparse
+from urllib.parse import parse_qsl, quote, quote_plus, urlencode, urljoin, urlparse, urlunparse
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree
 
@@ -27,6 +27,8 @@ DEFAULT_TIMEOUT_SECONDS = 30 * 60
 DEFAULT_WORKERS = 2
 DEFAULT_HTTP_RETRIES = 3
 BILIBILI_VIDEO_LIMIT = 30
+GOOGLE_SCHOLAR_PAGE_SIZE = 100
+GOOGLE_SCHOLAR_MAX_PAGES = 20
 MANIFEST_NAME = "papers.json"
 PDF_DIR_NAME = "pdfs"
 FAILED_NAME = "failed.txt"
@@ -482,19 +484,64 @@ def read_lab_link(lab_dir: Path) -> str | None:
 
 def fetch_text(url: str, timeout: int) -> str:
     request = Request(url, headers={"User-Agent": USER_AGENT})
-    with open_url_with_retries(request, timeout=timeout) as response:
-        charset_getter = getattr(response.headers, "get_content_charset", None)
-        charset = charset_getter() if charset_getter else None
-        charset = charset or "utf-8"
-        return response.read().decode(charset, errors="replace")
+    data, response = read_url_with_retries(request, timeout=timeout)
+    charset_getter = getattr(response.headers, "get_content_charset", None)
+    charset = charset_getter() if charset_getter else None
+    charset = charset or "utf-8"
+    return data.decode(charset, errors="replace")
+
+
+def fetch_publication_html(url: str, min_year: int, timeout: int) -> str:
+    if not is_google_scholar_url(url):
+        return fetch_text(url, timeout=timeout)
+
+    pages: list[str] = []
+    for page_index in range(GOOGLE_SCHOLAR_MAX_PAGES):
+        page_url = google_scholar_page_url(url, cstart=page_index * GOOGLE_SCHOLAR_PAGE_SIZE)
+        html = fetch_text(page_url, timeout=timeout)
+        pages.append(html)
+        years = _find_years(html)
+        if not years or min(years) < min_year:
+            break
+    return "\n".join(pages)
+
+
+def is_google_scholar_url(url: str) -> bool:
+    parsed = urlparse(url)
+    return parsed.netloc == "scholar.google.com" and parsed.path == "/citations"
+
+
+def google_scholar_page_url(url: str, cstart: int) -> str:
+    parsed = urlparse(url)
+    params = dict(parse_qsl(parsed.query, keep_blank_values=True))
+    params["pagesize"] = str(GOOGLE_SCHOLAR_PAGE_SIZE)
+    params["cstart"] = str(cstart)
+    return urlunparse((parsed.scheme, parsed.netloc, parsed.path, parsed.params, urlencode(params), parsed.fragment))
 
 
 def download_pdf(url: str, destination: Path, timeout: int) -> None:
     request = Request(url, headers={"User-Agent": USER_AGENT})
-    with open_url_with_retries(request, timeout=timeout) as response:
-        data = response.read()
+    data, _response = read_url_with_retries(request, timeout=timeout)
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_bytes(data)
+
+
+def read_url_with_retries(request: Request, timeout: int, retries: int = DEFAULT_HTTP_RETRIES):
+    last_exc: Exception | None = None
+    total_attempts = retries + 1
+    for attempt in range(1, total_attempts + 1):
+        try:
+            with urlopen(request, timeout=timeout) as response:
+                return response.read(), response
+        except (ssl.SSLError, URLError, TimeoutError, IncompleteRead) as exc:
+            last_exc = exc
+            if attempt >= total_attempts or not is_retryable_network_error(exc):
+                raise
+            print(f"[retry] HTTP request failed ({exc}); retrying {attempt}/{retries}", file=sys.stderr)
+            time.sleep(min(2 ** (attempt - 1), 5))
+    if last_exc:
+        raise last_exc
+    raise RuntimeError("HTTP retry loop did not run")
 
 
 def open_url_with_retries(request: Request, timeout: int, retries: int = DEFAULT_HTTP_RETRIES):
@@ -674,7 +721,7 @@ def collect_lab(
                     continue
                 record_failed_video(lab_dir, video_url)
     else:
-        html = fetch_text(link, timeout=timeout)
+        html = fetch_publication_html(link, min_year=min_year, timeout=timeout)
         candidates = choose_candidates(html, link, min_year=min_year, timeout=timeout, extractor=extractor)
     new_papers = filter_new_papers(lab_dir, candidates)
     print(
@@ -822,9 +869,13 @@ def main(argv: list[str] | None = None) -> int:
 
 
 def _find_recent_year(text: str, min_year: int) -> int | None:
-    years = [int(match) for match in re.findall(r"\b(20\d{2})\b", text)]
+    years = _find_years(text)
     years = [year for year in years if year >= min_year]
     return max(years) if years else None
+
+
+def _find_years(text: str) -> list[int]:
+    return [int(match) for match in re.findall(r"\b(20\d{2})\b", text)]
 
 
 def _find_pdf_url(links: object, base_url: str) -> str | None:

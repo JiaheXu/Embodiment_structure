@@ -157,12 +157,14 @@ Useful options:
 ```bash
 ./labs/summarize_paper.sh --lab 'airlab(basti)' --limit 5
 ./labs/summarize_paper.sh --force --lab 'airlab(basti)'
+./labs/summarize_paper.sh --all --lab 'airlab(basti)'
 ./labs/summarize_paper.sh --source text --lab 'airlab(basti)' --limit 1
 ./labs/summarize_paper.sh --max-chars 120000
 SUMMARIZE_PAPER_TIMEOUT=3600 ./labs/summarize_paper.sh
 ```
 
-By default, existing summary files are skipped. Use `--force` to regenerate.
+By default, existing summary files are skipped. Use `--force` or `--all` to
+regenerate summaries for papers that already have summary files.
 
 By default it uses the local OpenAI-compatible proxy:
 

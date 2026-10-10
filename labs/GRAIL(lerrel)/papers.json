@@ -1,170 +1,177 @@
 [
   {
-    "page_url": "https://arxiv.org/abs/2409.05865",
-    "pdf_path": "pdfs/2025-robot-utility-models-general-policies-for-zero-shot-deployment-in-new-environments.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2409.05865.pdf",
-    "title": "Robot Utility Models: General Policies for Zero-Shot Deployment in New Environments",
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-wetrobo-a-reproducible-robot-kit-for-coding-agents-in-biological-laboratories.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.18435.pdf",
+    "title": "WetRobo: A Reproducible Robot Kit for Coding Agents in Biological Laboratories",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-patch-policy-efficient-embodied-control-via-dense-visual-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.18236.pdf",
+    "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-ruka-v2-tendon-driven-open-source-dexterous-hand-with-wrist-and-abduction-for-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.26660.pdf",
+    "title": "Ruka-v2: Tendon Driven Open-Source Dexterous Hand with Wrist and Abduction for Robot Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-yor-your-own-mobile-manipulator-for-generalizable-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.11150.pdf",
+    "title": "YOR: Your Own Mobile Manipulator for Generalizable Robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-contact-anchored-policies-contact-conditioning-creates-strong-robot-utility-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.09017.pdf",
+    "title": "Contact-Anchored Policies: Contact Conditioning Creates Strong Robot Utility Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-point-bridge-3d-representations-for-cross-domain-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.16212.pdf",
+    "title": "Point bridge: 3d representations for cross domain policy learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-eflesh-highly-customizable-magnetic-touch-sensing-using-cut-cell-microstructures.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.09994.pdf",
+    "title": "eflesh: Highly customizable magnetic touch sensing using cut-cell microstructures",
     "year": 2025
   },
   {
-    "page_url": "https://arxiv.org/abs/2409.08276",
-    "pdf_path": "pdfs/2025-anyskin-plug-and-play-skin-sensing-for-robotic-touch.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2409.08276.pdf",
-    "title": "AnySkin: Plug-and-play Skin Sensing for Robotic Touch",
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-feel-the-force-contact-driven-learning-from-humans.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.01944.pdf",
+    "title": "Feel the force: Contact-driven learning from humans",
     "year": 2025
   },
   {
-    "page_url": "https://arxiv.org/abs/2410.23289",
-    "pdf_path": "pdfs/2025-bridging-the-human-to-robot-dexterity-gap-through-object-oriented-rewards.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2410.23289.pdf",
-    "title": "Bridging the Human to Robot Dexterity Gap through Object-Oriented Rewards",
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-egozero-robot-learning-from-smart-glasses.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.20290.pdf",
+    "title": "Egozero: Robot learning from smart glasses",
     "year": 2025
   },
   {
-    "page_url": "https://arxiv.org/abs/2411.04999",
-    "pdf_path": "pdfs/2025-dynamem-online-dynamic-spatio-semantic-memory-for-open-world-mobile-manipulation.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2411.04999.pdf",
-    "title": "DynaMem: Online Dynamic Spatio-Semantic Memory for Open World Mobile Manipulation",
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-ruka-rethinking-the-design-of-humanoid-hands-with-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.13165.pdf",
+    "title": "Ruka: Rethinking the design of humanoid hands with learning",
     "year": 2025
   },
   {
-    "page_url": "https://arxiv.org/abs/2410.02749",
-    "pdf_path": "pdfs/2025-training-language-models-on-synthetic-edit-sequences-improves-code-synthesis.pdf",
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-point-policy-unifying-observations-and-actions-with-key-points-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.20391.pdf",
+    "title": "Point policy: Unifying observations and actions with key points for robot manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-dino-wm-world-models-on-pre-trained-visual-features-enable-zero-shot-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.04983.pdf",
+    "title": "Dino-wm: World models on pre-trained visual features enable zero-shot planning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-learning-precise-contact-rich-manipulation-through-uncalibrated-tactile-skins.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.17246.pdf",
+    "title": "Learning precise, contact-rich manipulation through uncalibrated tactile skins",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-neural-circuit-architectural-priors-for-quadruped-locomotion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.07174.pdf",
+    "title": "Neural circuit architectural priors for quadruped locomotion",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-training-language-models-on-synthetic-edit-sequences-improves-code-synthesis.pdf",
     "pdf_url": "https://arxiv.org/pdf/2410.02749.pdf",
-    "title": "Training Language Models on Synthetic Edit Sequences Improves Code Synthesis",
-    "year": 2025
-  },
-  {
-    "page_url": "https://arxiv.org/abs/2409.12192",
-    "pdf_path": "pdfs/2024-dynamo-in-domain-dynamics-pretraining-for-visuo-motor-control.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2409.12192.pdf",
-    "title": "DynaMo: In-Domain Dynamics Pretraining for Visuo-Motor Control",
+    "title": "Training language models on synthetic edit sequences improves code synthesis",
     "year": 2024
   },
   {
-    "page_url": "https://arxiv.org/abs/2406.07539",
-    "pdf_path": "pdfs/2024-baku-an-efficient-transformer-for-multi-task-policy-learning.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2406.07539.pdf",
-    "title": "BAKU: An Efficient Transformer for Multi-Task Policy Learning",
-    "year": 2024
-  },
-  {
-    "page_url": "https://arxiv.org/abs/2403.07870",
-    "pdf_path": "pdfs/2024-open-teach-a-versatile-teleoperation-system-for-robotic-manipulation.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2403.07870.pdf",
-    "title": "OPEN TEACH: A Versatile Teleoperation System for Robotic Manipulation",
-    "year": 2024
-  },
-  {
-    "page_url": "https://arxiv.org/abs/2401.12202",
-    "pdf_path": "pdfs/2024-ok-robot-what-really-matters-in-integrating-open-knowledge-models-for-robotics.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2401.12202.pdf",
-    "title": "OK-Robot: What Really Matters in Integrating Open-Knowledge Models for Robotics",
-    "year": 2024
-  },
-  {
-    "page_url": "https://arxiv.org/pdf/2412.06784",
-    "pdf_path": "pdfs/2025-p3-po-prescriptive-point-priors-for-visuo-spatial-generalization-of-robot-policies.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2412.06784.pdf",
-    "title": "P3-PO: Prescriptive Point Priors for Visuo-Spatial Generalization of Robot Policies",
-    "year": 2025
-  },
-  {
-    "page_url": "https://arxiv.org/abs/2403.03181",
-    "pdf_path": "pdfs/2024-vq-bet-behavior-generation-with-latent-actions.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2403.03181.pdf",
-    "title": "VQ-BeT: Behavior Generation with Latent Actions",
-    "year": 2024
-  },
-  {
-    "page_url": "https://arxiv.org/abs/2406.04318",
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
     "pdf_path": "pdfs/2024-adaptive-sampling-of-k-space-in-magnetic-resonance-for-rapid-pathology-prediction.pdf",
     "pdf_url": "https://arxiv.org/pdf/2406.04318.pdf",
-    "title": "Adaptive Sampling of k-space in Magnetic Resonance for Rapid Pathology Prediction",
+    "title": "Adaptive sampling of k-space in magnetic resonance for rapid pathology prediction",
     "year": 2024
   },
   {
-    "page_url": "https://arxiv.org/abs/2402.10211",
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-open-teach-a-versatile-teleoperation-system-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.07870.pdf",
+    "title": "Open teach: A versatile teleoperation system for robotic manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-behavior-generation-with-latent-actions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.03181.pdf",
+    "title": "Behavior generation with latent actions",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
     "pdf_path": "pdfs/2024-hierarchical-state-space-models-for-continuous-sequence-to-sequence-modeling.pdf",
     "pdf_url": "https://arxiv.org/pdf/2402.10211.pdf",
-    "title": "Hierarchical State Space Models for Continuous Sequence-to-Sequence Modeling",
+    "title": "Hierarchical state space models for continuous sequence-to-sequence modeling",
     "year": 2024
   },
   {
-    "page_url": "https://arxiv.org/abs/2312.07540",
-    "pdf_path": "pdfs/2024-diff-history-for-neural-language-agents.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2312.07540.pdf",
-    "title": "diff History for Neural Language Agents",
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-ok-robot-what-really-matters-in-integrating-open-knowledge-models-for-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.12202.pdf",
+    "title": "Ok-robot: What really matters in integrating open-knowledge models for robotics",
     "year": 2024
   },
   {
-    "page_url": "https://arxiv.org/abs/2311.16098",
-    "pdf_path": "pdfs/2024-on-bringing-robots-home.pdf",
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-on-bringing-robots-home.pdf",
     "pdf_url": "https://arxiv.org/pdf/2311.16098.pdf",
-    "title": "On Bringing Robots Home",
-    "year": 2024
-  },
-  {
-    "page_url": "https://arxiv.org/abs/2309.12300",
-    "pdf_path": "pdfs/2024-see-to-touch-learning-tactile-dexterity-through-visual-incentives.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2309.12300.pdf",
-    "title": "See to Touch: Learning Tactile Dexterity through Visual Incentives",
-    "year": 2024
-  },
-  {
-    "page_url": "https://arxiv.org/abs/2305.19240",
-    "pdf_path": "pdfs/2023-nethack-is-hard-to-hack.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2305.19240.pdf",
-    "title": "NetHack is Hard to Hack",
+    "title": "On bringing robots home",
     "year": 2023
   },
   {
-    "page_url": "https://arxiv.org/pdf/2303.12076.pdf",
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-polytask-learning-unified-policies-through-behavior-distillation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08573.pdf",
+    "title": "Polytask: Learning unified policies through behavior distillation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
     "pdf_path": "pdfs/2023-dexterity-from-touch-self-supervised-pre-training-of-tactile-representations-with-robotic-play.pdf",
     "pdf_url": "https://arxiv.org/pdf/2303.12076.pdf",
-    "title": "Dexterity from Touch: Self-Supervised Pre-Training of Tactile Representations with Robotic Play",
+    "title": "Dexterity from touch: Self-supervised pre-training of tactile representations with robotic play",
     "year": 2023
   },
   {
-    "page_url": "https://arxiv.org/pdf/2210.01116.pdf",
-    "pdf_path": "pdfs/2023-that-sounds-right-auditory-self-supervision-for-dynamic-robot-manipulation.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2210.01116.pdf",
-    "title": "That Sounds Right: Auditory Self-Supervision for Dynamic Robot Manipulation",
-    "year": 2023
-  },
-  {
-    "page_url": "https://arxiv.org/abs/2303.01497",
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
     "pdf_path": "pdfs/2023-teach-a-robot-to-fish-versatile-imitation-from-one-minute-of-demonstrations.pdf",
     "pdf_url": "https://arxiv.org/pdf/2303.01497.pdf",
-    "title": "Teach a Robot to FISH: Versatile Imitation from One Minute of Demonstrations",
+    "title": "Teach a robot to fish: Versatile imitation from one minute of demonstrations",
     "year": 2023
   },
   {
-    "page_url": "https://arxiv.org/abs/2210.05663",
-    "pdf_path": "pdfs/2023-clip-fields-weakly-supervised-semantic-fields-for-robotic-memory.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2210.05663.pdf",
-    "title": "CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory",
-    "year": 2023
-  },
-  {
-    "page_url": "https://arxiv.org/pdf/2210.10047.pdf",
-    "pdf_path": "pdfs/2023-from-play-to-policy-conditional-behavior-generation-from-uncurated-robot-data.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2210.10047.pdf",
-    "title": "From play to policy: Conditional behavior generation from uncurated robot data",
-    "year": 2023
-  },
-  {
-    "page_url": "https://arxiv.org/pdf/2210.06463.pdf",
-    "pdf_path": "pdfs/2023-holo-dex-teaching-dexterity-with-immersive-mixed-reality.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2210.06463.pdf",
-    "title": "Holo-Dex: Teaching Dexterity with Immersive Mixed Reality",
-    "year": 2023
-  },
-  {
-    "page_url": "https://arxiv.org/abs/2203.13251",
-    "pdf_path": "pdfs/2023-dexterous-imitation-made-easy-a-learning-based-framework-for-efficient-dexterous-manipulation.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2203.13251.pdf",
-    "title": "Dexterous Imitation Made Easy: A Learning-Based Framework for Efficient Dexterous Manipulation",
+    "page_url": "https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-diff-history-for-long-context-language-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.07540.pdf",
+    "title": "diff History for Long-Context Language Agents",
     "year": 2023
   }
 ]

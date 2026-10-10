@@ -395,7 +395,16 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--lab", default=None, help="Only summarize one lab folder name.")
     parser.add_argument("--timeout", type=int, default=DEFAULT_TIMEOUT_SECONDS)
     parser.add_argument("--max-chars", type=int, default=DEFAULT_MAX_CHARS)
-    parser.add_argument("--force", action="store_true", help="Regenerate existing summaries.")
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Regenerate existing summaries. By default, papers with summary files are skipped.",
+    )
+    parser.add_argument(
+        "--all",
+        action="store_true",
+        help="Summarize all papers, including papers that already have summary files.",
+    )
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--source", choices=("pdf", "text"), default=SUMMARY_SOURCE, help="Send the raw PDF when supported, or extracted text.")
     parser.add_argument("--limit", type=int, default=None, help="Limit papers per lab.")
@@ -420,7 +429,7 @@ def main(argv: list[str] | None = None) -> int:
             lab_dir,
             timeout=args.timeout,
             max_chars=args.max_chars,
-            force=args.force,
+            force=args.force or args.all,
             dry_run=args.dry_run,
             limit=args.limit,
             source=args.source,

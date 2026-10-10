@@ -1,0 +1,86 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-eyerobot-2-0-active-gaze-for-precise-manipulation-without-wrist-cameras.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03710.pdf",
+    "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-agro-suvide-agentic-robotics-for-surgical-viscoelastic-debridement.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.34823.pdf",
+    "title": "AGRO-SUVIDE: Agentic Robotics for Surgical Viscoelastic Debridement",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-trace-interactive-bi-directional-tracing-of-monochrome-cables-amid-clutter.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.29103.pdf",
+    "title": "TRACE: Interactive Bi-Directional Tracing of Monochrome Cables Amid Clutter",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-macaw-reliable-and-efficient-surgical-debridement-using-monocular-adaptive-compact-attention-windows.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.01961.pdf",
+    "title": "MACAW: Reliable And Efficient Surgical Debridement Using Monocular Adaptive Compact Attention Windows",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-gap-a-graph-as-policy-multi-agent-self-learning-harness-for-variational-automation-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.05369.pdf",
+    "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-robovista-evaluating-vision-language-models-for-diverse-robot-applications.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.04610.pdf",
+    "title": "RoboVista: Evaluating Vision Language Models for Diverse Robot Applications",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-aspire-agentic-skills-discovery-for-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.00272.pdf",
+    "title": "ASPIRE: Agentic/Skills Discovery for Robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-warp-rm-a-warp-augmented-relative-progress-reward-model-for-data-curation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.28320.pdf",
+    "title": "WARP-RM: A Warp-Augmented Relative Progress Reward Model for Data Curation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-playful-agentic-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.19419.pdf",
+    "title": "Playful Agentic Robot Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-t-rex-tactile-reactive-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.17055.pdf",
+    "title": "T-Rex: Tactile-reactive dexterous manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-adversarial-attacks-on-learned-policies-for-surgical-robotic-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.11535.pdf",
+    "title": "Adversarial Attacks on Learned Policies for Surgical Robotic Tasks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-sarm2-multi-task-stage-aware-reward-modeling-for-self-improving-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.10305.pdf",
+    "title": "SARM2: Multi-Task Stage Aware Reward Modeling for Self Improving Robotic Manipulation",
+    "year": 2026
+  }
+]
