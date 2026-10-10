@@ -1,0 +1,44 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=roCAWkoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-scaling-behavior-foundation-model-for-humanoid-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.15163.pdf",
+    "title": "Scaling Behavior Foundation Model for Humanoid Robots",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=roCAWkoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-dexjoco-a-benchmark-and-toolkit-for-task-oriented-dexterous-manipulation-on-mujoco.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.16257.pdf",
+    "title": "Dexjoco: A benchmark and toolkit for task-oriented dexterous manipulation on mujoco",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=roCAWkoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-adaptive-q-chunking-for-offline-to-online-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.05544.pdf",
+    "title": "Adaptive Q-Chunking for Offline-to-Online Reinforcement Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=roCAWkoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-tacdexgrasp-compliant-and-robust-dexterous-grasping-with-tactile-feedback.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.07040.pdf",
+    "title": "TacDexGrasp: Compliant and Robust Dexterous Grasping with Tactile Feedback",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=roCAWkoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-fg-nerf-flow-gan-based-probabilistic-neural-radiance-field-for-independence-assumption-free-uncertainty-estimation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.16364.pdf",
+    "title": "FG-NeRF: Flow-GAN based probabilistic neural radiance field for independence-assumption-free uncertainty estimation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=roCAWkoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2089-foldnet-a-large-scale-synthetic-dataset-for-robotic-t-shirt-folding-and-unfolding.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.15163.pdf",
+    "title": "FoldNet++: a Large-Scale Synthetic Dataset for Robotic T-Shirt Folding and Unfolding",
+    "year": 2089
+  }
+]

@@ -38,6 +38,25 @@ def test_select_papers_skips_existing_summaries_unless_forced(tmp_path):
     assert select_papers_to_summarize(lab_dir, [paper], force=True) == [paper]
 
 
+def test_select_papers_sorts_by_summary_filename(tmp_path):
+    lab_dir = tmp_path / "airlab(basti)"
+    pdf_dir = lab_dir / "pdfs"
+    pdf_dir.mkdir(parents=True)
+    for name in ["zeta.pdf", "alpha.pdf", "beta.pdf"]:
+        (pdf_dir / name).write_bytes(b"%PDF")
+    papers = [
+        {"title": "Zeta Robot Paper", "year": 2025, "pdf_path": "pdfs/zeta.pdf"},
+        {"title": "Alpha Robot Paper", "year": 2024, "pdf_path": "pdfs/alpha.pdf"},
+        {"title": "Beta Robot Paper", "year": 2024, "pdf_path": "pdfs/beta.pdf"},
+    ]
+
+    assert [paper["title"] for paper in select_papers_to_summarize(lab_dir, papers)] == [
+        "Alpha Robot Paper",
+        "Beta Robot Paper",
+        "Zeta Robot Paper",
+    ]
+
+
 def test_main_all_regenerates_existing_summaries(tmp_path, monkeypatch):
     lab_dir = tmp_path / "labs" / "airlab(basti)"
     lab_dir.mkdir(parents=True)

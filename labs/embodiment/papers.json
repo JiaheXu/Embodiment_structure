@@ -1,0 +1,23 @@
+[
+  {
+    "page_url": "https://www.bilibili.com/video/BV1SFH76QEoF",
+    "pdf_path": "pdfs/2026-from-reactive-containment-to-proactive-assurance-lessons-from-openai-anthropic-and-google-agent-security-incidents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.12463v1.pdf",
+    "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1eYH76FEvN",
+    "pdf_path": "pdfs/2026-omnicapbench-a-deep-structured-evaluation-framework-for-fine-grained-audio-visual-captioning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.12458v1.pdf",
+    "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1mDHJ6xEhw",
+    "pdf_path": "pdfs/2026-versacamvla-camera-configurable-vla-policies-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.12451v1.pdf",
+    "title": "VersaCamVLA: Camera-Configurable VLA Policies for Robotic Manipulation",
+    "year": 2026
+  }
+]

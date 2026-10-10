@@ -1,0 +1,212 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-skillweaver-agentic-exploration-over-neural-interaction-skills-for-scalable-robot-data-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.36171.pdf",
+    "title": "SkillWeaver: Agentic Exploration over Neural Interaction Skills for Scalable Robot Data Generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-trackeverything-long-horizon-dense-tracking-via-de-duplicating-3d-scene-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.30222.pdf",
+    "title": "TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-embodiedswe-coding-agents-for-long-horizon-dexterous-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.27308.pdf",
+    "title": "EmbodiedSWE: Coding Agents for Long Horizon Dexterous Robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-higennto-scalable-humanoid-interaction-generation-via-noise-space-trajectory-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.22611.pdf",
+    "title": "HIGenNTO: Scalable Humanoid Interaction Generation via Noise-Space Trajectory Optimization",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-geomvla-unifying-scene-motion-and-action-in-3d.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.13812.pdf",
+    "title": "GeomVLA: Unifying Scene, Motion, and Action in 3D",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-tactile-genesis-exploring-tactile-sensors-at-scale-for-learning-dexterous-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.22332.pdf",
+    "title": "Tactile Genesis: Exploring Tactile Sensors at Scale for Learning Dexterous Tasks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-solving-physics-olympiad-via-reinforcement-learning-on-physics-simulators.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.11805.pdf",
+    "title": "Solving physics olympiad via reinforcement learning on physics simulators",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-learning-to-assist-physics-grounded-human-human-control-via-multi-agent-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.11346.pdf",
+    "title": "Learning to Assist: Physics-Grounded Human-Human Control via Multi-Agent Reinforcement Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-dex4d-task-agnostic-point-track-policy-for-sim-to-real-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.15828.pdf",
+    "title": "Dex4d: Task-agnostic point track policy for sim-to-real dexterous manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-iterative-refinement-improves-compositional-image-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.15286.pdf",
+    "title": "Iterative refinement improves compositional image generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-robotag-end-to-end-robot-configuration-estimation-via-topological-alignment-graph.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.07717.pdf",
+    "title": "RoboTAG: End-to-end Robot Configuration Estimation via Topological Alignment Graph",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-robotarena-scalable-robot-benchmarking-via-real-to-sim-translation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.23571.pdf",
+    "title": "Robotarena\u221e: Scalable robot benchmarking via real-to-sim translation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-3d-flowmatch-actor-unified-3d-policy-for-single-and-dual-arm-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.11002.pdf",
+    "title": "3d flowmatch actor: Unified 3d policy for single-and dual-arm manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-self-questioning-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.03682.pdf",
+    "title": "Self-questioning language models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-generative-4d-scene-gaussian-splatting-with-object-view-synthesis-priors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.12716.pdf",
+    "title": "Generative 4D Scene Gaussian Splatting with Object View-Synthesis Priors",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-maximizing-confidence-alone-improves-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.22660.pdf",
+    "title": "Maximizing confidence alone improves reasoning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-unified-multimodal-discrete-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.20853.pdf",
+    "title": "Unified multimodal discrete diffusion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-unifying-2d-and-3d-vision-language-understanding.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.10745.pdf",
+    "title": "Unifying 2d and 3d vision-language understanding",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-deep-generative-models-in-robotics-a-survey-on-learning-from-multimodal-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.04380.pdf",
+    "title": "Deep generative models in robotics: A survey on learning from multimodal demonstrations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-video-diffusion-alignment-via-reward-gradients.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.08737.pdf",
+    "title": "Video diffusion alignment via reward gradients",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-helper-x-a-unified-instructable-embodied-agent-to-tackle-four-interactive-vision-language-domains-with-memory-augmented-.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.19065.pdf",
+    "title": "Helper-x: A unified instructable embodied agent to tackle four interactive vision-language domains with memory-augmented language models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-3d-diffuser-actor-policy-diffusion-with-3d-scene-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.10885.pdf",
+    "title": "3d diffuser actor: Policy diffusion with 3d scene representations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-diffusion-es-gradient-free-planning-with-diffusion-for-autonomous-driving-and-zero-shot-instruction-following.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.06559.pdf",
+    "title": "Diffusion-es: Gradient-free planning with diffusion for autonomous driving and zero-shot instruction following",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-ical-continual-learning-of-multimodal-agents-by-transforming-trajectories-into-actionable-insights.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.14596.pdf",
+    "title": "Ical: Continual learning of multimodal agents by transforming trajectories into actionable insights",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.01455.pdf",
+    "title": "Robogen: Towards unleashing infinite data for automated robot learning via generative simulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-act3d-3d-feature-field-transformers-for-multi-task-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.17817.pdf",
+    "title": "Act3d: 3d feature field transformers for multi-task robotic manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-energy-based-models-are-zero-shot-planners-for-compositional-scene-rearrangement.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.14391.pdf",
+    "title": "Energy-based models are zero-shot planners for compositional scene rearrangement",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-analogy-forming-transformers-for-few-shot-3d-parsing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.14382.pdf",
+    "title": "Analogy-forming transformers for few-shot 3d parsing",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-fluidlab-a-differentiable-environment-for-benchmarking-complex-fluid-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.02346.pdf",
+    "title": "Fluidlab: A differentiable environment for benchmarking complex fluid manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-act3d-infinite-resolution-action-detection-transformer-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.17817.pdf",
+    "title": "Act3d: Infinite resolution action detection transformer for robotic manipulation",
+    "year": 2023
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-human-centered-in-building-embodied-delivery-benchmark.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.17898.pdf",
+    "title": "Human-centered in-building embodied delivery benchmark",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-rad-a-dataset-and-benchmark-for-real-life-anomaly-detection-with-robotic-observations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.00713.pdf",
+    "title": "RAD: A dataset and benchmark for real-life anomaly detection with robotic observations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-unidexfpm-universal-dexterous-functional-pre-grasp-manipulation-via-diffusion-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.12421.pdf",
+    "title": "UnidexFPM: Universal dexterous functional pre-grasp manipulation via diffusion policy",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-fidelity-aware-data-composition-for-robust-robot-generalization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.24797.pdf",
+    "title": "Fidelity-aware data composition for robust robot generalization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-from-strangers-to-assistants-fast-desire-alignment-for-embodied-agent-user-adaptation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.22503.pdf",
+    "title": "From Strangers to Assistants: Fast Desire Alignment for Embodied Agent-User Adaptation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-llm2rewards-boosting-universal-llm-reward-design-through-heuristic-reward-observation-space-evolution.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.07596.pdf",
+    "title": "LLM2Rewards: Boosting Universal LLM Reward Design through Heuristic Reward Observation Space Evolution",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-robocoin-an-open-sourced-bimanual-robotic-data-collection-for-integrated-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.17441.pdf",
+    "title": "Robocoin: An open-sourced bimanual robotic data collection for integrated manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-twinaligner-visual-dynamic-alignment-empowers-physics-aware-real2sim2real-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.19390.pdf",
+    "title": "Twinaligner: Visual-dynamic alignment empowers physics-aware real2sim2real for robotic manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-at-vla-adaptive-tactile-injection-for-enhanced-feedback-reaction-in-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.07308.pdf",
+    "title": "At-vla: Adaptive tactile injection for enhanced feedback reaction in vision-language-action models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-biroad-learning-shared-and-role-adaptive-representations-for-bimanual-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.04434.pdf",
+    "title": "BiRoAD: Learning Shared and Role-Adaptive Representations for Bimanual Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-heterogenmanip-generalizable-manipulation-for-heterogeneous-object-interactions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.10201.pdf",
+    "title": "HeteroGenManip: Generalizable Manipulation For Heterogeneous Object Interactions",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-rmbench-memory-dependent-robotic-manipulation-benchmark-with-insights-into-policy-design.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.01229.pdf",
+    "title": "Rmbench: Memory-dependent robotic manipulation benchmark with insights into policy design",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-robodojo-a-unified-sim-and-real-benchmark-for-comprehensive-evaluation-of-generalist-robot-manipulation-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.04434.pdf",
+    "title": "RoboDojo: A unified sim-and-real benchmark for comprehensive evaluation of generalist robot manipulation policies",
+    "year": 2026
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-generalizable-robotic-insertion-with-world-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.28258.pdf",
+    "title": "Generalizable Robotic Insertion with World Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-a-multi-stream-world-action-model-with-compute-flexibility.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.10860.pdf",
+    "title": "A Multi-Stream World-Action Model with Compute Flexibility",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-tam-torque-adaptation-module-for-robust-motion-transfer-in-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.06218.pdf",
+    "title": "TAM: Torque Adaptation Module for Robust Motion Transfer in Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-seetraceact-visibility-aware-latent-planning-from-cross-embodiment-demonstration-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.02745.pdf",
+    "title": "SeeTraceAct: Visibility-Aware Latent Planning from Cross-Embodiment Demonstration Videos",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-molmoact2-action-reasoning-models-for-real-world-deployment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.02881.pdf",
+    "title": "Molmoact2: Action reasoning models for real-world deployment",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-roboplayground-democratizing-robotic-evaluation-through-structured-physical-domains.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.05226.pdf",
+    "title": "RoboPlayground: Democratizing Robotic Evaluation through Structured Physical Domains",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-molmob0t-large-scale-simulation-enables-zero-shot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.16861.pdf",
+    "title": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-vla-eval-a-unified-evaluation-harness-for-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.13966.pdf",
+    "title": "vla-eval: A Unified Evaluation Harness for Vision-Language-Action Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-robometer-scaling-general-purpose-robotic-reward-models-via-trajectory-comparisons.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.02115.pdf",
+    "title": "Robometer: Scaling general-purpose robotic reward models via trajectory comparisons",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-topreward-token-probabilities-as-hidden-zero-shot-rewards-for-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.19313.pdf",
+    "title": "Topreward: Token probabilities as hidden zero-shot rewards for robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-molmospaces-a-large-scale-open-ecosystem-for-robot-navigation-and-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.11337.pdf",
+    "title": "Molmospaces: A large-scale open ecosystem for robot navigation and manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-recurrent-depth-vla-implicit-test-time-compute-scaling-of-vision-language-action-models-via-latent-iterative-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.07845.pdf",
+    "title": "Recurrent-depth vla: Implicit test-time compute scaling of vision-language-action models via latent iterative reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-point-bridge-3d-representations-for-cross-domain-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.16212.pdf",
+    "title": "Point bridge: 3d representations for cross domain policy learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-pointworld-scaling-3d-world-models-for-in-the-wild-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.03782.pdf",
+    "title": "Pointworld: Scaling 3d world models for in-the-wild robotic manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-vt-refine-learning-bimanual-assembly-with-visuo-tactile-feedback-via-simulation-fine-tuning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.14930.pdf",
+    "title": "Vt-refine: Learning bimanual assembly with visuo-tactile feedback via simulation fine-tuning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-failsafe-reasoning-and-recovery-from-failures-in-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.01642.pdf",
+    "title": "Failsafe: Reasoning and recovery from failures in vision-language-action models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-maniflow-a-general-robot-manipulation-policy-via-consistency-flow-training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.01819.pdf",
+    "title": "Maniflow: A general robot manipulation policy via consistency flow training",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-robot-policy-evaluation-for-sim-to-real-transfer-a-benchmarking-perspective.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.11117.pdf",
+    "title": "Robot policy evaluation for sim-to-real transfer: A benchmarking perspective",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-og-vla-orthographic-image-generation-for-3d-aware-vision-language-action-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.01196.pdf",
+    "title": "Og-vla: Orthographic image generation for 3d-aware vision-language action model",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-og-vla-3d-aware-vision-language-action-model-via-orthographic-image-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.01196.pdf",
+    "title": "OG-VLA: 3D-aware vision language action model via orthographic image generation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-dexmachina-functional-retargeting-for-bimanual-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.24853.pdf",
+    "title": "Dexmachina: Functional retargeting for bimanual dexterous manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.12705.pdf",
+    "title": "Dreamgen: Unlocking generalization in robot learning through video world models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-pointarena-probing-multimodal-grounding-through-language-guided-pointing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.09990.pdf",
+    "title": "Pointarena: Probing multimodal grounding through language-guided pointing",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-slot-level-robotic-placement-via-visual-imitation-from-single-human-video.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.01959.pdf",
+    "title": "Slot-Level Robotic Placement via Visual Imitation from Single Human Video",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-gr00t-n1-an-open-foundation-model-for-generalist-humanoid-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.14734.pdf",
+    "title": "Gr00t n1: An open foundation model for generalist humanoid robots",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-cosmos-transfer1-conditional-world-generation-with-adaptive-multimodal-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.14492.pdf",
+    "title": "Cosmos-transfer1: Conditional world generation with adaptive multimodal control",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-sam2act-integrating-visual-foundation-model-with-a-memory-architecture-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.18564.pdf",
+    "title": "Sam2act: Integrating visual foundation model with a memory architecture for robotic manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-cosmos-world-foundation-model-platform-for-physical-ai.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.03575.pdf",
+    "title": "Cosmos world foundation model platform for physical ai",
+    "year": 2025
+  }
+]

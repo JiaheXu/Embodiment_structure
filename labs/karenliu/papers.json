@@ -1,0 +1,184 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-diffusion-inertial-poser-human-motion-reconstruction-from-arbitrary-sparse-imu-configurations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2308.16682.pdf",
+    "title": "Diffusion inertial poser: Human motion reconstruction from arbitrary sparse imu configurations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-learning-to-design-and-use-tools-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.00754.pdf",
+    "title": "Learning to design and use tools for robotic manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-sequential-dexterity-chaining-dexterous-policies-for-long-horizon-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.00987.pdf",
+    "title": "Sequential dexterity: Chaining dexterous policies for long-horizon manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-dexcap-scalable-and-portable-mocap-data-collection-system-for-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.07788.pdf",
+    "title": "Dexcap: Scalable and portable mocap data collection system for dexterous manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-motion-diffusion-guided-3d-global-hmr-from-a-dynamic-camera.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.10582.pdf",
+    "title": "Motion Diffusion-Guided 3D Global HMR from a Dynamic Camera",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-object-centric-dexterous-manipulation-from-human-motion-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.04005.pdf",
+    "title": "Object-centric dexterous manipulation from human motion data",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-springgrasp-an-optimization-pipeline-for-robust-and-compliant-dexterous-pre-grasp-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.13532.pdf",
+    "title": "Springgrasp: An optimization pipeline for robust and compliant dexterous pre-grasp synthesis",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-springgrasp-synthesizing-compliant-dexterous-grasps-under-shape-uncertainty.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.13532.pdf",
+    "title": "Springgrasp: Synthesizing compliant, dexterous grasps under shape uncertainty",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-unified-training-of-universal-time-series-forecasting-transformers-arxiv-2024.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.02592.pdf",
+    "title": "Unified training of universal time series forecasting transformers. arXiv 2024",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-crossing-the-human-robot-embodiment-gap-with-sim-to-real-rl-using-one-human-demonstration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.12609.pdf",
+    "title": "Crossing the human-robot embodiment gap with sim-to-real rl using one human demonstration",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-hand-eye-autonomous-delivery-learning-humanoid-navigation-locomotion-and-reaching.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.03068.pdf",
+    "title": "Hand-eye autonomous delivery: Learning humanoid navigation, locomotion and reaching",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-preci-pretraining-and-continual-improvement-of-humanoid-locomotion-via-model-assumption-based-regularization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.09833.pdf",
+    "title": "Preci: Pretraining and continual improvement of humanoid locomotion via model-assumption-based regularization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-resmimic-from-general-motion-tracking-to-humanoid-whole-body-loco-manipulation-via-residual-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.05070.pdf",
+    "title": "Resmimic: From general motion tracking to humanoid whole-body loco-manipulation via residual learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-training-language-models-for-social-deduction-with-multi-agent-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.06060.pdf",
+    "title": "Training language models for social deduction with multi-agent reinforcement learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-twist-teleoperated-whole-body-imitation-system.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.02833.pdf",
+    "title": "Twist: Teleoperated whole-body imitation system",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-virtualfencer-generating-fencing-bouts-based-on-strategies-extracted-from-in-the-wild-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.00261.pdf",
+    "title": "VirtualFencer: Generating Fencing Bouts based on Strategies Extracted from In-the-Wild Videos",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-visualmimic-visual-humanoid-loco-manipulation-via-motion-tracking-and-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.20322.pdf",
+    "title": "Visualmimic: Visual humanoid loco-manipulation via motion tracking and generation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-cloak-zero-shot-cross-embodiment-manipulation-by-masking-the-end-effector-from-the-vla.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.22836.pdf",
+    "title": "Cloak: Zero-Shot Cross-Embodiment Manipulation by Masking the End-Effector from the VLA",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-counterfactual-video-generation-enables-scalable-humanoid-loco-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.38172.pdf",
+    "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-eyerobot-2-0-active-gaze-for-precise-manipulation-without-wrist-cameras.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03710.pdf",
+    "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-flow-policy-gradients-for-robot-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.02481.pdf",
+    "title": "Flow policy gradients for robot control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-learning-realistic-athletic-sprinting-without-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.11083.pdf",
+    "title": "Learning Realistic Athletic Sprinting Without Demonstrations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-perceptive-humanoid-parkour-chaining-dynamic-human-skills-via-motion-matching.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.15827.pdf",
+    "title": "Perceptive humanoid parkour: Chaining dynamic human skills via motion matching",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-play2perfect-what-matters-in-dexterous-play-pretraining-for-precise-assembly.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.26428.pdf",
+    "title": "Play2Perfect: What Matters in Dexterous Play Pretraining for Precise Assembly?",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-rpl-learning-robust-humanoid-perceptive-locomotion-on-challenging-terrains.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.03002.pdf",
+    "title": "Rpl: Learning robust humanoid perceptive locomotion on challenging terrains",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-vlk-learning-humanoid-loco-manipulation-from-synthetic-interactions-in-reconstructed-scenes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.30645.pdf",
+    "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
+    "year": 2026
+  }
+]

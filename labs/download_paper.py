@@ -25,10 +25,13 @@ from xml.etree import ElementTree
 DEFAULT_MIN_YEAR = 2023
 DEFAULT_TIMEOUT_SECONDS = 30 * 60
 DEFAULT_WORKERS = 2
-DEFAULT_HTTP_RETRIES = 3
+DEFAULT_HTTP_ATTEMPTS = 3
 BILIBILI_VIDEO_LIMIT = 30
 GOOGLE_SCHOLAR_PAGE_SIZE = 100
 GOOGLE_SCHOLAR_MAX_PAGES = 20
+RAI_LOAD_MORE_PAGE_SIZE = 12
+RAI_LOAD_MORE_MAX_PAGES = 10
+RAI_ARXIV_SEARCH_TIMEOUT_SECONDS = 10
 MANIFEST_NAME = "papers.json"
 PDF_DIR_NAME = "pdfs"
 FAILED_NAME = "failed.txt"
@@ -113,7 +116,10 @@ class _PublicationParser(HTMLParser):
 def discover_lab_dirs(labs_root: Path) -> list[Path]:
     if not labs_root.exists():
         return []
-    return sorted(path for path in labs_root.iterdir() if (path / "link.txt").is_file())
+    return sorted(
+        (path for path in labs_root.iterdir() if (path / "link.txt").is_file()),
+        key=lambda path: path.name.casefold(),
+    )
 
 
 def filter_bilibili_lab_dirs(lab_dirs: Iterable[Path]) -> list[Path]:
@@ -184,6 +190,83 @@ def parse_publication_page(html: str, base_url: str, min_year: int = DEFAULT_MIN
         seen.add(key)
         candidates.append(PaperCandidate(title=title, year=year, page_url=base_url, pdf_url=pdf_url))
     return candidates
+
+
+def extract_rai_papers(html: str, base_url: str, min_year: int, timeout: int) -> list[PaperCandidate]:
+    if "rai-inst.com" not in urlparse(base_url).netloc.lower():
+        return []
+
+    candidates: list[PaperCandidate] = []
+    seen: set[tuple[str, str]] = set()
+    for title, year, page_url in _iter_rai_resource_cards(html, base_url, min_year, timeout):
+        paper = search_arxiv_for_title(
+            title,
+            page_url,
+            min_year=min_year,
+            timeout=min(timeout, RAI_ARXIV_SEARCH_TIMEOUT_SECONDS),
+        )
+        if paper is None or not _titles_match(title, paper.title):
+            continue
+        paper = PaperCandidate(title=title, year=year, page_url=page_url, pdf_url=paper.pdf_url)
+        key = (safe_filename(paper.title), paper.pdf_url)
+        if key in seen:
+            continue
+        seen.add(key)
+        candidates.append(paper)
+    return candidates
+
+
+def fetch_rai_wpgb_posts(base_url: str, offset: int, timeout: int) -> str:
+    endpoint = f"https://rai-inst.com/?wpgb-ajax=refresh&_type=papers&_load_more={offset}"
+    settings = {
+        "is_main_query": False,
+        "main_query": [],
+        "permalink": "https://rai-inst.com/resources/",
+        "facets": [1, 2, 6, 5, 4],
+        "lang": "",
+        "id": 1,
+    }
+    body = urlencode({"wpgb": json.dumps(settings, separators=(",", ":"))}).encode()
+    request = Request(
+        endpoint,
+        data=body,
+        headers={
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Referer": base_url,
+            "User-Agent": USER_AGENT,
+        },
+        method="POST",
+    )
+    try:
+        data, response = read_url_with_retries(request, timeout=timeout)
+    except (HTTPError, URLError, TimeoutError, IncompleteRead, ssl.SSLError):
+        return ""
+    charset = response.headers.get_content_charset() or "utf-8"
+    try:
+        payload = json.loads(data.decode(charset, errors="replace"))
+    except json.JSONDecodeError:
+        return ""
+    posts = payload.get("posts", "")
+    return posts if isinstance(posts, str) else ""
+
+
+def search_arxiv_for_title(title: str, page_url: str, min_year: int, timeout: int) -> PaperCandidate | None:
+    if not title:
+        return None
+    url = (
+        "https://export.arxiv.org/api/query"
+        f"?search_query=all:{quote_plus(title)}"
+        "&start=0&max_results=3&sortBy=relevance&sortOrder=descending"
+    )
+    try:
+        atom = fetch_text(url, timeout=timeout)
+    except (HTTPError, URLError, TimeoutError, IncompleteRead, ssl.SSLError):
+        return None
+    papers = _parse_arxiv_atom_candidates(atom, page_url, min_year=min_year)
+    for paper in papers:
+        if _titles_match(title, paper.title):
+            return paper
+    return None
 
 
 def _parse_bibtex_publications(html: str, base_url: str, min_year: int) -> list[PaperCandidate]:
@@ -358,13 +441,13 @@ def choose_candidates(
     extractor: str,
 ) -> list[PaperCandidate]:
     if extractor == "static":
-        papers = parse_publication_page(html, base_url, min_year=min_year)
+        papers = extract_static_candidates(html, base_url, min_year=min_year, timeout=timeout)
         print(f"[extract:static] extracted {len(papers)} papers | by_year: {format_year_counts(papers, min_year)}")
         return papers
     if extractor == "ai":
         return extract_papers_with_ai(html, base_url, min_year=min_year, timeout=timeout)
     ai_candidates = extract_papers_with_ai(html, base_url, min_year=min_year, timeout=timeout)
-    static_candidates = parse_publication_page(html, base_url, min_year=min_year)
+    static_candidates = extract_static_candidates(html, base_url, min_year=min_year, timeout=timeout)
     print(
         f"[extract:static] extracted {len(static_candidates)} papers | "
         f"by_year: {format_year_counts(static_candidates, min_year)}"
@@ -376,6 +459,13 @@ def choose_candidates(
         f"by_year: {format_year_counts(merged, min_year)}"
     )
     return merged
+
+
+def extract_static_candidates(html: str, base_url: str, min_year: int, timeout: int) -> list[PaperCandidate]:
+    return merge_candidates(
+        parse_publication_page(html, base_url, min_year=min_year),
+        extract_rai_papers(html, base_url, min_year=min_year, timeout=timeout),
+    )
 
 
 def choose_bilibili_candidates(
@@ -437,7 +527,11 @@ def filter_new_papers(lab_dir: Path, candidates: Iterable[PaperCandidate]) -> li
         if pdf_name and pdf_name in existing_pdf_names:
             continue
         new_papers.append(paper)
-    return new_papers
+    return sorted(new_papers, key=paper_output_sort_key)
+
+
+def paper_output_sort_key(paper: PaperCandidate) -> tuple[str, str]:
+    return (f"{paper.year}-{safe_filename(paper.title)}.pdf".casefold(), paper.pdf_url)
 
 
 def load_manifest(lab_dir: Path) -> list[dict[str, object]]:
@@ -526,35 +620,35 @@ def download_pdf(url: str, destination: Path, timeout: int) -> None:
     destination.write_bytes(data)
 
 
-def read_url_with_retries(request: Request, timeout: int, retries: int = DEFAULT_HTTP_RETRIES):
+def read_url_with_retries(request: Request, timeout: int, attempts: int = DEFAULT_HTTP_ATTEMPTS):
     last_exc: Exception | None = None
-    total_attempts = retries + 1
-    for attempt in range(1, total_attempts + 1):
+    attempts = max(1, attempts)
+    for attempt in range(1, attempts + 1):
         try:
             with urlopen(request, timeout=timeout) as response:
                 return response.read(), response
         except (ssl.SSLError, URLError, TimeoutError, IncompleteRead) as exc:
             last_exc = exc
-            if attempt >= total_attempts or not is_retryable_network_error(exc):
+            if attempt >= attempts or not is_retryable_network_error(exc):
                 raise
-            print(f"[retry] HTTP request failed ({exc}); retrying {attempt}/{retries}", file=sys.stderr)
+            print(f"[retry] HTTP request attempt {attempt}/{attempts} failed ({exc}); retrying", file=sys.stderr)
             time.sleep(min(2 ** (attempt - 1), 5))
     if last_exc:
         raise last_exc
     raise RuntimeError("HTTP retry loop did not run")
 
 
-def open_url_with_retries(request: Request, timeout: int, retries: int = DEFAULT_HTTP_RETRIES):
+def open_url_with_retries(request: Request, timeout: int, attempts: int = DEFAULT_HTTP_ATTEMPTS):
     last_exc: Exception | None = None
-    total_attempts = retries + 1
-    for attempt in range(1, total_attempts + 1):
+    attempts = max(1, attempts)
+    for attempt in range(1, attempts + 1):
         try:
             return urlopen(request, timeout=timeout)
         except (ssl.SSLError, URLError, TimeoutError, IncompleteRead) as exc:
             last_exc = exc
-            if attempt >= total_attempts or not is_retryable_network_error(exc):
+            if attempt >= attempts or not is_retryable_network_error(exc):
                 raise
-            print(f"[retry] HTTP request failed ({exc}); retrying {attempt}/{retries}", file=sys.stderr)
+            print(f"[retry] HTTP request attempt {attempt}/{attempts} failed ({exc}); retrying", file=sys.stderr)
             time.sleep(min(2 ** (attempt - 1), 5))
     if last_exc:
         raise last_exc
@@ -890,6 +984,76 @@ def _find_pdf_url(links: object, base_url: str) -> str | None:
     return None
 
 
+def _parse_rai_resource_cards(html: str, base_url: str, min_year: int) -> list[tuple[str, int, str]]:
+    cards: list[tuple[str, int, str]] = []
+    seen: set[str] = set()
+    for match in re.finditer(r"<article\b.*?</article>", html, flags=re.DOTALL | re.IGNORECASE):
+        card = match.group(0)
+        if "resources/papers/" not in card:
+            continue
+        title_match = re.search(
+            r"<h3\b[^>]*>.*?<a\b[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>.*?</h3>",
+            card,
+            flags=re.DOTALL | re.IGNORECASE,
+        )
+        if not title_match:
+            continue
+        page_url = urljoin(base_url, unescape(title_match.group(1)).strip())
+        title = clean_title(_strip_html(title_match.group(2)))
+        year = _find_recent_year(card, min_year)
+        if not title or year is None or not is_probable_publication_title(title):
+            continue
+        if page_url in seen:
+            continue
+        seen.add(page_url)
+        cards.append((title, year, page_url))
+    return cards
+
+
+def _iter_rai_resource_cards(html: str, base_url: str, min_year: int, timeout: int) -> list[tuple[str, int, str]]:
+    cards = _parse_rai_resource_cards(html, base_url, min_year)
+    seen = {page_url for _, _, page_url in cards}
+    all_cards = list(cards)
+    offset = RAI_LOAD_MORE_PAGE_SIZE
+
+    for _ in range(RAI_LOAD_MORE_MAX_PAGES):
+        more_html = fetch_rai_wpgb_posts(base_url, offset=offset, timeout=timeout)
+        offset += RAI_LOAD_MORE_PAGE_SIZE
+        if not more_html:
+            break
+        page_cards = _parse_rai_resource_cards(more_html, base_url, min_year)
+        if not page_cards:
+            break
+        for title, year, page_url in page_cards:
+            if page_url in seen:
+                continue
+            seen.add(page_url)
+            all_cards.append((title, year, page_url))
+        if max((year for _, year, _ in page_cards), default=0) < min_year:
+            break
+
+    return all_cards
+
+
+def _strip_html(value: str) -> str:
+    value = re.sub(r"<[^>]+>", " ", value)
+    return unescape(" ".join(value.split()))
+
+
+def _titles_match(left: str, right: str) -> bool:
+    left_tokens = _title_tokens(left)
+    right_tokens = _title_tokens(right)
+    if not left_tokens or not right_tokens:
+        return False
+    overlap = len(left_tokens & right_tokens)
+    return overlap / max(len(left_tokens), len(right_tokens)) >= 0.72
+
+
+def _title_tokens(title: str) -> set[str]:
+    stop_words = {"a", "an", "and", "for", "from", "in", "of", "on", "the", "to", "using", "via", "with"}
+    return {token for token in re.findall(r"[a-z0-9]+", title.lower()) if token not in stop_words}
+
+
 def _find_arxiv_pdf_url(text: str) -> str | None:
     match = re.search(r"\barxiv\s*:\s*(\d{4}\.\d{4,5}(?:v\d+)?)\b", text, flags=re.IGNORECASE)
     if not match:
@@ -1026,7 +1190,11 @@ def _parse_json_from_text(text: str) -> object:
         pass
     match = re.search(r"```(?:json)?\s*(.*?)```", text, flags=re.DOTALL | re.IGNORECASE)
     if match:
-        return json.loads(match.group(1))
+        try:
+            return json.loads(match.group(1))
+        except json.JSONDecodeError as exc:
+            print(f"[extract:json] malformed fenced JSON ignored: {exc}", file=sys.stderr)
+            return []
     start_positions = [pos for pos in (text.find("["), text.find("{")) if pos != -1]
     if not start_positions:
         return []
@@ -1034,7 +1202,11 @@ def _parse_json_from_text(text: str) -> object:
     end = max(text.rfind("]"), text.rfind("}"))
     if end <= start:
         return []
-    return json.loads(text[start : end + 1])
+    try:
+        return json.loads(text[start : end + 1])
+    except json.JSONDecodeError as exc:
+        print(f"[extract:json] malformed JSON ignored: {exc}", file=sys.stderr)
+        return []
 
 
 def _coerce_year(value: object) -> int | None:

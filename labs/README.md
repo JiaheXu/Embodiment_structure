@@ -166,6 +166,26 @@ SUMMARIZE_PAPER_TIMEOUT=3600 ./labs/summarize_paper.sh
 By default, existing summary files are skipped. Use `--force` or `--all` to
 regenerate summaries for papers that already have summary files.
 
+## Knowledge Tree
+
+After summaries exist, generate a browsable knowledge tree:
+
+```bash
+python3 labs/generate_knowledge_tree.py
+```
+
+This scans `labs/<lab_name>/summary/*.md`, removes duplicate papers by arXiv
+ID, paper URL, or title/year, infers branches from each paper's title plus
+positive `Keywords And Features` entries, then writes:
+
+```text
+labs/knowledge_tree.json
+labs/knowledge_tree.html
+```
+
+Open `labs/knowledge_tree.html` in a browser to inspect branches and click
+paper nodes.
+
 By default it uses the local OpenAI-compatible proxy:
 
 ```text

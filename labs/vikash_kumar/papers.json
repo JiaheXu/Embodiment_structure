@@ -1,0 +1,72 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=lS96SqoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-genaug-retargeting-behaviors-to-unseen-situations-via-generative-augmentation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.06671.pdf",
+    "title": "Genaug: Retargeting behaviors to unseen situations via generative augmentation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=lS96SqoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-learning-fine-grained-bimanual-manipulation-with-low-cost-hardware.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.13705.pdf",
+    "title": "Learning fine-grained bimanual manipulation with low-cost hardware",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=lS96SqoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-natural-and-robust-walking-using-reinforcement-learning-without-demonstrations-in-high-dimensional-musculoskeletal-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.02976.pdf",
+    "title": "Natural and robust walking using reinforcement learning without demonstrations in high-dimensional musculoskeletal models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=lS96SqoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-reboot-reuse-data-for-bootstrapping-efficient-real-world-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.03322.pdf",
+    "title": "Reboot: Reuse data for bootstrapping efficient real-world dexterous manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=lS96SqoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-sar-generalization-of-physiological-agility-and-dexterity-via-synergistic-action-representation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.03716.pdf",
+    "title": "SAR: Generalization of physiological agility and dexterity via synergistic action representation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=lS96SqoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-zero-shot-robot-manipulation-from-passive-human-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.02011.pdf",
+    "title": "Zero-shot robot manipulation from passive human videos",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=lS96SqoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-quasielastic-overrightarrow-3-mathrm-he-overrightarrow-e-e-asymmetry-in-the-threshold-region.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.16370.pdf",
+    "title": "Quasielastic $\\overrightarrow {^{3}\\mathrm {He}}(\\overrightarrow {e},{e'}) $ Asymmetry in the Threshold Region",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=lS96SqoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-charged-kaon-and-proton-multiplicities-in-semi-inclusive-deep-inelastic-scattering-with-11-gev-electrons.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.20745.pdf",
+    "title": "Charged kaon and proton multiplicities in semi-inclusive deep-inelastic scattering with 11 GeV electrons",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=lS96SqoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-myochallenge-2025-a-new-benchmark-for-human-athletic-intelligence.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.15650.pdf",
+    "title": "MyoChallenge 2025: A New Benchmark for Human Athletic Intelligence",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=lS96SqoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-quasielastic-3he-e-e-asymmetry-in-the-threshold-region-with-a-longitudinally-polarized-target.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.20745.pdf",
+    "title": "Quasielastic 3He\u2192(e\u2192, e\u2032) Asymmetry in the Threshold Region with a Longitudinally Polarized Target",
+    "year": 2026
+  }
+]

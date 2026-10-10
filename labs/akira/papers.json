@@ -1,0 +1,23 @@
+[
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Y1p86YEq2",
+    "pdf_path": "pdfs/2026-dex-one2many-learning-dexterous-manipulation-from-a-single-human-demonstration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.12470v1.pdf",
+    "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV12YpK6WEB2",
+    "pdf_path": "pdfs/2026-corl-2026-robottt.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.15275v1.pdf",
+    "title": "\ud83c\udf93\u3010CoRL 2026\u3011RoboTTT\uff1a\u7528\u6d4b\u8bd5\u65f6\u8bad\u7ec3\u6269\u5c55\u673a\u5668\u4eba\u7b56\u7565\u7684\u4e0a\u4e0b\u6587",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV12YpK6WEB2",
+    "pdf_path": "pdfs/2026-robottt-context-scaling-for-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.15275v1.pdf",
+    "title": "RoboTTT: Context Scaling for Robot Policies",
+    "year": 2026
+  }
+]

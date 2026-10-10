@@ -1,0 +1,65 @@
+[
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=-xaOIZIAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-robot-learning-with-visual-predicted-force.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.04741.pdf",
+    "title": "Robot Learning with Visual Predicted Force",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=-xaOIZIAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-rapid-robot-agentic-programming-from-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.30249.pdf",
+    "title": "RAPID: Robot Agentic Programming from Demonstrations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=-xaOIZIAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-simlife-pattern-understanding-for-long-horizon-human-agent-partnership.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.19610.pdf",
+    "title": "SIMLIFE: Pattern Understanding for Long-Horizon Human-Agent Partnership",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=-xaOIZIAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-understanding-and-mitigating-the-video-action-generalization-gap-via-temporal-ratio.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.08127.pdf",
+    "title": "Understanding and Mitigating the Video-Action Generalization Gap via Temporal Ratio",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=-xaOIZIAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-guava-an-effective-and-universal-harness-for-embodied-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.18363.pdf",
+    "title": "Guava: An Effective and Universal Harness for Embodied Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=-xaOIZIAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-v-grpo-online-reinforcement-learning-for-denoising-generative-models-is-easier-than-you-think.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.23380.pdf",
+    "title": "V-GRPO: Online Reinforcement Learning for Denoising Generative Models Is Easier than You Think",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=-xaOIZIAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-implicit-state-estimation-via-video-replanning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.17315.pdf",
+    "title": "Implicit state estimation via video replanning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=-xaOIZIAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-composition-grounded-instruction-synthesis-for-visual-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.15040.pdf",
+    "title": "Composition-Grounded Instruction Synthesis for Visual Reasoning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=-xaOIZIAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-set-it-up-functional-object-arrangement-with-compositional-generative-models-journal-version.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.02068.pdf",
+    "title": "\" Set It Up\": Functional Object Arrangement with Compositional Generative Models (Journal Version)",
+    "year": 2025
+  }
+]

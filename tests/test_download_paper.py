@@ -1,10 +1,12 @@
 import json
+import os
 import ssl
 import subprocess
 from http.client import IncompleteRead, InvalidURL
 from pathlib import Path
 
 from labs.download_paper import (
+    DEFAULT_HTTP_ATTEMPTS,
     DEFAULT_WORKERS,
     DEFAULT_TIMEOUT_SECONDS,
     PaperCandidate,
@@ -22,6 +24,7 @@ from labs.download_paper import (
     fetch_text,
     format_lab_progress,
     format_year_counts,
+    extract_rai_papers,
     is_bilibili_url,
     is_probable_publication_title,
     main,
@@ -46,12 +49,28 @@ def test_discovers_labs_with_link_files(tmp_path):
     assert discover_lab_dirs(labs_root) == [wanted]
 
 
+def test_discovers_labs_sorted_by_folder_name_string(tmp_path):
+    labs_root = tmp_path / "labs"
+    b_lab = labs_root / "B_lab"
+    a_lab = labs_root / "a_lab"
+    b_lab.mkdir(parents=True)
+    a_lab.mkdir()
+    (b_lab / "link.txt").write_text("https://example.com/b\n")
+    (a_lab / "link.txt").write_text("https://example.com/a\n")
+
+    assert discover_lab_dirs(labs_root) == [a_lab, b_lab]
+
+
 def test_default_timeout_is_thirty_minutes():
     assert DEFAULT_TIMEOUT_SECONDS == 30 * 60
 
 
 def test_default_workers_is_two():
     assert DEFAULT_WORKERS == 2
+
+
+def test_default_http_attempts_is_three():
+    assert DEFAULT_HTTP_ATTEMPTS == 3
 
 
 def test_run_labs_processes_all_labs_with_workers(tmp_path, monkeypatch):
@@ -310,6 +329,109 @@ def test_parse_publication_page_extracts_airlab_bibtex_entries():
     ]
 
 
+def test_extract_rai_papers_searches_arxiv_from_resource_cards(monkeypatch):
+    html = """
+    <article class="wpgb-card">
+      <time datetime="2026-04-06T14:25:20-04:00">Apr 6, 2026</time>
+      <h3 class="wpgb-block-1">
+        <a href="https://rai-inst.com/resources/papers/planning-guided-diffusion-policy-learning-for-contact-rich-bimanual-object-reorientation/">
+          Planning-Guided Diffusion Policy Learning for Contact-Rich Bimanual Object Reorientation
+        </a>
+      </h3>
+    </article>
+    """
+    atom = """<?xml version="1.0" encoding="UTF-8"?>
+    <feed xmlns="http://www.w3.org/2005/Atom">
+      <entry>
+        <title>Planning-Guided Diffusion Policy Learning for Contact-Rich Bimanual Object Reorientation</title>
+        <id>https://arxiv.org/abs/2603.12345</id>
+        <published>2026-03-30T00:00:00Z</published>
+      </entry>
+    </feed>
+    """
+    requested_urls = []
+
+    def fake_fetch_text(url, timeout):
+        requested_urls.append(url)
+        return atom
+
+    monkeypatch.setattr("labs.download_paper.fetch_text", fake_fetch_text)
+
+    papers = extract_rai_papers(html, "https://rai-inst.com/resources/?_type=papers", min_year=2023, timeout=1)
+
+    assert papers == [
+        PaperCandidate(
+            title="Planning-Guided Diffusion Policy Learning for Contact-Rich Bimanual Object Reorientation",
+            year=2026,
+            page_url="https://rai-inst.com/resources/papers/planning-guided-diffusion-policy-learning-for-contact-rich-bimanual-object-reorientation/",
+            pdf_url="https://arxiv.org/pdf/2603.12345.pdf",
+        )
+    ]
+    assert requested_urls
+
+
+def test_extract_rai_papers_rejects_low_similarity_arxiv_results(monkeypatch):
+    html = """
+    <article class="wpgb-card">
+      <time datetime="2026-09-29T17:12:15-04:00">Sep 29, 2026</time>
+      <h3><a href="/resources/papers/test-time-spatial-reasoning-for-robot-manipulation-using-generative-real-to-sim/">
+        Test-Time Spatial Reasoning for Robot Manipulation Using Generative Real-to-Sim
+      </a></h3>
+    </article>
+    """
+    atom = """<?xml version="1.0" encoding="UTF-8"?>
+    <feed xmlns="http://www.w3.org/2005/Atom">
+      <entry>
+        <title>Unrelated Robot Paper</title>
+        <id>https://arxiv.org/abs/2601.00001</id>
+        <published>2026-01-01T00:00:00Z</published>
+      </entry>
+    </feed>
+    """
+
+    monkeypatch.setattr("labs.download_paper.fetch_text", lambda url, timeout: atom)
+
+    assert extract_rai_papers(html, "https://rai-inst.com/resources/?_type=papers", min_year=2023, timeout=1) == []
+
+
+def test_extract_rai_papers_fetches_load_more_cards(monkeypatch):
+    first_page = """
+    <article class="wpgb-card">
+      <time datetime="2026-09-29T17:12:15-04:00">Sep 29, 2026</time>
+      <h3><a href="/resources/papers/test-time-spatial-reasoning-for-robot-manipulation-using-generative-real-to-sim/">
+        Test-Time Spatial Reasoning for Robot Manipulation Using Generative Real-to-Sim
+      </a></h3>
+    </article>
+    """
+    second_page = """
+    <article class="wpgb-card">
+      <time datetime="2026-03-30T15:48:10-04:00">Mar 30, 2026</time>
+      <h3><a href="/resources/papers/judo-a-user-friendly-open-source-package-forsampling-based-model-predictive-control/">
+        Judo: A User-Friendly Open-Source Package forSampling-Based Model Predictive Control
+      </a></h3>
+    </article>
+    """
+    offsets = []
+
+    def fake_fetch_rai_wpgb_posts(base_url, offset, timeout):
+        offsets.append(offset)
+        return second_page if offset == 12 else ""
+
+    def fake_search(title, page_url, min_year, timeout):
+        return PaperCandidate(title, 2026, page_url, f"https://arxiv.org/pdf/{safe_filename(title)}.pdf")
+
+    monkeypatch.setattr("labs.download_paper.fetch_rai_wpgb_posts", fake_fetch_rai_wpgb_posts, raising=False)
+    monkeypatch.setattr("labs.download_paper.search_arxiv_for_title", fake_search)
+
+    papers = extract_rai_papers(first_page, "https://rai-inst.com/resources/?_type=papers", min_year=2023, timeout=1)
+
+    assert [paper.title for paper in papers] == [
+        "Test-Time Spatial Reasoning for Robot Manipulation Using Generative Real-to-Sim",
+        "Judo: A User-Friendly Open-Source Package forSampling-Based Model Predictive Control",
+    ]
+    assert offsets == [12, 24]
+
+
 def test_parse_publication_page_normalizes_arxiv_pdf_urls_without_suffix():
     html = """
     <pre>@inproceedings{radseg2026,
@@ -387,6 +509,39 @@ def test_extract_papers_from_ai_response_normalizes_links_and_filters_year():
             pdf_url="https://arxiv.org/pdf/2401.01234.pdf",
         )
     ]
+
+
+def test_extract_papers_from_ai_response_ignores_malformed_json():
+    response = """
+    Here is malformed JSON:
+    [
+      {"title": "Broken Paper", "year": 2024, "pdf_url": "https://arxiv.org/abs/2401.01234"
+      {"title": "Missing comma", "year": 2024}
+    ]
+    """
+
+    papers = extract_papers_from_ai_response(response, "https://example.com/publications/", min_year=2023)
+
+    assert papers == []
+
+
+def test_hybrid_extractor_continues_when_ai_json_is_malformed(monkeypatch):
+    static_paper = PaperCandidate(
+        "Static Paper",
+        2024,
+        "https://example.com/static",
+        "https://example.com/static.pdf",
+    )
+
+    monkeypatch.setattr(
+        "labs.download_paper.extract_papers_with_ai",
+        lambda html, base_url, min_year, timeout: extract_papers_from_ai_response("[{broken json]", base_url, min_year),
+    )
+    monkeypatch.setattr("labs.download_paper.parse_publication_page", lambda html, base_url, min_year: [static_paper])
+
+    papers = choose_candidates("<html></html>", "https://example.com", min_year=2023, timeout=1, extractor="hybrid")
+
+    assert papers == [static_paper]
 
 
 def test_hybrid_extractor_merges_ai_and_static_candidates(monkeypatch):
@@ -684,6 +839,33 @@ def test_download_pdf_retries_transient_ssl_errors(tmp_path, monkeypatch):
     assert calls["count"] == 2
 
 
+def test_download_pdf_logs_retry_attempts(tmp_path, monkeypatch, capsys):
+    calls = {"count": 0}
+
+    class FakeResponse:
+        def __enter__(self):
+            return self
+
+        def __exit__(self, exc_type, exc, traceback):
+            return False
+
+        def read(self):
+            return b"%PDF"
+
+    def fake_urlopen(request, timeout):
+        calls["count"] += 1
+        if calls["count"] == 1:
+            raise ssl.SSLError("DECRYPTION_FAILED_OR_BAD_RECORD_MAC")
+        return FakeResponse()
+
+    monkeypatch.setattr("labs.download_paper.urlopen", fake_urlopen)
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda seconds: None)
+
+    download_pdf("https://example.com/paper.pdf", tmp_path / "paper.pdf", timeout=1)
+
+    assert "attempt 1/3 failed" in capsys.readouterr().err
+
+
 def test_download_pdf_retries_ssl_errors_during_read(tmp_path, monkeypatch):
     calls = {"count": 0}
 
@@ -716,7 +898,7 @@ def test_download_pdf_retries_ssl_errors_during_read(tmp_path, monkeypatch):
     assert calls["count"] == 2
 
 
-def test_fetch_text_retries_ssl_errors_three_times_before_raising(monkeypatch):
+def test_fetch_text_attempts_three_times_before_raising(monkeypatch):
     calls = {"count": 0}
 
     def fake_urlopen(request, timeout):
@@ -733,7 +915,7 @@ def test_fetch_text_retries_ssl_errors_three_times_before_raising(monkeypatch):
     else:
         raise AssertionError("expected ssl.SSLError")
 
-    assert calls["count"] == 4
+    assert calls["count"] == 3
 
 
 def test_yt_dlp_json_uses_bilibili_cookie_env(monkeypatch):
@@ -748,6 +930,29 @@ def test_yt_dlp_json_uses_bilibili_cookie_env(monkeypatch):
 
     assert _run_yt_dlp_json(["--dump-single-json", "https://example.com/video"], timeout=1) == {"ok": True}
     assert captured["command"][:3] == ["yt-dlp", "--cookies", "/tmp/bilibili-cookies.txt"]
+
+
+def test_main_defaults_bilibili_labs_to_chrome_cookies(tmp_path, monkeypatch):
+    labs_root = tmp_path / "labs"
+    bilibili_lab = labs_root / "bilibili"
+    web_lab = labs_root / "web"
+    bilibili_lab.mkdir(parents=True)
+    web_lab.mkdir()
+    (bilibili_lab / "link.txt").write_text("https://space.bilibili.com/483478083/upload/video\n")
+    (web_lab / "link.txt").write_text("https://example.com/publications\n")
+    captured = {}
+
+    def fake_run_labs(lab_dirs, min_year, timeout, dry_run, extractor, workers):
+        captured["cookie_browser"] = os.environ.get("BILIBILI_COOKIES_FROM_BROWSER")
+        captured["labs"] = [lab_dir.name for lab_dir in lab_dirs]
+        return 0
+
+    monkeypatch.delenv("BILIBILI_COOKIES", raising=False)
+    monkeypatch.delenv("BILIBILI_COOKIES_FROM_BROWSER", raising=False)
+    monkeypatch.setattr("labs.download_paper.run_labs", fake_run_labs)
+
+    assert main(["--labs-root", str(labs_root)]) == 0
+    assert captured == {"cookie_browser": "chrome", "labs": ["bilibili", "web"]}
 
 
 def test_yt_dlp_json_explains_bilibili_412(monkeypatch):
@@ -794,6 +999,22 @@ def test_filter_new_papers_skips_manifest_and_existing_pdf(tmp_path):
     ]
 
     assert filter_new_papers(lab_dir, candidates) == [candidates[-1]]
+
+
+def test_filter_new_papers_sorts_by_output_filename(tmp_path):
+    lab_dir = tmp_path / "lab"
+    lab_dir.mkdir()
+    candidates = [
+        PaperCandidate("Zeta Robot Paper", 2025, "https://example.com/z", "https://example.com/z.pdf"),
+        PaperCandidate("Alpha Robot Paper", 2024, "https://example.com/a", "https://example.com/a.pdf"),
+        PaperCandidate("Beta Robot Paper", 2024, "https://example.com/b", "https://example.com/b.pdf"),
+    ]
+
+    assert [paper.title for paper in filter_new_papers(lab_dir, candidates)] == [
+        "Alpha Robot Paper",
+        "Beta Robot Paper",
+        "Zeta Robot Paper",
+    ]
 
 
 def test_collect_lab_records_failed_download_titles(tmp_path, monkeypatch):

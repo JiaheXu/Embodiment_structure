@@ -1,0 +1,359 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-mulligan-performance-guided-data-collection-for-efficient-on-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.05882.pdf",
+    "title": "Mulligan: Performance-Guided Data Collection for Efficient On-Robot Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-scholarcatalyst-a-benchmark-for-retrieving-papers-that-inspire-new-research.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02202.pdf",
+    "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-reinforcement-learning-for-real-time-vision-language-action-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.18207.pdf",
+    "title": "Reinforcement Learning for Real-Time Vision-Language-Action Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-whale-a-simple-recipe-for-joint-harness-weight-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.00196.pdf",
+    "title": "Whale: A simple recipe for joint harness-weight optimization",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-q-learning-with-world-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.17163.pdf",
+    "title": "Q-Learning With World Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-pre-training-visual-dexterity-in-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.15917.pdf",
+    "title": "Pre-training Visual Dexterity in Simulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-do-you-really-need-to-pretrain-q-functions-for-online-rl-fine-tuning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.27203.pdf",
+    "title": "Do You Really Need to Pretrain Q-Functions for Online RL Fine-Tuning?",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-llm-as-a-verifier-a-general-purpose-verification-framework.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.05391.pdf",
+    "title": "LLM-as-a-Verifier: A general-purpose verification framework",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-freeform-preference-learning-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.32027.pdf",
+    "title": "Freeform Preference Learning for Robotic Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-spiral-learning-to-search-and-aggregate.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.23595.pdf",
+    "title": "SPIRAL: Learning to Search and Aggregate",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-improving-robotic-generalist-policies-via-flow-reversal-steering.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.13675.pdf",
+    "title": "Improving Robotic Generalist Policies via Flow Reversal Steering",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-chorus-decentralized-multi-embodiment-collaboration-with-one-vla-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.12352.pdf",
+    "title": "CHORUS: Decentralized Multi-Embodiment Collaboration with One VLA Policy",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-direct-when-and-where-should-you-allocate-test-time-compute-in-embodied-planners.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.12402.pdf",
+    "title": "DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-expo-ft-sample-efficient-reinforcement-learning-finetuning-for-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.25477.pdf",
+    "title": "EXPO-FT: Sample-Efficient Reinforcement Learning Finetuning for Vision-Language-Action Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-long-horizon-q-learning-accurate-value-learning-via-n-step-inequalities.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.05812.pdf",
+    "title": "Long-Horizon Q-Learning: Accurate Value Learning via n-Step Inequalities",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-open-h-embodiment-a-large-scale-dataset-for-enabling-foundation-models-in-medical-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.21017.pdf",
+    "title": "Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-faster-value-guided-sampling-for-fast-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.19730.pdf",
+    "title": "FASTER: Value-Guided Sampling for Fast RL",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-poly-epo-training-exploratory-reasoning-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.17654.pdf",
+    "title": "Poly-EPO: Training Exploratory Reasoning Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-a-steerable-generalist-robotic-foundation-model-with-emergent-capabilities.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.15483.pdf",
+    "title": "a Steerable Generalist Robotic Foundation Model with Emergent Capabilities",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-giants-generative-insight-anticipation-from-scientific-literature.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.09793.pdf",
+    "title": "GIANTS: Generative Insight Anticipation from Scientific Literature",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-world-action-verifier-self-improving-world-models-via-forward-inverse-asymmetry.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.01985.pdf",
+    "title": "World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-meta-harness-end-to-end-optimization-of-model-harnesses.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.28052.pdf",
+    "title": "Meta-harness: End-to-end optimization of model harnesses",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-data-analogies-enable-efficient-cross-embodiment-transfer.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.06450.pdf",
+    "title": "Data analogies enable efficient cross-embodiment transfer",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-mem-multi-scale-embodied-memory-for-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.03596.pdf",
+    "title": "Mem: Multi-scale embodied memory for vision language action models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-steervla-steering-vision-language-action-models-in-long-tail-driving-scenarios.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.08440.pdf",
+    "title": "Steervla: Steering vision-language-action models in long-tail driving scenarios",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-roboreward-general-purpose-vision-language-reward-models-for-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.00675.pdf",
+    "title": "Roboreward: General-purpose vision-language reward models for robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-polaris-scalable-real-to-sim-evaluations-for-generalist-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.16881.pdf",
+    "title": "Polaris: Scalable real-to-sim evaluations for generalist robot policies",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-invariance-co-training-for-robot-visual-generalization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.05230.pdf",
+    "title": "Invariance co-training for robot visual generalization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-feedback-descent-open-ended-text-optimization-via-pairwise-comparison.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.07919.pdf",
+    "title": "Feedback descent: Open-ended text optimization via pairwise comparison",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-self-guided-action-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.12189.pdf",
+    "title": "Self-guided action diffusion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-roboarena-distributed-real-world-evaluation-of-generalist-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.18123.pdf",
+    "title": "Roboarena: Distributed real-world evaluation of generalist robot policies",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-reinforcement-learning-via-implicit-imitation-guidance.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.07505.pdf",
+    "title": "Reinforcement learning via implicit imitation guidance",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-just-enough-thinking-efficient-reasoning-with-adaptive-length-penalties-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.05256.pdf",
+    "title": "Just enough thinking: Efficient reasoning with adaptive length penalties reinforcement learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-learning-long-context-diffusion-policies-via-past-token-prediction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.09561.pdf",
+    "title": "Learning long-context diffusion policies via past-token prediction",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-latent-diffusion-planning-for-imitation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.16925.pdf",
+    "title": "Latent diffusion planning for imitation learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-a-vision-language-action-model-with-open-world-generalization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.16054.pdf",
+    "title": "a Vision-Language-Action Model with Open-World Generalization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-curating-demonstrations-using-online-experience.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.03707.pdf",
+    "title": "Curating demonstrations using online experience",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-fine-tuning-vision-language-action-models-optimizing-speed-and-success.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.19645.pdf",
+    "title": "Fine-tuning vision-language-action models: Optimizing speed and success",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-hi-robot-open-ended-instruction-following-with-hierarchical-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.19417.pdf",
+    "title": "Hi robot: Open-ended instruction following with hierarchical vision-language-action models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-fast-efficient-action-tokenization-for-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.09747.pdf",
+    "title": "Fast: Efficient action tokenization for vision-language-action models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-towards-system-2-reasoning-in-llms-learning-how-to-think-with-meta-chain-of-thought.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.04682.pdf",
+    "title": "Towards system 2 reasoning in llms: Learning how to think with meta chain-of-thought",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-test-time-alignment-via-hypothesis-reweighting.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.08812.pdf",
+    "title": "Test-time alignment via hypothesis reweighting",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-policy-agnostic-rl-offline-rl-and-online-rl-fine-tuning-of-any-class-and-backbone.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.06685.pdf",
+    "title": "Policy agnostic rl: Offline rl and online rl fine-tuning of any class and backbone",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-a-vision-language-action-flow-model-for-general-robot-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.24164.pdf",
+    "title": "A Vision-Language-Action Flow Model for General Robot Control",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-grounding-by-trying-llms-with-reinforcement-learning-enhanced-retrieval.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.23214.pdf",
+    "title": "Grounding by trying: Llms with reinforcement learning-enhanced retrieval",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-aloha-unleashed-a-simple-recipe-for-robot-dexterity.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.13126.pdf",
+    "title": "Aloha unleashed: A simple recipe for robot dexterity",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-d5rl-diverse-datasets-for-data-driven-deep-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.08441.pdf",
+    "title": "D5rl: Diverse datasets for data-driven deep reinforcement learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-agent-q-advanced-reasoning-and-learning-for-autonomous-ai-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.07199.pdf",
+    "title": "Agent q: Advanced reasoning and learning for autonomous ai agents",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-surgical-robot-transformer-srt-imitation-learning-for-surgical-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.12998.pdf",
+    "title": "Surgical robot transformer (srt): Imitation learning for surgical tasks",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-robotic-control-via-embodied-chain-of-thought-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.08693.pdf",
+    "title": "Robotic control via embodied chain-of-thought reasoning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-mobility-vla-multimodal-instruction-navigation-with-long-context-vlms-and-topological-graphs.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.07775.pdf",
+    "title": "Mobility vla: Multimodal instruction navigation with long-context vlms and topological graphs",
+    "year": 2024
+  }
+]

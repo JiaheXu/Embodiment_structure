@@ -5,5 +5,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.11531v1.pdf",
     "title": "RAGNAROK: Radar-Aided Gravity-Normalized Alignment for Robust Open Keyframe-based Radar-Visual-Kinematic-Inertial SLAM",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1TdbG6sEzK",
+    "pdf_path": "pdfs/2026-dex-one2many-learning-dexterous-manipulation-from-a-single-human-demonstration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.12470v1.pdf",
+    "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+    "year": 2026
   }
 ]

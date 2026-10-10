@@ -1,0 +1,247 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-convergent-incremental-potential-contact.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.15908.pdf",
+    "title": "Convergent incremental potential contact",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-material-point-methods-on-unstructured-tessellations-a-stable-kernel-approach-with-continuous-gradient-reconstruction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.10338.pdf",
+    "title": "Material Point Methods on Unstructured Tessellations: A Stable Kernel Approach With Continuous Gradient Reconstruction",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-efficient-gpu-cloth-simulation-with-non-distance-barriers-and-subspace-reuse.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.19272.pdf",
+    "title": "Efficient GPU cloth simulation with non-distance barriers and subspace reuse",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-et-a4l-gaussian-splashing-dynamic-fluid-synthesis-with-gaussian-splatting.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.15318.pdf",
+    "title": "et a4l. Gaussian splashing: dynamic fluid synthesis with Gaussian Splatting",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-gaussian-splashing-dynamic-fluid-synthesis-with-gaussian-splatting.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.15318.pdf",
+    "title": "Gaussian splashing: Dynamic fluid synthesis with gaussian splatting",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-videophy-evaluating-physical-commonsense-for-video-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.03520.pdf",
+    "title": "Videophy: Evaluating physical commonsense for video generation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-birth-of-a-painting-differentiable-brushstroke-reconstruction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.13191.pdf",
+    "title": "Birth of a Painting: Differentiable Brushstroke Reconstruction",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-jgs2-near-second-order-converging-jacobi-gauss-seidel-for-gpu-elastodynamics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.06494.pdf",
+    "title": "Jgs2: Near second-order converging jacobi/gauss-seidel for gpu elastodynamics",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-substepping-the-material-point-method.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.11722.pdf",
+    "title": "Substepping the Material Point Method",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-towards-physical-understanding-in-video-generation-a-3d-point-regularization-approach.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.03639.pdf",
+    "title": "Towards Physical Understanding in Video Generation: A 3D Point Regularization Approach",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-vorolight-learning-quality-volumetric-voronoi-meshes-from-general-inputs.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.12984.pdf",
+    "title": "VoroLight: Learning Quality Volumetric Voronoi Meshes from General Inputs",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-vorolight-learning-voronoi-surface-meshes-via-sphere-intersection.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.12984.pdf",
+    "title": "VoroLight: Learning Voronoi Surface Meshes via Sphere Intersection",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-a-stabilized-fractional-step-mpm-with-pressure-gradient-projection-for-coupled-hydromechanical-extreme-deformations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.33208.pdf",
+    "title": "A stabilized fractional-step MPM with pressure gradient projection for coupled hydromechanical extreme deformations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-adaptive-gpu-kinetic-solver-for-fluid-granular-flows.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.14982.pdf",
+    "title": "Adaptive GPU Kinetic Solver for Fluid-Granular Flows",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-agentic-real2sim-physics-based-world-modeling-with-vision-language-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.19190.pdf",
+    "title": "Agentic Real2Sim: Physics-based world modeling with vision-language agents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-articulatearena-a-metric-for-articulated-kinematics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.33931.pdf",
+    "title": "ArticulateArena: A Metric for Articulated Kinematics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-blademaster-real-time-robotic-cutting-simulation-with-online-generated-persistent-discontinuities.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.27342.pdf",
+    "title": "BladeMaster: Real-Time Robotic Cutting Simulation with Online-Generated Persistent Discontinuities",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-differentiate-the-solver-not-the-equation-reverse-sweep-adjoints-for-block-implicit-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.08559.pdf",
+    "title": "Differentiate the Solver, Not the Equation: Reverse-Sweep Adjoints for Block Implicit Simulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-dresswild-feed-forward-pose-agnostic-garment-sewing-pattern-generation-from-in-the-wild-images.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.16502.pdf",
+    "title": "DressWild: Feed-Forward Pose-Agnostic Garment Sewing Pattern Generation from In-the-Wild Images",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-fetchman-learning-visual-humanoid-loco-manipulation-policies-from-simulated-experiences.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.17027.pdf",
+    "title": "FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-fishbone-from-one-3d-asset-to-a-million-controllable-edits.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.24805.pdf",
+    "title": "Fishbone: From One 3D Asset to a Million Controllable Edits",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-grail-generating-humanoid-loco-manipulation-from-3d-assets-and-video-priors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.05160.pdf",
+    "title": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-haircs-reconstructing-strand-based-hair-from-hair-cards.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.16465.pdf",
+    "title": "HairCS: Reconstructing Strand-Based Hair from Hair Cards",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-jarvis-a-just-in-time-ar-visual-instruction-system-for-cross-reality-task-guidance.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.10108.pdf",
+    "title": "JARVIS: A Just-in-Time AR Visual Instruction System for Cross-Reality Task Guidance",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-jarvis-a-just-in-time-augmented-reality-vlm-powered-instruction-system-for-cross-reality-task-guidance.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.10108.pdf",
+    "title": "JARVIS: A Just-in-Time Augmented Reality VLM-Powered Instruction System for Cross-Reality Task Guidance",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-memoryvam-integrating-memory-into-video-action-model-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.20679.pdf",
+    "title": "MemoryVAM: Integrating Memory into Video Action Model for Robot Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-projective-affine-body-dynamics-for-multibody-systems.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.02675.pdf",
+    "title": "Projective Affine Body Dynamics for Multibody Systems",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-roboedit-turning-human-manipulation-videos-into-scalable-robot-experience.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.18948.pdf",
+    "title": "RoboEdit: Turning Human Manipulation Videos into Scalable Robot Experience",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-sparse2act-learning-action-aligned-sparse-3d-representations-for-cross-domain-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.12759.pdf",
+    "title": "Sparse2Act: Learning Action-Aligned Sparse 3D Representations for Cross-Domain Robot Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-sun-agentic-robot-policy-learning-with-persistent-task-programs.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.31167.pdf",
+    "title": "SUN: Agentic Robot Policy Learning with Persistent Task Programs",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-sun-persistent-programs-for-language-grounded-control-to-learning-to-real-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.31167.pdf",
+    "title": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-taccorl-integrating-tactile-feedback-into-vla-via-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.11743.pdf",
+    "title": "TacCoRL: Integrating Tactile Feedback into VLA via Simulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-unified-sparse-framework-for-large-scale-material-point-method-simulations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.28525.pdf",
+    "title": "Unified sparse framework for large-scale material point method simulations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-worldagent-verification-guided-agentic-physical-world-construction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.33208.pdf",
+    "title": "WorldAgent: Verification-Guided Agentic Physical World Construction",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-worldparticle-unified-world-simulation-of-lagrangian-particle-dynamics-via-transformer.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.15305.pdf",
+    "title": "WorldParticle: Unified World Simulation of Lagrangian Particle Dynamics via Transformer",
+    "year": 2026
+  }
+]

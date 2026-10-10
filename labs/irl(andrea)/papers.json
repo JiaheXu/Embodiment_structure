@@ -1,0 +1,93 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-rethinking-safety-for-generalist-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.06326.pdf",
+    "title": "Rethinking Safety for Generalist Robots",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-elastic-efficiently-learning-to-adaptively-scale-test-time-compute-for-generative-control-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.31132.pdf",
+    "title": "ELASTIC: Efficiently Learning to Adaptively Scale Test-Time Compute for Generative Control Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-inference-time-policy-steering-via-vision-and-touch.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.14981.pdf",
+    "title": "Inference-time Policy Steering via Vision and Touch",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-better-faster-longer-an-effective-world-model-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.13672.pdf",
+    "title": ", Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-learning-what-to-say-to-your-vla-mostly-harmless-vision-language-action-model-steering.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.12299.pdf",
+    "title": "Learning What to Say to Your VLA: Mostly Harmless Vision Language Action Model Steering",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-weaver-better-faster-longer-an-effective-world-model-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.13672.pdf",
+    "title": "WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-stressdream-steering-video-world-models-for-robust-policy-evaluation-and-improvement.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.00267.pdf",
+    "title": "StressDream: Steering Video World Models for Robust Policy Evaluation and Improvement",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-coordinated-diffusion-generating-multi-agent-behavior-without-multi-agent-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.11485.pdf",
+    "title": "Coordinated Diffusion: Generating Multi-Agent Behavior Without Multi-Agent Demonstrations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-how-well-do-latent-world-models-understand-partially-observable-safety-constraints.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.06492.pdf",
+    "title": "How Well Do Latent World Models Understand Partially Observable Safety Constraints?",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-a-unified-framework-for-robots-that-influence-humans-over-long-term-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.14633.pdf",
+    "title": "A unified framework for robots that influence humans over long-term interaction",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-maximizing-alignment-with-minimal-feedback-efficiently-learning-rewards-for-visuomotor-robot-policy-alignment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.04835.pdf",
+    "title": "Maximizing alignment with minimal feedback: Efficiently learning rewards for visuomotor robot policy alignment",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-human-ai-safety-a-descendant-of-generative-ai-and-control-systems-safety.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.09794.pdf",
+    "title": "Human-ai safety: A descendant of generative ai and control systems safety",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-intent-demonstration-in-general-sum-dynamic-games-via-iterative-linear-quadratic-approximations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.10182.pdf",
+    "title": "Intent demonstration in general-sum dynamic games via iterative linear-quadratic approximations",
+    "year": 2024
+  }
+]

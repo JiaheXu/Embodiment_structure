@@ -1,0 +1,37 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=ECHSnpYAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-exstereo-lifting-2d-vision-language-action-models-to-3d-with-explicit-stereo-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.04805.pdf",
+    "title": "ExStereo: Lifting 2D Vision-Language-Action Models to 3D with Explicit Stereo Representations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=ECHSnpYAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-when-does-touch-matter-charting-the-vision-interaction-gap-in-cluttered-dexterous-grasping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.24068.pdf",
+    "title": "When Does Touch Matter? Charting the Vision-Interaction Gap in Cluttered Dexterous Grasping",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=ECHSnpYAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-hotice-whole-body-humanoid-object-transportation-in-cluttered-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.25363.pdf",
+    "title": "HOTICE: Whole-Body Humanoid Object Transportation in Cluttered Environments",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=ECHSnpYAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-felt-generating-tactile-signals-from-vision-for-visuo-tactile-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.20683.pdf",
+    "title": "FELT: Generating Tactile Signals from Vision for Visuo-Tactile Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=ECHSnpYAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-oflow-injecting-object-aware-temporal-flow-matching-for-robust-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.17876.pdf",
+    "title": "Oflow: Injecting object-aware temporal flow matching for robust robotic manipulation",
+    "year": 2026
+  }
+]

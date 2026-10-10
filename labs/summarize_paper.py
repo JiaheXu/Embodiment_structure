@@ -54,7 +54,7 @@ def select_papers_to_summarize(
         if not force and paper_summary_path(lab_dir, paper).exists():
             continue
         selected.append(paper)
-    return selected
+    return sorted(selected, key=lambda paper: paper_summary_path(lab_dir, paper).name.casefold())
 
 
 def extract_pdf_text(pdf_path: Path, max_chars: int = DEFAULT_MAX_CHARS) -> str:

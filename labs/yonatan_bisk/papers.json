@@ -1,0 +1,114 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-plan-eliminate-and-track-language-models-are-good-teachers-for-embodied-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.02412.pdf",
+    "title": "Plan, Eliminate, and Track--Language Models are Good Teachers for Embodied Agents",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-reasoning-about-the-unseen-for-efficient-outdoor-object-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.10103.pdf",
+    "title": "Reasoning about the Unseen for Efficient Outdoor Object Navigation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-toward-general-purpose-robots-via-foundation-models-a-survey-and-meta-analysis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.08782.pdf",
+    "title": "Toward general-purpose robots via foundation models: A survey and meta-analysis",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-degustabot-zero-shot-visual-preference-estimation-for-personalized-multi-object-rearrangement.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.08876.pdf",
+    "title": "DegustaBot: Zero-Shot Visual Preference Estimation for Personalized Multi-Object Rearrangement",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-dialogue-with-robots-proposals-for-broadening-participation-and-research-in-the-slivar-community.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.01158.pdf",
+    "title": "Dialogue with Robots: Proposals for Broadening Participation and Research in the SLIVAR Community",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-embodied-rag-general-non-parametric-embodied-memory-for-retrieval-and-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.18313.pdf",
+    "title": "Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-looking-beyond-the-next-token.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.11336.pdf",
+    "title": "Looking beyond the next token",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-robotarena-scalable-robot-benchmarking-via-real-to-sim-translation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.23571.pdf",
+    "title": "Robotarena\u221e: Scalable robot benchmarking via real-to-sim translation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-self-regulation-and-requesting-interventions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.04576.pdf",
+    "title": "Self-Regulation and Requesting Interventions",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-amplified-does-not-mean-predictive-reasoning-behaviors-in-thinking-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.13760.pdf",
+    "title": "Amplified Does Not Mean Predictive: Reasoning Behaviors in Thinking Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-contextual-observer-grounding-evaluating-situated-spatial-reasoning-in-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.06880.pdf",
+    "title": "Contextual Observer Grounding: Evaluating Situated Spatial Reasoning in Vision-Language Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-elastic-efficiently-learning-to-adaptively-scale-test-time-compute-for-generative-control-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.31132.pdf",
+    "title": "ELASTIC: Efficiently Learning to Adaptively Scale Test-Time Compute for Generative Control Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-flatness-preserves-instruction-following-in-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.23641.pdf",
+    "title": "Flatness Preserves Instruction Following in Vision-Language-Action Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-inductive-generalization-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.20999.pdf",
+    "title": "Inductive Generalization for Robotic Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-lost-in-reconstruction-aligning-action-representations-with-language-in-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.10484.pdf",
+    "title": "Lost in Reconstruction: Aligning Action Representations with Language in Vision-Language-Action Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-when-should-ai-read-the-room-public-perceptions-of-social-intelligence-in-ai-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.29938.pdf",
+    "title": "When Should AI Read the Room? Public Perceptions of Social Intelligence in AI Agents",
+    "year": 2026
+  }
+]

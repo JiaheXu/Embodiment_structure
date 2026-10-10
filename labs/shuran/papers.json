@@ -1,0 +1,324 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-mulligan-performance-guided-data-collection-for-efficient-on-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.05882.pdf",
+    "title": "Mulligan: Performance-Guided Data Collection for Efficient On-Robot Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-needlework-offline-rewriting-of-robot-data-with-verified-local-stitches.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02339.pdf",
+    "title": "NEEDLEWORK: Offline Rewriting of Robot Data with Verified Local Stitches",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-memory-anchors-for-continual-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.26545.pdf",
+    "title": "Memory Anchors for Continual Robot Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-transformer-transformer-a-unified-model-for-motion-conditioned-robot-co-design.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.25798.pdf",
+    "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-modpack-an-extensible-teleoperation-interface-for-bimanual-mobile-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.19479.pdf",
+    "title": "ModPack: An Extensible Teleoperation Interface for Bimanual Mobile Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-handroid-bridging-dexterous-hand-and-humanoid.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.16187.pdf",
+    "title": "Handroid: Bridging Dexterous Hand and Humanoid",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-mixture-of-frames-policy-multi-frame-action-denoising-for-bimanual-mobile-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.11884.pdf",
+    "title": "Mixture of Frames Policy: Multi-Frame Action Denoising for Bimanual Mobile Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-rosa-a-robotics-foundation-model-serving-system-for-robot-factories.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.01088.pdf",
+    "title": "ROSA: A Robotics Foundation Model Serving System for Robot Factories",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-robustness-of-robotic-manipulation-foundations-and-frontiers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.31494.pdf",
+    "title": "Robustness of Robotic Manipulation: Foundations and Frontiers",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-multisensory-continual-learning-adapting-pretrained-visuomotor-policies-to-force.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.30988.pdf",
+    "title": "Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-behavior-prompting-policy-demonstrations-as-prompts-for-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.30457.pdf",
+    "title": "Behavior Prompting Policy: Demonstrations as Prompts for Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-panovine-whole-body-visuomotor-control-for-soft-growing-vine-robot.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.22923.pdf",
+    "title": "PanoVine: Whole-Body Visuomotor Control for Soft Growing Vine Robot",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-df-expense-diffusion-filtered-exploration-for-sample-efficient-finetuning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.19656.pdf",
+    "title": "DF-ExpEnse: Diffusion Filtered Exploration for Sample Efficient Finetuning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-one-demo-is-worth-a-thousand-trajectories-action-view-augmentation-for-visuomotor-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.19586.pdf",
+    "title": "One demo is worth a thousand trajectories: Action-view augmentation for visuomotor policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-cosmos-3-omnimodal-world-models-for-physical-ai.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.02800.pdf",
+    "title": "Cosmos 3: Omnimodal world models for physical ai",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-will-people-enjoy-a-robot-trainer-a-case-study-with-snoopie-the-pacerbot.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.18331.pdf",
+    "title": "Will People Enjoy a Robot Trainer? A Case Study with Snoopie the Pacerbot",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-egoverse-an-egocentric-human-dataset-for-robot-learning-from-around-the-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.07607.pdf",
+    "title": "Egoverse: An egocentric human dataset for robot learning from around the world",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-umi-underwater-learning-underwater-manipulation-without-underwater-teleoperation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.27012.pdf",
+    "title": "UMI-Underwater: Learning Underwater Manipulation without Underwater Teleoperation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-from-prior-to-pro-efficient-skill-mastery-via-distribution-contractive-rl-finetuning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.10263.pdf",
+    "title": "From prior to pro: Efficient skill mastery via distribution contractive rl finetuning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-hommi-learning-whole-body-mobile-manipulation-from-human-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.03243.pdf",
+    "title": "Hommi: Learning whole-body mobile manipulation from human demonstrations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-are-foundation-models-the-route-to-full-stack-transfer-in-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.22001.pdf",
+    "title": "Are Foundation Models the Route to Full-Stack Transfer in Robotics?",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-sage-scalable-agentic-3d-scene-generation-for-embodied-ai.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.10116.pdf",
+    "title": "Sage: Scalable agentic 3d scene generation for embodied ai",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-cosmos-policy-fine-tuning-video-models-for-visuomotor-control-and-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.16163.pdf",
+    "title": "Cosmos policy: Fine-tuning video models for visuomotor control and planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-in-the-wild-compliant-manipulation-with-umi-ft.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.09988.pdf",
+    "title": "In-the-wild compliant manipulation with umi-ft",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-world-simulation-with-video-foundation-models-for-physical-ai.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.00062.pdf",
+    "title": "World simulation with video foundation models for physical ai",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-robot-trains-robot-automatic-real-world-policy-adaptation-and-learning-for-humanoids.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.12252.pdf",
+    "title": "Robot trains robot: Automatic real-world policy adaptation and learning for humanoids",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-vision-in-action-learning-active-perception-from-human-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.15666.pdf",
+    "title": "Vision in action: Learning active perception from human demonstrations",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-dexmachina-functional-retargeting-for-bimanual-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.24853.pdf",
+    "title": "Dexmachina: Functional retargeting for bimanual dexterous manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-dexumi-using-human-hand-as-the-universal-manipulation-interface-for-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.21864.pdf",
+    "title": "Dexumi: Using human hand as the universal manipulation interface for dexterous manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-a-study-of-perceived-safety-for-soft-robotics-in-caregiving-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.20916.pdf",
+    "title": "A study of perceived safety for soft robotics in caregiving tasks",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-cosmos-reason1-from-physical-common-sense-to-embodied-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.15558.pdf",
+    "title": "Cosmos-reason1: From physical common sense to embodied reasoning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-behavior-robot-suite-streamlining-real-world-whole-body-manipulation-for-everyday-household-activities.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.05652.pdf",
+    "title": "Behavior robot suite: Streamlining real-world whole-body manipulation for everyday household activities",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-unified-video-action-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.00200.pdf",
+    "title": "Unified video action model",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-toddlerbot-open-source-ml-compatible-humanoid-platform-for-loco-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.00893.pdf",
+    "title": "Toddlerbot: Open-source ml-compatible humanoid platform for loco-manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-robopanoptes-the-all-seeing-robot-with-whole-body-dexterity.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.05420.pdf",
+    "title": "Robopanoptes: The all-seeing robot with whole-body dexterity",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-tidybot-an-open-source-holonomic-mobile-manipulator-for-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.10447.pdf",
+    "title": "Tidybot++: An open-source holonomic mobile manipulator for robot learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-flow-as-the-cross-domain-manipulation-interface.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.15208.pdf",
+    "title": "Flow as the cross-domain manipulation interface",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-umi-on-legs-making-manipulation-policies-mobile-with-manipulation-centric-whole-body-controllers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.10353.pdf",
+    "title": "Umi on legs: Making manipulation policies mobile with manipulation-centric whole-body controllers",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-equibot-sim-3-equivariant-diffusion-policy-for-generalizable-and-data-efficient-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.01479.pdf",
+    "title": "Equibot: Sim (3)-equivariant diffusion policy for generalizable and data efficient learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-maniwav-learning-robot-manipulation-from-in-the-wild-audio-visual-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.19464.pdf",
+    "title": "Maniwav: Learning robot manipulation from in-the-wild audio-visual data",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-dreamitate-real-world-visuomotor-policy-learning-via-video-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.16862.pdf",
+    "title": "Dreamitate: Real-world visuomotor policy learning via video generation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-droid-a-large-scale-in-the-wild-robot-manipulation-dataset.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.12945.pdf",
+    "title": "Droid: A large-scale in-the-wild robot manipulation dataset",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-paperbot-learning-to-design-real-world-tools-using-paper.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.09566.pdf",
+    "title": "Paperbot: Learning to design real-world tools using paper",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-dynamics-guided-diffusion-model-for-sensor-less-robot-manipulator-design.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.15038.pdf",
+    "title": "Dynamics-guided diffusion model for sensor-less robot manipulator design",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-rearrangement-planning-for-general-part-assembly.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.00206.pdf",
+    "title": "Rearrangement planning for general part assembly",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-reflect-summarizing-robot-experiences-for-failure-explanation-and-correction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.15724.pdf",
+    "title": "Reflect: Summarizing robot experiences for failure explanation and correction",
+    "year": 2023
+  }
+]

@@ -82,5 +82,208 @@
     "pdf_url": "https://arxiv.org/pdf/2606.10305.pdf",
     "title": "SARM2: Multi-Task Stage Aware Reward Modeling for Self Improving Robotic Manipulation",
     "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-revisiting-the-push-t-robot-manipulation-task-with-agentic-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.18227.pdf",
+    "title": "Revisiting the\" Push-T\" Robot Manipulation Task with Agentic Robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-enpire-agentic-robot-policy-self-improvement-in-the-real-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.19980.pdf",
+    "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-monoduo-using-one-robot-arm-to-learn-bimanual-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.29298.pdf",
+    "title": "MonoDuo: Using One Robot Arm to Learn Bimanual Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-2d-and-3d-grasp-planners-for-the-get-asymmetrical-gripper.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.26212.pdf",
+    "title": "2D and 3D Grasp Planners for the GET Asymmetrical Gripper",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-open-h-embodiment-a-large-scale-dataset-for-enabling-foundation-models-in-medical-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.21017.pdf",
+    "title": "Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-impasto-integrating-model-based-planning-with-learned-dynamics-models-for-robotic-oil-painting-reproduction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.29315.pdf",
+    "title": "IMPASTO: Integrating Model-Based Planning with Learned Dynamics Models for Robotic Oil Painting Reproduction",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-cap-x-a-framework-for-benchmarking-and-improving-coding-agents-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.22435.pdf",
+    "title": "CaP-X: A framework for benchmarking and improving coding agents for robot manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-manipulationnet-an-infrastructure-for-benchmarking-real-world-robot-manipulation-with-physical-skill-challenges-and-embo.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.04363.pdf",
+    "title": "Manipulationnet: An infrastructure for benchmarking real-world robot manipulation with physical skill challenges and embodied multimodal reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-visgym-diverse-customizable-scalable-environments-for-multimodal-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.16973.pdf",
+    "title": "Visgym: Diverse, customizable, scalable environments for multimodal agents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-oxe-auge-a-large-scale-robot-augmentation-of-oxe-for-scaling-cross-embodiment-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.13100.pdf",
+    "title": "Oxe-auge: A large-scale robot augmentation of oxe for scaling cross-embodiment policy learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-lavqa-a-latency-aware-visual-question-answering-framework-for-shared-autonomy-in-self-driving-vehicles.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.11840.pdf",
+    "title": "LAVQA: A Latency-Aware Visual Question Answering Framework for Shared Autonomy in Self-Driving Vehicles",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-eye-robot-learning-to-look-to-act-with-a-bc-rl-perception-action-loop.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.10968.pdf",
+    "title": "Eye, robot: Learning to look to act with a bc-rl perception-action loop",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-robo2vlm-visual-question-answering-from-large-scale-in-the-wild-robot-manipulation-datasets.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.15517.pdf",
+    "title": "Robo2vlm: Visual question answering from large-scale in-the-wild robot manipulation datasets",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-real2render2real-scaling-robot-data-without-dynamics-simulation-or-robot-hardware.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.09601.pdf",
+    "title": "Real2render2real: Scaling robot data without dynamics simulation or robot hardware",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-datas-3-dataset-subset-selection-for-specialization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.16277.pdf",
+    "title": "DataS^ 3: Dataset Subset Selection for Specialization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-sim-and-real-co-training-a-simple-recipe-for-vision-based-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.24361.pdf",
+    "title": "Sim-and-real co-training: A simple recipe for vision-based robotic manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-otter-a-vision-language-action-model-with-text-aware-visual-feature-extraction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.03734.pdf",
+    "title": "Otter: A vision-language-action model with text-aware visual feature extraction",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-specifications-the-missing-link-to-making-the-development-of-llm-systems-an-engineering-discipline.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.05299.pdf",
+    "title": "Specifications: The missing link to making the development of LLM systems an engineering discipline",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-breathless-an-8-hour-performance-contrasting-human-and-robot-expressiveness.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.12361.pdf",
+    "title": "Breathless: An 8-hour performance contrasting human and robot expressiveness",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-diffusionseeder-seeding-motion-optimization-with-diffusion-for-rapid-motion-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.16727.pdf",
+    "title": "Diffusionseeder: Seeding motion optimization with diffusion for rapid motion planning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-robot-see-robot-do-imitating-articulated-object-manipulation-with-monocular-4d-reconstruction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.18121.pdf",
+    "title": "Robot see robot do: Imitating articulated object manipulation with monocular 4d reconstruction",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-rovi-aug-robot-and-viewpoint-augmentation-for-cross-embodiment-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.03403.pdf",
+    "title": "Rovi-aug: Robot and viewpoint augmentation for cross-embodiment robot learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-in-context-imitation-learning-via-next-token-prediction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.15980.pdf",
+    "title": "In-context imitation learning via next-token prediction",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-self-supervised-learning-of-dynamic-planar-manipulation-of-free-end-cables.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.09581.pdf",
+    "title": "Self-supervised learning of dynamic planar manipulation of free-end cables",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-droid-a-large-scale-in-the-wild-robot-manipulation-dataset.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.12945.pdf",
+    "title": "Droid: A large-scale in-the-wild robot manipulation dataset",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-mirage-cross-embodiment-zero-shot-policy-transfer-with-cross-painting.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.19249.pdf",
+    "title": "Mirage: Cross-embodiment zero-shot policy transfer with cross-painting",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-a-touch-vision-and-language-dataset-for-multimodal-alignment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.13232.pdf",
+    "title": "A touch, vision, and language dataset for multimodal alignment",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-rethinking-patch-dependence-for-masked-autoencoders.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.14391.pdf",
+    "title": "Rethinking patch dependence for masked autoencoders",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-fogros2-config-optimizing-latency-and-cost-for-multi-cloud-robot-applications.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.05600.pdf",
+    "title": "FogROS2-Config: Optimizing Latency and Cost for Multi-Cloud Robot Applications",
+    "year": 2023
   }
 ]

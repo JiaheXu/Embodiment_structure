@@ -1,0 +1,212 @@
+[
+  {
+    "page_url": "https://rai-inst.com/resources/papers/empm-embodied-mpm-for-modeling-and-simulation-ofdeformable-objects/",
+    "pdf_path": "pdfs/2026-empm-embodied-mpm-for-modeling-and-simulation-ofdeformable-objects.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.17251v1.pdf",
+    "title": "EMPM: Embodied MPM for Modeling and Simulation ofDeformable Objects",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/jointly-learning-predicates-and-actions-enables-zero-shot-skill-composition/",
+    "pdf_path": "pdfs/2026-jointly-learning-predicates-and-actions-enables-zero-shot-skill-composition.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.20648v1.pdf",
+    "title": "Jointly Learning Predicates and Actions Enables Zero-Shot Skill Composition",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/planning-guided-diffusion-policy-learning-for-contact-rich-bimanual-object-reorientation/",
+    "pdf_path": "pdfs/2026-planning-guided-diffusion-policy-learning-for-contact-rich-bimanual-object-reorientation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.02676v2.pdf",
+    "title": "Planning-Guided Diffusion Policy Learning for Contact-Rich Bimanual Object Reorientation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/test-time-spatial-reasoning-for-robot-manipulation-using-generative-real-to-sim/",
+    "pdf_path": "pdfs/2026-test-time-spatial-reasoning-for-robot-manipulation-using-generative-real-to-sim.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.33982v1.pdf",
+    "title": "Test-Time Spatial Reasoning for Robot Manipulation Using Generative Real-to-Sim",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/vernata-self-supervised-learning-of-lidar-point-representations/",
+    "pdf_path": "pdfs/2026-vernata-self-supervised-learning-of-lidar-point-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.06919v1.pdf",
+    "title": "Vernata: Self-Supervised Learning of LiDAR Point Representations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/whole-body-model-predictive-control-for-spin-aware-quadrupedal-table-tennis/",
+    "pdf_path": "pdfs/2026-whole-body-model-predictive-control-for-spin-aware-quadrupedal-table-tennis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.08754v1.pdf",
+    "title": "Whole-Body Model Predictive Control for Spin-Aware Quadrupedal Table Tennis",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/zerobot-learning-from-scratch-in-minutes-with-generative-real2sim/",
+    "pdf_path": "pdfs/2026-zerobot-learning-from-scratch-in-minutes-with-generative-real2sim.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.34010v1.pdf",
+    "title": "ZeroBot: Learning from Scratch in Minutes with Generative Real2Sim",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/ashita-automatic-scene-grounded-hierarchical-task-analysis/",
+    "pdf_path": "pdfs/2025-ashita-automatic-scene-grounded-hierarchical-task-analysis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.06553v3.pdf",
+    "title": "ASHiTA: Automatic Scene-grounded Hierarchical Task Analysis",
+    "year": 2025
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/diffuse-cloc-guided-diffusion-for-physics-based-character-look-ahead-control/",
+    "pdf_path": "pdfs/2025-diffuse-cloc-guided-diffusion-for-physics-based-character-look-ahead-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.11801v3.pdf",
+    "title": "Diffuse-CLoC: Guided Diffusion for Physics-based Character Look-ahead Control",
+    "year": 2025
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/high-performance-reinforcement-learning-on-spot/",
+    "pdf_path": "pdfs/2025-high-performance-reinforcement-learning-on-spot-optimizing-simulation-parameters-with-distributional-measures.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.17857v3.pdf",
+    "title": "High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional Measures",
+    "year": 2025
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/is-linear-feedback-on-smoothed-dynamics-sufficient-for-stabilizing-contact-rich-plans/",
+    "pdf_path": "pdfs/2025-is-linear-feedback-on-smoothed-dynamics-sufficient-for-stabilizing-contact-rich-plans.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.06542v4.pdf",
+    "title": "Is Linear Feedback on Smoothed Dynamics Sufficient for Stabilizing Contact-Rich Plans?",
+    "year": 2025
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/relic-versatile-loco-manipulation-through-flexible-interlimb-coordination/",
+    "pdf_path": "pdfs/2025-relic-versatile-loco-manipulation-through-flexible-interlimb-coordination.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.07876v2.pdf",
+    "title": "ReLIC: Versatile Loco-Manipulation through Flexible Interlimb Coordination",
+    "year": 2025
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/contact-rich-manipulation-policies-from-sampling-based-planners/",
+    "pdf_path": "pdfs/2025-should-we-learn-contact-rich-manipulation-policies-from-sampling-based-planners.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.09743v3.pdf",
+    "title": "Should We Learn Contact-Rich Manipulation Policies from Sampling-Based Planners?",
+    "year": 2025
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/dexterous-contact-rich-manipulation-via-the-contact-trust-region/",
+    "pdf_path": "pdfs/2026-dexterous-contact-rich-manipulation-via-the-contact-trust-region.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.02291v4.pdf",
+    "title": "Dexterous Contact-Rich Manipulation via the Contact Trust Region",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/flip-stunts-on-bicycle-robots-using-iterative-motion-imitation/",
+    "pdf_path": "pdfs/2026-flip-stunts-on-bicycle-robots-using-iterative-motion-imitation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.27944v1.pdf",
+    "title": "Flip Stunts on Bicycle Robots using Iterative Motion Imitation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/vlfm-vision-language-frontier-maps-for-zero-shot-semantic-navigation/",
+    "pdf_path": "pdfs/2023-vlfm-vision-language-frontier-maps-for-zero-shot-semantic-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.03275v1.pdf",
+    "title": "VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/adaptive-language-guided-abstraction-from-contrastive-explanations/",
+    "pdf_path": "pdfs/2024-adaptive-language-guided-abstraction-from-contrastive-explanations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.08212v2.pdf",
+    "title": "Adaptive Language-Guided Abstraction from Contrastive Explanations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/continuously-improving-mobile-manipulation-with-autonomous-real-world-rl/",
+    "pdf_path": "pdfs/2024-continuously-improving-mobile-manipulation-with-autonomous-real-world-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.20568v1.pdf",
+    "title": "Continuously Improving Mobile Manipulation with Autonomous Real-World RL",
+    "year": 2024
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/d3fields-dynamic-3d-descriptor-fields-for-zero-shot-generalizable-rearrangement/",
+    "pdf_path": "pdfs/2024-d3fields-dynamic-3d-descriptor-fields-for-zero-shot-generalizable-rearrangement.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.16118v3.pdf",
+    "title": "D3Fields: Dynamic 3D Descriptor Fields for Zero-Shot Generalizable Rearrangement",
+    "year": 2024
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/evora-deep-evidential-traversability-learning-for-risk-aware-off-road-autonomy/",
+    "pdf_path": "pdfs/2024-evora-deep-evidential-traversability-learning-for-risk-aware-off-road-autonomy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.06234v2.pdf",
+    "title": "EVORA: Deep Evidential Traversability Learning for Risk-Aware Off-Road Autonomy",
+    "year": 2024
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/gendp-3d-semantic-fields-for-category-level-generalizable-diffusion-policy/",
+    "pdf_path": "pdfs/2024-gendp-3d-semantic-fields-for-category-level-generalizable-diffusion-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.17488v1.pdf",
+    "title": "GenDP: 3D Semantic Fields for Category-Level Generalizable Diffusion Policy",
+    "year": 2024
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/practice-makes-perfect-planning-to-learn-skill-parameter-policies/",
+    "pdf_path": "pdfs/2024-practice-makes-perfect-planning-to-learn-skill-parameter-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.15025v2.pdf",
+    "title": "Practice Makes Perfect: Planning to Learn Skill Parameter Policies",
+    "year": 2024
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/strategy-and-skill-learning-for-physics-based-table-tennis-animation/",
+    "pdf_path": "pdfs/2024-strategy-and-skill-learning-for-physics-based-table-tennis-animation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.16210v1.pdf",
+    "title": "Strategy and Skill Learning for Physics-based Table Tennis Animation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/theia-distilling-diverse-vision-foundation-models-for-robot-learning/",
+    "pdf_path": "pdfs/2024-theia-distilling-diverse-vision-foundation-models-for-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.20179v2.pdf",
+    "title": "Theia: Distilling Diverse Vision Foundation Models for Robot Learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/on-robot-reinforcement-learning-with-goal-contrastive-rewards/",
+    "pdf_path": "pdfs/2025-on-robot-reinforcement-learning-with-goal-contrastive-rewards.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.19989v2.pdf",
+    "title": "On-Robot Reinforcement Learning with Goal-Contrastive Rewards",
+    "year": 2025
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/physics-driven-data-generation-for-contact-rich-manipulation/",
+    "pdf_path": "pdfs/2025-physics-driven-data-generation-for-contact-rich-manipulation-via-trajectory-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.20382v2.pdf",
+    "title": "Physics-Driven Data Generation for Contact-Rich Manipulation via Trajectory Optimization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/learning-equivariant-neural-augmented-object-dynamics-from-few-interactions/",
+    "pdf_path": "pdfs/2026-learning-equivariant-neural-augmented-object-dynamics-from-few-interactions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.02699v1.pdf",
+    "title": "Learning Equivariant Neural-Augmented Object Dynamics from Few Interactions",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/novaflow-zero-shot-manipulation-viaactionable-flow-from-generated-videos/",
+    "pdf_path": "pdfs/2026-novaflow-zero-shot-manipulation-viaactionable-flow-from-generated-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.08568v1.pdf",
+    "title": "NovaFlow: Zero-Shot Manipulation viaActionable Flow from Generated Videos",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/robotic-dexterous-manipulation-via-anisotropic-friction-modulation-using-passive-rollers/",
+    "pdf_path": "pdfs/2026-robotic-dexterous-manipulation-via-anisotropic-friction-modulation-using-passive-rollers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.27452v1.pdf",
+    "title": "Robotic Dexterous Manipulation via Anisotropic Friction Modulation using Passive Rollers",
+    "year": 2026
+  },
+  {
+    "page_url": "https://rai-inst.com/resources/papers/rover-recursive-reasoning-over-videos-with-vision-language-models-for-embodied-tasks/",
+    "pdf_path": "pdfs/2026-rover-recursive-reasoning-over-videos-with-vision-language-models-for-embodied-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.01943v2.pdf",
+    "title": "ROVER: Recursive Reasoning Over Videos with Vision-Language Models for Embodied Tasks",
+    "year": 2026
+  }
+]

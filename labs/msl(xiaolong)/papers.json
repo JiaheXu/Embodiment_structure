@@ -1,0 +1,107 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-fingr-learning-dexterous-hand-control-for-real-world-rubik-s-cube-solving.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.33973.pdf",
+    "title": "FINGR: Learning Dexterous Hand Control for Real-World Rubik's Cube Solving",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-reforce-learning-force-aware-retargeting-for-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.15560.pdf",
+    "title": "Reforce: Learning force-aware retargeting for dexterous manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-manifold-bandits-bayesian-curriculum-learning-over-the-latent-geometry-of-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.19750.pdf",
+    "title": "Manifold Bandits: Bayesian Curriculum Learning over the Latent Geometry of Large Language Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-generating-robot-hands-from-human-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.20549.pdf",
+    "title": "Generating Robot Hands from Human Demonstrations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-egophys-learning-generalizable-physics-models-of-deformable-objects-from-egocentric-video.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.16202.pdf",
+    "title": "EgoPhys: Learning Generalizable Physics Models of Deformable Objects from Egocentric Video",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-taco-benchmarking-tactile-sensors-for-object-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.21976.pdf",
+    "title": "TacO: Benchmarking Tactile Sensors for Object Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-end-to-end-test-time-training-for-long-context.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.23675.pdf",
+    "title": "End-to-end test-time training for long context",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-ace-f-a-cross-embodiment-foldable-system-with-force-feedback-for-dexterous-teleoperation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.20887.pdf",
+    "title": "Ace-f: A cross embodiment foldable system with force feedback for dexterous teleoperation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-in-n-on-scaling-egocentric-manipulation-with-in-the-wild-and-on-task-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.15704.pdf",
+    "title": "In-n-on: Scaling egocentric manipulation with in-the-wild and on-task data",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-from-power-to-precision-learning-fine-grained-dexterity-for-multi-fingered-robotic-hands.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.13710.pdf",
+    "title": "From power to precision: Learning fine-grained dexterity for multi-fingered robotic hands",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-real-deep-research-for-ai-robotics-and-beyond.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.20809.pdf",
+    "title": "Real deep research for AI, robotics and beyond",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-integrating-lmm-planners-and-3d-skill-policies-for-generalizable-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.18733.pdf",
+    "title": "Integrating lmm planners and 3d skill policies for generalizable manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-diffusion-autoencoders-are-scalable-image-tokenizers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.18593.pdf",
+    "title": "Diffusion autoencoders are scalable image tokenizers",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-cross-embodiment-robot-manipulation-skill-transfer-using-latent-space-alignment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.01968.pdf",
+    "title": "Cross-embodiment robot manipulation skill transfer using latent space alignment",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-toward-general-purpose-robots-via-foundation-models-a-survey-and-meta-analysis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.08782.pdf",
+    "title": "Toward general-purpose robots via foundation models: A survey and meta-analysis",
+    "year": 2023
+  }
+]

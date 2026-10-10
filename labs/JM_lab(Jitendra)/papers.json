@@ -285,5 +285,103 @@
     "pdf_url": "https://arxiv.org/pdf/2506.11302.pdf",
     "title": "TARDIS STRIDE: A Spatio-Temporal Road Image Dataset for Exploration and Autonomy",
     "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-dexgarmentlab-dexterous-garment-manipulation-environment-with-generalizable-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.11032.pdf",
+    "title": "Dexgarmentlab: Dexterous garment manipulation environment with generalizable policy",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-visual-imitation-enables-contextual-humanoid-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.03729.pdf",
+    "title": "Visual imitation enables contextual humanoid control",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-roboverse-towards-a-unified-platform-dataset-and-benchmark-for-scalable-and-generalizable-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.18904.pdf",
+    "title": "Roboverse: Towards a unified platform, dataset and benchmark for scalable and generalizable robot learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-otter-a-vision-language-action-model-with-text-aware-visual-feature-extraction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.03734.pdf",
+    "title": "Otter: A vision-language-action model with text-aware visual feature extraction",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-sim-to-real-reinforcement-learning-for-vision-based-dexterous-manipulation-on-humanoids.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.20396.pdf",
+    "title": "Sim-to-real reinforcement learning for vision-based dexterous manipulation on humanoids",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-dexteritygen-foundation-controller-for-unprecedented-dexterity.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.04307.pdf",
+    "title": "Dexteritygen: Foundation controller for unprecedented dexterity",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-learning-from-massive-human-videos-for-universal-humanoid-pose-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.14172.pdf",
+    "title": "Learning from massive human videos for universal humanoid pose control",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-maximizing-alignment-with-minimal-feedback-efficiently-learning-rewards-for-visuomotor-robot-policy-alignment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.04835.pdf",
+    "title": "Maximizing alignment with minimal feedback: Efficiently learning rewards for visuomotor robot policy alignment",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-digitizing-touch-with-an-artificial-multimodal-fingertip.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.02479.pdf",
+    "title": "Digitizing touch with an artificial multimodal fingertip",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-learning-humanoid-locomotion-over-challenging-terrain.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.03654.pdf",
+    "title": "Learning humanoid locomotion over challenging terrain",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-synergy-and-synchrony-in-couple-dances.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.04440.pdf",
+    "title": "Synergy and synchrony in couple dances",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-hand-object-interaction-pretraining-from-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.08273.pdf",
+    "title": "Hand-Object Interaction Pretraining from Videos",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-wolf-dense-video-captioning-with-a-world-summarization-framework.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.18908.pdf",
+    "title": "Wolf: Dense video captioning with a world summarization framework",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-lessons-from-learning-to-spin-pens.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.18902.pdf",
+    "title": "Lessons from learning to spin\" pens\"",
+    "year": 2024
   }
 ]

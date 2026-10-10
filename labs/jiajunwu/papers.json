@@ -1,0 +1,93 @@
+[
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-4dcodebench-benchmarking-agents-on-inverse-graphics-of-dynamic-scenes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03715.pdf",
+    "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-mem-learning-test-time-memory-for-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.36720.pdf",
+    "title": "Mem: Learning Test-Time Memory for Robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-mindtopo-can-foundation-models-reason-in-topological-space.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.11900.pdf",
+    "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-one-demonstration-many-objects-generalizing-manipulation-via-local-contact-geometry.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.01938.pdf",
+    "title": "One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-visual-general-intelligence-a-white-paper.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.25924.pdf",
+    "title": "Visual General Intelligence: A White Paper",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-tract-bridging-robot-control-and-visual-prediction-with-visual-tracks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.24101.pdf",
+    "title": "TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-masked-visual-actions-for-unified-world-modeling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.19343.pdf",
+    "title": "Masked Visual Actions for Unified World Modeling",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-apivot-adaptive-planning-with-interleaved-vision-language-thoughts.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.08024.pdf",
+    "title": "APIVOT: Adaptive Planning with Interleaved Vision-Language Thoughts",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-costream-composing-simple-behaviors-for-generalizable-complex-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.26423.pdf",
+    "title": "CoStream: Composing Simple Behaviors for Generalizable Complex Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-insight-self-guided-skill-acquisition-via-steerable-vlas.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.24884.pdf",
+    "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-direct-when-and-where-should-you-allocate-test-time-compute-in-embodied-planners.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.12402.pdf",
+    "title": "DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-aggregating-llm-based-weak-verifiers-for-spatial-layout-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.05268.pdf",
+    "title": "Aggregating LLM-Based Weak Verifiers for Spatial Layout Generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-neurok-generative-4d-neural-object-kinematics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.30347.pdf",
+    "title": "NeuROK: Generative 4D Neural Object Kinematics",
+    "year": 2026
+  }
+]

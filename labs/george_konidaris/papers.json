@@ -1,0 +1,219 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-exploiting-contextual-structure-to-generate-useful-auxiliary-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.05038.pdf",
+    "title": "Exploiting contextual structure to generate useful auxiliary tasks",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-hierarchical-empowerment-towards-tractable-empowerment-based-skill-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.02728.pdf",
+    "title": "Hierarchical empowerment: Towards tractable empowerment-based skill learning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-mineplanner-a-benchmark-for-long-horizon-planning-in-large-minecraft-worlds.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.12891.pdf",
+    "title": "Mineplanner: A benchmark for long-horizon planning in large minecraft worlds",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-language-guided-skill-learning-with-temporal-variational-inference.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.16354.pdf",
+    "title": "Language-guided skill learning with temporal variational inference",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-latent-predictive-empowerment-measuring-empowerment-without-a-simulator.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.11155.pdf",
+    "title": "Latent-predictive empowerment: Measuring empowerment without a simulator",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-learning-abstract-world-model-for-value-preserving-planning-with-options.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.15850.pdf",
+    "title": "Learning Abstract World Model for Value-preserving Planning with Options",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-model-based-reinforcement-learning-for-parameterized-action-spaces.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.03037.pdf",
+    "title": "Model-based reinforcement learning for parameterized action spaces",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-automating-curriculum-learning-for-reinforcement-learning-using-a-skill-based-bayesian-network.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.15662.pdf",
+    "title": "Automating Curriculum Learning for Reinforcement Learning using a Skill-Based Bayesian Network",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-benchmarking-partial-observability-in-reinforcement-learning-with-a-suite-of-memory-improvable-domains.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.00046.pdf",
+    "title": "Benchmarking partial observability in reinforcement learning with a suite of memory-improvable domains",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-beyond-task-and-motion-planning-hierarchical-robot-planning-with-general-purpose-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.17901.pdf",
+    "title": "Beyond task and motion planning: Hierarchical robot planning with general-purpose policies",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-beyond-task-and-motion-planning-hierarchical-robot-planning-with-general-purpose-skills.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.17901.pdf",
+    "title": "Beyond Task and Motion Planning: Hierarchical Robot Planning with General-Purpose Skills",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.14045.pdf",
+    "title": "Discovering temporal structure: An overview of hierarchical reinforcement learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-from-pixels-to-factors-learning-independently-controllable-state-variables-for-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.02484.pdf",
+    "title": "From pixels to factors: Learning independently controllable state variables for reinforcement learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-knowledge-retention-for-continual-model-based-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.04256.pdf",
+    "title": "Knowledge retention for continual model-based reinforcement learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-optimal-interactive-learning-on-the-job-via-facility-location-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.00490.pdf",
+    "title": "Optimal interactive learning on the job via facility location planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-skillwrapper-generative-predicate-invention-for-task-level-robot-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.18203.pdf",
+    "title": "SkillWrapper: Generative Predicate Invention for Task-level Robot Planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-spectral-collapse-drives-loss-of-plasticity-in-deep-continual-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.22335.pdf",
+    "title": "Spectral collapse drives loss of plasticity in deep continual learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-v-hop-visuo-haptic-6d-object-pose-tracking.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.17434.pdf",
+    "title": "V-HOP: Visuo-haptic 6D object pose tracking",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-visual-theory-of-mind-enables-the-invention-of-proto-writing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.01568.pdf",
+    "title": "Visual Theory of Mind Enables the Invention of Proto-Writing",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-characterizing-replay-retention-under-dynamics-shift-in-model-based-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.18167.pdf",
+    "title": "Characterizing Replay Retention Under Dynamics Shift in Model-Based Reinforcement Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-creative-robot-tool-use-by-counterfactual-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.05411.pdf",
+    "title": "Creative Robot Tool Use by Counterfactual Reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-deformable-state-estimation-for-autonomous-surgical-tissue-retraction-under-partial-observability.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.13475.pdf",
+    "title": "Deformable State Estimation for Autonomous Surgical Tissue Retraction Under Partial Observability",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-deliberate-practice-learning-robot-skills-under-a-budget.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.13415.pdf",
+    "title": "Deliberate Practice: Learning Robot Skills under a Budget",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-effective-task-planning-with-missing-objects-using-learning-informed-object-search.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.11468.pdf",
+    "title": "Effective task planning with missing objects using learning-informed object search",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-from-noise-to-control-parameterized-diffusion-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.00336.pdf",
+    "title": "From Noise to Control: Parameterized Diffusion Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-going-beyond-state-reaching-learning-abstractions-for-intrinsically-motivated-option-discovery.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.36473.pdf",
+    "title": "Going Beyond State-Reaching: Learning Abstractions for Intrinsically Motivated Option Discovery",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-jaxenstein-accelerated-benchmarking-for-first-person-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.19926.pdf",
+    "title": "JAXenstein: Accelerated Benchmarking for First-Person Environments",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-jointly-learning-predicates-and-actions-enables-zero-shot-skill-composition.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.20648.pdf",
+    "title": "Jointly Learning Predicates and Actions Enables Zero-Shot Skill Composition",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-learning-equivariant-neural-augmented-object-dynamics-from-few-interactions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.02699.pdf",
+    "title": "Learning Equivariant Neural-Augmented Object Dynamics From Few Interactions",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-novaplan-zero-shot-long-horizon-manipulation-via-closed-loop-video-language-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.20119.pdf",
+    "title": "NovaPlan: Zero-shot long-horizon manipulation via closed-loop video language planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-one-shot-cross-geometry-skill-transfer-through-part-decomposition.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.15455.pdf",
+    "title": "One-Shot Cross-Geometry Skill Transfer through Part Decomposition",
+    "year": 2026
+  }
+]
