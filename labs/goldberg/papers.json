@@ -285,5 +285,12 @@
     "pdf_url": "https://arxiv.org/pdf/2311.05600.pdf",
     "title": "FogROS2-Config: Optimizing Latency and Cost for Multi-Cloud Robot Applications",
     "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-qf3-fast-flow-rl-with-filtered-q-gradients.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.08789.pdf",
+    "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
+    "year": 2026
   }
 ]

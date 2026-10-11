@@ -75,5 +75,96 @@
     "pdf_url": "https://arxiv.org/pdf/2506.16986.pdf",
     "title": "[IROS 25] \u5b66\u4e60\u5168\u8eab\u7cbe\u51c6\u6295\u63b7",
     "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1P4421D7Jc",
+    "pdf_path": "pdfs/2023-icra-24-resilient-legged-local-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.03581.pdf",
+    "title": "[ICRA 24] Resilient Legged Local Navigation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV13m41117s5",
+    "pdf_path": "pdfs/2023-icra-24-viplanner-visual-semantic-imperative-learning-for-local-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.00982.pdf",
+    "title": "[ICRA 24] ViPlanner: Visual Semantic Imperative Learning for Local Navigation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1P4421D7Jc",
+    "pdf_path": "pdfs/2023-resilient-legged-local-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.03581.pdf",
+    "title": "Resilient Legged Local Navigation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV13m41117s5",
+    "pdf_path": "pdfs/2023-viplanner-visual-semantic-imperative-learning-for-local-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.00982.pdf",
+    "title": "ViPlanner: Visual Semantic Imperative Learning for Local Navigation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1So48e8E2R",
+    "pdf_path": "pdfs/2024-corl-24-learning-to-open-and-traverse-doors-with-a-legged-manipulator.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.04882.pdf",
+    "title": "[CORL 24] Learning to Open and Traverse Doors with a Legged Manipulator",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1So48e8E2R",
+    "pdf_path": "pdfs/2024-learning-to-open-and-traverse-doors-with-a-legged-manipulator.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.04882.pdf",
+    "title": "Learning to Open and Traverse Doors with a Legged Manipulator",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1RS411w7gi",
+    "pdf_path": "pdfs/2024-rethinking-robustness-assessment-adversarial-attack-on-learning-based-quadruped-locomotion-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.12424.pdf",
+    "title": "Rethinking Robustness Assessment: Adversarial Attack on Learning-based Quadruped Locomotion Control",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1RS411w7gi",
+    "pdf_path": "pdfs/2024-rss-24-rethinking-robustness-assessment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.12424.pdf",
+    "title": "[RSS 24] Rethinking Robustness Assessment \u91cd\u65b0\u601d\u8003\u9c81\u68d2\u6027\u8bc4\u4f30",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1q8JCznEvM",
+    "pdf_path": "pdfs/2025-constraint-style-learning-from-imperfect-demonstrations-under-task-optimality.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.09371.pdf",
+    "title": "Constraint Style Learning from Imperfect Demonstrations under Task Optimality",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1q8JCznEvM",
+    "pdf_path": "pdfs/2025-corl-2025-consmimic.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.09371v1.pdf",
+    "title": "[CoRL 2025] ConsMimic: \u4efb\u52a1\u6700\u4f18\u6027\u4e0b\u57fa\u4e8e\u4e0d\u5b8c\u7f8e\u793a\u8303\u7684\u7ea6\u675f\u98ce\u683c\u5b66\u4e60",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1LjPte6EpJ",
+    "pdf_path": "pdfs/2025-dfm-deep-fourier-mimic-for-expressive-dance-motion-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.10980.pdf",
+    "title": "DFM: Deep Fourier Mimic for Expressive Dance Motion Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1LjPte6EpJ",
+    "pdf_path": "pdfs/2025-dfm.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.10980.pdf",
+    "title": "DFM\uff1a\u7528\u4e8e\u8868\u73b0\u6027\u821e\u8e48\u52a8\u4f5c\u5b66\u4e60\u7684\u6df1\u5ea6\u5085\u7acb\u53f6\u6a21\u4eff",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1MjaW6aEKo",
+    "pdf_path": "pdfs/2026-dex-one2many-learning-dexterous-manipulation-from-a-single-human-demonstration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.12470v1.pdf",
+    "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+    "year": 2026
   }
 ]

@@ -229,5 +229,40 @@
     "pdf_url": "https://arxiv.org/pdf/2309.05655.pdf",
     "title": "Dynamic handover: Throw and catch with bimanual hands",
     "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:SMfy4hdJDnEC",
+    "pdf_path": "pdfs/2026-amped-adaptive-multi-objective-projection-for-balancing-exploration-and-information-disclosure.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.21260.pdf",
+    "title": "AMPED: Adaptive Multi-objective Projection for balancing Exploration and Information Disclosure",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:H2d4Kk-kKSYC",
+    "pdf_path": "pdfs/2026-argo-balanced-sampling-with-adaptive-ratio-and-global-optimization-for-safe-motion-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.22866.pdf",
+    "title": "ARGO: Balanced Sampling with Adaptive Ratio and Global Optimization for Safe Motion Planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:lh1uMtRTbK8C",
+    "pdf_path": "pdfs/2026-bridging-semantic-reasoning-and-spatial-planning-with-weighted-predicate-task-graphs.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.03264.pdf",
+    "title": "Bridging Semantic Reasoning and Spatial Planning with Weighted Predicate Task Graphs",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:WF5omc3nYNoC",
+    "pdf_path": "pdfs/2026-fisher-information-regularized-networks-for-enhanced-6-dof-pose-estimation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.23752.pdf",
+    "title": "Fisher Information Regularized Networks for Enhanced 6-DoF Pose Estimation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:2PXsdfga2R0C",
+    "pdf_path": "pdfs/2026-structured-world-models-from-human-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.04986.pdf",
+    "title": "Structured World Models from Human Videos",
+    "year": 2026
   }
 ]

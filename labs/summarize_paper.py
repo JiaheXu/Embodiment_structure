@@ -81,6 +81,28 @@ def _summary_json_schema_prompt(missing_phrase: str) -> str:
 Return JSON only. Do not return Markdown, code fences, comments, or extra prose.
 Do not invent facts that are not supported by the source. If the source is insufficient for a field, use "{missing_phrase}".
 
+The JSON will be rendered into Markdown sections named:
+## TL;DR
+## Problem
+## Motivation
+## Method
+## Results
+## Figures And Tables
+## Robot System Taxonomy
+## Benchmark And Evaluation
+## Embodiment And Generalization
+## Evidence Strength
+## Data And Training Setup
+## Deployment Practicality
+## Implementation Notes For VLA / Robot Systems
+## Contributions
+## Limitations
+## Comparison Summary
+## Failure Modes
+## Discussion Notes
+## Index Tags
+## Keywords And Features
+
 Use this exact top-level JSON object shape:
 {{
   "summary_schema_version": {SUMMARY_SCHEMA_VERSION},
@@ -95,7 +117,18 @@ Use this exact top-level JSON object shape:
     "summary": "benchmarks, datasets used for training, testing, and validation, simulators, real-robot platforms, protocols, leaderboard/challenge settings",
     "task_suite": ["Evaluation task suite: task names, task categories, horizon length, object set, environment set, train/test split"],
     "baselines_compared_against": ["baselines compared against: baseline names, model/policy types, oracle variants, human/expert references, prior SOTA"],
-    "metrics_and_success_rates": ["per-task success rate, overall success rate, mean/std or standard deviation, trials, confidence intervals, failure criteria"],
+    "task_performance": [
+      {{
+        "task_name": "tested task name",
+        "task_setup": "objects, environment, horizon, embodiment, train/test split, and protocol",
+        "paper_performance": "per-task performance: score, success rate, completion rate, reward, error, or qualitative result",
+        "baseline_performance": "baseline score on the same task when reported",
+        "relative_result": "win/loss/tie or improvement amount",
+        "notes": "failure criteria, trial count, variance, or caveats"
+      }}
+    ],
+    "metrics_and_success_rates": ["per-task performance and overall performance: success rates, aggregate score, mean/std or standard deviation, trials, confidence intervals, failure criteria"],
+    "overall_performance": "overall performance across all tested tasks, including aggregate success rate or score and strongest baseline comparison",
     "ablations": ["component changed, what it tests, quantitative effect"]
   }},
   "embodiment_and_generalization": "dexterous hand/simple gripper/mobile manipulator/humanoid/etc.; cross-embodiment, new environments, new objects, new tasks, long horizon, sim-to-real, multi-robot",
@@ -122,8 +155,13 @@ Use this exact top-level JSON object shape:
   }},
   "implementation_notes": {{
     "summary": "practical integration notes for VLA and robot system engineers",
+    "required_inputs": ["required inputs: RGB / RGB-D / depth / point cloud / tactile / proprioception / language / robot state / object pose / calibration / maps / demonstrations / mixed"],
+    "input_constraints": ["input constraints: exact camera positions, fixed viewpoints, camera intrinsics/extrinsics, object models, known poses, synced sensor data, temporal history, action chunk length, robot morphology, workspace assumptions"],
+    "camera_sensor_setup": "camera/sensor setup: number and placement of cameras, wrist/external cameras, tactile/force sensors, depth sensors, calibration status, whether exact camera positions are required",
+    "synchronization_requirements": "synced sensor data requirements: whether RGB/depth/tactile/proprioception/action streams must be time-aligned and at what frequency",
+    "calibration_requirements": "calibration requirements: camera intrinsics/extrinsics, hand-eye calibration, robot kinematics, tactile calibration, object frames, world frame",
     "system_input_modality": "RGB / RGB-D / depth / point cloud / tactile / proprioception / language / mixed; include views, temporal history, state inputs, simulated or real",
-    "system_output_action_representation": "end-effector pose, joint positions, joint velocities/torques, gripper command, waypoint, 3D/4D trajectory, contact/force target, affordance/heatmap, plan, code, or other"
+    "system_output_action_representation": "system output action representation: end-effector pose, joint positions, joint velocities/torques, gripper command, waypoint, 3D/4D trajectory, contact/force target, affordance/heatmap, plan, code, or other"
   }},
   "contributions": ["main technical or empirical contribution"],
   "limitations": ["limitations, assumptions, failure cases, missing experiments, deployment constraints"],

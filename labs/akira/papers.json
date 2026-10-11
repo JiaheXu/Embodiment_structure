@@ -19,5 +19,166 @@
     "pdf_url": "https://arxiv.org/pdf/2607.15275v1.pdf",
     "title": "RoboTTT: Context Scaling for Robot Policies",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1bhHC64ETw",
+    "pdf_path": "pdfs/2023-corl-2023-rt-2.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.15818v1.pdf",
+    "title": "\ud83c\udf93\u3010CoRL 2023\u3011RT-2\uff1a\u8ba9\u7f51\u7edc\u89c6\u89c9\u8bed\u8a00\u77e5\u8bc6\u8f6c\u5316\u4e3a\u673a\u5668\u4eba\u52a8\u4f5c",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1e7HC6KEFU",
+    "pdf_path": "pdfs/2023-icml-2023-palm-e.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.03378v1.pdf",
+    "title": "\ud83c\udf93\u3010ICML 2023\u3011PaLM-E\uff1a\u8ba9\u591a\u6a21\u6001\u8bed\u8a00\u6a21\u578b\u7406\u89e3\u5e76\u89c4\u5212\u771f\u5b9e\u4e16\u754c",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1D4HC6FEMK",
+    "pdf_path": "pdfs/2023-icra-2024-rt-x.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08864v9.pdf",
+    "title": "\ud83c\udf93\u3010ICRA 2024\u3011RT-X\uff1a\u4e0d\u540c\u673a\u5668\u4eba\u7684\u7ecf\u9a8c\u5982\u4f55\u5171\u540c\u8bad\u7ec3\u4e00\u4e2a\u7b56\u7565",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1D4HC6FEMK",
+    "pdf_path": "pdfs/2023-open-x-embodiment-robotic-learning-datasets-and-rt-x-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08864v9.pdf",
+    "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1e7HC6KEFU",
+    "pdf_path": "pdfs/2023-palm-e-an-embodied-multimodal-language-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.03378v1.pdf",
+    "title": "PaLM-E: An Embodied Multimodal Language Model",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1bhHC64ETw",
+    "pdf_path": "pdfs/2023-rt-2-vision-language-action-models-transfer-web-knowledge-to-robotic-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.15818v1.pdf",
+    "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1YqHk6eEYC",
+    "pdf_path": "pdfs/2024-0-a-vision-language-action-flow-model-for-general-robot-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.24164v4.pdf",
+    "title": "\u03c00: A Vision-Language-Action Flow Model for General Robot Control",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1E8Hk6uEAg",
+    "pdf_path": "pdfs/2024-corl-2024-openvla.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.09246v3.pdf",
+    "title": "\ud83c\udf93\u3010CoRL 2024\u3011OpenVLA\uff1a\u5f00\u653e\u89c6\u89c9\u8bed\u8a00\u52a8\u4f5c\u6a21\u578b\u4e0e\u9ad8\u6548\u5fae\u8c03",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1nsHk6kEM4",
+    "pdf_path": "pdfs/2024-iclr-2025-rdt-1b.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.07864v2.pdf",
+    "title": "\ud83c\udf93\u3010ICLR 2025\u3011RDT-1B\uff1a\u5927\u89c4\u6a21\u6269\u6563\u9884\u8bad\u7ec3\u5982\u4f55\u5b66\u4f1a\u53cc\u81c2\u64cd\u4f5c",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1MSHk6xEcb",
+    "pdf_path": "pdfs/2024-octo-an-open-source-generalist-robot-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.12213v2.pdf",
+    "title": "Octo: An Open-Source Generalist Robot Policy",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1E8Hk6uEAg",
+    "pdf_path": "pdfs/2024-openvla-an-open-source-vision-language-action-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.09246v3.pdf",
+    "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1nsHk6kEM4",
+    "pdf_path": "pdfs/2024-rdt-1b-a-diffusion-foundation-model-for-bimanual-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.07864v2.pdf",
+    "title": "RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1MSHk6xEcb",
+    "pdf_path": "pdfs/2024-rss-2024-octo.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.12213v2.pdf",
+    "title": "\ud83c\udf93\u3010RSS 2024\u3011Octo\uff1a\u5f00\u653e\u673a\u5668\u4eba\u7b56\u7565\u5982\u4f55\u9002\u914d\u65b0\u4f20\u611f\u5668\u4e0e\u52a8\u4f5c\u7a7a\u95f4",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1YqHk6eEYC",
+    "pdf_path": "pdfs/2024-rss-2025-0.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.24164v4.pdf",
+    "title": "\ud83c\udf93\u3010RSS 2025\u3011\u03c00\uff1a\u4ece\u89c6\u89c9\u8bed\u8a00\u77e5\u8bc6\u5230\u8fde\u7eed\u7075\u5de7\u52a8\u4f5c",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1ZaHy6yEse",
+    "pdf_path": "pdfs/2025-arxiv-2025-gr00t-n1.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.14734v2.pdf",
+    "title": "\ud83c\udf93\u3010arXiv 2025\u3011GR00T N1\uff1a\u7528\u5f02\u6784\u6570\u636e\u8bad\u7ec3\u901a\u7528\u4eba\u5f62\u673a\u5668\u4eba\u7b56\u7565",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1taH16eEmb",
+    "pdf_path": "pdfs/2025-fast-efficient-action-tokenization-for-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.09747v1.pdf",
+    "title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1UDHy6aEyC",
+    "pdf_path": "pdfs/2025-fine-tuning-vision-language-action-models-optimizing-speed-and-success.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.19645v2.pdf",
+    "title": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1ZaHy6yEse",
+    "pdf_path": "pdfs/2025-gr00t-n1-an-open-foundation-model-for-generalist-humanoid-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.14734v2.pdf",
+    "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1taH16eEmb",
+    "pdf_path": "pdfs/2025-rss-2025-fast.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.09747v1.pdf",
+    "title": "\ud83c\udf93\u3010RSS 2025\u3011FAST\uff1a\u7528\u52a8\u4f5c\u538b\u7f29\u6539\u5584\u673a\u5668\u4eba\u5b66\u4e60",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1UDHy6aEyC",
+    "pdf_path": "pdfs/2025-rss-2025-openvla-oft.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.19645v2.pdf",
+    "title": "\ud83c\udf93\u3010RSS 2025\u3011OpenVLA-OFT\uff1a\u91cd\u65b0\u8bbe\u8ba1\u5fae\u8c03\uff0c\u8ba9\u673a\u5668\u4eba\u66f4\u5feb\u66f4\u53ef\u9760",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV13mHy6vEBQ",
+    "pdf_path": "pdfs/2026-icml-2026-rdt2.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.03310v1.pdf",
+    "title": "\ud83c\udf93\u3010ICML 2026\u3011RDT2\uff1a\u7528\u4e07\u5c0f\u65f6\u4eba\u7c7b\u64cd\u4f5c\u6570\u636e\u5b66\u4e60\u8de8\u673a\u5668\u4eba\u63a7\u5236",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV13mHy6vEBQ",
+    "pdf_path": "pdfs/2026-rdt2-exploring-the-scaling-limit-of-umi-data-towards-zero-shot-cross-embodiment-generalization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.03310v1.pdf",
+    "title": "RDT2: Exploring the Scaling Limit of UMI Data Towards Zero-Shot Cross-Embodiment Generalization",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1bJp36BE1L",
+    "pdf_path": "pdfs/2026-rubric-cepr-self-evolving-image-editing-via-reward-verified-self-distillation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.12469v1.pdf",
+    "title": "Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation",
+    "year": 2026
   }
 ]

@@ -257,5 +257,33 @@
     "pdf_url": "https://arxiv.org/pdf/2502.16420.pdf",
     "title": "Anydexgrasp: General dexterous grasping for different hands with human-level learning efficiency",
     "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=QZVQEWAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-analytic-concept-centric-memory-for-agentic-embodied-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.29774.pdf",
+    "title": "Analytic Concept-Centric Memory for Agentic Embodied Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=QZVQEWAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-fp2-equipping-robotic-foundation-models-with-force-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.37433.pdf",
+    "title": "FP2: Equipping Robotic Foundation Models with Force Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=QZVQEWAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-hire-history-conditioned-interaction-reasoning-and-high-rate-execution-for-visually-aliased-precision-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.30828.pdf",
+    "title": "HIRE: History-Conditioned Interaction Reasoning and High-Rate Execution for Visually Aliased Precision Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=QZVQEWAAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-rethinking-visual-embodiment-dependence-in-visuomotor-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.16815.pdf",
+    "title": "Rethinking Visual Embodiment Dependence in Visuomotor Policies",
+    "year": 2026
   }
 ]

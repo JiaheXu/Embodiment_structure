@@ -26,6 +26,7 @@ DEFAULT_MIN_YEAR = 2023
 DEFAULT_TIMEOUT_SECONDS = 30 * 60
 DEFAULT_WORKERS = 2
 DEFAULT_HTTP_ATTEMPTS = 3
+DOWNLOAD_PDF_ATTEMPTS = 4
 BILIBILI_VIDEO_LIMIT = 30
 GOOGLE_SCHOLAR_PAGE_SIZE = 100
 GOOGLE_SCHOLAR_MAX_PAGES = 20
@@ -614,8 +615,23 @@ def google_scholar_page_url(url: str, cstart: int) -> str:
 
 
 def download_pdf(url: str, destination: Path, timeout: int) -> None:
-    request = Request(url, headers={"User-Agent": USER_AGENT})
-    data, _response = read_url_with_retries(request, timeout=timeout)
+    last_exc: Exception | None = None
+    for attempt in range(1, DOWNLOAD_PDF_ATTEMPTS + 1):
+        request = Request(url, headers={"User-Agent": USER_AGENT})
+        try:
+            with urlopen(request, timeout=timeout) as response:
+                data = response.read()
+            break
+        except (HTTPError, URLError, TimeoutError, IncompleteRead, InvalidURL, ssl.SSLError) as exc:
+            last_exc = exc
+            print(f"[download:failed] attempt {attempt}/{DOWNLOAD_PDF_ATTEMPTS} failed for {url}: {exc}", file=sys.stderr)
+            if attempt >= DOWNLOAD_PDF_ATTEMPTS:
+                raise
+            time.sleep(min(2 ** (attempt - 1), 5))
+    else:
+        if last_exc:
+            raise last_exc
+        raise RuntimeError("download retry loop did not run")
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_bytes(data)
 
@@ -937,9 +953,6 @@ def main(argv: list[str] | None = None) -> int:
         os.environ["BILIBILI_COOKIES"] = args.bilibili_cookies
     if args.bilibili_cookies_from_browser:
         os.environ["BILIBILI_COOKIES_FROM_BROWSER"] = args.bilibili_cookies_from_browser
-    if args.bilibili_only and not os.environ.get("BILIBILI_COOKIES") and not os.environ.get("BILIBILI_COOKIES_FROM_BROWSER"):
-        os.environ["BILIBILI_COOKIES_FROM_BROWSER"] = "chrome"
-
     lab_dirs = discover_lab_dirs(args.labs_root)
     if args.lab is not None:
         lab_dirs = [lab_dir for lab_dir in lab_dirs if lab_dir.name == args.lab]
@@ -950,6 +963,12 @@ def main(argv: list[str] | None = None) -> int:
     if not lab_dirs:
         print(f"No lab directories with link.txt found under {args.labs_root}", file=sys.stderr)
         return 1
+    if (
+        any(is_bilibili_url(read_lab_link(lab_dir) or "") for lab_dir in lab_dirs)
+        and not os.environ.get("BILIBILI_COOKIES")
+        and not os.environ.get("BILIBILI_COOKIES_FROM_BROWSER")
+    ):
+        os.environ["BILIBILI_COOKIES_FROM_BROWSER"] = "chrome"
 
     failures = run_labs(
         lab_dirs,

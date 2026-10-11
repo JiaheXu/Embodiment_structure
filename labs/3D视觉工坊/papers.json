@@ -12,5 +12,40 @@
     "pdf_url": "https://arxiv.org/pdf/2610.12470v1.pdf",
     "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1jL8K6HEFc",
+    "pdf_path": "pdfs/2026-auraluxmuse-adaptive-fusion-modeling-for-aesthetic-stage-lighting-design-with-music-and-expert-guidance.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.11792v1.pdf",
+    "title": "AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV16qpe6sEQA",
+    "pdf_path": "pdfs/2026-dreamtrue-action-faithful-robot-world-model-with-counterfactual-post-training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.12468v1.pdf",
+    "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1gT4R63ERg",
+    "pdf_path": "pdfs/2026-mental-models-for-multi-agent-systems.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.12453v1.pdf",
+    "title": "Mental-Models for Multi-Agent Systems",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1vtpY6kEFh",
+    "pdf_path": "pdfs/2026-puffin-probabilistic-learning-of-spatial-detail-from-coarse-observations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.11914v1.pdf",
+    "title": "Puffin: Probabilistic Learning of Spatial Detail From Coarse Observations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1GwYx6CEKy",
+    "pdf_path": "pdfs/2026-rubric-cepr-self-evolving-image-editing-via-reward-verified-self-distillation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.12469v1.pdf",
+    "title": "Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation",
+    "year": 2026
   }
 ]

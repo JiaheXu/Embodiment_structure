@@ -1,0 +1,128 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-datt-deep-adaptive-trajectory-tracking-for-quadrotor-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.09053.pdf",
+    "title": "Datt: Deep adaptive trajectory tracking for quadrotor control",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-learning-to-read-braille-bridging-the-tactile-reality-gap-with-diffusion-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.01182.pdf",
+    "title": "Learning to read braille: Bridging the tactile reality gap with diffusion models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-model-predictive-control-for-aggressive-driving-over-uneven-terrain.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.12284.pdf",
+    "title": "Model predictive control for aggressive driving over uneven terrain",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-perceiving-extrinsic-contacts-from-touch-improves-learning-insertion-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.16652.pdf",
+    "title": "Perceiving extrinsic contacts from touch improves learning insertion policies",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-stackelberg-games-for-learning-emergent-behaviors-during-competitive-autocurricula.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.03735.pdf",
+    "title": "Stackelberg games for learning emergent behaviors during competitive autocurricula",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2023-terrainnet-visual-modeling-of-complex-terrain-for-high-speed-off-road-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.15771.pdf",
+    "title": "Terrainnet: Visual modeling of complex terrain for high-speed, off-road navigation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-dynamics-models-in-the-aggressive-off-road-driving-regime.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.16487.pdf",
+    "title": "Dynamics models in the aggressive off-road driving regime",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2024-sparsh-self-supervised-touch-representations-for-vision-based-tactile-sensing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.24090.pdf",
+    "title": "Sparsh: Self-supervised touch representations for vision-based tactile sensing",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-long-range-navigator-lrn-extending-robot-planning-horizons-beyond-metric-maps.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.13149.pdf",
+    "title": "Long Range Navigator (LRN): Extending robot planning horizons beyond metric maps",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-parental-guidance-efficient-lifelong-learning-through-evolutionary-distillation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.18531.pdf",
+    "title": "Parental Guidance: Efficient Lifelong Learning through Evolutionary Distillation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-self-supervised-perception-for-tactile-skin-covered-dexterous-hands.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.11420.pdf",
+    "title": "Self-supervised perception for tactile skin covered dexterous hands",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-uncertainty-aware-accurate-elevation-modeling-for-off-road-navigation-via-neural-processes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.03890.pdf",
+    "title": "Uncertainty-aware Accurate Elevation Modeling for Off-road Navigation via Neural Processes",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-using-non-expert-data-to-robustify-imitation-learning-via-offline-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.19495.pdf",
+    "title": "Using non-expert data to robustify imitation learning via offline reinforcement learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-vamos-a-hierarchical-vision-language-action-model-for-capability-modulated-and-steerable-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.20818.pdf",
+    "title": "VAMOS: A Hierarchical Vision-Language-Action Model for Capability-Modulated and Steerable Navigation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2025-wheeled-lab-modern-sim2real-for-low-cost-open-source-wheeled-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.07380.pdf",
+    "title": "Wheeled Lab: Modern Sim2Real for Low-cost, Open-source Wheeled Robotics",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-discriminative-barrier-functions-for-safe-adversarial-imitation-learning-from-observation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.13938.pdf",
+    "title": "Discriminative Barrier Functions for Safe Adversarial Imitation Learning from Observation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-planning-from-observation-and-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.24121.pdf",
+    "title": "Planning from Observation and Interaction",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2096-vamos-a-hierarchical-vision-language-action-model-for-capability-modulated-and-steerable-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.13938.pdf",
+    "title": "Vamos: A hierarchical vision-language-action model for capability-modulated and steerable navigation",
+    "year": 2096
+  }
+]
