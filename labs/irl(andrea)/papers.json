@@ -89,5 +89,12 @@
     "pdf_url": "https://arxiv.org/pdf/2402.10182.pdf",
     "title": "Intent demonstration in general-sum dynamic games via iterative linear-quadratic approximations",
     "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-modeling-latent-disturbances-for-robust-decision-making-in-world-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07599.pdf",
+    "title": "Modeling Latent Disturbances for Robust Decision-Making in World Models",
+    "year": 2026
   }
 ]

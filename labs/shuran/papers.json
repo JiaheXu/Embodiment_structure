@@ -320,5 +320,19 @@
     "pdf_url": "https://arxiv.org/pdf/2306.15724.pdf",
     "title": "Reflect: Summarizing robot experiences for failure explanation and correction",
     "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-eigendexplore-structured-exploration-for-dexterous-manipulation-with-human-priors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07681.pdf",
+    "title": "EigenDEXplore: Structured Exploration for Dexterous Manipulation with Human Priors",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-fluorescence-enhanced-whisker-array-with-vision-based-deformation-analysis-for-underwater-source-localization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07275.pdf",
+    "title": "Fluorescence-enhanced Whisker Array with Vision-based Deformation Analysis for Underwater Source Localization",
+    "year": 2026
   }
 ]

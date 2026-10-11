@@ -138,5 +138,12 @@
     "pdf_url": "https://arxiv.org/pdf/2305.08042.pdf",
     "title": "CHSEL: Producing diverse plausible pose estimates from contact and free space data",
     "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=en&user=fE3FSqIAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-redex-repairing-sim-to-real-dexterous-policies-by-finger-level-compliant-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07525.pdf",
+    "title": "ReDex: Repairing Sim-to-Real Dexterous Policies by Finger-Level Compliant Interaction",
+    "year": 2026
   }
 ]

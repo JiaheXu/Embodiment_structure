@@ -166,25 +166,36 @@ SUMMARIZE_PAPER_TIMEOUT=3600 ./labs/summarize_paper.sh
 By default, existing summary files are skipped. Use `--force` or `--all` to
 regenerate summaries for papers that already have summary files.
 
-## Knowledge Tree
+## RAG Index
 
-After summaries exist, generate a browsable knowledge tree:
+After summaries exist, build the retrieval index:
 
 ```bash
-python3 labs/generate_knowledge_tree.py
+python3 labs/build_rag_index.py
 ```
 
-This scans `labs/<lab_name>/summary/*.md`, removes duplicate papers by arXiv
-ID, paper URL, or title/year, infers branches from each paper's title plus
-positive `Keywords And Features` entries, then writes:
+This reads `labs/<lab_name>/summary_json/*.json` and writes:
 
 ```text
-labs/knowledge_tree.json
-labs/knowledge_tree.html
+labs/rag_index/papers.jsonl
+labs/rag_index/chunks.jsonl
+labs/rag_index/embeddings.jsonl
 ```
 
-Open `labs/knowledge_tree.html` in a browser to inspect branches and click
-paper nodes.
+Search with paper-provided keywords or requirement text:
+
+```bash
+python3 labs/build_rag_index.py --search-only --keyword "dexterous grasping"
+python3 labs/build_rag_index.py --search-only --query "RGB-D language manipulation on a real robot"
+```
+
+Search returns candidate paper JSON objects with title, abstract,
+paper-provided keywords, index tags, and supporting chunks. Send that candidate
+list to an LLM agent for the final related-work decision.
+
+The first version uses dependency-free local hash embeddings plus keyword and
+lexical boosting, so it is easy to inspect and replace with API embeddings
+later.
 
 By default it uses the local OpenAI-compatible proxy:
 

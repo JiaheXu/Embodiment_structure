@@ -89,5 +89,12 @@
     "pdf_url": "https://arxiv.org/pdf/2605.30347.pdf",
     "title": "NeuROK: Generative 4D Neural Object Kinematics",
     "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-openwam-an-open-framework-for-composable-world-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07922.pdf",
+    "title": "OpenWAM: An Open Framework for Composable World-Action Models",
+    "year": 2026
   }
 ]

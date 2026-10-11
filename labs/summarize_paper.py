@@ -82,6 +82,7 @@ Return JSON only. Do not return Markdown, code fences, comments, or extra prose.
 Do not invent facts that are not supported by the source. If the source is insufficient for a field, use "{missing_phrase}".
 
 The JSON will be rendered into Markdown sections named:
+## Abstract
 ## TL;DR
 ## Problem
 ## Motivation
@@ -106,6 +107,7 @@ The JSON will be rendered into Markdown sections named:
 Use this exact top-level JSON object shape:
 {{
   "summary_schema_version": {SUMMARY_SCHEMA_VERSION},
+  "abstract": "paper abstract or a faithful abstract-style summary from the source, useful for indexing and retrieval",
   "tldr": "one concise paragraph",
   "problem": "what problem the paper solves and why it is hard",
   "motivation": "why it matters for robotics, embodied AI, autonomy, or perception",
@@ -192,9 +194,10 @@ Use this exact top-level JSON object shape:
     "generalization": ["machine-friendly generalization tags"],
     "assets": ["machine-friendly dataset/code/benchmark tags"]
   }},
-  "keywords_and_features": ["paper-specific keywords and features: methods, tasks, embodiments, benchmarks, datasets, sensors, representations, policies, planners, controllers, evaluation settings, deployment conditions"]
+  "keywords_and_features": ["paper-provided keywords only: copy explicit author/paper keywords exactly when present; use an empty list if the paper does not provide explicit keywords"]
 }}
 
+Do not infer, invent, or generate keywords for "keywords_and_features".
 Do not force the paper into a fixed knowledge-tree branch. The knowledge graph will derive groups later from
 "keywords_and_features", "index_tags", title, abstract, and summary text.
 """.strip()
@@ -411,6 +414,7 @@ def render_summary_markdown(summary: dict[str, object], paper: dict[str, object]
         "",
     ]
     sections: list[tuple[str, object]] = [
+        ("Abstract", summary.get("abstract")),
         ("TL;DR", summary.get("tldr")),
         ("Problem", summary.get("problem")),
         ("Motivation", summary.get("motivation")),

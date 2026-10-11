@@ -110,5 +110,19 @@
     "pdf_url": "https://arxiv.org/pdf/2507.06203.pdf",
     "title": "Towards Autonomous Mathematics Research",
     "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:JyRntf_N1n8C",
+    "pdf_path": "pdfs/2025-acquiring-diverse-skills-in-games-through-reinforcement-learning-and-program-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.11012.pdf",
+    "title": "Acquiring diverse skills in games through reinforcement learning and program synthesis",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.co.jp/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:SxtiucSjF_0C",
+    "pdf_path": "pdfs/2025-toward-scalable-probabilistic-alignment-of-model-and-human-distributions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.12186.pdf",
+    "title": "Toward Scalable Probabilistic Alignment of Model and Human Distributions",
+    "year": 2025
   }
 ]

@@ -40,5 +40,40 @@
     "pdf_url": "https://arxiv.org/pdf/2607.15163.pdf",
     "title": "FoldNet++: a Large-Scale Synthetic Dataset for Robotic T-Shirt Folding and Unfolding",
     "year": 2089
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:vbGhcppDl1QC",
+    "pdf_path": "pdfs/2025-dexgraspvla-a-vision-language-action-framework-towards-general-dexterous-grasping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.20900.pdf",
+    "title": "DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:ubquNMjMGx4C",
+    "pdf_path": "pdfs/2025-dooract-learning-generalizable-articulated-object-manipulation-from-human-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.07758.pdf",
+    "title": "DoorAct: Learning Generalizable Articulated Object Manipulation from Human Demonstrations",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:KpZFBLmCTCwC",
+    "pdf_path": "pdfs/2025-egobridge-domain-adaptation-for-generalizable-imitation-from-egocentric-human-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.09969.pdf",
+    "title": "EgoBridge: Domain Adaptation for Generalizable Imitation from Egocentric Human Data",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:1yQoGdGgb4wC",
+    "pdf_path": "pdfs/2025-manilong-shot-interaction-aware-one-shot-imitation-learning-for-long-horizon-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.12833.pdf",
+    "title": "ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:LhH-TYMQEocC",
+    "pdf_path": "pdfs/2025-robotwin-2-0-a-scalable-data-generator-and-benchmark-with-strong-domain-randomization-for-robust-bimanual-robotic-manipu.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.18088.pdf",
+    "title": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation",
+    "year": 2025
   }
 ]

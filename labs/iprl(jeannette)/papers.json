@@ -229,5 +229,12 @@
     "pdf_url": "https://arxiv.org/pdf/2306.16605.pdf",
     "title": "Kite: Keypoint-conditioned policies for semantic manipulation",
     "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?hl=zh-CN&user=rjnJnEkAAAAJ&view_op=list_works&sortby=pubdate",
+    "pdf_path": "pdfs/2026-eigendexplore-structured-exploration-for-dexterous-manipulation-with-human-priors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07681.pdf",
+    "title": "EigenDEXplore: Structured Exploration for Dexterous Manipulation with Human Priors",
+    "year": 2026
   }
 ]

@@ -4,6 +4,7 @@ import ssl
 import subprocess
 from http.client import IncompleteRead, InvalidURL
 from pathlib import Path
+from urllib.error import HTTPError
 
 from labs.download_paper import (
     DEFAULT_HTTP_ATTEMPTS,
@@ -863,7 +864,30 @@ def test_download_pdf_logs_retry_attempts(tmp_path, monkeypatch, capsys):
 
     download_pdf("https://example.com/paper.pdf", tmp_path / "paper.pdf", timeout=1)
 
-    assert "attempt 1/3 failed" in capsys.readouterr().err
+    assert "attempt 1/4 failed" in capsys.readouterr().err
+
+
+def test_download_pdf_retries_failed_http_downloads_three_times(tmp_path, monkeypatch, capsys):
+    calls = {"count": 0}
+
+    def fake_urlopen(request, timeout):
+        calls["count"] += 1
+        raise HTTPError(request.full_url, 404, "Not Found", hdrs=None, fp=None)
+
+    monkeypatch.setattr("labs.download_paper.urlopen", fake_urlopen)
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda seconds: None)
+
+    try:
+        download_pdf("https://example.com/missing.pdf", tmp_path / "missing.pdf", timeout=1)
+    except HTTPError:
+        pass
+    else:
+        raise AssertionError("expected HTTPError")
+
+    stderr = capsys.readouterr().err
+    assert calls["count"] == 4
+    assert stderr.count("[download:failed]") == 4
+    assert "attempt 4/4 failed" in stderr
 
 
 def test_download_pdf_retries_ssl_errors_during_read(tmp_path, monkeypatch):

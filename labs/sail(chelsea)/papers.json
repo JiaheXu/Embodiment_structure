@@ -355,5 +355,40 @@
     "pdf_url": "https://arxiv.org/pdf/2407.07775.pdf",
     "title": "Mobility vla: Multimodal instruction navigation with long-context vlms and topological graphs",
     "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:rQ6GVjAorzwC",
+    "pdf_path": "pdfs/2026-agentic-science-from-hypothesis-to-publication-with-no-human-intervention.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.22404.pdf",
+    "title": "Agentic Science: From Hypothesis to Publication with No Human Intervention",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:VwbMccpnIh4C",
+    "pdf_path": "pdfs/2026-beyond-binary-preference-interactive-reward-modeling-for-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.02256.pdf",
+    "title": "Beyond Binary Preference: Interactive Reward Modeling for Reinforcement Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:TIZ-Mc8IlK0C",
+    "pdf_path": "pdfs/2026-hivid-llm-guided-video-saliency-from-cached-token-hierarchies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.16760.pdf",
+    "title": "HiVid: LLM-Guided Video Saliency from Cached Token Hierarchies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:yNLpQcUji6gC",
+    "pdf_path": "pdfs/2026-internalizing-meta-experience-into-memory-for-guided-reinforcement-learning-in-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.01511.pdf",
+    "title": "Internalizing Meta-Experience into Memory for Guided Reinforcement Learning in Large Language Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:PELIpwtuRlgC",
+    "pdf_path": "pdfs/2026-uncertainty-guided-knowledge-efficient-clinical-active-information-gathering.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.01096.pdf",
+    "title": "Uncertainty-Guided Knowledge-Efficient Clinical Active Information Gathering",
+    "year": 2026
   }
 ]

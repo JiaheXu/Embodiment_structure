@@ -6,6 +6,7 @@ from labs.summarize_paper import (
     build_summary_prompt,
     main,
     paper_summary_path,
+    render_summary_markdown,
     select_papers_to_summarize,
 )
 
@@ -87,6 +88,7 @@ def test_build_summary_prompt_contains_required_sections():
 
     for section in [
         "Problem",
+        "Abstract",
         "Motivation",
         "Method",
         "Results",
@@ -113,17 +115,47 @@ def test_summary_prompts_include_robot_engineering_fields():
     for prompt in [text_prompt, pdf_prompt]:
         for phrase in [
             "## Robot System Taxonomy",
+            "## Abstract",
             "perception / VLA / world model / planner / controller / sensor",
             "## Benchmark And Evaluation",
             "datasets used for training, testing, and validation",
+            "per-task performance",
+            "overall performance",
             "dexterous hand",
             "simple gripper",
             "cross-embodiment",
             "new environments",
             "new objects",
             "## Implementation Notes For VLA / Robot Systems",
+            "required inputs",
+            "input constraints",
+            "exact camera positions",
+            "synced sensor data",
+            "calibration requirements",
+            "system output action representation",
         ]:
             assert phrase in prompt
+
+
+def test_render_summary_markdown_includes_abstract_for_indexing():
+    paper = {
+        "title": "Robot Learning",
+        "year": 2024,
+        "pdf_url": "https://example.com/robot.pdf",
+        "page_url": "https://example.com/robot",
+    }
+
+    markdown = render_summary_markdown(
+        {
+            "abstract": "This paper studies robot learning with camera-conditioned policies.",
+            "tldr": "A concise indexing summary.",
+        },
+        paper,
+    )
+
+    assert "## Abstract" in markdown
+    assert "This paper studies robot learning with camera-conditioned policies." in markdown
+    assert markdown.index("## Abstract") < markdown.index("## TL;DR")
 
 
 def test_summary_prompts_use_keywords_not_fixed_tree_labels():
@@ -136,13 +168,11 @@ def test_summary_prompts_use_keywords_not_fixed_tree_labels():
 
     for prompt in [build_summary_prompt(paper, "Abstract"), build_pdf_summary_prompt(paper)]:
         assert "## Keywords And Features" in prompt
-        assert "paper-specific keywords" in prompt
+        assert "paper-provided keywords only" in prompt
+        assert "empty list if the paper does not provide explicit keywords" in prompt
         assert "Do not force the paper into a fixed knowledge-tree branch" in prompt
-        assert "methods" in prompt
-        assert "tasks" in prompt
-        assert "embodiments" in prompt
-        assert "benchmarks" in prompt
-        assert "datasets" in prompt
+        assert "Do not infer, invent, or generate keywords" in prompt
+        assert "paper-specific keywords and features" not in prompt
         assert "## Knowledge Tree Labels" not in prompt
         assert "primary_branch:" not in prompt
 

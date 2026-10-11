@@ -145,5 +145,397 @@
     "pdf_url": "https://arxiv.org/pdf/2609.36380.pdf",
     "title": "LEGO-Anything: Coding Agents for 3D Scene Reconstruction",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV139p36LEoA",
+    "pdf_path": "pdfs/2026-3d-benchmark-paiss-physical-ai-smart-spaces-a-large-scale-benchmark-for-multi.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02580v1.pdf",
+    "title": "\u30103D\u7406\u89e3\u00b7Benchmark\u3011PAISS:Physical AI Smart Spaces:A Large-Scale Benchmark for Multi",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Cap368Eb9",
+    "pdf_path": "pdfs/2026-3d-benchmark-renderbench-benchmarking-render-to-real-video-transfer-with-reco.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.08684.pdf",
+    "title": "\u30103D\u91cd\u5efa\u00b7Benchmark\u3011RenderBench:Benchmarking Render-to-Real Video Transfer with Reco",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV11sp36NEhJ",
+    "pdf_path": "pdfs/2026-3d-building-rome-from-a-single-image.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.08790v1.pdf",
+    "title": "\u30103D\u91cd\u5efa\u3011Building Rome from a Single Image",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1pYp36fEHT",
+    "pdf_path": "pdfs/2026-3d-densitok-making-feed-forward-3d-gaussian-splatting-see-more-views-than-it.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07958.pdf",
+    "title": "\u30103D\u91cd\u5efa\u3011DensiTok:Making Feed-Forward 3D Gaussian Splatting See More Views Than It",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hVp36kEfW",
+    "pdf_path": "pdfs/2026-3d-distscene-object-to-scene-distillation-for-3d-scene-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.06960v1.pdf",
+    "title": "\u30103D\u751f\u6210\u3011DistScene:Object-to-Scene Distillation for 3D Scene Generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1sbp36aExS",
+    "pdf_path": "pdfs/2026-3d-elasticfit-fit-aware-3d-object-insertion-via-vlm-reasoning-and-generative.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07460v2.pdf",
+    "title": "\u30103D\u751f\u6210\u3011ElasticFit:Fit-Aware 3D Object Insertion via VLM Reasoning and Generative",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV19gp36yEVx",
+    "pdf_path": "pdfs/2026-3d-lens3d-target-conditioned-visual-foveation-for-fine-grained-3d-understandi.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.06611v1.pdf",
+    "title": "\u30103D\u7406\u89e3\u3011Lens3D:Target-Conditioned Visual Foveation for Fine-Grained 3D Understandi",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hLp363Eja",
+    "pdf_path": "pdfs/2026-3d-less-context-better-geometry-masked-geometric-encoder-for-robust-3d-found.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.06813v1.pdf",
+    "title": "\u30103D\u7406\u89e3\u3011Less Context, Better Geometry:Masked Geometric Encoder for Robust 3D Found",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1vUp36UE5m",
+    "pdf_path": "pdfs/2026-3d-omniact3d-leveraging-foundation-geometry-and-evidence-grounded-reasoning-f.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03015v1.pdf",
+    "title": "\u30103D\u7406\u89e3\u3011OmniAct3D:Leveraging Foundation Geometry and Evidence-Grounded Reasoning f",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1G9p36LEzH",
+    "pdf_path": "pdfs/2026-3d-scion-scene-composition-with-instanced-neural-primitives.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02322v1.pdf",
+    "title": "\u30103D\u91cd\u5efa\u3011SCION:Scene Composition with Instanced Neural Primitives",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV15mp36JErr",
+    "pdf_path": "pdfs/2026-3d-t3lescope-arbitrary-resolution-high-fidelity-generative-surface-reconstruc.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03308v1.pdf",
+    "title": "\u30103D\u751f\u6210\u3011T3lescope:Arbitrary-Resolution High-Fidelity Generative Surface Reconstruc",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Rmp36JEA6",
+    "pdf_path": "pdfs/2026-3d-unidynamics-event-rgb-fusion-for-unified-future-4d-dynamic-scene-generatio.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03473v1.pdf",
+    "title": "\u30103D\u751f\u6210\u3011UniDynamics:Event-RGB Fusion for Unified Future 4D Dynamic Scene Generatio",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1nYp36fEaQ",
+    "pdf_path": "pdfs/2026-3dgs-opensplatgraph-from-dense-semantic-maps-to-structured-scene-graphs-for-ope.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07569.pdf",
+    "title": "\u30103DGS\u3011OpenSplatGraph:From Dense Semantic Maps to Structured Scene Graphs for Ope",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV18jp366ERv",
+    "pdf_path": "pdfs/2026-3dgs-sparse-view-4d-gaussian-splatting-via-spatiotemporal-priors-and-generative.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.04606.pdf",
+    "title": "\u30103DGS\u3011Sparse-View 4D Gaussian Splatting via Spatiotemporal Priors and Generative",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1uCp56SEss",
+    "pdf_path": "pdfs/2026-3dgs-stereogaussians-feed-forward-3d-gaussian-splatting-from-stereo-images.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.38592v1.pdf",
+    "title": "\u30103DGS\u3011StereoGaussians:Feed-Forward 3D Gaussian Splatting from Stereo Images",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Whp36cEv7",
+    "pdf_path": "pdfs/2026-artemis-geometry-grounded-multi-agent-driving-world-models-with-shared-3d-state-and-progressive-memory-update.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07031v1.pdf",
+    "title": "Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Whp36cEv7",
+    "pdf_path": "pdfs/2026-artemis-geometry-grounded-multi-agent-driving-world-models-with-shared-3d.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07031v1.pdf",
+    "title": "\u3010\u4e16\u754c\u6a21\u578b\u3011Artemis:Geometry-Grounded Multi-Agent Driving World Models with Shared 3D",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV11sp36NEhJ",
+    "pdf_path": "pdfs/2026-building-rome-from-a-single-image.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.08790v1.pdf",
+    "title": "Building Rome from a Single Image",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1pYp36fEHT",
+    "pdf_path": "pdfs/2026-densitok-making-feed-forward-3d-gaussian-splatting-see-more-views-than-it-is-given.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07958.pdf",
+    "title": "DensiTok: Making Feed-Forward 3D Gaussian Splatting See More Views Than It Is Given",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1xsp36NEiA",
+    "pdf_path": "pdfs/2026-depthworld-3d-world-model-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.08780v1.pdf",
+    "title": "DepthWorld: 3D World Model for Robot Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hVp36kEfW",
+    "pdf_path": "pdfs/2026-distscene-object-to-scene-distillation-for-3d-scene-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.06960v1.pdf",
+    "title": "DistScene: Object-to-Scene Distillation for 3D Scene Generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1sbp36aExS",
+    "pdf_path": "pdfs/2026-elasticfit-fit-aware-3d-object-insertion-via-vlm-reasoning-and-generative-adaptation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07460v2.pdf",
+    "title": "ElasticFit: Fit-Aware 3D Object Insertion via VLM Reasoning and Generative Adaptation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1tJp36BEgT",
+    "pdf_path": "pdfs/2026-foreact3d-policy-grounded-future-world-modeling-for-vla-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.04607.pdf",
+    "title": "ForeAct3D: Policy-Grounded Future World Modeling for VLA Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1aRp36yECo",
+    "pdf_path": "pdfs/2026-gencine-generative-cinematographer-composing-camera-and-object-motion-in-3.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02180v1.pdf",
+    "title": "\u3010\u89c6\u9891\u751f\u6210\u3011GenCine:Generative Cinematographer:Composing Camera and Object Motion in 3",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1aRp36yECo",
+    "pdf_path": "pdfs/2026-generative-cinematographer-composing-camera-and-object-motion-in-3d.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02180v1.pdf",
+    "title": "Generative Cinematographer: Composing Camera and Object Motion in 3D",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1uop36VEdb",
+    "pdf_path": "pdfs/2026-geoscaffold-learning-compact-geometric-latents-via-reconstruction-for-efficient-vision-language-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02697.pdf",
+    "title": "GeoScaffold: Learning Compact Geometric Latents via Reconstruction for Efficient Vision-Language Navigation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Whp36cEHC",
+    "pdf_path": "pdfs/2026-geowm-efficient-direct-world-modeling-in-explicit-geometry.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07381v1.pdf",
+    "title": "GeoWM: Efficient Direct World Modeling in Explicit Geometry",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hZp36kELr",
+    "pdf_path": "pdfs/2026-imagine-the-future-internalize-the-gist-efficient-vla-reasoning-via-internalized-spatiotemporal-imagination.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02626.pdf",
+    "title": "Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV18Ep36uEYS",
+    "pdf_path": "pdfs/2026-kepler4d-controllable-future-video-generation-via-4d-scene-state-evolution.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.04152.pdf",
+    "title": "Kepler4D: Controllable Future Video Generation via 4D Scene State Evolution",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV19gp36yEVx",
+    "pdf_path": "pdfs/2026-lens3d-target-conditioned-visual-foveation-for-fine-grained-3d-understanding.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.06611v1.pdf",
+    "title": "Lens3D: Target-Conditioned Visual Foveation for Fine-Grained 3D Understanding",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hLp363Eja",
+    "pdf_path": "pdfs/2026-less-context-better-geometry-masked-geometric-encoder-for-robust-3d-foundation-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.06813v1.pdf",
+    "title": "Less Context, Better Geometry: Masked Geometric Encoder for Robust 3D Foundation Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1GDp367E2E",
+    "pdf_path": "pdfs/2026-less-decoder-is-more-encoder-geometric-representation-learning-from-novel-view-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03717v1.pdf",
+    "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1GDp367E2E",
+    "pdf_path": "pdfs/2026-less-decoder-is-more-encoder-geometric-representation-learning-from-novel.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03717v1.pdf",
+    "title": "\u3010\u795e\u7ecf\u6e32\u67d3\u3011Less Decoder is More Encoder:Geometric Representation Learning from Novel",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1vUp36UE5m",
+    "pdf_path": "pdfs/2026-omniact3d-leveraging-foundation-geometry-and-evidence-grounded-reasoning-for-panoramic-3d-detection.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03015v1.pdf",
+    "title": "OmniAct3D: Leveraging Foundation Geometry and Evidence-Grounded Reasoning for Panoramic 3D Detection",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1nYp36fEaQ",
+    "pdf_path": "pdfs/2026-opensplatgraph-from-dense-semantic-maps-to-structured-scene-graphs-for-open-vocabulary-robot-perception.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07569.pdf",
+    "title": "OpenSplatGraph: From Dense Semantic Maps to Structured Scene Graphs for Open-Vocabulary Robot Perception",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV139p36LEoA",
+    "pdf_path": "pdfs/2026-physical-ai-smart-spaces-a-large-scale-benchmark-for-multi-camera-3d-perception-in-smart-spaces.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02580v1.pdf",
+    "title": "Physical AI Smart Spaces: A Large-Scale Benchmark for Multi-Camera 3D Perception in Smart Spaces",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1uop36VEoC",
+    "pdf_path": "pdfs/2026-pointwam-3d-world-action-modeling-for-dexterous-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02840v1.pdf",
+    "title": "PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1tJp36BEgv",
+    "pdf_path": "pdfs/2026-render-to-reason-novel-view-semantic-prediction-improves-spatial-understan.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.05417v1.pdf",
+    "title": "\u3010\u89c6\u89c9\u63a8\u7406\u3011Render to Reason:Novel-View Semantic Prediction Improves Spatial Understan",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1tJp36BEgv",
+    "pdf_path": "pdfs/2026-render-to-reason-novel-view-semantic-prediction-improves-spatial-understanding-in-vlms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.05417v1.pdf",
+    "title": "Render to Reason: Novel-View Semantic Prediction Improves Spatial Understanding in VLMs",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Cap368Eb9",
+    "pdf_path": "pdfs/2026-renderbench-benchmarking-render-to-real-video-transfer-with-reconstructed-digital-twins.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.08684.pdf",
+    "title": "RenderBench: Benchmarking Render-to-Real Video Transfer with Reconstructed Digital Twins",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1G9p36LEzH",
+    "pdf_path": "pdfs/2026-scion-scene-composition-with-instanced-neural-primitives.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02322v1.pdf",
+    "title": "SCION: Scene Composition with Instanced Neural Primitives",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV18Ep36uEn9",
+    "pdf_path": "pdfs/2026-selectoccflow-selective-spatiotemporal-aggregation-for-3d-occupancy-and-sc.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.04356v1.pdf",
+    "title": "\u3010\u81ea\u52a8\u9a7e\u9a76\u3011SelectOccFlow:Selective Spatiotemporal Aggregation for 3D Occupancy and Sc",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV18Ep36uEn9",
+    "pdf_path": "pdfs/2026-selectoccflow-selective-spatiotemporal-aggregation-for-3d-occupancy-and-scene-flow-prediction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.04356v1.pdf",
+    "title": "SelectOccFlow: Selective Spatiotemporal Aggregation for 3D Occupancy and Scene Flow Prediction",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1YGp36VELS",
+    "pdf_path": "pdfs/2026-slam-vggt-bridge-beyond-sequential-pose-graphs-via-coarse-stride-skip-edges.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.06594v1.pdf",
+    "title": "\u3010SLAM\u3011VGGT-Bridge:Beyond Sequential Pose Graphs via Coarse-Stride Skip Edges",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV18jp366ERv",
+    "pdf_path": "pdfs/2026-sparse-view-4d-gaussian-splatting-via-spatiotemporal-priors-and-generative-assistance.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.04606.pdf",
+    "title": "Sparse-View 4D Gaussian Splatting via Spatiotemporal Priors and Generative Assistance",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1pap368Eh2",
+    "pdf_path": "pdfs/2026-spatime-streaming-vision-language-models-for-spatio-temporal-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.08713.pdf",
+    "title": "SpaTime: Streaming Vision-Language Models for Spatio-temporal Reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1uCp56SEss",
+    "pdf_path": "pdfs/2026-stereogaussians-feed-forward-3d-gaussian-splatting-from-stereo-images.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.38592v1.pdf",
+    "title": "StereoGaussians: Feed-Forward 3D Gaussian Splatting from Stereo Images",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV15mp36JErr",
+    "pdf_path": "pdfs/2026-t3lescope-arbitrary-resolution-high-fidelity-generative-surface-reconstruction-from-images.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03308v1.pdf",
+    "title": "T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Rmp36JEA6",
+    "pdf_path": "pdfs/2026-unidynamics-event-rgb-fusion-for-unified-future-4d-dynamic-scene-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03473v1.pdf",
+    "title": "UniDynamics: Event-RGB Fusion for Unified Future 4D Dynamic Scene Generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1YGp36VELS",
+    "pdf_path": "pdfs/2026-vggt-bridge-beyond-sequential-pose-graphs-via-coarse-stride-skip-edges.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.06594v1.pdf",
+    "title": "VGGT-Bridge: Beyond Sequential Pose Graphs via Coarse-Stride Skip Edges",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1tJp36BEgT",
+    "pdf_path": "pdfs/2026-vla-foreact3d-policy-grounded-future-world-modeling-for-vla-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.04607.pdf",
+    "title": "\u3010VLA\u3011ForeAct3D:Policy-Grounded Future World Modeling for VLA Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1uop36VEdb",
+    "pdf_path": "pdfs/2026-vla-geoscaffold-learning-compact-geometric-latents-via-reconstruction-for-effic.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02697.pdf",
+    "title": "\u3010VLA\u3011GeoScaffold:Learning Compact Geometric Latents via Reconstruction for Effic",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hZp36kELr",
+    "pdf_path": "pdfs/2026-vla-ig-vla-imagine-the-future-internalize-the-gist-efficient-vla-reasoning-via.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02626.pdf",
+    "title": "\u3010VLA\u3011IG-VLA:Imagine the Future, Internalize the Gist:Efficient VLA Reasoning via",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1uop36VEoC",
+    "pdf_path": "pdfs/2026-wam-pointwam-3d-world-action-modeling-for-dexterous-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02840v1.pdf",
+    "title": "\u3010WAM\u3011PointWAM:3D World Action Modeling for Dexterous Robotic Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1aQp362Efe",
+    "pdf_path": "pdfs/2026-wam-xgenact-geometry-enhanced-world-action-models-through-cross-task-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03516v1.pdf",
+    "title": "\u3010WAM\u3011XGenAct:Geometry-Enhanced World Action Models through Cross-Task Generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1aQp362Efe",
+    "pdf_path": "pdfs/2026-xgenact-geometry-enhanced-world-action-models-through-cross-task-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03516v1.pdf",
+    "title": "XGenAct: Geometry-Enhanced World Action Models through Cross-Task Generation",
+    "year": 2026
   }
 ]
