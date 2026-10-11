@@ -1,3 +1,19 @@
 # Generated lab artifacts.
 labs/*/pdfs/
 labs/*/summary/
+labs/*/summaries/
+labs/*/summary_json/
+labs/*/failed.txt
+labs/knowledge_tree.html
+labs/knowledge_tree.json
+labs/knowledge_index.sqlite
+labs/knowledge_index.sqlite-*
+labs/knowledge_chunks.jsonl
+labs/paper_groups.yaml
+labs/paper_rag_index.sqlite
+labs/paper_rag_index.sqlite-*
+
+# Python local caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/

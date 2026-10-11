@@ -23,8 +23,10 @@ from labs.download_paper import (
 
 DEFAULT_MAX_CHARS = 90_000
 SUMMARY_DIR_NAME = "summary"
+SUMMARY_JSON_DIR_NAME = "summary_json"
 USER_AGENT = "Mozilla/5.0 (compatible; lab-paper-summarizer/0.1)"
 SUMMARY_SOURCE = "pdf"
+SUMMARY_SCHEMA_VERSION = 1
 
 
 def load_papers(lab_dir: Path) -> list[dict[str, object]]:
@@ -39,6 +41,12 @@ def paper_summary_path(lab_dir: Path, paper: dict[str, object]) -> Path:
     year = str(paper.get("year", "unknown"))
     title = str(paper.get("title", "paper"))
     return lab_dir / SUMMARY_DIR_NAME / f"{year}-{safe_filename(title)}.md"
+
+
+def paper_summary_json_path(lab_dir: Path, paper: dict[str, object]) -> Path:
+    year = str(paper.get("year", "unknown"))
+    title = str(paper.get("title", "paper"))
+    return lab_dir / SUMMARY_JSON_DIR_NAME / f"{year}-{safe_filename(title)}.json"
 
 
 def select_papers_to_summarize(
@@ -68,6 +76,92 @@ def extract_pdf_text(pdf_path: Path, max_chars: int = DEFAULT_MAX_CHARS) -> str:
     return text[:max_chars]
 
 
+def _summary_json_schema_prompt(missing_phrase: str) -> str:
+    return f"""
+Return JSON only. Do not return Markdown, code fences, comments, or extra prose.
+Do not invent facts that are not supported by the source. If the source is insufficient for a field, use "{missing_phrase}".
+
+Use this exact top-level JSON object shape:
+{{
+  "summary_schema_version": {SUMMARY_SCHEMA_VERSION},
+  "tldr": "one concise paragraph",
+  "problem": "what problem the paper solves and why it is hard",
+  "motivation": "why it matters for robotics, embodied AI, autonomy, or perception",
+  "method": "core idea, system design, algorithm, data, training, and inference flow",
+  "results": "main experiments, baselines, metrics, and quantitative/qualitative outcomes",
+  "figures_and_tables": "important figures, charts, tables, architecture diagrams, and qualitative examples",
+  "robot_system_taxonomy": "primary and secondary stack categories and why; consider perception / VLA / world model / planner / controller / sensor / scene graph / 3D reconstruction / teleoperation / data augmentation / benchmark / simulation / safety / deployment",
+  "benchmark_and_evaluation": {{
+    "summary": "benchmarks, datasets used for training, testing, and validation, simulators, real-robot platforms, protocols, leaderboard/challenge settings",
+    "task_suite": ["Evaluation task suite: task names, task categories, horizon length, object set, environment set, train/test split"],
+    "baselines_compared_against": ["baselines compared against: baseline names, model/policy types, oracle variants, human/expert references, prior SOTA"],
+    "metrics_and_success_rates": ["per-task success rate, overall success rate, mean/std or standard deviation, trials, confidence intervals, failure criteria"],
+    "ablations": ["component changed, what it tests, quantitative effect"]
+  }},
+  "embodiment_and_generalization": "dexterous hand/simple gripper/mobile manipulator/humanoid/etc.; cross-embodiment, new environments, new objects, new tasks, long horizon, sim-to-real, multi-robot",
+  "evidence_strength": {{
+    "real_robot_evidence": "Real robot evidence: yes/no, robot platform, trials, task count, object count, environment count",
+    "simulation_only": "Simulation-only: yes/no, simulator name, sim task count, sim-to-real evidence",
+    "baseline_strength": "Baseline strength: weak/fair/strong with reason",
+    "statistical_reliability": "seeds, trials, mean/std, confidence intervals, significance tests",
+    "reproducibility": "code, data, model weights, benchmark scripts, hardware details, availability"
+  }},
+  "data_and_training_setup": {{
+    "training_data_source": "Training data source: real robot, teleoperation, human videos, internet videos, simulation, synthetic data, scripted expert, mixed",
+    "dataset_size": "trajectories, episodes, hours, images, videos, scenes, objects, tasks, tokens",
+    "data_collection_cost": "Data collection cost: hardware, operators, time, annotation, reset burden",
+    "training_setup": "pretraining, fine-tuning, policy learning, RL, imitation learning, offline/online data",
+    "labels_annotations": "language, action, segmentation, pose, depth, force/contact, task labels"
+  }},
+  "deployment_practicality": {{
+    "hardware_required": "robot, hand/gripper, cameras, tactile sensors, force sensors, compute",
+    "real_time_capable": "Real-time capable: yes/no/unclear, latency, inference rate, Control frequency",
+    "calibration_burden": "camera, hand-eye, tactile, object models, environment setup",
+    "safety_constraints": "collision handling, force limits, reset procedure, supervision",
+    "engineering_difficulty": "hardest parts to reproduce"
+  }},
+  "implementation_notes": {{
+    "summary": "practical integration notes for VLA and robot system engineers",
+    "system_input_modality": "RGB / RGB-D / depth / point cloud / tactile / proprioception / language / mixed; include views, temporal history, state inputs, simulated or real",
+    "system_output_action_representation": "end-effector pose, joint positions, joint velocities/torques, gripper command, waypoint, 3D/4D trajectory, contact/force target, affordance/heatmap, plan, code, or other"
+  }},
+  "contributions": ["main technical or empirical contribution"],
+  "limitations": ["limitations, assumptions, failure cases, missing experiments, deployment constraints"],
+  "comparison_summary": {{
+    "main_baseline": "strongest or most relevant baseline",
+    "improvement_over_strongest_baseline": "Improvement over strongest baseline: reported improvement",
+    "best_reported_metric": "best metric",
+    "weakest_reported_metric": "weakest metric",
+    "tasks_where_it_wins": ["Tasks where it wins"],
+    "tasks_where_it_loses": ["task"],
+    "generalization_tested": ["objects", "scenes", "embodiments", "language", "long horizon", "sim-to-real"]
+  }},
+  "failure_modes": {{
+    "common_failure_cases": ["Common failure cases"],
+    "out_of_distribution_failures": ["failure"],
+    "perception_failures": ["failure"],
+    "control_contact_failures": ["failure"],
+    "language_planning_failures": ["failure"],
+    "hardware_specific_failures": ["failure"]
+  }},
+  "discussion_notes": "surprising findings, follow-up questions, relation to other work",
+  "index_tags": {{
+    "input": ["machine-friendly input tags"],
+    "output": ["machine-friendly output tags"],
+    "robot": ["machine-friendly robot tags"],
+    "task": ["machine-friendly task tags"],
+    "evaluation": ["machine-friendly evaluation tags"],
+    "generalization": ["machine-friendly generalization tags"],
+    "assets": ["machine-friendly dataset/code/benchmark tags"]
+  }},
+  "keywords_and_features": ["paper-specific keywords and features: methods, tasks, embodiments, benchmarks, datasets, sensors, representations, policies, planners, controllers, evaluation settings, deployment conditions"]
+}}
+
+Do not force the paper into a fixed knowledge-tree branch. The knowledge graph will derive groups later from
+"keywords_and_features", "index_tags", title, abstract, and summary text.
+""".strip()
+
+
 def build_summary_prompt(paper: dict[str, object], paper_text: str) -> str:
     title = str(paper.get("title", "Unknown title"))
     year = str(paper.get("year", "unknown"))
@@ -78,71 +172,13 @@ You are preparing a paper-share research note for a robotics / embodied AI lab s
 Follow the spirit of paper-share-skills: clear, presentation-ready, problem-first,
 method/result focused, and useful for later slides or a reading group.
 
-Write Markdown only. Do not invent facts that are not supported by the paper text.
-If the text is insufficient for a section, say "Not clear from extracted text."
+{_summary_json_schema_prompt("Not clear from extracted text")}
 
 Paper metadata:
 - Title: {title}
 - Year: {year}
 - Paper URL: {pdf_url}
 - Page URL: {page_url}
-
-Required Markdown structure:
-
-# {title}
-
-- **Year:** {year}
-- **Paper:** {pdf_url}
-- **Page:** {page_url}
-
-## TL;DR
-One concise paragraph.
-
-## Problem
-What problem does the paper try to solve? Why is it hard?
-
-## Motivation
-Why does this problem matter for robotics, embodied AI, autonomy, or perception?
-
-## Method
-Explain the core idea, model/system design, algorithm, data, training, and inference flow.
-
-## Results
-Summarize the main experiments, baselines, metrics, and quantitative/qualitative outcomes.
-
-## Robot System Taxonomy
-Classify where this paper fits in a robot stack: perception / VLA / world model / planner / controller / sensor /
-scene graph / 3D reconstruction / teleoperation / data augmentation / benchmark / simulation / safety / deployment.
-List primary and secondary categories, and explain why.
-
-## Benchmark And Evaluation
-Identify benchmarks, datasets used for training, testing, and validation, simulators, real-robot platforms,
-baselines, metrics, protocols, and leaderboard/challenge settings. Say clearly if it is a benchmark/dataset paper.
-
-## Embodiment And Generalization
-For VLA, manipulation, planning, or policy papers, specify whether the robot uses a dexterous hand, simple gripper,
-mobile manipulator, humanoid, quadruped, drone, or autonomous vehicle. State whether the method supports
-cross-embodiment, new environments, new objects, new tasks, long-horizon tasks, sim-to-real, or multi-robot use.
-
-## Implementation Notes For VLA / Robot Systems
-Extract practical integration notes for a VLA engineer and robot system engineer: required sensors, inputs/outputs,
-action representation, latency/compute assumptions, data requirements, calibration needs, failure modes, and what
-would be hard to reproduce on a real robot.
-
-## Contributions
-List the main technical or empirical contributions.
-
-## Limitations
-List limitations, assumptions, failure cases, missing experiments, or deployment constraints.
-
-## Discussion Notes
-Give reading-group notes: surprising findings, possible follow-up questions, and relation to other work.
-
-## Keywords And Features
-List paper-specific keywords and features that describe what this paper is about.
-Do not force the paper into a fixed knowledge-tree branch. Include concise tags for methods, tasks, embodiments,
-benchmarks, datasets, sensors, representations, policies, planners, controllers, evaluation settings, and deployment
-conditions when they are supported by the paper.
 
 Extracted paper text:
 {paper_text}
@@ -160,74 +196,13 @@ Use the attached PDF as the source of truth, including figures, charts, tables,
 architecture diagrams, benchmarks, datasets, qualitative results, and appendices
 when available.
 
-Write Markdown only. Do not invent facts that are not supported by the PDF.
-If the PDF is insufficient for a section, say "Not clear from PDF."
+{_summary_json_schema_prompt("Not clear from PDF")}
 
 Paper metadata:
 - Title: {title}
 - Year: {year}
 - Paper URL: {pdf_url}
 - Page URL: {page_url}
-
-Required Markdown structure:
-
-# {title}
-
-- **Year:** {year}
-- **Paper:** {pdf_url}
-- **Page:** {page_url}
-
-## TL;DR
-One concise paragraph.
-
-## Problem
-What problem does the paper try to solve? Why is it hard?
-
-## Motivation
-Why does this problem matter for robotics, embodied AI, autonomy, or perception?
-
-## Method
-Explain the core idea, model/system design, algorithm, data, training, and inference flow.
-
-## Results
-Summarize the main experiments, benchmarks, datasets, baselines, metrics, and quantitative/qualitative outcomes.
-
-## Figures And Tables
-Summarize important figures, charts, tables, architecture diagrams, and qualitative examples.
-
-## Robot System Taxonomy
-Classify where this paper fits in a robot stack: perception / VLA / world model / planner / controller / sensor /
-scene graph / 3D reconstruction / teleoperation / data augmentation / benchmark / simulation / safety / deployment.
-List primary and secondary categories, and explain why.
-
-## Benchmark And Evaluation
-Identify benchmarks, datasets used for training, testing, and validation, simulators, real-robot platforms,
-baselines, metrics, protocols, and leaderboard/challenge settings. Say clearly if it is a benchmark/dataset paper.
-
-## Embodiment And Generalization
-For VLA, manipulation, planning, or policy papers, specify whether the robot uses a dexterous hand, simple gripper,
-mobile manipulator, humanoid, quadruped, drone, or autonomous vehicle. State whether the method supports
-cross-embodiment, new environments, new objects, new tasks, long-horizon tasks, sim-to-real, or multi-robot use.
-
-## Implementation Notes For VLA / Robot Systems
-Extract practical integration notes for a VLA engineer and robot system engineer: required sensors, inputs/outputs,
-action representation, latency/compute assumptions, data requirements, calibration needs, failure modes, and what
-would be hard to reproduce on a real robot.
-
-## Contributions
-List the main technical or empirical contributions.
-
-## Limitations
-List limitations, assumptions, failure cases, missing experiments, or deployment constraints.
-
-## Discussion Notes
-Give reading-group notes: surprising findings, possible follow-up questions, and relation to other work.
-
-## Keywords And Features
-List paper-specific keywords and features that describe what this paper is about.
-Do not force the paper into a fixed knowledge-tree branch. Include concise tags for methods, tasks, embodiments,
-benchmarks, datasets, sensors, representations, policies, planners, controllers, evaluation settings, and deployment
-conditions when they are supported by the paper.
 """.strip()
 
 
@@ -240,7 +215,7 @@ def build_pdf_summary_payload(model: str, paper: dict[str, object], pdf_path: Pa
                 "role": "system",
                 "content": (
                     "You write accurate, source-grounded academic paper summaries. "
-                    "Return Markdown only."
+                    "Return JSON only using the requested schema."
                 ),
             },
             {
@@ -275,7 +250,7 @@ def summarize_with_ai(prompt: str, timeout: int) -> str:
                 "role": "system",
                 "content": (
                     "You write accurate, source-grounded academic paper summaries. "
-                    "Return Markdown only."
+                    "Return JSON only using the requested schema."
                 ),
             },
             {"role": "user", "content": prompt},
@@ -334,14 +309,20 @@ def summarize_paper(
 
     if source == "pdf":
         try:
-            summary = summarize_pdf_with_ai(paper, pdf_path, timeout=timeout)
+            raw_summary = summarize_pdf_with_ai(paper, pdf_path, timeout=timeout)
         except (HTTPError, URLError, TimeoutError, RuntimeError) as exc:
             print(f"[summary:fallback] raw PDF summary failed for {paper.get('title')}: {exc}", file=sys.stderr)
-            summary = summarize_paper_from_text(paper, pdf_path, timeout=timeout, max_chars=max_chars)
+            raw_summary = summarize_paper_from_text(paper, pdf_path, timeout=timeout, max_chars=max_chars)
     else:
-        summary = summarize_paper_from_text(paper, pdf_path, timeout=timeout, max_chars=max_chars)
+        raw_summary = summarize_paper_from_text(paper, pdf_path, timeout=timeout, max_chars=max_chars)
+    summary_data = parse_summary_json_response(raw_summary)
+    summary = render_summary_markdown(summary_data, paper) if summary_data is not None else raw_summary
     summary_path.parent.mkdir(parents=True, exist_ok=True)
     summary_path.write_text(summary.rstrip() + "\n")
+    if summary_data is not None:
+        json_path = paper_summary_json_path(lab_dir, paper)
+        json_path.parent.mkdir(parents=True, exist_ok=True)
+        json_path.write_text(json.dumps(summary_data, ensure_ascii=False, indent=2, sort_keys=True) + "\n")
     return summary_path
 
 
@@ -351,6 +332,134 @@ def summarize_paper_from_text(paper: dict[str, object], pdf_path: Path, timeout:
         raise RuntimeError(f"no text extracted from {pdf_path}")
     prompt = build_summary_prompt(paper, text)
     return summarize_with_ai(prompt, timeout=timeout)
+
+
+def parse_summary_json_response(response_text: str) -> dict[str, object] | None:
+    text = response_text.strip()
+    if not text:
+        return None
+    if text.startswith("```"):
+        lines = text.splitlines()
+        if lines and lines[0].startswith("```"):
+            lines = lines[1:]
+        if lines and lines[-1].strip() == "```":
+            lines = lines[:-1]
+        text = "\n".join(lines).strip()
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        start = text.find("{")
+        end = text.rfind("}")
+        if start < 0 or end < start:
+            return None
+        try:
+            data = json.loads(text[start : end + 1])
+        except json.JSONDecodeError:
+            return None
+    return data if isinstance(data, dict) else None
+
+
+def render_summary_markdown(summary: dict[str, object], paper: dict[str, object]) -> str:
+    title = str(paper.get("title", "Unknown title"))
+    year = str(paper.get("year", "unknown"))
+    pdf_url = str(paper.get("pdf_url", ""))
+    page_url = str(paper.get("page_url", ""))
+    lines = [
+        f"# {title}",
+        "",
+        f"- **Year:** {year}",
+        f"- **Paper:** {pdf_url}",
+        f"- **Page:** {page_url}",
+        "",
+    ]
+    sections: list[tuple[str, object]] = [
+        ("TL;DR", summary.get("tldr")),
+        ("Problem", summary.get("problem")),
+        ("Motivation", summary.get("motivation")),
+        ("Method", summary.get("method")),
+        ("Results", summary.get("results")),
+        ("Figures And Tables", summary.get("figures_and_tables")),
+        ("Robot System Taxonomy", summary.get("robot_system_taxonomy")),
+        ("Benchmark And Evaluation", summary.get("benchmark_and_evaluation")),
+        ("Embodiment And Generalization", summary.get("embodiment_and_generalization")),
+        ("Evidence Strength", summary.get("evidence_strength")),
+        ("Data And Training Setup", summary.get("data_and_training_setup")),
+        ("Deployment Practicality", summary.get("deployment_practicality")),
+        ("Implementation Notes For VLA / Robot Systems", summary.get("implementation_notes")),
+        ("Contributions", summary.get("contributions")),
+        ("Limitations", summary.get("limitations")),
+        ("Comparison Summary", summary.get("comparison_summary")),
+        ("Failure Modes", summary.get("failure_modes")),
+        ("Discussion Notes", summary.get("discussion_notes")),
+        ("Index Tags", summary.get("index_tags")),
+        ("Keywords And Features", summary.get("keywords_and_features")),
+    ]
+    for heading, value in sections:
+        lines.append(f"## {heading}")
+        lines.extend(_render_markdown_value(value))
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def _render_markdown_value(value: object) -> list[str]:
+    if value is None or value == "":
+        return ["Not reported."]
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, list):
+        return _render_markdown_list(value)
+    if isinstance(value, dict):
+        return _render_markdown_dict(value)
+    return [str(value)]
+
+
+def _render_markdown_list(values: list[object], indent: int = 0) -> list[str]:
+    if not values:
+        return ["Not reported."]
+    lines: list[str] = []
+    prefix = "  " * indent
+    for value in values:
+        if isinstance(value, dict):
+            compact = ", ".join(f"{_humanize_key(str(key))}: {_compact_markdown_value(item)}" for key, item in value.items())
+            lines.append(f"{prefix}- {compact}")
+        elif isinstance(value, list):
+            lines.append(f"{prefix}-")
+            lines.extend(_render_markdown_list(value, indent + 1))
+        else:
+            lines.append(f"{prefix}- {value}")
+    return lines
+
+
+def _render_markdown_dict(values: dict[object, object]) -> list[str]:
+    if not values:
+        return ["Not reported."]
+    lines: list[str] = []
+    for key, value in values.items():
+        label = _humanize_key(str(key))
+        if isinstance(value, list):
+            lines.append(f"- {label}: {_compact_markdown_value(value)}")
+        elif isinstance(value, dict):
+            lines.append(f"- {label}:")
+            for child_key, child_value in value.items():
+                child_label = _humanize_key(str(child_key))
+                lines.append(f"  - {child_label}: {_compact_markdown_value(child_value)}")
+        else:
+            lines.append(f"- {label}: {_compact_markdown_value(value)}")
+    return lines
+
+
+def _compact_markdown_value(value: object) -> str:
+    if value is None or value == "":
+        return "Not reported."
+    if isinstance(value, list):
+        return ", ".join(_compact_markdown_value(item) for item in value) if value else "Not reported."
+    if isinstance(value, dict):
+        return "; ".join(f"{_humanize_key(str(key))}: {_compact_markdown_value(item)}" for key, item in value.items())
+    return str(value)
+
+
+def _humanize_key(key: str) -> str:
+    return key.replace("_", " ")
 
 
 def summarize_lab(
