@@ -103,5 +103,82 @@
     "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/17a7075094632c88cccdd86270ad715b-Paper-Conference.pdf",
     "title": "Cameras as relative positional encoding",
     "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:eJXPG6dFmWUC",
+    "pdf_path": "pdfs/2026-flow-matching-policy-gradients.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/3d43cc5692bf68944ee7cd31b97d0c11-Paper-Conference.pdf",
+    "title": "Flow matching policy gradients",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:HE397vMXCloC",
+    "pdf_path": "pdfs/2026-self-improving-4d-perception-via-self-distillation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.08532.pdf",
+    "title": "Self-Improving 4D Perception via Self-Distillation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:AXPGKjj_ei8C",
+    "pdf_path": "pdfs/2026-fillerbuster-unified-generative-scene-completion-model-for-casual-captures.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.05175.pdf",
+    "title": "Fillerbuster: Unified Generative Scene Completion Model for Casual Captures",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:bnK-pcrLprsC",
+    "pdf_path": "pdfs/2026-human-level-3d-shape-perception-emerges-from-multi-view-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.17650.pdf",
+    "title": "Human-level 3D shape perception emerges from multi-view learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:5ugPr518TE4C",
+    "pdf_path": "pdfs/2026-perceptive-humanoid-parkour-chaining-dynamic-human-skills-via-motion-matching.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.15827.pdf",
+    "title": "Perceptive humanoid parkour: Chaining dynamic human skills via motion matching",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:wbdj-CoPYUoC",
+    "pdf_path": "pdfs/2026-flow-policy-gradients-for-robot-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.02481.pdf",
+    "title": "Flow policy gradients for robot control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:V3AGJWp-ZtQC",
+    "pdf_path": "pdfs/2025-visually-prompted-benchmarks-are-surprisingly-fragile.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.17875.pdf",
+    "title": "Visually prompted benchmarks are surprisingly fragile",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:kRWSkSYxWN8C",
+    "pdf_path": "pdfs/2025-diffusion-forcing-for-multi-agent-interaction-sequence-modeling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.17900.pdf",
+    "title": "Diffusion Forcing for Multi-Agent Interaction Sequence Modeling",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:B3FOqHPlNUQC",
+    "pdf_path": "pdfs/2025-pyroki-a-modular-toolkit-for-robot-kinematic-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.03728.pdf",
+    "title": "Pyroki: A modular toolkit for robot kinematic optimization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:4fKUyHm3Qg0C",
+    "pdf_path": "pdfs/2025-predict-optimize-distill-a-self-improving-cycle-for-4d-object-understanding.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.17441.pdf",
+    "title": "Predict-Optimize-Distill: A Self-Improving Cycle for 4D Object Understanding",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:tS2w5q8j5-wC",
+    "pdf_path": "pdfs/2025-st4rtrack-simultaneous-4d-reconstruction-and-tracking-in-the-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.13152v1.pdf",
+    "title": "St4rtrack: Simultaneous 4d reconstruction and tracking in the world",
+    "year": 2025
   }
 ]
