@@ -1,0 +1,310 @@
+[
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2023-mimicgen-a-data-generation-system-for-scalable-robot-learning-using-human-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.17596.pdf",
+    "title": "MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2023-mimicplay-long-horizon-imitation-learning-by-watching-human-play.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.12422.pdf",
+    "title": "MimicPlay: Long-Horizon Imitation Learning by Watching Human Play",
+    "year": 2023
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2023-vima-general-robot-manipulation-with-multimodal-prompts.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.03094.pdf",
+    "title": "VIMA: General Robot Manipulation with Multimodal Prompts",
+    "year": 2023
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2024-amago-scalable-in-context-reinforcement-learning-for-adaptive-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.09971.pdf",
+    "title": "AMAGO: Scalable In-Context Reinforcement Learning for Adaptive Agents",
+    "year": 2024
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2024-dreureka-language-model-guided-sim-to-real-transfer.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.01967.pdf",
+    "title": "DrEureka: Language Model Guided Sim-To-Real Transfer",
+    "year": 2024
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2024-eureka-human-level-reward-design-via-coding-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.12931.pdf",
+    "title": "Eureka: Human-Level Reward Design via Coding Large Language Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2024-prismer-a-vision-language-model-with-multi-task-experts.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.02506.pdf",
+    "title": "Prismer: A Vision-Language Model with Multi-Task Experts",
+    "year": 2024
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2024-robocasa-large-scale-simulation-of-everyday-tasks-for-generalist-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.02523.pdf",
+    "title": "RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots",
+    "year": 2024
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2024-voyager-an-open-ended-embodied-agent-with-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.16291.pdf",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2025-asap-aligning-simulation-and-real-world-physics-for-learning-agile-humanoid-whole-body-skills.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.01143.pdf",
+    "title": "ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills",
+    "year": 2025
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2025-dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.12705.pdf",
+    "title": "DreamGen: Unlocking Generalization in Robot Learning through Video World Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2025-emergent-active-perception-and-dexterity-of-simulated-humanoids-from-visual-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.12278.pdf",
+    "title": "Emergent Active Perception and Dexterity of Simulated Humanoids from Visual Reinforcement Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2025-flare-robot-learning-with-implicit-world-modeling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.15659.pdf",
+    "title": "FLARE: Robot Learning with Implicit World Modeling",
+    "year": 2025
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2025-gr00t-n1-an-open-foundation-model-for-generalist-humanoid-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.14734.pdf",
+    "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+    "year": 2025
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2025-hover-versatile-neural-whole-body-controller-for-humanoid-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.21229.pdf",
+    "title": "HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots",
+    "year": 2025
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2025-isaac-lab-a-gpu-accelerated-simulation-framework-for-multi-modal-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.04831.pdf",
+    "title": "Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2025-sim-and-real-co-training-a-simple-recipe-for-vision-based-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.24361.pdf",
+    "title": "Sim-and-Real Co-Training: A Simple Recipe for Vision-Based Robotic Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2025-sim-to-real-reinforcement-learning-for-vision-based-dexterous-manipulation-on-humanoids.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.20396.pdf",
+    "title": "Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids",
+    "year": 2025
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2025-world-simulation-with-video-foundation-models-for-physical-ai.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.00062.pdf",
+    "title": "World Simulation with Video Foundation Models for Physical AI",
+    "year": 2025
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-a-mechanistic-analysis-of-sim-and-real-co-training-in-generative-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.13645.pdf",
+    "title": "A Mechanistic Analysis of Sim-and-Real Co-Training in Generative Robot Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-aspire-agentic-skills-discovery-for-robotics.pdf",
+    "pdf_url": "https://research.nvidia.com/labs/gear/aspire/assets/Aspire.pdf",
+    "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-cap-x-a-framework-for-benchmarking-and-improving-coding-agents-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.22435.pdf",
+    "title": "CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-chip-adaptive-compliance-for-humanoid-control-through-hindsight-perturbation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.14689.pdf",
+    "title": "CHIP: Adaptive Compliance for Humanoid Control through Hindsight Perturbation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-contrastive-action-image-pre-training-for-visuomotor-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.17256.pdf",
+    "title": "Contrastive Action-Image Pre-training for Visuomotor Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-cosmos-3-omnimodal-world-models-for-physical-ai.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.02800.pdf",
+    "title": "Cosmos 3: Omnimodal World Models for Physical AI",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-dreamdojo-a-generalist-robot-world-model-from-large-scale-human-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.06949.pdf",
+    "title": "DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-dreamzero-world-action-models-are-zero-shot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.15922.pdf",
+    "title": "DreamZero: World Action Models are Zero-shot Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-egoscale-scaling-dexterous-manipulation-with-diverse-egocentric-human-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.16710.pdf",
+    "title": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-enpire-agentic-robot-policy-self-improvement-in-the-real-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.19980.pdf",
+    "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-gap-a-graph-as-policy-multi-agent-self-learning-harness-for-variational-automation-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.05369.pdf",
+    "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-grail-generating-humanoid-loco-manipulation-from-3d-assets-and-video-priors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.05160.pdf",
+    "title": "GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-humanoidmimicgen-data-generation-for-loco-manipulation-via-whole-body-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.27724.pdf",
+    "title": "HumanoidMimicGen: Data Generation for Loco-Manipulation via Whole-Body Planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-learning-dexterous-manipulation-using-contact-wrench-guidance-from-human-demonstration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.00033.pdf",
+    "title": "Learning Dexterous Manipulation Using Contact Wrench Guidance From Human Demonstration",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-motionbricks-scalable-real-time-motions-with-modular-latent-generative-model-and-smart-primitives.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.24833.pdf",
+    "title": "MotionBricks: Scalable Real-Time Motions with Modular Latent Generative Model and Smart Primitives",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-nitrogen-an-open-foundation-model-for-generalist-gaming-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.02427.pdf",
+    "title": "NitroGen: An Open Foundation Model for Generalist Gaming Agents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-opening-the-sim-to-real-door-for-humanoid-pixel-to-action-policy-transfer.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.01061.pdf",
+    "title": "Opening the Sim-to-Real Door for Humanoid Pixel-to-Action Policy Transfer",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-robottt-context-scaling-for-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.15275.pdf",
+    "title": "RoboTTT: Context Scaling for Robot Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-scizor-a-self-supervised-approach-to-data-curation-for-large-scale-imitation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.22626.pdf",
+    "title": "SCIZOR: A Self-Supervised Approach to Data Curation for Large-Scale Imitation Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-self-improving-vision-language-action-models-with-data-generation-via-residual-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.00091.pdf",
+    "title": "Self-Improving Vision-Language-Action Models with Data Generation via Residual RL",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-simfoundry-modular-and-automated-scene-generation-for-policy-learning-and-evaluation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.28276.pdf",
+    "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-softmimicgen-a-data-generation-system-for-scalable-robot-learning-in-deformable-object-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.25725.pdf",
+    "title": "SoftMimicGen: A Data Generation System for Scalable Robot Learning in Deformable Object Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-t-rex-tactile-reactive-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.17055.pdf",
+    "title": "T-Rex: Tactile-Reactive Dexterous Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-vesta-a-generalist-embodied-reasoning-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.20905.pdf",
+    "title": "Vesta: A Generalist Embodied Reasoning Model",
+    "year": 2026
+  },
+  {
+    "page_url": "https://research.nvidia.com/labs/gear/publications/",
+    "pdf_path": "pdfs/2026-viral-visual-sim-to-real-at-scale-for-humanoid-loco-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.15200.pdf",
+    "title": "VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation",
+    "year": 2026
+  }
+]

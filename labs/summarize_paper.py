@@ -8,7 +8,7 @@ import subprocess
 import sys
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.request import Request, urlopen
+from urllib.request import Request
 
 if __package__ in {None, ""}:
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -17,11 +17,14 @@ from labs.download_paper import (
     DEFAULT_TIMEOUT_SECONDS,
     discover_lab_dirs,
     format_lab_progress,
+    is_retryable_network_error,
+    read_url_with_retries,
     safe_filename,
 )
 
 
 DEFAULT_MAX_CHARS = 90_000
+DEFAULT_SUMMARY_ATTEMPTS = 4  # Initial request plus three retries.
 SUMMARY_DIR_NAME = "summary"
 SUMMARY_JSON_DIR_NAME = "summary_json"
 USER_AGENT = "Mozilla/5.0 (compatible; lab-paper-summarizer/0.1)"
@@ -307,8 +310,8 @@ def summarize_with_ai(prompt: str, timeout: int) -> str:
         headers=headers,
         method="POST",
     )
-    with urlopen(request, timeout=timeout) as response:
-        raw = json.loads(response.read().decode("utf-8", errors="replace"))
+    data, _ = read_url_with_retries(request, timeout=timeout, attempts=DEFAULT_SUMMARY_ATTEMPTS)
+    raw = json.loads(data.decode("utf-8", errors="replace"))
     return _extract_chat_content(raw)
 
 
@@ -329,8 +332,8 @@ def summarize_pdf_with_ai(paper: dict[str, object], pdf_path: Path, timeout: int
         headers=headers,
         method="POST",
     )
-    with urlopen(request, timeout=timeout) as response:
-        raw = json.loads(response.read().decode("utf-8", errors="replace"))
+    data, _ = read_url_with_retries(request, timeout=timeout, attempts=DEFAULT_SUMMARY_ATTEMPTS)
+    raw = json.loads(data.decode("utf-8", errors="replace"))
     return _extract_chat_content(raw)
 
 
@@ -352,6 +355,8 @@ def summarize_paper(
         try:
             raw_summary = summarize_pdf_with_ai(paper, pdf_path, timeout=timeout)
         except (HTTPError, URLError, TimeoutError, RuntimeError) as exc:
+            if is_retryable_network_error(exc):
+                raise
             print(f"[summary:fallback] raw PDF summary failed for {paper.get('title')}: {exc}", file=sys.stderr)
             raw_summary = summarize_paper_from_text(paper, pdf_path, timeout=timeout, max_chars=max_chars)
     else:

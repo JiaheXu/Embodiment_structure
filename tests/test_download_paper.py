@@ -60,6 +60,30 @@ def test_discovers_labs_with_link_files(tmp_path):
     assert discover_lab_dirs(labs_root) == [wanted]
 
 
+def test_gear_static_extraction_reads_publication_bundle(monkeypatch):
+    from labs.download_paper import extract_static_candidates
+    base_url = "https://research.nvidia.com/labs/gear/publications/"
+    html = '<script src="/labs/gear/_next/static/chunks/pages/publications-example.js"></script>'
+    script = '''t([{title:"Robot Learning from Human Videos",authors:"Author One",
+        conference:"ICML, July 2026",paperLink:"https://arxiv.org/abs/2602.06949"},
+        {title:"An Older Robot Learning Paper",conference:"ICML 2022",paperLink:"https://arxiv.org/abs/2201.12345"}]);
+        l([{title:"Robot Learning from Human Videos",conference:"ICML 2026",paperLink:"https://arxiv.org/abs/2602.06949"},
+        {title:"Agentic Skills Discovery for Robotics",conference:"CoRL 2026",paperLink:"/labs/gear/aspire/assets/Aspire.pdf"}]);'''
+    calls = []
+
+    def fetch(url, timeout):
+        calls.append(url)
+        return script
+
+    monkeypatch.setattr("labs.download_paper.fetch_text", fetch)
+    papers = extract_static_candidates(html, base_url, min_year=2023, timeout=120)
+    assert calls == ["https://research.nvidia.com/labs/gear/_next/static/chunks/pages/publications-example.js"]
+    assert [(p.title, p.year, p.pdf_url) for p in papers] == [
+        ("Robot Learning from Human Videos", 2026, "https://arxiv.org/pdf/2602.06949.pdf"),
+        ("Agentic Skills Discovery for Robotics", 2026, "https://research.nvidia.com/labs/gear/aspire/assets/Aspire.pdf"),
+    ]
+
+
 def test_discovers_labs_sorted_by_folder_name_string(tmp_path):
     labs_root = tmp_path / "labs"
     b_lab = labs_root / "B_lab"
@@ -923,6 +947,23 @@ def test_hybrid_extractor_continues_when_ai_json_is_malformed(monkeypatch):
     assert papers == [static_paper]
 
 
+@pytest.mark.parametrize("error", [HTTPError("http://localhost", 503, "Service Unavailable", None, None),
+                                   TimeoutError("proxy timed out"), RuntimeError("AI endpoint is not configured")])
+def test_hybrid_extractor_uses_static_parser_when_ai_fails(monkeypatch, capsys, error):
+    html = '<article><h2>Learning Robot Skills from Demonstrations</h2>2024 <a href="paper.pdf">PDF</a></article>'
+
+    def fail_ai(*args, **kwargs):
+        raise error
+
+    monkeypatch.setattr("labs.download_paper.extract_papers_with_ai", fail_ai)
+    papers = choose_candidates(html, "https://example.com/publications/", min_year=2023, timeout=1, extractor="hybrid")
+    assert papers == [PaperCandidate("Learning Robot Skills from Demonstrations", 2024,
+                                    "https://example.com/publications/", "https://example.com/publications/paper.pdf")]
+    assert "using static extraction" in capsys.readouterr().err
+    with pytest.raises(type(error)):
+        choose_candidates(html, "https://example.com/publications/", min_year=2023, timeout=1, extractor="ai")
+
+
 def test_hybrid_extractor_merges_ai_and_static_candidates(monkeypatch):
     ai_paper = PaperCandidate("AI Paper", 2025, "https://example.com/ai", "https://example.com/ai.pdf")
     static_paper = PaperCandidate(
@@ -1427,6 +1468,100 @@ def test_collect_lab_downloads_google_scholar_rows_one_by_one(tmp_path, monkeypa
         "download:2025-cached-scholar-paper-two.pdf",
         "sleep:1.0",
     ]
+
+
+@pytest.mark.parametrize("existing", ["manifest", "pdf"])
+def test_collect_lab_skips_existing_scholar_paper_before_network_requests(tmp_path, monkeypatch, capsys, existing):
+    lab_dir = tmp_path / "hewang"
+    lab_dir.mkdir()
+    (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+    (lab_dir / "scholar.html").write_text(
+        '<table><tr class="gsc_a_tr"><td class="gsc_a_t">'
+        '<a class="gsc_a_at" href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper1">'
+        'Existing Robot Learning Paper</a></td><td class="gsc_a_y"><span>2026</span></td></tr></table>'
+    )
+    if existing == "manifest":
+        (lab_dir / "papers.json").write_text(json.dumps([
+            {"title": "Existing Robot Learning Paper", "year": 2026, "pdf_url": "https://example.com/paper.pdf"}
+        ]))
+    else:
+        (lab_dir / "pdfs").mkdir()
+        (lab_dir / "pdfs" / "2026-existing-robot-learning-paper.pdf").write_bytes(b"pdf")
+
+    def unexpected_request(*args, **kwargs):
+        raise AssertionError("existing papers must be skipped before any network request")
+
+    monkeypatch.setattr("labs.download_paper.urlopen", unexpected_request)
+    monkeypatch.setattr("labs.download_paper.fetch_google_scholar_text", unexpected_request)
+
+    assert collect_lab(lab_dir, min_year=2023, timeout=30, dry_run=False, extractor="static") == (1, 0)
+    assert "already exists: Existing Robot Learning Paper" in capsys.readouterr().out
+
+
+@pytest.mark.parametrize("failure", ["resolution", "download", "invalid_pdf", "proxy"])
+def test_local_proxy_recovers_failed_paper(tmp_path, monkeypatch, failure):
+    from labs.download_paper import download_new_papers
+    lab_dir = tmp_path / "angjoo"
+    lab_dir.mkdir()
+    (lab_dir / "scholar.html").write_text('<div id="gsc_prf_in">Angjoo Kanazawa</div>')
+    monkeypatch.setenv("AI_BASE_URL", "http://127.0.0.1:8787/v1/chat/completions")
+    monkeypatch.setenv("AI_API_KEY", "test-key")
+    monkeypatch.setenv("AI_MODEL", "test-model")
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda _: None)
+    paper = PaperCandidate("Toon3D: Seeing Cartoons from New Perspectives", 2024,
+                           "https://scholar.google.com/citations?view_op=view_citation",
+                           "" if failure == "resolution" else "https://example.com/broken.pdf")
+    pdf_url = "https://example.com/toon3d.pdf"
+    requests = []
+
+    class Response:
+        def __init__(self, data): self.data = data
+        def __enter__(self): return self
+        def __exit__(self, *args): pass
+        def read(self): return self.data
+
+    def fake_open(request, timeout):
+        requests.append(request)
+        if request.full_url.endswith("/responses"):
+            if failure == "proxy":
+                raise URLError("proxy unavailable")
+            return Response(json.dumps({"output": [{"type": "message", "content": [
+                {"type": "output_text", "text": json.dumps({"pdf_url": pdf_url})}
+            ]}]}).encode())
+        if request.full_url == pdf_url:
+            return Response(b"<html>blocked</html>" if failure == "invalid_pdf" else b"%PDF-1.7\nPDF contents")
+        raise HTTPError(request.full_url, 429, "Too Many Requests", None, None)
+
+    monkeypatch.setattr("labs.download_paper.urlopen", fake_open)
+    if failure == "resolution":
+        (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+        with (lab_dir / "scholar.html").open("a") as cache:
+            cache.write('<table><tr class="gsc_a_tr"><td class="gsc_a_t">'
+                        '<a class="gsc_a_at" href="/citations?view_op=view_citation">'
+                        'Toon3D: Seeing Cartoons from New Perspectives</a></td>'
+                        '<td class="gsc_a_y"><span>2024</span></td></tr></table>')
+        monkeypatch.setattr("labs.download_paper.fetch_google_scholar_text", lambda *args, **kwargs: "")
+        found, downloaded = collect_lab(lab_dir, min_year=2023, timeout=30, dry_run=False, extractor="static")
+        assert found == 1
+        manifest = json.loads((lab_dir / "papers.json").read_text())
+    else:
+        downloaded, manifest = download_new_papers(lab_dir, [paper], timeout=30, dry_run=False)
+    proxy_requests = [r for r in requests if r.full_url.endswith("/responses")]
+    assert len(proxy_requests) >= 1
+    payload = json.loads(proxy_requests[0].data)
+    assert payload["model"] == "test-model"
+    assert payload["tools"] == [{"type": "web_search"}]
+    assert "Angjoo Kanazawa" in payload["input"]
+    assert paper.title in payload["input"]
+    pdf_path = lab_dir / "pdfs" / "2024-toon3d-seeing-cartoons-from-new-perspectives.pdf"
+    if failure in {"invalid_pdf", "proxy"}:
+        assert downloaded == 0 and manifest == []
+        assert not pdf_path.exists()
+        assert paper.title in (lab_dir / "failed.txt").read_text()
+    else:
+        assert downloaded == 1
+        assert pdf_path.read_bytes().startswith(b"%PDF-")
+        assert manifest[0]["pdf_url"] == pdf_url
 
 
 def test_collect_lab_searches_arxiv_when_cached_google_scholar_row_has_no_pdf(tmp_path, monkeypatch, capsys):

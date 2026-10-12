@@ -35,12 +35,24 @@ each lab folder, it still processes papers sequentially so that `papers.json`,
 `pdfs/`, and `failed.txt` stay simple and predictable. For each folder, it
 reads `link.txt`, extracts papers from 2023 onward, skips papers already
 present in `papers.json` or `pdfs/`, and downloads only new PDFs.
+For NVIDIA GEAR, the static extractor reads the publication page's JavaScript
+bundle because its initial HTML contains empty publication lists.
 Default runs skip Bilibili channel folders. Use `--bilibili-only` or explicitly
 select a channel with `--lab` to process those folders.
 For fresh and cached Google Scholar pages, each paper's PDF link is resolved and
 downloaded immediately. The downloader waits one second after a successful
 download before resolving the next paper.
 Failed PDF requests wait 0.5 seconds before retrying, with at most four attempts.
+
+When normal Google Scholar resolution finds no PDF, or a PDF download exhausts
+its retries, the local AI proxy searches for an alternative public PDF. The
+request includes the paper title, year, source URL, failure reason, and the
+Scholar profile author (or lab folder name when unavailable). This uses the
+same `AI_BASE_URL`, `AI_API_KEY`, and `AI_MODEL` exported by `download_paper.sh`,
+with `/chat/completions` replaced by `/responses` to enable web search.
+The fallback runs only for the local backend when an AI endpoint is configured,
+and never during `--dry-run`. A recovered file must have a PDF header before it
+is saved and added to `papers.json`; unrecovered titles go to `failed.txt`.
 
 Useful options:
 
@@ -107,8 +119,10 @@ Use the launch wrapper when extraction should go through the local proxy:
 ```
 
 The wrapper runs `--extractor hybrid`: it asks the AI model for paper links,
-then merges that result with the local static parser. This is intentional. Some
-large pages, such as AIRLab, can cause the AI model to return only newer papers;
+then merges that result with the local static parser. If an AI request fails
+after retries, hybrid mode continues with static extraction. Explicit
+`--extractor ai` runs still report AI failures. Some large pages, such as AIRLab,
+can cause the AI model to return only newer papers;
 the static parser catches older BibTeX-backed entries from 2023 and 2024.
 It defaults to `--workers 1` to avoid rate limits when scanning all labs. Use
 `--workers N` or `DOWNLOAD_PAPER_WORKERS=N` to override it.

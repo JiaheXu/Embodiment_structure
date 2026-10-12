@@ -292,5 +292,19 @@
     "pdf_url": "https://arxiv.org/pdf/2209.10588.pdf",
     "title": "Towards robots that influence humans over long-term interaction",
     "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:lSLTfruPkqcC",
+    "pdf_path": "pdfs/2026-weaver-better-faster-longer-an-effective-world-model-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.13672v2.pdf",
+    "title": "WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:YOwf2qJgpHMC",
+    "pdf_path": "pdfs/2023-towards-modeling-and-influencing-the-dynamics-of-human-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2301.00901v1.pdf",
+    "title": "Towards modeling and influencing the dynamics of human learning",
+    "year": 2023
   }
 ]

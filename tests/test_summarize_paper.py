@@ -1,4 +1,10 @@
 from pathlib import Path
+from io import BytesIO
+from urllib.error import HTTPError
+
+import pytest
+
+from labs import summarize_paper as summarizer
 
 from labs.summarize_paper import (
     build_pdf_summary_payload,
@@ -196,3 +202,67 @@ def test_build_pdf_summary_payload_attaches_raw_pdf(tmp_path):
     assert content[1]["type"] == "file"
     assert content[1]["file"]["filename"] == "robot.pdf"
     assert content[1]["file"]["file_data"].startswith("data:application/pdf;base64,")
+
+
+@pytest.mark.parametrize("source", ["pdf", "text"])
+def test_ai_summary_retries_service_unavailable(tmp_path, monkeypatch, source):
+    monkeypatch.setenv("AI_BASE_URL", "http://localhost/chat/completions")
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda delay: None)
+    pdf = tmp_path / "paper.pdf"
+    pdf.write_bytes(b"%PDF raw bytes")
+    attempts = 0
+
+    def fake_open(request, timeout):
+        nonlocal attempts
+        attempts += 1
+        if attempts <= 3:
+            raise HTTPError(request.full_url, 503, "Service Unavailable", None, None)
+        return BytesIO(b'{"choices":[{"message":{"content":"Recovered summary"}}]}')
+
+    monkeypatch.setattr("labs.download_paper.urlopen", fake_open)
+    if source == "pdf":
+        result = summarizer.summarize_pdf_with_ai({"title": "Paper"}, pdf, timeout=10)
+    else:
+        result = summarizer.summarize_with_ai("Paper text", timeout=10)
+    assert result == "Recovered summary"
+
+
+@pytest.mark.parametrize("status", [503, 400])
+def test_pdf_fallback_depends_on_failure_type(tmp_path, monkeypatch, status):
+    paper = {"title": "Paper", "year": 2024, "pdf_path": "paper.pdf"}
+    error = HTTPError("http://localhost/chat/completions", status, "Request failed", None, None)
+
+    def fail_pdf(*args, **kwargs):
+        raise error
+
+    monkeypatch.setattr(summarizer, "summarize_pdf_with_ai", fail_pdf)
+    monkeypatch.setattr(summarizer, "summarize_paper_from_text", lambda *args, **kwargs: "Text summary")
+    if status == 503:
+        with pytest.raises(HTTPError) as caught:
+            summarizer.summarize_paper(tmp_path, paper, timeout=10, max_chars=100)
+        assert caught.value is error
+        assert not paper_summary_path(tmp_path, paper).exists()
+    else:
+        output = summarizer.summarize_paper(tmp_path, paper, timeout=10, max_chars=100)
+        assert output.read_text() == "Text summary\n"
+
+
+@pytest.mark.parametrize("source", ["pdf", "text"])
+@pytest.mark.parametrize("status,expected_attempt", [(503, "4/4"), (401, "1/4")])
+def test_ai_summary_gives_up_after_retry_budget(tmp_path, monkeypatch, capsys, source, status, expected_attempt):
+    monkeypatch.setenv("AI_BASE_URL", "http://localhost/chat/completions")
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda delay: None)
+    pdf = tmp_path / "paper.pdf"
+    pdf.write_bytes(b"%PDF raw bytes")
+
+    def fail_request(request, timeout):
+        raise HTTPError(request.full_url, status, "Request failed", None, None)
+
+    monkeypatch.setattr("labs.download_paper.urlopen", fail_request)
+    with pytest.raises(HTTPError) as caught:
+        if source == "pdf":
+            summarizer.summarize_pdf_with_ai({"title": "Paper"}, pdf, timeout=10)
+        else:
+            summarizer.summarize_with_ai("Paper text", timeout=10)
+    assert caught.value.code == status
+    assert f"attempt {expected_attempt} failed" in capsys.readouterr().err
