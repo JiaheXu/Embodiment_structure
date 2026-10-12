@@ -1,86 +1,226 @@
 [
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=bqL73OkAAAAJ&view_op=list_works&sortby=pubdate",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:sArNgO4T4MoC",
     "pdf_path": "pdfs/2025-gemini-2-5-pushing-the-frontier-with-advanced-reasoning-multimodality-long-context-and-next-generation-agentic-capabilit.pdf",
     "pdf_url": "https://arxiv.org/pdf/2507.06261.pdf",
     "title": "Gemini 2.5: Pushing the frontier with advanced reasoning, multimodality, long context, and next generation agentic capabilities",
     "year": 2025
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=bqL73OkAAAAJ&view_op=list_works&sortby=pubdate",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:6nNZn6i0kyMC",
     "pdf_path": "pdfs/2024-handsonvlm-vision-language-models-for-hand-object-interaction-prediction.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2412.13187.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.13187v2.pdf",
     "title": "Handsonvlm: Vision-language models for hand-object interaction prediction",
     "year": 2024
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=bqL73OkAAAAJ&view_op=list_works&sortby=pubdate",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:n84Jz4DGfQYC",
+    "pdf_path": "pdfs/2024-towards-latent-masked-image-modeling-for-self-supervised-visual-representation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.15837v1.pdf",
+    "title": "Towards latent masked image modeling for self-supervised visual representation learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:VHymtrwLyIYC",
+    "pdf_path": "pdfs/2024-track2act-predicting-point-tracks-from-internet-videos-enables-generalizable-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.01527v2.pdf",
+    "title": "Track2act: Predicting point tracks from internet videos enables generalizable robot manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:h-fwNd0rmTkC",
     "pdf_path": "pdfs/2024-gen2act-human-video-generation-in-novel-scenarios-enables-generalizable-robot-manipulation.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2409.16283.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.16283v1.pdf",
     "title": "Gen2act: Human video generation in novel scenarios enables generalizable robot manipulation",
     "year": 2024
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=bqL73OkAAAAJ&view_op=list_works&sortby=pubdate",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:vMcOFpnEpxoC",
     "pdf_path": "pdfs/2024-hrp-human-affordances-for-robotic-pre-training.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2407.18911.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.18911v1.pdf",
     "title": "Hrp: Human affordances for robotic pre-training",
     "year": 2024
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=bqL73OkAAAAJ&view_op=list_works&sortby=pubdate",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:6syOTa9L3GQC",
+    "pdf_path": "pdfs/2024-g-hop-generative-hand-object-prior-for-interaction-reconstruction-and-grasp-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.12383v1.pdf",
+    "title": "G-hop: Generative hand-object prior for interaction reconstruction and grasp synthesis",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:_q7R20eJROoC",
+    "pdf_path": "pdfs/2024-hearing-touch-audio-visual-pretraining-for-contact-rich-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.08576v1.pdf",
+    "title": "Hearing touch: Audio-visual pretraining for contact-rich manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:-Iwc2SO-hmoC",
+    "pdf_path": "pdfs/2024-exploitation-guided-exploration-for-semantic-embodied-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.03357v1.pdf",
+    "title": "Exploitation-guided exploration for semantic embodied navigation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:9qGwjJavaBUC",
+    "pdf_path": "pdfs/2024-roboagent-generalization-and-efficiency-in-robot-manipulation-via-semantic-augmentations-and-action-chunking.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.01918v1.pdf",
+    "title": "Roboagent: Generalization and efficiency in robot manipulation via semantic augmentations and action chunking",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:dXBh7-90p_YC",
+    "pdf_path": "pdfs/2024-towards-generalizable-zero-shot-manipulation-via-translating-human-interaction-plans.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.00775v1.pdf",
+    "title": "Towards generalizable zero-shot manipulation via translating human interaction plans",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:84dCbUURXyIC",
     "pdf_path": "pdfs/2024-droid-a-large-scale-in-the-wild-robot-manipulation-dataset.pdf",
     "pdf_url": "https://arxiv.org/pdf/2403.12945.pdf",
     "title": "Droid: A large-scale in-the-wild robot manipulation dataset",
     "year": 2024
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=bqL73OkAAAAJ&view_op=list_works&sortby=pubdate",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:JO0bfRJr_gQC",
     "pdf_path": "pdfs/2024-hierarchical-state-space-models-for-continuous-sequence-to-sequence-modeling.pdf",
     "pdf_url": "https://arxiv.org/pdf/2402.10211.pdf",
     "title": "Hierarchical state space models for continuous sequence-to-sequence modeling",
     "year": 2024
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=bqL73OkAAAAJ&view_op=list_works&sortby=pubdate",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:clk6yq2jaZ8C",
     "pdf_path": "pdfs/2024-track2act-predicting-point-tracks-from-internet-videos-enables-diverse-zero-shot-robot-manipulation.pdf",
     "pdf_url": "https://arxiv.org/pdf/2405.01527.pdf",
     "title": "Track2act: Predicting point tracks from internet videos enables diverse zero-shot robot manipulation",
     "year": 2024
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=bqL73OkAAAAJ&view_op=list_works&sortby=pubdate",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:dJuzUO4sCEAC",
+    "pdf_path": "pdfs/2023-an-unbiased-look-at-datasets-for-visuo-motor-pre-training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.09289v1.pdf",
+    "title": "An unbiased look at datasets for visuo-motor pre-training",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:4p5LGG1h9z0C",
+    "pdf_path": "pdfs/2023-all-the-feels-a-dexterous-hand-with-large-area-tactile-sensing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.15658.pdf",
+    "title": "All the feels: A dexterous hand with large-area tactile sensing",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:rjBKtydo3wgC",
+    "pdf_path": "pdfs/2023-diffusion-guided-reconstruction-of-everyday-hand-object-interaction-clips.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.05663v1.pdf",
+    "title": "Diffusion-guided reconstruction of everyday hand-object interaction clips",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:gNsIjQZ6FscC",
+    "pdf_path": "pdfs/2023-manipulate-by-seeing-creating-manipulation-controllers-from-pre-trained-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.08135v4.pdf",
+    "title": "Manipulate by seeing: Creating manipulation controllers from pre-trained representations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:CcPklOTAPUcC",
     "pdf_path": "pdfs/2023-evaluating-continual-learning-on-a-home-robot.pdf",
     "pdf_url": "https://arxiv.org/pdf/2306.02413.pdf",
     "title": "Evaluating continual learning on a home robot",
     "year": 2023
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=bqL73OkAAAAJ&view_op=list_works&sortby=pubdate",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:RmQ8dt0hH3oC",
+    "pdf_path": "pdfs/2023-learning-dexterous-manipulation-from-exemplar-object-trajectories-and-pre-grasps.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2209.11221.pdf",
+    "title": "Learning dexterous manipulation from exemplar object trajectories and pre-grasps",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:69viAa4lnfgC",
+    "pdf_path": "pdfs/2023-real-world-offline-reinforcement-learning-with-realistic-data-source.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.06479.pdf",
+    "title": "Real world offline reinforcement learning with realistic data source",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:eHo_KFcuhuIC",
+    "pdf_path": "pdfs/2023-train-offline-test-online-a-real-robot-learning-benchmark.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.00942.pdf",
+    "title": "Train offline, test online: A real robot learning benchmark",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:WMsFzbFqK_QC",
     "pdf_path": "pdfs/2023-visual-affordance-prediction-for-guiding-robot-exploration.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2305.17783.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.17783v1.pdf",
     "title": "Visual affordance prediction for guiding robot exploration",
     "year": 2023
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=bqL73OkAAAAJ&view_op=list_works&sortby=pubdate",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:MKvDIwB-zewC",
+    "pdf_path": "pdfs/2023-guest-editorial-introduction-to-the-special-section-on-graphs-in-vision-and-pattern-analysis.pdf",
+    "pdf_url": "https://ieeexplore.ieee.org/iel7/34/10120646/10120667.pdf",
+    "title": "Guest editorial: Introduction to the special section on graphs in vision and pattern analysis",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:FXgMSCUEOHUC",
+    "pdf_path": "pdfs/2023-wcn23-0316-covid-19-vaccination-induced-minimal-changed-disease.pdf",
+    "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10025638/pdf/main.pdf",
+    "title": "WCN23-0316 COVID-19 VACCINATION INDUCED MINIMAL CHANGED DISEASE",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:8Z0Dsp3hPRYC",
+    "pdf_path": "pdfs/2023-learning-multi-objective-curricula-for-robotic-policy-learning.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v205/kang23a/kang23a.pdf",
+    "title": "Learning multi-objective curricula for robotic policy learning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:LwieBGrN4GEC",
+    "pdf_path": "pdfs/2023-last-mile-embodied-visual-navigation.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v205/wasserman23a/wasserman23a.pdf",
+    "title": "Last-mile embodied visual navigation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:AU0JsVlt-AkC",
     "pdf_path": "pdfs/2023-zero-shot-robot-manipulation-from-passive-human-videos.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2302.02011.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.02011v1.pdf",
     "title": "Zero-shot robot manipulation from passive human videos",
     "year": 2023
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=bqL73OkAAAAJ&view_op=list_works&sortby=pubdate",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:V63Ir2N1OTwC",
+    "pdf_path": "pdfs/2023-robotic-grasping-prediction-using-neural-networks-and-geometry-aware-object-representation.pdf",
+    "pdf_url": "https://patentimages.storage.googleapis.com/0c/86/66/58e884d3fc33a7/US11554483.pdf",
+    "title": "Robotic grasping prediction using neural networks and geometry aware object representation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:UwEomQ3UdWgC",
+    "pdf_path": "pdfs/2023-open-x-embodiment-robotic-learning-datasets-and-rt-x-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08864v9.pdf",
+    "title": "Open X-Embodiment: Robotic learning datasets and RT-X models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:NGoJ35N4lvkC",
+    "pdf_path": "pdfs/2023-affordance-diffusion-synthesizing-hand-object-interactions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.12538v3.pdf",
+    "title": "Affordance diffusion: Synthesizing hand-object interactions",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:gqMmJtG4vxUC",
     "pdf_path": "pdfs/2023-manipulate-by-seeing-creating-manipulation-controllers.pdf",
     "pdf_url": "https://arxiv.org/pdf/2303.08135.pdf",
     "title": "Manipulate by Seeing: Creating Manipulation Controllers",
     "year": 2023
-  },
-  {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=bqL73OkAAAAJ&view_op=list_works&sortby=pubdate",
-    "pdf_path": "pdfs/2026-violence-and-competition-the-effect-of-mass-shootings-and-domestic-terrorism-on-organizational-risk-taking-in-response-t.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2507.06261.pdf",
-    "title": "Violence and competition: The effect of mass shootings and domestic terrorism on organizational risk-taking in response to performance shortfalls",
-    "year": 2026
   }
 ]

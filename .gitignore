@@ -12,6 +12,7 @@ labs/knowledge_chunks.jsonl
 labs/paper_groups.yaml
 labs/paper_rag_index.sqlite
 labs/paper_rag_index.sqlite-*
+.x_chrome_profile/
 
 # Python local caches.
 __pycache__/

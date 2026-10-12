@@ -47,11 +47,15 @@ def test_build_rag_index_writes_papers_chunks_and_embeddings(tmp_path):
     assert (output_dir / "papers.jsonl").is_file()
     assert (output_dir / "chunks.jsonl").is_file()
     assert (output_dir / "embeddings.jsonl").is_file()
+    assert (output_dir / "paper_embeddings.jsonl").is_file()
 
     paper = json.loads((output_dir / "papers.jsonl").read_text().splitlines()[0])
+    paper_embedding = json.loads((output_dir / "paper_embeddings.jsonl").read_text().splitlines()[0])
     assert paper["title"] == "Robot Paper"
     assert paper["paper_keywords"] == ["grasping"]
     assert paper["lab"] == "airlab"
+    assert paper_embedding["paper_id"] == paper["paper_id"]
+    assert len(paper_embedding["embedding"]) == 384
 
 
 def test_search_index_uses_keywords_and_requirement_text(tmp_path):

@@ -1,51 +1,93 @@
 [
   {
     "page_url": "https://www.bilibili.com/video/BV13St66uE3V",
-    "pdf_path": "pdfs/2026-ragnarok-radar-aided-gravity-normalized-alignment-for-robust-open-keyframe-based-radar-visual-kinematic-inertial-slam.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2610.11531v1.pdf",
-    "title": "RAGNAROK: Radar-Aided Gravity-Normalized Alignment for Robust Open Keyframe-based Radar-Visual-Kinematic-Inertial SLAM",
+    "pdf_path": "pdfs/2026-complex-monge-amp-re-equations-with-boundary-values-a-variational-approach.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13478v1.pdf",
+    "title": "Complex Monge-Amp{\u00e8}re equations with boundary values: a variational approach",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1s1426GE3y",
+    "pdf_path": "pdfs/2026-instantfusion-a-shared-latent-interface-for-heterogeneous-image-generators.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13944v1.pdf",
+    "title": "InstantFusion: A Shared Latent Interface for Heterogeneous Image Generators",
     "year": 2026
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1TdbG6sEzK",
-    "pdf_path": "pdfs/2026-dex-one2many-learning-dexterous-manipulation-from-a-single-human-demonstration.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2610.12470v1.pdf",
-    "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+    "pdf_path": "pdfs/2026-noise-space-learning-for-vla-adaptation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13943v1.pdf",
+    "title": "Noise Space Learning for VLA Adaptation",
     "year": 2026
   },
   {
-    "page_url": "https://www.bilibili.com/video/BV1jL8K6HEFc",
-    "pdf_path": "pdfs/2026-auraluxmuse-adaptive-fusion-modeling-for-aesthetic-stage-lighting-design-with-music-and-expert-guidance.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2610.11792v1.pdf",
-    "title": "AuraLuxMuse: Adaptive Fusion Modeling for Aesthetic Stage Lighting Design with Music and Expert Guidance",
+    "page_url": "https://www.bilibili.com/video/BV1uBpg6qEs4",
+    "pdf_path": "pdfs/2026-on-the-design-space-of-continuous-diffusion-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13834v1.pdf",
+    "title": "On the Design Space of Continuous Diffusion Language Models",
     "year": 2026
   },
   {
     "page_url": "https://www.bilibili.com/video/BV16qpe6sEQA",
-    "pdf_path": "pdfs/2026-dreamtrue-action-faithful-robot-world-model-with-counterfactual-post-training.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2610.12468v1.pdf",
-    "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
-    "year": 2026
-  },
-  {
-    "page_url": "https://www.bilibili.com/video/BV1gT4R63ERg",
-    "pdf_path": "pdfs/2026-mental-models-for-multi-agent-systems.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2610.12453v1.pdf",
-    "title": "Mental-Models for Multi-Agent Systems",
+    "pdf_path": "pdfs/2026-splat2act-from-captured-scenes-to-personalized-vla-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13945v1.pdf",
+    "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
     "year": 2026
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1vtpY6kEFh",
-    "pdf_path": "pdfs/2026-puffin-probabilistic-learning-of-spatial-detail-from-coarse-observations.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2610.11914v1.pdf",
-    "title": "Puffin: Probabilistic Learning of Spatial Detail From Coarse Observations",
+    "pdf_path": "pdfs/2026-splatq-interaction-aware-pruning-of-3d-gaussian-splatting-via-quadratic-selection.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13503v1.pdf",
+    "title": "SplatQ: Interaction-Aware Pruning of 3D Gaussian Splatting via Quadratic Selection",
     "year": 2026
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1GwYx6CEKy",
-    "pdf_path": "pdfs/2026-rubric-cepr-self-evolving-image-editing-via-reward-verified-self-distillation.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2610.12469v1.pdf",
-    "title": "Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation",
+    "pdf_path": "pdfs/2026-task-context-shapes-component-roles-in-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13895v1.pdf",
+    "title": "Task Context Shapes Component Roles in Language Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1BpYd66EfL",
+    "pdf_path": "pdfs/2026-the-right-homotopy-between-two-a-infty-morphisms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13803v1.pdf",
+    "title": "The (right) homotopy between two A$_{\\infty}$-morphisms",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1JqMX6TEFN",
+    "pdf_path": "pdfs/2026-a-zero-knowledge-signature-framework-for-efficient-post-quantum-message-authentication-in-cooperative-automated-driving.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.11490v1.pdf",
+    "title": "A Zero-Knowledge Signature Framework for Efficient Post-Quantum Message Authentication in Cooperative Automated Driving",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1TB3f6rEgf",
+    "pdf_path": "pdfs/2026-goal-oriented-bundle-management-and-flow-control-for-deep-space-communications-via-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13923v1.pdf",
+    "title": "Goal-Oriented Bundle Management and Flow Control for Deep-Space Communications via Reinforcement Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1cvMX6zEH4",
+    "pdf_path": "pdfs/2026-nimbus-studio-reproduces-reference-bci-decoding-pipelines-a-validation-study-on-public-benchmarks-across-protocols-and-p.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13894v1.pdf",
+    "title": "Nimbus Studio reproduces reference BCI decoding pipelines: a validation study on public benchmarks across protocols and paradigms",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1aj8w6NETq",
+    "pdf_path": "pdfs/2026-structural-automata-for-neural-semantic-parsing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13896v1.pdf",
+    "title": "Structural Automata for Neural Semantic Parsing",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1KZuR6sEwB",
+    "pdf_path": "pdfs/2026-towards-physically-grounded-articulated-3d-assets-a-multi-agent-pipeline-and-benchmark.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13947v1.pdf",
+    "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
     "year": 2026
   }
 ]

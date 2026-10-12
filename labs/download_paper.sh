@@ -58,4 +58,9 @@ export CODEX_PROXY_URL CODEX_PROXY_BASE_URL
 export DEEPSEEK_URL DEEPSEEK_BASE_URL DEEPSEEK_MODEL
 
 cd "${PROJECT_ROOT}"
-exec python3 "${SCRIPT_DIR}/download_paper.py" --extractor hybrid --timeout "${DOWNLOAD_PAPER_TIMEOUT:-1800}" "$@"
+exec python3 "${SCRIPT_DIR}/download_paper.py" \
+    --extractor hybrid \
+    --timeout "${DOWNLOAD_PAPER_TIMEOUT:-1800}" \
+    --workers "${DOWNLOAD_PAPER_WORKERS:-1}" \
+    --google-scholar-cdp-url "${GOOGLE_SCHOLAR_CDP_URL:-http://127.0.0.1:9222}" \
+    "$@"

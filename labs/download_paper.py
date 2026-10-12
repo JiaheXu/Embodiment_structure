@@ -1,10 +1,14 @@
 from __future__ import annotations
 
 import argparse
+import base64
+import hashlib
 import json
 import os
 import re
+import socket
 import ssl
+import struct
 import subprocess
 import sys
 import time
@@ -15,7 +19,7 @@ from html import unescape
 from html.parser import HTMLParser
 from http.client import IncompleteRead, InvalidURL
 from pathlib import Path
-from typing import Iterable
+from typing import Callable, Iterable
 from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qsl, quote, quote_plus, urlencode, urljoin, urlparse, urlunparse
 from urllib.request import Request, urlopen
@@ -27,15 +31,20 @@ DEFAULT_TIMEOUT_SECONDS = 30 * 60
 DEFAULT_WORKERS = 2
 DEFAULT_HTTP_ATTEMPTS = 3
 DOWNLOAD_PDF_ATTEMPTS = 4
-BILIBILI_VIDEO_LIMIT = 30
+DOWNLOAD_PDF_DELAY_SECONDS = 1.0
+BILIBILI_VIDEO_LIMIT = 50
 GOOGLE_SCHOLAR_PAGE_SIZE = 100
 GOOGLE_SCHOLAR_MAX_PAGES = 20
 RAI_LOAD_MORE_PAGE_SIZE = 12
 RAI_LOAD_MORE_MAX_PAGES = 10
 RAI_ARXIV_SEARCH_TIMEOUT_SECONDS = 10
+GOOGLE_SCHOLAR_CITATION_DELAY_SECONDS = 0.5
+GOOGLE_SCHOLAR_CITATION_LIMIT = 0
+GOOGLE_SCHOLAR_FETCHER = "urllib"
 MANIFEST_NAME = "papers.json"
 PDF_DIR_NAME = "pdfs"
 FAILED_NAME = "failed.txt"
+GOOGLE_SCHOLAR_CACHE_NAME = "scholar.html"
 USER_AGENT = "Mozilla/5.0 (compatible; lab-paper-collector/0.1)"
 AI_HTML_CHAR_LIMIT = 120_000
 AI_VIDEO_TEXT_CHAR_LIMIT = 120_000
@@ -47,6 +56,10 @@ class PaperCandidate:
     year: int
     page_url: str
     pdf_url: str
+
+
+class GoogleScholarRateLimitError(RuntimeError):
+    pass
 
 
 class _PublicationParser(HTMLParser):
@@ -138,6 +151,11 @@ def format_year_counts(papers: Iterable[PaperCandidate], min_year: int) -> str:
     return ", ".join(f"{year}={counts.get(year, 0)}" for year in range(min_year, max_year + 1))
 
 
+def format_nonzero_year_counts(years: Iterable[int]) -> str:
+    counts = Counter(years)
+    return ", ".join(f"{year}={counts[year]}" for year in sorted(counts)) or "none"
+
+
 def safe_filename(title: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
     return slug[:120] or "paper"
@@ -174,8 +192,10 @@ def parse_publication_page(html: str, base_url: str, min_year: int = DEFAULT_MIN
         seen.add((safe_filename(paper.title), paper.pdf_url))
     for block in parser.blocks:
         text = " ".join(block["text"])
-        year = _find_recent_year(text, min_year)
+        year = _find_google_scholar_row_year(text, min_year) if is_google_scholar_url(base_url) else _find_recent_year(text, min_year)
         if year is None:
+            continue
+        if is_google_scholar_url(base_url) and len(block["titles"]) != 1:
             continue
         pdf_url = _find_pdf_url(block["links"], base_url)
         if not pdf_url and (block["titles"] or block["headings"]):
@@ -214,6 +234,154 @@ def extract_rai_papers(html: str, base_url: str, min_year: int, timeout: int) ->
             continue
         seen.add(key)
         candidates.append(paper)
+    return candidates
+
+
+def extract_google_scholar_title_rows(html: str, base_url: str, min_year: int) -> list[tuple[str, int, str]]:
+    if not is_google_scholar_url(base_url):
+        return []
+
+    parser = _PublicationParser()
+    parser.feed(html)
+    parser.close()
+
+    rows: list[tuple[str, int, str]] = []
+    seen: set[tuple[str, int]] = set()
+    for block in parser.blocks:
+        titles = [clean_title(str(title)) for title in block["titles"] if str(title).strip()]
+        if len(titles) != 1:
+            continue
+        title = titles[0]
+        if not is_probable_publication_title(title):
+            continue
+        year = _find_google_scholar_row_year(" ".join(str(part) for part in block["text"]), min_year)
+        if year is None:
+            continue
+        key = (safe_filename(title), year)
+        if key in seen:
+            continue
+        seen.add(key)
+        page_url = base_url
+        for href, label in block["links"]:
+            if clean_title(str(label)) == title:
+                page_url = urljoin(base_url, str(href))
+                break
+        rows.append((title, year, page_url))
+    return rows
+
+
+def print_google_scholar_page_rows(rows: list[tuple[str, int, str]]) -> None:
+    for index, (title, year, page_url) in enumerate(rows, start=1):
+        print(f"[google-scholar-paper {index}] {year} | {title} | {page_url}")
+
+
+def resolve_google_scholar_row_pdf(title: str, year: int, page_url: str, timeout: int) -> PaperCandidate | None:
+    try:
+        citation_html = fetch_google_scholar_text(page_url, timeout=min(timeout, RAI_ARXIV_SEARCH_TIMEOUT_SECONDS), attempts=1)
+    except HTTPError as exc:
+        if exc.code == 429:
+            print(f"[extract:google-scholar-citation-pages] stopped: Google Scholar returned 429 for {title}", file=sys.stderr)
+            raise GoogleScholarRateLimitError from exc
+        return None
+    except (HTTPError, URLError, TimeoutError, IncompleteRead, ssl.SSLError, subprocess.CalledProcessError, subprocess.TimeoutExpired):
+        return None
+    pdf_url = _find_pdf_url_in_google_scholar_citation_page(citation_html, page_url)
+    if not pdf_url:
+        return None
+    return PaperCandidate(title=title, year=year, page_url=page_url, pdf_url=pdf_url)
+
+
+def google_scholar_block_reason(html: str) -> str | None:
+    text = unescape(html).lower()
+    if "our systems have detected unusual traffic" in text or "g-recaptcha" in text or "captcha-form" in text:
+        return "Google Scholar returned a CAPTCHA/unusual-traffic page"
+    if "please enable javascript" in text and "recaptcha" in text:
+        return "Google Scholar requires a browser challenge"
+    if "before you continue" in text and "google" in text:
+        return "Google returned a consent/interstitial page"
+    return None
+
+
+def search_google_scholar_titles_on_arxiv(
+    html: str,
+    base_url: str,
+    existing_candidates: Iterable[PaperCandidate],
+    min_year: int,
+    timeout: int,
+) -> list[PaperCandidate]:
+    existing_titles = {safe_filename(paper.title) for paper in existing_candidates}
+    candidates: list[PaperCandidate] = []
+    seen_pdf_urls: set[str] = set()
+    for title, year, page_url in extract_google_scholar_title_rows(html, base_url, min_year):
+        title_key = safe_filename(title)
+        if title_key in existing_titles:
+            continue
+        paper = search_arxiv_for_title(
+            title,
+            page_url,
+            min_year=min_year,
+            timeout=min(timeout, RAI_ARXIV_SEARCH_TIMEOUT_SECONDS),
+        )
+        if paper is None or not _titles_match(title, paper.title) or paper.pdf_url in seen_pdf_urls:
+            continue
+        seen_pdf_urls.add(paper.pdf_url)
+        existing_titles.add(title_key)
+        candidates.append(PaperCandidate(title=title, year=year, page_url=page_url, pdf_url=paper.pdf_url))
+    return candidates
+
+
+def search_google_scholar_citation_pages(
+    html: str,
+    base_url: str,
+    existing_candidates: Iterable[PaperCandidate],
+    min_year: int,
+    timeout: int,
+    on_candidate: object | None = None,
+    search_state: dict[str, int] | None = None,
+) -> list[PaperCandidate]:
+    existing_titles = {safe_filename(paper.title) for paper in existing_candidates}
+    candidates: list[PaperCandidate] = []
+    seen_pdf_urls: set[str] = set()
+    delay = float(os.environ.get("GOOGLE_SCHOLAR_CITATION_DELAY_SECONDS", GOOGLE_SCHOLAR_CITATION_DELAY_SECONDS))
+    limit = int(os.environ.get("GOOGLE_SCHOLAR_CITATION_LIMIT", GOOGLE_SCHOLAR_CITATION_LIMIT) or 0)
+    rows = extract_google_scholar_title_rows(html, base_url, min_year)
+    searched = search_state.get("searched", 0) if search_state is not None else 0
+    for index, (title, year, page_url) in enumerate(rows):
+        title_key = safe_filename(title)
+        if title_key in existing_titles:
+            continue
+        if limit and searched >= limit:
+            print(f"[extract:google-scholar-citation-pages] stopped after limit {limit}", file=sys.stderr)
+            break
+        if index and delay > 0:
+            time.sleep(delay)
+        searched += 1
+        print(
+            f"[extract:google-scholar-citation-pages] fetch {searched}"
+            f"{f'/{limit}' if limit else f'/{len(rows)}'}: {title[:100]}",
+            file=sys.stderr,
+            flush=True,
+        )
+        if search_state is not None:
+            search_state["searched"] = searched
+        try:
+            citation_html = fetch_google_scholar_text(page_url, timeout=min(timeout, RAI_ARXIV_SEARCH_TIMEOUT_SECONDS), attempts=1)
+        except HTTPError as exc:
+            if exc.code == 429:
+                print("[extract:google-scholar-citation-pages] stopped: Google Scholar returned 429", file=sys.stderr)
+                break
+            continue
+        except (HTTPError, URLError, TimeoutError, IncompleteRead, ssl.SSLError, subprocess.CalledProcessError, subprocess.TimeoutExpired):
+            continue
+        pdf_url = _find_pdf_url_in_google_scholar_citation_page(citation_html, page_url)
+        if not pdf_url or pdf_url in seen_pdf_urls:
+            continue
+        seen_pdf_urls.add(pdf_url)
+        existing_titles.add(title_key)
+        paper = PaperCandidate(title=title, year=year, page_url=page_url, pdf_url=pdf_url)
+        candidates.append(paper)
+        if on_candidate is not None:
+            on_candidate(paper)
     return candidates
 
 
@@ -551,6 +719,38 @@ def save_manifest(lab_dir: Path, papers: list[dict[str, object]]) -> None:
     path.write_text(json.dumps(papers, indent=2, sort_keys=True) + "\n")
 
 
+def download_new_papers(
+    lab_dir: Path,
+    papers: Iterable[PaperCandidate],
+    timeout: int,
+    dry_run: bool,
+    manifest: list[dict[str, object]] | None = None,
+) -> tuple[int, list[dict[str, object]]]:
+    manifest = manifest if manifest is not None else load_manifest(lab_dir)
+    downloaded = 0
+    for paper in papers:
+        filename = f"{paper.year}-{safe_filename(paper.title)}.pdf"
+        pdf_path = lab_dir / PDF_DIR_NAME / filename
+        record = asdict(paper)
+        record["pdf_path"] = str(pdf_path.relative_to(lab_dir))
+        if dry_run:
+            print(f"[dry-run] {paper.title} -> {pdf_path}")
+            downloaded += 1
+            continue
+        try:
+            download_pdf(paper.pdf_url, pdf_path, timeout=timeout)
+        except (HTTPError, URLError, TimeoutError, IncompleteRead, InvalidURL, ssl.SSLError) as exc:
+            record_failed_paper(lab_dir, paper)
+            print(f"[error] {paper.title}: {exc}", file=sys.stderr)
+            continue
+        manifest.append(record)
+        save_manifest(lab_dir, manifest)
+        downloaded += 1
+        print(f"[download] {paper.title} -> {pdf_path}")
+        time.sleep(DOWNLOAD_PDF_DELAY_SECONDS)
+    return downloaded, manifest
+
+
 def record_failed_paper(lab_dir: Path, paper: PaperCandidate) -> None:
     path = lab_dir / FAILED_NAME
     existing = path.read_text().splitlines() if path.exists() else []
@@ -586,19 +786,276 @@ def fetch_text(url: str, timeout: int) -> str:
     return data.decode(charset, errors="replace")
 
 
-def fetch_publication_html(url: str, min_year: int, timeout: int) -> str:
+def fetch_text_once(url: str, timeout: int) -> str:
+    request = Request(url, headers={"User-Agent": USER_AGENT})
+    data, response = read_url_with_retries(request, timeout=timeout, attempts=1)
+    charset_getter = getattr(response.headers, "get_content_charset", None)
+    charset = charset_getter() if charset_getter else None
+    charset = charset or "utf-8"
+    return data.decode(charset, errors="replace")
+
+
+def fetch_text_with_chrome(url: str, timeout: int) -> str:
+    chrome_bin = os.environ.get("GOOGLE_CHROME_BIN", "google-chrome")
+    command = [
+        chrome_bin,
+        "--headless=new",
+        "--no-sandbox",
+        "--disable-gpu",
+        "--disable-dev-shm-usage",
+        "--disable-extensions",
+        "--blink-settings=imagesEnabled=false",
+        "--dump-dom",
+    ]
+    user_data_dir = os.environ.get("GOOGLE_CHROME_USER_DATA_DIR")
+    if user_data_dir:
+        command.append(f"--user-data-dir={user_data_dir}")
+    profile_directory = os.environ.get("GOOGLE_CHROME_PROFILE_DIRECTORY")
+    if profile_directory:
+        command.append(f"--profile-directory={profile_directory}")
+    command.append(url)
+    completed = subprocess.run(command, capture_output=True, text=True, timeout=timeout, check=True)
+    return completed.stdout
+
+
+def fetch_text_from_remote_chrome(url: str, timeout: int) -> str:
+    cdp_url = os.environ.get("GOOGLE_CHROME_CDP_URL")
+    if cdp_url:
+        base_url = cdp_url.rstrip("/")
+    else:
+        port = int(os.environ.get("GOOGLE_CHROME_REMOTE_DEBUGGING_PORT", "9222"))
+        base_url = f"http://127.0.0.1:{port}"
+    pages = json.loads(fetch_text(f"{base_url}/json/list", timeout=timeout))
+    target = None
+    for page in pages:
+        if not isinstance(page, dict):
+            continue
+        page_url = str(page.get("url") or "")
+        if page_url == url:
+            target = page
+            break
+    created_tab_id = None
+    if target is None:
+        request = Request(f"{base_url}/json/new?{quote(url, safe='')}", method="PUT")
+        data, _ = read_url_with_retries(request, timeout=timeout, attempts=1)
+        target = json.loads(data)
+        created_tab_id = target["id"]
+    waiting_for_challenge = False
+    try:
+        websocket_url = str(target.get("webSocketDebuggerUrl") or "")
+        if not websocket_url:
+            raise RuntimeError("Chrome tab does not expose a DevTools websocket URL")
+        deadline = time.monotonic() + timeout
+        while time.monotonic() < deadline:
+            result = _chrome_devtools_evaluate(
+                websocket_url,
+                "location.href !== 'about:blank' && document.readyState === 'complete' "
+                "? document.documentElement.outerHTML : null",
+                timeout=timeout,
+            )
+            if result is not None:
+                html = str(result)
+                block_reason = google_scholar_block_reason(html) if is_google_scholar_url(url) else None
+                if block_reason:
+                    if not waiting_for_challenge:
+                        waiting_for_challenge = True
+                        deadline = time.monotonic() + max(timeout, DEFAULT_TIMEOUT_SECONDS)
+                        print(
+                            f"[google-scholar-manual-check] {block_reason}. Solve the check in Chrome; "
+                            f"the downloader will resume automatically: {url}",
+                            file=sys.stderr,
+                            flush=True,
+                        )
+                else:
+                    if waiting_for_challenge:
+                        print("[google-scholar-manual-check] Check cleared; resuming.", file=sys.stderr, flush=True)
+                    waiting_for_challenge = False
+                    return html
+            time.sleep(1 if waiting_for_challenge else 0.1)
+        if waiting_for_challenge:
+            raise TimeoutError(f"Chrome Scholar challenge was not completed; tab left open: {url}")
+        raise TimeoutError(f"Chrome page did not finish loading: {url}")
+    finally:
+        if created_tab_id is not None and not waiting_for_challenge:
+            try:
+                fetch_text(f"{base_url}/json/close/{quote(str(created_tab_id), safe='')}", timeout=timeout)
+            except Exception as exc:
+                print(f"[warning] Could not close downloader Chrome tab: {exc}", file=sys.stderr)
+
+
+def _chrome_devtools_evaluate(websocket_url: str, expression: str, timeout: int) -> object:
+    parsed = urlparse(websocket_url)
+    host = parsed.hostname or "127.0.0.1"
+    port = parsed.port or 80
+    path = urlunparse(("", "", parsed.path, parsed.params, parsed.query, parsed.fragment)) or "/"
+    sock = socket.create_connection((host, port), timeout=timeout)
+    sock.settimeout(timeout)
+    key = base64.b64encode(os.urandom(16)).decode("ascii")
+    request = (
+        f"GET {path} HTTP/1.1\r\n"
+        f"Host: {host}:{port}\r\n"
+        "Upgrade: websocket\r\n"
+        "Connection: Upgrade\r\n"
+        f"Sec-WebSocket-Key: {key}\r\n"
+        "Sec-WebSocket-Version: 13\r\n\r\n"
+    )
+    try:
+        sock.sendall(request.encode("ascii"))
+        response = b""
+        while b"\r\n\r\n" not in response:
+            response += sock.recv(4096)
+        if b" 101 " not in response.split(b"\r\n", 1)[0]:
+            raise RuntimeError("Chrome DevTools websocket handshake failed")
+        command = {
+            "id": 1,
+            "method": "Runtime.evaluate",
+            "params": {"expression": expression, "returnByValue": True},
+        }
+        _websocket_send_text(sock, json.dumps(command))
+        while True:
+            message = json.loads(_websocket_recv_text(sock))
+            if message.get("id") != 1:
+                continue
+            if "exceptionDetails" in message:
+                raise RuntimeError(f"Chrome DevTools evaluation failed: {message['exceptionDetails']}")
+            return message["result"]["result"].get("value", "")
+    finally:
+        sock.close()
+
+
+def _websocket_send_text(sock: socket.socket, text: str) -> None:
+    payload = text.encode("utf-8")
+    header = bytearray([0x81])
+    if len(payload) < 126:
+        header.append(0x80 | len(payload))
+    elif len(payload) < 65536:
+        header.append(0x80 | 126)
+        header.extend(struct.pack("!H", len(payload)))
+    else:
+        header.append(0x80 | 127)
+        header.extend(struct.pack("!Q", len(payload)))
+    mask = os.urandom(4)
+    masked = bytes(byte ^ mask[index % 4] for index, byte in enumerate(payload))
+    sock.sendall(bytes(header) + mask + masked)
+
+
+def _websocket_recv_text(sock: socket.socket) -> str:
+    first_two = _recv_exact(sock, 2)
+    opcode = first_two[0] & 0x0F
+    length = first_two[1] & 0x7F
+    if length == 126:
+        length = struct.unpack("!H", _recv_exact(sock, 2))[0]
+    elif length == 127:
+        length = struct.unpack("!Q", _recv_exact(sock, 8))[0]
+    masked = bool(first_two[1] & 0x80)
+    mask = _recv_exact(sock, 4) if masked else b""
+    payload = _recv_exact(sock, length)
+    if masked:
+        payload = bytes(byte ^ mask[index % 4] for index, byte in enumerate(payload))
+    if opcode == 8:
+        raise RuntimeError("Chrome DevTools websocket closed")
+    return payload.decode("utf-8")
+
+
+def _recv_exact(sock: socket.socket, size: int) -> bytes:
+    chunks = bytearray()
+    while len(chunks) < size:
+        chunk = sock.recv(size - len(chunks))
+        if not chunk:
+            raise RuntimeError("Chrome DevTools websocket closed unexpectedly")
+        chunks.extend(chunk)
+    return bytes(chunks)
+
+
+def prepare_google_scholar_manual_login(url: str, timeout: int) -> None:
+    chrome_bin = os.environ.get("GOOGLE_CHROME_BIN", "google-chrome")
+    command = [chrome_bin]
+    user_data_dir = os.environ.get("GOOGLE_CHROME_USER_DATA_DIR")
+    if user_data_dir:
+        command.append(f"--user-data-dir={user_data_dir}")
+    profile_directory = os.environ.get("GOOGLE_CHROME_PROFILE_DIRECTORY")
+    if profile_directory:
+        command.append(f"--profile-directory={profile_directory}")
+    remote_debugging_port = os.environ.get("GOOGLE_CHROME_REMOTE_DEBUGGING_PORT", "9222")
+    command.append(f"--remote-debugging-port={remote_debugging_port}")
+    command.append(url)
+    print("[google-scholar-manual-login] Opening Chrome. Solve login/CAPTCHA and keep this browser window open.")
+    subprocess.Popen(command)
+    input("[google-scholar-manual-login] Press Enter after the Scholar page shows publication rows...")
+
+
+def fetch_google_scholar_text(url: str, timeout: int, attempts: int = DEFAULT_HTTP_ATTEMPTS) -> str:
+    fetcher = os.environ.get("GOOGLE_SCHOLAR_FETCHER", GOOGLE_SCHOLAR_FETCHER).lower()
+    if fetcher == "chrome":
+        if os.environ.get("GOOGLE_SCHOLAR_USE_REMOTE_CHROME") == "1":
+            return fetch_text_from_remote_chrome(url, timeout=timeout)
+        return fetch_text_with_chrome(url, timeout=timeout)
+    if attempts == 1:
+        return fetch_text_once(url, timeout=timeout)
+    return fetch_text(url, timeout=timeout)
+
+
+def fetch_publication_html(
+    url: str,
+    min_year: int,
+    timeout: int,
+    cache_path: Path | None = None,
+    on_page: Callable[[str], bool | None] | None = None,
+) -> str:
     if not is_google_scholar_url(url):
         return fetch_text(url, timeout=timeout)
 
     pages: list[str] = []
     for page_index in range(GOOGLE_SCHOLAR_MAX_PAGES):
         page_url = google_scholar_page_url(url, cstart=page_index * GOOGLE_SCHOLAR_PAGE_SIZE)
-        html = fetch_text(page_url, timeout=timeout)
+        print(
+            f"[extract:google-scholar-page] fetch page {page_index + 1}/{GOOGLE_SCHOLAR_MAX_PAGES}: cstart={page_index * GOOGLE_SCHOLAR_PAGE_SIZE}",
+            file=sys.stderr,
+            flush=True,
+        )
+        try:
+            html = fetch_google_scholar_text(page_url, timeout=timeout)
+        except HTTPError as exc:
+            html = _decode_http_error_body(exc)
+            if cache_path is not None and html:
+                cache_path.parent.mkdir(parents=True, exist_ok=True)
+                cache_path.write_text(html)
+            print(f"[error] Google Scholar returned HTTP {exc.code}; saved response HTML when available.", file=sys.stderr)
+            break
         pages.append(html)
-        years = _find_years(html)
-        if not years or min(years) < min_year:
+        scholar_rows = extract_google_scholar_title_rows(html, url, min_year=0)
+        if cache_path is not None:
+            cache_path.parent.mkdir(parents=True, exist_ok=True)
+            cache_path.write_text("\n".join(pages))
+        if on_page is not None and on_page(html) is False:
+            break
+        if not scholar_rows or min(year for _, year, _ in scholar_rows) < min_year:
             break
     return "\n".join(pages)
+
+
+def _decode_http_error_body(exc: HTTPError) -> str:
+    try:
+        body = exc.read()
+    except Exception:
+        body = b""
+    charset = "utf-8"
+    headers = getattr(exc, "headers", None)
+    charset_getter = getattr(headers, "get_content_charset", None)
+    if charset_getter:
+        charset = charset_getter() or charset
+    return body.decode(charset, errors="replace") if body else ""
+
+
+def load_cached_google_scholar_html(lab_dir: Path, url: str) -> str | None:
+    if not is_google_scholar_url(url):
+        return None
+    cache_path = lab_dir / GOOGLE_SCHOLAR_CACHE_NAME
+    if not cache_path.is_file():
+        return None
+    html = cache_path.read_text(errors="replace")
+    print(f"[extract:google-scholar-cache] using {cache_path}")
+    return html
 
 
 def is_google_scholar_url(url: str) -> bool:
@@ -627,7 +1084,7 @@ def download_pdf(url: str, destination: Path, timeout: int) -> None:
             print(f"[download:failed] attempt {attempt}/{DOWNLOAD_PDF_ATTEMPTS} failed for {url}: {exc}", file=sys.stderr)
             if attempt >= DOWNLOAD_PDF_ATTEMPTS:
                 raise
-            time.sleep(min(2 ** (attempt - 1), 5))
+            time.sleep(0.5)
     else:
         if last_exc:
             raise last_exc
@@ -673,7 +1130,7 @@ def open_url_with_retries(request: Request, timeout: int, attempts: int = DEFAUL
 
 def is_retryable_network_error(exc: BaseException) -> bool:
     if isinstance(exc, HTTPError):
-        return 500 <= exc.code < 600
+        return exc.code == 429 or 500 <= exc.code < 600
     if isinstance(exc, (ssl.SSLError, TimeoutError, IncompleteRead)):
         return True
     if isinstance(exc, URLError):
@@ -786,6 +1243,10 @@ def collect_lab(
         print(f"[skip] {lab_dir}: empty link.txt")
         return (0, 0)
 
+    streamed_new_count = 0
+    streamed_titles: set[str] = set()
+    manifest = load_manifest(lab_dir)
+
     if is_bilibili_url(link):
         limit = int(os.environ.get("BILIBILI_VIDEO_LIMIT", BILIBILI_VIDEO_LIMIT))
         metadata = fetch_bilibili_video_metadata(link, timeout=timeout, limit=limit)
@@ -831,35 +1292,140 @@ def collect_lab(
                     continue
                 record_failed_video(lab_dir, video_url)
     else:
-        html = fetch_publication_html(link, min_year=min_year, timeout=timeout)
-        candidates = choose_candidates(html, link, min_year=min_year, timeout=timeout, extractor=extractor)
-    new_papers = filter_new_papers(lab_dir, candidates)
+        def stream_google_scholar_candidate(paper: PaperCandidate) -> None:
+            nonlocal streamed_new_count, manifest
+            new_papers = filter_new_papers(lab_dir, [paper])
+            if not new_papers:
+                return
+            streamed_titles.add(safe_filename(paper.title))
+            downloaded_count, manifest = download_new_papers(
+                lab_dir,
+                new_papers,
+                timeout=timeout,
+                dry_run=dry_run,
+                manifest=manifest,
+            )
+            streamed_new_count += downloaded_count
+
+        cached_google_scholar_html = load_cached_google_scholar_html(lab_dir, link)
+        if is_google_scholar_url(link) and cached_google_scholar_html is None:
+            cached_google_scholar_html = fetch_publication_html(
+                link,
+                min_year=min_year,
+                timeout=timeout,
+                cache_path=lab_dir / GOOGLE_SCHOLAR_CACHE_NAME,
+                on_page=lambda _: False,
+            )
+        if is_google_scholar_url(link):
+            scholar_rows = extract_google_scholar_title_rows(cached_google_scholar_html or "", link, min_year)
+            print(
+                f"[extract:google-scholar-rows] page has {len(scholar_rows)} publication rows | "
+                f"by_year: {format_nonzero_year_counts(year for _, year, _ in scholar_rows)}"
+            )
+            if not scholar_rows:
+                block_reason = google_scholar_block_reason(cached_google_scholar_html or "")
+                if block_reason:
+                    print(f"[error] {block_reason}; no publication rows were available.", file=sys.stderr)
+            print_google_scholar_page_rows(scholar_rows)
+            candidates = [
+                PaperCandidate(title=title, year=year, page_url=page_url, pdf_url="")
+                for title, year, page_url in scholar_rows
+            ]
+            streamed_titles.update(safe_filename(paper.title) for paper in candidates)
+            total_scholar_rows = len(scholar_rows)
+            for index, (title, year, page_url) in enumerate(scholar_rows, start=1):
+                print(f"[google-scholar-download {index}/{total_scholar_rows}] resolving: {title}", flush=True)
+                paper = search_arxiv_for_title(
+                    title,
+                    page_url,
+                    min_year=min_year,
+                    timeout=min(timeout, RAI_ARXIV_SEARCH_TIMEOUT_SECONDS),
+                )
+                if paper is None:
+                    try:
+                        paper = resolve_google_scholar_row_pdf(title, year, page_url, timeout=timeout)
+                    except GoogleScholarRateLimitError:
+                        print(f"[google-scholar-download {index}/{total_scholar_rows}] rate limited, skipping: {title}", file=sys.stderr)
+                        continue
+                if paper is None:
+                    print(f"[google-scholar-download {index}/{total_scholar_rows}] no PDF found: {title}", file=sys.stderr)
+                    continue
+                if paper.title != title or paper.year != year:
+                    paper = PaperCandidate(title=title, year=year, page_url=page_url, pdf_url=paper.pdf_url)
+                candidates[index - 1] = paper
+                new_papers = filter_new_papers(lab_dir, [paper])
+                if not new_papers:
+                    print(f"[google-scholar-download {index}/{total_scholar_rows}] already exists: {title}", flush=True)
+                    continue
+                downloaded_count, manifest = download_new_papers(
+                    lab_dir,
+                    new_papers,
+                    timeout=timeout,
+                    dry_run=dry_run,
+                    manifest=manifest,
+                )
+                streamed_new_count += downloaded_count
+                print(f"[google-scholar-download {index}/{total_scholar_rows}] done: {title}", flush=True)
+        else:
+            html = cached_google_scholar_html or fetch_publication_html(
+                link,
+                min_year=min_year,
+                timeout=timeout,
+                cache_path=(lab_dir / GOOGLE_SCHOLAR_CACHE_NAME) if is_google_scholar_url(link) else None,
+            )
+            if is_google_scholar_url(link):
+                scholar_rows = extract_google_scholar_title_rows(html, link, min_year)
+                print(
+                    f"[extract:google-scholar-rows] found {len(scholar_rows)} publication rows | "
+                    f"by_year: {format_nonzero_year_counts(year for _, year, _ in scholar_rows)}"
+                )
+            candidates = choose_candidates(html, link, min_year=min_year, timeout=timeout, extractor=extractor)
+            citation_candidates = search_google_scholar_citation_pages(
+                html,
+                link,
+                [] if is_google_scholar_url(link) else candidates,
+                min_year=min_year,
+                timeout=timeout,
+                on_candidate=stream_google_scholar_candidate if is_google_scholar_url(link) else None,
+            )
+            if citation_candidates:
+                print(
+                    f"[extract:google-scholar-citation-pages] extracted {len(citation_candidates)} papers | "
+                    f"by_year: {format_year_counts(citation_candidates, min_year)}"
+                )
+                candidates = merge_candidates(candidates, citation_candidates)
+            searched_candidates = search_google_scholar_titles_on_arxiv(
+                html,
+                link,
+                candidates,
+                min_year=min_year,
+                timeout=timeout,
+            )
+            if searched_candidates:
+                print(
+                    f"[extract:google-scholar-arxiv-search] extracted {len(searched_candidates)} papers | "
+                    f"by_year: {format_year_counts(searched_candidates, min_year)}"
+                )
+                candidates = merge_candidates(candidates, searched_candidates)
+    new_papers = [
+        paper
+        for paper in filter_new_papers(lab_dir, candidates)
+        if paper.pdf_url and safe_filename(paper.title) not in streamed_titles
+    ]
     print(
-        f"[scan] {lab_dir.name}: {len(candidates)} recent PDFs, {len(new_papers)} new | "
+        f"[scan] {lab_dir.name}: {len(candidates)} recent PDFs, {len(new_papers) + streamed_new_count} new | "
         f"found_by_year: {format_year_counts(candidates, min_year)} | "
         f"new_by_year: {format_year_counts(new_papers, min_year)}"
     )
 
-    manifest = load_manifest(lab_dir)
-    for paper in new_papers:
-        filename = f"{paper.year}-{safe_filename(paper.title)}.pdf"
-        pdf_path = lab_dir / PDF_DIR_NAME / filename
-        record = asdict(paper)
-        record["pdf_path"] = str(pdf_path.relative_to(lab_dir))
-        if dry_run:
-            print(f"[dry-run] {paper.title} -> {pdf_path}")
-        else:
-            try:
-                download_pdf(paper.pdf_url, pdf_path, timeout=timeout)
-            except (HTTPError, URLError, TimeoutError, IncompleteRead, InvalidURL, ssl.SSLError) as exc:
-                record_failed_paper(lab_dir, paper)
-                print(f"[error] {paper.title}: {exc}", file=sys.stderr)
-                continue
-            manifest.append(record)
-            save_manifest(lab_dir, manifest)
-            print(f"[download] {paper.title} -> {pdf_path}")
-            time.sleep(0.5)
-    return (len(candidates), len(new_papers))
+    downloaded_count, manifest = download_new_papers(
+        lab_dir,
+        new_papers,
+        timeout=timeout,
+        dry_run=dry_run,
+        manifest=manifest,
+    )
+    return (len(candidates), streamed_new_count + downloaded_count)
 
 
 def _process_lab(
@@ -942,6 +1508,32 @@ def main(argv: list[str] | None = None) -> int:
         help="Browser name for yt-dlp --cookies-from-browser, for example: chrome.",
     )
     parser.add_argument(
+        "--google-scholar-fetcher",
+        choices=("urllib", "chrome"),
+        default=None,
+        help="Fetch Google Scholar pages with plain urllib or headless Chrome.",
+    )
+    parser.add_argument(
+        "--google-scholar-manual-login",
+        action="store_true",
+        help="Open normal Chrome first so you can solve Google Scholar login/CAPTCHA before fetching.",
+    )
+    parser.add_argument(
+        "--google-scholar-user-data-dir",
+        default=None,
+        help="Chrome user data directory to use for Google Scholar manual login and fetching.",
+    )
+    parser.add_argument(
+        "--google-scholar-profile-directory",
+        default=None,
+        help="Chrome profile directory name, for example Default or Profile 1.",
+    )
+    parser.add_argument(
+        "--google-scholar-cdp-url",
+        default=None,
+        help="Attach to an already-open Chrome DevTools endpoint, for example http://127.0.0.1:9222.",
+    )
+    parser.add_argument(
         "--extractor",
         choices=("static", "ai", "hybrid"),
         default="static",
@@ -958,6 +1550,8 @@ def main(argv: list[str] | None = None) -> int:
         lab_dirs = [lab_dir for lab_dir in lab_dirs if lab_dir.name == args.lab]
     if args.bilibili_only:
         lab_dirs = filter_bilibili_lab_dirs(lab_dirs)
+    elif args.lab is None:
+        lab_dirs = [lab_dir for lab_dir in lab_dirs if not is_bilibili_url(read_lab_link(lab_dir) or "")]
     if args.limit is not None:
         lab_dirs = lab_dirs[: args.limit]
     if not lab_dirs:
@@ -970,14 +1564,90 @@ def main(argv: list[str] | None = None) -> int:
     ):
         os.environ["BILIBILI_COOKIES_FROM_BROWSER"] = "chrome"
 
-    failures = run_labs(
-        lab_dirs,
-        min_year=args.min_year,
-        timeout=args.timeout,
-        dry_run=args.dry_run,
-        extractor=args.extractor,
-        workers=args.workers,
-    )
+    old_google_scholar_fetcher = os.environ.get("GOOGLE_SCHOLAR_FETCHER")
+    old_chrome_user_data_dir = os.environ.get("GOOGLE_CHROME_USER_DATA_DIR")
+    old_chrome_profile_directory = os.environ.get("GOOGLE_CHROME_PROFILE_DIRECTORY")
+    old_chrome_remote_debugging_port = os.environ.get("GOOGLE_CHROME_REMOTE_DEBUGGING_PORT")
+    old_chrome_cdp_url = os.environ.get("GOOGLE_CHROME_CDP_URL")
+    old_google_scholar_use_remote_chrome = os.environ.get("GOOGLE_SCHOLAR_USE_REMOTE_CHROME")
+    google_scholar_fetcher_set = False
+    chrome_user_data_dir_set = False
+    chrome_profile_directory_set = False
+    chrome_remote_debugging_port_set = False
+    chrome_cdp_url_set = False
+    google_scholar_use_remote_chrome_set = False
+    if args.google_scholar_fetcher:
+        os.environ["GOOGLE_SCHOLAR_FETCHER"] = args.google_scholar_fetcher
+        google_scholar_fetcher_set = True
+    elif (
+        args.google_scholar_manual_login
+        and any(is_google_scholar_url(read_lab_link(lab_dir) or "") for lab_dir in lab_dirs)
+        and old_google_scholar_fetcher is None
+    ):
+        os.environ["GOOGLE_SCHOLAR_FETCHER"] = "chrome"
+        google_scholar_fetcher_set = True
+    if args.google_scholar_user_data_dir:
+        os.environ["GOOGLE_CHROME_USER_DATA_DIR"] = args.google_scholar_user_data_dir
+        chrome_user_data_dir_set = True
+    if args.google_scholar_profile_directory:
+        os.environ["GOOGLE_CHROME_PROFILE_DIRECTORY"] = args.google_scholar_profile_directory
+        chrome_profile_directory_set = True
+    if args.google_scholar_manual_login:
+        os.environ["GOOGLE_CHROME_REMOTE_DEBUGGING_PORT"] = os.environ.get("GOOGLE_CHROME_REMOTE_DEBUGGING_PORT", "9222")
+        os.environ["GOOGLE_SCHOLAR_USE_REMOTE_CHROME"] = "1"
+        chrome_remote_debugging_port_set = old_chrome_remote_debugging_port is None
+        google_scholar_use_remote_chrome_set = True
+    if args.google_scholar_cdp_url:
+        os.environ["GOOGLE_SCHOLAR_FETCHER"] = "chrome"
+        os.environ["GOOGLE_SCHOLAR_USE_REMOTE_CHROME"] = "1"
+        os.environ["GOOGLE_CHROME_CDP_URL"] = args.google_scholar_cdp_url.rstrip("/")
+        google_scholar_fetcher_set = True
+        google_scholar_use_remote_chrome_set = True
+        chrome_cdp_url_set = True
+    try:
+        if args.google_scholar_manual_login:
+            scholar_links = [read_lab_link(lab_dir) or "" for lab_dir in lab_dirs]
+            scholar_links = [link for link in scholar_links if is_google_scholar_url(link)]
+            if scholar_links:
+                prepare_google_scholar_manual_login(google_scholar_page_url(scholar_links[0], cstart=0), timeout=args.timeout)
+        failures = run_labs(
+            lab_dirs,
+            min_year=args.min_year,
+            timeout=args.timeout,
+            dry_run=args.dry_run,
+            extractor=args.extractor,
+            workers=args.workers,
+        )
+    finally:
+        if google_scholar_fetcher_set:
+            if old_google_scholar_fetcher is None:
+                os.environ.pop("GOOGLE_SCHOLAR_FETCHER", None)
+            else:
+                os.environ["GOOGLE_SCHOLAR_FETCHER"] = old_google_scholar_fetcher
+        if chrome_user_data_dir_set:
+            if old_chrome_user_data_dir is None:
+                os.environ.pop("GOOGLE_CHROME_USER_DATA_DIR", None)
+            else:
+                os.environ["GOOGLE_CHROME_USER_DATA_DIR"] = old_chrome_user_data_dir
+        if chrome_profile_directory_set:
+            if old_chrome_profile_directory is None:
+                os.environ.pop("GOOGLE_CHROME_PROFILE_DIRECTORY", None)
+            else:
+                os.environ["GOOGLE_CHROME_PROFILE_DIRECTORY"] = old_chrome_profile_directory
+        if chrome_remote_debugging_port_set:
+            os.environ.pop("GOOGLE_CHROME_REMOTE_DEBUGGING_PORT", None)
+        elif args.google_scholar_manual_login and old_chrome_remote_debugging_port is not None:
+            os.environ["GOOGLE_CHROME_REMOTE_DEBUGGING_PORT"] = old_chrome_remote_debugging_port
+        if chrome_cdp_url_set:
+            if old_chrome_cdp_url is None:
+                os.environ.pop("GOOGLE_CHROME_CDP_URL", None)
+            else:
+                os.environ["GOOGLE_CHROME_CDP_URL"] = old_chrome_cdp_url
+        if google_scholar_use_remote_chrome_set:
+            if old_google_scholar_use_remote_chrome is None:
+                os.environ.pop("GOOGLE_SCHOLAR_USE_REMOTE_CHROME", None)
+            else:
+                os.environ["GOOGLE_SCHOLAR_USE_REMOTE_CHROME"] = old_google_scholar_use_remote_chrome
     return 1 if failures else 0
 
 
@@ -985,6 +1655,11 @@ def _find_recent_year(text: str, min_year: int) -> int | None:
     years = _find_years(text)
     years = [year for year in years if year >= min_year]
     return max(years) if years else None
+
+
+def _find_google_scholar_row_year(text: str, min_year: int) -> int | None:
+    years = [year for year in _find_years(text) if min_year <= year <= 2099]
+    return years[-1] if years else None
 
 
 def _find_years(text: str) -> list[int]:
@@ -1001,6 +1676,29 @@ def _find_pdf_url(links: object, base_url: str) -> str | None:
         if pdf_url and "pdf" == lower_label:
             return pdf_url
     return None
+
+
+def _find_pdf_url_in_google_scholar_citation_page(html: str, page_url: str) -> str | None:
+    parser = _PublicationParser()
+    parser.feed(html)
+    parser.close()
+    for block in parser.blocks:
+        pdf_url = _find_pdf_url(block["links"], page_url)
+        if pdf_url:
+            return pdf_url
+
+    text = unescape(html)
+    for pattern in (
+        r"https?://(?:www\.)?arxiv\.org/(?:abs|pdf)/\d{4}\.\d{4,5}(?:v\d+)?",
+        r"https?://[^\s\"'<>]+?\.pdf(?:\?[^\s\"'<>]*)?",
+    ):
+        match = re.search(pattern, text, flags=re.IGNORECASE)
+        if not match:
+            continue
+        pdf_url = _normalize_pdf_url(match.group(0), page_url)
+        if pdf_url:
+            return pdf_url
+    return _find_arxiv_pdf_url(text)
 
 
 def _parse_rai_resource_cards(html: str, base_url: str, min_year: int) -> list[tuple[str, int, str]]:

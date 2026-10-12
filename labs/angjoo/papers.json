@@ -1,0 +1,107 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:LjlpjdlvIbIC",
+    "pdf_path": "pdfs/2026-qf3-fast-flow-rl-with-filtered-q-gradients.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.08789.pdf",
+    "title": "QF3: Fast Flow RL with Filtered Q-Gradients",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:WqliGbK-hY8C",
+    "pdf_path": "pdfs/2026-eyerobot-2-0-active-gaze-for-precise-manipulation-without-wrist-cameras.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.03710.pdf",
+    "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:5awf1xo2G04C",
+    "pdf_path": "pdfs/2026-world-motion-models-flexible-sequence-modeling-of-se-3-trajectories.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.01742.pdf",
+    "title": "World Motion Models: Flexible Sequence Modeling of SE (3) Trajectories",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:eq2jaN3J8jMC",
+    "pdf_path": "pdfs/2026-counterfactual-video-generation-enables-scalable-humanoid-loco-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.38172.pdf",
+    "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:t6usbXjVLHcC",
+    "pdf_path": "pdfs/2026-finite-difference-flow-optimization-for-rl-post-training-of-text-to-image-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.12893.pdf",
+    "title": "Finite difference flow optimization for rl post-training of text-to-image models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:1qzjygNMrQYC",
+    "pdf_path": "pdfs/2026-vision-as-inverse-graphics-agent-via-interleaved-multimodal-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.11109.pdf",
+    "title": "Vision-as-inverse-graphics agent via interleaved multimodal reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:PELIpwtuRlgC",
+    "pdf_path": "pdfs/2026-vlk-learning-humanoid-loco-manipulation-from-synthetic-interactions-in-reconstructed-scenes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.30645.pdf",
+    "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:_B80troHkn4C",
+    "pdf_path": "pdfs/2026-scalable-behavior-cloning-with.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.27375.pdf",
+    "title": "Scalable Behavior Cloning with",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:tkaPQYYpVKoC",
+    "pdf_path": "pdfs/2026-playful-agentic-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.19419.pdf",
+    "title": "Playful Agentic Robot Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:Y5dfb0dijaUC",
+    "pdf_path": "pdfs/2026-surflo-consistent-3d-surface-flow-model-with-global-state.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.13644.pdf",
+    "title": "Surflo: Consistent 3D Surface Flow Model with Global State",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:olpn-zPbct0C",
+    "pdf_path": "pdfs/2026-diffusion-policy-optimization-without-drifting-apart.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.13795.pdf",
+    "title": "Diffusion Policy Optimization without Drifting Apart",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:mvPsJ3kp5DgC",
+    "pdf_path": "pdfs/2026-twist2-scalable-portable-and-holistic-humanoid-data-collection-system.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.02832.pdf",
+    "title": "Twist2: Scalable, portable, and holistic humanoid data collection system",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:BrmTIyaxlBUC",
+    "pdf_path": "pdfs/2026-omniretarget-interaction-preserving-data-generation-for-humanoid-whole-body-loco-manipulation-and-scene-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.26633.pdf",
+    "title": "Omniretarget: Interaction-preserving data generation for humanoid whole-body loco-manipulation and scene interaction",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:Mojj43d5GZwC",
+    "pdf_path": "pdfs/2026-remember-to-be-curious-episodic-context-and-persistent-worlds-for-3d-exploration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.22814.pdf",
+    "title": "Remember to be Curious: Episodic Context and Persistent Worlds for 3D Exploration",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:fQNAKQ3IYiAC",
+    "pdf_path": "pdfs/2026-cameras-as-relative-positional-encoding.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/17a7075094632c88cccdd86270ad715b-Paper-Conference.pdf",
+    "title": "Cameras as relative positional encoding",
+    "year": 2026
+  }
+]

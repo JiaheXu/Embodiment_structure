@@ -1,26 +1,5 @@
 [
   {
-    "page_url": "https://www.bilibili.com/video/BV1Y1p86YEq2",
-    "pdf_path": "pdfs/2026-dex-one2many-learning-dexterous-manipulation-from-a-single-human-demonstration.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2610.12470v1.pdf",
-    "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
-    "year": 2026
-  },
-  {
-    "page_url": "https://www.bilibili.com/video/BV12YpK6WEB2",
-    "pdf_path": "pdfs/2026-corl-2026-robottt.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2607.15275v1.pdf",
-    "title": "\ud83c\udf93\u3010CoRL 2026\u3011RoboTTT\uff1a\u7528\u6d4b\u8bd5\u65f6\u8bad\u7ec3\u6269\u5c55\u673a\u5668\u4eba\u7b56\u7565\u7684\u4e0a\u4e0b\u6587",
-    "year": 2026
-  },
-  {
-    "page_url": "https://www.bilibili.com/video/BV12YpK6WEB2",
-    "pdf_path": "pdfs/2026-robottt-context-scaling-for-robot-policies.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2607.15275v1.pdf",
-    "title": "RoboTTT: Context Scaling for Robot Policies",
-    "year": 2026
-  },
-  {
     "page_url": "https://www.bilibili.com/video/BV1bhHC64ETw",
     "pdf_path": "pdfs/2023-corl-2023-rt-2.pdf",
     "pdf_url": "https://arxiv.org/pdf/2307.15818v1.pdf",
@@ -77,6 +56,20 @@
     "year": 2024
   },
   {
+    "page_url": "https://www.bilibili.com/video/BV1KtHt65EJe",
+    "pdf_path": "pdfs/2024-demonstrating-gpu-parallelized-robot-simulation-and-rendering-for-generalizable-embodied-ai-with-maniskill3.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.00425v2.pdf",
+    "title": "Demonstrating GPU Parallelized Robot Simulation and Rendering for Generalizable Embodied AI with ManiSkill3",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1sNHf68EkJ",
+    "pdf_path": "pdfs/2024-iccv-2025-vlabench.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.18194.pdf",
+    "title": "\u3010ICCV 2025\u3011\ud83c\udf93 VLABench\uff1a\u673a\u5668\u4eba\u542c\u61c2\u6307\u4ee4\uff0c\u4e3a\u4f55\u4ecd\u505a\u4e0d\u5b8c\u4efb\u52a1\uff1f",
+    "year": 2024
+  },
+  {
     "page_url": "https://www.bilibili.com/video/BV1nsHk6kEM4",
     "pdf_path": "pdfs/2024-iclr-2025-rdt-1b.pdf",
     "pdf_url": "https://arxiv.org/pdf/2410.07864v2.pdf",
@@ -119,10 +112,31 @@
     "year": 2024
   },
   {
+    "page_url": "https://www.bilibili.com/video/BV1KtHt65EJe",
+    "pdf_path": "pdfs/2024-rss-2025-maniskill3-gpu.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.00425v2.pdf",
+    "title": "\ud83c\udf93\u3010RSS 2025\u3011ManiSkill3\uff1aGPU\u4eff\u771f\u5982\u4f55\u52a0\u901f\u89c6\u89c9\u673a\u5668\u4eba\u5b66\u4e60\uff1f",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1sNHf68EkJ",
+    "pdf_path": "pdfs/2024-vlabench-a-large-scale-benchmark-for-language-conditioned-robotics-manipulation-with-long-horizon-reasoning-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.18194.pdf",
+    "title": "VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon Reasoning Tasks",
+    "year": 2024
+  },
+  {
     "page_url": "https://www.bilibili.com/video/BV1ZaHy6yEse",
     "pdf_path": "pdfs/2025-arxiv-2025-gr00t-n1.pdf",
     "pdf_url": "https://arxiv.org/pdf/2503.14734v2.pdf",
     "title": "\ud83c\udf93\u3010arXiv 2025\u3011GR00T N1\uff1a\u7528\u5f02\u6784\u6570\u636e\u8bad\u7ec3\u901a\u7528\u4eba\u5f62\u673a\u5668\u4eba\u7b56\u7565",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1M6H46jEKP",
+    "pdf_path": "pdfs/2025-arxiv-2025-robochallenge.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.17950v1.pdf",
+    "title": "\u3010arXiv 2025\u3011\ud83c\udf93 RoboChallenge\uff1a\u8fdc\u7a0b\u771f\u673a\u8bc4\u6d4b\u4e0e\u6d4b\u8bd5\u8005\u504f\u5dee",
     "year": 2025
   },
   {
@@ -147,6 +161,13 @@
     "year": 2025
   },
   {
+    "page_url": "https://www.bilibili.com/video/BV1M6H46jEKP",
+    "pdf_path": "pdfs/2025-robochallenge-large-scale-real-robot-evaluation-of-embodied-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.17950v1.pdf",
+    "title": "RoboChallenge: Large-scale Real-robot Evaluation of Embodied Policies",
+    "year": 2025
+  },
+  {
     "page_url": "https://www.bilibili.com/video/BV1taH16eEmb",
     "pdf_path": "pdfs/2025-rss-2025-fast.pdf",
     "pdf_url": "https://arxiv.org/pdf/2501.09747v1.pdf",
@@ -159,6 +180,62 @@
     "pdf_url": "https://arxiv.org/pdf/2502.19645v2.pdf",
     "title": "\ud83c\udf93\u3010RSS 2025\u3011OpenVLA-OFT\uff1a\u91cd\u65b0\u8bbe\u8ba1\u5fae\u8c03\uff0c\u8ba9\u673a\u5668\u4eba\u66f4\u5feb\u66f4\u53ef\u9760",
     "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1mHHt67EVD",
+    "pdf_path": "pdfs/2026-arxiv-2026-robodojo.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.04434v3.pdf",
+    "title": "\u3010arXiv 2026\u3011\ud83c\udf93 RoboDojo\uff1a\u4ece\u4eff\u771f\u80fd\u529b\u8bca\u65ad\u5230\u6807\u51c6\u5316\u771f\u673a\u8bc4\u6d4b",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hupu6qExN",
+    "pdf_path": "pdfs/2026-arxiv-2026-stellavla.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.11671v1.pdf",
+    "title": "\ud83c\udf93\u3010arXiv 2026\u3011StellaVLA\uff1a\u7528\u7ed3\u6784\u5316\u793a\u8303\u63d0\u5347\u673a\u5668\u4eba\u7b56\u7565\u6cdb\u5316",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1WzpK6nEiJ",
+    "pdf_path": "pdfs/2026-arxiv-2026-zero-wam.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.26103v2.pdf",
+    "title": "\ud83c\udf93\u3010arXiv 2026\u3011Zero-WAM\uff1a\u770b\u4eba\u7c7b\u89c6\u9891\u6267\u884c\u672a\u89c1\u4efb\u52a1\uff0c\u65e0\u9700\u6d4b\u8bd5\u65f6\u8bad\u7ec3",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hhpJ6AE6G",
+    "pdf_path": "pdfs/2026-can-language-models-play-the-wikipedia-game.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13948v1.pdf",
+    "title": "Can Language Models Play the Wikipedia Game?",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV12YpK6WEB2",
+    "pdf_path": "pdfs/2026-corl-2026-robottt.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.15275v1.pdf",
+    "title": "\ud83c\udf93\u3010CoRL 2026\u3011RoboTTT\uff1a\u7528\u6d4b\u8bd5\u65f6\u8bad\u7ec3\u6269\u5c55\u673a\u5668\u4eba\u7b56\u7565\u7684\u4e0a\u4e0b\u6587",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1XnpK6aE54",
+    "pdf_path": "pdfs/2026-corl-2026-wam-ttt.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.06988v2.pdf",
+    "title": "\u3010CoRL 2026\u3011\ud83c\udf93 WAM-TTT\uff1a\u770b\u4eba\u7c7b\u89c6\u9891\uff0c\u4e3a\u4e16\u754c\u52a8\u4f5c\u6a21\u578b\u5199\u5165\u6280\u80fd\u8bb0\u5fc6",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1WypJ6WEei",
+    "pdf_path": "pdfs/2026-hide-and-seek-hide-concepts-to-seek-explanations-for-black-box-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13935v1.pdf",
+    "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1eQHt6oEc8",
+    "pdf_path": "pdfs/2026-iclr-2026-robocasa365-365.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.04356v1.pdf",
+    "title": "\ud83c\udf93\u3010ICLR 2026\u3011RoboCasa365\uff1a365\u4e2a\u53a8\u623f\u4efb\u52a1\uff0c\u901a\u7528\u673a\u5668\u4eba\u79bb\u65e5\u5e38\u751f\u6d3b\u591a\u8fdc\uff1f",
+    "year": 2026
   },
   {
     "page_url": "https://www.bilibili.com/video/BV13mHy6vEBQ",
@@ -175,10 +252,73 @@
     "year": 2026
   },
   {
-    "page_url": "https://www.bilibili.com/video/BV1bJp36BE1L",
-    "pdf_path": "pdfs/2026-rubric-cepr-self-evolving-image-editing-via-reward-verified-self-distillation.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2610.12469v1.pdf",
-    "title": "Rubric-CEPR: Self-Evolving Image Editing via Reward-Verified Self-Distillation",
+    "page_url": "https://www.bilibili.com/video/BV1eQHt6oEc8",
+    "pdf_path": "pdfs/2026-robocasa365-a-large-scale-simulation-framework-for-training-and-benchmarking-generalist-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.04356v1.pdf",
+    "title": "RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1mHHt67EVD",
+    "pdf_path": "pdfs/2026-robodojo-a-unified-sim-and-real-benchmark-for-comprehensive-evaluation-of-generalist-robot-manipulation-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.04434v3.pdf",
+    "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1xkHo64EKk",
+    "pdf_path": "pdfs/2026-robolab-a-high-fidelity-simulation-benchmark-for-analysis-of-task-generalist-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.09860v4.pdf",
+    "title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV12YpK6WEB2",
+    "pdf_path": "pdfs/2026-robottt-context-scaling-for-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.15275v1.pdf",
+    "title": "RoboTTT: Context Scaling for Robot Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1xkHo64EKk",
+    "pdf_path": "pdfs/2026-rss-2026-robolab.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.09860v4.pdf",
+    "title": "\u3010RSS 2026\u3011\ud83c\udf93 RoboLab\uff1a\u901a\u7528\u673a\u5668\u4eba\u7b56\u7565\u7684\u9ad8\u4fdd\u771f\u4eff\u771f\u8bca\u65ad",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hhpJ6AEZR",
+    "pdf_path": "pdfs/2026-splat2act-from-captured-scenes-to-personalized-vla-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13945v1.pdf",
+    "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hupu6qExN",
+    "pdf_path": "pdfs/2026-stellavla-in-context-structured-demonstration-for-generalizable-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.11671v1.pdf",
+    "title": "StellaVLA: In-Context Structured Demonstration for Generalizable Vision-Language-Action Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hhpJ6AES5",
+    "pdf_path": "pdfs/2026-towards-physically-grounded-articulated-3d-assets-a-multi-agent-pipeline-and-benchmark.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13947v1.pdf",
+    "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1XnpK6aE54",
+    "pdf_path": "pdfs/2026-wam-ttt-steering-world-action-models-by-watching-human-play-at-test-time.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.06988v2.pdf",
+    "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1WzpK6nEiJ",
+    "pdf_path": "pdfs/2026-zero-wam-in-context-world-action-modeling-from-human-videos-for-open-ended-task-generalization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.26103v2.pdf",
+    "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
     "year": 2026
   }
 ]

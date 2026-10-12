@@ -1,1 +1,1 @@
-https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate
+https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0

@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paper RAG Explorer</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #111214;
+      --panel: #1b1c20;
+      --panel-2: #23242a;
+      --line: #30323a;
+      --text: #e7e8ee;
+      --muted: #9ba0ad;
+      --accent: #7c5cff;
+      --accent-2: #60d7c6;
+      --warn: #ffca5f;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 14px/1.45 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      overflow: hidden;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: 280px minmax(520px, 1fr) 300px;
+      grid-template-rows: minmax(0, 1fr) 250px;
+      height: 100vh;
+      min-width: 1020px;
+    }
+
+    aside, .bottom {
+      background: var(--panel);
+      border-color: var(--line);
+    }
+
+    .left { border-right: 1px solid var(--line); overflow: hidden; }
+    .right { border-left: 1px solid var(--line); overflow: hidden; }
+    .bottom {
+      grid-column: 1 / -1;
+      border-top: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      padding: 18px 28px;
+      overflow: hidden;
+    }
+
+    .panel-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 16px 16px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h1, h2, h3 { margin: 0; letter-spacing: 0; }
+    h1 { font-size: 16px; }
+    h2 { font-size: 13px; color: var(--muted); font-weight: 700; text-transform: uppercase; }
+    h3 { font-size: 15px; }
+    .count { color: var(--muted); font-size: 12px; white-space: nowrap; }
+
+    .scene {
+      position: relative;
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 50% 45%, rgba(124, 92, 255, 0.14), transparent 28%),
+        radial-gradient(circle at 52% 56%, rgba(96, 215, 198, 0.08), transparent 26%),
+        #111214;
+    }
+
+    canvas {
+      display: block;
+      width: 100%;
+      height: 100%;
+      cursor: grab;
+    }
+    canvas:active { cursor: grabbing; }
+
+    .query-box {
+      position: absolute;
+      left: 50%;
+      bottom: 34px;
+      transform: translateX(-50%);
+      width: min(760px, calc(100% - 72px));
+      display: grid;
+      grid-template-columns: 1fr auto auto;
+      gap: 10px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(24, 25, 29, 0.95);
+      box-shadow: 0 18px 48px rgba(0, 0, 0, 0.36);
+    }
+
+    input[type="search"] {
+      min-width: 0;
+      height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #121317;
+      color: var(--text);
+      padding: 0 12px;
+      outline: none;
+    }
+    input[type="search"]:focus { border-color: var(--accent); }
+
+    button {
+      height: 38px;
+      border: 0;
+      border-radius: 6px;
+      background: var(--accent);
+      color: white;
+      font-weight: 700;
+      padding: 0 14px;
+      cursor: pointer;
+    }
+
+    label.toggle {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      user-select: none;
+    }
+
+    .scroll {
+      height: calc(100% - 54px);
+      overflow: auto;
+      padding: 10px;
+    }
+
+    .result, .detail-card {
+      border: 1px solid transparent;
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 8px;
+      background: transparent;
+      cursor: pointer;
+    }
+    .result:hover, .result.active { background: var(--panel-2); border-color: var(--line); }
+    .result-title { font-weight: 750; margin-bottom: 5px; }
+    .result-meta, .small { color: var(--muted); font-size: 12px; }
+    .score { color: var(--accent-2); }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      padding: 12px;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 9px;
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.03);
+      cursor: pointer;
+      user-select: none;
+    }
+    .chip.off { opacity: 0.38; }
+    .dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      flex: 0 0 auto;
+    }
+
+    .detail, .agent {
+      min-width: 0;
+      overflow: auto;
+    }
+    .detail-card {
+      cursor: default;
+      background: #17181d;
+      border-color: var(--line);
+      height: 100%;
+      margin: 0;
+      overflow: auto;
+    }
+    .detail-card p { margin: 8px 0; color: #c8ccd7; }
+    .links a {
+      color: var(--accent-2);
+      text-decoration: none;
+      margin-right: 12px;
+      font-size: 12px;
+    }
+    .chunk {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+      color: #c8ccd7;
+      font-size: 12px;
+    }
+
+    pre {
+      margin: 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+      color: #cfd2dc;
+      font-size: 12px;
+    }
+
+    .status {
+      position: absolute;
+      top: 14px;
+      left: 18px;
+      color: var(--muted);
+      font-size: 12px;
+      background: rgba(17, 18, 20, 0.7);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 7px 10px;
+    }
+
+    @media (max-width: 1100px) {
+      body { overflow: auto; }
+      .app {
+        min-width: 0;
+        height: auto;
+        min-height: 100vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 280px 560px 280px auto;
+      }
+      .left, .right { border: 0; border-bottom: 1px solid var(--line); }
+      .bottom { grid-column: 1; grid-template-columns: 1fr; height: auto; }
+      .query-box { width: calc(100% - 24px); grid-template-columns: 1fr; }
+      label.toggle, button { justify-content: center; width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <aside class="left">
+      <div class="panel-head">
+        <h1>Candidate Papers</h1>
+        <span id="resultCount" class="count">loading</span>
+      </div>
+      <div id="results" class="scroll"></div>
+    </aside>
+
+    <section class="scene">
+      <canvas id="sphere"></canvas>
+      <div id="status" class="status">Loading rag_index files</div>
+      <form id="queryForm" class="query-box">
+        <input id="queryInput" type="search" autocomplete="off" placeholder="Describe desired papers, e.g. RGB-D language manipulation on a real robot">
+        <label class="toggle"><input id="aiMode" type="checkbox" checked> AI candidate query</label>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <aside class="right">
+      <div class="panel-head">
+        <h2>Keyword Filters</h2>
+        <span id="keywordCount" class="count">0</span>
+      </div>
+      <div id="keywords" class="chips"></div>
+    </aside>
+
+    <section class="bottom">
+      <div class="detail">
+        <div id="detail" class="detail-card"></div>
+      </div>
+      <div class="agent">
+        <div class="detail-card">
+          <h3>AI Agent Candidate Packet</h3>
+          <p class="small">Copy this JSON into an agent prompt for final related-paper selection.</p>
+          <pre id="agentPacket">[]</pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const state = {
+      papers: [],
+      chunks: [],
+      paperChunks: new Map(),
+      activeKeywords: new Set(),
+      selectedId: null,
+      query: "",
+      results: [],
+      rotation: { x: -0.32, y: 0.58 },
+      drag: null,
+      hoverId: null,
+      nodes: [],
+      paperEmbeddings: new Map(),
+    };
+
+    const palette = [
+      "#8f6cff", "#60d7c6", "#f6c95f", "#6aa9ff", "#f075a8", "#8bd36a",
+      "#f59b56", "#c76cff", "#67d29d", "#e56f6f", "#a3a7ff", "#d6d45b"
+    ];
+
+    const els = {
+      canvas: document.getElementById("sphere"),
+      status: document.getElementById("status"),
+      results: document.getElementById("results"),
+      resultCount: document.getElementById("resultCount"),
+      keywords: document.getElementById("keywords"),
+      keywordCount: document.getElementById("keywordCount"),
+      detail: document.getElementById("detail"),
+      agentPacket: document.getElementById("agentPacket"),
+      queryForm: document.getElementById("queryForm"),
+      queryInput: document.getElementById("queryInput"),
+      aiMode: document.getElementById("aiMode"),
+    };
+    const ctx = els.canvas.getContext("2d");
+
+    function parseJsonl(text) {
+      return text.split(/\n+/).map(line => line.trim()).filter(Boolean).map(line => JSON.parse(line));
+    }
+
+    async function loadJsonl(path) {
+      const response = await fetch(path, { cache: "no-store" });
+      if (!response.ok) throw new Error(`${path}: ${response.status}`);
+      return parseJsonl(await response.text());
+    }
+
+    function tokens(text) {
+      return String(text || "").toLowerCase().match(/[a-z0-9][a-z0-9+.-]*/g) || [];
+    }
+
+    function valueText(value) {
+      if (value == null) return "";
+      if (Array.isArray(value)) return value.map(valueText).join(" ");
+      if (typeof value === "object") return Object.entries(value).map(([k, v]) => `${k} ${valueText(v)}`).join(" ");
+      return String(value);
+    }
+
+    function keywordOf(paper) {
+      const keywords = paper.paper_keywords || [];
+      if (keywords.length) return keywords[0];
+      const tags = paper.index_tags || {};
+      for (const key of ["task", "robot", "input", "evaluation"]) {
+        if (Array.isArray(tags[key]) && tags[key].length) return tags[key][0];
+      }
+      return "Ungrouped";
+    }
+
+    function keywordColor(keyword) {
+      let hash = 0;
+      for (const char of keyword) hash = (hash * 31 + char.charCodeAt(0)) >>> 0;
+      return palette[hash % palette.length];
+    }
+
+    function paperText(paper) {
+      return [paper.title, paper.abstract, paper.paper_keywords, paper.index_tags].map(valueText).join(" ");
+    }
+
+    function lexicalScore(query, text) {
+      const q = new Set(tokens(query));
+      if (!q.size) return 0;
+      const t = new Set(tokens(text));
+      let hits = 0;
+      q.forEach(token => { if (t.has(token)) hits += 1; });
+      return hits / q.size;
+    }
+
+    function fnv1a32(text) {
+      let value = 2166136261;
+      const bytes = new TextEncoder().encode(text);
+      for (const byte of bytes) {
+        value ^= byte;
+        value = Math.imul(value, 16777619) >>> 0;
+      }
+      return value >>> 0;
+    }
+
+    function hashEmbed(text, dims = 384) {
+      const vector = new Array(dims).fill(0);
+      for (const token of tokens(text)) vector[fnv1a32(token) % dims] += 1;
+      const norm = Math.sqrt(vector.reduce((sum, value) => sum + value * value, 0));
+      return norm ? vector.map(value => value / norm) : vector;
+    }
+
+    function cosineSimilarity(left, right) {
+      const n = Math.min(left.length, right.length);
+      let score = 0;
+      for (let i = 0; i < n; i += 1) score += Number(left[i] || 0) * Number(right[i] || 0);
+      return score;
+    }
+
+    function supportingChunks(paper, query) {
+      const chunks = state.paperChunks.get(paper.paper_id) || [];
+      return chunks
+        .map(chunk => ({ ...chunk, score: lexicalScore(query, chunk.text) }))
+        .filter(chunk => chunk.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 3);
+    }
+
+    function scorePaper(paper, query) {
+      const q = query.trim();
+      const storedEmbedding = state.paperEmbeddings.get(paper.paper_id);
+      let score = q && storedEmbedding ? cosineSimilarity(hashEmbed(q), storedEmbedding) : 0;
+      score += q ? lexicalScore(q, paperText(paper)) : 0.2;
+      const queryTokens = tokens(q);
+      const keywordText = (paper.paper_keywords || []).join(" ").toLowerCase();
+      if (queryTokens.length && queryTokens.every(token => keywordText.includes(token))) score += 1.5;
+      const chunks = q ? supportingChunks(paper, q) : [];
+      if (chunks.length) score += chunks[0].score * 0.5;
+      return { score, chunks };
+    }
+
+    function computeResults() {
+      const query = state.query;
+      const active = state.activeKeywords;
+      state.results = state.papers
+        .filter(paper => !active.size || active.has(keywordOf(paper)))
+        .map(paper => {
+          const scored = scorePaper(paper, query);
+          return { ...paper, score: scored.score, supporting_chunks: scored.chunks };
+        })
+        .filter(paper => !query || paper.score > 0)
+        .sort((a, b) => b.score - a.score || String(a.title).localeCompare(String(b.title)))
+        .slice(0, 60);
+      if (!state.selectedId && state.results[0]) state.selectedId = state.results[0].paper_id;
+      renderResults();
+      renderAgentPacket();
+      draw();
+    }
+
+    function buildNodes() {
+      const n = Math.max(state.papers.length, 1);
+      state.nodes = state.papers.map((paper, i) => {
+        const z = 1 - (2 * i + 1) / n;
+        const radius = Math.sqrt(Math.max(0, 1 - z * z));
+        const theta = i * Math.PI * (3 - Math.sqrt(5));
+        return {
+          paper,
+          x: Math.cos(theta) * radius,
+          y: Math.sin(theta) * radius,
+          z,
+        };
+      });
+    }
+
+    function rotatePoint(point) {
+      const cx = Math.cos(state.rotation.x), sx = Math.sin(state.rotation.x);
+      const cy = Math.cos(state.rotation.y), sy = Math.sin(state.rotation.y);
+      let y = point.y * cx - point.z * sx;
+      let z = point.y * sx + point.z * cx;
+      let x = point.x * cy + z * sy;
+      z = -point.x * sy + z * cy;
+      return { x, y, z };
+    }
+
+    function resizeCanvas() {
+      const rect = els.canvas.getBoundingClientRect();
+      const dpr = window.devicePixelRatio || 1;
+      els.canvas.width = Math.floor(rect.width * dpr);
+      els.canvas.height = Math.floor(rect.height * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      draw();
+    }
+
+    function draw() {
+      const rect = els.canvas.getBoundingClientRect();
+      ctx.clearRect(0, 0, rect.width, rect.height);
+      const cx = rect.width / 2;
+      const cy = rect.height / 2 - 20;
+      const sphereRadius = Math.min(rect.width, rect.height) * 0.36;
+
+      ctx.save();
+      const gradient = ctx.createRadialGradient(cx, cy, sphereRadius * 0.1, cx, cy, sphereRadius);
+      gradient.addColorStop(0, "rgba(255,255,255,0.05)");
+      gradient.addColorStop(0.72, "rgba(255,255,255,0.02)");
+      gradient.addColorStop(1, "rgba(255,255,255,0.08)");
+      ctx.strokeStyle = "rgba(255,255,255,0.12)";
+      ctx.fillStyle = gradient;
+      ctx.beginPath();
+      ctx.arc(cx, cy, sphereRadius, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.stroke();
+      ctx.restore();
+
+      const resultIds = new Set(state.results.map(p => p.paper_id));
+      const drawn = state.nodes.map(node => {
+        const p = rotatePoint(node);
+        const scale = 0.72 + (p.z + 1) * 0.22;
+        return {
+          ...node,
+          sx: cx + p.x * sphereRadius * scale,
+          sy: cy + p.y * sphereRadius * scale,
+          depth: p.z,
+          scale,
+        };
+      }).sort((a, b) => a.depth - b.depth);
+
+      for (const node of drawn) {
+        const paper = node.paper;
+        const keyword = keywordOf(paper);
+        const inResult = resultIds.has(paper.paper_id);
+        const selected = paper.paper_id === state.selectedId;
+        const hovered = paper.paper_id === state.hoverId;
+        const base = selected ? 9 : hovered ? 8 : inResult ? 5.5 : 2.6;
+        const radius = base * Math.max(0.6, node.scale);
+        ctx.globalAlpha = inResult || !state.query ? 0.95 : 0.18;
+        ctx.fillStyle = selected ? "#ffffff" : keywordColor(keyword);
+        ctx.shadowColor = ctx.fillStyle;
+        ctx.shadowBlur = selected || hovered ? 18 : inResult ? 8 : 0;
+        ctx.beginPath();
+        ctx.arc(node.sx, node.sy, radius, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.shadowBlur = 0;
+      }
+      ctx.globalAlpha = 1;
+    }
+
+    function renderResults() {
+      els.resultCount.textContent = `${state.results.length} candidates`;
+      els.results.innerHTML = state.results.map((paper, index) => `
+        <article class="result ${paper.paper_id === state.selectedId ? "active" : ""}" data-id="${paper.paper_id}">
+          <div class="result-title">[${index + 1}] ${escapeHtml(paper.title || "Untitled")}</div>
+          <div class="result-meta">${escapeHtml(String(paper.year || ""))} - ${escapeHtml(paper.lab || "")} - <span class="score">${paper.score.toFixed(2)}</span></div>
+          <div class="result-meta">${escapeHtml((paper.paper_keywords || []).slice(0, 4).join(", ") || keywordOf(paper))}</div>
+        </article>
+      `).join("");
+      els.results.querySelectorAll(".result").forEach(item => {
+        item.addEventListener("click", () => selectPaper(item.dataset.id));
+      });
+      renderDetail();
+    }
+
+    function renderKeywords() {
+      const counts = new Map();
+      state.papers.forEach(paper => counts.set(keywordOf(paper), (counts.get(keywordOf(paper)) || 0) + 1));
+      const entries = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 80);
+      els.keywordCount.textContent = `${entries.length}`;
+      els.keywords.innerHTML = entries.map(([keyword, count]) => `
+        <span class="chip ${state.activeKeywords.has(keyword) ? "" : "off"}" data-keyword="${escapeAttr(keyword)}">
+          <span class="dot" style="background:${keywordColor(keyword)}"></span>
+          <span>${escapeHtml(keyword)}</span>
+          <span class="small">${count}</span>
+        </span>
+      `).join("");
+      els.keywords.querySelectorAll(".chip").forEach(chip => {
+        chip.addEventListener("click", () => {
+          const keyword = chip.dataset.keyword;
+          if (state.activeKeywords.has(keyword)) state.activeKeywords.delete(keyword);
+          else state.activeKeywords.add(keyword);
+          renderKeywords();
+          computeResults();
+        });
+      });
+    }
+
+    function renderDetail() {
+      const paper = state.papers.find(item => item.paper_id === state.selectedId) || state.results[0];
+      if (!paper) {
+        els.detail.innerHTML = "<h3>No paper selected</h3><p>Build the RAG index first.</p>";
+        return;
+      }
+      const chunks = state.results.find(item => item.paper_id === paper.paper_id)?.supporting_chunks || [];
+      els.detail.innerHTML = `
+        <h3>${escapeHtml(paper.title || "Untitled")}</h3>
+        <p class="small">${escapeHtml(String(paper.year || ""))} - ${escapeHtml(paper.lab || "")}</p>
+        <p>${escapeHtml(paper.abstract || "No abstract in index.")}</p>
+        <p class="small"><strong>Keywords:</strong> ${escapeHtml((paper.paper_keywords || []).join(", ") || "None provided")}</p>
+        <div class="links">
+          ${paper.pdf_url ? `<a href="${escapeAttr(paper.pdf_url)}" target="_blank" rel="noreferrer">PDF</a>` : ""}
+          ${paper.page_url ? `<a href="${escapeAttr(paper.page_url)}" target="_blank" rel="noreferrer">Project</a>` : ""}
+        </div>
+        ${chunks.map(chunk => `
+          <div class="chunk">
+            <strong>${escapeHtml(chunk.section || "chunk")}</strong>
+            <span class="score">${Number(chunk.score || 0).toFixed(2)}</span>
+            <div>${escapeHtml(String(chunk.text || "").slice(0, 520))}</div>
+          </div>
+        `).join("")}
+      `;
+    }
+
+    function renderAgentPacket() {
+      const packet = state.results.slice(0, 12).map(paper => ({
+        paper_id: paper.paper_id,
+        title: paper.title,
+        year: paper.year,
+        lab: paper.lab,
+        abstract: paper.abstract,
+        paper_keywords: paper.paper_keywords,
+        index_tags: paper.index_tags,
+        score: Number(paper.score.toFixed(4)),
+        supporting_chunks: (paper.supporting_chunks || []).map(chunk => ({
+          section: chunk.section,
+          text: String(chunk.text || "").slice(0, 700)
+        }))
+      }));
+      els.agentPacket.textContent = JSON.stringify(packet, null, 2);
+    }
+
+    function selectPaper(id) {
+      state.selectedId = id;
+      renderResults();
+      draw();
+    }
+
+    function escapeHtml(text) {
+      return String(text ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    }
+
+    function escapeAttr(text) {
+      return escapeHtml(text).replace(/`/g, "&#96;");
+    }
+
+    function canvasPaperAt(event) {
+      const rect = els.canvas.getBoundingClientRect();
+      const x = event.clientX - rect.left;
+      const y = event.clientY - rect.top;
+      let best = null;
+      let bestDistance = Infinity;
+      for (const node of state.nodes) {
+        const p = rotatePoint(node);
+        const cx = rect.width / 2;
+        const cy = rect.height / 2 - 20;
+        const sphereRadius = Math.min(rect.width, rect.height) * 0.36;
+        const scale = 0.72 + (p.z + 1) * 0.22;
+        const sx = cx + p.x * sphereRadius * scale;
+        const sy = cy + p.y * sphereRadius * scale;
+        const distance = Math.hypot(x - sx, y - sy);
+        if (distance < bestDistance && distance < 12) {
+          best = node.paper;
+          bestDistance = distance;
+        }
+      }
+      return best;
+    }
+
+    els.queryForm.addEventListener("submit", event => {
+      event.preventDefault();
+      state.query = els.queryInput.value.trim();
+      state.status = els.aiMode.checked ? "AI candidate query" : "Local query";
+      els.status.textContent = `${state.status}: ${state.query || "all papers"}`;
+      computeResults();
+    });
+
+    els.canvas.addEventListener("mousedown", event => {
+      state.drag = { x: event.clientX, y: event.clientY, rx: state.rotation.x, ry: state.rotation.y };
+    });
+    window.addEventListener("mousemove", event => {
+      if (state.drag) {
+        state.rotation.y = state.drag.ry + (event.clientX - state.drag.x) * 0.006;
+        state.rotation.x = state.drag.rx + (event.clientY - state.drag.y) * 0.006;
+        draw();
+        return;
+      }
+      const paper = canvasPaperAt(event);
+      state.hoverId = paper?.paper_id || null;
+      draw();
+    });
+    window.addEventListener("mouseup", () => { state.drag = null; });
+    els.canvas.addEventListener("click", event => {
+      const paper = canvasPaperAt(event);
+      if (paper) selectPaper(paper.paper_id);
+    });
+    window.addEventListener("resize", resizeCanvas);
+
+    async function init() {
+      try {
+        const [papers, chunks, paperEmbeddings] = await Promise.all([
+          loadJsonl("rag_index/papers.jsonl"),
+          loadJsonl("rag_index/chunks.jsonl").catch(() => []),
+          loadJsonl("rag_index/paper_embeddings.jsonl").catch(() => []),
+        ]);
+        state.papers = papers;
+        state.chunks = chunks;
+        state.paperEmbeddings = new Map(
+          paperEmbeddings
+            .filter(item => item.paper_id && Array.isArray(item.embedding))
+            .map(item => [item.paper_id, item.embedding])
+        );
+        for (const chunk of chunks) {
+          const list = state.paperChunks.get(chunk.paper_id) || [];
+          list.push(chunk);
+          state.paperChunks.set(chunk.paper_id, list);
+        }
+        buildNodes();
+        renderKeywords();
+        computeResults();
+        resizeCanvas();
+        els.status.textContent = `${papers.length} papers loaded`;
+      } catch (error) {
+        els.status.textContent = `Could not load rag_index files: ${error.message}`;
+        els.detail.innerHTML = `<h3>Missing RAG index</h3><p>Run <code>python3 labs/build_rag_index.py</code>, then serve the <code>labs/</code> directory over HTTP.</p>`;
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

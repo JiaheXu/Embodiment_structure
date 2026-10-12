@@ -35,6 +35,12 @@ each lab folder, it still processes papers sequentially so that `papers.json`,
 `pdfs/`, and `failed.txt` stay simple and predictable. For each folder, it
 reads `link.txt`, extracts papers from 2023 onward, skips papers already
 present in `papers.json` or `pdfs/`, and downloads only new PDFs.
+Default runs skip Bilibili channel folders. Use `--bilibili-only` or explicitly
+select a channel with `--lab` to process those folders.
+For fresh and cached Google Scholar pages, each paper's PDF link is resolved and
+downloaded immediately. The downloader waits one second after a successful
+download before resolving the next paper.
+Failed PDF requests wait 0.5 seconds before retrying, with at most four attempts.
 
 Useful options:
 
@@ -72,12 +78,13 @@ fallback can also pick it up. When a video still has no matched paper, the
 downloader searches arXiv with the video metadata before giving up; unresolved
 video URLs are appended to that lab's `failed.txt` for manual checking.
 `--bilibili-only` defaults to Chrome browser cookies because Bilibili often
-blocks anonymous requests. By default, it only reads the latest first page of
-uploads, currently 30 videos. Control that first-page cap with:
+blocks anonymous requests. By default, it reads up to 50 uploads. `yt-dlp` handles
+pagination across channel API pages; the browser's visible page size does not
+limit this scan. The downloader processes only entries returned by `yt-dlp`
+and does not independently verify the channel's total upload count. Override the cap with:
 
 ```bash
-BILIBILI_VIDEO_LIMIT=30 ./labs/download_paper.sh --dry-run
-BILIBILI_VIDEO_LIMIT=30 ./labs/download_paper.sh --bilibili-only --dry-run
+BILIBILI_VIDEO_LIMIT=50 ./labs/download_paper.sh --bilibili-only --dry-run
 ```
 
 If Bilibili returns `412 Request is blocked by server`, provide cookies for
@@ -96,13 +103,31 @@ Use the launch wrapper when extraction should go through the local proxy:
 
 ```bash
 ./labs/download_paper.sh --dry-run --limit 1
-./labs/download_paper.sh --workers 4
+./labs/download_paper.sh
 ```
 
 The wrapper runs `--extractor hybrid`: it asks the AI model for paper links,
 then merges that result with the local static parser. This is intentional. Some
 large pages, such as AIRLab, can cause the AI model to return only newer papers;
 the static parser catches older BibTeX-backed entries from 2023 and 2024.
+It defaults to `--workers 1` to avoid rate limits when scanning all labs. Use
+`--workers N` or `DOWNLOAD_PAPER_WORKERS=N` to override it.
+For Google Scholar pages, the wrapper also attaches to Chrome at
+`http://127.0.0.1:9222` by default, so open Chrome first:
+
+```bash
+google-chrome --remote-debugging-port=9222 --user-data-dir="$PWD/.x_chrome_profile" --profile-directory=Default
+./labs/download_paper.sh
+```
+
+Use `GOOGLE_SCHOLAR_CDP_URL=http://127.0.0.1:9223` if your Chrome DevTools port
+is different.
+The downloader opens each requested Scholar profile or pagination URL automatically
+and closes tabs it creates after reading them. Existing tabs are reused only when
+their URL matches exactly and are left open. If Scholar shows a CAPTCHA or consent
+page, the downloader keeps the tab open and waits for you to complete it in Chrome,
+then resumes automatically. Manual checks allow at least 30 minutes, even for
+citation requests with shorter fetch timeouts. Unresolved checks leave the tab open.
 
 The wrapper passes `--timeout "${DOWNLOAD_PAPER_TIMEOUT:-1800}"`. To override:
 
@@ -178,6 +203,7 @@ This reads `labs/<lab_name>/summary_json/*.json` and writes:
 
 ```text
 labs/rag_index/papers.jsonl
+labs/rag_index/paper_embeddings.jsonl
 labs/rag_index/chunks.jsonl
 labs/rag_index/embeddings.jsonl
 ```
@@ -196,6 +222,15 @@ list to an LLM agent for the final related-work decision.
 The first version uses dependency-free local hash embeddings plus keyword and
 lexical boosting, so it is easy to inspect and replace with API embeddings
 later.
+
+Open the browser UI after building the index:
+
+```bash
+cd labs
+python3 -m http.server 8006
+```
+
+Then open `http://127.0.0.1:8006/rag_ui.html`.
 
 By default it uses the local OpenAI-compatible proxy:
 

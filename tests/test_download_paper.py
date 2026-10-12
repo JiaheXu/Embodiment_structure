@@ -5,6 +5,9 @@ import subprocess
 from http.client import IncompleteRead, InvalidURL
 from pathlib import Path
 from urllib.error import HTTPError
+from urllib.parse import quote
+
+import pytest
 
 from labs.download_paper import (
     DEFAULT_HTTP_ATTEMPTS,
@@ -19,9 +22,14 @@ from labs.download_paper import (
     download_pdf,
     extract_papers_from_video_text_response,
     extract_papers_from_ai_response,
+    extract_google_scholar_title_rows,
+    fetch_text_with_chrome,
     filter_bilibili_lab_dirs,
     filter_new_papers,
     fetch_bilibili_video_metadata,
+    fetch_publication_html,
+    fetch_text_from_remote_chrome,
+    fetch_google_scholar_text,
     fetch_text,
     format_lab_progress,
     format_year_counts,
@@ -30,8 +38,10 @@ from labs.download_paper import (
     is_probable_publication_title,
     main,
     parse_publication_page,
+    prepare_google_scholar_manual_login,
     run_labs,
     safe_filename,
+    search_google_scholar_citation_pages,
     search_arxiv_for_bilibili_video,
     _run_yt_dlp_json,
     _yt_dlp_auth_args,
@@ -169,6 +179,374 @@ def test_main_sets_bilibili_cookie_browser_arg(tmp_path, monkeypatch):
 
     assert exit_code == 0
     assert _yt_dlp_auth_args() == ["--cookies-from-browser", "chrome"]
+
+
+def test_main_sets_google_scholar_fetcher_env(tmp_path, monkeypatch):
+    lab_dir = tmp_path / "labs" / "scholar"
+    lab_dir.mkdir(parents=True)
+    (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+    captured = {}
+
+    def fake_run_labs(lab_dirs, min_year, timeout, dry_run, extractor, workers):
+        captured["fetcher"] = os.environ.get("GOOGLE_SCHOLAR_FETCHER")
+        return []
+
+    monkeypatch.delenv("GOOGLE_SCHOLAR_FETCHER", raising=False)
+    monkeypatch.setattr("labs.download_paper.run_labs", fake_run_labs)
+
+    assert main(["--labs-root", str(tmp_path / "labs"), "--google-scholar-fetcher", "chrome"]) == 0
+    assert captured["fetcher"] == "chrome"
+
+
+def test_main_does_not_default_google_scholar_links_to_chrome_fetcher(tmp_path, monkeypatch):
+    lab_dir = tmp_path / "labs" / "scholar"
+    lab_dir.mkdir(parents=True)
+    (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+    captured = {}
+
+    def fake_run_labs(lab_dirs, min_year, timeout, dry_run, extractor, workers):
+        captured["fetcher"] = os.environ.get("GOOGLE_SCHOLAR_FETCHER")
+        return []
+
+    monkeypatch.delenv("GOOGLE_SCHOLAR_FETCHER", raising=False)
+    monkeypatch.setattr("labs.download_paper.run_labs", fake_run_labs)
+
+    assert main(["--labs-root", str(tmp_path / "labs")]) == 0
+    assert captured["fetcher"] is None
+
+
+def test_fetch_text_with_chrome_uses_headless_dump_dom(monkeypatch):
+    captured = {}
+
+    def fake_run(command, capture_output, text, timeout, check):
+        captured["command"] = command
+        captured["timeout"] = timeout
+        return subprocess.CompletedProcess(command, 0, stdout="<html>ok</html>", stderr="")
+
+    monkeypatch.setattr("labs.download_paper.subprocess.run", fake_run)
+
+    assert fetch_text_with_chrome("https://scholar.google.com/citations?user=abc", timeout=12) == "<html>ok</html>"
+    assert captured["command"][0] == "google-chrome"
+    assert "--headless=new" in captured["command"]
+    assert "--dump-dom" in captured["command"]
+    assert captured["command"][-1] == "https://scholar.google.com/citations?user=abc"
+    assert captured["timeout"] == 12
+
+
+def test_fetch_text_with_chrome_uses_profile_directory(monkeypatch, tmp_path):
+    captured = {}
+
+    def fake_run(command, capture_output, text, timeout, check):
+        captured["command"] = command
+        return subprocess.CompletedProcess(command, 0, stdout="<html>ok</html>", stderr="")
+
+    monkeypatch.setenv("GOOGLE_CHROME_USER_DATA_DIR", str(tmp_path / "chrome-profile"))
+    monkeypatch.setenv("GOOGLE_CHROME_PROFILE_DIRECTORY", "Default")
+    monkeypatch.setattr("labs.download_paper.subprocess.run", fake_run)
+
+    assert fetch_text_with_chrome("https://scholar.google.com/citations?user=abc", timeout=12) == "<html>ok</html>"
+    assert f"--user-data-dir={tmp_path / 'chrome-profile'}" in captured["command"]
+    assert "--profile-directory=Default" in captured["command"]
+
+
+def test_main_manual_google_scholar_login_sets_profile_and_waits(tmp_path, monkeypatch):
+    lab_dir = tmp_path / "labs" / "scholar"
+    profile_dir = tmp_path / "manual-chrome-profile"
+    lab_dir.mkdir(parents=True)
+    (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+    captured = {}
+
+    def fake_prepare(url, timeout):
+        captured["manual_url"] = url
+        captured["profile"] = os.environ.get("GOOGLE_CHROME_USER_DATA_DIR")
+
+    def fake_run_labs(lab_dirs, min_year, timeout, dry_run, extractor, workers):
+        captured["fetcher"] = os.environ.get("GOOGLE_SCHOLAR_FETCHER")
+        captured["profile_after_prepare"] = os.environ.get("GOOGLE_CHROME_USER_DATA_DIR")
+        captured["remote_port_after_prepare"] = os.environ.get("GOOGLE_CHROME_REMOTE_DEBUGGING_PORT")
+        captured["use_remote_after_prepare"] = os.environ.get("GOOGLE_SCHOLAR_USE_REMOTE_CHROME")
+        return []
+
+    monkeypatch.delenv("GOOGLE_SCHOLAR_FETCHER", raising=False)
+    monkeypatch.delenv("GOOGLE_CHROME_USER_DATA_DIR", raising=False)
+    monkeypatch.setattr("labs.download_paper.prepare_google_scholar_manual_login", fake_prepare)
+    monkeypatch.setattr("labs.download_paper.run_labs", fake_run_labs)
+
+    assert main(
+        [
+            "--labs-root",
+            str(tmp_path / "labs"),
+            "--google-scholar-manual-login",
+            "--google-scholar-user-data-dir",
+            str(profile_dir),
+        ]
+    ) == 0
+    assert captured == {
+        "manual_url": "https://scholar.google.com/citations?user=abc&pagesize=100&cstart=0",
+        "profile": str(profile_dir),
+        "fetcher": "chrome",
+        "profile_after_prepare": str(profile_dir),
+        "remote_port_after_prepare": "9222",
+        "use_remote_after_prepare": "1",
+    }
+
+
+def test_prepare_google_scholar_manual_login_keeps_browser_open(monkeypatch):
+    captured = {}
+
+    class FakeProcess:
+        def terminate(self):
+            captured["terminated"] = True
+
+        def wait(self, timeout):
+            captured["waited"] = timeout
+
+    def fake_popen(command):
+        captured["command"] = command
+        return FakeProcess()
+
+    monkeypatch.setattr("labs.download_paper.subprocess.Popen", fake_popen)
+    monkeypatch.setattr("builtins.input", lambda prompt: captured.setdefault("prompt", prompt))
+
+    prepare_google_scholar_manual_login("https://scholar.google.com/citations?user=abc", timeout=12)
+
+    assert "--remote-debugging-port=9222" in captured["command"]
+    assert captured["command"][-1] == "https://scholar.google.com/citations?user=abc"
+    assert "publication rows" in captured["prompt"]
+    assert "terminated" not in captured
+    assert "waited" not in captured
+
+
+def test_fetch_google_scholar_text_uses_remote_chrome_when_manual_login(monkeypatch):
+    captured = {}
+
+    def fake_remote_fetch(url, timeout):
+        captured["url"] = url
+        captured["timeout"] = timeout
+        return "<html>remote</html>"
+
+    monkeypatch.setenv("GOOGLE_SCHOLAR_FETCHER", "chrome")
+    monkeypatch.setenv("GOOGLE_SCHOLAR_USE_REMOTE_CHROME", "1")
+    monkeypatch.setattr("labs.download_paper.fetch_text_from_remote_chrome", fake_remote_fetch)
+
+    assert fetch_google_scholar_text("https://scholar.google.com/citations?user=abc", timeout=12) == "<html>remote</html>"
+    assert captured == {"url": "https://scholar.google.com/citations?user=abc", "timeout": 12}
+
+
+def test_fetch_text_from_remote_chrome_uses_cdp_url(monkeypatch):
+    calls = []
+
+    def fake_fetch_text(url, timeout):
+        calls.append((url, timeout))
+        return json.dumps(
+            [
+                {
+                    "url": "https://scholar.google.com/citations?user=abc",
+                    "webSocketDebuggerUrl": "ws://127.0.0.1:9223/devtools/page/1",
+                }
+            ]
+        )
+
+    monkeypatch.setenv("GOOGLE_CHROME_CDP_URL", "http://127.0.0.1:9223")
+    monkeypatch.setattr("labs.download_paper.fetch_text", fake_fetch_text)
+    monkeypatch.setattr("labs.download_paper._chrome_devtools_evaluate", lambda websocket_url, expression, timeout: "<html>cdp</html>")
+
+    assert fetch_text_from_remote_chrome("https://scholar.google.com/citations?user=abc", timeout=12) == "<html>cdp</html>"
+    assert calls == [("http://127.0.0.1:9223/json/list", 12)]
+
+
+@pytest.mark.parametrize("open_url", ["about:blank", "https://scholar.google.com/citations?user=other", "https://scholar.google.com/citations?user=abc&cstart=0"])
+def test_remote_chrome_opens_requested_profile_and_page(monkeypatch, open_url):
+    requested_url = "https://scholar.google.com/citations?user=abc&cstart=100"
+    calls = []
+    monkeypatch.setenv("GOOGLE_CHROME_CDP_URL", "http://127.0.0.1:9223")
+
+    def fake_fetch(url, timeout):
+        calls.append(url)
+        if url.endswith("/json/list"):
+            return json.dumps([{"url": open_url, "webSocketDebuggerUrl": "ws://wrong-tab"}])
+        assert url == "http://127.0.0.1:9223/json/close/new-tab"
+        return "Target is closing"
+
+    def fake_read(request, timeout, attempts):
+        assert request.get_method() == "PUT"
+        assert request.full_url == "http://127.0.0.1:9223/json/new?" + quote(requested_url, safe="")
+        assert attempts == 1
+        return json.dumps({"id": "new-tab", "webSocketDebuggerUrl": "ws://new-tab"}).encode(), None
+
+    results = iter([None, "<html>requested profile, page 2</html>"])
+
+    def fake_evaluate(websocket_url, expression, timeout):
+        assert websocket_url == "ws://new-tab"
+        assert "document.readyState" in expression
+        return next(results)
+
+    monkeypatch.setattr("labs.download_paper.fetch_text", fake_fetch)
+    monkeypatch.setattr("labs.download_paper.read_url_with_retries", fake_read)
+    monkeypatch.setattr("labs.download_paper._chrome_devtools_evaluate", fake_evaluate)
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda _: None)
+
+    assert fetch_text_from_remote_chrome(requested_url, timeout=12) == "<html>requested profile, page 2</html>"
+    assert calls == ["http://127.0.0.1:9223/json/list", "http://127.0.0.1:9223/json/close/new-tab"]
+
+
+def test_remote_chrome_closes_created_tab_on_evaluation_failure(monkeypatch):
+    calls = []
+    monkeypatch.setenv("GOOGLE_CHROME_CDP_URL", "http://127.0.0.1:9223")
+    monkeypatch.setattr("labs.download_paper.fetch_text", lambda url, timeout: calls.append(url) or "[]")
+    monkeypatch.setattr("labs.download_paper.read_url_with_retries", lambda request, timeout, attempts: (b'{"id":"new-tab","webSocketDebuggerUrl":"ws://new-tab"}', None))
+
+    def fail_evaluation(*args, **kwargs):
+        raise RuntimeError("evaluation failed")
+
+    monkeypatch.setattr("labs.download_paper._chrome_devtools_evaluate", fail_evaluation)
+    with pytest.raises(RuntimeError, match="evaluation failed"):
+        fetch_text_from_remote_chrome("https://scholar.google.com/citations?user=abc", timeout=12)
+    assert calls[-1] == "http://127.0.0.1:9223/json/close/new-tab"
+
+
+@pytest.mark.parametrize("solved", [True, False])
+def test_remote_chrome_waits_for_manual_scholar_challenge(monkeypatch, capsys, solved):
+    calls = []
+    clock = [0.0]
+    challenge = '<html><form id="captcha-form">Our systems have detected unusual traffic</form></html>'
+    results = iter([challenge, challenge, "<html>Scholar publications</html>"])
+    monkeypatch.setenv("GOOGLE_CHROME_CDP_URL", "http://127.0.0.1:9223")
+    monkeypatch.setattr("labs.download_paper.fetch_text", lambda url, timeout: calls.append(url) or "[]")
+    monkeypatch.setattr("labs.download_paper.read_url_with_retries", lambda request, timeout, attempts: (b'{"id":"new-tab","webSocketDebuggerUrl":"ws://new-tab"}', None))
+    monkeypatch.setattr("labs.download_paper._chrome_devtools_evaluate", lambda *args, **kwargs: next(results))
+    monkeypatch.setattr("labs.download_paper.time.monotonic", lambda: clock[0])
+
+    def advance_clock(seconds):
+        clock[0] += seconds if solved else 1801
+
+    monkeypatch.setattr("labs.download_paper.time.sleep", advance_clock)
+    url = "https://scholar.google.com/citations?user=abc"
+    if solved:
+        assert fetch_text_from_remote_chrome(url, timeout=1) == "<html>Scholar publications</html>"
+        assert calls[-1].endswith("/json/close/new-tab")
+        assert clock[0] >= 2
+    else:
+        with pytest.raises(TimeoutError, match="challenge.*tab left open"):
+            fetch_text_from_remote_chrome(url, timeout=1)
+        assert calls == ["http://127.0.0.1:9223/json/list"]
+    assert capsys.readouterr().err.count("Solve the check in Chrome") == 1
+
+
+def test_main_google_scholar_cdp_url_uses_remote_without_manual_login(tmp_path, monkeypatch):
+    lab_dir = tmp_path / "labs" / "scholar"
+    lab_dir.mkdir(parents=True)
+    (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+    captured = {}
+
+    def fake_prepare(url, timeout):
+        raise AssertionError("manual Chrome should not be opened when --google-scholar-cdp-url is used")
+
+    def fake_run_labs(lab_dirs, min_year, timeout, dry_run, extractor, workers):
+        captured["fetcher"] = os.environ.get("GOOGLE_SCHOLAR_FETCHER")
+        captured["use_remote"] = os.environ.get("GOOGLE_SCHOLAR_USE_REMOTE_CHROME")
+        captured["cdp_url"] = os.environ.get("GOOGLE_CHROME_CDP_URL")
+        return []
+
+    monkeypatch.delenv("GOOGLE_SCHOLAR_FETCHER", raising=False)
+    monkeypatch.delenv("GOOGLE_SCHOLAR_USE_REMOTE_CHROME", raising=False)
+    monkeypatch.delenv("GOOGLE_CHROME_CDP_URL", raising=False)
+    monkeypatch.setattr("labs.download_paper.prepare_google_scholar_manual_login", fake_prepare)
+    monkeypatch.setattr("labs.download_paper.run_labs", fake_run_labs)
+
+    assert main(["--labs-root", str(tmp_path / "labs"), "--google-scholar-cdp-url", "http://127.0.0.1:9222"]) == 0
+    assert captured == {
+        "fetcher": "chrome",
+        "use_remote": "1",
+        "cdp_url": "http://127.0.0.1:9222",
+    }
+
+
+def test_google_scholar_citation_page_search_can_be_limited(monkeypatch):
+    rows = "\n".join(
+        f"""
+        <tr class="gsc_a_tr">
+          <td class="gsc_a_t">
+            <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper{index}" class="gsc_a_at">
+              Robot Learning Paper {index}
+            </a>
+            <div class="gs_gray">Conference on Robot Learning, 2026</div>
+          </td>
+          <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2026</span></td>
+        </tr>
+        """
+        for index in range(3)
+    )
+    calls = []
+
+    def fake_fetch(url, timeout, attempts=1):
+        calls.append(url)
+        return ""
+
+    monkeypatch.setenv("GOOGLE_SCHOLAR_CITATION_LIMIT", "1")
+    monkeypatch.setattr("labs.download_paper.fetch_google_scholar_text", fake_fetch)
+
+    papers = search_google_scholar_citation_pages(
+        f"<table><tbody>{rows}</tbody></table>",
+        "https://scholar.google.com/citations?user=abc",
+        [],
+        min_year=2023,
+        timeout=30,
+    )
+
+    assert papers == []
+    assert len(calls) == 1
+
+
+def test_google_scholar_citation_page_search_streams_each_resolved_candidate(monkeypatch):
+    rows = "\n".join(
+        f"""
+        <tr class="gsc_a_tr">
+          <td class="gsc_a_t">
+            <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper{index}" class="gsc_a_at">
+              Robot Learning Paper {index}
+            </a>
+            <div class="gs_gray">Conference on Robot Learning, 2026</div>
+          </td>
+          <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2026</span></td>
+        </tr>
+        """
+        for index in range(2)
+    )
+    events = []
+
+    def fake_fetch(url, timeout, attempts=1):
+        events.append(f"fetch:{url.rsplit(':', 1)[-1]}")
+        arxiv_id = "2601.00001" if url.endswith("paper0") else "2601.00002"
+        return f'<a href="https://arxiv.org/pdf/{arxiv_id}.pdf">PDF</a>'
+
+    def on_candidate(paper):
+        events.append(f"candidate:{paper.title}")
+
+    monkeypatch.setattr("labs.download_paper.fetch_google_scholar_text", fake_fetch)
+
+    papers = search_google_scholar_citation_pages(
+        f"<table><tbody>{rows}</tbody></table>",
+        "https://scholar.google.com/citations?user=abc",
+        [],
+        min_year=2023,
+        timeout=30,
+        on_candidate=on_candidate,
+    )
+
+    assert [paper.title for paper in papers] == ["Robot Learning Paper 0", "Robot Learning Paper 1"]
+    assert events == [
+        "fetch:paper0",
+        "candidate:Robot Learning Paper 0",
+        "fetch:paper1",
+        "candidate:Robot Learning Paper 1",
+    ]
+
+
+def test_clean_title_preserves_acronym_prefix_before_colon():
+    assert clean_title("LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion") == (
+        "LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion"
+    )
 
 
 def test_main_defaults_bilibili_only_to_chrome_cookies(tmp_path, monkeypatch):
@@ -647,7 +1025,7 @@ def test_collect_lab_uses_bilibili_video_ai_extraction(tmp_path, monkeypatch):
     assert (found, new) == (1, 1)
 
 
-def test_collect_lab_fetches_google_scholar_pages_until_min_year(tmp_path, monkeypatch):
+def test_collect_lab_fetches_current_google_scholar_page(tmp_path, monkeypatch):
     lab_dir = tmp_path / "goldberg"
     lab_dir.mkdir()
     (lab_dir / "link.txt").write_text(
@@ -680,42 +1058,547 @@ def test_collect_lab_fetches_google_scholar_pages_until_min_year(tmp_path, monke
 
     monkeypatch.setattr("labs.download_paper.fetch_text", fake_fetch_text)
 
+    monkeypatch.setattr("labs.download_paper.search_arxiv_for_title", lambda *args, **kwargs: None)
+    monkeypatch.setattr("labs.download_paper.resolve_google_scholar_row_pdf", lambda *args, **kwargs: None)
+
     found, new = collect_lab(lab_dir, min_year=2023, timeout=1, dry_run=True, extractor="static")
 
-    assert (found, new) == (2, 2)
-    assert len(calls) == 2
+    assert (found, new) == (1, 0)
+    assert len(calls) == 1
     assert "pagesize=100" in calls[0]
+    assert "cstart=0" in calls[0]
+
+
+def test_fetch_publication_html_stops_google_scholar_pages_when_page_has_no_rows(monkeypatch):
+    calls = []
+    pages = [
+        """
+        <table><tbody id="gsc_a_b">
+          <tr class="gsc_a_tr">
+            <td class="gsc_a_t">
+              <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper1" class="gsc_a_at">
+                Robot Policy Learning One
+              </a>
+            </td>
+            <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2026</span></td>
+          </tr>
+        </tbody></table>
+        """,
+        "<html><body>No articles here, but noisy footer says 2026 and 2025.</body></html>",
+    ]
+
+    def fake_fetch(url, timeout):
+        calls.append(url)
+        return pages[len(calls) - 1]
+
+    monkeypatch.setattr("labs.download_paper.fetch_google_scholar_text", fake_fetch)
+
+    html = fetch_publication_html("https://scholar.google.com/citations?user=abc", min_year=2023, timeout=1)
+
+    assert "Robot Policy Learning One" in html
+    assert len(calls) == 2
     assert "cstart=0" in calls[0]
     assert "cstart=100" in calls[1]
 
 
-def test_fetch_bilibili_video_metadata_limits_playlist_to_latest_first_page(monkeypatch):
+def test_collect_lab_resolves_current_google_scholar_page_for_download(tmp_path, monkeypatch, capsys):
+    lab_dir = tmp_path / "hewang"
+    lab_dir.mkdir()
+    (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+    events = []
+
+    def list_row(title, paper_id, year):
+        return f"""
+        <tr class="gsc_a_tr">
+          <td class="gsc_a_t">
+            <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:{paper_id}" class="gsc_a_at">
+              {title}
+            </a>
+          </td>
+          <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">{year}</span></td>
+        </tr>
+        """
+
+    def fake_fetch(url, timeout, attempts=3):
+        if "view_citation" in url:
+            paper_id = url.rsplit(":", 1)[-1]
+            events.append(f"citation:{paper_id}")
+            return f'<a href="https://arxiv.org/pdf/2601.{paper_id[-5:]}.pdf">PDF</a>'
+        if "cstart=100" in url:
+            events.append("list:100")
+            return "<html><body>No more publication rows in 2026.</body></html>"
+        events.append("list:0")
+        return "<table><tbody>" + list_row("Streaming Scholar Paper One", "paper00001", 2026) + "</tbody></table>"
+
+    monkeypatch.setattr("labs.download_paper.fetch_google_scholar_text", fake_fetch)
+    monkeypatch.setattr("labs.download_paper.search_arxiv_for_title", lambda title, page_url, min_year, timeout: None)
+
+    found, new = collect_lab(lab_dir, min_year=2023, timeout=30, dry_run=True, extractor="static")
+    output = capsys.readouterr().out
+
+    assert (found, new) == (1, 1)
+    assert events == ["list:0", "citation:paper00001"]
+    assert "[google-scholar-paper 1] 2026 | Streaming Scholar Paper One" in output
+    assert (lab_dir / "scholar.html").exists()
+    assert "Streaming Scholar Paper One" in (lab_dir / "scholar.html").read_text()
+
+
+def test_collect_lab_reports_google_scholar_captcha_page(tmp_path, monkeypatch, capsys):
+    lab_dir = tmp_path / "hewang"
+    lab_dir.mkdir()
+    (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+
+    def fake_fetch(url, timeout, attempts=3):
+        return """
+        <html><body>
+          <form id="captcha-form">
+            Our systems have detected unusual traffic from your computer network.
+            <div class="g-recaptcha"></div>
+          </form>
+        </body></html>
+        """
+
+    monkeypatch.setattr("labs.download_paper.fetch_google_scholar_text", fake_fetch)
+
+    found, new = collect_lab(lab_dir, min_year=2023, timeout=30, dry_run=True, extractor="static")
+    captured = capsys.readouterr()
+
+    assert (found, new) == (0, 0)
+    assert "Google Scholar returned a CAPTCHA/unusual-traffic page" in captured.err
+
+
+def test_collect_lab_saves_google_scholar_http_error_body(tmp_path, monkeypatch, capsys):
+    lab_dir = tmp_path / "hewang"
+    lab_dir.mkdir()
+    (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+    error_body = b"<html><body>Too Many Requests</body></html>"
+
+    class ErrorBody:
+        def read(self):
+            return error_body
+
+        def close(self):
+            return None
+
+    def fake_fetch(url, timeout, attempts=3):
+        raise HTTPError(url, 429, "Too Many Requests", hdrs=None, fp=ErrorBody())
+
+    monkeypatch.setattr("labs.download_paper.fetch_google_scholar_text", fake_fetch)
+
+    found, new = collect_lab(lab_dir, min_year=2023, timeout=30, dry_run=True, extractor="static")
+    captured = capsys.readouterr()
+
+    assert (found, new) == (0, 0)
+    assert "Google Scholar returned HTTP 429" in captured.err
+    assert (lab_dir / "scholar.html").read_text() == error_body.decode()
+
+
+def test_collect_lab_searches_arxiv_for_google_scholar_title_rows_without_pdf(tmp_path, monkeypatch):
+    lab_dir = tmp_path / "hewang"
+    lab_dir.mkdir()
+    (lab_dir / "link.txt").write_text(
+        "https://scholar.google.com/citations?hl=en&user=abc&view_op=list_works&sortby=pubdate\n"
+    )
+    html = """
+    <table><tbody id="gsc_a_b">
+      <tr class="gsc_a_tr">
+        <td class="gsc_a_t">
+          <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper1" class="gsc_a_at">
+            FoldNet++: a Large-Scale Synthetic Dataset for Robotic T-Shirt Folding and Unfolding
+          </a>
+          <div class="gs_gray">H Wang, Example Author</div>
+          <div class="gs_gray">Conference on Robot Learning</div>
+        </td>
+        <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2026</span></td>
+      </tr>
+    </tbody></table>
+    """
+    calls = []
+
+    def fake_search(title, page_url, min_year, timeout):
+        calls.append((title, page_url, min_year, timeout))
+        return PaperCandidate(
+            title=title,
+            year=2026,
+            page_url=page_url,
+            pdf_url="https://arxiv.org/pdf/2601.00001.pdf",
+        )
+
+    def fake_fetch_publication_html(link, min_year, timeout, cache_path=None, on_page=None):
+        if on_page is not None:
+            on_page(html)
+        return html
+
+    monkeypatch.setattr("labs.download_paper.fetch_publication_html", fake_fetch_publication_html)
+    monkeypatch.setattr("labs.download_paper.fetch_google_scholar_text", lambda url, timeout, attempts=3: "")
+    monkeypatch.setattr("labs.download_paper.search_arxiv_for_title", fake_search)
+
+    found, new = collect_lab(lab_dir, min_year=2023, timeout=30, dry_run=True, extractor="static")
+
+    assert (found, new) == (1, 1)
+    assert calls == [(
+        "FoldNet++: a Large-Scale Synthetic Dataset for Robotic T-Shirt Folding and Unfolding",
+        "https://scholar.google.com/citations?view_op=view_citation&citation_for_view=abc:paper1",
+        2023,
+        10,
+    )]
+
+
+def test_collect_lab_fetches_google_scholar_citation_page_pdf_links(tmp_path, monkeypatch):
+    lab_dir = tmp_path / "hewang"
+    lab_dir.mkdir()
+    (lab_dir / "link.txt").write_text(
+        "https://scholar.google.com/citations?hl=en&user=abc&view_op=list_works&sortby=pubdate\n"
+    )
+    list_html = """
+    <table><tbody id="gsc_a_b">
+      <tr class="gsc_a_tr">
+        <td class="gsc_a_t">
+          <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper1" class="gsc_a_at">
+            FoldNet++: a Large-Scale Synthetic Dataset for Robotic T-Shirt Folding and Unfolding
+          </a>
+          <div class="gs_gray">H Wang, Example Author</div>
+          <div class="gs_gray">Conference on Robot Learning</div>
+        </td>
+        <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2026</span></td>
+      </tr>
+    </tbody></table>
+    """
+    citation_html = """
+    <html><body>
+      <div id="gsc_oci_title">
+        <a href="https://arxiv.org/abs/2609.12433">FoldNet++: a Large-Scale Synthetic Dataset</a>
+      </div>
+      <div class="gsc_oci_merged_snippet">
+        <a href="https://arxiv.org/pdf/2609.12433">[PDF]</a> from arxiv.org
+      </div>
+    </body></html>
+    """
+
+    def fake_fetch_publication_html(link, min_year, timeout, cache_path=None, on_page=None):
+        if on_page is not None:
+            on_page(list_html)
+        return list_html
+
+    monkeypatch.setattr("labs.download_paper.fetch_publication_html", fake_fetch_publication_html)
+    monkeypatch.setattr("labs.download_paper.fetch_text_once", lambda url, timeout: citation_html)
+    monkeypatch.setattr("labs.download_paper.search_arxiv_for_title", lambda title, page_url, min_year, timeout: None)
+
+    found, new = collect_lab(lab_dir, min_year=2023, timeout=30, dry_run=True, extractor="static")
+
+    assert (found, new) == (1, 1)
+
+
+def test_collect_lab_enters_google_scholar_paper_pages_even_when_list_has_arxiv_id(tmp_path, monkeypatch):
+    lab_dir = tmp_path / "hewang"
+    lab_dir.mkdir()
+    (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+    list_html = """
+    <table><tbody id="gsc_a_b">
+      <tr class="gsc_a_tr">
+        <td class="gsc_a_t">
+          <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper1" class="gsc_a_at">
+            LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion
+          </a>
+          <div class="gs_gray">arXiv preprint arXiv:2601.00001, 2026</div>
+        </td>
+        <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2026</span></td>
+      </tr>
+    </tbody></table>
+    """
+    citation_calls = []
+
+    def fake_fetch_scholar(url, timeout, attempts=1):
+        citation_calls.append(url)
+        return '<a href="https://arxiv.org/pdf/2601.00001.pdf">PDF</a>'
+
+    def fake_fetch_publication_html(link, min_year, timeout, cache_path=None, on_page=None):
+        if on_page is not None:
+            on_page(list_html)
+        return list_html
+
+    monkeypatch.setattr("labs.download_paper.fetch_publication_html", fake_fetch_publication_html)
+    monkeypatch.setattr("labs.download_paper.fetch_google_scholar_text", fake_fetch_scholar)
+    monkeypatch.setattr("labs.download_paper.search_arxiv_for_title", lambda *args, **kwargs: None)
+
+    found, new = collect_lab(lab_dir, min_year=2023, timeout=30, dry_run=True, extractor="static")
+
+    assert (found, new) == (1, 1)
+    assert citation_calls == ["https://scholar.google.com/citations?view_op=view_citation&citation_for_view=abc:paper1"]
+
+
+def test_collect_lab_uses_cached_google_scholar_html_when_present(tmp_path, monkeypatch):
+    lab_dir = tmp_path / "hewang"
+    lab_dir.mkdir()
+    (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+    (lab_dir / "scholar.html").write_text(
+        """
+        <table><tbody id="gsc_a_b">
+          <tr class="gsc_a_tr">
+            <td class="gsc_a_t">
+              <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper1" class="gsc_a_at">
+                Cached Scholar Paper for Robot Learning
+              </a>
+              <div class="gs_gray">arXiv preprint arXiv:2601.00001, 2026</div>
+            </td>
+            <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2026</span></td>
+          </tr>
+        </tbody></table>
+        """
+    )
+
+    def fail_fetch(link, min_year, timeout, cache_path=None, on_page=None):
+        raise AssertionError("network fetch should not run when scholar.html exists")
+
+    monkeypatch.setattr("labs.download_paper.fetch_publication_html", fail_fetch)
+
+    found, new = collect_lab(lab_dir, min_year=2023, timeout=1, dry_run=True, extractor="static")
+
+    assert (found, new) == (1, 0)
+
+
+@pytest.mark.parametrize("cached", [True, False])
+def test_collect_lab_downloads_google_scholar_rows_one_by_one(tmp_path, monkeypatch, cached):
+    lab_dir = tmp_path / "hewang"
+    lab_dir.mkdir()
+    (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+    html = (
+        """
+        <table><tbody id="gsc_a_b">
+          <tr class="gsc_a_tr">
+            <td class="gsc_a_t">
+              <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper1" class="gsc_a_at">
+                Cached Scholar Paper One
+              </a>
+            </td>
+            <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2026</span></td>
+          </tr>
+          <tr class="gsc_a_tr">
+            <td class="gsc_a_t">
+              <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper2" class="gsc_a_at">
+                Cached Scholar Paper Two
+              </a>
+            </td>
+            <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2025</span></td>
+          </tr>
+        </tbody></table>
+        """
+    )
+    if cached:
+        (lab_dir / "scholar.html").write_text(html)
+    else:
+        def fake_fetch_publication_html(link, min_year, timeout, cache_path=None, on_page=None):
+            if on_page is not None:
+                on_page(html)
+            return html
+
+        monkeypatch.setattr("labs.download_paper.fetch_publication_html", fake_fetch_publication_html)
+    events = []
+
+    def fake_search(title, page_url, min_year, timeout):
+        events.append(f"arxiv:{title}")
+        return None
+
+    def fake_fetch(url, timeout, attempts=1):
+        paper_id = url.rsplit(":", 1)[-1]
+        events.append(f"citation:{paper_id}")
+        return f'<a href="https://arxiv.org/pdf/2601.{paper_id[-1] * 5}.pdf">PDF</a>'
+
+    def fake_download(url, destination, timeout):
+        events.append(f"download:{destination.name}")
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_bytes(b"pdf")
+
+    monkeypatch.setattr("labs.download_paper.search_arxiv_for_title", fake_search)
+    monkeypatch.setattr("labs.download_paper.fetch_google_scholar_text", fake_fetch)
+    monkeypatch.setattr("labs.download_paper.download_pdf", fake_download)
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda seconds: events.append(f"sleep:{seconds}"))
+
+    found, new = collect_lab(lab_dir, min_year=2023, timeout=30, dry_run=False, extractor="static")
+
+    assert (found, new) == (2, 2)
+    assert events == [
+        "arxiv:Cached Scholar Paper One",
+        "citation:paper1",
+        "download:2026-cached-scholar-paper-one.pdf",
+        "sleep:1.0",
+        "arxiv:Cached Scholar Paper Two",
+        "citation:paper2",
+        "download:2025-cached-scholar-paper-two.pdf",
+        "sleep:1.0",
+    ]
+
+
+def test_collect_lab_searches_arxiv_when_cached_google_scholar_row_has_no_pdf(tmp_path, monkeypatch, capsys):
+    lab_dir = tmp_path / "hewang"
+    lab_dir.mkdir()
+    (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+    (lab_dir / "scholar.html").write_text(
+        """
+        <table><tbody id="gsc_a_b">
+          <tr class="gsc_a_tr">
+            <td class="gsc_a_t">
+              <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper1" class="gsc_a_at">
+                Cached Scholar Paper With Arxiv Match
+              </a>
+            </td>
+            <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2026</span></td>
+          </tr>
+        </tbody></table>
+        """
+    )
+    events = []
+
+    def fake_fetch(url, timeout, attempts=1):
+        events.append("citation")
+        raise AssertionError("citation page should not be fetched when arXiv search succeeds")
+
+    def fake_search(title, page_url, min_year, timeout):
+        events.append(f"arxiv:{title}")
+        return PaperCandidate(title, 2026, page_url, "https://arxiv.org/pdf/2601.12345.pdf")
+
+    def fake_download(url, destination, timeout):
+        events.append(f"download:{url}")
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_bytes(b"pdf")
+
+    monkeypatch.setattr("labs.download_paper.fetch_google_scholar_text", fake_fetch)
+    monkeypatch.setattr("labs.download_paper.search_arxiv_for_title", fake_search)
+    monkeypatch.setattr("labs.download_paper.download_pdf", fake_download)
+
+    found, new = collect_lab(lab_dir, min_year=2023, timeout=30, dry_run=False, extractor="static")
+    output = capsys.readouterr().out
+
+    assert (found, new) == (1, 1)
+    assert "[google-scholar-download 1/1] resolving: Cached Scholar Paper With Arxiv Match" in output
+    assert events == [
+        "arxiv:Cached Scholar Paper With Arxiv Match",
+        "download:https://arxiv.org/pdf/2601.12345.pdf",
+    ]
+
+
+def test_collect_lab_stops_google_scholar_citation_page_search_after_rate_limit(tmp_path, monkeypatch):
+    lab_dir = tmp_path / "hewang"
+    lab_dir.mkdir()
+    (lab_dir / "link.txt").write_text("https://scholar.google.com/citations?user=abc\n")
+    rows = "\n".join(
+        f"""
+        <tr class="gsc_a_tr">
+          <td class="gsc_a_t">
+            <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper{index}" class="gsc_a_at">
+              Cached Scholar Robot Learning Paper {index}
+            </a>
+            <div class="gs_gray">Conference on Robot Learning</div>
+          </td>
+          <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2026</span></td>
+        </tr>
+        """
+        for index in range(2)
+    )
+    (lab_dir / "scholar.html").write_text(f"<table><tbody id=\"gsc_a_b\">{rows}</tbody></table>")
+    calls = []
+
+    def rate_limited_fetch(url, timeout):
+        calls.append(url)
+        raise HTTPError(url, 429, "Too Many Requests", hdrs=None, fp=None)
+
+    monkeypatch.setattr("labs.download_paper.fetch_text_once", rate_limited_fetch)
+    monkeypatch.setattr("labs.download_paper.search_arxiv_for_title", lambda title, page_url, min_year, timeout: None)
+
+    found, new = collect_lab(lab_dir, min_year=2023, timeout=1, dry_run=True, extractor="static")
+
+    assert (found, new) == (2, 0)
+    assert len(calls) == 2
+
+
+def test_google_scholar_extraction_ignores_aggregate_saved_html_blocks():
+    html = """
+    <table><tbody id="gsc_a_b">
+      <tr class="gsc_a_tr">
+        <td class="gsc_a_t">
+          <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper1" class="gsc_a_at">
+            Real Robot Learning Paper One
+          </a>
+          <div class="gs_gray">CoRL 2026</div>
+        </td>
+        <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2026</span></td>
+      </tr>
+      <tr class="gsc_a_tr">
+        <td class="gsc_a_t">
+          <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper2" class="gsc_a_at">
+            Real Robot Learning Paper Two
+          </a>
+          <div class="gs_gray">CoRL 2025</div>
+        </td>
+        <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2025</span></td>
+      </tr>
+    </tbody></table>
+    <div>
+      <a class="gsc_a_at" href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper1">
+        Real Robot Learning Paper One
+      </a>
+      <a class="gsc_a_at" href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper2">
+        Real Robot Learning Paper Two
+      </a>
+      citation chart style noise 2089
+    </div>
+    """
+
+    rows = extract_google_scholar_title_rows(html, "https://scholar.google.com/citations?user=abc", min_year=1900)
+
+    assert [(title, year) for title, year, _ in rows] == [
+        ("Real Robot Learning Paper One", 2026),
+        ("Real Robot Learning Paper Two", 2025),
+    ]
+
+
+def test_google_scholar_extraction_uses_year_cell_not_page_range():
+    html = """
+    <table><tbody id="gsc_a_b">
+      <tr class="gsc_a_tr">
+        <td class="gsc_a_t">
+          <a href="/citations?view_op=view_citation&amp;citation_for_view=abc:paper1" class="gsc_a_at">
+            Unleashing Humanoid Reaching Potential via Real-world-Ready Skill Space
+          </a>
+          <div class="gs_gray">IEEE Robotics and Automation Letters 11 (2), 2082 - 2089</div>
+          <div class="gs_gray">, 2026</div>
+        </td>
+        <td class="gsc_a_y"><span class="gsc_a_h gsc_a_hc gs_ibl">2026</span></td>
+      </tr>
+    </tbody></table>
+    """
+
+    rows = extract_google_scholar_title_rows(html, "https://scholar.google.com/citations?user=abc", min_year=1900)
+
+    assert rows[0][1] == 2026
+
+
+@pytest.mark.parametrize("entry_count", [10, 60])
+def test_fetch_bilibili_video_metadata_defaults_to_fifty_videos(monkeypatch, entry_count):
     calls = []
 
     def fake_run_yt_dlp_json(args, timeout):
         calls.append(args)
         if "--flat-playlist" in args:
             return {
-                "entries": [
-                    {"id": "BV1"},
-                    {"id": "BV2"},
-                ]
+                "entries": [{"id": f"BV{index}"} for index in range(entry_count)]
             }
         return {"title": args[-1], "webpage_url": args[-1]}
 
     monkeypatch.setattr("labs.download_paper._run_yt_dlp_json", fake_run_yt_dlp_json)
 
-    metadata = fetch_bilibili_video_metadata("https://space.bilibili.com/1/upload/video", timeout=1, limit=30)
+    metadata = fetch_bilibili_video_metadata("https://space.bilibili.com/1/upload/video", timeout=1)
 
     assert calls[0] == [
         "--flat-playlist",
         "--dump-single-json",
         "--playlist-end",
-        "30",
+        "50",
         "--no-warnings",
         "https://space.bilibili.com/1/upload/video",
     ]
-    assert len(metadata) == 2
+    assert len(metadata) == min(entry_count, 50)
+    assert len(calls) == 1 + min(entry_count, 50)
 
 
 def test_collect_lab_searches_arxiv_before_recording_unmatched_bilibili_video(tmp_path, monkeypatch):
@@ -869,13 +1752,15 @@ def test_download_pdf_logs_retry_attempts(tmp_path, monkeypatch, capsys):
 
 def test_download_pdf_retries_failed_http_downloads_three_times(tmp_path, monkeypatch, capsys):
     calls = {"count": 0}
+    events = []
 
     def fake_urlopen(request, timeout):
         calls["count"] += 1
+        events.append("attempt")
         raise HTTPError(request.full_url, 404, "Not Found", hdrs=None, fp=None)
 
     monkeypatch.setattr("labs.download_paper.urlopen", fake_urlopen)
-    monkeypatch.setattr("labs.download_paper.time.sleep", lambda seconds: None)
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda seconds: events.append(("sleep", seconds)))
 
     try:
         download_pdf("https://example.com/missing.pdf", tmp_path / "missing.pdf", timeout=1)
@@ -886,6 +1771,8 @@ def test_download_pdf_retries_failed_http_downloads_three_times(tmp_path, monkey
 
     stderr = capsys.readouterr().err
     assert calls["count"] == 4
+    assert events == ["attempt", ("sleep", 0.5), "attempt", ("sleep", 0.5), "attempt", ("sleep", 0.5), "attempt"]
+    assert not (tmp_path / "missing.pdf").exists()
     assert stderr.count("[download:failed]") == 4
     assert "attempt 4/4 failed" in stderr
 
@@ -956,7 +1843,8 @@ def test_yt_dlp_json_uses_bilibili_cookie_env(monkeypatch):
     assert captured["command"][:3] == ["yt-dlp", "--cookies", "/tmp/bilibili-cookies.txt"]
 
 
-def test_main_defaults_bilibili_labs_to_chrome_cookies(tmp_path, monkeypatch):
+@pytest.mark.parametrize("extra_args", [[], ["--limit", "1"]])
+def test_main_skips_bilibili_labs_by_default(tmp_path, monkeypatch, extra_args):
     labs_root = tmp_path / "labs"
     bilibili_lab = labs_root / "bilibili"
     web_lab = labs_root / "web"
@@ -975,8 +1863,8 @@ def test_main_defaults_bilibili_labs_to_chrome_cookies(tmp_path, monkeypatch):
     monkeypatch.delenv("BILIBILI_COOKIES_FROM_BROWSER", raising=False)
     monkeypatch.setattr("labs.download_paper.run_labs", fake_run_labs)
 
-    assert main(["--labs-root", str(labs_root)]) == 0
-    assert captured == {"cookie_browser": "chrome", "labs": ["bilibili", "web"]}
+    assert main(["--labs-root", str(labs_root), *extra_args]) == 0
+    assert captured == {"cookie_browser": None, "labs": ["web"]}
 
 
 def test_yt_dlp_json_explains_bilibili_412(monkeypatch):

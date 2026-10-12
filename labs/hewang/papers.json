@@ -1,79 +1,296 @@
 [
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=roCAWkoAAAAJ&view_op=list_works&sortby=pubdate",
-    "pdf_path": "pdfs/2026-scaling-behavior-foundation-model-for-humanoid-robots.pdf",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:kzcSZmkxUKAC",
+    "pdf_path": "pdfs/2026-foldnet-a-large-scale-synthetic-dataset-for-robotic-t-shirt-folding-and-unfolding.pdf",
     "pdf_url": "https://arxiv.org/pdf/2607.15163.pdf",
-    "title": "Scaling Behavior Foundation Model for Humanoid Robots",
+    "title": "FoldNet++: a Large-Scale Synthetic Dataset for Robotic T-Shirt Folding and Unfolding",
     "year": 2026
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=roCAWkoAAAAJ&view_op=list_works&sortby=pubdate",
-    "pdf_path": "pdfs/2026-dexjoco-a-benchmark-and-toolkit-for-task-oriented-dexterous-manipulation-on-mujoco.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2605.16257.pdf",
-    "title": "Dexjoco: A benchmark and toolkit for task-oriented dexterous manipulation on mujoco",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:5bg8sr1QxYwC",
+    "pdf_path": "pdfs/2026-wam-ttt-steering-world-action-models-by-watching-human-play-at-test-time.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.06988v2.pdf",
+    "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
     "year": 2026
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=roCAWkoAAAAJ&view_op=list_works&sortby=pubdate",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:oi2SiIJ9l4AC",
+    "pdf_path": "pdfs/2026-alldaynav-lifelong-navigation-via-real-world-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.10927v1.pdf",
+    "title": "AllDayNav: Lifelong Navigation via Real-World Reinforcement Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:ziOE8S1-AIUC",
     "pdf_path": "pdfs/2026-adaptive-q-chunking-for-offline-to-online-reinforcement-learning.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2605.05544.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.05544v1.pdf",
     "title": "Adaptive Q-Chunking for Offline-to-Online Reinforcement Learning",
     "year": 2026
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=roCAWkoAAAAJ&view_op=list_works&sortby=pubdate",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:kF1pexMAQbMC",
+    "pdf_path": "pdfs/2026-span-nav-generalized-spatial-awareness-for-versatile-vision-language-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.09163v2.pdf",
+    "title": "SPAN-Nav: Generalized Spatial Awareness for Versatile Vision-Language Navigation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:raTqNPD5sRQC",
     "pdf_path": "pdfs/2026-tacdexgrasp-compliant-and-robust-dexterous-grasping-with-tactile-feedback.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2603.07040.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.07040v1.pdf",
     "title": "TacDexGrasp: Compliant and Robust Dexterous Grasping with Tactile Feedback",
     "year": 2026
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=roCAWkoAAAAJ&view_op=list_works&sortby=pubdate",
-    "pdf_path": "pdfs/2023-fg-nerf-flow-gan-based-probabilistic-neural-radiance-field-for-independence-assumption-free-uncertainty-estimation.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2309.16364.pdf",
-    "title": "FG-NeRF: Flow-GAN based probabilistic neural radiance field for independence-assumption-free uncertainty estimation",
-    "year": 2023
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:-mN3Mh-tlDkC",
+    "pdf_path": "pdfs/2026-foldnet-learning-generalizable-closed-loop-policy-for-garment-folding-via-keypoint-driven-asset-and-demonstration-synthe.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.09109v6.pdf",
+    "title": "FoldNet: Learning generalizable closed-loop policy for garment folding via keypoint-driven asset and demonstration synthesis",
+    "year": 2026
   },
   {
-    "page_url": "https://scholar.google.com/citations?hl=en&user=roCAWkoAAAAJ&view_op=list_works&sortby=pubdate",
-    "pdf_path": "pdfs/2089-foldnet-a-large-scale-synthetic-dataset-for-robotic-t-shirt-folding-and-unfolding.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2607.15163.pdf",
-    "title": "FoldNet++: a Large-Scale Synthetic Dataset for Robotic T-Shirt Folding and Unfolding",
-    "year": 2089
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:w1MjKQ0l0TYC",
+    "pdf_path": "pdfs/2026-gif-agentic-generation-of-interactive-and-functional-object-compositions-for-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.05927v2.pdf",
+    "title": "GIF: Agentic Generation of Interactive and Functional Object Compositions for Robot Learning",
+    "year": 2026
   },
   {
-    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:vbGhcppDl1QC",
-    "pdf_path": "pdfs/2025-dexgraspvla-a-vision-language-action-framework-towards-general-dexterous-grasping.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2502.20900.pdf",
-    "title": "DexGraspVLA: A Vision-Language-Action Framework Towards General Dexterous Grasping",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:F2UWTTQJPOcC",
+    "pdf_path": "pdfs/2026-kpgrasp-scalable-keypoint-flow-matching-for-dexterous-grasp-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.09314v1.pdf",
+    "title": "KPGrasp: Scalable Keypoint Flow Matching for Dexterous Grasp Generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:FiDNX6EVdGUC",
+    "pdf_path": "pdfs/2026-bidexgrasp-coordinated-bimanual-dexterous-grasps-across-object-geometries-and-sizes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.06589v2.pdf",
+    "title": "BiDexGrasp: Coordinated Bimanual Dexterous Grasps across Object Geometries and Sizes",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:ce2CqMG-AY4C",
+    "pdf_path": "pdfs/2026-robogesture-real-time-semantic-aligned-co-speech-gestures-generation-for-humanoid-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.28693v1.pdf",
+    "title": "RoboGesture: Real-Time Semantic-aligned Co-Speech Gestures Generation for Humanoid Interaction",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:mKu_rENv82IC",
+    "pdf_path": "pdfs/2026-humantracker-towards-comprehensive-and-human-aligned-motion-tracking-benchmark.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.13555v1.pdf",
+    "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:U_HPUtbDl20C",
+    "pdf_path": "pdfs/2026-unipart-towards-zero-shot-language-grounded-3d-part-segmentation-for-embodied-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.12898v1.pdf",
+    "title": "UniPart: Towards Zero-shot Language-Grounded 3D Part Segmentation for Embodied Interaction",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:NDuN12AVoxsC",
+    "pdf_path": "pdfs/2026-graspadmm-improving-dexterous-grasp-synthesis-via-admm-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.13832v2.pdf",
+    "title": "GraspADMM: Improving Dexterous Grasp Synthesis via ADMM Optimization",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:PyEswDtIyv0C",
+    "pdf_path": "pdfs/2026-learning-athletic-humanoid-tennis-skills-from-imperfect-human-motion-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.12686v1.pdf",
+    "title": "Learning Athletic Humanoid Tennis Skills from Imperfect Human Motion Data",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:-jrNzM816MMC",
+    "pdf_path": "pdfs/2026-hdflow-hierarchical-diffusion-flow-planning-for-long-horizon-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.04525v2.pdf",
+    "title": "HDFlow: Hierarchical Diffusion-Flow Planning for Long-horizon Tasks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:QyXJ3EUuO1IC",
+    "pdf_path": "pdfs/2026-limmt-less-is-more-for-motion-tracking.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.06953v1.pdf",
+    "title": "LIMMT: Less is More for Motion Tracking",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:OBSaB-F7qqsC",
+    "pdf_path": "pdfs/2026-any3d-vla-enhancing-vla-robustness-via-diverse-point-clouds.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.00807v2.pdf",
+    "title": "Any3D-VLA: Enhancing VLA Robustness via Diverse Point Clouds",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:HGTzPopzzJcC",
+    "pdf_path": "pdfs/2026-lda-1b-scaling-latent-dynamics-action-model-via-universal-embodied-data-ingestion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.12215v2.pdf",
+    "title": "LDA-1B: Scaling Latent Dynamics Action Model via Universal Embodied Data Ingestion",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:MAUkC_7iAq8C",
+    "pdf_path": "pdfs/2026-emerging-extrinsic-dexterity-in-cluttered-scenes-via-dynamics-aware-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.09882v2.pdf",
+    "title": "Emerging Extrinsic Dexterity in Cluttered Scenes via Dynamics-aware Policy Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:jE2MZjpN3IcC",
+    "pdf_path": "pdfs/2026-octonav-towards-generalist-embodied-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.09839v1.pdf",
+    "title": "OctoNav: Towards Generalist Embodied Navigation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:1Ye0OR6EYb4C",
+    "pdf_path": "pdfs/2026-navgsim-high-fidelity-gaussian-splatting-simulator-for-large-scale-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.15186v1.pdf",
+    "title": "NavGSim: High-Fidelity Gaussian Splatting Simulator for Large-Scale Navigation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:AXkvAH5U_nMC",
+    "pdf_path": "pdfs/2026-dexndm-closing-the-reality-gap-for-dexterous-in-hand-rotation-via-joint-wise-neural-dynamics-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.08556v1.pdf",
+    "title": "DexNDM: Closing the Reality Gap for Dexterous In-Hand Rotation via Joint-Wise Neural Dynamics Model",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:q-HalDI95KYC",
+    "pdf_path": "pdfs/2026-robust-differentiable-collision-detection-for-general-objects.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.06267v2.pdf",
+    "title": "Robust Differentiable Collision Detection for General Objects",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:DBa1UEJaJKAC",
+    "pdf_path": "pdfs/2026-mm-nav-multi-view-vla-model-for-robust-visual-navigation-via-multi-expert-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.03142v2.pdf",
+    "title": "MM-Nav: Multi-View VLA Model for Robust Visual Navigation via Multi-Expert Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:SjuI4pbJlxcC",
+    "pdf_path": "pdfs/2026-track-any-motions-under-any-disturbances.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.13833v3.pdf",
+    "title": "Track any motions under any disturbances",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:Ade32sEp0pkC",
+    "pdf_path": "pdfs/2026-stereovla-enhancing-vision-language-action-models-with-stereo-vision.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.21970v2.pdf",
+    "title": "StereoVLA: Enhancing Vision-Language-Action Models with Stereo Vision",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:WC9gN4BGCRcC",
+    "pdf_path": "pdfs/2026-trackvla-unleashing-reasoning-and-memory-capabilities-in-vla-models-for-embodied-visual-tracking.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.07134v1.pdf",
+    "title": "Trackvla++: Unleashing reasoning and memory capabilities in vla models for embodied visual tracking",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:LPtt_HFRSbwC",
+    "pdf_path": "pdfs/2026-omnispatial-towards-comprehensive-spatial-reasoning-benchmark-for-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.03135v3.pdf",
+    "title": "OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:Br1UauaknNIC",
+    "pdf_path": "pdfs/2026-unleashing-humanoid-reaching-potential-via-real-world-ready-skill-space.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.10918v2.pdf",
+    "title": "Unleashing Humanoid Reaching Potential via Real-world-Ready Skill Space",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:kWvqk_afx_IC",
+    "pdf_path": "pdfs/2025-robohanger-learning-generalizable-robotic-hanger-insertion-for-diverse-garments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.01083v4.pdf",
+    "title": "Robohanger: Learning generalizable robotic hanger insertion for diverse garments",
     "year": 2025
   },
   {
-    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:ubquNMjMGx4C",
-    "pdf_path": "pdfs/2025-dooract-learning-generalizable-articulated-object-manipulation-from-human-demonstrations.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2510.07758.pdf",
-    "title": "DoorAct: Learning Generalizable Articulated Object Manipulation from Human Demonstrations",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:3NQIlFlcGxIC",
+    "pdf_path": "pdfs/2025-dexvlg-dexterous-vision-language-grasp-model-at-scale.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.02747v1.pdf",
+    "title": "DexVLG: Dexterous Vision-Language-Grasp Model at Scale",
     "year": 2025
   },
   {
-    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:KpZFBLmCTCwC",
-    "pdf_path": "pdfs/2025-egobridge-domain-adaptation-for-generalizable-imitation-from-egocentric-human-data.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2510.09969.pdf",
-    "title": "EgoBridge: Domain Adaptation for Generalizable Imitation from Egocentric Human Data",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:CB2v5VPnA5kC",
+    "pdf_path": "pdfs/2025-code-as-monitor-constraint-aware-visual-programming-for-reactive-and-proactive-robotic-failure-detection.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.04455v3.pdf",
+    "title": "Code-as-monitor: Constraint-aware visual programming for reactive and proactive robotic failure detection",
     "year": 2025
   },
   {
-    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:1yQoGdGgb4wC",
-    "pdf_path": "pdfs/2025-manilong-shot-interaction-aware-one-shot-imitation-learning-for-long-horizon-manipulation.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2510.12833.pdf",
-    "title": "ManiLong-Shot: Interaction-Aware One-Shot Imitation Learning for Long-Horizon Manipulation",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:yxmsSjX2EkcC",
+    "pdf_path": "pdfs/2025-trackvla-embodied-visual-tracking-in-the-wild.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.23189v1.pdf",
+    "title": "Trackvla: Embodied visual tracking in the wild",
     "year": 2025
   },
   {
-    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:LhH-TYMQEocC",
-    "pdf_path": "pdfs/2025-robotwin-2-0-a-scalable-data-generator-and-benchmark-with-strong-domain-randomization-for-robust-bimanual-robotic-manipu.pdf",
-    "pdf_url": "https://arxiv.org/pdf/2506.18088.pdf",
-    "title": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation",
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:prdVHNxh-e8C",
+    "pdf_path": "pdfs/2025-dywa-dynamics-adaptive-world-action-model-for-generalizable-non-prehensile-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.16806v2.pdf",
+    "title": "Dywa: Dynamics-adaptive world action model for generalizable non-prehensile manipulation",
     "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:PYBJJbyH-FwC",
+    "pdf_path": "pdfs/2025-bodex-scalable-and-efficient-robotic-dexterous-grasp-synthesis-using-bilevel-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.16490v3.pdf",
+    "title": "BODex: Scalable and Efficient Robotic Dexterous Grasp Synthesis Using Bilevel Optimization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:7H_MAutzIkAC",
+    "pdf_path": "pdfs/2025-quadwbg-generalizable-quadrupedal-whole-body-grasping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.06782v2.pdf",
+    "title": "QuadWBG: Generalizable Quadrupedal Whole-Body Grasping",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:L1USKYWJimsC",
+    "pdf_path": "pdfs/2025-watch-less-feel-more-sim-to-real-rl-for-generalizable-articulated-object-manipulation-via-motion-adaptation-and-impedanc.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.14457v1.pdf",
+    "title": "Watch Less, Feel More: Sim-to-Real RL for Generalizable Articulated Object Manipulation via Motion Adaptation and Impedance Control",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:-95Q15plzcUC",
+    "pdf_path": "pdfs/2025-towards-robust-probabilistic-modeling-on-so-3-via-rotation-laplace-distribution.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.10465v2.pdf",
+    "title": "Towards robust probabilistic modeling on SO (3) via rotation laplace distribution",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:wKETBy42zhYC",
+    "pdf_path": "pdfs/2025-mobileh2r-learning-generalizable-human-to-mobile-robot-handover-exclusively-from-scalable-and-diverse-synthetic-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.04595v2.pdf",
+    "title": "MobileH2R: Learning Generalizable Human to Mobile Robot Handover Exclusively from Scalable and Diverse Synthetic Data",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:hsZV8lGYWTMC",
+    "pdf_path": "pdfs/2025-sofar-language-grounded-orientation-bridges-spatial-reasoning-and-object-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.13143v2.pdf",
+    "title": "Sofar: Language-grounded orientation bridges spatial reasoning and object manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:7BrZ7Jt4UNcC",
+    "pdf_path": "pdfs/2024-dexgraspnet-2-0-learning-generative-dexterous-grasping-in-large-scale-synthetic-cluttered-scenes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.23004v1.pdf",
+    "title": "DexGraspNet 2.0: Learning Generative Dexterous Grasping in Large-scale Synthetic Cluttered Scenes",
+    "year": 2024
   }
 ]
