@@ -320,5 +320,152 @@
     "pdf_url": "https://arxiv.org/pdf/2608.26103v2.pdf",
     "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1CGpZ6fEdu",
+    "pdf_path": "pdfs/2024-robotic-control-via-embodied-chain-of-thought-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.08693.pdf",
+    "title": "Robotic Control via Embodied Chain-of-Thought Reasoning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1t1pZ6TE5x",
+    "pdf_path": "pdfs/2025-hi-robot-open-ended-instruction-following-with-hierarchical-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.19417.pdf",
+    "title": "Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1kips6NE4a",
+    "pdf_path": "pdfs/2024-prediction-with-action-visual-policy-learning-via-joint-denoising-process.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.18179v1.pdf",
+    "title": "Prediction with Action: Visual Policy Learning via Joint Denoising Process",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1wzps6AEnk",
+    "pdf_path": "pdfs/2024-video-prediction-policy-a-generalist-robot-policy-with-predictive-visual-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.14803v2.pdf",
+    "title": "Video Prediction Policy: A Generalist Robot Policy with Predictive Visual Representations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1YipZ6VEi8",
+    "pdf_path": "pdfs/2025-thinkact-vision-language-action-reasoning-via-reinforced-visual-latent-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.16815v2.pdf",
+    "title": "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1HkHR6UE8j",
+    "pdf_path": "pdfs/2026-an-unexpected-robot-policy-early-evaluations-of-gpt-6-astra-on-robodojo-and-beyond.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.24170v1.pdf",
+    "title": "An Unexpected Robot Policy: Early Evaluations of GPT-6 Astra on RoboDojo and Beyond",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1WypJ6WEei",
+    "pdf_path": "pdfs/2026-behavioral-cloning-mystery.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07056v1.pdf",
+    "title": "Behavioral Cloning Mystery",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1DhpJ6AEs6",
+    "pdf_path": "pdfs/2026-egolive-a-large-scale-egocentric-dataset-from-real-world-human-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.23570v1.pdf",
+    "title": "EgoLive: A Large-Scale Egocentric Dataset from Real-World Human Tasks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1GpHR6aEei",
+    "pdf_path": "pdfs/2026-emerge-policy-a-robot-mind-emerges-beyond-a-single-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.29896v2.pdf",
+    "title": "EMERGE-Policy: A Robot Mind Emerges Beyond a Single Policy",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1bJp36BE1L",
+    "pdf_path": "pdfs/2026-fast-wam-do-world-action-models-need-test-time-future-imagination.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.16666v2.pdf",
+    "title": "Fast-WAM: Do World Action Models Need Test-time Future Imagination?",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1ABHR6HEoR",
+    "pdf_path": "pdfs/2026-roboicl-embodied-in-context-learning-with-gpt-6-astra.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.34261v1.pdf",
+    "title": "RoboICL: Embodied In-Context Learning with GPT-6 Astra",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1LVHR6BE9Y",
+    "pdf_path": "pdfs/2026-show-harness-just-a-vlm-agent-can-play-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.10522v1.pdf",
+    "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1NBHR6HE2Z",
+    "pdf_path": "pdfs/2026-transferring-the-intelligence-of-vlms-to-robotic-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.22966v1.pdf",
+    "title": "Transferring the Intelligence of VLMs to Robotic Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Ktps66EeR",
+    "pdf_path": "pdfs/2026-vlaw-iterative-co-improvement-of-vision-language-action-policy-and-world-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.12063v2.pdf",
+    "title": "VLAW: Iterative Co-Improvement of Vision-Language-Action Policy and World Model",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1pqps6eEBy",
+    "pdf_path": "pdfs/2025-ctrl-world-a-controllable-generative-world-model-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.10125v3.pdf",
+    "title": "Ctrl-World: A Controllable Generative World Model for Robot Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1tHp36TEdS",
+    "pdf_path": "pdfs/2026-cosmos-policy-fine-tuning-video-models-for-visuomotor-control-and-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.16163v1.pdf",
+    "title": "Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1GJHR6eEyY",
+    "pdf_path": "pdfs/2026-harness-vla-steering-frozen-vlas-into-reliable-manipulation-primitives-via-memory-guided-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.08448v5.pdf",
+    "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hhpJ6AES5",
+    "pdf_path": "pdfs/2026-joyai-sim-a-simulation-enabled-interconversion-toolchain-for-the-embodied-data-pyramid.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.16776v3.pdf",
+    "title": "JoyAI-Sim: A Simulation-Enabled Interconversion Toolchain for the Embodied Data Pyramid",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV13pHR6aEkS",
+    "pdf_path": "pdfs/2026-phyagentos-a-self-evolving-operating-system-for-embodied-agents-with-decoupled-cognitive-planning-and-physical-execution.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.16636v1.pdf",
+    "title": "PhyAgentOS: A Self-Evolving Operating System for Embodied Agents with Decoupled Cognitive Planning and Physical Execution",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1vtpZ6UEXY",
+    "pdf_path": "pdfs/2026-steerable-vision-language-action-policies-for-embodied-reasoning-and-hierarchical-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.13193v3.pdf",
+    "title": "Steerable Vision-Language-Action Policies for Embodied Reasoning and Hierarchical Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1xhps6BExj",
+    "pdf_path": "pdfs/2026-video-prediction-policy-2.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.10270v2.pdf",
+    "title": "Video Prediction Policy 2:",
+    "year": 2026
   }
 ]

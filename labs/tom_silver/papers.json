@@ -1,0 +1,184 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:KxtntwgDAa4C",
+    "pdf_path": "pdfs/2026-empiric-experiment-driven-learning-of-residual-world-models-for-robot-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.35047v1.pdf",
+    "title": "EMPIRIC: Experiment-Driven Learning of Residual World Models for Robot Planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:nb7KW1ujOQ8C",
+    "pdf_path": "pdfs/2026-coding-agents-for-generalized-task-and-motion-planning-problems.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.30233v1.pdf",
+    "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:P5F9QuxV20EC",
+    "pdf_path": "pdfs/2026-tandem-task-and-motion-planning-with-as-needed-demonstrations-for-efficient-vision-language-action-model-fine-tuning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.28314v1.pdf",
+    "title": "TANDEM: Task and Motion Planning with As-Needed Demonstrations for Efficient Vision-Language-Action Model Fine-tuning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:1sJd4Hv_s6UC",
+    "pdf_path": "pdfs/2026-datafarm-distribution-aligned-task-and-motion-planning-for-fine-tuning-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.12316v1.pdf",
+    "title": "DATAFARM: Distribution-Aligned Task and Motion Planning for Fine-Tuning Vision-Language-Action Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:NhqRSupF_l8C",
+    "pdf_path": "pdfs/2026-recover-discover-plan-learning-skills-and-concepts-from-robot-failures.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.18328v2.pdf",
+    "title": "Recover, Discover, Plan: Learning Skills and Concepts from Robot Failures",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:b0M2c_1WBrUC",
+    "pdf_path": "pdfs/2026-kinder-a-physical-reasoning-benchmark-for-robot-learning-and-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.25788.pdf",
+    "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:a0OBvERweLwC",
+    "pdf_path": "pdfs/2026-slap-shortcut-learning-for-abstract-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.01107v2.pdf",
+    "title": "Slap: Shortcut learning for abstract planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:cFHS6HbyZ2cC",
+    "pdf_path": "pdfs/2026-exopredicator-learning-abstract-models-of-dynamic-worlds-for-robot-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.26255v3.pdf",
+    "title": "Exopredicator: Learning abstract models of dynamic worlds for robot planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:EUQCXRtRnyEC",
+    "pdf_path": "pdfs/2026-from-pixels-to-predicates-learning-symbolic-world-models-via-pretrained-vlms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.00296v4.pdf",
+    "title": "From pixels to predicates: Learning symbolic world models via pretrained VLMs",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:xtRiw3GOFMkC",
+    "pdf_path": "pdfs/2026-learning-by-and-for-task-and-motion-planning-a-survey.pdf",
+    "pdf_url": "https://prpl-group.com/tamp-learning-survey.pdf",
+    "title": "Learning By and For Task and Motion Planning: A Survey",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:pyW8ca7W8N0C",
+    "pdf_path": "pdfs/2025-unifying-deep-predicate-invention-with-pre-trained-foundation-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.17992v2.pdf",
+    "title": "Unifying deep predicate invention with pre-trained foundation models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:dfsIfKJdRG4C",
+    "pdf_path": "pdfs/2025-prioritouch-adapting-to-user-contact-preferences-for-whole-arm-physical-human-robot-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.18447v1.pdf",
+    "title": "Prioritouch: Adapting to user contact preferences for whole-arm physical human-robot interaction",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:u_35RYKgDlwC",
+    "pdf_path": "pdfs/2025-feast-a-flexible-mealtime-assistance-system-towards-in-the-wild-personalization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.14968.pdf",
+    "title": "Feast: A flexible mealtime-assistance system towards in-the-wild personalization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:zA6iFVUQeVQC",
+    "pdf_path": "pdfs/2025-savor-skill-affordance-learning-from-visuo-haptic-perception-for-robot-assisted-bite-acquisition.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.02353v2.pdf",
+    "title": "Savor: Skill affordance learning from visuo-haptic perception for robot-assisted bite acquisition",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:rO6llkc54NcC",
+    "pdf_path": "pdfs/2025-clamp-crowdsourcing-a-large-scale-in-the-wild-haptic-dataset-with-an-open-source-device-for-multimodal-robot-perception.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.21495.pdf",
+    "title": "CLAMP: Crowdsourcing a LArge-scale in-the-wild haptic dataset with an open-source device for Multimodal robot Perception",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:3s1wT3WcHBgC",
+    "pdf_path": "pdfs/2025-coloring-between-the-lines-personalization-in-the-null-space-of-planning-constraints.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.15503v1.pdf",
+    "title": "Coloring between the lines: Personalization in the null space of planning constraints",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:ldfaerwXgEUC",
+    "pdf_path": "pdfs/2025-visualpredicator-learning-abstract-world-models-with-neuro-symbolic-predicates-for-robot-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.23156v2.pdf",
+    "title": "Visualpredicator: Learning abstract world models with neuro-symbolic predicates for robot planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:ZHo1McVdvXMC",
+    "pdf_path": "pdfs/2025-seeing-is-believing-belief-space-planning-with-foundation-models-as-uncertainty-estimators.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.03245v1.pdf",
+    "title": "Seeing is believing: Belief-space planning with foundation models as uncertainty estimators",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:HoB7MX3m0LUC",
+    "pdf_path": "pdfs/2025-grace-generalizing-robot-assisted-caregiving-with-user-functionality-embeddings.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.17855v1.pdf",
+    "title": "Grace: Generalizing robot-assisted caregiving with user functionality embeddings",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:pqnbT2bcN3wC",
+    "pdf_path": "pdfs/2025-cart-mpc-coordinating-assistive-devices-for-robot-assisted-transferring-with-multi-agent-model-predictive-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.11149v1.pdf",
+    "title": "CART-MPC: Coordinating assistive devices for robot-assisted transferring with multi-agent model predictive control",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:SeFeTyx0c_EC",
+    "pdf_path": "pdfs/2025-bilevel-learning-for-bilevel-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.08697v3.pdf",
+    "title": "Bilevel learning for bilevel planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:NaGl4SEjCO4C",
+    "pdf_path": "pdfs/2024-generalized-planning-in-pddl-domains-with-pretrained-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.11014v2.pdf",
+    "title": "Generalized planning in pddl domains with pretrained large language models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:vV6vV6tmYwMC",
+    "pdf_path": "pdfs/2024-practice-makes-perfect-planning-to-learn-skill-parameter-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.15025v2.pdf",
+    "title": "Practice makes perfect: Planning to learn skill parameter policies",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:J_g5lzvAfSwC",
+    "pdf_path": "pdfs/2023-predicate-invention-for-bilevel-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2203.09634.pdf",
+    "title": "Predicate invention for bilevel planning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:RGFaLdJalmkC",
+    "pdf_path": "pdfs/2023-learning-efficient-abstract-planning-models-that-choose-what-to-predict.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v229/kumar23a/kumar23a.pdf",
+    "title": "Learning Efficient Abstract Planning Models that Choose What to Predict",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:ns9cj8rnVeAC",
+    "pdf_path": "pdfs/2023-embodied-active-learning-of-relational-state-abstractions-for-bilevel-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.04912v2.pdf",
+    "title": "Embodied active learning of relational state abstractions for bilevel planning",
+    "year": 2023
+  }
+]

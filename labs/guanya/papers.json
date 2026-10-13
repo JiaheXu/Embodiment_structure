@@ -1,0 +1,583 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:kzcrU_BdoSEC",
+    "pdf_path": "pdfs/2026-precise-se-3-end-effector-tracking-in-whole-body-humanoid-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.09479v1.pdf",
+    "title": "Precise SE (3) End-Effector Tracking in Whole-Body Humanoid Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:UHK10RUVsp4C",
+    "pdf_path": "pdfs/2026-trajectory-planning-without-trajectory-data-a-manifold-guided-approach.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.08863.pdf",
+    "title": "Trajectory Planning without Trajectory Data: A Manifold-Guided Approach",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:Fu2w8maKXqMC",
+    "pdf_path": "pdfs/2026-simex-simulation-integrated-robotics-autoresearch.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.38982v1.pdf",
+    "title": "SimEX: Simulation-Integrated Robotics AutoResearch",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:W5xh706n7nkC",
+    "pdf_path": "pdfs/2026-counterfactual-video-generation-enables-scalable-humanoid-loco-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.38172v1.pdf",
+    "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:_Ybze24A_UAC",
+    "pdf_path": "pdfs/2026-humanoid-safe-stop-via-learned-stoppability-value.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.02358v1.pdf",
+    "title": "Humanoid Safe Stop via Learned Stoppability Value",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:uLbwQdceFCQC",
+    "pdf_path": "pdfs/2026-am-bench-a-modular-simulation-suite-and-benchmark-for-aerial-manipulation-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.00641.pdf",
+    "title": "AM-Bench: A Modular Simulation Suite and Benchmark for Aerial Manipulation Policy Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:JQOojiI6XY0C",
+    "pdf_path": "pdfs/2026-hybrid-feedback-sampling-for-sample-efficient-model-predictive-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.19443v1.pdf",
+    "title": "Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:tS2w5q8j5-wC",
+    "pdf_path": "pdfs/2026-evolution-of-humanoid-locomotion-control.pdf",
+    "pdf_url": "https://www.thetracelab.com/uploads/1/1/3/0/113094493/evolution_of_humanoid_locomotion_control_1203.pdf",
+    "title": "Evolution of humanoid locomotion control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:1yQoGdGgb4wC",
+    "pdf_path": "pdfs/2026-worlds-in-one-demo-a-synthetic-data-engine-for-learning-open-world-mobile-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.13154.pdf",
+    "title": "Worlds in One Demo: A Synthetic Data Engine for Learning Open-World Mobile Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:ZuybSZzF8UAC",
+    "pdf_path": "pdfs/2026-aspire-agentic-skills-discovery-for-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.00272v1.pdf",
+    "title": "ASPIRE: Agentic/Skills Discovery for Robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:N5tVd3kTz84C",
+    "pdf_path": "pdfs/2026-vlk-learning-humanoid-loco-manipulation-from-synthetic-interactions-in-reconstructed-scenes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.30645v1.pdf",
+    "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:ye4kPcJQO24C",
+    "pdf_path": "pdfs/2026-fada-few-shot-domain-adaptation-via-dynamics-alignment-for-humanoid-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.28476v1.pdf",
+    "title": "FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:VL0QpB8kHFEC",
+    "pdf_path": "pdfs/2026-scenebot-contact-prompted-general-humanoid-whole-body-tracking-with-scene-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.27581v1.pdf",
+    "title": "SceneBot: Contact-Prompted General Humanoid Whole Body Tracking with Scene-Interaction",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:LjlpjdlvIbIC",
+    "pdf_path": "pdfs/2026-scalable-behavior-cloning-with.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.27375.pdf",
+    "title": "Scalable Behavior Cloning with",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:WqliGbK-hY8C",
+    "pdf_path": "pdfs/2026-enpire-agentic-robot-policy-self-improvement-in-the-real-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.19980v2.pdf",
+    "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:5awf1xo2G04C",
+    "pdf_path": "pdfs/2026-mana-dexterous-manipulation-of-articulated-tools.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.13677v1.pdf",
+    "title": "Mana: Dexterous Manipulation of Articulated Tools",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:eq2jaN3J8jMC",
+    "pdf_path": "pdfs/2026-lucid-learning-embodiment-agnostic-intent-models-from-unstructured-human-videos-for-scalable-dexterous-robot-skill-acqui.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.11628v1.pdf",
+    "title": "LUCID: Learning Embodiment-Agnostic Intent Models from Unstructured Human Videos for Scalable Dexterous Robot Skill Acquisition",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:SdhP9T11ey4C",
+    "pdf_path": "pdfs/2026-ladderman-learning-humanoid-perceptive-ladder-climbing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.05873v1.pdf",
+    "title": "LadderMan: Learning Humanoid Perceptive Ladder Climbing",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:08ZZubdj9fEC",
+    "pdf_path": "pdfs/2026-adversarial-game-theoretic-algorithm-for-dexterous-grasp-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.05809.pdf",
+    "title": "Adversarial game-theoretic algorithm for dexterous grasp synthesis",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:WbkHhVStYXYC",
+    "pdf_path": "pdfs/2026-twist2-scalable-portable-and-holistic-humanoid-data-collection-system.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.02832v1.pdf",
+    "title": "Twist2: Scalable, portable, and holistic humanoid data collection system",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:u9iWguZQMMsC",
+    "pdf_path": "pdfs/2026-umi-on-air-embodiment-aware-guidance-for-embodiment-agnostic-visuomotor-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.02614v3.pdf",
+    "title": "Umi-on-air: Embodiment-aware guidance for embodiment-agnostic visuomotor policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:p2g8aNsByqUC",
+    "pdf_path": "pdfs/2026-omniretarget-interaction-preserving-data-generation-for-humanoid-whole-body-loco-manipulation-and-scene-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.26633v3.pdf",
+    "title": "Omniretarget: Interaction-preserving data generation for humanoid whole-body loco-manipulation and scene interaction",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:OU6Ihb5iCvQC",
+    "pdf_path": "pdfs/2026-residual-off-policy-rl-for-finetuning-behavior-cloning-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.19301v2.pdf",
+    "title": "Residual off-policy rl for finetuning behavior cloning policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:M05iB0D1s5AC",
+    "pdf_path": "pdfs/2026-whole-body-model-predictive-control-of-legged-robots-with-mujoco.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.04613v3.pdf",
+    "title": "Whole-body model-predictive control of legged robots with mujoco",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:9vf0nzSNQJEC",
+    "pdf_path": "pdfs/2026-pgdg-physically-grounded-data-generation-for-robust-bimanual-policy-learning-from-a-single-demonstration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.21710.pdf",
+    "title": "PGDG: Physically Grounded Data Generation for Robust Bimanual Policy Learning from a Single Demonstration",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:_B80troHkn4C",
+    "pdf_path": "pdfs/2026-global-convergence-of-sampling-based-nonconvex-optimization-through-diffusion-style-smoothing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.16520v1.pdf",
+    "title": "Global Convergence of Sampling-Based Nonconvex Optimization through Diffusion-Style Smoothing",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:tkaPQYYpVKoC",
+    "pdf_path": "pdfs/2026-rio-flexible-real-time-robot-i-o-for-cross-embodiment-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.11564v1.pdf",
+    "title": "RIO: Flexible Real-Time Robot I/O for Cross-Embodiment Robot Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:B3FOqHPlNUQC",
+    "pdf_path": "pdfs/2026-much-ado-about-noising-dispelling-the-myths-of-generative-robotic-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.01809v3.pdf",
+    "title": "Much ado about noising: Dispelling the myths of generative robotic control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:tOudhMTPpwUC",
+    "pdf_path": "pdfs/2026-bfm-zero-a-promptable-behavioral-foundation-model-for-humanoid-control-using-unsupervised-reinforcement-learning.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/80b677bb4d17f77220be88e1d1fdebde-Paper-Conference.pdf",
+    "title": "Bfm-zero: A promptable behavioral foundation model for humanoid control using unsupervised reinforcement learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:Tiz5es2fbqcC",
+    "pdf_path": "pdfs/2026-self-improving-vision-language-action-models-with-data-generation-via-residual-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.00091v1.pdf",
+    "title": "Self-improving vision-language-action models with data generation via residual rl",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:35N4QoGY0k4C",
+    "pdf_path": "pdfs/2026-humanoid-locomotion-and-manipulation-current-progress-and-challenges-in-control-planning-and-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.02116v2.pdf",
+    "title": "Humanoid locomotion and manipulation: Current progress and challenges in control, planning, and learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:AXPGKjj_ei8C",
+    "pdf_path": "pdfs/2026-cap-x-a-framework-for-benchmarking-and-improving-coding-agents-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.22435.pdf",
+    "title": "CaP-X: A framework for benchmarking and improving coding agents for robot manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:Mojj43d5GZwC",
+    "pdf_path": "pdfs/2026-autonomous-integration-and-improvement-of-robotic-assembly-using-skill-graph-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.12649v1.pdf",
+    "title": "Autonomous Integration and Improvement of Robotic Assembly using Skill Graph Representations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:738O_yMBCRsC",
+    "pdf_path": "pdfs/2026-pyspatial-generating-3d-visual-programs-for-zero-shot-spatial-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.00905v1.pdf",
+    "title": "pyspatial: Generating 3d visual programs for zero-shot spatial reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:fQNAKQ3IYiAC",
+    "pdf_path": "pdfs/2026-perceptive-humanoid-parkour-chaining-dynamic-human-skills-via-motion-matching.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.15827v2.pdf",
+    "title": "Perceptive humanoid parkour: Chaining dynamic human skills via motion matching",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:5Ul4iDaHHb8C",
+    "pdf_path": "pdfs/2026-rpl-learning-robust-humanoid-perceptive-locomotion-on-challenging-terrains.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.03002v3.pdf",
+    "title": "Rpl: Learning robust humanoid perceptive locomotion on challenging terrains",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:LPZeul_q3PIC",
+    "pdf_path": "pdfs/2026-flow-policy-gradients-for-robot-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.02481v1.pdf",
+    "title": "Flow policy gradients for robot control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:sSrBHYA8nusC",
+    "pdf_path": "pdfs/2026-opening-the-sim-to-real-door-for-humanoid-pixel-to-action-policy-transfer.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.01061v1.pdf",
+    "title": "Opening the sim-to-real door for humanoid pixel-to-action policy transfer",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:4fKUyHm3Qg0C",
+    "pdf_path": "pdfs/2026-viral-visual-sim-to-real-at-scale-for-humanoid-loco-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.15200v2.pdf",
+    "title": "Viral: Visual sim-to-real at scale for humanoid loco-manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:geHnlv5EZngC",
+    "pdf_path": "pdfs/2025-learning-sim-to-real-humanoid-locomotion-in-15-minutes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.01996v1.pdf",
+    "title": "Learning sim-to-real humanoid locomotion in 15 minutes",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:vRqMK49ujn8C",
+    "pdf_path": "pdfs/2025-spider-scalable-physics-informed-dexterous-retargeting.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.09484v3.pdf",
+    "title": "Spider: Scalable physics-informed dexterous retargeting",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:XiSMed-E-HIC",
+    "pdf_path": "pdfs/2025-resmimic-from-general-motion-tracking-to-humanoid-whole-body-loco-manipulation-via-residual-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.05070v2.pdf",
+    "title": "Resmimic: From general motion tracking to humanoid whole-body loco-manipulation via residual learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:uWQEDVKXjbEC",
+    "pdf_path": "pdfs/2025-hdmi-learning-interactive-humanoid-whole-body-control-from-human-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.16757v3.pdf",
+    "title": "Hdmi: Learning interactive humanoid whole-body control from human videos",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:fPk4N6BV_jEC",
+    "pdf_path": "pdfs/2025-leverb-humanoid-whole-body-control-with-latent-vision-language-instruction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.13751v3.pdf",
+    "title": "Leverb: Humanoid whole-body control with latent vision-language instruction",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:u_35RYKgDlwC",
+    "pdf_path": "pdfs/2025-hold-my-beer-learning-gentle-humanoid-locomotion-and-end-effector-stabilization-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.24198v2.pdf",
+    "title": "Hold my beer: Learning gentle humanoid locomotion and end-effector stabilization control",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:rO6llkc54NcC",
+    "pdf_path": "pdfs/2025-sampling-based-system-identification-with-active-exploration-for-legged-robot-sim2real-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.14266v1.pdf",
+    "title": "Sampling-based system identification with active exploration for legged robot sim2real learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:P5F9QuxV20EC",
+    "pdf_path": "pdfs/2025-model-free-safety-filter-for-soft-robots-a-q-learning-approach.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.19809.pdf",
+    "title": "Model-Free Safety Filter for Soft Robots: A Q-Learning Approach",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:ZHo1McVdvXMC",
+    "pdf_path": "pdfs/2025-propagative-distance-optimization-for-motion-planning.pdf",
+    "pdf_url": "https://rap-lab.github.io/documents/publications/2025_ICRA_PDOMP_YuChen.pdf",
+    "title": "Propagative Distance Optimization for Motion Planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:lSLTfruPkqcC",
+    "pdf_path": "pdfs/2025-hover-versatile-neural-whole-body-controller-for-humanoid-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.21229v2.pdf",
+    "title": "Hover: Versatile neural whole-body controller for humanoid robots",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:NaGl4SEjCO4C",
+    "pdf_path": "pdfs/2025-agile-mobility-with-rapid-online-adaptation-via-meta-learning-and-uncertainty-aware-mppi.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.06565.pdf",
+    "title": "Agile mobility with rapid online adaptation via meta-learning and uncertainty-aware MPPI",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:RGFaLdJalmkC",
+    "pdf_path": "pdfs/2025-self-supervised-meta-learning-for-all-layer-dnn-based-adaptive-control-with-stability-guarantees.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.07575v2.pdf",
+    "title": "Self-supervised meta-learning for all-layer DNN-based adaptive control with stability guarantees",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:ns9cj8rnVeAC",
+    "pdf_path": "pdfs/2025-anycar-to-anywhere-learning-universal-dynamics-model-for-agile-and-adaptive-mobility.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.15783v1.pdf",
+    "title": "Anycar to anywhere: Learning universal dynamics model for agile and adaptive mobility",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:O3NaXMp0MMsC",
+    "pdf_path": "pdfs/2025-full-order-sampling-based-mpc-for-torque-level-locomotion-control-via-diffusion-style-annealing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.15610v1.pdf",
+    "title": "Full-order sampling-based mpc for torque-level locomotion control via diffusion-style annealing",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:GnPB-g6toBAC",
+    "pdf_path": "pdfs/2025-agile-continuous-jumping-in-discontinuous-terrains.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.10923v2.pdf",
+    "title": "Agile continuous jumping in discontinuous terrains",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:3s1wT3WcHBgC",
+    "pdf_path": "pdfs/2025-falcon-learning-force-adaptive-humanoid-loco-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.06776v2.pdf",
+    "title": "Falcon: Learning force-adaptive humanoid loco-manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:HoB7MX3m0LUC",
+    "pdf_path": "pdfs/2025-flying-hand-end-effector-centric-framework-for-versatile-aerial-manipulation-teleoperation-and-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.10334v1.pdf",
+    "title": "Flying Hand: End-Effector-Centric Framework for Versatile Aerial Manipulation Teleoperation and Policy Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:pqnbT2bcN3wC",
+    "pdf_path": "pdfs/2025-rambo-rl-augmented-model-based-optimal-control-for-whole-body-loco-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.06662v4.pdf",
+    "title": "RAMBO: RL-augmented Model-based Optimal Control for Whole-body Loco-manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:g5m5HwL7SMYC",
+    "pdf_path": "pdfs/2025-humanoid-policy-human-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.13441v3.pdf",
+    "title": "Humanoid policy~ human policy",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:2P1L_qKh6hAC",
+    "pdf_path": "pdfs/2025-asap-aligning-simulation-and-real-world-physics-for-learning-agile-humanoid-whole-body-skills.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.01143v3.pdf",
+    "title": "ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:70eg2SAEIzsC",
+    "pdf_path": "pdfs/2025-bridging-adaptivity-and-safety-learning-agile-collision-free-locomotion-across-varied-physics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.04276v3.pdf",
+    "title": "Bridging adaptivity and safety: Learning agile collision-free locomotion across varied physics",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:t6usbXjVLHcC",
+    "pdf_path": "pdfs/2025-xingye-da-fernando-castaneda-guanya-shi-shankar-sastry-et-al-opening-the-simto-real-door-for-humanoid-pixel-to-action-po.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.01061.pdf",
+    "title": "Xingye Da, Fernando Castaneda, Guanya Shi, Shankar Sastry, et al. Opening the simto-real door for humanoid pixel-to-action policy transfer",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:nb7KW1ujOQ8C",
+    "pdf_path": "pdfs/2025-towards-unstructured-mapf-multi-quadruped-mapf-demo.pdf",
+    "pdf_url": "https://icaps25.icaps-conference.org/program/demos-pdfs/ICAPS25-Demo_paper_8.pdf",
+    "title": "Towards Unstructured MAPF: Multi-Quadruped MAPF Demo",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:YFjsv_pBGBYC",
+    "pdf_path": "pdfs/2024-model-based-diffusion-for-trajectory-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.01573v1.pdf",
+    "title": "Model-based diffusion for trajectory optimization",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:1sJd4Hv_s6UC",
+    "pdf_path": "pdfs/2024-genesis-a-universal-and-generative-physics-engine-for-robotics-and-beyond.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.01454.pdf",
+    "title": "Genesis: A universal and generative physics engine for robotics and beyond",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:BqipwSGYUEgC",
+    "pdf_path": "pdfs/2024-flying-calligrapher-contact-aware-motion-and-force-planning-and-control-for-aerial-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.05587v2.pdf",
+    "title": "Flying calligrapher: Contact-aware motion and force planning and control for aerial manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:iH-uZ7U-co4C",
+    "pdf_path": "pdfs/2024-guardians-as-you-fall-active-mode-transition-for-safe-falling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.04828v1.pdf",
+    "title": "Guardians as you fall: Active mode transition for safe falling",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:blknAaTinKkC",
+    "pdf_path": "pdfs/2024-learning-human-to-humanoid-real-time-whole-body-teleoperation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.04436v1.pdf",
+    "title": "Learning human-to-humanoid real-time whole-body teleoperation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:RYcK_YlVTxYC",
+    "pdf_path": "pdfs/2024-propagative-distance-optimization-for-constrained-inverse-kinematics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.11572v1.pdf",
+    "title": "Propagative distance optimization for constrained inverse kinematics",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:NMxIlDl6LWMC",
+    "pdf_path": "pdfs/2024-omnih2o-universal-and-dexterous-human-to-humanoid-whole-body-teleoperation-and-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.08858v1.pdf",
+    "title": "Omnih2o: Universal and dexterous human-to-humanoid whole-body teleoperation and learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:maZDTaKrznsC",
+    "pdf_path": "pdfs/2024-covo-mpc-theoretical-analysis-of-sampling-based-mpc-and-optimal-covariance-design.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.07369v1.pdf",
+    "title": "CoVO-MPC: Theoretical analysis of sampling-based MPC and optimal covariance design",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:hMod-77fHWUC",
+    "pdf_path": "pdfs/2024-wococo-learning-whole-body-humanoid-control-with-sequential-contacts.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.06005v2.pdf",
+    "title": "Wococo: Learning whole-body humanoid control with sequential contacts",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:isC4tDSrTZIC",
+    "pdf_path": "pdfs/2024-hierarchical-meta-learning-based-adaptive-controller.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.12367v2.pdf",
+    "title": "Hierarchical meta-learning-based adaptive controller",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:TFP_iSt0sucC",
+    "pdf_path": "pdfs/2024-safe-deep-policy-adaptation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08602.pdf",
+    "title": "Safe deep policy adaptation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:bEWYMUwI8FkC",
+    "pdf_path": "pdfs/2024-deep-model-predictive-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.04590.pdf",
+    "title": "Deep model predictive optimization",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:M3NEmzRMIkIC",
+    "pdf_path": "pdfs/2024-agile-but-safe-learning-collision-free-high-speed-legged-locomotion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.17583v3.pdf",
+    "title": "Agile but safe: Learning collision-free high-speed legged locomotion",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:k_IJM867U9cC",
+    "pdf_path": "pdfs/2023-model-predictive-control-for-aggressive-driving-over-uneven-terrain.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.12284v3.pdf",
+    "title": "Model predictive control for aggressive driving over uneven terrain",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:4JMBOYKVnBMC",
+    "pdf_path": "pdfs/2023-datt-deep-adaptive-trajectory-tracking-for-quadrotor-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.09053v3.pdf",
+    "title": "Datt: Deep adaptive trajectory tracking for quadrotor control",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:WF5omc3nYNoC",
+    "pdf_path": "pdfs/2023-systems-and-methods-for-robust-learning-based-control-during-forward-and-landing-flight-under-uncertain-conditions.pdf",
+    "pdf_url": "https://patentimages.storage.googleapis.com/37/4c/9f/aa61ea45f445be/US11693373.pdf",
+    "title": "Systems and methods for robust learning-based control during forward and landing flight under uncertain conditions",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:_Qo2XoVZTnwC",
+    "pdf_path": "pdfs/2023-cajun-continuous-adaptive-jumping-using-a-learned-centroidal-controller.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v229/yang23b/yang23b.pdf",
+    "title": "CAJun: Continuous Adaptive Jumping using a Learned Centroidal Controller",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:j3f4tGmQtD8C",
+    "pdf_path": "pdfs/2023-aerial-interaction-with-tactile-sensing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.00142v1.pdf",
+    "title": "Aerial Interaction with Tactile Sensing",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:e5wmG9Sq2KIC",
+    "pdf_path": "pdfs/2023-optimal-exploration-for-model-based-rl-in-nonlinear-systems.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/31e018f43ab9c7065c058cc2c5848128-Paper-Conference.pdf",
+    "title": "Optimal Exploration for Model-Based RL in Nonlinear Systems",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:R3hNpaxXUhUC",
+    "pdf_path": "pdfs/2023-active-representation-learning-for-general-task-space-with-applications-in-robotics.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/ff4039889b7f89635e9cbd5cefffa0d4-Paper-Conference.pdf",
+    "title": "Active Representation Learning for General Task Space with Applications in Robotics",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:HDshCWvjkbEC",
+    "pdf_path": "pdfs/2023-leveraging-predictions-in-power-system-frequency-control-an-adaptive-approach.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.12044v1.pdf",
+    "title": "Leveraging Predictions in Power System Frequency Control: an Adaptive Approach",
+    "year": 2023
+  }
+]

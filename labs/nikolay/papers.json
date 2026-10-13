@@ -1,0 +1,555 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:gsN89kCJA0AC",
+    "pdf_path": "pdfs/2026-patterndex-learning-interaction-patterns-to-guide-reinforcement-learning-of-bimanual-dexterous-manipulation-of-articulat.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.04765v1.pdf",
+    "title": "PatternDex: Learning Interaction Patterns to Guide Reinforcement Learning of Bimanual Dexterous Manipulation of Articulated Objects",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:TIZ-Mc8IlK0C",
+    "pdf_path": "pdfs/2026-higs-hierarchical-implicit-grids-for-joint-geometric-and-semantic-scene-understanding.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.38620v1.pdf",
+    "title": "HIGS: Hierarchical Implicit Grids for Joint Geometric and Semantic Scene Understanding",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:tYavs44e6CUC",
+    "pdf_path": "pdfs/2026-oren-x-octree-residual-network-for-real-time-multi-modal-mapping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.29157v1.pdf",
+    "title": "OREN-X: Octree Residual Network for Real-Time Multi-Modal Mapping",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:KUbvn5osdkgC",
+    "pdf_path": "pdfs/2026-occlusioncbf-backup-control-barrier-functions-for-safe-navigation-among-hidden-dynamic-obstacles.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.06342v1.pdf",
+    "title": "OcclusionCBF: Backup control barrier functions for safe navigation among hidden dynamic obstacles",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:g3aElNc5_aQC",
+    "pdf_path": "pdfs/2026-a-unified-perspective-on-conformal-prediction-and-wasserstein-distributionally-robust-optimization-for-uncertainty-quant.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.29789.pdf",
+    "title": "A Unified Perspective on Conformal Prediction and Wasserstein Distributionally Robust Optimization for Uncertainty Quantification",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:Z5m8FVwuT1cC",
+    "pdf_path": "pdfs/2026-from-distances-to-trajectories-real-time-signed-distance-function-mapping-and-distance-accelerated-motion-planning-for-u.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.19306v1.pdf",
+    "title": "From Distances to Trajectories: Real-Time Signed Distance Function Mapping and Distance-Accelerated Motion Planning for UAVs",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:p__nRnzSRKYC",
+    "pdf_path": "pdfs/2026-serf-spatiotemporal-environment-and-robot-feature-map-for-long-horizon-mobile-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.12956v1.pdf",
+    "title": "SERF: Spatiotemporal Environment and Robot Feature Map for Long-Horizon Mobile Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:BwyfMAYsbu0C",
+    "pdf_path": "pdfs/2026-dexfuture-hierarchical-future-state-visuomotor-targeting-for-bimanual-dexterous-tool-use.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.05699v1.pdf",
+    "title": "DexFuture: Hierarchical Future-State Visuomotor Targeting for Bimanual Dexterous Tool Use",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:epqYDVWIO7EC",
+    "pdf_path": "pdfs/2026-control-barrier-corridors-from-safety-functions-to-safe-goal-sets.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.06494v1.pdf",
+    "title": "Control Barrier Corridors: From Safety Functions to Safe Goal Sets",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:zLWjf1WUPmwC",
+    "pdf_path": "pdfs/2026-splatsdf-boosting-sdf-nerf-via-architecture-level-fusion-with-gaussian-splats.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.15468v2.pdf",
+    "title": "SplatSDF: Boosting SDF-NeRF via Architecture-Level Fusion with Gaussian Splats",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:tzM49s52ZIMC",
+    "pdf_path": "pdfs/2026-seeing-the-bigger-picture-3d-latent-mapping-for-mobile-manipulation-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.03885v4.pdf",
+    "title": "Seeing the bigger picture: 3d latent mapping for mobile manipulation policy learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:ML0RJ9NH7IQC",
+    "pdf_path": "pdfs/2026-object-informed-model-predictive-path-integral-control-for-non-prehensile-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.30778.pdf",
+    "title": "Object-Informed Model Predictive Path Integral Control for Non-Prehensile Robot Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:evX43VCCuoAC",
+    "pdf_path": "pdfs/2026-constrained-variational-inference-via-safe-particle-flow.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.10356v2.pdf",
+    "title": "Constrained Variational Inference via Safe Particle Flow",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:ZuybSZzF8UAC",
+    "pdf_path": "pdfs/2026-neural-configuration-space-barriers-for-manipulation-planning-and-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.04929v4.pdf",
+    "title": "Neural configuration-space barriers for manipulation planning and control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:JQOojiI6XY0C",
+    "pdf_path": "pdfs/2026-learning-scene-level-signed-directional-distance-function-with-ellipsoidal-priors-and-neural-residuals.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.20066v2.pdf",
+    "title": "Learning Scene-Level Signed Directional Distance Function with Ellipsoidal Priors and Neural Residuals",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:NJ774b8OgUMC",
+    "pdf_path": "pdfs/2026-certifying-stability-of-reinforcement-learning-policies-using-generalized-lyapunov-functions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.10947v4.pdf",
+    "title": "Certifying stability of reinforcement learning policies using generalized Lyapunov functions",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:URolC5Kub84C",
+    "pdf_path": "pdfs/2026-contact-aware-planning-and-control-of-continuum-robots-in-highly-constrained-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.15638v1.pdf",
+    "title": "Contact-Aware Planning and Control of Continuum Robots in Highly Constrained Environments",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:uWiczbcajpAC",
+    "pdf_path": "pdfs/2026-adapting-neural-robot-dynamics-on-the-fly-for-predictive-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.04039v2.pdf",
+    "title": "Adapting Neural Robot Dynamics on the Fly for Predictive Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:vDijr-p_gm4C",
+    "pdf_path": "pdfs/2026-kernel-sdf-an-open-source-library-for-real-time-signed-distance-function-estimation-using-kernel-regression.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.29227v2.pdf",
+    "title": "Kernel-SDF: An Open-Source Library for Real-Time Signed Distance Function Estimation using Kernel Regression",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:EkHepimYqZsC",
+    "pdf_path": "pdfs/2026-rainbow-demorl-combining-improvements-in-demonstration-augmented-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.27400v1.pdf",
+    "title": "Rainbow-DemoRL: Combining Improvements in Demonstration-Augmented Reinforcement Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:UHK10RUVsp4C",
+    "pdf_path": "pdfs/2026-dynagslam-real-time-gaussian-splatting-slam-for-online-rendering-tracking-motion-predictions-of-moving-objects-in-dynami.pdf",
+    "pdf_url": "https://natanaso.github.io/ref/Li_DynaGSLAM_WACV26.pdf",
+    "title": "Dynagslam: Real-time gaussian-splatting slam for online rendering, tracking, motion predictions of moving objects in dynamic scenes",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:0KyAp5RtaNEC",
+    "pdf_path": "pdfs/2026-physgraph-physically-grounded-graph-transformer-policies-for-bimanual-dexterous-hand-tool-object-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.01436v1.pdf",
+    "title": "PhysGraph: Physically-Grounded Graph-Transformer Policies for Bimanual Dexterous Hand-Tool-Object Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:LjlpjdlvIbIC",
+    "pdf_path": "pdfs/2026-safety-critical-control-of-discontinuous-systems-with-nonsmooth-safe-sets.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.15437v1.pdf",
+    "title": "Safety-critical control of discontinuous systems with nonsmooth safe sets",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:-_dYPAW6P2MC",
+    "pdf_path": "pdfs/2026-safe-planning-in-unknown-environments-using-conformalized-semantic-maps.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.25124v2.pdf",
+    "title": "Safe planning in unknown environments using conformalized semantic maps",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:t6usbXjVLHcC",
+    "pdf_path": "pdfs/2026-sensor-based-distributionally-robust-control-for-safe-robot-navigation-in-dynamic-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.18251v4.pdf",
+    "title": "Sensor-based distributionally robust control for safe robot navigation in dynamic environments",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:XD-gHx7UXLsC",
+    "pdf_path": "pdfs/2026-control-oriented-system-identification-classical-learning-and-physics-informed-approaches.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.06315v2.pdf",
+    "title": "Control-oriented system identification: Classical, learning, and physics-informed approaches",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:z_wVstp3MssC",
+    "pdf_path": "pdfs/2025-matt-diff-multimodal-active-target-tracking-by-diffusion-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.11931v2.pdf",
+    "title": "MATT-Diff: Multimodal Active Target Tracking by Diffusion Policy",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:VLnqNzywnoUC",
+    "pdf_path": "pdfs/2025-a-shared-autonomy-construction-robotic-system-for-overhead-works.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.09695.pdf",
+    "title": "A shared-autonomy construction robotic system for overhead works",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:WA5NYHcadZ8C",
+    "pdf_path": "pdfs/2025-slideslam-sparse-lightweight-decentralized-metric-semantic-slam-for-multirobot-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.17249v7.pdf",
+    "title": "Slideslam: Sparse, lightweight, decentralized metric-semantic slam for multirobot navigation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:L7CI7m0gUJcC",
+    "pdf_path": "pdfs/2025-oren-octree-residual-network-for-real-time-euclidean-signed-distance-mapping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.18999v3.pdf",
+    "title": "OREN: Octree Residual Network for Real-Time Euclidean Signed Distance Mapping",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:PR6Y55bgFSsC",
+    "pdf_path": "pdfs/2025-ltlcodegen-code-generation-of-syntactically-correct-temporal-logic-for-robot-task-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.07902v2.pdf",
+    "title": "Ltlcodegen: Code generation of syntactically correct temporal logic for robot task planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:1yQoGdGgb4wC",
+    "pdf_path": "pdfs/2025-latmos-latent-automaton-task-model-from-observation-sequences.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.08090v2.pdf",
+    "title": "Latmos: Latent automaton task model from observation sequences",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:tkaPQYYpVKoC",
+    "pdf_path": "pdfs/2025-neural-configuration-distance-function-for-continuum-robot-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.13865v2.pdf",
+    "title": "Neural configuration distance function for continuum robot control",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:5ugPr518TE4C",
+    "pdf_path": "pdfs/2025-learning-generalizable-feature-fields-for-mobile-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.07563v2.pdf",
+    "title": "Learning generalizable feature fields for mobile manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:Fu2w8maKXqMC",
+    "pdf_path": "pdfs/2025-learned-imu-bias-prediction-for-invariant-visual-inertial-odometry.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.06748v2.pdf",
+    "title": "Learned imu bias prediction for invariant visual inertial odometry",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:j8SEvjWlNXcC",
+    "pdf_path": "pdfs/2025-sdf-learning-euclidean-signed-distance-functions-online-with-gradient-augmented-octree-interpolation-and-neural-residual.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.18999.pdf",
+    "title": "SDF: Learning Euclidean Signed Distance Functions Online with Gradient-Augmented Octree Interpolation and Neural Residual",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:35r97b3x0nAC",
+    "pdf_path": "pdfs/2025-policy-gradient-with-self-attention-for-model-free-distributed-nonlinear-multi-agent-games.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.18371v2.pdf",
+    "title": "Policy Gradient with Self-Attention for Model-Free Distributed Nonlinear Multi-Agent Games",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:JoZmwDi-zQgC",
+    "pdf_path": "pdfs/2025-pkf-probabilistic-data-association-kalman-filter-for-multi-object-tracking.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.06378v2.pdf",
+    "title": "Pkf: Probabilistic data association kalman filter for multi-object tracking",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:1qzjygNMrQYC",
+    "pdf_path": "pdfs/2025-physics-informed-multiagent-reinforcement-learning-for-distributed-multirobot-problems.pdf",
+    "pdf_url": "https://ieeexplore.ieee.org/iel8/8860/4359257/11049031.pdf",
+    "title": "Physics-informed multiagent reinforcement learning for distributed multirobot problems",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:uLbwQdceFCQC",
+    "pdf_path": "pdfs/2025-high-accuracy-aerial-maneuvers-on-legged-robots-using-variational-integrator-discretized-trajectory-optimization.pdf",
+    "pdf_url": "http://erl.ucsd.edu/ref/BeckNguyen_VITO_ICRA25.pdf",
+    "title": "High Accuracy Aerial Maneuvers on Legged Robots using Variational Integrator Discretized Trajectory Optimization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:PELIpwtuRlgC",
+    "pdf_path": "pdfs/2025-control-strategies-for-pursuit-evasion-under-occlusion-using-visibility-and-safety-barrier-functions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.01321v2.pdf",
+    "title": "Control strategies for pursuit-evasion under occlusion using visibility and safety barrier functions",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:5awf1xo2G04C",
+    "pdf_path": "pdfs/2025-importance-sampling-with-stochastic-particle-flow-and-diffusion-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.09778v1.pdf",
+    "title": "Importance sampling with stochastic particle flow and diffusion optimization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:ILKRHgRFtOwC",
+    "pdf_path": "pdfs/2025-variational-formulation-of-particle-flow.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.04007v2.pdf",
+    "title": "Variational Formulation of Particle Flow",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:W5xh706n7nkC",
+    "pdf_path": "pdfs/2025-variational-formulation-of-the-particle-flow-particle-filter.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.04007.pdf",
+    "title": "Variational Formulation of the Particle Flow Particle Filter",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:_B80troHkn4C",
+    "pdf_path": "pdfs/2025-generalizable-motion-planning-via-operator-learning.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/458d9f2dd5c7565af60143630dc62f10-Paper-Conference.pdf",
+    "title": "Generalizable motion planning via operator learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:_Ybze24A_UAC",
+    "pdf_path": "pdfs/2025-miso-multiresolution-submap-optimization-for-efficient-globally-consistent-neural-implicit-reconstruction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.19104v1.pdf",
+    "title": "MISO: Multiresolution submap optimization for efficient globally consistent neural implicit reconstruction",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:V3AGJWp-ZtQC",
+    "pdf_path": "pdfs/2025-distributed-bayesian-estimation-in-sensor-networks-consensus-on-marginal-densities.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.01227v3.pdf",
+    "title": "Distributed Bayesian Estimation in Sensor Networks: Consensus on Marginal Densities",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:EYYDruWGBe4C",
+    "pdf_path": "pdfs/2025-safe-control-of-second-order-systems-with-linear-constraints.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.10953.pdf",
+    "title": "Safe Control of Second-Order Systems with Linear Constraints",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:kzcrU_BdoSEC",
+    "pdf_path": "pdfs/2025-dynagslam-real-time-gaussian-splatting-slam-for.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.11979v1.pdf",
+    "title": "DynaGSLAM: Real-Time Gaussian-Splatting SLAM for",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:VOx2b1Wkg3QC",
+    "pdf_path": "pdfs/2025-distributed-variational-inference-for-online-supervised-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.02606.pdf",
+    "title": "Distributed variational inference for online supervised learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:5Ul4iDaHHb8C",
+    "pdf_path": "pdfs/2025-continuity-and-boundedness-of-minimum-norm-cbf-safe-controllers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.07398v1.pdf",
+    "title": "Continuity and boundedness of minimum-norm CBF-safe controllers",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:olpn-zPbct0C",
+    "pdf_path": "pdfs/2025-riemannian-optimization-for-active-mapping-with-robot-teams.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.18321v2.pdf",
+    "title": "Riemannian optimization for active mapping with robot teams",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:N5tVd3kTz84C",
+    "pdf_path": "pdfs/2025-2025-index-ieee-transactions-on-robotics-vol-41.pdf",
+    "pdf_url": "https://ieeexplore.ieee.org/iel8/8860/10778592/11368765.pdf",
+    "title": "2025 Index IEEE Transactions on Robotics Vol. 41",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:WqliGbK-hY8C",
+    "pdf_path": "pdfs/2024-variable-frequency-model-learning-and-predictive-control-for-jumping-maneuvers-on-legged-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.14749v2.pdf",
+    "title": "Variable-frequency model learning and predictive control for jumping maneuvers on legged robots",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:eMMeJKvmdy0C",
+    "pdf_path": "pdfs/2024-stabilization-of-nonlinear-systems-through-control-barrier-functions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.08398.pdf",
+    "title": "Stabilization of Nonlinear Systems through Control Barrier Functions",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:eq2jaN3J8jMC",
+    "pdf_path": "pdfs/2024-distributed-multiagent-reinforcement-learning-with-one-hop-neighbors-and-compute-straggler-mitigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2202.09019.pdf",
+    "title": "Distributed Multiagent Reinforcement Learning With One-Hop Neighbors and Compute Straggler Mitigation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:SdhP9T11ey4C",
+    "pdf_path": "pdfs/2024-splatsdf-boosting-neural-implicit-sdf-via-gaussian-splatting-fusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.15468.pdf",
+    "title": "SplatSDF: Boosting Neural Implicit SDF via Gaussian Splatting Fusion",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:XiVPGOgt02cC",
+    "pdf_path": "pdfs/2024-multi-robot-object-slam-using-distributed-variational-inference.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.18331v3.pdf",
+    "title": "Multi-robot object SLAM using distributed variational inference",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:Y5dfb0dijaUC",
+    "pdf_path": "pdfs/2024-safe-bubble-cover-for-motion-planning-on-distance-fields.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.13377v1.pdf",
+    "title": "Safe bubble cover for motion planning on distance fields",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:bnK-pcrLprsC",
+    "pdf_path": "pdfs/2024-distributionally-robust-policy-and-lyapunov-certificate-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.03017v2.pdf",
+    "title": "Distributionally robust policy and lyapunov-certificate learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:J-pR_7NvFogC",
+    "pdf_path": "pdfs/2024-port-hamiltonian-neural-ode-networks-on-lie-groups-for-robot-dynamics-learning-and-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.09520v2.pdf",
+    "title": "Port-Hamiltonian neural ODE networks on Lie groups for robot dynamics learning and control",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:BrmTIyaxlBUC",
+    "pdf_path": "pdfs/2024-safe-stabilizing-control-for-polygonal-robots-in-dynamic-elliptical-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.00273v2.pdf",
+    "title": "Safe stabilizing control for polygonal robots in dynamic elliptical environments",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:HE397vMXCloC",
+    "pdf_path": "pdfs/2024-cross-embodiment-robot-manipulation-skill-transfer-using-latent-space-alignment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.01968v1.pdf",
+    "title": "Cross-embodiment robot manipulation skill transfer using latent space alignment",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:D_sINldO8mEC",
+    "pdf_path": "pdfs/2024-optimal-scene-graph-planning-with-large-language-model-guidance.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.09182v2.pdf",
+    "title": "Optimal scene graph planning with large language model guidance",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:eJXPG6dFmWUC",
+    "pdf_path": "pdfs/2024-hamiltonian-dynamics-learning-from-point-cloud-observations-for-nonholonomic-mobile-robot-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.09163v2.pdf",
+    "title": "Hamiltonian dynamics learning from point cloud observations for nonholonomic mobile robot control",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:wbdj-CoPYUoC",
+    "pdf_path": "pdfs/2024-distributed-optimization-with-consensus-constraint-for-multi-robot-semantic-octree-mapping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.08867v1.pdf",
+    "title": "Distributed optimization with consensus constraint for multi-robot semantic octree mapping",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:dshw04ExmUIC",
+    "pdf_path": "pdfs/2024-terrainmesh-metric-semantic-terrain-reconstruction-from-aerial-images-using-joint-2-d-3-d-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2204.10993.pdf",
+    "title": "Terrainmesh: Metric-semantic terrain reconstruction from aerial images using joint 2-d-3-d learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:kRWSkSYxWN8C",
+    "pdf_path": "pdfs/2023-feasibility-analysis-and-regularity-characterization-of-distributionally-robust-safe-stabilizing-controllers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.05813v2.pdf",
+    "title": "Feasibility analysis and regularity characterization of distributionally robust safe stabilizing controllers",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:LPZeul_q3PIC",
+    "pdf_path": "pdfs/2023-learning-to-identify-graphs-from-node-trajectories-in-multi-robot-networks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.04374v2.pdf",
+    "title": "Learning to identify graphs from node trajectories in multi-robot networks",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:eflP2zaiRacC",
+    "pdf_path": "pdfs/2023-east-environment-aware-safe-tracking-using-planning-and-control-co-design.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.01363v3.pdf",
+    "title": "EAST: Environment aware safe tracking using planning and control co-design",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:fQNAKQ3IYiAC",
+    "pdf_path": "pdfs/2023-dynamic-handover-throw-and-catch-with-bimanual-hands.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.05655v1.pdf",
+    "title": "Dynamic handover: Throw and catch with bimanual hands",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:4fKUyHm3Qg0C",
+    "pdf_path": "pdfs/2023-distributionally-robust-lyapunov-function-search-under-uncertainty.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v211/long23a/long23a.pdf",
+    "title": "Distributionally robust Lyapunov function search under uncertainty",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:tS2w5q8j5-wC",
+    "pdf_path": "pdfs/2023-lie-group-forced-variational-integrator-networks-for-learning-and-control-of-robot-systems.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v211/duruisseaux23a/duruisseaux23a.pdf",
+    "title": "Lie group forced variational integrator networks for learning and control of robot systems",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:tOudhMTPpwUC",
+    "pdf_path": "pdfs/2023-safe-and-stable-control-synthesis-for-uncertain-system-models-via-distributionally-robust-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.01341.pdf",
+    "title": "Safe and stable control synthesis for uncertain system models via distributionally robust optimization",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:l7t_Zn2s7bgC",
+    "pdf_path": "pdfs/2023-learning-continuous-control-policies-for-information-theoretic-active-perception.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2209.12427.pdf",
+    "title": "Learning continuous control policies for information-theoretic active perception",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:K3LRdlH-MEoC",
+    "pdf_path": "pdfs/2023-information-theoretic-abstraction-of-semantic-octree-models-for-integrated-perception-and-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2209.10035.pdf",
+    "title": "Information-theoretic abstraction of semantic octree models for integrated perception and planning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:XiSMed-E-HIC",
+    "pdf_path": "pdfs/2023-energy-aware-collision-free-information-gathering-for-heterogeneous-robot-teams.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2208.00262.pdf",
+    "title": "Energy-aware, collision-free information gathering for heterogeneous robot teams",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:uWQEDVKXjbEC",
+    "pdf_path": "pdfs/2023-a-survey-on-active-simultaneous-localization-and-mapping-state-of-the-art-and-new-frontiers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2207.00254.pdf",
+    "title": "A survey on active simultaneous localization and mapping: State of the art and new frontiers",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:sSrBHYA8nusC",
+    "pdf_path": "pdfs/2023-semantic-octree-mapping-and-shannon-mutual-information-computation-for-robot-exploration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2112.04063.pdf",
+    "title": "Semantic octree mapping and shannon mutual information computation for robot exploration",
+    "year": 2023
+  }
+]

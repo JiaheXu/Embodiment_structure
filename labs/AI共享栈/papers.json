@@ -1,0 +1,30 @@
+[
+  {
+    "page_url": "https://www.bilibili.com/video/BV1CwEf6DE2X",
+    "pdf_path": "pdfs/2025-scene-centric-unsupervised-panoptic-segmentation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.01955v1.pdf",
+    "title": "Scene-Centric Unsupervised Panoptic Segmentation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1bQKs6KEwG",
+    "pdf_path": "pdfs/2026-learning-agile-quadrotor-flight-in-the-real-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.10111v2.pdf",
+    "title": "Learning Agile Quadrotor Flight in the Real World",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1JN7t6sEXJ",
+    "pdf_path": "pdfs/2026-sand-planner-sample-efficient-diffusion-planner-in-b-spline-space-for-robust-l.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.00923.pdf",
+    "title": "SanD-Planner: Sample-Efficient Diffusion Planner in B-Spline Space for Robust L",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1JN7t6sEXJ",
+    "pdf_path": "pdfs/2026-sand-planner-sample-efficient-diffusion-planner-in-b-spline-space-for-robust-local-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.00923.pdf",
+    "title": "SanD-Planner: Sample-Efficient Diffusion Planner in B-Spline Space for Robust Local Navigation",
+    "year": 2026
+  }
+]

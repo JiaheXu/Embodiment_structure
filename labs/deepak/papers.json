@@ -1,0 +1,415 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:vbGhcppDl1QC",
+    "pdf_path": "pdfs/2026-particlesplat-self-supervised-object-centric-latent-particle-splatting.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.19463v1.pdf",
+    "title": "ParticleSplat: Self-supervised Object-centric Latent Particle Splatting",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:p__nRnzSRKYC",
+    "pdf_path": "pdfs/2026-bridge-an-open-source-humanoid-platform-via-morphology-control-co-design-for-physical-ai.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.03497v1.pdf",
+    "title": "BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:4MWp96NkSFoC",
+    "pdf_path": "pdfs/2026-attributes-should-come-from-images-not-class-names-distribution-conditioned-attribute-selection-for-vision-language-mode.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.18695v2.pdf",
+    "title": "Attributes Should Come from Images, Not Class Names: Distribution-Conditioned Attribute Selection for Vision-Language Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:BUYA1_V_uYcC",
+    "pdf_path": "pdfs/2026-flowdpg-deterministic-policy-gradient-on-flow-matching-policies-for-real-world-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.22303v2.pdf",
+    "title": "FlowDPG: Deterministic policy gradient on flow matching policies for real-world manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:AvfA0Oy_GE0C",
+    "pdf_path": "pdfs/2026-3d-dlp-self-supervised-3d-object-centric-scene-representation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.19451v1.pdf",
+    "title": "3D-DLP: Self-supervised 3D Object-centric Scene Representation Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:URolC5Kub84C",
+    "pdf_path": "pdfs/2026-factr-2-learning-external-force-sensing-for-commodity-robot-arms-improves-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.12406v2.pdf",
+    "title": "FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:ZfRJV9d4-WMC",
+    "pdf_path": "pdfs/2026-diffusion-beats-autoregressive-in-data-constrained-settings.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.15857v7.pdf",
+    "title": "Diffusion beats autoregressive in data-constrained settings",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:35r97b3x0nAC",
+    "pdf_path": "pdfs/2026-vipra-video-prediction-for-robot-actions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.07732v2.pdf",
+    "title": "Vipra: Video prediction for robot actions",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:vDijr-p_gm4C",
+    "pdf_path": "pdfs/2026-solving-physics-olympiad-via-reinforcement-learning-on-physics-simulators.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.11805.pdf",
+    "title": "Solving physics olympiad via reinforcement learning on physics simulators",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:EkHepimYqZsC",
+    "pdf_path": "pdfs/2026-latent-particle-world-models-self-supervised-object-centric-stochastic-dynamics-modeling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.04553v1.pdf",
+    "title": "Latent particle world models: Self-supervised object-centric stochastic dynamics modeling",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:uc_IGeMz5qoC",
+    "pdf_path": "pdfs/2026-expanding-the-capabilities-of-reinforcement-learning-via-text-feedback.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.02482.pdf",
+    "title": "Expanding the capabilities of reinforcement learning via text feedback",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:0KyAp5RtaNEC",
+    "pdf_path": "pdfs/2026-iterative-refinement-improves-compositional-image-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.15286v1.pdf",
+    "title": "Iterative refinement improves compositional image generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:9Nmd_mFXekcC",
+    "pdf_path": "pdfs/2025-ifg-internet-scale-guidance-for-functional-grasping-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.09558v1.pdf",
+    "title": "IFG: Internet-Scale Guidance for Functional Grasping Generation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:j8SEvjWlNXcC",
+    "pdf_path": "pdfs/2025-high-torque-density-pcb-axial-flux-permanent-magnet-motor-for-micro-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.23561v2.pdf",
+    "title": "High Torque Density PCB Axial Flux Permanent Magnet Motor for Micro Robots",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:evX43VCCuoAC",
+    "pdf_path": "pdfs/2025-locoformer-generalist-locomotion-via-long-context-adaptation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.23745v1.pdf",
+    "title": "Locoformer: Generalist locomotion via long-context adaptation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:NJ774b8OgUMC",
+    "pdf_path": "pdfs/2025-deep-reactive-policy-learning-reactive-manipulator-motion-planning-for-dynamic-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.06953v1.pdf",
+    "title": "Deep reactive policy: Learning reactive manipulator motion planning for dynamic environments",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:2KloaMYe4IUC",
+    "pdf_path": "pdfs/2025-can-llms-lie-investigation-beyond-hallucination.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.03518v1.pdf",
+    "title": "Can llms lie? investigation beyond hallucination",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:_Re3VWB3Y0AC",
+    "pdf_path": "pdfs/2025-self-questioning-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.03682.pdf",
+    "title": "Self-questioning language models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:kzcrU_BdoSEC",
+    "pdf_path": "pdfs/2025-maximizing-confidence-alone-improves-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.22660v4.pdf",
+    "title": "Maximizing confidence alone improves reasoning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:eq2jaN3J8jMC",
+    "pdf_path": "pdfs/2025-local-policies-enable-zero-shot-long-horizon-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.22332v2.pdf",
+    "title": "Local policies enable zero-shot long-horizon manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:W5xh706n7nkC",
+    "pdf_path": "pdfs/2025-dexwild-dexterous-human-interactions-for-in-the-wild-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.07813v2.pdf",
+    "title": "Dexwild: Dexterous human interactions for in-the-wild robot policies",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:Mojj43d5GZwC",
+    "pdf_path": "pdfs/2025-generative-classifiers-avoid-shortcut-solutions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.25034v1.pdf",
+    "title": "Generative classifiers avoid shortcut solutions",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:uLbwQdceFCQC",
+    "pdf_path": "pdfs/2025-unified-multimodal-discrete-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.20853.pdf",
+    "title": "Unified multimodal discrete diffusion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:UHK10RUVsp4C",
+    "pdf_path": "pdfs/2025-factr-force-attending-curriculum-training-for-contact-rich-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.17432v2.pdf",
+    "title": "Factr: Force-attending curriculum training for contact-rich policy learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:dQ2og3OwTAUC",
+    "pdf_path": "pdfs/2025-vader-video-diffusion-alignment-via-reward-gradients.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.08737v1.pdf",
+    "title": "VADER: Video Diffusion Alignment via Reward Gradients",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:5awf1xo2G04C",
+    "pdf_path": "pdfs/2024-on-the-surprising-effectiveness-of-attention-transfer-for-vision-transformers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.09702v1.pdf",
+    "title": "On the surprising effectiveness of attention transfer for vision transformers",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:dTyEYWd-f8wC",
+    "pdf_path": "pdfs/2024-bimanual-dexterity-for-complex-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.13677v1.pdf",
+    "title": "Bimanual dexterity for complex tasks",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:tkaPQYYpVKoC",
+    "pdf_path": "pdfs/2024-continuously-improving-mobile-manipulation-with-autonomous-real-world-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.20568v1.pdf",
+    "title": "Continuously improving mobile manipulation with autonomous real-world rl",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:wbdj-CoPYUoC",
+    "pdf_path": "pdfs/2024-evaluating-text-to-visual-generation-with-image-to-text-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.01291.pdf",
+    "title": "Evaluating text-to-visual generation with image-to-text generation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:SdhP9T11ey4C",
+    "pdf_path": "pdfs/2024-neural-mp-a-generalist-neural-motion-planner.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.05864.pdf",
+    "title": "Neural mp: A generalist neural motion planner",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:olpn-zPbct0C",
+    "pdf_path": "pdfs/2024-sapg-split-and-aggregate-policy-gradients.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.20230v1.pdf",
+    "title": "Sapg: Split and aggregate policy gradients",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:WA5NYHcadZ8C",
+    "pdf_path": "pdfs/2024-genai-bench-evaluating-and-improving-compositional-text-to-visual-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.13743v3.pdf",
+    "title": "Genai-bench: Evaluating and improving compositional text-to-visual generation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:XiVPGOgt02cC",
+    "pdf_path": "pdfs/2024-spin-simultaneous-perception-interaction-and-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.07991v1.pdf",
+    "title": "Spin: Simultaneous perception, interaction and navigation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:4fKUyHm3Qg0C",
+    "pdf_path": "pdfs/2024-language-models-as-black-box-optimizers-for-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.05950.pdf",
+    "title": "Language models as black-box optimizers for vision-language models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:V3AGJWp-ZtQC",
+    "pdf_path": "pdfs/2024-meta-evolve-continuous-robot-evolution-for-one-to-many-policy-transfer.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.03534v1.pdf",
+    "title": "Meta-evolve: Continuous robot evolution for one-to-many policy transfer",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:B3FOqHPlNUQC",
+    "pdf_path": "pdfs/2024-extreme-parkour-with-legged-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.14341v1.pdf",
+    "title": "Extreme parkour with legged robots",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:mvPsJ3kp5DgC",
+    "pdf_path": "pdfs/2024-learning-dexterity-from-human-hand-motion-in-internet-videos.pdf",
+    "pdf_url": "https://robots-that-learn.github.io/resources/shaw-et-al-2024-learning-dexterity-from-human-hand-motion-in-internet-videos.pdf",
+    "title": "Learning dexterity from human hand motion in internet videos",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:kRWSkSYxWN8C",
+    "pdf_path": "pdfs/2024-adaptive-mobile-manipulation-for-articulated-objects-in-the-open-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.14403v2.pdf",
+    "title": "Adaptive mobile manipulation for articulated objects in the open world",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:BrmTIyaxlBUC",
+    "pdf_path": "pdfs/2023-diffusion-tta-test-time-adaptation-of-discriminative-models-via-generative-feedback.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.16102v2.pdf",
+    "title": "Diffusion-tta: Test-time adaptation of discriminative models via generative feedback",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:eflP2zaiRacC",
+    "pdf_path": "pdfs/2023-designing-anthropomorphic-soft-hands-through-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.04784v3.pdf",
+    "title": "Designing anthropomorphic soft hands through interaction",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:tS2w5q8j5-wC",
+    "pdf_path": "pdfs/2023-playfusion-skill-acquisition-via-diffusion-from-language-annotated-play.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.04549v1.pdf",
+    "title": "Playfusion: Skill acquisition via diffusion from language-annotated play",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:vRqMK49ujn8C",
+    "pdf_path": "pdfs/2023-deft-dexterous-fine-tuning-for-real-world-hand-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.19797v2.pdf",
+    "title": "Deft: Dexterous fine-tuning for real-world hand policies",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:nb7KW1ujOQ8C",
+    "pdf_path": "pdfs/2023-your-diffusion-model-is-secretly-a-zero-shot-classifier.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.16203.pdf",
+    "title": "Your diffusion model is secretly a zero-shot classifier",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:WbkHhVStYXYC",
+    "pdf_path": "pdfs/2023-leap-hand-low-cost-efficient-and-anthropomorphic-hand-for-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.06440v1.pdf",
+    "title": "Leap hand: Low-cost, efficient, and anthropomorphic hand for robot learning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:u9iWguZQMMsC",
+    "pdf_path": "pdfs/2023-efficient-rl-via-disentangled-environment-and-agent-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.02435v1.pdf",
+    "title": "Efficient rl via disentangled environment and agent representations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:738O_yMBCRsC",
+    "pdf_path": "pdfs/2023-structured-world-models-from-human-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2308.10901v1.pdf",
+    "title": "Structured world models from human videos",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:xtRiw3GOFMkC",
+    "pdf_path": "pdfs/2023-internet-explorer-targeted-representation-learning-on-the-open-web.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.14051v2.pdf",
+    "title": "Internet explorer: Targeted representation learning on the open web",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:a0OBvERweLwC",
+    "pdf_path": "pdfs/2023-test-time-adaptation-with-slot-centric-models.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v202/prabhudesai23a/prabhudesai23a.pdf",
+    "title": "Test-time adaptation with slot-centric models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:KxtntwgDAa4C",
+    "pdf_path": "pdfs/2023-affordances-from-human-videos-as-a-versatile-representation-for-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.08488.pdf",
+    "title": "Affordances from human videos as a versatile representation for robotics",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:bFI3QPDXJZMC",
+    "pdf_path": "pdfs/2023-multimodality-helps-unimodality-cross-modal-few-shot-learning-with-multimodal-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2301.06267v5.pdf",
+    "title": "Multimodality helps unimodality: Cross-modal few-shot learning with multimodal models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:J-pR_7NvFogC",
+    "pdf_path": "pdfs/2023-revisiting-the-role-of-language-priors-in-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.01879.pdf",
+    "title": "Revisiting the role of language priors in vision-language models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:abG-DnoFyZgC",
+    "pdf_path": "pdfs/2023-alan-autonomously-exploring-robotic-agents-in-the-real-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.06604v1.pdf",
+    "title": "Alan: Autonomously exploring robotic agents in the real world",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:P5F9QuxV20EC",
+    "pdf_path": "pdfs/2023-legs-as-manipulator-pushing-quadrupedal-agility-beyond-locomotion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.11330v2.pdf",
+    "title": "Legs as manipulator: Pushing quadrupedal agility beyond locomotion",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:4OULZ7Gr8RgC",
+    "pdf_path": "pdfs/2023-videodex-learning-dexterity-from-internet-videos.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v205/shaw23a/shaw23a.pdf",
+    "title": "Videodex: Learning dexterity from internet videos",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:u_35RYKgDlwC",
+    "pdf_path": "pdfs/2023-deep-whole-body-control-learning-a-unified-policy-for-manipulation-and-locomotion.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v205/fu23a/fu23a.pdf",
+    "title": "Deep whole-body control: Learning a unified policy for manipulation and locomotion",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:rO6llkc54NcC",
+    "pdf_path": "pdfs/2023-legged-locomotion-in-challenging-terrains-using-egocentric-vision.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v205/agarwal23a/agarwal23a.pdf",
+    "title": "Legged locomotion in challenging terrains using egocentric vision",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:j3f4tGmQtD8C",
+    "pdf_path": "pdfs/2023-flavr-flow-agnostic-video-representations-for-fast-frame-interpolation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2012.08512.pdf",
+    "title": "Flavr: Flow-agnostic video representations for fast frame interpolation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:7T2F9Uy0os0C",
+    "pdf_path": "pdfs/2023-open-x-embodiment-robotic-learning-datasets-and-rt-x-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08864v9.pdf",
+    "title": "Open x-embodiment: Robotic learning datasets and rt-x models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:dshw04ExmUIC",
+    "pdf_path": "pdfs/2023-visualgptscore-visio-linguistic-reasoning-with-multimodal-generative-pre-training-scores.pdf",
+    "pdf_url": "https://linzhiqiu.github.io/papers/visual_gpt_score/preprint_visualgptscore.pdf",
+    "title": "Visualgptscore: Visio-linguistic reasoning with multimodal generative pre-training scores",
+    "year": 2023
+  }
+]

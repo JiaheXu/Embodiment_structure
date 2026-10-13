@@ -1,0 +1,485 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:Y5dfb0dijaUC",
+    "pdf_path": "pdfs/2026-prefpi-preference-guided-steering-into-out-of-distribution-behaviors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.40165v1.pdf",
+    "title": "PrefPI: Preference-Guided Steering into Out-of-Distribution Behaviors",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:Mojj43d5GZwC",
+    "pdf_path": "pdfs/2026-world-action-models-for-robot-learning-and-control-a-survey.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.16074.pdf",
+    "title": "World-action models for robot learning and control: A survey",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:kRWSkSYxWN8C",
+    "pdf_path": "pdfs/2026-action-chunk-scheduling-for-batched-robot-policy-serving.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.00337v1.pdf",
+    "title": "Action Chunk Scheduling for Batched Robot Policy Serving",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:XiVPGOgt02cC",
+    "pdf_path": "pdfs/2026-static-in-dynamic-out-counterfactual-action-augmentation-for-moving-object-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.27890v1.pdf",
+    "title": "Static In, Dynamic Out: Counterfactual Action Augmentation for Moving Object Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:wbdj-CoPYUoC",
+    "pdf_path": "pdfs/2026-understanding-and-mitigating-the-video-action-generalization-gap-via-temporal-ratio.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.08127v1.pdf",
+    "title": "Understanding and Mitigating the Video-Action Generalization Gap via Temporal Ratio",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:1qzjygNMrQYC",
+    "pdf_path": "pdfs/2026-egowam-world-action-models-beyond-pixels-with-in-the-wild-egocentric-human-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.08436v1.pdf",
+    "title": "EgoWAM: World Action Models Beyond Pixels with In-the-Wild Egocentric Human Data",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:mvPsJ3kp5DgC",
+    "pdf_path": "pdfs/2026-warp-whole-body-retargeting-for-learning-from-offline-human-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.29940v2.pdf",
+    "title": "WARP: Whole-Body Retargeting for Learning from Offline Human Demonstrations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:BrmTIyaxlBUC",
+    "pdf_path": "pdfs/2026-human2any-human-to-robot-transfer-via-constraint-aware-compositional-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.28813v1.pdf",
+    "title": "Human2Any: Human-to-Robot Transfer via Constraint-Aware Compositional Planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:q3oQSFYPqjQC",
+    "pdf_path": "pdfs/2026-simfoundry-modular-and-automated-scene-generation-for-policy-learning-and-evaluation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.28276v4.pdf",
+    "title": "Simfoundry: Modular and automated scene generation for policy learning and evaluation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:fQNAKQ3IYiAC",
+    "pdf_path": "pdfs/2026-graft-graph-based-affordance-transfer-via-part-correspondence.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.25241v1.pdf",
+    "title": "GRAFT: Graph-Based Affordance Transfer via Part Correspondence",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:eflP2zaiRacC",
+    "pdf_path": "pdfs/2026-learning-to-see-while-learning-to-act-diffusion-models-for-active-perception-in-robot-imitation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.23625.pdf",
+    "title": "Learning to See While Learning to Act: Diffusion Models for Active Perception in Robot Imitation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:V3AGJWp-ZtQC",
+    "pdf_path": "pdfs/2026-energy-based-compositional-diffusion-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.21646.pdf",
+    "title": "Energy-based Compositional Diffusion Planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:bnK-pcrLprsC",
+    "pdf_path": "pdfs/2026-contrastive-action-image-pre-training-for-visuomotor-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.17256v1.pdf",
+    "title": "Contrastive Action-Image Pre-training for Visuomotor Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:5ugPr518TE4C",
+    "pdf_path": "pdfs/2026-t-rex-tactile-reactive-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.17055v2.pdf",
+    "title": "T-Rex: Tactile-reactive dexterous manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:J-pR_7NvFogC",
+    "pdf_path": "pdfs/2026-egoengine-from-egocentric-human-videos-to-high-fidelity-dexterous-robot-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.12604v1.pdf",
+    "title": "EgoEngine: From Egocentric Human Videos to High-Fidelity Dexterous Robot Demonstrations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:eJXPG6dFmWUC",
+    "pdf_path": "pdfs/2026-planning-aligned-token-compression-for-long-context-autonomous-driving.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.07464v3.pdf",
+    "title": "Planning-aligned Token Compression for Long-Context Autonomous Driving",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:AXPGKjj_ei8C",
+    "pdf_path": "pdfs/2026-uncertainty-driven-3d-gaussian-splatting-active-mapping-via-anisotropic-visibility-field.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.30342v1.pdf",
+    "title": "Uncertainty-driven 3D Gaussian Splatting Active Mapping via Anisotropic Visibility Field",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:WA5NYHcadZ8C",
+    "pdf_path": "pdfs/2026-techniques-for-performing-low-rank-self-calibration-of-3d-geometric-foundation-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.07746v1.pdf",
+    "title": "Techniques for performing low-rank self-calibration of 3d geometric foundation models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:5Ul4iDaHHb8C",
+    "pdf_path": "pdfs/2026-kinder-a-physical-reasoning-benchmark-for-robot-learning-and-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.25788.pdf",
+    "title": "KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:u9iWguZQMMsC",
+    "pdf_path": "pdfs/2026-generalizable-domain-adaptation-for-sim-and-real-policy-co-training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.18631v3.pdf",
+    "title": "Generalizable domain adaptation for sim-and-real policy co-training",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:abG-DnoFyZgC",
+    "pdf_path": "pdfs/2026-generative-trajectory-stitching-through-diffusion-composition.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.05153v2.pdf",
+    "title": "Generative trajectory stitching through diffusion composition",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:vRqMK49ujn8C",
+    "pdf_path": "pdfs/2026-compositional-visual-planning-via-inference-time-diffusion-scaling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.02646v1.pdf",
+    "title": "Compositional visual planning via inference-time diffusion scaling",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:l7t_Zn2s7bgC",
+    "pdf_path": "pdfs/2026-compositional-diffusion-with-guided-search-for-long-horizon-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.00126v3.pdf",
+    "title": "Compositional diffusion with guided search for long-horizon planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:XiSMed-E-HIC",
+    "pdf_path": "pdfs/2026-reference-grounded-skill-discovery.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.06203v3.pdf",
+    "title": "Reference grounded skill discovery",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:8AbLer7MMksC",
+    "pdf_path": "pdfs/2026-egoverse-an-egocentric-human-dataset-for-robot-learning-from-around-the-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.07607v2.pdf",
+    "title": "Egoverse: An egocentric human dataset for robot learning from around the world",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:geHnlv5EZngC",
+    "pdf_path": "pdfs/2026-resteer-quantifying-and-refining-the-steerability-of-multitask-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.17300v1.pdf",
+    "title": "ReSteer: Quantifying and Refining the Steerability of Multitask Robot Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:D_sINldO8mEC",
+    "pdf_path": "pdfs/2026-egoavflow-robot-policy-learning-with-active-vision-from-human-egocentric-videos-via-3d-flow.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.22461v1.pdf",
+    "title": "Egoavflow: Robot policy learning with active vision from human egocentric videos via 3d flow",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:4fKUyHm3Qg0C",
+    "pdf_path": "pdfs/2026-egoscale-scaling-dexterous-manipulation-with-diverse-egocentric-human-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.16710v1.pdf",
+    "title": "Egoscale: Scaling dexterous manipulation with diverse egocentric human data",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:B3FOqHPlNUQC",
+    "pdf_path": "pdfs/2026-world-action-models-are-zero-shot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.15922.pdf",
+    "title": "World action models are zero-shot policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:tOudhMTPpwUC",
+    "pdf_path": "pdfs/2026-a-closed-form-geometric-retargeting-solver-for-upper-body-humanoid-robot-teleoperation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.01632.pdf",
+    "title": "A Closed-Form Geometric Retargeting Solver for Upper Body Humanoid Robot Teleoperation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:uWQEDVKXjbEC",
+    "pdf_path": "pdfs/2026-emma-scaling-mobile-manipulation-via-egocentric-human-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.04443v3.pdf",
+    "title": "Emma: Scaling mobile manipulation via egocentric human data",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:K3LRdlH-MEoC",
+    "pdf_path": "pdfs/2026-counterfactual-vla-self-reflective-vision-language-action-model-with-adaptive-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.24426v1.pdf",
+    "title": "Counterfactual vla: Self-reflective vision-language-action model with adaptive reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:xtRiw3GOFMkC",
+    "pdf_path": "pdfs/2026-learning-predictive-visuomotor-coordination.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.23300v2.pdf",
+    "title": "Learning predictive visuomotor coordination",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:738O_yMBCRsC",
+    "pdf_path": "pdfs/2025-emergence-of-human-to-robot-transfer-in-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.22414.pdf",
+    "title": "Emergence of human to robot transfer in vision-language-action models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:ZHo1McVdvXMC",
+    "pdf_path": "pdfs/2025-opt2skill-imitating-dynamically-feasible-whole-body-trajectories-for-versatile-humanoid-loco-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.20514v6.pdf",
+    "title": "Opt2skill: Imitating dynamically-feasible whole-body trajectories for versatile humanoid loco-manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:p2g8aNsByqUC",
+    "pdf_path": "pdfs/2025-egobridge-domain-adaptation-for-generalizable-imitation-from-egocentric-human-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.19626v1.pdf",
+    "title": "Egobridge: Domain adaptation for generalizable imitation from egocentric human data",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:KxtntwgDAa4C",
+    "pdf_path": "pdfs/2025-immimic-cross-domain-imitation-from-human-videos-via-mapping-and-interpolation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.10952v1.pdf",
+    "title": "Immimic: Cross-domain imitation from human videos via mapping and interpolation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:OU6Ihb5iCvQC",
+    "pdf_path": "pdfs/2025-joint-model-based-model-free-diffusion-for-planning-with-constraints.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.08775v2.pdf",
+    "title": "Joint model-based model-free diffusion for planning with constraints",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:P5F9QuxV20EC",
+    "pdf_path": "pdfs/2025-sail-faster-than-demonstration-execution-of-imitation-learning-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.11948v2.pdf",
+    "title": "Sail: Faster-than-demonstration execution of imitation learning policies",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:yD5IFk8b50cC",
+    "pdf_path": "pdfs/2025-dreamdrive-generative-4d-scene-modeling-from-street-view-images.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.00601v2.pdf",
+    "title": "Dreamdrive: Generative 4d scene modeling from street view images",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:zA6iFVUQeVQC",
+    "pdf_path": "pdfs/2025-egomimic-scaling-imitation-learning-via-egocentric-video.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.24221v1.pdf",
+    "title": "Egomimic: Scaling imitation learning via egocentric video",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:3s1wT3WcHBgC",
+    "pdf_path": "pdfs/2025-rail-reachability-aided-imitation-learning-for-safe-policy-execution.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.19190v1.pdf",
+    "title": "RAIL: Reachability-aided imitation learning for safe policy execution",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:cFHS6HbyZ2cC",
+    "pdf_path": "pdfs/2025-storm-spatio-temporal-reconstruction-model-for-large-scale-outdoor-scenes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.00602v1.pdf",
+    "title": "Storm: Spatio-temporal reconstruction model for large-scale outdoor scenes",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:u_35RYKgDlwC",
+    "pdf_path": "pdfs/2025-what-matters-in-learning-from-large-scale-datasets-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.13536v1.pdf",
+    "title": "What matters in learning from large-scale datasets for robot manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:b0M2c_1WBrUC",
+    "pdf_path": "pdfs/2025-human-in-the-loop-task-and-motion-planning-for-imitation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.16014v1.pdf",
+    "title": "Human-in-the-loop task and motion planning for imitation learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:rO6llkc54NcC",
+    "pdf_path": "pdfs/2024-large-spatial-model-end-to-end-unposed-images-to-semantic-3d.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.18956v2.pdf",
+    "title": "Large spatial model: End-to-end unposed images to semantic 3d",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:blknAaTinKkC",
+    "pdf_path": "pdfs/2024-nod-tamp-multi-step-manipulation-planning-with-neural-object-descriptors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.01530.pdf",
+    "title": "NOD-TAMP: Multi-Step Manipulation Planning with Neural Object Descriptors",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:SP6oXDckpogC",
+    "pdf_path": "pdfs/2024-nod-tamp-generalizable-long-horizon-planningwith-neural-object-descriptors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.01530v4.pdf",
+    "title": "Nod-tamp: Generalizable long-horizon planningwith neural object descriptors",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:SeFeTyx0c_EC",
+    "pdf_path": "pdfs/2024-mimictouch-leveraging-multi-modal-human-tactile-demonstrations-for-contact-rich-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.16917v4.pdf",
+    "title": "MimicTouch: Leveraging Multi-modal Human Tactile Demonstrations for Contact-rich Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:J_g5lzvAfSwC",
+    "pdf_path": "pdfs/2024-a-survey-of-optimization-based-task-and-motion-planning-from-classical-to-learning-approaches.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.02817.pdf",
+    "title": "A survey of optimization-based task and motion planning: From classical to learning approaches",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:RYcK_YlVTxYC",
+    "pdf_path": "pdfs/2024-generative-factor-chaining-coordinated-manipulation-with-diffusion-based-factor-graph.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.16275v1.pdf",
+    "title": "Generative factor chaining: Coordinated manipulation with diffusion-based factor graph",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:g5m5HwL7SMYC",
+    "pdf_path": "pdfs/2024-deep-generative-models-in-robotics-a-survey-on-learning-from-multimodal-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.04380.pdf",
+    "title": "Deep generative models in robotics: A survey on learning from multimodal demonstrations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:M05iB0D1s5AC",
+    "pdf_path": "pdfs/2024-c3dm-constrained-context-conditional-diffusion-models-for-imitation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.01419v2.pdf",
+    "title": "C3DM: Constrained-Context Conditional Diffusion Models for Imitation Learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:70eg2SAEIzsC",
+    "pdf_path": "pdfs/2024-neural-visibility-field-for-uncertainty-driven-active-mapping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.06948v2.pdf",
+    "title": "Neural visibility field for uncertainty-driven active mapping",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:NMxIlDl6LWMC",
+    "pdf_path": "pdfs/2024-emernerf-emergent-spatial-temporal-scene-decomposition-via-self-supervision.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.02077v1.pdf",
+    "title": "Emernerf: Emergent spatial-temporal scene decomposition via self-supervision",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:NaGl4SEjCO4C",
+    "pdf_path": "pdfs/2024-instantsplat-sparse-view-gaussian-splatting-in-seconds.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.20309v6.pdf",
+    "title": "Instantsplat: Sparse-view gaussian splatting in seconds",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:2P1L_qKh6hAC",
+    "pdf_path": "pdfs/2024-partial-view-object-view-synthesis-via-filtering-inversion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.00673v2.pdf",
+    "title": "Partial-view object view synthesis via filtering inversion",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:M3NEmzRMIkIC",
+    "pdf_path": "pdfs/2023-neural-field-dynamics-model-for-granular-object-piles-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.00802v1.pdf",
+    "title": "Neural field dynamics model for granular object piles manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:k_IJM867U9cC",
+    "pdf_path": "pdfs/2023-learning-to-discern-imitating-heterogeneous-human-demonstrations-with-preference-and-representation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.14196v1.pdf",
+    "title": "Learning to discern: Imitating heterogeneous human demonstrations with preference and representation learning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:r0BpntZqJG4C",
+    "pdf_path": "pdfs/2023-language-guided-traffic-simulation-via-scene-level-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.06344v2.pdf",
+    "title": "Language-guided traffic simulation via scene-level diffusion",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:JV2RwH3_ST0C",
+    "pdf_path": "pdfs/2023-generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.03360v1.pdf",
+    "title": "Generative skill chaining: Long-horizon skill planning with diffusion models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:TFP_iSt0sucC",
+    "pdf_path": "pdfs/2023-league-guided-skill-learning-and-abstraction-for-long-horizon-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.12631.pdf",
+    "title": "League: Guided skill learning and abstraction for long-horizon manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:iH-uZ7U-co4C",
+    "pdf_path": "pdfs/2023-evolutionary-curriculum-training-for-drl-based-navigation-systems.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.08870v1.pdf",
+    "title": "Evolutionary Curriculum Training for DRL-Based Navigation Systems",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:mB3voiENLucC",
+    "pdf_path": "pdfs/2023-guided-conditional-diffusion-for-controllable-traffic-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.17366.pdf",
+    "title": "Guided conditional diffusion for controllable traffic simulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:RHpTSmoSYBkC",
+    "pdf_path": "pdfs/2023-zero-shot-object-searching-using-large-scale-object-relationship-prior.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.06228v1.pdf",
+    "title": "Zero-shot object searching using large-scale object relationship prior",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:ZeXyd9-uunAC",
+    "pdf_path": "pdfs/2023-robust-trajectory-prediction-against-adversarial-attacks.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v205/cao23a/cao23a.pdf",
+    "title": "Robust trajectory prediction against adversarial attacks",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:e5wmG9Sq2KIC",
+    "pdf_path": "pdfs/2023-mimicplay-long-horizon-imitation-learning-by-watching-human-play.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.12422v2.pdf",
+    "title": "Mimicplay: Long-horizon imitation learning by watching human play",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:vV6vV6tmYwMC",
+    "pdf_path": "pdfs/2023-open-x-embodiment-robotic-learning-datasets-and-rt-x-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08864v9.pdf",
+    "title": "Open X-Embodiment: Robotic learning datasets and RT-X models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:hMod-77fHWUC",
+    "pdf_path": "pdfs/2023-constrained-context-conditional-diffusion-models-for-imitation-learning.pdf",
+    "pdf_url": "https://www.research.autodesk.com/app/uploads/2024/07/constrained-context.pdf",
+    "title": "Constrained-context conditional diffusion models for imitation learning",
+    "year": 2023
+  }
+]

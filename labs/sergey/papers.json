@@ -1,0 +1,576 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:SoGhKUJvMTQC",
+    "pdf_path": "pdfs/2026-the-geometry-of-empowerment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.07796v2.pdf",
+    "title": "The Geometry of Empowerment",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:6xXPb0EiZccC",
+    "pdf_path": "pdfs/2026-long-horizon-language-model-reinforcement-learning-via-progressive-point-matching.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.07303v1.pdf",
+    "title": "Long-Horizon Language Model Reinforcement Learning via Progressive Point Matching",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:pfJNqKtVkuoC",
+    "pdf_path": "pdfs/2026-learning-to-act-while-waiting-rl-finetuning-of-generalist-robot-policies-under-inference-latency.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.23831v2.pdf",
+    "title": "Learning to Act While Waiting: RL Finetuning of Generalist Robot Policies Under Inference Latency",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:Np1obAXpBq8C",
+    "pdf_path": "pdfs/2026-cast-counterfactual-labels-improve-instruction-following-in-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.13446v2.pdf",
+    "title": "Cast: Counterfactual labels improve instruction following in vision-language-action models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:AbQWx2m_oG8C",
+    "pdf_path": "pdfs/2026-one-frozen-simulator-is-not-enough-simulator-collapse-in-multi-agent-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.12253v2.pdf",
+    "title": "One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:cAWJABFkdiUC",
+    "pdf_path": "pdfs/2026-why-does-action-chunking-improve-behavioral-cloning-performance-in-robotic-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.02547v1.pdf",
+    "title": "Why Does Action Chunking Improve Behavioral Cloning Performance in Robotic Control?",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:djcsc3XHdKAC",
+    "pdf_path": "pdfs/2026-adapting-generalist-robot-policies-with-semantic-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.31958v1.pdf",
+    "title": "Adapting Generalist Robot Policies with Semantic Reinforcement Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:Z7R3Ocg27JUC",
+    "pdf_path": "pdfs/2026-learning-process-rewards-via-success-visitation-matching-for-efficient-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.23640v1.pdf",
+    "title": "Learning Process Rewards via Success Visitation Matching for Efficient RL",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:rwEhk56xNqMC",
+    "pdf_path": "pdfs/2026-vimpo-value-implicit-policy-optimization-for-llms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.20008v1.pdf",
+    "title": "VIMPO: Value-Implicit Policy Optimization for LLMs",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:kxd3qP2_5uAC",
+    "pdf_path": "pdfs/2026-sc3-eval-evaluating-robot-foundation-models-via-self-consistent-video-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.18610v3.pdf",
+    "title": "SC3-Eval: Evaluating Robot Foundation Models via Self-Consistent Video Generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:ocbgtyEEUOwC",
+    "pdf_path": "pdfs/2026-improving-robotic-generalist-policies-via-flow-reversal-steering.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.13675v2.pdf",
+    "title": "Improving Robotic Generalist Policies via Flow Reversal Steering",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:WsFh9Szeq2wC",
+    "pdf_path": "pdfs/2026-test-time-gradient-guidance-of-flow-policies-in-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.11087.pdf",
+    "title": "Test-Time Gradient Guidance of Flow Policies in Reinforcement Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:2u1QkWOsl3MC",
+    "pdf_path": "pdfs/2026-learning-affordances-at-inference-time-for-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.19752v1.pdf",
+    "title": "Learning affordances at inference-time for vision-language-action models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:INdAjOZKYREC",
+    "pdf_path": "pdfs/2026-omnivla-an-omni-modal-vision-language-action-model-for-robot-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.19480v1.pdf",
+    "title": "OmniVLA: An omni-modal vision-language-action model for robot navigation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:v7LLNfYe7h0C",
+    "pdf_path": "pdfs/2026-measuring-and-mitigating-the-distributional-gap-between-real-and-simulated-user-behaviors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.07847v1.pdf",
+    "title": "Measuring and mitigating the distributional gap between real and simulated user behaviors",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:oYVvnHz_XzQC",
+    "pdf_path": "pdfs/2026-ogpo-sample-efficient-full-finetuning-of-generative-control-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.03065v4.pdf",
+    "title": "OGPO: Sample Efficient Full-Finetuning of Generative Control Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:e-nnqdki048C",
+    "pdf_path": "pdfs/2026-rl-token-bootstrapping-online-rl-with-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.23073v2.pdf",
+    "title": "RL Token: Bootstrapping Online RL with Vision-Language-Action Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:PcT55Ow6fAIC",
+    "pdf_path": "pdfs/2026-consistently-simulating-human-personas-with-multi-turn-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.00222v1.pdf",
+    "title": "Consistently simulating human personas with multi-turn reinforcement learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:wTekDMGr9GkC",
+    "pdf_path": "pdfs/2026-offline-goal-conditioned-reinforcement-learning-with-quasimetric-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.20478v2.pdf",
+    "title": "Offline goal-conditioned reinforcement learning with quasimetric representations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:n8FNryW2AHIC",
+    "pdf_path": "pdfs/2026-compute-optimal-scaling-for-value-based-deep-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.14881v2.pdf",
+    "title": "Compute-optimal scaling for value-based deep rl",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:_u2aKJ9e-CoC",
+    "pdf_path": "pdfs/2026-reinforcement-learning-with-action-chunking.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/50348e8f9aef984abe0ea1ec2a326f78-Paper-Conference.pdf",
+    "title": "Reinforcement learning with action chunking",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:MvIMIWP2nqIC",
+    "pdf_path": "pdfs/2026-a-stable-whitening-optimizer-for-efficient-neural-network-training.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/fe722dac731f46d30b043c6b0db9a3ef-Paper-Conference.pdf",
+    "title": "A stable whitening optimizer for efficient neural network training",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:0qX8s2k1IRwC",
+    "pdf_path": "pdfs/2026-real-time-execution-of-action-chunking-flow-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.07339v2.pdf",
+    "title": "Real-time execution of action chunking flow policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:Cy13deThEpcC",
+    "pdf_path": "pdfs/2026-horizon-reduction-makes-rl-scalable.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.04168v3.pdf",
+    "title": "Horizon reduction makes rl scalable",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:WTSGYGHz1bkC",
+    "pdf_path": "pdfs/2026-self-challenging-language-model-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.01716v1.pdf",
+    "title": "Self-challenging language model agents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:P-MJmu9ZMwQC",
+    "pdf_path": "pdfs/2026-knowledge-insulating-vision-language-action-models-train-fast-run-fast-generalize-better.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/94e936034d12bcd04834ec2773f02aff-Paper-Conference.pdf",
+    "title": "Knowledge insulating vision-language-action models: Train fast, run fast, generalize better",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:HmWvvuJwtxYC",
+    "pdf_path": "pdfs/2026-planning-without-search-refining-frontier-llms-with-offline-goal-conditioned-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.18098v2.pdf",
+    "title": "Planning without search: Refining frontier llms with offline goal-conditioned rl",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:o0eFlWRwRSUC",
+    "pdf_path": "pdfs/2026-temporal-representation-alignment-successor-features-enable-emergent-compositionality-in-robot-instruction-following.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.05454v2.pdf",
+    "title": "Temporal representation alignment: Successor features enable emergent compositionality in robot instruction following",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:6LV2YwJzdtgC",
+    "pdf_path": "pdfs/2026-scalable-offline-model-based-rl-with-action-chunks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.08108v1.pdf",
+    "title": "Scalable offline model-based RL with action chunks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:fc7zyzPI2QAC",
+    "pdf_path": "pdfs/2026-robust-fine-tuning-of-vision-language-action-robot-policies-via-parameter-merging.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/5c7465e4a236b56226ca221f3d16bf2b-Paper-Conference.pdf",
+    "title": "Robust fine-tuning of vision-language-action robot policies via parameter merging",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:nnITTVbzT6kC",
+    "pdf_path": "pdfs/2026-zero-overhead-introspection-for-adaptive-test-time-compute.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.01457v4.pdf",
+    "title": "Zero-overhead introspection for adaptive test-time compute",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:OkrdTXRNpVkC",
+    "pdf_path": "pdfs/2026-rlac-reinforcement-learning-with-adversarial-critic-for-free-form-generation-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.01758v1.pdf",
+    "title": "Rlac: Reinforcement learning with adversarial critic for free-form generation tasks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:KYgttONoxcsC",
+    "pdf_path": "pdfs/2026-transitive-rl-value-learning-via-divide-and-conquer.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.22512v2.pdf",
+    "title": "Transitive rl: Value learning via divide and conquer",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:k6nH7jlkaTkC",
+    "pdf_path": "pdfs/2026-intention-conditioned-flow-occupancy-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.08902v4.pdf",
+    "title": "Intention-conditioned flow occupancy models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:LzOrNEA7mwcC",
+    "pdf_path": "pdfs/2026-learning-to-reason-without-external-rewards.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.19590v5.pdf",
+    "title": "Learning to reason without external rewards",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:ohFW0PAxsewC",
+    "pdf_path": "pdfs/2026-a-steerable-generalist-robotic-foundation-model-with-emergent-capabilities.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.15483.pdf",
+    "title": "a Steerable Generalist Robotic Foundation Model with Emergent Capabilities",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:lBZ7XAAYe3oC",
+    "pdf_path": "pdfs/2026-bridging-the-simulation-to-experiment-gap-with-generative-models-using-adversarial-distribution-alignment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.01169v1.pdf",
+    "title": "Bridging the Simulation-to-Experiment Gap with Generative Models using Adversarial Distribution Alignment",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:it4f3qIuXWYC",
+    "pdf_path": "pdfs/2026-cliqueformer-model-based-optimization-with-structured-transformers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.13106v4.pdf",
+    "title": "Cliqueformer: Model-based optimization with structured transformers",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:TiLqlu47W2oC",
+    "pdf_path": "pdfs/2026-offline-materials-optimization-with-cliqueflowmer.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.06082v4.pdf",
+    "title": "Offline Materials Optimization with CliqueFlowmer",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:rrpmhsargb8C",
+    "pdf_path": "pdfs/2026-mem-multi-scale-embodied-memory-for-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.03596v2.pdf",
+    "title": "Mem: Multi-scale embodied memory for vision language action models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:NObE97JSLecC",
+    "pdf_path": "pdfs/2026-asyncvla-an-asynchronous-vla-for-fast-and-robust-navigation-on-the-edge.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.13476v1.pdf",
+    "title": "Asyncvla: An asynchronous vla for fast and robust navigation on the edge",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:eJjLl3UG7CkC",
+    "pdf_path": "pdfs/2026-steerable-vision-language-action-policies-for-embodied-reasoning-and-hierarchical-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.13193v3.pdf",
+    "title": "Steerable vision-language-action policies for embodied reasoning and hierarchical control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:S_Qw7xXuMuIC",
+    "pdf_path": "pdfs/2026-steervla-steering-vision-language-action-models-in-long-tail-driving-scenarios.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.08440v2.pdf",
+    "title": "Steervla: Steering vision-language-action models in long-tail driving scenarios",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:HevVnK7dagcC",
+    "pdf_path": "pdfs/2026-q-learning-with-adjoint-matching.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.14234v4.pdf",
+    "title": "Q-learning with adjoint matching",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:MDQ-9Oe3GGUC",
+    "pdf_path": "pdfs/2026-roboreward-general-purpose-vision-language-reward-models-for-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.00675v2.pdf",
+    "title": "Roboreward: General-purpose vision-language reward models for robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:9fRKRCJz75UC",
+    "pdf_path": "pdfs/2025-emergence-of-human-to-robot-transfer-in-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.22414.pdf",
+    "title": "Emergence of human to robot transfer in vision-language-action models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:5N-NJrZHaHcC",
+    "pdf_path": "pdfs/2025-posterior-behavioral-cloning-pretraining-bc-policies-for-efficient-rl-finetuning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.16911v1.pdf",
+    "title": "Posterior behavioral cloning: Pretraining bc policies for efficient rl finetuning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:YanO1q2l3soC",
+    "pdf_path": "pdfs/2025-polaris-scalable-real-to-sim-evaluations-for-generalist-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.16881v2.pdf",
+    "title": "Polaris: Scalable real-to-sim evaluations for generalist robot policies",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:K-tzbvM8PMoC",
+    "pdf_path": "pdfs/2025-traversability-aware-legged-navigation-by-learning-from-real-world-visual-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.10621v2.pdf",
+    "title": "Traversability-aware legged navigation by learning from real-world visual data",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:gxb_f1p9zx4C",
+    "pdf_path": "pdfs/2025-training-time-action-conditioning-for-efficient-real-time-chunking.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.05964v2.pdf",
+    "title": "Training-time action conditioning for efficient real-time chunking",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:2TuIPqOg0e0C",
+    "pdf_path": "pdfs/2025-natural-language-actor-critic-scalable-off-policy-learning-in-language-space.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.04601v2.pdf",
+    "title": "Natural language actor-critic: scalable off-policy learning in language space",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:g9YHGIZn7mcC",
+    "pdf_path": "pdfs/2025-learning-to-drive-anywhere-with-model-based-reannotation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.05592v3.pdf",
+    "title": "Learning to drive anywhere with model-based reannotation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:PPrs6GlykQcC",
+    "pdf_path": "pdfs/2025-a-vla-that-learns-from-experience.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.14759.pdf",
+    "title": "a VLA That Learns From Experience",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:CB6W3GmKGOEC",
+    "pdf_path": "pdfs/2025-multistep-quasimetric-learning-for-scalable-goal-conditioned-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.07730.pdf",
+    "title": "Multistep quasimetric learning for scalable goal-conditioned reinforcement learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:5UUbrqTvKfUC",
+    "pdf_path": "pdfs/2025-leveraging-discrete-function-decomposability-for-scientific-design.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.03032v3.pdf",
+    "title": "Leveraging Discrete Function Decomposability for Scientific Design",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:FKYJxdYMdFIC",
+    "pdf_path": "pdfs/2025-what-really-matters-in-matrix-whitening-optimizers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.25000v1.pdf",
+    "title": "What really matters in matrix-whitening optimizers?",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:peNFRSk4lDYC",
+    "pdf_path": "pdfs/2025-evaluating-reducing-deceptive-dialogue-from-language-models-with-multi-turn-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.14318v1.pdf",
+    "title": "Evaluating & reducing deceptive dialogue from language models with multi-turn rl",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:Gs1AF5H0x94C",
+    "pdf_path": "pdfs/2025-training-llm-agents-to-empower-humans.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.13709v2.pdf",
+    "title": "Training llm agents to empower humans",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:vrnMIr82eJkC",
+    "pdf_path": "pdfs/2025-lmrl-gym-benchmarks-for-multi-turn-reinforcement-learning-with-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.18232v1.pdf",
+    "title": "LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:LNjCCq68lIgC",
+    "pdf_path": "pdfs/2025-precise-and-dexterous-robotic-manipulation-via-human-in-the-loop-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.21845v3.pdf",
+    "title": "Precise and dexterous robotic manipulation via human-in-the-loop reinforcement learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:7nQzp1YiEc4C",
+    "pdf_path": "pdfs/2025-proposer-agent-evaluator-pae-autonomous-skill-discovery-for-foundation-model-internet-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.13194v1.pdf",
+    "title": "Proposer-agent-evaluator (pae): Autonomous skill discovery for foundation model internet agents",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:KPAPMsW7zc0C",
+    "pdf_path": "pdfs/2025-behavioral-exploration-learning-to-explore-via-in-context-adaptation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.09041v1.pdf",
+    "title": "Behavioral Exploration: Learning to Explore via In-Context Adaptation.",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:0kLwNjf3oFwC",
+    "pdf_path": "pdfs/2025-roboarena-distributed-real-world-evaluation-of-generalist-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.18123v2.pdf",
+    "title": "Roboarena: Distributed real-world evaluation of generalist robot policies",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:4WewbtJKmRkC",
+    "pdf_path": "pdfs/2025-steering-your-diffusion-policy-with-latent-space-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.15799v2.pdf",
+    "title": "Steering your diffusion policy with latent space reinforcement learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:Qh5Z_vBjo80C",
+    "pdf_path": "pdfs/2025-visual-pre-training-on-unlabeled-images-using-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.11967v1.pdf",
+    "title": "Visual Pre-Training on Unlabeled Images using Reinforcement Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:PuYkdpj8xa4C",
+    "pdf_path": "pdfs/2025-diffusion-guidance-is-a-controllable-policy-improvement-operator.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.23458.pdf",
+    "title": "Diffusion guidance is a controllable policy improvement operator",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:uoeYKOKFegwC",
+    "pdf_path": "pdfs/2025-beyond-sight-finetuning-generalist-robot-policies-with-heterogeneous-sensors-via-language-grounding.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.04693v3.pdf",
+    "title": "Beyond sight: Finetuning generalist robot policies with heterogeneous sensors via language grounding",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:GdZ7R06HQM4C",
+    "pdf_path": "pdfs/2025-ghil-glue-hierarchical-control-with-filtered-subgoal-images.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.20018v1.pdf",
+    "title": "Ghil-glue: Hierarchical control with filtered subgoal images",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:Wqn_fehR_TUC",
+    "pdf_path": "pdfs/2025-the-ingredients-for-robotic-diffusion-transformers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.10088.pdf",
+    "title": "The ingredients for robotic diffusion transformers",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:MSzX15-gZgkC",
+    "pdf_path": "pdfs/2025-kalie-fine-tuning-vision-language-models-for-open-world-manipulation-without-robot-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.14066v1.pdf",
+    "title": "Kalie: Fine-tuning vision-language models for open-world manipulation without robot data",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:ZpgFv6i7Z4gC",
+    "pdf_path": "pdfs/2025-commonsense-reasoning-for-legged-robot-adaptation-with-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.02666v1.pdf",
+    "title": "Commonsense reasoning for legged robot adaptation with vision-language models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:eJD0kABLposC",
+    "pdf_path": "pdfs/2025-learning-visuotactile-skills-with-two-multifingered-hands.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.16823v2.pdf",
+    "title": "Learning visuotactile skills with two multifingered hands",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:ExNiBuTMO9IC",
+    "pdf_path": "pdfs/2025-deep-reinforcement-learning-for-robotic-manipulation.pdf",
+    "pdf_url": "https://patentimages.storage.googleapis.com/7f/04/95/2437c0dc1b5ab6/US20250153352A1.pdf",
+    "title": "Deep reinforcement learning for robotic manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:S_fw-_riRmcC",
+    "pdf_path": "pdfs/2025-training-strategies-for-efficient-embodied-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.08243.pdf",
+    "title": "Training strategies for efficient embodied reasoning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:H-3wYkpcA84C",
+    "pdf_path": "pdfs/2025-digi-q-learning-vlm-q-value-functions-for-training-device-control-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.15760v1.pdf",
+    "title": "Digi-q: Learning vlm q-value functions for training device-control agents",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:dJ_BR67V0s4C",
+    "pdf_path": "pdfs/2025-efficient-online-reinforcement-learning-fine-tuning-need-not-retain-offline-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.07762v3.pdf",
+    "title": "Efficient online reinforcement learning fine-tuning need not retain offline data",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:kiex5tMzGo8C",
+    "pdf_path": "pdfs/2025-q-sft-q-learning-for-language-models-via-supervised-fine-tuning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.05193v2.pdf",
+    "title": "Q-sft: Q-learning for language models via supervised fine-tuning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:nbnL2fqDbzcC",
+    "pdf_path": "pdfs/2025-ogbench-benchmarking-offline-goal-conditioned-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.20092v2.pdf",
+    "title": "Ogbench: Benchmarking offline goal-conditioned rl",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:plAW456RD7MC",
+    "pdf_path": "pdfs/2025-fine-tuning-discrete-diffusion-models-via-reward-optimization-with-applications-to-dna-and-protein-design.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.13643v2.pdf",
+    "title": "Fine-tuning discrete diffusion models via reward optimization with applications to dna and protein design",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:mo9XK3BEATIC",
+    "pdf_path": "pdfs/2025-one-step-diffusion-via-shortcut-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.12557v3.pdf",
+    "title": "One step diffusion via shortcut models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:gI9wzKcniAoC",
+    "pdf_path": "pdfs/2025-adding-conditional-control-to-diffusion-models-with-reinforcement-learning.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/8bead340bb510de5c8356f60ca039efc-Paper-Conference.pdf",
+    "title": "Adding conditional control to diffusion models with reinforcement learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:0urtJCGzaFQC",
+    "pdf_path": "pdfs/2025-language-guided-skill-discovery.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.06615v2.pdf",
+    "title": "Language guided skill discovery",
+    "year": 2025
+  }
+]

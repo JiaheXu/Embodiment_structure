@@ -89,8 +89,39 @@ videos. If an arXiv link or ID appears directly in the metadata, the static
 fallback can also pick it up. When a video still has no matched paper, the
 downloader searches arXiv with the video metadata before giving up; unresolved
 video URLs are appended to that lab's `failed.txt` for manual checking.
+The downloader reads each video's full title and description from Bilibili's
+public view API first, avoiding unnecessary playback-format requests and their
+412 retries. Per-video progress is printed as metadata arrives. yt-dlp is used
+as a fallback only if the view API fails. Metadata failures
+are logged instead of silently discarding descriptions. arXiv searches use
+English title phrases and check result titles before accepting a match.
+Short names before a colon in video titles (such as `Steerable Policies`,
+`ECoT`, or `ThinkAct`) are searched as exact phrases in arXiv titles and
+abstracts. The resolver prefers a matching named title or an abstract that
+introduces the method; ambiguous matches remain unresolved.
+Hybrid extraction continues with explicit arXiv links and title searches if
+the AI endpoint fails. Successful downloads clear their saved failure entries.
+Papers with identified links download before optional title searches. Videos
+already represented in `papers.json` do not trigger another title search.
+All worker threads share a single arXiv API connection with at least three
+seconds between requests. Successful queries are reused within the run.
+HTTP 429 responses respect `Retry-After` (seconds or an HTTP date); without
+that header, retries wait 30 then 60 seconds. The cooldown also applies to
+the next query after retries are exhausted.
+Videos about general news or discussions may have no identifiable paper;
+a video URL in `failed.txt` means paper identification failed, while a paper
+title means the PDF could not be downloaded.
 `--bilibili-only` defaults to Chrome browser cookies because Bilibili often
-blocks anonymous requests. By default, it reads up to 50 uploads. `yt-dlp` handles
+blocks anonymous requests. HTTP 412 errors automatically retry once with
+`yt-dlp --impersonate chrome --sleep-requests 1`, retaining the configured
+cookies. This requires yt-dlp's optional `curl-cffi` support; install it with
+`python3 -m pip install -U "yt-dlp[default,curl-cffi]"` if the impersonation
+target is unavailable.
+If upload listing remains blocked, channels with saved Bilibili URLs in
+`failed.txt` retry those videos through the public metadata API, up to the
+video limit. The log marks this as a partial scan: new uploads cannot be checked.
+Channels without saved video URLs still report a listing failure.
+By default, it reads up to 100 uploads. `yt-dlp` handles
 pagination across channel API pages; the browser's visible page size does not
 limit this scan. The downloader processes only entries returned by `yt-dlp`
 and does not independently verify the channel's total upload count. Override the cap with:

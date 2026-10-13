@@ -1,0 +1,373 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:v1_lew4L6wgC",
+    "pdf_path": "pdfs/2026-active-reward-learning-and-iterative-trajectory-improvement-from-comparative-language-feedback.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.06401v1.pdf",
+    "title": "Active reward learning and iterative trajectory improvement from comparative language feedback",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:1taIhTC69MYC",
+    "pdf_path": "pdfs/2026-gemma-4-technical-report.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.02770v2.pdf",
+    "title": "Gemma 4 technical report",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:FiytvqdAVhgC",
+    "pdf_path": "pdfs/2026-benchmarking-and-improving-monitors-for-out-of-distribution-alignment-failure-in-llms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.21602v2.pdf",
+    "title": "Benchmarking and Improving Monitors for Out-Of-Distribution Alignment Failure in LLMs",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:otzGkya1bYkC",
+    "pdf_path": "pdfs/2026-planning-without-search-refining-frontier-llms-with-offline-goal-conditioned-rl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.18098v2.pdf",
+    "title": "Planning without search: Refining frontier llms with offline goal-conditioned rl",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:0CzhzZyukY4C",
+    "pdf_path": "pdfs/2026-temporal-representation-alignment-successor-features-enable-emergent-compositionality-in-robot-instruction-following.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.05454v2.pdf",
+    "title": "Temporal representation alignment: Successor features enable emergent compositionality in robot instruction following",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:7Hz3ACDFbsoC",
+    "pdf_path": "pdfs/2026-can-ai-mediation-improve-democratic-deliberation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.05904v1.pdf",
+    "title": "Can AI mediation improve democratic deliberation?",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:j7_hQOaDUrUC",
+    "pdf_path": "pdfs/2025-the-facts-leaderboard-a-comprehensive-benchmark-for-large-language-model-factuality.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.10791.pdf",
+    "title": "The facts leaderboard: A comprehensive benchmark for large language model factuality",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:BzfGm06jWhQC",
+    "pdf_path": "pdfs/2025-training-llm-agents-to-empower-humans.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.13709v2.pdf",
+    "title": "Training llm agents to empower humans",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:buQ7SEKw-1sC",
+    "pdf_path": "pdfs/2025-ctrl-rec-controlling-recommender-systems-with-natural-language.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.12742v1.pdf",
+    "title": "CTRL-Rec: Controlling recommender systems with natural language",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:ubry08Y2EpUC",
+    "pdf_path": "pdfs/2025-chain-of-thought-monitorability-a-new-and-fragile-opportunity-for-ai-safety.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.11473.pdf",
+    "title": "Chain of thought monitorability: A new and fragile opportunity for ai safety",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:1lhNe0rCu4AC",
+    "pdf_path": "pdfs/2025-gemini-2-5-pushing-the-frontier-with-advanced-reasoning-multimodality-long-context-and-next-generation-agentic-capabilit.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.06261.pdf",
+    "title": "Gemini 2.5: Pushing the frontier with advanced reasoning, multimodality, long context, and next generation agentic capabilities",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:PVgj2kMGcgYC",
+    "pdf_path": "pdfs/2025-correlated-proxies-a-new-definition-and-improved-mitigation-for-reward-hacking.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/dbe2cfe4767f3255160b73a36ae3162e-Paper-Conference.pdf",
+    "title": "Correlated proxies: A new definition and improved mitigation for reward hacking",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:2tRrZ1ZAMYUC",
+    "pdf_path": "pdfs/2025-q-sft-q-learning-for-language-models-via-supervised-fine-tuning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.05193v2.pdf",
+    "title": "Q-sft: Q-learning for language models via supervised fine-tuning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:F1b5ZUV5XREC",
+    "pdf_path": "pdfs/2025-on-targeted-manipulation-and-deception-when-optimizing-llms-for-user-feedback.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.02306v3.pdf",
+    "title": "On targeted manipulation and deception when optimizing LLMs for user feedback",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:nZcligLrVowC",
+    "pdf_path": "pdfs/2025-context-steering-controllable-personalization-at-inference-time.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.01768v3.pdf",
+    "title": "Context steering: Controllable personalization at inference time",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:nVrZBo8bIpAC",
+    "pdf_path": "pdfs/2025-assistancezero-scalably-solving-assistance-games.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.07091v2.pdf",
+    "title": "Assistancezero: Scalably solving assistance games",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:wMgC3FpKEyYC",
+    "pdf_path": "pdfs/2025-an-approach-to-technical-agi-safety-and-security.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.01849v1.pdf",
+    "title": "An approach to technical agi safety and security",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:Ak0FvsSvgGUC",
+    "pdf_path": "pdfs/2024-when-your-ais-deceive-you-challenges-of-partial-observability-in-reinforcement-learning-from-human-feedback.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.17747v5.pdf",
+    "title": "When your ais deceive you: Challenges of partial observability in reinforcement learning from human feedback",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:fbc8zXXH2BUC",
+    "pdf_path": "pdfs/2024-learning-to-assist-humans-without-inferring-rewards.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.02623v3.pdf",
+    "title": "Learning to assist humans without inferring rewards",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:AHdEip9mkN0C",
+    "pdf_path": "pdfs/2024-interactive-dialogue-agents-via-reinforcement-learning-on-hindsight-regenerations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.05194v1.pdf",
+    "title": "Interactive dialogue agents via reinforcement learning on hindsight regenerations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:gKiMpY-AVTkC",
+    "pdf_path": "pdfs/2024-gemma-scope-open-sparse-autoencoders-everywhere-all-at-once-on-gemma-2.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.05147v2.pdf",
+    "title": "Gemma scope: Open sparse autoencoders everywhere all at once on gemma 2",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:5icHVeHT4IsC",
+    "pdf_path": "pdfs/2024-gemma-2-improving-open-language-models-at-a-practical-size.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.00118.pdf",
+    "title": "Gemma 2: Improving open language models at a practical size",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:gVv57TyPmFsC",
+    "pdf_path": "pdfs/2024-achieving-ai-alignment-with-unreliable-supervision.pdf",
+    "pdf_url": "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-148.pdf",
+    "title": "Achieving AI Alignment with Unreliable Supervision",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:_OXeSy2IsFwC",
+    "pdf_path": "pdfs/2024-learning-temporal-distances-contrastive-successor-features-can-provide-a-metric-structure-for-decision-making.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.17098.pdf",
+    "title": "Learning temporal distances: Contrastive successor features can provide a metric structure for decision-making",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:u-coK7KVo8oC",
+    "pdf_path": "pdfs/2024-adversaries-can-misuse-combinations-of-safe-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.14595v2.pdf",
+    "title": "Adversaries can misuse combinations of safe models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:GFxP56DSvIMC",
+    "pdf_path": "pdfs/2024-coprocessor-actor-critic-a-model-based-reinforcement-learning-approach-for-adaptive-brain-stimulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.06714.pdf",
+    "title": "Coprocessor actor critic: a model-based reinforcement learning approach for adaptive brain stimulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:OR75R8vi5nAC",
+    "pdf_path": "pdfs/2024-the-effective-horizon-explains-deep-rl-performance-in-stochastic-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.08369v2.pdf",
+    "title": "The effective horizon explains deep RL performance in stochastic environments",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:HtS1dXgVpQUC",
+    "pdf_path": "pdfs/2024-offline-rl-with-observation-histories-analyzing-and-improving-sample-complexity.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.20663v1.pdf",
+    "title": "Offline rl with observation histories: Analyzing and improving sample complexity",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:mNrWkgRL2YcC",
+    "pdf_path": "pdfs/2024-confronting-reward-model-overoptimization-with-constrained-rlhf.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.04373v2.pdf",
+    "title": "Confronting reward model overoptimization with constrained RLHF",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:Ehil0879vHcC",
+    "pdf_path": "pdfs/2024-ai-alignment-with-changing-and-influenceable-reward-functions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.17713v1.pdf",
+    "title": "AI alignment with changing and influenceable reward functions",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:8xutWZnSdmoC",
+    "pdf_path": "pdfs/2024-managing-extreme-ai-risks-amid-rapid-progress.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.17688v3.pdf",
+    "title": "Managing extreme AI risks amid rapid progress",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:a3BOlSfXSfwC",
+    "pdf_path": "pdfs/2024-toward-grounded-commonsense-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.08651.pdf",
+    "title": "Toward grounded commonsense reasoning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:fFSKOagxvKUC",
+    "pdf_path": "pdfs/2024-a-generalized-acquisition-function-for-preference-based-reward-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.06003.pdf",
+    "title": "A generalized acquisition function for preference-based reward learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:4vMrXwiscB8C",
+    "pdf_path": "pdfs/2024-learning-optimal-advantage-from-preferences-and-mistaking-it-for-reward.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.02456v1.pdf",
+    "title": "Learning optimal advantage from preferences and mistaking it for reward",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:yqoGN6RLRZoC",
+    "pdf_path": "pdfs/2024-evaluating-frontier-models-for-dangerous-capabilities.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.13793v2.pdf",
+    "title": "Evaluating frontier models for dangerous capabilities",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:Bg7qf7VwUHIC",
+    "pdf_path": "pdfs/2024-gemini-1-5-unlocking-multimodal-understanding-across-millions-of-tokens-of-context.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.05530v5.pdf",
+    "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:LhH-TYMQEocC",
+    "pdf_path": "pdfs/2024-optimizing-robot-behavior-via-comparative-language-feedback.pdf",
+    "pdf_url": "https://people.eecs.berkeley.edu/~russell/papers/russell-hri24-hirl-feedback.pdf",
+    "title": "Optimizing robot behavior via comparative language feedback",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:DUooU5lO8OsC",
+    "pdf_path": "pdfs/2023-bridging-rl-theory-and-practice-with-the-effective-horizon.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.09853v3.pdf",
+    "title": "Bridging rl theory and practice with the effective horizon",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:sNmaIFBj_lkC",
+    "pdf_path": "pdfs/2023-learning-to-influence-human-behavior-with-offline-reinforcement-learning.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/70f286e0fc977c0a3a64ef96849c8d7d-Paper-Conference.pdf",
+    "title": "Learning to influence human behavior with offline reinforcement learning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:QYdC8u9Cj1oC",
+    "pdf_path": "pdfs/2023-quantifying-assistive-robustness-via-the-natural-adversarial-frontier.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.10610v1.pdf",
+    "title": "Quantifying assistive robustness via the natural-adversarial frontier",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:mlAyqtXpCwEC",
+    "pdf_path": "pdfs/2023-goal-representations-for-instruction-following-a-semi-supervised-language-interface-to-control.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v229/myers23a/myers23a.pdf",
+    "title": "Goal representations for instruction following: A semi-supervised language interface to control",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:yFnVuubrUp4C",
+    "pdf_path": "pdfs/2023-zero-shot-goal-directed-dialogue-via-rl-on-imagined-conversations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.05584v1.pdf",
+    "title": "Zero-shot goal-directed dialogue via rl on imagined conversations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:DJbcl8HfkQkC",
+    "pdf_path": "pdfs/2023-managing-ai-risks-in-an-era-of-rapid-progress.pdf",
+    "pdf_url": "https://blog.biocomm.ai/wp-content/uploads/2023/11/Managing-AI-Risks-in-an-Era-of-Rapid-Progress.pdf",
+    "title": "Managing ai risks in an era of rapid progress",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:dBIO0h50nwkC",
+    "pdf_path": "pdfs/2023-bootstrapping-adaptive-human-machine-interfaces-with-offline-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.03839.pdf",
+    "title": "Bootstrapping Adaptive Human-Machine Interfaces with Offline Reinforcement Learning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:9c2xU6iGI7YC",
+    "pdf_path": "pdfs/2023-learning-to-model-the-world-with-language.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2308.01399.pdf",
+    "title": "Learning to model the world with language",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:IUKN3-7HHlwC",
+    "pdf_path": "pdfs/2023-open-problems-and-fundamental-limitations-of-reinforcement-learning-from-human-feedback.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.15217.pdf",
+    "title": "Open problems and fundamental limitations of reinforcement learning from human feedback",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:2VqYfGB8ITEC",
+    "pdf_path": "pdfs/2023-contextual-reliability-when-different-features-matter-in-different-contexts.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.10026v1.pdf",
+    "title": "Contextual reliability: When different features matter in different contexts",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:4hFrxpcac9AC",
+    "pdf_path": "pdfs/2023-automatically-auditing-large-language-models-via-discrete-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.04381v1.pdf",
+    "title": "Automatically auditing large language models via discrete optimization",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:_5tno0g5mFcC",
+    "pdf_path": "pdfs/2023-twitter-s-algorithm-amplifying-anger-animosity-and-affective-polarization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.16941.pdf",
+    "title": "Twitter\u2019s algorithm: Amplifying anger, animosity, and affective polarization",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:NXb4pA-qfm4C",
+    "pdf_path": "pdfs/2023-towards-modeling-and-influencing-the-dynamics-of-human-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2301.00901v1.pdf",
+    "title": "Towards modeling and influencing the dynamics of human learning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:4fGpz3EwCPoC",
+    "pdf_path": "pdfs/2023-learning-representations-that-enable-generalization-in-assistive-tasks.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v205/he23a/he23a.pdf",
+    "title": "Learning representations that enable generalization in assistive tasks",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:XvxMoLDsR5gC",
+    "pdf_path": "pdfs/2023-aligning-robot-and-human-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.01928.pdf",
+    "title": "Aligning robot and human representations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:anf4URPfarAC",
+    "pdf_path": "pdfs/2023-benchmarks-and-algorithms-for-offline-preference-based-reward-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2301.01392v1.pdf",
+    "title": "Benchmarks and algorithms for offline preference-based reward learning",
+    "year": 2023
+  }
+]

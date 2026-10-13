@@ -1,0 +1,107 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:hFOr9nPyWt4C",
+    "pdf_path": "pdfs/2026-po-pddl-learning-symbolic-pomdps-from-visual-demonstrations-for-robot-planning-under-uncertainty.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.15654v2.pdf",
+    "title": "PO-PDDL: Learning Symbolic POMDPs from Visual Demonstrations for Robot Planning Under Uncertainty",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:hC7cP41nSMkC",
+    "pdf_path": "pdfs/2026-forcevla-enhancing-vla-models-with-a-force-aware-moe-for-contact-rich-manipulation.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8633b46e12cc5f2ee1f05a6ca2c65b38-Paper-Conference.pdf",
+    "title": "Forcevla: Enhancing vla models with a force-aware moe for contact-rich manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:7PzlFSSx8tAC",
+    "pdf_path": "pdfs/2026-unidomain-pretraining-a-unified-pddl-domain-from-real-world-demonstrations-for-generalizable-robot-task-planning.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/b8358a00e5b870194b974ddf8dd415c3-Paper-Conference.pdf",
+    "title": "Unidomain: Pretraining a unified pddl domain from real-world demonstrations for generalizable robot task planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:mVmsd5A6BfQC",
+    "pdf_path": "pdfs/2026-tru-pomdp-task-planning-under-uncertainty-via-tree-of-hypotheses-and-open-ended-pomdps.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.02860v2.pdf",
+    "title": "Tru-pomdp: Task planning under uncertainty via tree of hypotheses and open-ended pomdps",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:-f6ydRqryjwC",
+    "pdf_path": "pdfs/2026-i-perceive-a-foundation-model-for-active-perception-with-language-instructions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.00600.pdf",
+    "title": "I-perceive: A foundation model for active perception with language instructions",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:qUcmZB5y_30C",
+    "pdf_path": "pdfs/2026-uniplan-vision-language-task-planning-for-mobile-manipulation-with-unified-pddl-formulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.08537v1.pdf",
+    "title": "Uniplan: Vision-language task planning for mobile manipulation with unified pddl formulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:ZeXyd9-uunAC",
+    "pdf_path": "pdfs/2026-vec-qmdp-vectorized-pomdp-planning-on-cpus-for-real-time-autonomous-driving.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.08334v2.pdf",
+    "title": "Vec-QMDP: Vectorized POMDP Planning on CPUs for Real-Time Autonomous Driving",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:L8Ckcad2t8MC",
+    "pdf_path": "pdfs/2026-mimic-intent-not-just-trajectories.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.08602v3.pdf",
+    "title": "Mimic intent, not just trajectories",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:dhFuZR0502QC",
+    "pdf_path": "pdfs/2025-hi-drive-hierarchical-pomdp-planning-for-safe-autonomous-driving-in-diverse-urban-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.18411v2.pdf",
+    "title": "Hi-drive: Hierarchical pomdp planning for safe autonomous driving in diverse urban environments",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:4DMP91E08xMC",
+    "pdf_path": "pdfs/2025-world-modeling-makes-a-better-planner-dual-preference-optimization-for-embodied-task-planning.pdf",
+    "pdf_url": "https://aclanthology.org/2025.acl-long.1044.pdf",
+    "title": "World modeling makes a better planner: Dual preference optimization for embodied task planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:aqlVkmm33-oC",
+    "pdf_path": "pdfs/2024-rethinking-state-disentanglement-in-causal-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.13498.pdf",
+    "title": "Rethinking state disentanglement in causal reinforcement learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:_kc_bZDykSQC",
+    "pdf_path": "pdfs/2024-multi-agent-reinforcement-learning-for-autonomous-driving-a-survey.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.09675.pdf",
+    "title": "Multi-agent reinforcement learning for autonomous driving: A survey",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:4TOpqqG69KYC",
+    "pdf_path": "pdfs/2024-neural-randomized-planning-for-whole-body-robot-motion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.11317v2.pdf",
+    "title": "Neural randomized planning for whole body robot motion",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:Zph67rFs4hoC",
+    "pdf_path": "pdfs/2023-what-truly-matters-in-trajectory-prediction-for-autonomous-driving.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/e197fe307eb3467035f892dc100d570a-Paper-Conference.pdf",
+    "title": "What truly matters in trajectory prediction for autonomous driving?",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:KlAtU1dfN6UC",
+    "pdf_path": "pdfs/2023-the-planner-optimization-problem-formulations-and-frameworks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.06768v2.pdf",
+    "title": "The Planner Optimization Problem: Formulations and Frameworks",
+    "year": 2023
+  }
+]

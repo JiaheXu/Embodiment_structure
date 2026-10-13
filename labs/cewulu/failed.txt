@@ -1,1 +1,7 @@
 iff: Bridging Real-World Gap in Robot Manipulation via Depth Diffusion
+Probing Effective and Efficient Category-Level Articulated Object Pose Perception
+Vision-Language-Action Co-training for Robot Manipulation
+Generalizable and Actionable Part Detection and Manipulation with SAM-rectified Segmentation and Iterative Pose Refinement
+LDexMM: Language-Guided Dexterous Multi-Task Manipulation with Reinforcement Learning
+GenACT: Towards Unified Vision-Language-Action Co-training for Robot Manipulation
+GaPT-DAR: Category-level garments pose tracking via integrated 2d deformation and 3d reconstruction

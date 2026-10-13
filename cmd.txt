@@ -2,6 +2,6 @@ cd /home/jiahe/Embodiment_structure
 
 GOOGLE_SCHOLAR_CITATION_DELAY_SECONDS=5.0 \
 python3 labs/download_paper.py \
-  --lab gear \
+  --lab homanga \
   --min-year 2023 \
   --timeout 120

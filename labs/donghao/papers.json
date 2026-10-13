@@ -1,0 +1,653 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:wMgC3FpKEyYC",
+    "pdf_path": "pdfs/2026-biroad-learning-shared-and-role-adaptive-representations-for-bimanual-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.23445v1.pdf",
+    "title": "BiRoAD: Learning Shared and Role-Adaptive Representations for Bimanual Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:4xDN1ZYqzskC",
+    "pdf_path": "pdfs/2026-opendexgrasp-open-vocabulary-task-oriented-dexterous-grasping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.18117v2.pdf",
+    "title": "OpenDexGrasp: Open-vocabulary Task-Oriented Dexterous Grasping",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:PVgj2kMGcgYC",
+    "pdf_path": "pdfs/2026-applianceplan-scaling-manual-grounded-appliance-manipulation-with-data-synthesis-and-unified-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.15863v1.pdf",
+    "title": "AppliancePlan: Scaling Manual-Grounded Appliance Manipulation with Data Synthesis and Unified Planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:NyGDZy8z5eUC",
+    "pdf_path": "pdfs/2026-vtinstructor-visual-trajectory-prompting-for-navigation-instruction-generation-in-continuous-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.15284v1.pdf",
+    "title": "VTInstructor: Visual Trajectory Prompting for Navigation Instruction Generation in Continuous Environments",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:LgRImbQfgY4C",
+    "pdf_path": "pdfs/2026-flatlab-a-unified-methodology-framework-and-simulation-based-benchmark-for-robotic-manipulation-of-flat-objects.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.14049.pdf",
+    "title": "FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation of Flat Objects",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:jL-93Qbq4QoC",
+    "pdf_path": "pdfs/2026-jetson-pi-towards-onboard-real-time-robot-control-via-foresight-aligned-asynchronous-inference.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.12659v6.pdf",
+    "title": "Jetson-PI: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:QD3KBmkZPeQC",
+    "pdf_path": "pdfs/2026-robodojo-a-unified-sim-and-real-benchmark-for-comprehensive-evaluation-of-generalist-robot-manipulation-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.04434.pdf",
+    "title": "RoboDojo: A unified sim-and-real benchmark for comprehensive evaluation of generalist robot manipulation policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:2tRrZ1ZAMYUC",
+    "pdf_path": "pdfs/2026-embodied3dbench-benchmarking-low-level-embodied-spatial-intelligence-of-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.29074v1.pdf",
+    "title": "Embodied3DBench: Benchmarking Low-Level Embodied Spatial Intelligence of Vision Language Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:6yz0xqPARnAC",
+    "pdf_path": "pdfs/2026-sugar-a-scalable-human-video-driven-generalizable-humanoid-loco-manipulation-learning-framework.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.20373.pdf",
+    "title": "SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:Ak0FvsSvgGUC",
+    "pdf_path": "pdfs/2026-dexora-open-source-vla-for-high-dof-bimanual-dexterity.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.18722v1.pdf",
+    "title": "Dexora: Open-source VLA for High-DoF Bimanual Dexterity",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:buQ7SEKw-1sC",
+    "pdf_path": "pdfs/2026-heterogenmanip-generalizable-manipulation-for-heterogeneous-object-interactions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.10201v3.pdf",
+    "title": "HeteroGenManip: Generalizable Manipulation For Heterogeneous Object Interactions",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:4X0JR2_MtJMC",
+    "pdf_path": "pdfs/2026-at-vla-adaptive-tactile-injection-for-enhanced-feedback-reaction-in-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.07308v2.pdf",
+    "title": "At-vla: Adaptive tactile injection for enhanced feedback reaction in vision-language-action models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:AHdEip9mkN0C",
+    "pdf_path": "pdfs/2026-hipolicy-hierarchical-multi-frequency-action-chunking-for-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.06067v1.pdf",
+    "title": "Hipolicy: Hierarchical multi-frequency action chunking for policy learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:nVrZBo8bIpAC",
+    "pdf_path": "pdfs/2026-communication-efficient-desire-alignment-for-embodied-agent-human-adaptation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.22503v2.pdf",
+    "title": "Communication-Efficient Desire Alignment for Embodied Agent-Human Adaptation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:gKiMpY-AVTkC",
+    "pdf_path": "pdfs/2026-bipremanip-learning-affordance-based-bimanual-preparatory-manipulation-through-anticipatory-collaboration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.21679v1.pdf",
+    "title": "BiPreManip: Learning Affordance-Based Bimanual Preparatory Manipulation through Anticipatory Collaboration",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:5icHVeHT4IsC",
+    "pdf_path": "pdfs/2026-freeartgs-articulated-gaussian-splatting-under-free-moving-scenario.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.22102v1.pdf",
+    "title": "FreeArtGS: Articulated Gaussian Splatting Under Free-moving Scenario",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:Aul-kAQHnToC",
+    "pdf_path": "pdfs/2026-interndata-a1-pioneering-high-fidelity-synthetic-data-for-pre-training-generalist-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.16651v1.pdf",
+    "title": "Interndata-a1: Pioneering high-fidelity synthetic data for pre-training generalist policy",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:gVv57TyPmFsC",
+    "pdf_path": "pdfs/2026-graspall-adaptive-structural-compensation-from-illumination-variation-for-robotic-garment-grasping-in-any-low-light-cond.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.14789v1.pdf",
+    "title": "GraspALL: Adaptive Structural Compensation from Illumination Variation for Robotic Garment Grasping in Any Low-Light Conditions",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:tH6gc1N1XXoC",
+    "pdf_path": "pdfs/2026-realappliance-let-high-fidelity-appliance-assets-controllable-and-workable-as-aligned-real-manuals.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.00287v1.pdf",
+    "title": "RealAppliance: Let High-fidelity Appliance Assets Controllable and Workable as Aligned Real Manuals",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:fbc8zXXH2BUC",
+    "pdf_path": "pdfs/2026-real2edit2real-generating-robotic-demonstrations-via-a-3d-control-interface.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhao_Real2Edit2Real_Generating_Robotic_Demonstrations_via_a_3D_Control_Interface_CVPR_2026_paper.pdf",
+    "title": "Real2Edit2Real: Generating Robotic Demonstrations via a 3D Control Interface",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:Bg7qf7VwUHIC",
+    "pdf_path": "pdfs/2026-ipd-boosting-sequential-policy-with-imaginary-planning-distillation-in-offline-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.04289v1.pdf",
+    "title": "IPD: Boosting Sequential Policy with Imaginary Planning Distillation in Offline Reinforcement Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:vDZJ-YLwNdEC",
+    "pdf_path": "pdfs/2026-garmentpile-affordance-driven-cluttered-garments-retrieval-with-vision-language-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.04158v1.pdf",
+    "title": "GarmentPile++: Affordance-Driven Cluttered Garments Retrieval with Vision-Language Reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:sJsF-0ZLhtgC",
+    "pdf_path": "pdfs/2026-rmbench-memory-dependent-robotic-manipulation-benchmark-with-insights-into-policy-design.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.01229v3.pdf",
+    "title": "Rmbench: Memory-dependent robotic manipulation benchmark with insights into policy design",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:BJbdYPG6LGMC",
+    "pdf_path": "pdfs/2026-learning-part-aware-dense-3d-feature-field-for-generalizable-articulated-object-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.14193v1.pdf",
+    "title": "Learning Part-Aware Dense 3D Feature Field for Generalizable Articulated Object Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:artPoR2Yc-kC",
+    "pdf_path": "pdfs/2026-user-centric-object-navigation-a-benchmark-with-integrated-user-habits-for-personalized-embodied-object-search.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.06459.pdf",
+    "title": "User-Centric Object Navigation: A Benchmark with Integrated User Habits for Personalized Embodied Object Search",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:lvd772isFD0C",
+    "pdf_path": "pdfs/2026-a3d-adaptive-affordance-assembly-with-dual-arm-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.11076v1.pdf",
+    "title": "A3D: Adaptive Affordance Assembly with Dual-Arm Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:4fKUyHm3Qg0C",
+    "pdf_path": "pdfs/2026-unidoormanip-learning-universal-door-manipulation-policy-over-large-scale-and-diverse-door-manipulation-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.02604v3.pdf",
+    "title": "UnidoorManip: Learning universal door manipulation policy over large-scale and diverse door manipulation environments",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:GFxP56DSvIMC",
+    "pdf_path": "pdfs/2026-imagine2act-leveraging-object-action-motion-consistency-from-imagined-goals-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.17125v3.pdf",
+    "title": "Imagine2Act: Leveraging Object-Action Motion Consistency from Imagined Goals for Robotic Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:nZcligLrVowC",
+    "pdf_path": "pdfs/2026-navspace-how-navigation-agents-follow-spatial-intelligence-instructions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.08173v2.pdf",
+    "title": "NavSpace: How Navigation Agents Follow Spatial Intelligence Instructions",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:hkOj_22Ku90C",
+    "pdf_path": "pdfs/2026-spikestereonet-a-brain-inspired-framework-for-stereo-depth-estimation-from-spike-streams.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/136a45cd9b841bf785625709a19c6508-Paper-Conference.pdf",
+    "title": "SpikeStereoNet: A Brain-Inspired Framework for Stereo Depth Estimation from Spike Streams",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:5MTHONV0fEkC",
+    "pdf_path": "pdfs/2025-twinaligner-visual-dynamic-alignment-empowers-physics-aware-real2sim2real-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.19390v1.pdf",
+    "title": "Twinaligner: Visual-dynamic alignment empowers physics-aware real2sim2real for robotic manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:tKAzc9rXhukC",
+    "pdf_path": "pdfs/2025-targo-benchmarking-target-driven-object-grasping-under-occlusions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.06168v1.pdf",
+    "title": "TARGO: benchmarking target-driven object grasping under occlusions",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:u-coK7KVo8oC",
+    "pdf_path": "pdfs/2025-robocoin-an-open-sourced-bimanual-robotic-data-collection-for-integrated-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.17441v3.pdf",
+    "title": "Robocoin: An open-sourced bimanual robotic data collection for integrated manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:F1b5ZUV5XREC",
+    "pdf_path": "pdfs/2025-why-tree-style-branching-matters-for-thought-advantage-estimation-in-grpo.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.24494v4.pdf",
+    "title": "Why Tree-Style Branching Matters for Thought Advantage Estimation in GRPO",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:ZzlSgRqYykMC",
+    "pdf_path": "pdfs/2025-fidelity-aware-data-composition-for-robust-robot-generalization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.24797v1.pdf",
+    "title": "Fidelity-aware data composition for robust robot generalization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:F9fV5C73w3QC",
+    "pdf_path": "pdfs/2025-dexflywheel-a-scalable-and-self-improving-data-generation-framework-for-dexterous-manipulation.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/066c5542795287822f4f076cf330e5a2-Paper-Conference.pdf",
+    "title": "DexFlyWheel: A Scalable and Self-improving Data Generation Framework for Dexterous Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:P7Ujq4OLJYoC",
+    "pdf_path": "pdfs/2025-unitac2pose-a-unified-approach-learned-in-simulation-for-category-level-visuotactile-in-hand-pose-estimation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.15934.pdf",
+    "title": "UniTac2Pose: A Unified Approach Learned in Simulation for Category-level Visuotactile In-hand Pose Estimation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:LhH-TYMQEocC",
+    "pdf_path": "pdfs/2025-correctnav-self-correction-flywheel-empowers-vision-language-action-navigation-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.10416v1.pdf",
+    "title": "CorrectNav: Self-Correction Flywheel Empowers Vision-Language-Action Navigation Model",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:a3BOlSfXSfwC",
+    "pdf_path": "pdfs/2025-adarpg-adaptive-articulated-object-manipulation-on-the-fly-with-foundation-model-reasoning-and-part-grounding.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.18276v1.pdf",
+    "title": "AdaRPG: Adaptive Articulated Object Manipulation On The Fly with Foundation Model Reasoning and Part Grounding",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:r_AWSJRzSzQC",
+    "pdf_path": "pdfs/2025-simlauncher-launching-sample-efficient-real-world-robotic-reinforcement-learning-via-simulation-pre-training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.04452v1.pdf",
+    "title": "SimLauncher: Launching Sample-Efficient Real-world Robotic Reinforcement Learning via Simulation Pre-training",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:yqoGN6RLRZoC",
+    "pdf_path": "pdfs/2025-rwor-generating-robot-demonstrations-from-human-hand-collection-for-policy-learning-without-robot.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.03930.pdf",
+    "title": "RwoR: Generating Robot Demonstrations from Human Hand Collection for Policy Learning without Robot",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:HeT0ZceujKMC",
+    "pdf_path": "pdfs/2025-clutterdexgrasp-a-sim-to-real-system-for-general-dexterous-grasping-in-cluttered-scenes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.14317.pdf",
+    "title": "ClutterDexGrasp: A Sim-to-Real System for General Dexterous Grasping in Cluttered Scenes",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:AXPGKjj_ei8C",
+    "pdf_path": "pdfs/2025-manipgpt-is-affordance-segmentation-by-large-vision-models-enough-for-articulated-object-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.10050v3.pdf",
+    "title": "ManipGPT: Is Affordance Segmentation by Large Vision Models Enough for Articulated Object Manipulation?",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:k8Z6L05lTy4C",
+    "pdf_path": "pdfs/2025-splatmesh-interactive-3d-segmentation-and-editing-using-mesh-based-gaussian-splatting.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.15856v3.pdf",
+    "title": "Splatmesh: Interactive 3D segmentation and editing using mesh-based Gaussian splatting",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:WZBGuue-350C",
+    "pdf_path": "pdfs/2025-checkmanual-a-new-challenge-and-benchmark-for-manual-based-appliance-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.09343.pdf",
+    "title": "Checkmanual: A new challenge and benchmark for manual-based appliance manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:tOudhMTPpwUC",
+    "pdf_path": "pdfs/2025-gfpack-attention-driven-gradient-fields-for-optimizing-2d-irregular-packing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.07579v2.pdf",
+    "title": "GFPack++: Attention-Driven Gradient Fields for Optimizing 2D Irregular Packing",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:ye4kPcJQO24C",
+    "pdf_path": "pdfs/2025-biassemble-learning-collaborative-affordance-for-bimanual-geometric-assembly.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.06221v2.pdf",
+    "title": "BiAssemble: Learning Collaborative Affordance for Bimanual Geometric Assembly",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:_OXeSy2IsFwC",
+    "pdf_path": "pdfs/2025-cadgrasp-learning-contact-and-collision-aware-general-dexterous-grasping-in-cluttered-scenes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.15039v2.pdf",
+    "title": "CADGrasp: Learning Contact and Collision Aware General Dexterous Grasping in Cluttered Scenes",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:PR6Y55bgFSsC",
+    "pdf_path": "pdfs/2025-sr3d-unleashing-single-view-3d-reconstruction-for-transparent-and-specular-object-grasping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.24305v3.pdf",
+    "title": "SR3D: Unleashing Single-view 3D Reconstruction for Transparent and Specular Object Grasping",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:dQ2og3OwTAUC",
+    "pdf_path": "pdfs/2025-adaptac-dex-adaptive-visuo-tactile-fusion-with-predictive-force-attention-for-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.13982v2.pdf",
+    "title": "Adaptac-Dex: Adaptive Visuo-Tactile Fusion with Predictive Force Attention for Dexterous Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:N5tVd3kTz84C",
+    "pdf_path": "pdfs/2025-dexgarmentlab-dexterous-garment-manipulation-environment-with-generalizable-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.11032v3.pdf",
+    "title": "DexGarmentLab: Dexterous Garment Manipulation Environment with Generalizable Policy",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:LjlpjdlvIbIC",
+    "pdf_path": "pdfs/2025-crayonrobo-object-centric-prompt-driven-vision-language-action-model-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.02166v1.pdf",
+    "title": "CrayonRobo: Object-Centric Prompt-Driven Vision-Language-Action Model for Robotic Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:WqliGbK-hY8C",
+    "pdf_path": "pdfs/2025-3dwg-3d-weakly-supervised-visual-grounding-via-category-and-instance-level-alignment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.01809v1.pdf",
+    "title": "3DWG: 3D Weakly Supervised Visual Grounding via Category and Instance-Level Alignment",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:1yQoGdGgb4wC",
+    "pdf_path": "pdfs/2025-from-strangers-to-assistants-fast-desire-alignment-for-embodied-agent-user-adaptation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.22503.pdf",
+    "title": "From Strangers to Assistants: Fast Desire Alignment for Embodied Agent-User Adaptation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:SdhP9T11ey4C",
+    "pdf_path": "pdfs/2025-llm2rewards-boosting-universal-llm-reward-design-through-heuristic-reward-observation-space-evolution.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.07596v2.pdf",
+    "title": "LLM2Rewards: Boosting Universal LLM Reward Design through Heuristic Reward Observation Space Evolution",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:dTyEYWd-f8wC",
+    "pdf_path": "pdfs/2025-partrm-modeling-part-level-dynamics-with-large-cross-state-reconstruction-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.19913v1.pdf",
+    "title": "PartRM: Modeling Part-Level Dynamics with Large Cross-State Reconstruction Model",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:_B80troHkn4C",
+    "pdf_path": "pdfs/2025-foundation-feature-driven-online-end-effector-pose-estimation-a-marker-free-and-learning-free-approach.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.14051.pdf",
+    "title": "Foundation Feature-Driven Online End-Effector Pose Estimation: A Marker-Free and Learning-Free Approach",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:eq2jaN3J8jMC",
+    "pdf_path": "pdfs/2025-transdiff-diffusion-based-method-for-manipulating-transparent-objects-using-a-single-rgb-d-image.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.12779.pdf",
+    "title": "TransDiff: Diffusion-Based Method for Manipulating Transparent Objects Using a Single RGB-D Image",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:9vf0nzSNQJEC",
+    "pdf_path": "pdfs/2025-garmentpile-point-level-visual-affordance-guided-retrieval-and-adaptation-for-cluttered-garments-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.09243v1.pdf",
+    "title": "GarmentPile: Point-Level Visual Affordance Guided Retrieval and Adaptation for Cluttered Garments Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:UHK10RUVsp4C",
+    "pdf_path": "pdfs/2025-adamanip-adaptive-articulated-object-manipulation-environments-and-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.11124v1.pdf",
+    "title": "AdaManip: Adaptive articulated object manipulation environments and policy learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:PELIpwtuRlgC",
+    "pdf_path": "pdfs/2025-cordvip-correspondence-based-visuomotor-policy-for-dexterous-manipulation-in-real-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.08449v2.pdf",
+    "title": "CordViP: Correspondence-based Visuomotor Policy for Dexterous Manipulation in Real-World",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:wbdj-CoPYUoC",
+    "pdf_path": "pdfs/2025-canonical-representation-and-force-based-pretraining-of-3d-tactile-for-dexterous-visuo-tactile-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.17549v3.pdf",
+    "title": "Canonical Representation and Force-Based Pretraining of 3D Tactile for Dexterous Visuo-Tactile Policy Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:sSrBHYA8nusC",
+    "pdf_path": "pdfs/2025-spatialbot-precise-spatial-understanding-with-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.13642v7.pdf",
+    "title": "SpatialBot: Precise spatial understanding with vision language models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:Y5dfb0dijaUC",
+    "pdf_path": "pdfs/2025-omnimanip-towards-general-robotic-manipulation-via-object-centric-interaction-primitives-as-spatial-constraints.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.03841v1.pdf",
+    "title": "OmniManip: Towards General Robotic Manipulation via Object-Centric Interaction Primitives as Spatial Constraints",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:eMMeJKvmdy0C",
+    "pdf_path": "pdfs/2025-predictive-inverse-dynamics-models-are-scalable-learners-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.15109v1.pdf",
+    "title": "Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:Mojj43d5GZwC",
+    "pdf_path": "pdfs/2025-et-seed-efficient-trajectory-level-se-3-equivariant-diffusion-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.03990v2.pdf",
+    "title": "ET-SEED: Efficient Trajectory-Level SE (3) Equivariant Diffusion Policy",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:olpn-zPbct0C",
+    "pdf_path": "pdfs/2024-garmentlab-a-unified-simulation-and-benchmark-for-garment-manipulation.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/15f80ec0fed53885d2ca6272edb96ede-Paper-Conference.pdf",
+    "title": "GarmentLab: A Unified Simulation and Benchmark for Garment Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:bnK-pcrLprsC",
+    "pdf_path": "pdfs/2024-mo-ddn-a-coarse-to-fine-attribute-based-exploration-agent-for-multi-object-demand-driven-navigation.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/7565f036ceb20a2c74d341bfaa9fffad-Paper-Conference.pdf",
+    "title": "MO-DDN: A Coarse-to-Fine Attribute-based Exploration Agent for Multi-object Demand-driven Navigation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:_Ybze24A_UAC",
+    "pdf_path": "pdfs/2024-rad-a-dataset-and-benchmark-for-real-life-anomaly-detection-with-robotic-observations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.00713.pdf",
+    "title": "RAD: A dataset and benchmark for real-life anomaly detection with robotic observations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:mvPsJ3kp5DgC",
+    "pdf_path": "pdfs/2024-lvdiffusor-distilling-functional-rearrangement-priors-from-large-models-into-diffusor.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.01474v2.pdf",
+    "title": "Lvdiffusor: Distilling functional rearrangement priors from large models into diffusor",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:eflP2zaiRacC",
+    "pdf_path": "pdfs/2024-local-occupancy-enhanced-object-grasping-with-multiple-triplanar-projection.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.15771v1.pdf",
+    "title": "Local Occupancy-Enhanced Object Grasping with Multiple Triplanar Projection",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:B3FOqHPlNUQC",
+    "pdf_path": "pdfs/2024-human-centered-in-building-embodied-delivery-benchmark.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.17898v1.pdf",
+    "title": "Human-centered in-building embodied delivery benchmark",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:l7t_Zn2s7bgC",
+    "pdf_path": "pdfs/2024-aic-mllm-autonomous-interactive-correction-mllm-for-robust-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.11548v6.pdf",
+    "title": "AIC-MLLM: Autonomous Interactive Correction MLLM for Robust Robotic Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:K3LRdlH-MEoC",
+    "pdf_path": "pdfs/2024-no-time-to-train-empowering-non-parametric-networks-for-few-shot-3d-scene-segmentation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.04050v1.pdf",
+    "title": "No time to train: Empowering non-parametric networks for few-shot 3d scene segmentation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:vRqMK49ujn8C",
+    "pdf_path": "pdfs/2024-a3vlm-actionable-articulation-aware-vision-language-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.07549v2.pdf",
+    "title": "A3VLM: Actionable Articulation-Aware Vision Language Model",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:08ZZubdj9fEC",
+    "pdf_path": "pdfs/2024-instructnav-zero-shot-system-for-generic-instruction-navigation-in-unexplored-environment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.04882v1.pdf",
+    "title": "InstructNav: Zero-shot System for Generic Instruction Navigation in Unexplored Environment",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:OU6Ihb5iCvQC",
+    "pdf_path": "pdfs/2024-omni6dpose-a-benchmark-and-model-for-universal-6d-object-pose-estimation-and-tracking.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.04316.pdf",
+    "title": "Omni6DPose: A Benchmark and Model for Universal 6D Object Pose Estimation and Tracking",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:Tiz5es2fbqcC",
+    "pdf_path": "pdfs/2024-broadcasting-support-relations-recursively-from-local-dynamics-for-object-retrieval-in-clutters.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.02283v1.pdf",
+    "title": "Broadcasting Support Relations Recursively from Local Dynamics for Object Retrieval in Clutters",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:WbkHhVStYXYC",
+    "pdf_path": "pdfs/2024-learning-manipulation-by-predicting-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.00439.pdf",
+    "title": "Learning Manipulation by Predicting Interaction",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:kRWSkSYxWN8C",
+    "pdf_path": "pdfs/2024-articulated-object-manipulation-with-coarse-to-fine-affordance-for-mitigating-the-effect-of-point-cloud-noise.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.18699v2.pdf",
+    "title": "Articulated object manipulation with coarse-to-fine affordance for mitigating the effect of point cloud noise",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:SP6oXDckpogC",
+    "pdf_path": "pdfs/2024-unigarmentmanip-a-unified-framework-for-category-level-garment-manipulation-via-dense-visual-correspondence.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.06903.pdf",
+    "title": "UniGarmentManip: A Unified Framework for Category-Level Garment Manipulation via Dense Visual Correspondence",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:pyW8ca7W8N0C",
+    "pdf_path": "pdfs/2024-rgbgrasp-image-based-object-grasping-by-capturing-multiple-views-during-robot-arm-movement-with-neural-radiance-fields.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.16592v2.pdf",
+    "title": "RGBGrasp: Image-based object grasping by capturing multiple views during robot arm movement with neural radiance fields",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:p2g8aNsByqUC",
+    "pdf_path": "pdfs/2024-preafford-universal-affordance-based-pre-grasping-for-diverse-objects-and-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.03634v3.pdf",
+    "title": "PreAfford: Universal Affordance-Based Pre-Grasping for Diverse Objects and Environments",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:XiSMed-E-HIC",
+    "pdf_path": "pdfs/2024-scanet-correcting-lego-assembly-errors-with-self-correct-assembly-network.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.18195v4.pdf",
+    "title": "SCANet: Correcting LEGO Assembly Errors with Self-Correct Assembly Network",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:tS2w5q8j5-wC",
+    "pdf_path": "pdfs/2024-unidexfpm-universal-dexterous-functional-pre-grasp-manipulation-via-diffusion-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.12421v2.pdf",
+    "title": "UnidexFPM: Universal dexterous functional pre-grasp manipulation via diffusion policy",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:u9iWguZQMMsC",
+    "pdf_path": "pdfs/2024-manipvqa-injecting-robotic-affordance-and-physically-grounded-information-into-multi-modal-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.11289v2.pdf",
+    "title": "ManipVQA: Injecting robotic affordance and physically grounded information into multi-modal large language models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:q3oQSFYPqjQC",
+    "pdf_path": "pdfs/2024-naturalvlm-leveraging-fine-grained-natural-language-for-affordance-guided-visual-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.08355v1.pdf",
+    "title": "NaturalVLM: Leveraging fine-grained natural language for affordance-guided visual manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:abG-DnoFyZgC",
+    "pdf_path": "pdfs/2024-less-is-more-towards-efficient-few-shot-3d-semantic-segmentation-via-training-free-networks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2308.12961v1.pdf",
+    "title": "Less is More: Towards Efficient Few-shot 3D Semantic Segmentation via Training-free Networks",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:cFHS6HbyZ2cC",
+    "pdf_path": "pdfs/2024-manipllm-embodied-multimodal-large-language-model-for-object-centric-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.16217v1.pdf",
+    "title": "ManipLLM: Embodied Multimodal Large Language Model for Object-centric Robotic Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:UxriW0iASnsC",
+    "pdf_path": "pdfs/2024-robokeygen-robot-pose-and-joint-angles-estimation-via-diffusion-based-3d-keypoint-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.18259v1.pdf",
+    "title": "RoboKeyGen: Robot Pose and Joint Angles Estimation via Diffusion-based 3D Keypoint Generation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:yD5IFk8b50cC",
+    "pdf_path": "pdfs/2024-rgbmanip-monocular-image-based-robotic-manipulation-through-active-object-pose-estimation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.03478v2.pdf",
+    "title": "RGBManip: Monocular Image-based Robotic Manipulation through Active Object Pose Estimation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:g5m5HwL7SMYC",
+    "pdf_path": "pdfs/2024-bridging-zero-shot-object-navigation-and-foundation-models-through-pixel-guided-navigation-skill.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.10309v2.pdf",
+    "title": "Bridging Zero-shot Object Navigation and Foundation Models through Pixel-Guided Navigation Skill",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:M05iB0D1s5AC",
+    "pdf_path": "pdfs/2024-discuss-before-moving-visual-language-navigation-via-multi-expert-discussions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.11382v1.pdf",
+    "title": "Discuss before Moving: Visual Language Navigation via Multi-expert Discussions",
+    "year": 2024
+  }
+]

@@ -89,5 +89,33 @@
     "pdf_url": "https://arxiv.org/pdf/2610.13947v1.pdf",
     "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1aj8w6NETq",
+    "pdf_path": "pdfs/2025-stream3r-scalable-sequential-3d-reconstruction-with-causal-transformer.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.10893v1.pdf",
+    "title": "STream3R: Scalable Sequential 3D Reconstruction with Causal Transformer",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV16qpe6sEQA",
+    "pdf_path": "pdfs/2026-anyworld-factorized-egocentric-world-models-for-cross-embodiment-generalization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.29242v2.pdf",
+    "title": "AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1gT4R63ERg",
+    "pdf_path": "pdfs/2026-fast-leworldmodel.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.26217v2.pdf",
+    "title": "Fast LeWorldModel",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1s1426GE3y",
+    "pdf_path": "pdfs/2026-qqworld-quantile-quantile-matching-for-world-model-regularization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.28415v1.pdf",
+    "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
+    "year": 2026
   }
 ]

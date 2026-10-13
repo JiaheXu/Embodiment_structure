@@ -271,5 +271,285 @@
     "pdf_url": "https://arxiv.org/pdf/2506.09278.pdf",
     "title": "Ufm: A simple path towards unified dense correspondence with flow",
     "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:QtA78RmWg5MC",
+    "pdf_path": "pdfs/2025-mac-ego3d-multi-agent-gaussian-consensus-for-real-time-collaborative-ego-motion-and-photorealistic-3d-reconstruction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.09723.pdf",
+    "title": "Mac-ego3d: Multi-agent gaussian consensus for real-time collaborative ego-motion and photorealistic 3d reconstruction",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:g30IDTdgJMgC",
+    "pdf_path": "pdfs/2025-salon-self-supervised-adaptive-learning-for-off-road-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.07826v1.pdf",
+    "title": "Salon: Self-supervised adaptive learning for off-road navigation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:o-PowTg_VKEC",
+    "pdf_path": "pdfs/2025-superloc-the-key-to-robust-lidar-inertial-localization-lies-in-predicting-alignment-risks-superodometry-com-superloc.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.02901v2.pdf",
+    "title": "Superloc: The key to robust lidar-inertial localization lies in predicting alignment risks superodometry. com/superloc",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:jRIwE-1ttnoC",
+    "pdf_path": "pdfs/2025-mapex-indoor-structure-exploration-with-probabilistic-information-gain-from-global-map-predictions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.15590v3.pdf",
+    "title": "Mapex: Indoor structure exploration with probabilistic information gain from global map predictions",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:I-2NeQpV75MC",
+    "pdf_path": "pdfs/2025-mac-vo-metrics-aware-covariance-for-learning-based-stereo-visual-odometry-mac-vo-github-io.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.09479v2.pdf",
+    "title": "Mac-vo: Metrics-aware covariance for learning-based stereo visual odometry mac-vo. github. io",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:5bfplxN71z4C",
+    "pdf_path": "pdfs/2025-a-synchronized-task-formulation-for-robotic-convoy-operations.pdf",
+    "pdf_url": "https://bvundurthy.github.io/media/0_Pubs/J08_VRPMS-CC_with_Heuristic_RA-L_2025_PostPrint.pdf",
+    "title": "A synchronized task formulation for robotic convoy operations",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:6Zm5LS9gQ5UC",
+    "pdf_path": "pdfs/2025-demonstrating-visafe-vision-enabled-safety-for-high-speed-detect-and-avoid.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.03694v2.pdf",
+    "title": "Demonstrating ViSafe: Vision-enabled Safety for High-speed Detect and Avoid",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:9VeumLvkZSQC",
+    "pdf_path": "pdfs/2025-scalable-benchmarking-and-robust-learning-for-noise-free-ego-motion-and-3d-reconstruction-from-noisy-video.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.14319v1.pdf",
+    "title": "Scalable benchmarking and robust learning for noise-free ego-motion and 3d reconstruction from noisy video",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:koF6b02d8EEC",
+    "pdf_path": "pdfs/2025-flying-hand-end-effector-centric-framework-for-versatile-aerial-manipulation-teleoperation-and-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.10334v1.pdf",
+    "title": "Flying hand: End-effector-centric framework for versatile aerial manipulation teleoperation and policy learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:pxXbYLTb8EgC",
+    "pdf_path": "pdfs/2025-general-place-recognition-survey-toward-real-world-autonomy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.04812v2.pdf",
+    "title": "General place recognition survey: Toward real-world autonomy",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:o9ULDYDKYbIC",
+    "pdf_path": "pdfs/2025-image-speech-and-ads-b-trajectory-datasets-for-terminal-airspace-operations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.03372v1.pdf",
+    "title": "Image, speech, and ADS-B trajectory datasets for terminal airspace operations",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:KsTgnNRry18C",
+    "pdf_path": "pdfs/2025-bilevel-learning-for-bilevel-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.08697v3.pdf",
+    "title": "Bilevel learning for bilevel planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:-vzq6BoH5oUC",
+    "pdf_path": "pdfs/2025-firestereo-forest-infrared-stereo-dataset-for-uas-depth-perception-in-visually-degraded-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.07715v1.pdf",
+    "title": "Firestereo: Forest infrared stereo dataset for uas depth perception in visually degraded environments",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:5F1dSjz1ScoC",
+    "pdf_path": "pdfs/2025-aug3d-augmenting-large-scale-outdoor-datasets-for-generalizable-novel-view-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.06431v1.pdf",
+    "title": "Aug3D: Augmenting large scale outdoor datasets for Generalizable Novel View Synthesis",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:R6EwkKsDylYC",
+    "pdf_path": "pdfs/2025-safedec-constrained-decoding-for-safe-autoregressive-generalist-robot-navigation-policies.pdf",
+    "pdf_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/kapoor26a/kapoor26a.pdf",
+    "title": "SafeDec: Constrained Decoding for Safe Autoregressive Generalist Robot Navigation Policies",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:1paMEeroeoQC",
+    "pdf_path": "pdfs/2025-unisat-unified-objective-belief-model-and-planner-to-search-for-and-track-multiple-objects.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.15997v2.pdf",
+    "title": "UniSaT: Unified-Objective Belief Model and Planner to Search for and Track Multiple Objects",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:YGhAHpnIhDoC",
+    "pdf_path": "pdfs/2024-cocap-coordinated-motion-capture-for-multi-actor-scenes-in-outdoor-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.20695v1.pdf",
+    "title": "CoCap: Coordinated motion Capture for multi-actor scenes in outdoor environments",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:jKT558fuBk8C",
+    "pdf_path": "pdfs/2024-map-it-anywhere-empowering-bev-map-prediction-using-large-scale-public-datasets.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/76218e28957e72ffddcd1c3e1e800043-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "title": "Map it anywhere: Empowering bev map prediction using large-scale public datasets",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:ynsZFq2pu0MC",
+    "pdf_path": "pdfs/2024-logicity-advancing-neuro-symbolic-ai-with-abstract-urban-simulation.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/8196be81e68289d7a9ece21ed7f5750a-Paper-Datasets_and_Benchmarks_Track.pdf",
+    "title": "Logicity: Advancing neuro-symbolic ai with abstract urban simulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:bCjgOgSFrM0C",
+    "pdf_path": "pdfs/2024-multi-robot-planning-for-filming-groups-of-moving-actors-leveraging-submodularity-and-pixel-density.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.03103.pdf",
+    "title": "Multi-robot planning for filming groups of moving actors leveraging submodularity and pixel density",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:j2GSQqY3pL0C",
+    "pdf_path": "pdfs/2024-flying-calligrapher-contact-aware-motion-and-force-planning-and-control-for-aerial-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.05587.pdf",
+    "title": "Flying calligrapher: Contact-aware motion and force planning and control for aerial manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:oH8HCDhqVGsC",
+    "pdf_path": "pdfs/2024-targeted-image-transformation-for-improving-robustness-in-long-range-aircraft-detection.pdf",
+    "pdf_url": "https://clementfung.me/gallery/papers/iros24-robust-aircraft-detection.pdf",
+    "title": "Targeted image transformation for improving robustness in long range aircraft detection",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:TiIbgCYny7sC",
+    "pdf_path": "pdfs/2024-airshot-efficient-few-shot-detection-for-autonomous-exploration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.05069v1.pdf",
+    "title": "AirShot: Efficient few-shot detection for autonomous exploration",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:dFKc6_kCK1wC",
+    "pdf_path": "pdfs/2024-greedy-perspectives-multi-drone-view-planning-for-collaborative-perception-in-cluttered-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.10863v3.pdf",
+    "title": "Greedy perspectives: Multi-drone view planning for collaborative perception in cluttered environments",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:Q3-QASNKTMEC",
+    "pdf_path": "pdfs/2024-informative-sensor-planning-for-a-single-axis-gimbaled-camera-on-a-fixed-wing-uav.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.04896.pdf",
+    "title": "Informative Sensor Planning for a Single-Axis Gimbaled Camera on a Fixed-Wing UAV",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:s1ouQE5r0WUC",
+    "pdf_path": "pdfs/2024-how-is-the-pilot-doing-vtol-pilot-workload-estimation-by-multimodal-machine-learning-on-psycho-physiological-signals.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.06448v1.pdf",
+    "title": "How is the pilot doing: VTOL pilot workload estimation by multimodal machine learning on psycho-physiological signals",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:uWy0R8PweswC",
+    "pdf_path": "pdfs/2024-amelia-a-large-dataset-and-benchmark-for-airport-surface-movement-forecasting.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.21185.pdf",
+    "title": "Amelia: A Large Dataset and Benchmark for Airport Surface Movement Forecasting",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:s2G-WRnXBicC",
+    "pdf_path": "pdfs/2024-map-it-anywhere-mia-empowering-bird-s-eye-view-mapping-using-large-scale-public-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.08726v2.pdf",
+    "title": "Map it anywhere (mia): Empowering bird's eye view mapping using large-scale public data",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:w7CBUyPWg-0C",
+    "pdf_path": "pdfs/2024-subt-mrs-dataset-pushing-slam-towards-all-weather-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.07607v5.pdf",
+    "title": "SubT-MRS dataset: Pushing SLAM towards all-weather environments",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:x2hKVfJWtf0C",
+    "pdf_path": "pdfs/2024-splatam-splat-track-map-3d-gaussians-for-dense-rgb-d-slam.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.02126v3.pdf",
+    "title": "Splatam: Splat, track & map 3d gaussians for dense rgb-d slam",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:J4E9jCG1tHUC",
+    "pdf_path": "pdfs/2024-pegasus-simulator-an-isaac-sim-framework-for-multiple-aerial-vehicles-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.05263v2.pdf",
+    "title": "Pegasus simulator: An isaac sim framework for multiple aerial vehicles simulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:oFn-K-OQSCAC",
+    "pdf_path": "pdfs/2024-rulefuser-an-evidential-bayes-approach-for-rule-injection-in-imitation-learned-planners-and-predictors-for-robustness-un.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.11139v3.pdf",
+    "title": "RuleFuser: an evidential Bayes approach for rule injection in imitation learned planners and predictors for robustness under distribution shifts",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:-38epGy1wY0C",
+    "pdf_path": "pdfs/2024-unrealnet-learning-uncertainty-aware-navigation-features-from-high-fidelity-scans-of-real-environments.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.08720v1.pdf",
+    "title": "UNRealNet: Learning uncertainty-aware navigation features from high-fidelity scans of real environments",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:vofGIMt6cyEC",
+    "pdf_path": "pdfs/2024-tartandrive-2-0-more-modalities-and-better-infrastructure-to-further-self-supervised-learning-research-in-off-road-drivi.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.01913v1.pdf",
+    "title": "Tartandrive 2.0: More modalities and better infrastructure to further self-supervised learning research in off-road driving tasks",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:8gBurD7jEYQC",
+    "pdf_path": "pdfs/2024-geometry-informed-distance-candidate-selection-for-adaptive-lightweight-omnidirectional-stereo-vision-with-fisheye-image.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.05355v1.pdf",
+    "title": "Geometry-informed distance candidate selection for adaptive lightweight omnidirectional stereo vision with fisheye images",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:4E1Y8I9HL1wC",
+    "pdf_path": "pdfs/2024-aerial-interaction-with-tactile-sensing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.00142v1.pdf",
+    "title": "Aerial interaction with tactile sensing",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:BFa5h04uPMwC",
+    "pdf_path": "pdfs/2024-method-for-determining-a-movement-state-of-a-rigid-body.pdf",
+    "pdf_url": "https://patentimages.storage.googleapis.com/11/2c/dd/f9679655bb7783/US20240134033A1.pdf",
+    "title": "Method for determining a movement state of a rigid body",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:yCjxvIMm6_oC",
+    "pdf_path": "pdfs/2024-deep-bayesian-future-fusion-for-self-supervised-high-resolution-off-road-mapping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.11876v2.pdf",
+    "title": "Deep bayesian future fusion for self-supervised, high-resolution, off-road mapping",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:KqnX2w3egDsC",
+    "pdf_path": "pdfs/2024-sorts-learned-tree-search-for-long-horizon-social-robot-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.13144v2.pdf",
+    "title": "Sorts: Learned tree search for long horizon social robot navigation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=gxoPfIYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=gxoPfIYAAAAJ:1wZ_wKGpLuwC",
+    "pdf_path": "pdfs/2024-fast-and-modular-autonomy-software-for-autonomous-racing-vehicles.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.15425v1.pdf",
+    "title": "Fast and modular autonomy software for autonomous racing vehicles",
+    "year": 2024
   }
 ]

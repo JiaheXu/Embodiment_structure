@@ -1,0 +1,261 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:fFSKOagxvKUC",
+    "pdf_path": "pdfs/2026-vamos-a-hierarchical-vision-language-action-model-for-capability-modulated-and-steerable-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.20818.pdf",
+    "title": "Vamos: A hierarchical vision-language-action model for capability-modulated and steerable navigation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:F9fV5C73w3QC",
+    "pdf_path": "pdfs/2026-discriminative-barrier-functions-for-safe-adversarial-imitation-learning-from-observation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.13938.pdf",
+    "title": "Discriminative Barrier Functions for Safe Adversarial Imitation Learning from Observation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:ODE9OILHJdcC",
+    "pdf_path": "pdfs/2026-model-predictive-adversarial-imitation-learning-for-planning-from-observation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.21533v2.pdf",
+    "title": "Model predictive adversarial imitation learning for planning from observation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:r_AWSJRzSzQC",
+    "pdf_path": "pdfs/2026-planning-from-observation-and-interaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.24121.pdf",
+    "title": "Planning from Observation and Interaction",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:3htObqc8RwsC",
+    "pdf_path": "pdfs/2025-using-non-expert-data-to-robustify-imitation-learning-via-offline-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.19495.pdf",
+    "title": "Using non-expert data to robustify imitation learning via offline reinforcement learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:OcBU2YAGkTUC",
+    "pdf_path": "pdfs/2025-details-matter-for-indoor-open-vocabulary-3d-instance-segmentation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.23134.pdf",
+    "title": "Details matter for indoor open-vocabulary 3d instance segmentation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:yFnVuubrUp4C",
+    "pdf_path": "pdfs/2025-tactile-beyond-pixels-multisensory-touch-representations-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.14754v1.pdf",
+    "title": "Tactile beyond pixels: Multisensory touch representations for robot manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:OR75R8vi5nAC",
+    "pdf_path": "pdfs/2025-uncertainty-aware-accurate-elevation-modeling-for-off-road-navigation-via-neural-processes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.03890v2.pdf",
+    "title": "Uncertainty-aware Accurate Elevation Modeling for Off-road Navigation via Neural Processes",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:dBIO0h50nwkC",
+    "pdf_path": "pdfs/2025-dynamic-non-prehensile-object-transport-via-model-predictive-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.00086v1.pdf",
+    "title": "Dynamic non-prehensile object transport via model-predictive reinforcement learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:IRz6iEL74y4C",
+    "pdf_path": "pdfs/2025-agile-continuous-jumping-in-discontinuous-terrains.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.10923v2.pdf",
+    "title": "Agile continuous jumping in discontinuous terrains",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:cWzG1nlazyYC",
+    "pdf_path": "pdfs/2025-self-supervised-perception-for-tactile-skin-covered-dexterous-hands.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.11420v1.pdf",
+    "title": "Self-supervised perception for tactile skin covered dexterous hands",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:mNrWkgRL2YcC",
+    "pdf_path": "pdfs/2025-long-range-navigator-lrn-extending-robot-planning-horizons-beyond-metric-maps.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.13149v1.pdf",
+    "title": "Long Range Navigator (LRN): Extending robot planning horizons beyond metric maps",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:QYdC8u9Cj1oC",
+    "pdf_path": "pdfs/2025-parental-guidance-efficient-lifelong-learning-through-evolutionary-distillation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.18531.pdf",
+    "title": "Parental Guidance: Efficient Lifelong Learning through Evolutionary Distillation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:bKqednn6t2AC",
+    "pdf_path": "pdfs/2025-wheeled-lab-modern-sim2real-for-low-cost-open-source-wheeled-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.07380v2.pdf",
+    "title": "Wheeled Lab: Modern Sim2Real for Low-cost, Open-source Wheeled Robotics",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:OTTXONDVkokC",
+    "pdf_path": "pdfs/2024-overcoming-the-sim-to-real-gap-leveraging-simulation-to-learn-to-explore-for-real-world-rl.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/8fa068ffe59817175d176bd75641fe16-Paper-Conference.pdf",
+    "title": "Overcoming the sim-to-real gap: Leveraging simulation to learn to explore for real-world rl",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:2VqYfGB8ITEC",
+    "pdf_path": "pdfs/2024-sparsh-self-supervised-touch-representations-for-vision-based-tactile-sensing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.24090v1.pdf",
+    "title": "Sparsh: Self-supervised touch representations for vision-based tactile sensing",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:XvxMoLDsR5gC",
+    "pdf_path": "pdfs/2024-locoman-advancing-versatile-quadrupedal-dexterity-with-lightweight-loco-manipulators.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.18197v2.pdf",
+    "title": "Locoman: Advancing versatile quadrupedal dexterity with lightweight loco-manipulators",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:umqufdRvDiIC",
+    "pdf_path": "pdfs/2024-dynamics-models-in-the-aggressive-off-road-driving-regime.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.16487v1.pdf",
+    "title": "Dynamics models in the aggressive off-road driving regime",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:4hFrxpcac9AC",
+    "pdf_path": "pdfs/2024-multi-sample-long-range-path-planning-under-sensing-uncertainty-for-off-road-autonomous-driving.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.11298v1.pdf",
+    "title": "Multi-sample long range path planning under sensing uncertainty for off-road autonomous driving",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:0izLItjtcgwC",
+    "pdf_path": "pdfs/2024-v-strong-visual-self-supervised-traversability-learning-for-off-road-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.16016v2.pdf",
+    "title": "V-strong: Visual self-supervised traversability learning for off-road navigation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:LO7wyVUgiFcC",
+    "pdf_path": "pdfs/2024-deep-model-predictive-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.04590.pdf",
+    "title": "Deep model predictive optimization",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:86PQX7AUzd4C",
+    "pdf_path": "pdfs/2023-adversarial-model-for-offline-reinforcement-learning.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/0429ececfb199efc93182990169e73bb-Paper-Conference.pdf",
+    "title": "Adversarial model for offline reinforcement learning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:_FM0Bhl9EiAC",
+    "pdf_path": "pdfs/2023-dynamo-grasp-dynamics-aware-optimization-for-grasp-point-detection-in-suction-grippers.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v229/yang23a/yang23a.pdf",
+    "title": "Dynamo-grasp: Dynamics-aware optimization for grasp point detection in suction grippers",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:4fGpz3EwCPoC",
+    "pdf_path": "pdfs/2023-cajun-continuous-adaptive-jumping-using-a-learned-centroidal-controller.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v229/yang23b/yang23b.pdf",
+    "title": "Cajun: Continuous adaptive jumping using a learned centroidal controller",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:anf4URPfarAC",
+    "pdf_path": "pdfs/2023-model-predictive-control-for-aggressive-driving-over-uneven-terrain.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.12284v3.pdf",
+    "title": "Model predictive control for aggressive driving over uneven terrain",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:GtLg2Ama23sC",
+    "pdf_path": "pdfs/2023-datt-deep-adaptive-trajectory-tracking-for-quadrotor-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.09053v3.pdf",
+    "title": "Datt: Deep adaptive trajectory tracking for quadrotor control",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:FAceZFleit8C",
+    "pdf_path": "pdfs/2023-lidar-uda-self-ensembling-through-time-for-unsupervised-lidar-domain-adaptation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.13523v1.pdf",
+    "title": "Lidar-uda: Self-ensembling through time for unsupervised lidar domain adaptation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:9pM33mqn1YgC",
+    "pdf_path": "pdfs/2023-cafa-class-aware-feature-alignment-for-test-time-adaptation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2206.00205.pdf",
+    "title": "Cafa: Class-aware feature alignment for test-time adaptation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:8d8msizDQcsC",
+    "pdf_path": "pdfs/2023-perceiving-extrinsic-contacts-from-touch-improves-learning-insertion-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.16652v1.pdf",
+    "title": "Perceiving extrinsic contacts from touch improves learning insertion policies",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:rmuvC79q63oC",
+    "pdf_path": "pdfs/2023-mahalo-unifying-offline-reinforcement-learning-and-imitation-learning-from-observations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.17156v2.pdf",
+    "title": "Mahalo: Unifying offline reinforcement learning and imitation learning from observations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:Ri6SYOTghG4C",
+    "pdf_path": "pdfs/2023-continuous-versatile-jumping-using-learned-action-residuals.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.08663v1.pdf",
+    "title": "Continuous versatile jumping using learned action residuals",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:kh2fBNsKQNwC",
+    "pdf_path": "pdfs/2023-stackelberg-games-for-learning-emergent-behaviors-during-competitive-autocurricula.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.03735.pdf",
+    "title": "Stackelberg games for learning emergent behaviors during competitive autocurricula",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:YohjEiUPhakC",
+    "pdf_path": "pdfs/2023-learning-to-read-braille-bridging-the-tactile-reality-gap-with-diffusion-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.01182v1.pdf",
+    "title": "Learning to read braille: Bridging the tactile reality gap with diffusion models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:_axFR9aDTf0C",
+    "pdf_path": "pdfs/2023-terrainnet-visual-modeling-of-complex-terrain-for-high-speed-off-road-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.15771v3.pdf",
+    "title": "Terrainnet: Visual modeling of complex terrain for high-speed, off-road navigation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:ClCfbGk0d_YC",
+    "pdf_path": "pdfs/2023-learning-sampling-distributions-for-model-predictive-control.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v205/sacks23a/sacks23a.pdf",
+    "title": "Learning sampling distributions for model predictive control",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:xtoqd-5pKcoC",
+    "pdf_path": "pdfs/2023-learning-semantics-aware-locomotion-skills-from-human-demonstration.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v205/yang23a/yang23a.pdf",
+    "title": "Learning semantics-aware locomotion skills from human demonstration",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:z_wVstp3MssC",
+    "pdf_path": "pdfs/2088-quantum-tensor-networks-stochastic-processes-and-weighted-automata.pdf",
+    "pdf_url": "http://proceedings.mlr.press/v130/adhikary21a/adhikary21a.pdf",
+    "title": "Quantum tensor networks, stochastic processes, and weighted automata",
+    "year": 2088
+  }
+]

@@ -1708,8 +1708,8 @@ def test_google_scholar_extraction_uses_year_cell_not_page_range():
     assert rows[0][1] == 2026
 
 
-@pytest.mark.parametrize("entry_count", [10, 60])
-def test_fetch_bilibili_video_metadata_defaults_to_fifty_videos(monkeypatch, entry_count):
+@pytest.mark.parametrize("entry_count", [10, 120])
+def test_fetch_bilibili_video_metadata_defaults_to_one_hundred_videos(monkeypatch, entry_count):
     calls = []
 
     def fake_run_yt_dlp_json(args, timeout):
@@ -1721,6 +1721,7 @@ def test_fetch_bilibili_video_metadata_defaults_to_fifty_videos(monkeypatch, ent
         return {"title": args[-1], "webpage_url": args[-1]}
 
     monkeypatch.setattr("labs.download_paper._run_yt_dlp_json", fake_run_yt_dlp_json)
+    monkeypatch.setattr("labs.download_paper.fetch_bilibili_video_details", lambda url, timeout: {"title": url, "webpage_url": url})
 
     metadata = fetch_bilibili_video_metadata("https://space.bilibili.com/1/upload/video", timeout=1)
 
@@ -1728,12 +1729,12 @@ def test_fetch_bilibili_video_metadata_defaults_to_fifty_videos(monkeypatch, ent
         "--flat-playlist",
         "--dump-single-json",
         "--playlist-end",
-        "50",
+        "100",
         "--no-warnings",
         "https://space.bilibili.com/1/upload/video",
     ]
-    assert len(metadata) == min(entry_count, 50)
-    assert len(calls) == 1 + min(entry_count, 50)
+    assert len(metadata) == min(entry_count, 100)
+    assert len(calls) == 1
 
 
 def test_collect_lab_searches_arxiv_before_recording_unmatched_bilibili_video(tmp_path, monkeypatch):
@@ -1799,6 +1800,188 @@ def test_search_arxiv_for_bilibili_video_parses_first_recent_result(monkeypatch)
         "https://www.bilibili.com/video/BVfound",
         "https://arxiv.org/pdf/2401.01234.pdf",
     )
+
+
+def test_bilibili_metadata_recovers_description_when_playback_is_blocked(monkeypatch):
+    def yt_dlp(args, timeout):
+        if "--flat-playlist" in args:
+            return {"entries": [{"id": "BV1ncHn6UEQW", "title": "Chinese video title"}]}
+        raise RuntimeError("playurl: HTTP Error 412")
+
+    def read(request, timeout):
+        assert request.full_url == "https://api.bilibili.com/x/web-interface/view?bvid=BV1ncHn6UEQW"
+        return json.dumps({"code": 0, "data": {
+            "title": "Paper discussion", "desc": "Paper: https://arxiv.org/abs/2401.01234",
+            "pubdate": 1706659200,
+        }}).encode(), None
+
+    monkeypatch.setattr("labs.download_paper._run_yt_dlp_json", yt_dlp)
+    monkeypatch.setattr("labs.download_paper.read_url_with_retries", read)
+    metadata = fetch_bilibili_video_metadata("https://space.bilibili.com/1/upload/video", timeout=1)
+    from labs.download_paper import parse_bilibili_video_text
+    papers = parse_bilibili_video_text(build_bilibili_video_text(metadata), "https://space.bilibili.com/1")
+    assert papers == [PaperCandidate("Paper discussion", 2024,
+                                    "https://www.bilibili.com/video/BV1ncHn6UEQW",
+                                    "https://arxiv.org/pdf/2401.01234.pdf")]
+
+
+def test_bilibili_metadata_skips_playback_when_view_api_succeeds(monkeypatch, capsys):
+    def yt_dlp(args, timeout):
+        assert "--flat-playlist" in args, "Paper metadata must not request video playback"
+        return {"entries": [{"id": "BVtest"}]}
+    monkeypatch.setattr("labs.download_paper._run_yt_dlp_json", yt_dlp)
+    monkeypatch.setattr("labs.download_paper.fetch_bilibili_video_details", lambda url, timeout: {
+        "title": "Steerable Policies", "description": "Full paper description", "webpage_url": url,
+    })
+    metadata = fetch_bilibili_video_metadata("https://space.bilibili.com/1/upload/video", 1)
+    assert metadata[0]["description"] == "Full paper description"
+    assert "1/1" in capsys.readouterr().out
+
+
+def test_bilibili_metadata_uses_playback_only_when_view_api_fails(monkeypatch):
+    def unavailable(url, timeout):
+        raise URLError("View API unavailable")
+    def yt_dlp(args, timeout):
+        if "--flat-playlist" in args:
+            return {"entries": [{"id": "BVtest"}]}
+        return {"title": "Robot Skills", "description": "Recovered description", "webpage_url": args[-1]}
+    monkeypatch.setattr("labs.download_paper.fetch_bilibili_video_details", unavailable)
+    monkeypatch.setattr("labs.download_paper._run_yt_dlp_json", yt_dlp)
+    metadata = fetch_bilibili_video_metadata("https://space.bilibili.com/1/upload/video", 1)
+    assert metadata[0]["description"] == "Recovered description"
+
+
+@pytest.mark.parametrize("response", [{"code": -404, "message": "Not found"}, {"code": 0, "data": None}])
+def test_bilibili_metadata_logs_failed_fallback(monkeypatch, capsys, response):
+    def yt_dlp(args, timeout):
+        if "--flat-playlist" in args:
+            return {"entries": [{"id": "BVmissing", "title": "Sparse title"}]}
+        raise RuntimeError("playback blocked")
+
+    monkeypatch.setattr("labs.download_paper._run_yt_dlp_json", yt_dlp)
+    monkeypatch.setattr("labs.download_paper.read_url_with_retries", lambda request, timeout: (json.dumps(response).encode(), None))
+    metadata = fetch_bilibili_video_metadata("https://space.bilibili.com/1/upload/video", timeout=1)
+    assert metadata[0]["title"] == "Sparse title"
+    assert "BVmissing" in capsys.readouterr().err
+
+
+def test_bilibili_hybrid_keeps_explicit_papers_when_ai_is_unavailable(monkeypatch):
+    from labs.download_paper import choose_bilibili_candidates
+    def unavailable(*args, **kwargs):
+        raise URLError("AI connection refused")
+    monkeypatch.setattr("labs.download_paper.extract_papers_from_bilibili_videos", unavailable)
+    text = "Video 1:\nTitle: Robot Skills\nURL: https://www.bilibili.com/video/BVtest\nDescription: https://arxiv.org/abs/2401.01234"
+    papers = choose_bilibili_candidates(text, "https://space.bilibili.com/1", 2023, 1, "hybrid")
+    assert len(papers) == 1
+    assert papers[0].pdf_url == "https://arxiv.org/pdf/2401.01234.pdf"
+    with pytest.raises(URLError):
+        choose_bilibili_candidates(text, "https://space.bilibili.com/1", 2023, 1, "ai")
+
+
+def test_successful_bilibili_download_clears_stale_failure(tmp_path, monkeypatch):
+    from labs.download_paper import download_new_papers
+    video = "https://www.bilibili.com/video/BVtest"
+    (tmp_path / "failed.txt").write_text(f"{video}\nRobot Skills\nhttps://www.bilibili.com/video/BVother\n")
+    monkeypatch.setattr("labs.download_paper.download_pdf", lambda url, destination, timeout: None)
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda seconds: None)
+    paper = PaperCandidate("Robot Skills", 2024, video, "https://arxiv.org/pdf/2401.01234.pdf")
+    assert download_new_papers(tmp_path, [paper], 1, False)[0] == 1
+    assert (tmp_path / "failed.txt").read_text() == "https://www.bilibili.com/video/BVother\n"
+
+
+def test_bilibili_search_uses_english_paper_title_in_description(monkeypatch):
+    from urllib.parse import parse_qs, urlparse
+    title = "Scaling Rough Terrain Locomotion with Automatic Curriculum Reinforcement Learning"
+    atom = f'<feed xmlns="http://www.w3.org/2005/Atom"><entry><id>https://arxiv.org/abs/2601.17428</id><title>{title}</title><published>2026-01-01</published></entry></feed>'
+    def fetch(url, timeout):
+        query = parse_qs(urlparse(url).query)["search_query"][0]
+        assert "RAL" not in query
+        assert "ti:Scaling AND ti:Rough" in query
+        return atom
+    monkeypatch.setattr("labs.download_paper.fetch_text", fetch)
+    paper = search_arxiv_for_bilibili_video({
+        "title": "[RAL 2026] 利用自动课程强化学习扩展崎岖地形行走能力",
+        "description": "利用自动课程强化学习\n" + title + "\nAuthors: Ziming Li, Chenhao Li, Marco Hutter",
+        "webpage_url": "https://www.bilibili.com/video/BVtest",
+    }, 2023, 1)
+    assert paper is not None and paper.title == title
+
+
+def test_bilibili_search_rejects_unrelated_arxiv_result(monkeypatch):
+    atom = '<feed xmlns="http://www.w3.org/2005/Atom"><entry><id>https://arxiv.org/abs/2610.13945</id><title>Splat2Act: From Captured Scenes to Personalized VLA Manipulation</title><published>2026-10-01</published></entry></feed>'
+    monkeypatch.setattr("labs.download_paper.fetch_text", lambda url, timeout: atom)
+    assert search_arxiv_for_bilibili_video({
+        "title": "Scaling Rough Terrain Locomotion With Automatic Curriculum Reinforcement Learning",
+        "webpage_url": "https://www.bilibili.com/video/BVtest",
+    }, 2023, 1) is None
+
+
+@pytest.mark.parametrize("name,title", [
+    ("Steerable Policies", "Steerable Vision-Language-Action Policies for Embodied Reasoning and Hierarchical Control"),
+    ("ECoT", "Robotic Control via Embodied Chain-of-Thought Reasoning"),
+    ("ThinkAct", "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning"),
+])
+def test_bilibili_short_paper_names_match_full_titles(monkeypatch, name, title):
+    from urllib.parse import parse_qs, urlparse
+    atom = f'<feed xmlns="http://www.w3.org/2005/Atom"><entry><id>https://arxiv.org/abs/2602.13193</id><title>{title}</title><summary>We introduce {name} for robot control.</summary><published>2026-02-13</published></entry></feed>'
+    def fetch(url, timeout):
+        assert parse_qs(urlparse(url).query)["search_query"] == [f'all:"{name}"']
+        return atom
+    monkeypatch.setattr("labs.download_paper.fetch_text", fetch)
+    paper = search_arxiv_for_bilibili_video({
+        "title": f"【RSS 2026】🎓{name}：面向具身推理的机器人策略",
+        "webpage_url": "https://www.bilibili.com/video/BVtest",
+    }, 2023, 1)
+    assert paper is not None and paper.title == title
+
+
+def test_bilibili_short_name_rejects_ambiguous_matches(monkeypatch):
+    entries = ''.join(f'<entry><id>https://arxiv.org/abs/2602.1319{i}</id><title>Robot Model {i}</title><summary>We introduce Steerable Policies.</summary><published>2026-02-13</published></entry>' for i in range(2))
+    atom = f'<feed xmlns="http://www.w3.org/2005/Atom">{entries}</feed>'
+    monkeypatch.setattr("labs.download_paper.fetch_text", lambda url, timeout: atom)
+    assert search_arxiv_for_bilibili_video({
+        "title": "Steerable Policies: 机器人策略", "webpage_url": "https://www.bilibili.com/video/BVtest",
+    }, 2023, 1) is None
+
+
+def test_bilibili_alias_prefers_paper_introducing_method_over_mentions(monkeypatch):
+    atom = '''<feed xmlns="http://www.w3.org/2005/Atom">
+    <entry><id>https://arxiv.org/abs/2506.07639</id><title>Fast ECoT: Efficient Embodied Chain-of-Thought</title><summary>We propose Fast ECoT for robots.</summary><published>2025-06-01</published></entry>
+    <entry><id>https://arxiv.org/abs/2401.06836</id><title>Emotional Generation</title><summary>We propose Emotional Chain-of-Thought (ECoT) for emotional generation.</summary><published>2024-01-01</published></entry>
+    <entry><id>https://arxiv.org/abs/2407.08693</id><title>Robotic Control via Embodied Chain-of-Thought Reasoning</title><summary>We introduce Embodied Chain-of-Thought Reasoning (ECoT) for robot control.</summary><published>2024-07-01</published></entry>
+    </feed>'''
+    monkeypatch.setattr("labs.download_paper.fetch_text", lambda url, timeout: atom)
+    paper = search_arxiv_for_bilibili_video({
+        "title": "[CoRL 2024] ECoT：用具身思维链推理增强机器人控制",
+        "webpage_url": "https://www.bilibili.com/video/BVtest",
+    }, 2023, 1)
+    assert paper is not None and paper.pdf_url == "https://arxiv.org/pdf/2407.08693.pdf"
+
+
+def test_blocked_channel_retries_saved_failed_videos(tmp_path, monkeypatch, capsys):
+    (tmp_path / "link.txt").write_text("https://space.bilibili.com/1/upload/video\n")
+    (tmp_path / "failed.txt").write_text("https://www.bilibili.com/video/BVtest\nUnrelated failed paper title\n")
+    def blocked(*args, **kwargs):
+        raise RuntimeError("Channel listing HTTP Error 412")
+    monkeypatch.setattr("labs.download_paper.fetch_bilibili_video_metadata", blocked)
+    monkeypatch.setattr("labs.download_paper.fetch_bilibili_video_details", lambda url, timeout: {
+        "title": "Robot Skills", "webpage_url": url, "description": "https://arxiv.org/abs/2401.01234",
+    })
+    monkeypatch.setattr("labs.download_paper.download_pdf", lambda url, destination, timeout: None)
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda seconds: None)
+    assert collect_lab(tmp_path, 2023, 1, False, "static") == (1, 1)
+    assert json.loads((tmp_path / "papers.json").read_text())[0]["title"] == "Robot Skills"
+    assert (tmp_path / "failed.txt").read_text() == "Unrelated failed paper title\n"
+    assert "new uploads" in capsys.readouterr().err
+
+
+def test_blocked_channel_without_saved_videos_remains_failed(tmp_path, monkeypatch):
+    (tmp_path / "link.txt").write_text("https://space.bilibili.com/1/upload/video\n")
+    def blocked(*args, **kwargs):
+        raise RuntimeError("Channel listing HTTP Error 412")
+    monkeypatch.setattr("labs.download_paper.fetch_bilibili_video_metadata", blocked)
+    with pytest.raises(RuntimeError, match="412"):
+        collect_lab(tmp_path, 2023, 1, True, "static")
 
 
 def test_fetch_text_retries_transient_ssl_errors(monkeypatch):
@@ -1976,6 +2159,37 @@ def test_yt_dlp_json_uses_bilibili_cookie_env(monkeypatch):
 
     assert _run_yt_dlp_json(["--dump-single-json", "https://example.com/video"], timeout=1) == {"ok": True}
     assert captured["command"][:3] == ["yt-dlp", "--cookies", "/tmp/bilibili-cookies.txt"]
+
+
+def test_bilibili_listing_retries_412_with_browser_impersonation(monkeypatch):
+    calls = []
+    def run(command, **kwargs):
+        calls.append(command[:])
+        if "--impersonate" not in command:
+            raise subprocess.CalledProcessError(1, command, stderr="HTTP Error 412")
+        assert command[command.index("--cookies") + 1] == "/tmp/bilibili-cookies.txt"
+        return subprocess.CompletedProcess(command, 0, stdout='{"entries": [{"id": "BVtest"}]}', stderr="")
+    monkeypatch.setenv("BILIBILI_COOKIES", "/tmp/bilibili-cookies.txt")
+    monkeypatch.setattr("labs.download_paper.subprocess.run", run)
+    result = _run_yt_dlp_json(["--flat-playlist", "https://space.bilibili.com/1/upload/video"], 1)
+    assert result["entries"] == [{"id": "BVtest"}]
+    assert len(calls) == 2
+
+
+@pytest.mark.parametrize("error,url,attempts", [
+    ("HTTP Error 412", "https://space.bilibili.com/1/upload/video", 2),
+    ("HTTP Error 404", "https://space.bilibili.com/1/upload/video", 1),
+    ("HTTP Error 412", "https://example.com/video", 1),
+])
+def test_impersonation_retry_is_bounded_to_bilibili_412(monkeypatch, error, url, attempts):
+    calls = []
+    def run(command, **kwargs):
+        calls.append(command[:])
+        raise subprocess.CalledProcessError(1, command, stderr=error)
+    monkeypatch.setattr("labs.download_paper.subprocess.run", run)
+    with pytest.raises(RuntimeError):
+        _run_yt_dlp_json([url], 1)
+    assert len(calls) == attempts
 
 
 @pytest.mark.parametrize("extra_args", [[], ["--limit", "1"]])
@@ -2179,3 +2393,117 @@ def test_clean_title_keeps_capitalized_title_endings():
         clean_title("Robot Utility Models: General Policies for Zero-Shot Deployment in New Environments")
         == "Robot Utility Models: General Policies for Zero-Shot Deployment in New Environments"
     )
+
+
+@pytest.mark.parametrize("retry_after,expected", [
+    (None, [0, 30, 90]), ("45", [0, 45, 90]),
+    ("Thu, 01 Jan 1970 00:00:45 GMT", [0, 45, 48]),
+])
+def test_arxiv_429_retries_observe_cooldown(monkeypatch, retry_after, expected):
+    import io
+    from urllib.request import Request
+    from labs.download_paper import read_url_with_retries
+    clock = [0.0]
+    starts = []
+    monkeypatch.setattr("labs.download_paper._ARXIV_NEXT_REQUEST", 0.0, raising=False)
+    monkeypatch.setattr("labs.download_paper._ARXIV_CACHE", {}, raising=False)
+    monkeypatch.setattr("labs.download_paper.time.monotonic", lambda: clock[0])
+    monkeypatch.setattr("labs.download_paper.time.time", lambda: clock[0])
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda seconds: clock.__setitem__(0, clock[0] + seconds))
+    def open_request(request, timeout):
+        starts.append(clock[0])
+        if len(starts) < 3:
+            raise HTTPError(request.full_url, 429, "Rate exceeded", {"Retry-After": retry_after} if retry_after else {}, None)
+        return io.BytesIO(b"<feed/>")
+    monkeypatch.setattr("labs.download_paper.urlopen", open_request)
+    data, _ = read_url_with_retries(Request("https://export.arxiv.org/api/query?search_query=test"), 1)
+    assert data == b"<feed/>"
+    assert starts == expected
+
+
+def test_arxiv_requests_are_paced_and_successful_queries_reused(monkeypatch):
+    import io
+    from urllib.request import Request
+    from labs.download_paper import read_url_with_retries
+    clock = [0.0]
+    starts = []
+    monkeypatch.setattr("labs.download_paper._ARXIV_NEXT_REQUEST", 0.0, raising=False)
+    monkeypatch.setattr("labs.download_paper._ARXIV_CACHE", {}, raising=False)
+    monkeypatch.setattr("labs.download_paper.time.monotonic", lambda: clock[0])
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda seconds: clock.__setitem__(0, clock[0] + seconds))
+    def open_request(request, timeout):
+        starts.append(clock[0])
+        return io.BytesIO(request.full_url.encode())
+    monkeypatch.setattr("labs.download_paper.urlopen", open_request)
+    one = Request("https://export.arxiv.org/api/query?search_query=one")
+    two = Request("https://export.arxiv.org/api/query?search_query=two")
+    assert read_url_with_retries(one, 1)[0] == one.full_url.encode()
+    assert read_url_with_retries(two, 1)[0] == two.full_url.encode()
+    assert read_url_with_retries(one, 1)[0] == one.full_url.encode()
+    assert starts == [0, 3]
+
+
+def test_arxiv_workers_share_a_single_connection(monkeypatch):
+    import io
+    from concurrent.futures import ThreadPoolExecutor
+    from threading import Event
+    from urllib.request import Request
+    from labs.download_paper import read_url_with_retries
+    started, release, second_attempt, second_opened = Event(), Event(), Event(), Event()
+    monkeypatch.setattr("labs.download_paper._ARXIV_NEXT_REQUEST", 0.0)
+    monkeypatch.setattr("labs.download_paper._ARXIV_CACHE", {})
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda seconds: None)
+    class FirstResponse(io.BytesIO):
+        def read(self):
+            started.set()
+            assert release.wait(1)
+            return super().read()
+    def open_request(request, timeout):
+        if "=first" in request.full_url:
+            return FirstResponse(b"first")
+        second_opened.set()
+        return io.BytesIO(b"second")
+    monkeypatch.setattr("labs.download_paper.urlopen", open_request)
+    def second():
+        second_attempt.set()
+        return read_url_with_retries(Request("https://export.arxiv.org/api/query?q=second"), 1)
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        first = pool.submit(read_url_with_retries, Request("https://export.arxiv.org/api/query?q=first"), 1)
+        assert started.wait(1)
+        other = pool.submit(second)
+        try:
+            assert second_attempt.wait(1)
+            assert not second_opened.wait(0.03)
+        finally:
+            release.set()
+        assert first.result()[0] == b"first"
+        assert other.result()[0] == b"second"
+
+
+def test_bilibili_downloads_identified_papers_before_optional_search(tmp_path, monkeypatch):
+    (tmp_path / "link.txt").write_text("https://space.bilibili.com/1/upload/video\n")
+    metadata = [
+        {"webpage_url": "https://www.bilibili.com/video/BVfound", "title": "Robot Skills", "description": "https://arxiv.org/abs/2401.01234"},
+        {"webpage_url": "https://www.bilibili.com/video/BVmissing", "title": "Unknown: 机器人"},
+    ]
+    monkeypatch.setattr("labs.download_paper.fetch_bilibili_video_metadata", lambda *args, **kwargs: metadata)
+    monkeypatch.setattr("labs.download_paper.download_pdf", lambda *args, **kwargs: None)
+    monkeypatch.setattr("labs.download_paper.time.sleep", lambda seconds: None)
+    def search(*args, **kwargs):
+        assert json.loads((tmp_path / "papers.json").read_text())[0]["title"] == "Robot Skills"
+        return None
+    monkeypatch.setattr("labs.download_paper.search_arxiv_for_bilibili_video", search)
+    assert collect_lab(tmp_path, 2023, 1, False, "static") == (1, 1)
+
+
+def test_bilibili_does_not_search_already_downloaded_video(tmp_path, monkeypatch):
+    (tmp_path / "link.txt").write_text("https://space.bilibili.com/1/upload/video\n")
+    video = "https://www.bilibili.com/video/BVknown"
+    (tmp_path / "papers.json").write_text(json.dumps([{"title": "Robot Skills", "year": 2024,
+        "page_url": video, "pdf_url": "https://arxiv.org/pdf/2401.01234.pdf"}]))
+    monkeypatch.setattr("labs.download_paper.fetch_bilibili_video_metadata", lambda *args, **kwargs: [{"title": "Short Name", "webpage_url": video}])
+    def search(*args, **kwargs):
+        raise AssertionError("Already downloaded video should not request arXiv")
+    monkeypatch.setattr("labs.download_paper.search_arxiv_for_bilibili_video", search)
+    collect_lab(tmp_path, 2023, 1, False, "static")
+    assert not (tmp_path / "failed.txt").exists()

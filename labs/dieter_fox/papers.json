@@ -1,0 +1,394 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:tVbZQR0Ku0MC",
+    "pdf_path": "pdfs/2026-generalizable-robotic-insertion-with-world-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.28258v1.pdf",
+    "title": "Generalizable Robotic Insertion with World Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:oKUQpTv76aEC",
+    "pdf_path": "pdfs/2026-tam-torque-adaptation-module-for-robust-motion-transfer-in-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.06218v2.pdf",
+    "title": "TAM: Torque Adaptation Module for Robust Motion Transfer in Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:STWYWLtSq6gC",
+    "pdf_path": "pdfs/2026-seetraceact-visibility-aware-latent-planning-from-cross-embodiment-demonstration-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.02745v1.pdf",
+    "title": "SeeTraceAct: Visibility-Aware Latent Planning from Cross-Embodiment Demonstration Videos",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:Q53-OCnB6AQC",
+    "pdf_path": "pdfs/2026-refinery-active-fine-tuning-and-deployment-time-optimization-for-contact-rich-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.11019v1.pdf",
+    "title": "Refinery: Active Fine-tuning and Deployment-time Optimization for Contact-Rich Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:x3zuONe3eqIC",
+    "pdf_path": "pdfs/2026-peek-guiding-and-minimal-image-representations-for-zero-shot-generalization-of-robot-manipulation-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.18282v1.pdf",
+    "title": "Peek: Guiding and minimal image representations for zero-shot generalization of robot manipulation policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:ZD92IwzDgOkC",
+    "pdf_path": "pdfs/2026-molmoact-action-reasoning-models-that-can-reason-in-space.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.07917v4.pdf",
+    "title": "Molmoact: Action reasoning models that can reason in space",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:END1nS_e-6cC",
+    "pdf_path": "pdfs/2026-graspgen-a-diffusion-based-framework-for-6-dof-grasping-with-on-generator-training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.13097.pdf",
+    "title": "Graspgen: A diffusion-based framework for 6-dof grasping with on-generator training",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:5n9gSBKMxCsC",
+    "pdf_path": "pdfs/2026-robo-eval-where-robotic-manipulation-meets-structured-and-scalable-evaluation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.00435v2.pdf",
+    "title": "Robo Eval: Where Robotic Manipulation Meets Structured and Scalable Evaluation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:NXjrwPNzFTMC",
+    "pdf_path": "pdfs/2026-grape-generalizing-robot-policy-via-preference-alignment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.19309v2.pdf",
+    "title": "Grape: Generalizing robot policy via preference alignment",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:prKdS1S5QkMC",
+    "pdf_path": "pdfs/2026-molmoact2-action-reasoning-models-for-real-world-deployment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.02881v2.pdf",
+    "title": "Molmoact2: Action reasoning models for real-world deployment",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:vQKLzKM0twkC",
+    "pdf_path": "pdfs/2026-robotsmith-generative-robotic-tool-design-for-acquisition-of-complex-manipulation-skills.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.14763v1.pdf",
+    "title": "Robotsmith: Generative robotic tool design for acquisition of complex manipulation skills",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:Yeq4f8IuGg4C",
+    "pdf_path": "pdfs/2026-robomd-uncovering-robot-vulnerabilities-through-semantic-potential-fields.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.02818v4.pdf",
+    "title": "Robomd: Uncovering robot vulnerabilities through semantic potential fields",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:bGIpCNGh66kC",
+    "pdf_path": "pdfs/2026-roboplayground-democratizing-robotic-evaluation-through-structured-physical-domains.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.05226v1.pdf",
+    "title": "RoboPlayground: Democratizing Robotic Evaluation through Structured Physical Domains",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:NAkivslCrNUC",
+    "pdf_path": "pdfs/2026-vision-language-model-for-detecting-and-reasoning-over-failures-in-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.00371v1.pdf",
+    "title": "Vision-language model for detecting and reasoning over failures in robotic manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:7rVtnTjEZJgC",
+    "pdf_path": "pdfs/2026-automated-asset-generation-for-robotic-assembly-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.05887v2.pdf",
+    "title": "Automated asset generation for robotic assembly tasks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:V0QqM0Py3VsC",
+    "pdf_path": "pdfs/2026-molmob0t-large-scale-simulation-enables-zero-shot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.16861v2.pdf",
+    "title": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:IxBLoz_EsGYC",
+    "pdf_path": "pdfs/2026-vla-eval-a-unified-evaluation-harness-for-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.13966.pdf",
+    "title": "vla-eval: A Unified Evaluation Harness for Vision-Language-Action Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:oFWWKr2Zb18C",
+    "pdf_path": "pdfs/2026-robometer-scaling-general-purpose-robotic-reward-models-via-trajectory-comparisons.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.02115v2.pdf",
+    "title": "Robometer: Scaling general-purpose robotic reward models via trajectory comparisons",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:tVg3zZbtnc0C",
+    "pdf_path": "pdfs/2026-topreward-token-probabilities-as-hidden-zero-shot-rewards-for-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.19313v2.pdf",
+    "title": "Topreward: Token probabilities as hidden zero-shot rewards for robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:7-gQGTwtAzQC",
+    "pdf_path": "pdfs/2026-molmospaces-a-large-scale-open-ecosystem-for-robot-navigation-and-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.11337.pdf",
+    "title": "Molmospaces: A large-scale open ecosystem for robot navigation and manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:DPnopAH2kssC",
+    "pdf_path": "pdfs/2026-recurrent-depth-vla-implicit-test-time-compute-scaling-of-vision-language-action-models-via-latent-iterative-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.07845v1.pdf",
+    "title": "Recurrent-depth vla: Implicit test-time compute scaling of vision-language-action models via latent iterative reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:OkCShBBh3G8C",
+    "pdf_path": "pdfs/2026-point-bridge-3d-representations-for-cross-domain-policy-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.16212v4.pdf",
+    "title": "Point bridge: 3d representations for cross domain policy learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:eIWZJKaDF6kC",
+    "pdf_path": "pdfs/2026-open-world-task-and-motion-planning-via-vision-language-model-generated-constraints.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.08253v4.pdf",
+    "title": "Open-world task and motion planning via vision-language model generated constraints",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:cUWptXWc3MAC",
+    "pdf_path": "pdfs/2026-pointworld-scaling-3d-world-models-for-in-the-wild-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.03782v1.pdf",
+    "title": "Pointworld: Scaling 3d world models for in-the-wild robotic manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:AU_EAA-G7qsC",
+    "pdf_path": "pdfs/2025-the-reality-gap-in-robotics-challenges-solutions-and-best-practices.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.20808v1.pdf",
+    "title": "The reality gap in robotics: Challenges, solutions, and best practices",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:rhSvDnGaX0QC",
+    "pdf_path": "pdfs/2025-optigrasp-optimized-grasp-pose-detection-using-rgb-images-for-warehouse-picking-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.19494v1.pdf",
+    "title": "OptiGrasp: optimized grasp pose detection using RGB images for warehouse picking robots",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:w1G5vK4DiEkC",
+    "pdf_path": "pdfs/2025-vt-refine-learning-bimanual-assembly-with-visuo-tactile-feedback-via-simulation-fine-tuning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.14930v2.pdf",
+    "title": "Vt-refine: Learning bimanual assembly with visuo-tactile feedback via simulation fine-tuning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:1UYbAEPjJNAC",
+    "pdf_path": "pdfs/2025-failsafe-reasoning-and-recovery-from-failures-in-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.01642v4.pdf",
+    "title": "Failsafe: Reasoning and recovery from failures in vision-language-action models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:sduUCncrepAC",
+    "pdf_path": "pdfs/2025-maniflow-a-general-robot-manipulation-policy-via-consistency-flow-training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.01819.pdf",
+    "title": "Maniflow: A general robot manipulation policy via consistency flow training",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:TKVID9p7UpsC",
+    "pdf_path": "pdfs/2025-seeding-motion-optimization-with-diffusion-for-rapid-motion-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.16727v1.pdf",
+    "title": "Seeding motion optimization with diffusion for rapid motion planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:teyi7TG2FwAC",
+    "pdf_path": "pdfs/2025-benchmarking-population-based-reinforcement-learning-across-robotic-tasks-with-gpu-accelerated-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.03336v5.pdf",
+    "title": "Benchmarking population-based reinforcement learning across robotic tasks with GPU-accelerated simulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:62yiFa7nMbkC",
+    "pdf_path": "pdfs/2025-robot-policy-evaluation-for-sim-to-real-transfer-a-benchmarking-perspective.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.11117.pdf",
+    "title": "Robot policy evaluation for sim-to-real transfer: A benchmarking perspective",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:L-8cPhgLE2YC",
+    "pdf_path": "pdfs/2025-3d-mvp-3d-multiview-pretraining-for-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.18158v2.pdf",
+    "title": "3d-mvp: 3d multiview pretraining for manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:3eo-xq64HD0C",
+    "pdf_path": "pdfs/2025-og-vla-orthographic-image-generation-for-3d-aware-vision-language-action-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.01196v2.pdf",
+    "title": "Og-vla: Orthographic image generation for 3d-aware vision-language action model",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:uPwIINvFgpoC",
+    "pdf_path": "pdfs/2025-dexmachina-functional-retargeting-for-bimanual-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.24853v1.pdf",
+    "title": "Dexmachina: Functional retargeting for bimanual dexterous manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:TmI2AlsRohcC",
+    "pdf_path": "pdfs/2025-dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.12705v2.pdf",
+    "title": "Dreamgen: Unlocking generalization in robot learning through video world models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:zdFfS0R-_o4C",
+    "pdf_path": "pdfs/2025-inference-time-policy-steering-through-human-interactions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.16627v2.pdf",
+    "title": "Inference-time policy steering through human interactions",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:-EqDysdaREAC",
+    "pdf_path": "pdfs/2025-guiding-long-horizon-task-and-motion-planning-with-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.02193.pdf",
+    "title": "Guiding long-horizon task and motion planning with vision language models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:ic8hN12bw4QC",
+    "pdf_path": "pdfs/2025-data-efficient-demonstration-expansion-for-training-a-generalist-robotic-agent.pdf",
+    "pdf_url": "https://patentimages.storage.googleapis.com/99/23/96/6eb6db6105c1b1/US20250156764A1.pdf",
+    "title": "Data-efficient demonstration expansion for training a generalist robotic agent",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:IAyBRRImV3IC",
+    "pdf_path": "pdfs/2025-pointarena-probing-multimodal-grounding-through-language-guided-pointing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.09990v2.pdf",
+    "title": "Pointarena: Probing multimodal grounding through language-guided pointing",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:hKIHPWh8nngC",
+    "pdf_path": "pdfs/2025-collision-detection-for-object-rearrangement-using-a-3d-scene-representation.pdf",
+    "pdf_url": "https://patentimages.storage.googleapis.com/51/7f/68/6db18d0ab19a8d/US12299800B2.pdf",
+    "title": "Collision detection for object rearrangement using a 3D scene representation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:MdMr--dQ_pMC",
+    "pdf_path": "pdfs/2025-srsa-skill-retrieval-and-adaptation-for-robotic-assembly-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.04538v1.pdf",
+    "title": "Srsa: Skill retrieval and adaptation for robotic assembly tasks",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:utCHnwRdBgEC",
+    "pdf_path": "pdfs/2025-hamster-hierarchical-action-models-for-open-world-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.05485v4.pdf",
+    "title": "Hamster: Hierarchical action models for open-world robot manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:zLla2nKXDtwC",
+    "pdf_path": "pdfs/2025-latent-action-pretraining-from-videos.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/45d74e190008c7bff2845ffc8e3facd3-Paper-Conference.pdf",
+    "title": "Latent action pretraining from videos",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:fQyHYxrf0QMC",
+    "pdf_path": "pdfs/2025-slot-level-robotic-placement-via-visual-imitation-from-single-human-video.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.01959v1.pdf",
+    "title": "Slot-Level Robotic Placement via Visual Imitation from Single Human Video",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:bkHTfdQVRd8C",
+    "pdf_path": "pdfs/2025-gr00t-n1-an-open-foundation-model-for-generalist-humanoid-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.14734v2.pdf",
+    "title": "Gr00t n1: An open foundation model for generalist humanoid robots",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:WeWrUA-9SBMC",
+    "pdf_path": "pdfs/2025-cosmos-transfer1-conditional-world-generation-with-adaptive-multimodal-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.14492v2.pdf",
+    "title": "Cosmos-transfer1: Conditional world generation with adaptive multimodal control",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:hy8If-OszRcC",
+    "pdf_path": "pdfs/2025-forge-force-guided-exploration-for-robust-contact-rich-manipulation-under-uncertainty.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.04587v2.pdf",
+    "title": "Forge: Force-guided exploration for robust contact-rich manipulation under uncertainty",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:GKX6TSFDq9oC",
+    "pdf_path": "pdfs/2025-tacsl-a-library-for-visuotactile-sensor-simulation-and-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.06506.pdf",
+    "title": "Tacsl: A library for visuotactile sensor simulation and learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:wsYPZf_qF0UC",
+    "pdf_path": "pdfs/2025-human-in-the-loop-task-and-motion-planning-for-imitation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.16014v1.pdf",
+    "title": "Human-in-the-loop task and motion planning for imitation learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:ymM8A-49E98C",
+    "pdf_path": "pdfs/2025-aim-my-robot-precision-local-navigation-to-any-object.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.14770v2.pdf",
+    "title": "Aim my robot: Precision local navigation to any object",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:0765WKWsAZMC",
+    "pdf_path": "pdfs/2025-semantic-rearrangement-of-unknown-objects-from-natural-language-commands.pdf",
+    "pdf_url": "https://patentimages.storage.googleapis.com/65/e6/3f/4aa3b1def52d27/US12223949.pdf",
+    "title": "Semantic rearrangement of unknown objects from natural language commands",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:nnXsorscSnkC",
+    "pdf_path": "pdfs/2025-sam2act-integrating-visual-foundation-model-with-a-memory-architecture-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.18564.pdf",
+    "title": "Sam2act: Integrating visual foundation model with a memory architecture for robotic manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:n3sXDxCj2GoC",
+    "pdf_path": "pdfs/2025-scene-synthesizer-a-python-library-for-procedural-scene-generation-in-robot-manipulation.pdf",
+    "pdf_url": "https://joss.theoj.org/papers/10.21105/joss.07561.pdf",
+    "title": "scene_synthesizer: A python library for procedural scene generation in robot manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:E6AQKB9d7D8C",
+    "pdf_path": "pdfs/2025-neural-networks-to-generate-robotic-task-demonstrations.pdf",
+    "pdf_url": "https://patentimages.storage.googleapis.com/9f/20/dc/6cc1165e800e4e/US12202147.pdf",
+    "title": "Neural networks to generate robotic task demonstrations",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:UlSRQUDYeUMC",
+    "pdf_path": "pdfs/2025-cosmos-world-foundation-model-platform-for-physical-ai.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.03575v3.pdf",
+    "title": "Cosmos world foundation model platform for physical ai",
+    "year": 2025
+  }
+]

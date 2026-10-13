@@ -1,0 +1,170 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:3bvyWxjaHKcC",
+    "pdf_path": "pdfs/2026-planning-along-differentiable-charts-of-constraint-manifolds-with-general-purpose-ik-solvers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.10905.pdf",
+    "title": "Planning along Differentiable Charts of Constraint Manifolds with General-Purpose IK Solvers",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:w0F2JDEymm0C",
+    "pdf_path": "pdfs/2026-revisiting-open-loop-execution-in-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.15938.pdf",
+    "title": "Revisiting Open-Loop Execution in Robotics:",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:WHdLCjDvYFkC",
+    "pdf_path": "pdfs/2026-dexterous-contact-rich-manipulation-via-the-contact-trust-region.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.02291.pdf",
+    "title": "Dexterous contact-rich manipulation via the contact trust region",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:NDuN12AVoxsC",
+    "pdf_path": "pdfs/2026-training-and-evaluating-diffusion-policies-with-long-context-lengths.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.16447.pdf",
+    "title": "Training and Evaluating Diffusion Policies with Long Context Lengths",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:U_HPUtbDl20C",
+    "pdf_path": "pdfs/2026-semidefinite-relaxations-for-collision-free-motion-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.14063.pdf",
+    "title": "Semidefinite Relaxations for Collision-Free Motion Planning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:PyEswDtIyv0C",
+    "pdf_path": "pdfs/2026-ambient-diffusion-policy-imitation-learning-from-suboptimal-data-in-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.12365.pdf",
+    "title": "Ambient Diffusion Policy: Imitation Learning from Suboptimal Data in Robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:jU7OWUQzBzMC",
+    "pdf_path": "pdfs/2026-how-well-do-diffusion-policies-learn-kinematic-constraint-manifolds.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.01404.pdf",
+    "title": "How Well do Diffusion Policies Learn Kinematic Constraint Manifolds?",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:Br1UauaknNIC",
+    "pdf_path": "pdfs/2026-a-framework-for-combining-optimization-based-and-analytic-inverse-kinematics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.05092.pdf",
+    "title": "A framework for combining optimization-based and analytic inverse kinematics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:-jrNzM816MMC",
+    "pdf_path": "pdfs/2026-planning-along-differentiable-charts-of-constraint-manifolds-with-the-inverse-function-theorem.pdf",
+    "pdf_url": "https://tommycohn.com/projects/workshops/cohn2026planning/cohn2026planning.pdf",
+    "title": "Planning along Differentiable Charts of Constraint Manifolds with the Inverse Function Theorem",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:-mN3Mh-tlDkC",
+    "pdf_path": "pdfs/2025-large-video-planner-enables-generalizable-robot-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.15840v2.pdf",
+    "title": "Large video planner enables generalizable robot control",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:kw52XkFRtyQC",
+    "pdf_path": "pdfs/2025-empirical-analysis-of-sim-and-real-cotraining-of-diffusion-policies-for-planar-pushing-from-pixels.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.22634.pdf",
+    "title": "Empirical analysis of sim-and-real cotraining of diffusion policies for planar pushing from pixels",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:1taIhTC69MYC",
+    "pdf_path": "pdfs/2025-sampling-based-motion-planning-with-discrete-configuration-space-symmetries.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.00614.pdf",
+    "title": "Sampling-Based Motion Planning with Discrete Configuration-Space Symmetries",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:FiytvqdAVhgC",
+    "pdf_path": "pdfs/2025-scalable-real2sim-physics-aware-asset-generation-via-robotic-pick-and-place-setups.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.00370.pdf",
+    "title": "Scalable real2sim: Physics-aware asset generation via robotic pick-and-place setups",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:MpfHP-DdYjUC",
+    "pdf_path": "pdfs/2025-diffusion-policy-visuomotor-policy-learning-via-action-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.04137.pdf",
+    "title": "Diffusion policy: Visuomotor policy learning via action diffusion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:wKETBy42zhYC",
+    "pdf_path": "pdfs/2025-mixed-discrete-and-continuous-planning-using-shortest-walks-in-graphs-of-convex-sets.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.10878.pdf",
+    "title": "Mixed discrete and continuous planning using shortest walks in graphs of convex sets",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:7Hz3ACDFbsoC",
+    "pdf_path": "pdfs/2025-a-new-semidefinite-relaxation-for-linear-and-piecewise-affine-optimal-control-with-time-scaling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.13170.pdf",
+    "title": "A new semidefinite relaxation for linear and piecewise-affine optimal control with time scaling",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:7wO8s98CvbsC",
+    "pdf_path": "pdfs/2025-steerable-scene-generation-with-post-training-and-inference-time-search.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.04831.pdf",
+    "title": "Steerable scene generation with post training and inference-time search",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:nRpfm8aw39MC",
+    "pdf_path": "pdfs/2025-should-vlms-be-pre-trained-with-image-data.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/34a5f638617ce32700e235e50dff9c8a-Paper-Conference.pdf",
+    "title": "Should VLMs be Pre-trained with Image Data?",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:PaBasH6fAo0C",
+    "pdf_path": "pdfs/2025-planning-shorter-paths-in-graphs-of-convex-sets-by-undistorting-parametrized-configuration-spaces.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.18913.pdf",
+    "title": "Planning shorter paths in graphs of convex sets by undistorting parametrized configuration spaces",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:MhiOAD_qIWkC",
+    "pdf_path": "pdfs/2025-superfast-configuration-space-convex-set-computation-on-gpus-for-online-motion-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.10783.pdf",
+    "title": "Superfast configuration-space convex set computation on GPUs for online motion planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:IaI1MmNe2tcC",
+    "pdf_path": "pdfs/2025-physics-driven-data-generation-for-contact-rich-manipulation-via-trajectory-optimization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.20382.pdf",
+    "title": "Physics-driven data generation for contact-rich manipulation via trajectory optimization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:7BrZ7Jt4UNcC",
+    "pdf_path": "pdfs/2025-history-guided-video-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.06764.pdf",
+    "title": "History-guided video diffusion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:prdVHNxh-e8C",
+    "pdf_path": "pdfs/2025-faster-algorithms-for-growing-collision-free-regions-of-constrained-bimanual-configuration-spaces.pdf",
+    "pdf_url": "https://groups.csail.mit.edu/robotics-center/public_papers/Cohn25a.pdf",
+    "title": "Faster Algorithms for Growing Collision-Free Regions of Constrained Bimanual Configuration Spaces",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:43bX7VzcjpAC",
+    "pdf_path": "pdfs/2024-diffusion-forcing-next-token-prediction-meets-full-sequence-diffusion.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/2aee1c4159e48407d68fe16ae8e6e49e-Paper-Conference.pdf",
+    "title": "Diffusion forcing: Next-token prediction meets full-sequence diffusion",
+    "year": 2024
+  }
+]

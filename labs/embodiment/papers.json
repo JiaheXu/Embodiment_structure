@@ -1,0 +1,23 @@
+[
+  {
+    "page_url": "https://www.bilibili.com/video/BV1QdHj6sESj",
+    "pdf_path": "pdfs/2024-0-a-vision-language-action-flow-model-for-general-robot-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.24164.pdf",
+    "title": "\u03c00: A Vision-Language-Action Flow Model for General Robot Control",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1QdHj6sESj",
+    "pdf_path": "pdfs/2025-0-5-a-vision-language-action-model-with-open-world-generalization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.16054.pdf",
+    "title": "\u03c00.5: a Vision-Language-Action Model with Open-World Generalization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1CGH76CEQU",
+    "pdf_path": "pdfs/2025-simplevla-rl-scaling-vla-training-via-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.09674.pdf",
+    "title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+    "year": 2025
+  }
+]

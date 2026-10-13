@@ -1,2 +1,17 @@
-Revisiting the" Push-T" Robot Manipulation Task with Agentic Robotics
-ENPIRE: Agentic Robot Policy Self-Improvement in the Real World
+RoboSQ: Semantic Queries for Task-Aligned Robot Training Data
+CRAFT: Long-Horizon Cable Routing Algorithm and Low-Friction Caging Gripper
+“Humanoids will soon replace most human workers”: A debate
+Robotics, Art, and the 100,000-Year Data Gap
+Surgical D-Knot: Augmented Dexterity for Tying Double Knots by Monitoring Optical Flow in Monocular Attention Windows
+Good old-fashioned engineering can close the 100,000-year “data gap” in robotics
+“Data will solve robotics and automation: True or false?”: A debate
+MOTORCYCLE 1.0: Automating Bimanual Cable Routing Around Fixtures on the NIST Task Board
+Networked, cloud and fog robotics
+Language-embedded gaussian splats (legs): Incrementally building room-scale representations with a mobile robot
+Manip: A modular architecture for integrating interactive perception for robot manipulation
+Automating 3d surgical suture planning
+Automated pruning and irrigation of polyculture plants
+Aligning touch, vision, and language for multimodal perception
+Early fusion helps vision language action models generalize better
+Robot-assisted vascular shunt insertion with the dvrk surgical robot
+Optimal arrangement and rearrangement of objects on shelves to minimize robot retrieval cost

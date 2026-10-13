@@ -1,0 +1,296 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:JH5k92_tO-AC",
+    "pdf_path": "pdfs/2026-rapid-robot-agentic-programming-from-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.30249v1.pdf",
+    "title": "RAPID: Robot Agentic Programming from Demonstrations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:rOcdG6UcVlcC",
+    "pdf_path": "pdfs/2026-which-reconstruction-model-should-a-robot-use-routing-image-to-3d-models-for-cost-aware-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.27797.pdf",
+    "title": "Which Reconstruction Model Should a Robot Use? Routing Image-to-3D Models for Cost-Aware Robotic Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:xGWFX6Gbr9MC",
+    "pdf_path": "pdfs/2026-tiptop-a-modular-open-vocabulary-planning-system-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.09971.pdf",
+    "title": "Tiptop: A modular open-vocabulary planning system for robotic manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:YPNY0knpFBYC",
+    "pdf_path": "pdfs/2026-from-pixels-to-predicates-learning-symbolic-world-models-via-pretrained-vlms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.00296v4.pdf",
+    "title": "From pixels to predicates: Learning symbolic world models via pretrained VLMs",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:TesyEGJKHF4C",
+    "pdf_path": "pdfs/2026-open-world-task-and-motion-planning-via-vision-language-model-generated-constraints.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.08253v4.pdf",
+    "title": "Open-world task and motion planning via vision-language model generated constraints",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:FsLZdJ3BAzkC",
+    "pdf_path": "pdfs/2025-scenecomplete-open-world-3d-scene-completion-in-cluttered-real-world-environments-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.23643v5.pdf",
+    "title": "Scenecomplete: Open-world 3d scene completion in cluttered real world environments for robot manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:DXE8ND7PrJAC",
+    "pdf_path": "pdfs/2025-llm-guided-probabilistic-program-induction-for-pomdp-model-estimation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.02216v2.pdf",
+    "title": "Llm-guided probabilistic program induction for pomdp model estimation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:0sTkTiv_uMkC",
+    "pdf_path": "pdfs/2025-rational-inverse-reasoning-few-shot-imitation-by-inferring-intent-through-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.08983v2.pdf",
+    "title": "Rational Inverse Reasoning: Few-Shot Imitation by Inferring Intent through Planning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:bVQMTfhMCi4C",
+    "pdf_path": "pdfs/2025-set-it-up-functional-object-arrangement-with-compositional-generative-models-journal-version.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.02068v2.pdf",
+    "title": "\" Set It Up\": Functional Object Arrangement with Compositional Generative Models (Journal Version)",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:QsKbpXNoaWkC",
+    "pdf_path": "pdfs/2025-streaming-flow-policy-simplifying-diffusion-flow-matching-policies-by-treating-action-trajectories-as-flow-trajectories.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.21851v2.pdf",
+    "title": "Streaming flow policy: Simplifying diffusion/flow-matching policies by treating action trajectories as flow trajectories",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:R-LXmdHK_14C",
+    "pdf_path": "pdfs/2025-one-shot-manipulation-strategy-learning-by-making-contact-analogies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.09627v2.pdf",
+    "title": "One-shot manipulation strategy learning by making contact analogies",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:qmtmRrLr0tkC",
+    "pdf_path": "pdfs/2025-kalm-keypoint-abstraction-using-large-models-for-object-relative-imitation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.23254v1.pdf",
+    "title": "Kalm: Keypoint abstraction using large models for object-relative imitation learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:ji7lAbPyDbYC",
+    "pdf_path": "pdfs/2025-guiding-long-horizon-task-and-motion-planning-with-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.02193.pdf",
+    "title": "Guiding long-horizon task and motion planning with vision language models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:lg2tdxc6qMwC",
+    "pdf_path": "pdfs/2025-seeing-is-believing-belief-space-planning-with-foundation-models-as-uncertainty-estimators.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.03245v1.pdf",
+    "title": "Seeing is believing: Belief-space planning with foundation models as uncertainty estimators",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:9DLIHnF0jcYC",
+    "pdf_path": "pdfs/2025-flow-based-domain-randomization-for-learning-and-sequencing-robotic-skills.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.01800v2.pdf",
+    "title": "Flow-based Domain Randomization for Learning and Sequencing Robotic Skills.",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:xm0LlTxljI0C",
+    "pdf_path": "pdfs/2024-differentiable-gpu-parallelized-task-and-motion-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.11833v2.pdf",
+    "title": "Differentiable gpu-parallelized task and motion planning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:m4fbC6XIj1kC",
+    "pdf_path": "pdfs/2024-embodied-uncertainty-aware-object-segmentation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.04760v1.pdf",
+    "title": "Embodied uncertainty-aware object segmentation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:X0DADzN9RKwC",
+    "pdf_path": "pdfs/2024-dimsam-diffusion-models-as-samplers-for-task-and-motion-planning-under-partial-observability.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.13196v3.pdf",
+    "title": "Dimsam: Diffusion models as samplers for task and motion planning under partial observability",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:sfnaS5RM6jYC",
+    "pdf_path": "pdfs/2024-combining-planning-and-diffusion-for-mobility-with-unknown-dynamics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.06911v1.pdf",
+    "title": "Combining planning and diffusion for mobility with unknown dynamics",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:wUn16MOA3RoC",
+    "pdf_path": "pdfs/2024-bi-level-belief-space-search-for-compliant-part-mating-under-uncertainty.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.15774v1.pdf",
+    "title": "Bi-level belief space search for compliant part mating under uncertainty",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:eI34FqJmdUoC",
+    "pdf_path": "pdfs/2024-towards-practical-finite-sample-bounds-for-motion-planning-in-tamp.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.17394v3.pdf",
+    "title": "Towards practical finite sample bounds for motion planning in TAMP",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:iyewoVqAXLQC",
+    "pdf_path": "pdfs/2024-learning-to-bridge-the-gap-efficient-novelty-recovery-with-planning-and-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.19226.pdf",
+    "title": "Learning to bridge the gap: Efficient novelty recovery with planning and reinforcement learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:wSy_KLzO7YEC",
+    "pdf_path": "pdfs/2024-scaling-exponents-across-parameterizations-and-optimizers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.05872v2.pdf",
+    "title": "Scaling exponents across parameterizations and optimizers",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:Og1tA8FjbJAC",
+    "pdf_path": "pdfs/2024-trust-the-proc3s-solving-long-horizon-robotics-problems-with-llms-and-constraint-satisfaction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.05572v2.pdf",
+    "title": "Trust the proc3s: Solving long-horizon robotics problems with llms and constraint satisfaction",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:s85pQhAUCrAC",
+    "pdf_path": "pdfs/2024-generalized-planning-in-pddl-domains-with-pretrained-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.11014v2.pdf",
+    "title": "Generalized planning in pddl domains with pretrained large language models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:yY3RG6sOEgwC",
+    "pdf_path": "pdfs/2024-partially-observable-task-and-motion-planning-with-uncertainty-and-risk-awareness.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.10454v2.pdf",
+    "title": "Partially observable task and motion planning with uncertainty and risk awareness",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:ijdKiLOsEJMC",
+    "pdf_path": "pdfs/2024-practice-makes-perfect-planning-to-learn-skill-parameter-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.15025v2.pdf",
+    "title": "Practice makes perfect: Planning to learn skill parameter policies",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:OzeSX8-yOCQC",
+    "pdf_path": "pdfs/2024-compositional-generative-modeling-a-single-model-is-not-all-you-need.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.01103.pdf",
+    "title": "Compositional generative modeling: A single model is not all you need",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:JWITY9-sCbMC",
+    "pdf_path": "pdfs/2023-what-planning-problems-can-a-relational-neural-network-solve.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/ba90e56a74fd77d0ddec033dc199f0fa-Paper-Conference.pdf",
+    "title": "What planning problems can A relational neural network solve?",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:c59VksA5Vz4C",
+    "pdf_path": "pdfs/2023-compositional-foundation-models-for-hierarchical-planning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.08587v2.pdf",
+    "title": "Compositional foundation models for hierarchical planning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:dAp6zn-oMfAC",
+    "pdf_path": "pdfs/2023-embodied-lifelong-learning-for-task-and-motion-planning.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v229/mendez-mendez23a/mendez-mendez23a.pdf",
+    "title": "Embodied lifelong learning for task and motion planning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:pQTOvowfQioC",
+    "pdf_path": "pdfs/2023-learning-efficient-abstract-planning-models-that-choose-what-to-predict.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v229/kumar23a/kumar23a.pdf",
+    "title": "Learning efficient abstract planning models that choose what to predict",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:c_xDhezhKKUC",
+    "pdf_path": "pdfs/2023-learning-reusable-manipulation-strategies.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v229/mao23a/mao23a.pdf",
+    "title": "Learning reusable manipulation strategies",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:KTwcwpFFj4wC",
+    "pdf_path": "pdfs/2023-learning-interactive-real-world-simulators.pdf",
+    "pdf_url": "https://ai-data-base.com/wp-content/uploads/2023/10/2310.06114_compressed.pdf",
+    "title": "Learning interactive real-world simulators",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:Ic1VZgkJnDsC",
+    "pdf_path": "pdfs/2023-compositional-diffusion-based-continuous-constraint-solvers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.00966v1.pdf",
+    "title": "Compositional diffusion-based continuous constraint solvers",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:lYAcb2jw7qUC",
+    "pdf_path": "pdfs/2023-distilled-feature-fields-enable-few-shot-language-guided-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2308.07931v2.pdf",
+    "title": "Distilled feature fields enable few-shot language-guided manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:hQUaER0FWQ4C",
+    "pdf_path": "pdfs/2023-learning-rational-subgoals-from-demonstrations-and-instructions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.05487v1.pdf",
+    "title": "Learning rational subgoals from demonstrations and instructions",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:RtRctb2lSbAC",
+    "pdf_path": "pdfs/2023-visibility-aware-navigation-among-movable-obstacles.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2212.02671.pdf",
+    "title": "Visibility-aware navigation among movable obstacles",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:TaaCk18tZOkC",
+    "pdf_path": "pdfs/2023-pdsketch-integrated-planning-domain-programming-and-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.05501v2.pdf",
+    "title": "Pdsketch: Integrated planning domain programming and learning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:mel-f30kHHgC",
+    "pdf_path": "pdfs/2023-on-the-expressiveness-and-generalization-of-hypergraph-neural-networks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.05490.pdf",
+    "title": "On the expressiveness and generalization of hypergraph neural networks",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:hvmnpdAuIbkC",
+    "pdf_path": "pdfs/2023-se-3-equivariant-relational-rearrangement-with-neural-descriptor-fields.pdf",
+    "pdf_url": "https://proceedings.mlr.press/v205/simeonov23a/simeonov23a.pdf",
+    "title": "Se (3)-equivariant relational rearrangement with neural descriptor fields",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:oPLKW5k6eA4C",
+    "pdf_path": "pdfs/2023-local-neural-descriptor-fields-locally-conditioned-object-representations-for-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.03573v2.pdf",
+    "title": "Local neural descriptor fields: Locally conditioned object representations for manipulation",
+    "year": 2023
+  }
+]

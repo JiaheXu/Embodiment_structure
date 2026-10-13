@@ -1,0 +1,373 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:nb7KW1ujOQ8C",
+    "pdf_path": "pdfs/2026-hydra-0-action-flow-for-generalist-world-modeling-and-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.18077v1.pdf",
+    "title": "Hydra-0: Action Flow for Generalist World Modeling and Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:dshw04ExmUIC",
+    "pdf_path": "pdfs/2026-learning-physics-guided-residual-dynamics-for-deformable-object-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.13451v1.pdf",
+    "title": "Learning Physics-Guided Residual Dynamics for Deformable Object Simulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:KxtntwgDAa4C",
+    "pdf_path": "pdfs/2026-costream-composing-simple-behaviors-for-generalizable-complex-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.26423v2.pdf",
+    "title": "CoStream: Composing Simple Behaviors for Generalizable Complex Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:yD5IFk8b50cC",
+    "pdf_path": "pdfs/2026-real-to-sim-robot-policy-evaluation-with-gaussian-splatting-simulation-of-soft-body-interactions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.04665v2.pdf",
+    "title": "Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation of Soft-Body Interactions",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:cFHS6HbyZ2cC",
+    "pdf_path": "pdfs/2026-multi-modal-manipulation-via-multi-modal-policy-consensus.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.23468.pdf",
+    "title": "Multi-Modal Manipulation via Multi-Modal Policy Consensus",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:CHSYGLWDkRkC",
+    "pdf_path": "pdfs/2026-flexitac-a-low-cost-open-source-scalable-tactile-sensing-solution-for-robotic-systems.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.28156.pdf",
+    "title": "Flexitac: A low-cost, open-source, scalable tactile sensing solution for robotic systems",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:2P1L_qKh6hAC",
+    "pdf_path": "pdfs/2026-robotic-manipulation-by-imitating-generated-videos-without-physical-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.00990v3.pdf",
+    "title": "Robotic Manipulation by Imitating Generated Videos Without Physical Demonstrations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:abG-DnoFyZgC",
+    "pdf_path": "pdfs/2026-efficient-and-reliable-teleoperation-through-real-to-sim-to-real-shared-autonomy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.17016v2.pdf",
+    "title": "Efficient and Reliable Teleoperation through Real-to-Sim-to-Real Shared Autonomy",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:EUQCXRtRnyEC",
+    "pdf_path": "pdfs/2026-interactive-world-simulator-for-robot-policy-training-and-evaluation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.08546v1.pdf",
+    "title": "Interactive World Simulator for Robot Policy Training and Evaluation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:xtRiw3GOFMkC",
+    "pdf_path": "pdfs/2026-manipulationnet-an-infrastructure-for-benchmarking-real-world-robot-manipulation-with-physical-skill-challenges-and-embo.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.04363v1.pdf",
+    "title": "Manipulationnet: An infrastructure for benchmarking real-world robot manipulation with physical skill challenges and embodied multimodal reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:ns9cj8rnVeAC",
+    "pdf_path": "pdfs/2026-curiousbot-interactive-mobile-exploration-via-actionable-3d-relational-object-graph.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.13338v2.pdf",
+    "title": "CuriousBot: Interactive Mobile Exploration via Actionable 3D Relational Object Graph",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:_xSYboBqXhAC",
+    "pdf_path": "pdfs/2026-flexible-multitask-learning-with-factorized-diffusion-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.21898v2.pdf",
+    "title": "Flexible Multitask Learning with Factorized Diffusion Policy",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:b0M2c_1WBrUC",
+    "pdf_path": "pdfs/2026-learning-force-regulated-manipulation-with-a-low-cost-tactile-force-controlled-gripper.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.10013.pdf",
+    "title": "Learning force-regulated manipulation with a low-cost tactile-force-controlled gripper",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:bFI3QPDXJZMC",
+    "pdf_path": "pdfs/2026-localized-graph-based-neural-dynamics-models-for-terrain-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.23270v3.pdf",
+    "title": "Localized Graph-Based Neural Dynamics Models for Terrain Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:zA6iFVUQeVQC",
+    "pdf_path": "pdfs/2025-a-review-of-learning-based-dynamics-models-for-robotic-manipulation.pdf",
+    "pdf_url": "https://albertboai.com/assets/pdf/2025_scirobotics.adt1497.pdf",
+    "title": "A review of learning-based dynamics models for robotic manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:ZHo1McVdvXMC",
+    "pdf_path": "pdfs/2025-touch-in-the-wild-learning-fine-grained-manipulation-with-a-portable-visuo-tactile-gripper.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/e1fcd183ab33714a8464e4e9a20ac710-Paper-Conference.pdf",
+    "title": "Touch in the Wild: Learning Fine-Grained Manipulation with a Portable Visuo-Tactile Gripper",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:D03iK_w7-QYC",
+    "pdf_path": "pdfs/2025-escapebench-towards-advancing-creative-intelligence-of-language-model-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.13549v2.pdf",
+    "title": "EscapeBench: Towards Advancing Creative Intelligence of Language Model Agents",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:35N4QoGY0k4C",
+    "pdf_path": "pdfs/2025-particle-grid-neural-dynamics-for-learning-deformable-object-models-from-rgb-d-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.15680v2.pdf",
+    "title": "Particle-Grid Neural Dynamics for Learning Deformable Object Models from RGB-D Videos",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:a0OBvERweLwC",
+    "pdf_path": "pdfs/2025-neural-dynamics-augmented-diffusion-policy.pdf",
+    "pdf_url": "https://contact-rich.github.io/assets/pdf/papers/1_Neural_Dynamics_Augmented_Diffusion.pdf",
+    "title": "Neural Dynamics Augmented Diffusion Policy",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:NhqRSupF_l8C",
+    "pdf_path": "pdfs/2025-foundation-models-meet-embodied-agents.pdf",
+    "pdf_url": "https://aclanthology.org/2025.naacl-tutorial.3.pdf",
+    "title": "Foundation models meet embodied agents",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:lSLTfruPkqcC",
+    "pdf_path": "pdfs/2025-tool-as-interface-learning-robot-policies-from-observing-human-tool-use.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.04612v2.pdf",
+    "title": "Tool-as-Interface: Learning Robot Policies from Observing Human Tool Use",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:NaGl4SEjCO4C",
+    "pdf_path": "pdfs/2025-learning-coordinated-bimanual-manipulation-policies-using-state-diffusion-and-inverse-dynamics-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.23271v1.pdf",
+    "title": "Learning Coordinated Bimanual Manipulation Policies using State Diffusion and Inverse Dynamics Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:RYcK_YlVTxYC",
+    "pdf_path": "pdfs/2025-physgen3d-crafting-a-miniature-interactive-world-from-a-single-image.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.20746.pdf",
+    "title": "PhysGen3D: Crafting a Miniature Interactive World from a Single Image",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:O3NaXMp0MMsC",
+    "pdf_path": "pdfs/2025-kuda-keypoints-to-unify-dynamics-learning-and-visual-prompting-for-open-vocabulary-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.10546v1.pdf",
+    "title": "KUDA: Keypoints to Unify Dynamics Learning and Visual Prompting for Open-Vocabulary Robotic Manipulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:hqOjcs7Dif8C",
+    "pdf_path": "pdfs/2025-systems-and-methods-for-estimating-3d-position-and-movement-from-tactile-signals.pdf",
+    "pdf_url": "https://patentimages.storage.googleapis.com/38/68/73/da4a9e06513687/US12232864.pdf",
+    "title": "Systems and methods for estimating 3D position and movement from tactile signals",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:u_35RYKgDlwC",
+    "pdf_path": "pdfs/2025-vt-refine-learning-bimanual-assembly-with-visuo-tactile-feedback-via-simulation-fine-tuning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.14930v2.pdf",
+    "title": "VT-Refine: Learning Bimanual Assembly with Visuo-Tactile Feedback via Simulation Fine-Tuning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:70eg2SAEIzsC",
+    "pdf_path": "pdfs/2025-codediffuser-attention-enhanced-diffusion-policy-via-vlm-generated-code-for-instruction-ambiguity.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.16652v1.pdf",
+    "title": "CodeDiffuser: Attention-Enhanced Diffusion Policy via VLM-Generated Code for Instruction Ambiguity",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:RGFaLdJalmkC",
+    "pdf_path": "pdfs/2025-phystwin-physics-informed-reconstruction-and-simulation-of-deformable-objects-from-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.17973v1.pdf",
+    "title": "PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:GnPB-g6toBAC",
+    "pdf_path": "pdfs/2025-bab-nd-long-horizon-motion-planning-with-branch-and-bound-and-neural-dynamics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.09584v3.pdf",
+    "title": "BaB-ND: Long-Horizon Motion Planning with Branch-and-Bound and Neural Dynamics",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:BqipwSGYUEgC",
+    "pdf_path": "pdfs/2025-a-real-to-sim-to-real-approach-to-robotic-manipulation-with-vlm-generated-iterative-keypoint-rewards.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.08643.pdf",
+    "title": "A Real-to-Sim-to-Real Approach to Robotic Manipulation with VLM-Generated Iterative Keypoint Rewards",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:maZDTaKrznsC",
+    "pdf_path": "pdfs/2024-rekep-spatio-temporal-reasoning-of-relational-keypoint-constraints-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.01652v2.pdf",
+    "title": "ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:k_IJM867U9cC",
+    "pdf_path": "pdfs/2024-adaptigraph-material-adaptive-graph-based-neural-dynamics-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.07889v1.pdf",
+    "title": "AdaptiGraph: Material-Adaptive Graph-Based Neural Dynamics for Robotic Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:isC4tDSrTZIC",
+    "pdf_path": "pdfs/2024-robopack-learning-tactile-informed-dynamics-models-for-dense-packing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.01418v1.pdf",
+    "title": "RoboPack: Learning Tactile-Informed Dynamics Models for Dense Packing",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:R3hNpaxXUhUC",
+    "pdf_path": "pdfs/2024-behavior-vision-suite-customizable-dataset-generation-via-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.09546v1.pdf",
+    "title": "BEHAVIOR Vision Suite: Customizable Dataset Generation via Simulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:TFP_iSt0sucC",
+    "pdf_path": "pdfs/2024-reconstruction-and-simulation-of-elastic-objects-with-spring-mass-3d-gaussians.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.09434v3.pdf",
+    "title": "Reconstruction and Simulation of Elastic Objects with Spring-Mass 3D Gaussians",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:hC7cP41nSMkC",
+    "pdf_path": "pdfs/2024-behavior-1k-a-human-centered-embodied-ai-benchmark-with-1-000-everyday-activities-and-realistic-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.09227.pdf",
+    "title": "BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:IWHjjKOFINEC",
+    "pdf_path": "pdfs/2024-roboexp-action-conditioned-scene-graph-via-interactive-exploration-for-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.15487v2.pdf",
+    "title": "RoboEXP: Action-Conditioned Scene Graph via Interactive Exploration for Robotic Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:TQgYirikUcIC",
+    "pdf_path": "pdfs/2024-executable-code-actions-elicit-better-llm-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.01030v4.pdf",
+    "title": "Executable Code Actions Elicit Better LLM Agents",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:qUcmZB5y_30C",
+    "pdf_path": "pdfs/2024-adaptive-tactile-interaction-transfer-via-digitally-embroidered-smart-gloves.pdf",
+    "pdf_url": "https://www.nature.com/articles/s41467-024-45059-8.pdf",
+    "title": "Adaptive tactile interaction transfer via digitally embroidered smart gloves",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:hMod-77fHWUC",
+    "pdf_path": "pdfs/2024-3d-vitac-learning-fine-grained-manipulation-with-visuo-tactile-sensing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.24091v2.pdf",
+    "title": "3D-ViTac: Learning Fine-Grained Manipulation with Visuo-Tactile Sensing",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:blknAaTinKkC",
+    "pdf_path": "pdfs/2024-dynamic-3d-gaussian-tracking-for-graph-based-neural-dynamics-modeling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.18912v1.pdf",
+    "title": "Dynamic 3D Gaussian Tracking for Graph-Based Neural Dynamics Modeling",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:M3NEmzRMIkIC",
+    "pdf_path": "pdfs/2024-gendp-3d-semantic-fields-for-category-level-generalizable-diffusion-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.17488v1.pdf",
+    "title": "GenDP: 3D Semantic Fields for Category-Level Generalizable Diffusion Policy",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:ZeXyd9-uunAC",
+    "pdf_path": "pdfs/2024-partial-view-object-view-synthesis-via-filtered-inversion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.00673v2.pdf",
+    "title": "Partial-View Object View Synthesis via Filtered Inversion",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:QIV2ME_5wuYC",
+    "pdf_path": "pdfs/2024-open-x-embodiment-robotic-learning-datasets-and-rt-x-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08864v9.pdf",
+    "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:7PzlFSSx8tAC",
+    "pdf_path": "pdfs/2023-model-based-control-with-sparse-neural-dynamics.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/142cdba4b8d1e03f9ee131ac86bb0afc-Paper-Conference.pdf",
+    "title": "Model-Based Control with Sparse Neural Dynamics",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:dhFuZR0502QC",
+    "pdf_path": "pdfs/2023-predicting-object-interactions-with-behavior-primitives-an-application-in-stowing-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.16873v2.pdf",
+    "title": "Predicting Object Interactions with Behavior Primitives: An Application in Stowing Tasks",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:mVmsd5A6BfQC",
+    "pdf_path": "pdfs/2023-voxposer-composable-3d-value-maps-for-robotic-manipulation-with-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2307.05973v2.pdf",
+    "title": "VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:4DMP91E08xMC",
+    "pdf_path": "pdfs/2023-dynamic-resolution-model-learning-for-object-pile-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.16700v2.pdf",
+    "title": "Dynamic-Resolution Model Learning for Object Pile Manipulation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:Wp0gIr-vW9MC",
+    "pdf_path": "pdfs/2023-robocook-long-horizon-elasto-plastic-object-manipulation-with-diverse-tools.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.14447v2.pdf",
+    "title": "RoboCook: Long-Horizon Elasto-Plastic Object Manipulation with Diverse Tools",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:YFjsv_pBGBYC",
+    "pdf_path": "pdfs/2023-does-learning-from-decentralized-non-iid-unlabeled-data-benefit-from-self-supervision.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.10947.pdf",
+    "title": "Does Learning from Decentralized Non-IID Unlabeled Data Benefit from Self Supervision?",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:L8Ckcad2t8MC",
+    "pdf_path": "pdfs/2023-3d-intphys-towards-more-generalized-3d-grounded-visual-intuitive-physics-under-challenging-scenes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.11470v1.pdf",
+    "title": "3D-IntPhys: Towards More Generalized 3D-grounded Visual Intuitive Physics under Challenging Scenes",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:aqlVkmm33-oC",
+    "pdf_path": "pdfs/2023-multi-object-manipulation-via-object-centric-neural-scattering-functions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.08748v1.pdf",
+    "title": "Multi-Object Manipulation via Object-Centric Neural Scattering Functions",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:qxL8FJ1GzNcC",
+    "pdf_path": "pdfs/2023-the-objectfolder-benchmark-multisensory-learning-with-neural-and-real-objects.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2306.00956v1.pdf",
+    "title": "The OBJECTFOLDER BENCHMARK: Multisensory Learning with Neural and Real Objects",
+    "year": 2023
+  }
+]

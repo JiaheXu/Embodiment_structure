@@ -292,5 +292,285 @@
     "pdf_url": "https://arxiv.org/pdf/2410.23004v1.pdf",
     "title": "DexGraspNet 2.0: Learning Generative Dexterous Grasping in Large-scale Synthetic Cluttered Scenes",
     "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:WAzi4Gm8nLoC",
+    "pdf_path": "pdfs/2026-zeta-a-controlled-study-of-zero-shot-cross-embodiment-vla-transfer-for-tabletop-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.02546.pdf",
+    "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:YsrPvlHIBpEC",
+    "pdf_path": "pdfs/2026-dexjoco-a-benchmark-and-toolkit-for-task-oriented-dexterous-manipulation-on-mujoco.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.16257.pdf",
+    "title": "Dexjoco: A benchmark and toolkit for task-oriented dexterous manipulation on mujoco",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:Dem6FJhTUoYC",
+    "pdf_path": "pdfs/2026-humanoid-generative-pre-training-for-zero-shot-motion-tracking.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Qi_Humanoid_Generative_Pre-Training_for_Zero-Shot_Motion_Tracking_CVPR_2026_paper.pdf",
+    "title": "Humanoid Generative Pre-Training for Zero-Shot Motion Tracking",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:6_hjMsCP8ZoC",
+    "pdf_path": "pdfs/2026-embodied-navigation-foundation-model.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/ceb45c48e29e7f49b0b47edb98e43691-Paper-Conference.pdf",
+    "title": "Embodied navigation foundation model",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:rHJHxKgnXwkC",
+    "pdf_path": "pdfs/2026-urbanvla-a-vision-language-action-model-for-urban-micromobility.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.23576.pdf",
+    "title": "Urbanvla: A vision-language-action model for urban micromobility",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:7wO8s98CvbsC",
+    "pdf_path": "pdfs/2025-uni-navid-a-video-based-vision-language-action-model-for-unifying-embodied-navigation-tasks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.06224.pdf",
+    "title": "Uni-NaVid: A Video-based Vision-Language-Action Model for Unifying Embodied Navigation Tasks",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:jFemdcug13IC",
+    "pdf_path": "pdfs/2025-advancing-general-robotic-manipulation-with-multimodal-foundation-models-an-embodied-ai-paradigm.pdf",
+    "pdf_url": "https://www.sciengine.com/parse/pdf/1674-7321/BB3F992873AD48458F9D7548DE24B50B.pdf",
+    "title": "Advancing general robotic manipulation with multimodal foundation models: An embodied AI paradigm",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:MhiOAD_qIWkC",
+    "pdf_path": "pdfs/2025-dexonomy-synthesizing-all-dexterous-grasp-types-in-a-grasp-taxonomy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.18829.pdf",
+    "title": "Dexonomy: Synthesizing All Dexterous Grasp Types in a Grasp Taxonomy",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:WC23djZS0W4C",
+    "pdf_path": "pdfs/2025-fetchbot-object-fetching-in-cluttered-shelves-via-zero-shot-sim2real.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.17894.pdf",
+    "title": "FetchBot: Object Fetching in Cluttered Shelves via Zero-Shot Sim2Real",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:1DsIQWDZLl8C",
+    "pdf_path": "pdfs/2025-w-controluda-weather-controllable-diffusion-assisted-unsupervised-domain-adaptation-for-semantic-segmentation.pdf",
+    "pdf_url": "https://ieeexplore.ieee.org/iel8/7083369/7339444/10900417.pdf",
+    "title": "W-controluda: Weather-controllable diffusion-assisted unsupervised domain adaptation for semantic segmentation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:jU7OWUQzBzMC",
+    "pdf_path": "pdfs/2025-make-a-donut-hierarchical-emd-space-planning-for-zero-shot-deformable-manipulation-with-tools.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.02787.pdf",
+    "title": "Make a donut: Hierarchical EMD-space planning for zero-shot deformable manipulation with tools",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:1yWc8FF-_SYC",
+    "pdf_path": "pdfs/2025-dreamvla-a-vision-language-action-model-dreamed-with-comprehensive-world-knowledge.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/22d4f952efa13970f0b1ffb22170d416-Paper-Conference.pdf",
+    "title": "Dreamvla: a vision-language-action model dreamed with comprehensive world knowledge",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:owLR8QvbtFgC",
+    "pdf_path": "pdfs/2025-navid-4d-unleashing-spatial-intelligence-in-egocentric-rgb-d-videos-for-vision-and-language-navigation.pdf",
+    "pdf_url": "https://lhrrhl0419.github.io/NaVid4D/paper/NaVid_4D.pdf",
+    "title": "NaVid-4D: Unleashing Spatial Intelligence in Egocentric RGB-D Videos for Vision-and-Language Navigation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:WHdLCjDvYFkC",
+    "pdf_path": "pdfs/2025-graspvla-a-grasping-foundation-model-pre-trained-on-billion-scale-synthetic-action-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.03233.pdf",
+    "title": "Graspvla: a grasping foundation model pre-trained on billion-scale synthetic action data",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:MpfHP-DdYjUC",
+    "pdf_path": "pdfs/2024-scissorbot-learning-generalizable-scissor-skill-for-paper-cutting-via-simulation-imitation-and-sim2real.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.13966v2.pdf",
+    "title": "Scissorbot: Learning generalizable scissor skill for paper cutting via simulation, imitation, and sim2real",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:nRpfm8aw39MC",
+    "pdf_path": "pdfs/2024-ram-retrieval-based-affordance-transfer-for-generalizable-zero-shot-robotic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2407.04689v1.pdf",
+    "title": "Ram: Retrieval-based affordance transfer for generalizable zero-shot robotic manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:FiytvqdAVhgC",
+    "pdf_path": "pdfs/2024-category-level-multi-part-multi-joint-3d-shape-assembly.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.06163v1.pdf",
+    "title": "Category-level multi-part multi-joint 3d shape assembly",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:LdasjJ6CEcoC",
+    "pdf_path": "pdfs/2024-maskclustering-view-consensus-based-mask-graph-clustering-for-open-vocabulary-3d-instance-segmentation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2401.07745v2.pdf",
+    "title": "Maskclustering: View consensus based mask graph clustering for open-vocabulary 3d instance segmentation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:kw52XkFRtyQC",
+    "pdf_path": "pdfs/2024-asgrasp-generalizable-transparent-object-reconstruction-and-6-dof-grasp-detection-from-rgb-d-active-stereo-camera.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.05648v2.pdf",
+    "title": "Asgrasp: Generalizable transparent object reconstruction and 6-dof grasp detection from rgb-d active stereo camera",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:IaI1MmNe2tcC",
+    "pdf_path": "pdfs/2024-navid-video-based-vlm-plans-the-next-step-for-vision-and-language-navigation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.15852v7.pdf",
+    "title": "Navid: Video-based vlm plans the next step for vision-and-language navigation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:kVjdVfd2voEC",
+    "pdf_path": "pdfs/2024-stopnet-multiview-based-6-dof-suction-detection-for-transparent-objects-on-production-lines.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.05717v1.pdf",
+    "title": "STOPNet: Multiview-based 6-DoF Suction Detection for Transparent Objects on Production Lines",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:v1_lew4L6wgC",
+    "pdf_path": "pdfs/2024-task-oriented-dexterous-grasp-synthesis-via-differentiable-grasp-wrench-boundary-estimator.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.13586v3.pdf",
+    "title": "Task-Oriented Dexterous Grasp Synthesis via Differentiable Grasp Wrench Boundary Estimator",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:U4n9YNQMCAIC",
+    "pdf_path": "pdfs/2024-gamma-graspability-aware-mobile-manipulation-policy-learning-based-on-online-grasping-pose-fusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.15459v2.pdf",
+    "title": "GAMMA: Graspability-Aware Mobile MAnipulation Policy Learning based on Online Grasping Pose Fusion",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:uDGL6kOW6j0C",
+    "pdf_path": "pdfs/2023-enhancing-generalizable-6d-pose-tracking-of-an-in-hand-object-with-tactile-sensing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.04026.pdf",
+    "title": "Enhancing generalizable 6D pose tracking of an in-hand object with tactile sensing",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:BzfGm06jWhQC",
+    "pdf_path": "pdfs/2023-fg-nerf-flow-gan-based-probabilistic-neural-radiance-field-for-independence-assumption-free-uncertainty-estimation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.16364v2.pdf",
+    "title": "FG-NeRF: Flow-GAN based probabilistic neural radiance field for independence-assumption-free uncertainty estimation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:43bX7VzcjpAC",
+    "pdf_path": "pdfs/2023-mips-fusion-multi-implicit-submaps-for-scalable-and-robust-online-neural-rgb-d-reconstruction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2308.08741v2.pdf",
+    "title": "MIPS-Fusion: Multi-Implicit-Submaps for Scalable and Robust Online Neural RGB-D Reconstruction",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:uVUOdF_882EC",
+    "pdf_path": "pdfs/2023-adaptive-zone-aware-hierarchical-planner-for-vision-language-navigation.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Adaptive_Zone-Aware_Hierarchical_Planner_for_Vision-Language_Navigation_CVPR_2023_paper.pdf",
+    "title": "Adaptive zone-aware hierarchical planner for vision-language navigation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:QD3KBmkZPeQC",
+    "pdf_path": "pdfs/2023-graspnerf-multiview-based-6-dof-grasp-detection-for-transparent-and-specular-objects-using-generalizable-nerf.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.06575.pdf",
+    "title": "GraspNeRF: Multiview-based 6-DoF Grasp Detection for Transparent and Specular Objects Using Generalizable NeRF",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:ubry08Y2EpUC",
+    "pdf_path": "pdfs/2023-delving-into-discrete-normalizing-flows-on-so-3-manifold-for-probabilistic-rotation-modeling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.03937v1.pdf",
+    "title": "Delving into Discrete Normalizing Flows on SO (3) Manifold for Probabilistic Rotation Modeling",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:jgBuDB5drN8C",
+    "pdf_path": "pdfs/2023-diga-distil-to-generalize-and-then-adapt-for-domain-adaptive-semantic-segmentation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.02222v1.pdf",
+    "title": "DiGA: Distil to Generalize and then Adapt for Domain Adaptive Semantic Segmentation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:zCSUwVk65WsC",
+    "pdf_path": "pdfs/2023-unidexgrasp-improving-dexterous-grasping-policy-learning-via-geometry-aware-curriculum-and-iterative-generalist-speciali.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.00464v2.pdf",
+    "title": "UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:lgwcVrK6X84C",
+    "pdf_path": "pdfs/2023-partmanip-learning-cross-category-generalizable-part-manipulation-policy-from-point-cloud-observations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.16958v1.pdf",
+    "title": "PartManip: Learning Cross-Category Generalizable Part Manipulation Policy from Point Cloud Observations",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:1lhNe0rCu4AC",
+    "pdf_path": "pdfs/2023-unidexgrasp-universal-robotic-dexterous-grasping-via-learning-diverse-proposal-generation-and-goal-conditioned-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.00938v2.pdf",
+    "title": "UniDexGrasp: Universal robotic dexterous grasping via learning diverse proposal generation and goal-conditioned policy",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:O0nohqN1r9EC",
+    "pdf_path": "pdfs/2023-self-supervised-category-level-articulated-object-pose-estimation-with-part-level-se-3-equivariance.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.14268v1.pdf",
+    "title": "Self-supervised category-level articulated object pose estimation with part-level se (3) equivariance",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:CaZNVDsoPx4C",
+    "pdf_path": "pdfs/2023-loopda-constructing-self-loops-to-adapt-nighttime-semantic-segmentation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2211.11870.pdf",
+    "title": "LoopDA: Constructing self-loops to adapt nighttime semantic segmentation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:cK4Rrx0J3m0C",
+    "pdf_path": "pdfs/2023-few-shot-physically-aware-articulated-mesh-generation-via-hierarchical-deformation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2308.10898v1.pdf",
+    "title": "Few-Shot Physically-Aware Articulated Mesh Generation via Hierarchical Deformation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:48xauSegjOkC",
+    "pdf_path": "pdfs/2023-a-laplace-inspired-distribution-on-so-3-for-probabilistic-rotation-estimation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.01743.pdf",
+    "title": "A Laplace-inspired Distribution on SO (3) for Probabilistic Rotation Estimation",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:ALROH1vI_8AC",
+    "pdf_path": "pdfs/2023-3d-aware-object-goal-navigation-via-simultaneous-exploration-and-identification.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2212.00338.pdf",
+    "title": "3D-Aware Object Goal Navigation via Simultaneous Exploration and Identification",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:buQ7SEKw-1sC",
+    "pdf_path": "pdfs/2023-gapartnet-cross-category-domain-generalizable-object-perception-and-manipulation-via-generalizable-and-actionable-parts.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2211.05272.pdf",
+    "title": "GAPartNet: Cross-Category Domain-Generalizable Object Perception and Manipulation via Generalizable and Actionable Parts",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:jL-93Qbq4QoC",
+    "pdf_path": "pdfs/2023-dexgraspnet-a-large-scale-robotic-dexterous-grasp-dataset-for-general-objects-based-on-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2210.02697.pdf",
+    "title": "DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation",
+    "year": 2023
   }
 ]

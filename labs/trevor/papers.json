@@ -1,0 +1,611 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:oMtqKo3K3HAC",
+    "pdf_path": "pdfs/2026-world-motion-models-flexible-sequence-modeling-of-se-3-trajectories.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.01742v1.pdf",
+    "title": "World Motion Models: Flexible Sequence Modeling of SE (3) Trajectories",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:OC7j4ufeY2cC",
+    "pdf_path": "pdfs/2026-omnitaskonomy-when-does-visual-generation-improve-visual-understanding.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.38079v1.pdf",
+    "title": "OmniTaskonomy: When Does Visual Generation Improve Visual Understanding?",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:-0tLmPFCw2kC",
+    "pdf_path": "pdfs/2026-dextacwam-a-visuo-tactile-world-action-model-for-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.24976.pdf",
+    "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:FepLwMwnKBMC",
+    "pdf_path": "pdfs/2026-lifting-embodied-world-models-for-planning-and-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.26182v2.pdf",
+    "title": "Lifting embodied world models for planning and control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:SoGhKUJvMTQC",
+    "pdf_path": "pdfs/2026-loger-long-context-geometric-reconstruction-with-hybrid-memory.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.03269v2.pdf",
+    "title": "Loger: Long-context geometric reconstruction with hybrid memory",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:C6rTQemI8T8C",
+    "pdf_path": "pdfs/2026-vision-as-inverse-graphics-agent-via-interleaved-multimodal-reasoning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.11109v3.pdf",
+    "title": "Vision-as-inverse-graphics agent via interleaved multimodal reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:f-E_jMG6T4AC",
+    "pdf_path": "pdfs/2026-mechanistic-finetuning-of-vision-language-action-models-via-few-shot-demonstrations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.22697v1.pdf",
+    "title": "Mechanistic finetuning of vision-language-action models via few-shot demonstrations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:hXZnTIgIr50C",
+    "pdf_path": "pdfs/2026-chain-of-visual-thought-teaching-vlms-to-see-and-think-better-with-continuous-visual-tokens.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.19418v3.pdf",
+    "title": "Chain-of-visual-thought: Teaching vlms to see and think better with continuous visual tokens",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:YEBtnu9hOHUC",
+    "pdf_path": "pdfs/2026-discriminative-world-models-for-web-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.02885v1.pdf",
+    "title": "Discriminative World Models for Web Agents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:MUocvVTjX6cC",
+    "pdf_path": "pdfs/2026-cova-sft-a-large-scale-dataset-for-chain-of-visual-abstractions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.28958.pdf",
+    "title": "CoVA-SFT: A Large-Scale Dataset for Chain of Visual Abstractions",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:qzPvQt7yPGwC",
+    "pdf_path": "pdfs/2026-open-ended-ct-volume-segmentation-with-weak-supervision-from-language.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.25860v1.pdf",
+    "title": "Open-Ended CT Volume Segmentation with Weak Supervision from Language",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:6fxomyk5x4cC",
+    "pdf_path": "pdfs/2026-when-does-continual-learning-require-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.07847.pdf",
+    "title": "When Does Continual Learning Require Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:QZWLLlSfqgYC",
+    "pdf_path": "pdfs/2026-activation-reward-models-for-few-shot-model-alignment.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.01368v1.pdf",
+    "title": "Activation reward models for few-shot model alignment",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:hZ5_QnqxF7AC",
+    "pdf_path": "pdfs/2026-playful-agentic-robot-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.19419v1.pdf",
+    "title": "Playful Agentic Robot Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:cG0OFEevkNgC",
+    "pdf_path": "pdfs/2026-neural-tree-reconstruction-for-the-open-forest-observatory.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.18153v1.pdf",
+    "title": "Neural Tree Reconstruction for the Open Forest Observatory",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:d3xjRt2Mi1YC",
+    "pdf_path": "pdfs/2026-contrastive-action-image-pre-training-for-visuomotor-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.17256v1.pdf",
+    "title": "Contrastive Action-Image Pre-training for Visuomotor Control",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:0vYOBEH00j0C",
+    "pdf_path": "pdfs/2026-t-rex-tactile-reactive-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.17055v2.pdf",
+    "title": "T-Rex: Tactile-reactive dexterous manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:ZyBjE3zI-i8C",
+    "pdf_path": "pdfs/2026-stateful-visual-encoders-for-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.04433v1.pdf",
+    "title": "Stateful Visual Encoders for Vision-Language Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:9w9GTvUEN2YC",
+    "pdf_path": "pdfs/2026-whole-body-conditioned-egocentric-video-prediction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.21552v1.pdf",
+    "title": "Whole-body conditioned egocentric video prediction",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:pcWPcJyQGiUC",
+    "pdf_path": "pdfs/2026-reordering-patches-improves-vision-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.23751v3.pdf",
+    "title": "Reordering patches improves vision models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:HevVnK7dagcC",
+    "pdf_path": "pdfs/2026-lisat-language-instructed-segmentation-assistant-for-satellite-imagery.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.02829v1.pdf",
+    "title": "Lisat: Language-instructed segmentation assistant for satellite imagery",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:MDQ-9Oe3GGUC",
+    "pdf_path": "pdfs/2026-generate-but-verify-reducing-hallucination-in-vision-language-models-with-retrospective-resampling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.13169v3.pdf",
+    "title": "Generate, but verify: Reducing hallucination in vision-language models with retrospective resampling",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:ey9_mCyZ-VYC",
+    "pdf_path": "pdfs/2026-dave-a-vlm-vision-encoder-for-document-understanding-and-web-agents.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/d25ed2a375a33257d33e83fd9010ec60-Paper-Conference.pdf",
+    "title": "Dave: A vlm vision encoder for document understanding and web agents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:djcsc3XHdKAC",
+    "pdf_path": "pdfs/2026-constantly-improving-image-models-need-constantly-improving-benchmarks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.15021v1.pdf",
+    "title": "Constantly Improving Image Models Need Constantly Improving Benchmarks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:ocbgtyEEUOwC",
+    "pdf_path": "pdfs/2026-person-centric-annotations-of-laion-400m-auditing-bias-and-its-transfer-to-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.03721v2.pdf",
+    "title": "Person-centric annotations of laion-400m: Auditing bias and its transfer to models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:TuM7UPshZo8C",
+    "pdf_path": "pdfs/2026-reconstruction-alignment-improves-unified-multimodal-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.07295v4.pdf",
+    "title": "Reconstruction alignment improves unified multimodal models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:4pF9x-cDGsoC",
+    "pdf_path": "pdfs/2026-search-arena-analyzing-search-augmented-llms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.05334v2.pdf",
+    "title": "Search arena: Analyzing search-augmented llms",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:x7obfLuV8acC",
+    "pdf_path": "pdfs/2026-egoscale-scaling-dexterous-manipulation-with-diverse-egocentric-human-data.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.16710v1.pdf",
+    "title": "Egoscale: Scaling dexterous manipulation with diverse egocentric human data",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:s_OEDnM-dbEC",
+    "pdf_path": "pdfs/2026-learning-a-generative-meta-model-of-llm-activations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.06964.pdf",
+    "title": "Learning a generative meta-model of llm activations",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:dIILA_La5fwC",
+    "pdf_path": "pdfs/2026-attend-before-attention-efficient-and-scalable-video-understanding-via-autoregressive-gazing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.12254v1.pdf",
+    "title": "Attend before attention: Efficient and scalable video understanding via autoregressive gazing",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:jODAHDUrbwUC",
+    "pdf_path": "pdfs/2026-it-s-never-too-late-noise-optimization-for-collapse-recovery-in-trained-diffusion-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.00090v2.pdf",
+    "title": "It's Never Too Late: Noise Optimization for Collapse Recovery in Trained Diffusion Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:TEVcCiyi8yIC",
+    "pdf_path": "pdfs/2026-latent-implicit-visual-reasoning.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Li_Latent_Implicit_Visual_Reasoning_CVPR_2026_paper.pdf",
+    "title": "Latent implicit visual reasoning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:6YFk0eKgftsC",
+    "pdf_path": "pdfs/2025-visually-prompted-benchmarks-are-surprisingly-fragile.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.17875v2.pdf",
+    "title": "Visually prompted benchmarks are surprisingly fragile",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:IX653JsL2_EC",
+    "pdf_path": "pdfs/2025-pillar-0-a-new-frontier-for-radiology-foundation-models.pdf",
+    "pdf_url": "https://assets-eu.researchsquare.com/files/rs-8196619/v1_covered_d8c93a27-b1ca-4b05-9ede-1a71f62d6ed6.pdf",
+    "title": "Pillar-0: A New Frontier for Radiology Foundation Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:cxS_fjKIGZMC",
+    "pdf_path": "pdfs/2025-foundationmotion-auto-labeling-and-reasoning-about-spatial-movement-in-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.10927v1.pdf",
+    "title": "Foundationmotion: Auto-labeling and reasoning about spatial movement in videos",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:E10ZYwHxBI8C",
+    "pdf_path": "pdfs/2025-from-generated-human-videos-to-physically-plausible-robot-trajectories.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.05094.pdf",
+    "title": "From generated human videos to physically plausible robot trajectories",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:rKYHOwt5kWwC",
+    "pdf_path": "pdfs/2025-threadweaver-adaptive-threading-for-efficient-parallel-reasoning-in-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.07843v2.pdf",
+    "title": "Threadweaver: Adaptive threading for efficient parallel reasoning in language models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:Agc8PWtS8JkC",
+    "pdf_path": "pdfs/2025-unsamv2-self-supervised-learning-enables-segment-anything-at-any-granularity.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.13714v1.pdf",
+    "title": "UnSAMv2: Self-Supervised Learning Enables Segment Anything at Any Granularity",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:fixghrsIJ_wC",
+    "pdf_path": "pdfs/2025-puzzled-by-puzzles-when-vision-language-models-can-t-take-a-hint.pdf",
+    "pdf_url": "https://aclanthology.org/2025.emnlp-main.1101.pdf",
+    "title": "Puzzled by puzzles: When vision-language models can\u2019t take a hint",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:AzjrKLz9U9oC",
+    "pdf_path": "pdfs/2025-search-arena-analyzing-search-augmented-large-language-models.pdf",
+    "pdf_url": "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/Archive/EECS-2025-177.pdf",
+    "title": "Search Arena: Analyzing Search-Augmented Large Language Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:8_tS2Vw13FcC",
+    "pdf_path": "pdfs/2025-enhancing-few-shot-vision-language-classification-with-large-multimodal-model-features.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.00142v3.pdf",
+    "title": "Enhancing few-shot vision-language classification with large multimodal model features",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:wUCFpcnEedwC",
+    "pdf_path": "pdfs/2025-tulip-contrastive-image-text-learning-with-richer-vision-understanding.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/ICCV2025W/MMFM/papers/Tang_TULIP_Contrastive_Image-Text_Learning_With_Richer_Vision_Understanding_ICCVW_2025_paper.pdf",
+    "title": "Tulip: Contrastive image-text learning with richer vision understanding",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:ddB7do2jUx8C",
+    "pdf_path": "pdfs/2025-discovering-divergent-representations-between-text-to-image-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.08940v1.pdf",
+    "title": "Discovering divergent representations between text-to-image models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:x8G803Bi31IC",
+    "pdf_path": "pdfs/2025-dual-process-image-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.01955.pdf",
+    "title": "Dual-process image generation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:w_ORaKkuc5QC",
+    "pdf_path": "pdfs/2025-describe-anything-detailed-localized-image-and-video-captioning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.16072.pdf",
+    "title": "Describe anything: Detailed localized image and video captioning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:KEtq3P1Vf8oC",
+    "pdf_path": "pdfs/2025-st4rtrack-simultaneous-4d-reconstruction-and-tracking-in-the-world.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.13152.pdf",
+    "title": "St4rtrack: Simultaneous 4d reconstruction and tracking in the world",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:rwEhk56xNqMC",
+    "pdf_path": "pdfs/2025-learning-to-grasp-anything-by-playing-with-random-toys.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.12866.pdf",
+    "title": "Learning to Grasp Anything by Playing with Random Toys",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:u1IMlZnpNFQC",
+    "pdf_path": "pdfs/2025-are-large-reasoning-models-interruptible.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.11713.pdf",
+    "title": "Are Large Reasoning Models Interruptible?",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:v7LLNfYe7h0C",
+    "pdf_path": "pdfs/2025-do-what-teaching-vision-language-action-models-to-reject-the-impossible.pdf",
+    "pdf_url": "https://aclanthology.org/anthology-files/pdf/findings/2025.findings-emnlp.635.pdf",
+    "title": "Do What? Teaching Vision-Language-Action Models to Reject the Impossible.",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:QlnOKEPDpKwC",
+    "pdf_path": "pdfs/2025-the-sound-of-simulation-learning-multimodal-sim-to-real-robot-policies-with-generative-audio.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.02864.pdf",
+    "title": "The sound of simulation: Learning multimodal sim-to-real robot policies with generative audio",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:ec1XJgWlWRUC",
+    "pdf_path": "pdfs/2025-a-probabilistic-approach-to-uncertainty-quantification-leveraging-3d-geometry.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.06269.pdf",
+    "title": "A Probabilistic Approach to Uncertainty Quantification Leveraging 3D Geometry",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:xEMdJR0kL_sC",
+    "pdf_path": "pdfs/2025-enough-coin-flips-can-make-llms-act-bayesian.pdf",
+    "pdf_url": "https://aclanthology.org/2025.acl-long.377.pdf",
+    "title": "Enough coin flips can make llms act bayesian",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:C-SEpTPhZ1wC",
+    "pdf_path": "pdfs/2025-leverb-humanoid-whole-body-control-with-latent-vision-language-instruction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.13751.pdf",
+    "title": "Leverb: Humanoid whole-body control with latent vision-language instruction",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:9fRKRCJz75UC",
+    "pdf_path": "pdfs/2025-scaling-vision-pre-training-to-4k-resolution.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Shi_Scaling_Vision_Pre-Training_to_4K_Resolution_CVPR_2025_paper.pdf",
+    "title": "Scaling vision pre-training to 4k resolution",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:5UUbrqTvKfUC",
+    "pdf_path": "pdfs/2025-autopresent-designing-structured-visuals-from-scratch.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.00912.pdf",
+    "title": "Autopresent: Designing structured visuals from scratch",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:PcT55Ow6fAIC",
+    "pdf_path": "pdfs/2025-visionarena-230k-real-world-user-vlm-conversations-with-preference-labels.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.08687.pdf",
+    "title": "Visionarena: 230k real world user-vlm conversations with preference labels",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:FKYJxdYMdFIC",
+    "pdf_path": "pdfs/2025-visual-lexicon-rich-image-features-in-language-space.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.06774v1.pdf",
+    "title": "Visual lexicon: Rich image features in language space",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:zaHkCSmj5XkC",
+    "pdf_path": "pdfs/2025-pose-priors-from-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.03689v2.pdf",
+    "title": "Pose priors from language models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:z-B63o8J19IC",
+    "pdf_path": "pdfs/2025-hidden-in-plain-sight-vlms-overlook-their-visual-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.08008v1.pdf",
+    "title": "Hidden in plain sight: Vlms overlook their visual representations",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:wE8AsS3ykUMC",
+    "pdf_path": "pdfs/2025-decentralized-vehicle-coordination-the-berkeley-deepdrive-drone-dataset-and-consensus-based-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2209.08763.pdf",
+    "title": "Decentralized vehicle coordination: The Berkeley DeepDrive drone dataset and consensus-based models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:2mikiJ1VBVsC",
+    "pdf_path": "pdfs/2025-in-context-learning-enables-robot-action-prediction-in-llms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.12782v2.pdf",
+    "title": "In-context learning enables robot action prediction in llms",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:Ui_nyea79ooC",
+    "pdf_path": "pdfs/2025-visual-imitation-enables-contextual-humanoid-control.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.03729.pdf",
+    "title": "Visual imitation enables contextual humanoid control",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:wTekDMGr9GkC",
+    "pdf_path": "pdfs/2025-visual-haystacks-a-vision-centric-needle-in-a-haystack-benchmark.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/a264726ebd222124514a32bf0143b83d-Paper-Conference.pdf",
+    "title": "Visual haystacks: A vision-centric needle-in-a-haystack benchmark",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:DrOLxFoABAwC",
+    "pdf_path": "pdfs/2025-revealing-and-reducing-gender-biases-in-vision-and-language-assistants-vlas.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.19314v2.pdf",
+    "title": "Revealing and reducing gender biases in vision and language assistants (vlas)",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:Np1obAXpBq8C",
+    "pdf_path": "pdfs/2025-vibecheck-discover-and-quantify-qualitative-differences-in-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.12851v7.pdf",
+    "title": "Vibecheck: Discover and quantify qualitative differences in large language models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:MtS25d97-7AC",
+    "pdf_path": "pdfs/2025-monst3r-a-simple-approach-for-estimating-geometry-in-the-presence-of-motion.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/ce1710ff5b66f89b0d707bf1ec2850bf-Paper-Conference.pdf",
+    "title": "Monst3r: A simple approach for estimating geometry in the presence of motion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:plAW456RD7MC",
+    "pdf_path": "pdfs/2025-a-coefficient-makes-svrg-effective.pdf",
+    "pdf_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/82c4ad0c3d3d4898a77be5df7b2ede3a-Paper-Conference.pdf",
+    "title": "A coefficient makes svrg effective",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:lL5f5cZgq8MC",
+    "pdf_path": "pdfs/2025-learning-adaptive-parallel-reasoning-with-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.15466v2.pdf",
+    "title": "Learning adaptive parallel reasoning with language models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:5N-NJrZHaHcC",
+    "pdf_path": "pdfs/2025-tulip-towards-unified-language-image-pretraining.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.15485v2.pdf",
+    "title": "Tulip: Towards unified language-image pretraining",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:3wLP7v6BnpwC",
+    "pdf_path": "pdfs/2025-atlas-multi-scale-attention-improves-long-context-image-modeling.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.12355v1.pdf",
+    "title": "Atlas: Multi-scale attention improves long context image modeling",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:YanO1q2l3soC",
+    "pdf_path": "pdfs/2025-visualizing-thought-conceptual-diagrams-enable-robust-planning-in-lmms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.11790v3.pdf",
+    "title": "Visualizing thought: Conceptual diagrams enable robust planning in lmms",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:6LV2YwJzdtgC",
+    "pdf_path": "pdfs/2025-vector-quantized-feature-fields-for-fast-3d-semantic-lifting.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.06469v1.pdf",
+    "title": "Vector Quantized Feature Fields for Fast 3D Semantic Lifting",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:2TuIPqOg0e0C",
+    "pdf_path": "pdfs/2025-pre-training-auto-regressive-robotic-models-with-4d-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.13142v2.pdf",
+    "title": "Pre-training auto-regressive robotic models with 4d representations",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:e-nnqdki048C",
+    "pdf_path": "pdfs/2025-incorporating-foveal-sampling-and-integration-to-model-3d-shape-inferences.pdf",
+    "pdf_url": "https://2025.ccneuro.org/abstract_pdf/Fu_2025_Incorporating_foveal_sampling_integration_model_3D.pdf",
+    "title": "Incorporating foveal sampling and integration to model 3d shape inferences",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:ve7iT2ZEuL4C",
+    "pdf_path": "pdfs/2024-conme-rethinking-evaluation-of-compositional-reasoning-for-modern-vlms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.08164v3.pdf",
+    "title": "Conme: Rethinking evaluation of compositional reasoning for modern vlms",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:_u2aKJ9e-CoC",
+    "pdf_path": "pdfs/2024-when-does-perceptual-alignment-benefit-vision-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.10817v1.pdf",
+    "title": "When does perceptual alignment benefit vision representations?",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:WTSGYGHz1bkC",
+    "pdf_path": "pdfs/2024-segment-anything-without-supervision.pdf",
+    "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/fa7f64b45970e6a7f8824781e7e01501-Paper-Conference.pdf",
+    "title": "Segment anything without supervision",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:P-MJmu9ZMwQC",
+    "pdf_path": "pdfs/2024-multimodal-task-vectors-enable-many-shot-multimodal-in-context-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.15334v3.pdf",
+    "title": "Multimodal task vectors enable many-shot multimodal in-context learning",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:wH03y5nBhxsC",
+    "pdf_path": "pdfs/2024-humanoid-locomotion-as-next-token-prediction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.19469v1.pdf",
+    "title": "Humanoid locomotion as next token prediction",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:INdAjOZKYREC",
+    "pdf_path": "pdfs/2024-analyzing-the-language-of-visual-tokens.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2411.05001v1.pdf",
+    "title": "Analyzing the language of visual tokens",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:eJjLl3UG7CkC",
+    "pdf_path": "pdfs/2024-vision-language-models-create-cross-modal-task-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.22330v2.pdf",
+    "title": "Vision-language models create cross-modal task representations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:n8FNryW2AHIC",
+    "pdf_path": "pdfs/2024-segllm-multi-round-reasoning-segmentation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.18923v2.pdf",
+    "title": "Segllm: Multi-round reasoning segmentation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:KPAPMsW7zc0C",
+    "pdf_path": "pdfs/2024-learning-humanoid-locomotion-over-challenging-terrain.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.03654v1.pdf",
+    "title": "Learning humanoid locomotion over challenging terrain",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:UEFpDhwOD2kC",
+    "pdf_path": "pdfs/2024-egopet-egomotion-and-interaction-data-from-an-animal-s-perspective.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.09991v1.pdf",
+    "title": "Egopet: Egomotion and interaction data from an animal\u2019s perspective",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:dj1AAMDQi3QC",
+    "pdf_path": "pdfs/2024-finding-visual-task-vectors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.05729v2.pdf",
+    "title": "Finding visual task vectors",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:CmbFvBriOyMC",
+    "pdf_path": "pdfs/2024-when-do-we-not-need-larger-vision-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.13043v2.pdf",
+    "title": "When do we not need larger vision models?",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:0kLwNjf3oFwC",
+    "pdf_path": "pdfs/2024-data-centric-ai-governance-addressing-the-limitations-of-model-focused-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.17216v1.pdf",
+    "title": "Data-centric ai governance: Addressing the limitations of model-focused policies",
+    "year": 2024
+  }
+]

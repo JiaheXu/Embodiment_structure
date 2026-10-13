@@ -16,10 +16,12 @@ import time
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import asdict, dataclass
+from email.utils import parsedate_to_datetime
 from html import unescape
 from html.parser import HTMLParser
 from http.client import IncompleteRead, InvalidURL
 from pathlib import Path
+from threading import Lock
 from typing import Callable, Iterable
 from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qsl, quote, quote_plus, urlencode, urljoin, urlparse, urlunparse
@@ -33,7 +35,7 @@ DEFAULT_WORKERS = 2
 DEFAULT_HTTP_ATTEMPTS = 3
 DOWNLOAD_PDF_ATTEMPTS = 4
 DOWNLOAD_PDF_DELAY_SECONDS = 1.0
-BILIBILI_VIDEO_LIMIT = 50
+BILIBILI_VIDEO_LIMIT = 100
 GOOGLE_SCHOLAR_PAGE_SIZE = 100
 GOOGLE_SCHOLAR_MAX_PAGES = 20
 RAI_LOAD_MORE_PAGE_SIZE = 12
@@ -49,6 +51,9 @@ GOOGLE_SCHOLAR_CACHE_NAME = "scholar.html"
 USER_AGENT = "Mozilla/5.0 (compatible; lab-paper-collector/0.1)"
 AI_HTML_CHAR_LIMIT = 120_000
 AI_VIDEO_TEXT_CHAR_LIMIT = 120_000
+_ARXIV_LOCK = Lock()
+_ARXIV_NEXT_REQUEST = 0.0
+_ARXIV_CACHE: dict[str, tuple] = {}
 
 
 @dataclass(frozen=True)
@@ -676,7 +681,13 @@ def choose_bilibili_candidates(
             f"by_year: {format_year_counts(static_candidates, min_year)}"
         )
         return static_candidates
-    ai_candidates = extract_papers_from_bilibili_videos(video_text, base_url, min_year=min_year, timeout=timeout)
+    try:
+        ai_candidates = extract_papers_from_bilibili_videos(video_text, base_url, min_year=min_year, timeout=timeout)
+    except (OSError, RuntimeError, ValueError, IncompleteRead) as exc:
+        if extractor == "ai":
+            raise
+        print(f"[extract:bilibili-ai] failed ({exc}); using static extraction and arXiv search", file=sys.stderr)
+        ai_candidates = []
     if extractor == "ai":
         return ai_candidates
     print(
@@ -844,6 +855,7 @@ def download_new_papers(
             record["pdf_url"] = recovered.pdf_url
         manifest.append(record)
         save_manifest(lab_dir, manifest)
+        clear_failed_paper(lab_dir, paper)
         downloaded += 1
         print(f"[download] {paper.title} -> {pdf_path}")
         time.sleep(DOWNLOAD_PDF_DELAY_SECONDS)
@@ -866,6 +878,18 @@ def record_failed_video(lab_dir: Path, video_url: str) -> None:
         return
     existing.append(video_url)
     path.write_text("\n".join(existing) + "\n")
+
+
+def clear_failed_paper(lab_dir: Path, paper: PaperCandidate) -> None:
+    path = lab_dir / FAILED_NAME
+    if not path.exists():
+        return
+    existing = path.read_text().splitlines()
+    video_key = _bilibili_video_key(paper.page_url) if is_bilibili_url(paper.page_url) else None
+    remaining = [line for line in existing if line not in {paper.title, paper.page_url}
+                 and not (video_key and is_bilibili_url(line) and _bilibili_video_key(line) == video_key)]
+    if remaining != existing:
+        path.write_text("\n".join(remaining) + ("\n" if remaining else ""))
 
 
 def read_lab_link(lab_dir: Path) -> str | None:
@@ -1193,19 +1217,56 @@ def download_pdf(url: str, destination: Path, timeout: int) -> None:
 
 
 def read_url_with_retries(request: Request, timeout: int, attempts: int = DEFAULT_HTTP_ATTEMPTS):
+    parsed = urlparse(request.full_url)
+    arxiv_api = parsed.hostname in {"arxiv.org", "export.arxiv.org"} and parsed.path == "/api/query"
+    if not arxiv_api:
+        return _read_url_with_retries(request, timeout, attempts)
+    # All worker threads share one connection, cooldown, and successful-query cache.
+    with _ARXIV_LOCK:
+        if request.full_url not in _ARXIV_CACHE:
+            _ARXIV_CACHE[request.full_url] = _read_url_with_retries(request, timeout, attempts, arxiv_api=True)
+        return _ARXIV_CACHE[request.full_url]
+
+
+def _read_url_with_retries(request: Request, timeout: int, attempts: int, arxiv_api: bool = False):
+    global _ARXIV_NEXT_REQUEST
     last_exc: Exception | None = None
     attempts = max(1, attempts)
     for attempt in range(1, attempts + 1):
+        if arxiv_api:
+            delay = max(0.0, _ARXIV_NEXT_REQUEST - time.monotonic())
+            while delay > 0:
+                interval = min(delay, 60)
+                time.sleep(interval)
+                delay -= interval
         try:
             with urlopen(request, timeout=timeout) as response:
                 return response.read(), response
         except (ssl.SSLError, URLError, TimeoutError, IncompleteRead) as exc:
             last_exc = exc
+            if arxiv_api and isinstance(exc, HTTPError) and exc.code == 429:
+                retry_after = (exc.headers or {}).get("Retry-After")
+                delay = 30.0 * attempt
+                if retry_after:
+                    try:
+                        delay = int(retry_after)
+                    except ValueError:
+                        try:
+                            delay = parsedate_to_datetime(retry_after).timestamp() - time.time()
+                        except (ValueError, TypeError, OverflowError):
+                            pass
+                delay = max(3.0, delay)
+                _ARXIV_NEXT_REQUEST = max(_ARXIV_NEXT_REQUEST, time.monotonic() + delay)
+                print(f"[arxiv] HTTP 429; pausing API requests for {delay:.0f}s", file=sys.stderr, flush=True)
             if attempt >= attempts or not is_retryable_network_error(exc):
                 print(f"[retry] HTTP request attempt {attempt}/{attempts} failed for {request.full_url} ({exc}); giving up", file=sys.stderr)
                 raise
             print(f"[retry] HTTP request attempt {attempt}/{attempts} failed for {request.full_url} ({exc}); retrying", file=sys.stderr)
-            time.sleep(min(2 ** (attempt - 1), 5))
+            if not arxiv_api:
+                time.sleep(min(2 ** (attempt - 1), 5))
+        finally:
+            if arxiv_api:
+                _ARXIV_NEXT_REQUEST = max(_ARXIV_NEXT_REQUEST, time.monotonic() + 3.0)
     if last_exc:
         raise last_exc
     raise RuntimeError("HTTP retry loop did not run")
@@ -1243,6 +1304,24 @@ def is_retryable_network_error(exc: BaseException) -> bool:
     return False
 
 
+def fetch_bilibili_video_details(url: str, timeout: int) -> dict[str, object]:
+    video_key = _bilibili_video_key(url)
+    if not video_key:
+        raise ValueError(f"No Bilibili video ID in {url}")
+    query = {"bvid": video_key} if video_key.startswith("BV") else {"aid": video_key[2:]}
+    request = Request(
+        f"https://api.bilibili.com/x/web-interface/view?{urlencode(query)}",
+        headers={"User-Agent": "Mozilla/5.0", "Referer": url},
+    )
+    raw, _ = read_url_with_retries(request, timeout=min(timeout, 30))
+    response = json.loads(raw)
+    data = response.get("data") if isinstance(response, dict) else None
+    if not isinstance(response, dict) or response.get("code") != 0 or not isinstance(data, dict) or not data.get("title"):
+        raise ValueError(f"Bilibili metadata unavailable: {response}")
+    return {"title": data["title"], "description": data.get("desc") or "",
+            "timestamp": data.get("pubdate"), "webpage_url": url, "id": video_key}
+
+
 def fetch_bilibili_video_metadata(url: str, timeout: int, limit: int = BILIBILI_VIDEO_LIMIT) -> list[dict[str, object]]:
     playlist = _run_yt_dlp_json(
         ["--flat-playlist", "--dump-single-json", "--playlist-end", str(limit), "--no-warnings", url],
@@ -1250,7 +1329,8 @@ def fetch_bilibili_video_metadata(url: str, timeout: int, limit: int = BILIBILI_
     )
     entries = playlist.get("entries", []) if isinstance(playlist, dict) else []
     videos: list[dict[str, object]] = []
-    for entry in entries[:limit]:
+    selected_entries = entries[:limit]
+    for index, entry in enumerate(selected_entries, start=1):
         if not isinstance(entry, dict):
             continue
         video_url = _bilibili_entry_url(entry)
@@ -1258,9 +1338,19 @@ def fetch_bilibili_video_metadata(url: str, timeout: int, limit: int = BILIBILI_
             videos.append(entry)
             continue
         try:
-            full_entry = _run_yt_dlp_json(["--dump-single-json", "--skip-download", "--no-warnings", video_url], timeout=timeout)
-        except (RuntimeError, subprocess.TimeoutExpired):
-            full_entry = entry
+            # Paper extraction needs descriptions, not playback formats.
+            full_entry = {**entry, **fetch_bilibili_video_details(video_url, timeout=timeout)}
+        except (OSError, ValueError, IncompleteRead) as exc:
+            try:
+                full_entry = _run_yt_dlp_json(
+                    ["--dump-single-json", "--skip-download", "--no-warnings", video_url],
+                    timeout=min(timeout, 30),
+                )
+            except (RuntimeError, subprocess.TimeoutExpired) as fallback_exc:
+                print(f"[metadata:bilibili] {video_url}: view API failed ({exc}); yt-dlp fallback failed ({fallback_exc}); using channel metadata", file=sys.stderr)
+                full_entry = entry
+        title = full_entry.get("title") if isinstance(full_entry, dict) else entry.get("title")
+        print(f"[metadata:bilibili {index}/{len(selected_entries)}] {title or video_url}", flush=True)
         videos.append(full_entry if isinstance(full_entry, dict) else entry)
     return videos
 
@@ -1319,17 +1409,58 @@ def search_arxiv_for_bilibili_video(
     video_url = _bilibili_entry_url(item)
     if not query or not video_url:
         return None
+    short_name = len(query.split()) < 3
+    search_query = f'all:"{query}"' if short_name else " AND ".join(f"ti:{word}" for word in query.split())
+    result_limit = 10 if short_name else 3
     url = (
         "https://export.arxiv.org/api/query"
-        f"?search_query=all:{quote_plus(query)}"
-        "&start=0&max_results=3&sortBy=submittedDate&sortOrder=descending"
+        f"?search_query={quote_plus(search_query)}"
+        f"&start=0&max_results={result_limit}&sortBy=relevance&sortOrder=descending"
     )
     try:
         atom = fetch_text(url, timeout=timeout)
-    except (HTTPError, URLError, TimeoutError, IncompleteRead, ssl.SSLError):
+    except (HTTPError, URLError, TimeoutError, IncompleteRead, ssl.SSLError) as exc:
+        print(f"[search:bilibili] {video_url}: arXiv lookup failed: {exc}", file=sys.stderr)
         return None
     papers = _parse_arxiv_atom_candidates(atom, video_url, min_year=min_year)
-    return papers[0] if papers else None
+    if short_name:
+        namespace = {"atom": "http://www.w3.org/2005/Atom"}
+        try:
+            root = ElementTree.fromstring(atom)
+        except ElementTree.ParseError:
+            return None
+        name_pattern = rf"(?<![A-Za-z0-9]){re.escape(query)}(?![A-Za-z0-9])"
+        matching_urls = set()
+        introduced_urls = set()
+        robotics_context = re.search(r"机器人|具身|\brobot\w*\b|\bVLA\b", str(item.get("title") or ""), re.IGNORECASE)
+        for entry in root.findall("atom:entry", namespace):
+            text = " ".join(_xml_child_text(entry, field, namespace) or "" for field in ("atom:title", "atom:summary"))
+            pdf_url = _normalize_pdf_url(_xml_child_text(entry, "atom:id", namespace) or "", video_url)
+            if re.search(name_pattern, text, re.IGNORECASE):
+                matching_urls.add(pdf_url)
+            declaration = rf"\b(?:introduce|propose|present)\s+(?:{name_pattern}|[^.!?]{{0,120}}\({re.escape(query)}\))"
+            if re.search(declaration, text, re.IGNORECASE) and (
+                not robotics_context or re.search(r"\brobot\w*\b|\bVLA\w*\b|\bembodied\b", text, re.IGNORECASE)
+            ):
+                introduced_urls.add(pdf_url)
+        matches = [paper for paper in papers if paper.pdf_url in matching_urls]
+        named_titles = [paper for paper in matches if re.match(rf"{re.escape(query)}\s*:", paper.title, re.IGNORECASE)]
+        if len(named_titles) == 1:
+            return named_titles[0]
+        introduced = [paper for paper in matches if paper.pdf_url in introduced_urls]
+        if len(introduced) == 1:
+            return introduced[0]
+        if len(matches) == 1 and len(root.findall("atom:entry", namespace)) < result_limit:
+            return matches[0]
+        if matches:
+            print(f"[search:bilibili] {video_url}: ambiguous paper name {query!r}; leaving unresolved", file=sys.stderr)
+        return None
+    query_tokens = {word.rstrip("s") for word in _title_tokens(query)}
+    for paper in papers:
+        title_tokens = {word.rstrip("s") for word in _title_tokens(paper.title)}
+        if query_tokens and title_tokens and len(query_tokens & title_tokens) / max(len(query_tokens), len(title_tokens)) >= 0.72:
+            return paper
+    return None
 
 
 def collect_lab(
@@ -1350,14 +1481,45 @@ def collect_lab(
 
     if is_bilibili_url(link):
         limit = int(os.environ.get("BILIBILI_VIDEO_LIMIT", BILIBILI_VIDEO_LIMIT))
-        metadata = fetch_bilibili_video_metadata(link, timeout=timeout, limit=limit)
+        try:
+            metadata = fetch_bilibili_video_metadata(link, timeout=timeout, limit=limit)
+        except RuntimeError as exc:
+            failed_path = lab_dir / FAILED_NAME
+            saved_urls = list(dict.fromkeys(
+                line.strip() for line in failed_path.read_text().splitlines()
+                if is_bilibili_url(line.strip()) and _bilibili_video_key(line.strip())
+            )) if failed_path.exists() else []
+            if "412" not in str(exc) or not saved_urls:
+                raise
+            print(
+                f"[scan:bilibili] {lab_dir.name}: channel listing still blocked; partial scan of "
+                f"{min(len(saved_urls), limit)} saved failed videos. Cannot check new uploads.",
+                file=sys.stderr,
+            )
+            metadata = []
+            for video_url in saved_urls[:limit]:
+                try:
+                    metadata.append(fetch_bilibili_video_details(video_url, timeout=timeout))
+                except (OSError, ValueError, IncompleteRead) as metadata_exc:
+                    print(f"[metadata:bilibili] saved video {video_url}: {metadata_exc}", file=sys.stderr)
+            if not metadata:
+                raise RuntimeError(f"{lab_dir.name}: listing and all saved video metadata requests failed") from exc
         video_text = build_bilibili_video_text(metadata)
         candidates = choose_bilibili_candidates(video_text, link, min_year=min_year, timeout=timeout, extractor=extractor)
+        initial_papers = filter_new_papers(lab_dir, candidates)
+        streamed_titles.update(safe_filename(paper.title) for paper in initial_papers)
+        streamed_new_count, manifest = download_new_papers(
+            lab_dir, initial_papers, timeout=timeout, dry_run=dry_run, manifest=manifest,
+        )
         matched_video_keys = {
             video_key
             for paper in candidates
             if (video_key := _bilibili_video_key(paper.page_url)) is not None
         }
+        matched_video_keys.update(
+            video_key for record in manifest
+            if (video_key := _bilibili_video_key(str(record.get("page_url") or ""))) is not None
+        )
         searched_candidates: list[PaperCandidate] = []
         for item in metadata:
             video_url = _bilibili_entry_url(item)
@@ -1378,11 +1540,6 @@ def collect_lab(
             )
             candidates = merge_candidates(candidates, searched_candidates)
         if not dry_run:
-            matched_video_keys = {
-                video_key
-                for paper in candidates
-                if (video_key := _bilibili_video_key(paper.page_url)) is not None
-            }
             matched_video_urls = {paper.page_url.rstrip("/") for paper in candidates}
             for item in metadata:
                 video_url = _bilibili_entry_url(item)
@@ -2080,20 +2237,31 @@ Video metadata:
 
 def _run_yt_dlp_json(args: list[str], timeout: int) -> object:
     command = ["yt-dlp", *_yt_dlp_auth_args(), *args]
-    try:
-        completed = subprocess.run(command, capture_output=True, text=True, timeout=timeout, check=True)
-    except FileNotFoundError as exc:
-        raise RuntimeError("yt-dlp is required for Bilibili channel extraction") from exc
-    except subprocess.CalledProcessError as exc:
-        message = exc.stderr.strip() or exc.stdout.strip() or str(exc)
-        if "412" in message and "bilibili" in " ".join(command).lower():
-            message = (
-                f"{message}\n"
-                "Bilibili often blocks anonymous yt-dlp requests. Try one of:\n"
-                "  python3 labs/download_paper.py --bilibili-only --dry-run --bilibili-cookies-from-browser chrome\n"
-                "  python3 labs/download_paper.py --bilibili-only --dry-run --bilibili-cookies /path/to/bilibili-cookies.txt"
-            )
-        raise RuntimeError(f"yt-dlp failed: {message}") from exc
+    bilibili_request = any(is_bilibili_url(arg) for arg in args if arg.startswith(("http://", "https://")))
+    for attempt in range(2):
+        try:
+            completed = subprocess.run(command, capture_output=True, text=True, timeout=timeout, check=True)
+            break
+        except FileNotFoundError as exc:
+            raise RuntimeError("yt-dlp is required for Bilibili channel extraction") from exc
+        except subprocess.CalledProcessError as exc:
+            message = (exc.stderr or "").strip() or (exc.stdout or "").strip() or str(exc)
+            if bilibili_request and "412" in message and attempt == 0:
+                print("[metadata:bilibili] HTTP 412; retrying with Chrome browser impersonation", file=sys.stderr)
+                command[1:1] = ["--impersonate", "chrome", "--sleep-requests", "1"]
+                continue
+            if bilibili_request and attempt == 1:
+                message += (
+                    "\nChrome impersonation retry also failed. If its target is unavailable, install curl-cffi support:\n"
+                    '  python3 -m pip install -U "yt-dlp[default,curl-cffi]"'
+                )
+            if bilibili_request and "412" in message:
+                message += (
+                    "\nBilibili blocked this request; cookies alone may not suffice. You can also try:\n"
+                    "  python3 labs/download_paper.py --bilibili-only --dry-run --bilibili-cookies-from-browser chrome\n"
+                    "  python3 labs/download_paper.py --bilibili-only --dry-run --bilibili-cookies /path/to/bilibili-cookies.txt"
+                )
+            raise RuntimeError(f"yt-dlp failed: {message}") from exc
     try:
         return json.loads(completed.stdout)
     except json.JSONDecodeError as exc:
@@ -2130,15 +2298,18 @@ def _bilibili_video_key(url: str) -> str | None:
 
 
 def _build_arxiv_query_from_bilibili_metadata(item: dict[str, object]) -> str | None:
+    title = str(item.get("title") or "")
+    title = re.sub(r"\[[^\]]*\]|【[^】]*】", "", title)
+    label = re.search(r"([A-Za-z][A-Za-z0-9.-]*(?:[ \t]+[A-Za-z][A-Za-z0-9.-]*)*)\s*[:：]", title)
+    if label and len(label.group(1).split()) <= 2 and label.group(1).lower() not in {"video", "paper", "paper sharing"}:
+        return label.group(1).strip()
     parts = [
         str(item.get("title") or ""),
         str(item.get("description") or ""),
     ]
-    tags = item.get("tags")
-    if isinstance(tags, list):
-        parts.extend(str(tag) for tag in tags)
-    text = " ".join(parts)
-    words = re.findall(r"[A-Za-z][A-Za-z0-9-]{2,}", text)
+    # Keep a contiguous English title; mixing Chinese-title acronyms and tags matches unrelated papers.
+    text = re.sub(r"\[[^\]]*\]|\([^)]*20\d{2}[^)]*\)", "", "\n".join(parts))
+    phrases = re.findall(r"[A-Za-z][A-Za-z0-9-]*(?:[ \t:,-]+[A-Za-z][A-Za-z0-9-]*){2,}", text)
     stop_words = {
         "and",
         "arxiv",
@@ -2152,17 +2323,12 @@ def _build_arxiv_query_from_bilibili_metadata(item: dict[str, object]) -> str | 
         "video",
         "with",
     }
-    kept: list[str] = []
-    seen: set[str] = set()
-    for word in words:
-        normalized = word.lower().strip("-")
-        if normalized in stop_words or normalized in seen:
-            continue
-        seen.add(normalized)
-        kept.append(word)
-        if len(kept) >= 8:
-            break
-    return " ".join(kept) if len(kept) >= 3 else None
+    for phrase in phrases:
+        words = re.findall(r"[A-Za-z][A-Za-z0-9-]{2,}", phrase)
+        kept = list(dict.fromkeys(word for word in words if word.lower() not in stop_words))
+        if len(kept) >= 3:
+            return " ".join(kept)
+    return None
 
 
 def _parse_arxiv_atom_candidates(atom: str, video_url: str, min_year: int) -> list[PaperCandidate]:

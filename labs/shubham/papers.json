@@ -1,0 +1,310 @@
+[
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:HtEfBTGE9r8C",
+    "pdf_path": "pdfs/2026-an-empirical-study-on-what-matters-for-viewpoint-generalizable-policies-in-visual-imitation-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.32762v1.pdf",
+    "title": "An Empirical Study on What Matters for Viewpoint-Generalizable Policies in Visual Imitation Learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:NXb4pA-qfm4C",
+    "pdf_path": "pdfs/2026-point4d-long-range-4d-motion-reconstruction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.09145v1.pdf",
+    "title": "Point4D: Long-range 4D Motion Reconstruction",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:9pM33mqn1YgC",
+    "pdf_path": "pdfs/2026-rayrope-projective-ray-positional-encoding-for-multi-view-attention.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.15275v3.pdf",
+    "title": "Rayrope: Projective ray positional encoding for multi-view attention",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:0izLItjtcgwC",
+    "pdf_path": "pdfs/2026-reactive-real-time-flow-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.26055.pdf",
+    "title": "Reactive Real-time Flow Policies",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:anf4URPfarAC",
+    "pdf_path": "pdfs/2026-lift4d-harmonizing-single-view-3d-estimation-for-4d-reconstruction-in-the-wild.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.23688v1.pdf",
+    "title": "Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:LO7wyVUgiFcC",
+    "pdf_path": "pdfs/2026-ghost-hierarchical-sub-goal-policies-for-generalizing-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.10025v1.pdf",
+    "title": "GHOST: Hierarchical Sub-Goal Policies for Generalizing Robot Manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:_axFR9aDTf0C",
+    "pdf_path": "pdfs/2026-demodiffusion-one-shot-human-imitation-using-pre-trained-diffusion-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.20668v3.pdf",
+    "title": "Demodiffusion: One-shot human imitation using pre-trained diffusion policy",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:FAceZFleit8C",
+    "pdf_path": "pdfs/2026-contact-guided-real2sim-from-monocular-video-with-planar-scene-primitives.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.14696v3.pdf",
+    "title": "Contact-guided real2sim from monocular video with planar scene primitives",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:edDO8Oi4QzsC",
+    "pdf_path": "pdfs/2026-predicting-4d-hand-trajectory-from-monocular-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.08329v1.pdf",
+    "title": "Predicting 4d hand trajectory from monocular videos",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:8d8msizDQcsC",
+    "pdf_path": "pdfs/2026-flow3r-factored-flow-prediction-for-scalable-visual-geometry-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.20157v1.pdf",
+    "title": "Flow3r: Factored flow prediction for scalable visual geometry learning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:_FM0Bhl9EiAC",
+    "pdf_path": "pdfs/2026-dex4d-task-agnostic-point-track-policy-for-sim-to-real-dexterous-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.15828v1.pdf",
+    "title": "Dex4d: Task-agnostic point track policy for sim-to-real dexterous manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:GtLg2Ama23sC",
+    "pdf_path": "pdfs/2026-editctrl-disentangled-local-and-global-control-for-real-time-generative-video-editing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.15031v2.pdf",
+    "title": "Editctrl: Disentangled local and global control for real-time generative video editing",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:bz8QjSJIRt4C",
+    "pdf_path": "pdfs/2026-e-rayzer-self-supervised-3d-reconstruction-as-spatial-visual-pre-training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.10950v2.pdf",
+    "title": "E-rayzer: Self-supervised 3d reconstruction as spatial visual pre-training",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:kh2fBNsKQNwC",
+    "pdf_path": "pdfs/2026-benchmarking-stereo-geometry-estimation-in-the-wild.pdf",
+    "pdf_url": "https://openaccess.thecvf.com/content/CVPR2026W/3DMV/papers/Tan_Benchmarking_Stereo_Geometry_Estimation_in_the_Wild_CVPRW_2026_paper.pdf",
+    "title": "Benchmarking Stereo Geometry Estimation in the Wild",
+    "year": 2026
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:rmuvC79q63oC",
+    "pdf_path": "pdfs/2025-lightswitch-multi-view-relighting-with-material-guided-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.06494v1.pdf",
+    "title": "Lightswitch: Multi-view relighting with material-guided diffusion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:Ri6SYOTghG4C",
+    "pdf_path": "pdfs/2025-temporal-score-rescaling-for-temperature-sampling-in-diffusion-and-flow-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.01184v2.pdf",
+    "title": "Temporal score rescaling for temperature sampling in diffusion and flow models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:5qfkUJPXOUwC",
+    "pdf_path": "pdfs/2025-uniphy-learning-a-unified-constitutive-model-for-inverse-physics-simulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.16971.pdf",
+    "title": "Uniphy: Learning a unified constitutive model for inverse physics simulation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:ClCfbGk0d_YC",
+    "pdf_path": "pdfs/2025-diffusionsfm-predicting-structure-and-motion-via-ray-origin-and-endpoint-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.05473v1.pdf",
+    "title": "Diffusionsfm: Predicting structure and motion via ray origin and endpoint diffusion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:FPJr55Dyh1AC",
+    "pdf_path": "pdfs/2025-aerialmegadepth-learning-aerial-ground-reconstruction-and-view-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.13157v1.pdf",
+    "title": "Aerialmegadepth: Learning aerial-ground reconstruction and view synthesis",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:XoXfffV-tXoC",
+    "pdf_path": "pdfs/2025-turbo3d-ultra-fast-text-to-3d-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.04470v1.pdf",
+    "title": "Turbo3d: Ultra-fast text-to-3d generation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:hCrLmN-GePgC",
+    "pdf_path": "pdfs/2025-web2grasp-learning-functional-grasps-from-web-images-of-hand-object-interactions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.05517v3.pdf",
+    "title": "Web2grasp: Learning functional grasps from web images of hand-object interactions",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:HbR8gkJAVGIC",
+    "pdf_path": "pdfs/2025-dressrecon-freeform-4d-human-reconstruction-from-monocular-video.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.20563v2.pdf",
+    "title": "Dressrecon: Freeform 4d human reconstruction from monocular video",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:PoWvk5oyLR8C",
+    "pdf_path": "pdfs/2025-materialfusion-enhancing-inverse-rendering-with-material-diffusion-priors.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.15273v2.pdf",
+    "title": "Materialfusion: Enhancing inverse rendering with material diffusion priors",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:0N-VGjzr574C",
+    "pdf_path": "pdfs/2025-accenture-nvs1-a-novel-view-synthesis-dataset.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.18711.pdf",
+    "title": "Accenture-nvs1: A novel view synthesis dataset",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:ruyezt5ZtCIC",
+    "pdf_path": "pdfs/2025-scenefactor-factored-latent-3d-diffusion-for-controllable-3d-scene-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.01801v2.pdf",
+    "title": "Scenefactor: Factored latent 3d diffusion for controllable 3d scene generation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:q3CdL3IzO_QC",
+    "pdf_path": "pdfs/2024-sparse-view-pose-estimation-and-reconstruction-via-analysis-by-generative-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.03570v1.pdf",
+    "title": "Sparse-view pose estimation and reconstruction via analysis by generative synthesis",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:oNZyr7d5Mn4C",
+    "pdf_path": "pdfs/2024-upfusion-novel-view-diffusion-from-unposed-sparse-view-observations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.06661v2.pdf",
+    "title": "Upfusion: Novel view diffusion from unposed sparse view observations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:Dip1O2bNi0gC",
+    "pdf_path": "pdfs/2024-gen2act-human-video-generation-in-novel-scenarios-enables-generalizable-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2409.16283v1.pdf",
+    "title": "Gen2act: Human video generation in novel scenarios enables generalizable robot manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:S16KYo8Pm5AC",
+    "pdf_path": "pdfs/2024-g-hop-generative-hand-object-prior-for-interaction-reconstruction-and-grasp-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.12383v1.pdf",
+    "title": "G-hop: Generative hand-object prior for interaction reconstruction and grasp synthesis",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:e_rmSamDkqQC",
+    "pdf_path": "pdfs/2024-mvd-fusion-single-view-3d-via-depth-consistent-multi-view-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.03656v1.pdf",
+    "title": "Mvd-fusion: Single-view 3d via depth-consistent multi-view generation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:k8Z6L05lTy4C",
+    "pdf_path": "pdfs/2024-towards-generalizable-zero-shot-manipulation-via-translating-human-interaction-plans.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.00775v1.pdf",
+    "title": "Towards generalizable zero-shot manipulation via translating human interaction plans",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:lmc2jWPfTJgC",
+    "pdf_path": "pdfs/2024-roboagent-generalization-and-efficiency-in-robot-manipulation-via-semantic-augmentations-and-action-chunking.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.01918v1.pdf",
+    "title": "Roboagent: Generalization and efficiency in robot manipulation via semantic augmentations and action chunking",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:b1wdh0AR-JQC",
+    "pdf_path": "pdfs/2024-relpose-recovering-6d-poses-from-sparse-view-observations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.04926v2.pdf",
+    "title": "Relpose++: Recovering 6d poses from sparse-view observations",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:SpbeaW3--B0C",
+    "pdf_path": "pdfs/2024-track2act-predicting-point-tracks-from-internet-videos-enables-generalizable-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.01527v2.pdf",
+    "title": "Track2Act: Predicting Point Tracks from Internet Videos enables Generalizable Robot Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:WZBGuue-350C",
+    "pdf_path": "pdfs/2023-cameras-as-rays-pose-estimation-via-ray-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2402.14817v3.pdf",
+    "title": "Cameras as Rays: Pose Estimation via Ray Diffusion",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:LI9QrySNdTsC",
+    "pdf_path": "pdfs/2023-diffusion-guided-reconstruction-of-everyday-hand-object-interaction-clips.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.05663v1.pdf",
+    "title": "Diffusion-guided reconstruction of everyday hand-object interaction clips",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:kuK5TVdYjLIC",
+    "pdf_path": "pdfs/2023-mesh2tex-generating-mesh-textures-from-image-queries.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.05868v1.pdf",
+    "title": "Mesh2tex: Generating mesh textures from image queries",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:L7CI7m0gUJcC",
+    "pdf_path": "pdfs/2023-sparsefusion-distilling-view-conditioned-diffusion-for-3d-reconstruction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2212.00792.pdf",
+    "title": "Sparsefusion: Distilling view-conditioned diffusion for 3d reconstruction",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:MLfJN-KU85MC",
+    "pdf_path": "pdfs/2023-visual-affordance-prediction-for-guiding-robot-exploration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2305.17783v1.pdf",
+    "title": "Visual affordance prediction for guiding robot exploration",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:hMsQuOkrut0C",
+    "pdf_path": "pdfs/2023-analogy-forming-transformers-for-few-shot-3d-parsing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.14382v2.pdf",
+    "title": "Analogy-forming transformers for few-shot 3d parsing",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:tYavs44e6CUC",
+    "pdf_path": "pdfs/2023-manipulate-by-seeing-creating-manipulation-controllers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.08135.pdf",
+    "title": "Manipulate by Seeing: Creating Manipulation Controllers",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:g3aElNc5_aQC",
+    "pdf_path": "pdfs/2023-zero-shot-robot-manipulation-from-passive-human-videos.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.02011v1.pdf",
+    "title": "Zero-shot robot manipulation from passive human videos",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:ILKRHgRFtOwC",
+    "pdf_path": "pdfs/2023-geometry-biased-transformers-for-novel-view-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2301.04650v1.pdf",
+    "title": "Geometry-biased transformers for novel view synthesis",
+    "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:gsN89kCJA0AC",
+    "pdf_path": "pdfs/2023-affordance-diffusion-synthesizing-hand-object-interactions.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.12538v3.pdf",
+    "title": "Affordance diffusion: Synthesizing hand-object interactions",
+    "year": 2023
+  }
+]
