@@ -257,5 +257,33 @@
     "pdf_url": "https://arxiv.org/pdf/2601.17428v1.pdf",
     "title": "Scaling Rough Terrain Locomotion with Automatic Curriculum Reinforcement Learning",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1RCiMeAEbh",
+    "pdf_path": "pdfs/2024-in-sight-interactive-navigation-through-sight.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.00343v2.pdf",
+    "title": "IN-Sight: Interactive Navigation through Sight",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1aaz9BBE9B",
+    "pdf_path": "pdfs/2025-uncertainty-aware-robotic-world-model-makes-offline-model-based-reinforcement-learning-work-on-real-robots.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.16680v3.pdf",
+    "title": "Uncertainty-Aware Robotic World Model Makes Offline Model-Based Reinforcement Learning Work on Real Robots",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV14QJCzKE5J",
+    "pdf_path": "pdfs/2026-pace-phase-aware-chunk-execution-for-robot-policies-with-action-chunking.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.00537v3.pdf",
+    "title": "PACE: Phase-Aware Chunk Execution for Robot Policies with Action Chunking",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1PhSuBoECQ",
+    "pdf_path": "pdfs/2026-representation-world-model.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.29171v1.pdf",
+    "title": "Representation World Model:",
+    "year": 2026
   }
 ]

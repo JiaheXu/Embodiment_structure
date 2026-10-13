@@ -1,0 +1,191 @@
+[
+  {
+    "page_url": "https://www.bilibili.com/video/BV1jgaD6nE4k",
+    "pdf_path": "pdfs/2024-chatdbg-augmenting-debugging-with-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.16354.pdf",
+    "title": "ChatDBG: Augmenting Debugging with Large Language Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1C3H765EJF",
+    "pdf_path": "pdfs/2023-enhancing-open-domain-task-solving-capability-of-llms-via-autonomous-tool-integration-from-github.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.17294v3.pdf",
+    "title": "Enhancing Open-Domain Task-Solving Capability of LLMs via Autonomous Tool Integration from GitHub",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV19tHi6LEV1",
+    "pdf_path": "pdfs/2024-collaborative-gym-a-framework-for-enabling-and-evaluating-human-agent-collaboration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2412.15701v6.pdf",
+    "title": "Collaborative Gym: A Framework for Enabling and Evaluating Human-Agent Collaboration",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1y3H765Eqb",
+    "pdf_path": "pdfs/2024-explorllm-guiding-exploration-in-reinforcement-learning-with-large-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.09583v4.pdf",
+    "title": "ExploRLLM: Guiding Exploration in Reinforcement Learning with Large Language Models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1TAH76DEHp",
+    "pdf_path": "pdfs/2025-agentswift-efficient-llm-agent-design-via-value-guided-hierarchical-search.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.06017v2.pdf",
+    "title": "AgentSwift: Efficient LLM Agent Design via Value-guided Hierarchical Search",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV12AH76SErG",
+    "pdf_path": "pdfs/2025-autoresttest-a-tool-for-automated-rest-api-testing-using-llms-and-marl.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.08600v2.pdf",
+    "title": "AutoRestTest: A Tool for Automated REST API Testing Using LLMs and MARL",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Gcak6sEW4",
+    "pdf_path": "pdfs/2025-end-to-end-optimization-of-llm-driven-multi-agent-search-systems-via-heterogeneous-group-based-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.02718v2.pdf",
+    "title": "End-to-End Optimization of LLM-Driven Multi-Agent Search Systems via Heterogeneous-Group-Based Reinforcement Learning",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1PZHJ6QEHM",
+    "pdf_path": "pdfs/2025-hips-hierarchical-pdf-segmentation-of-doctrinal-legal-books.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.00909v2.pdf",
+    "title": "HiPS: Hierarchical PDF Segmentation of Doctrinal Legal Books",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1nPHn62Em5",
+    "pdf_path": "pdfs/2025-lightmem-lightweight-and-efficient-memory-augmented-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.18866v4.pdf",
+    "title": "LightMem: Lightweight and Efficient Memory-Augmented Generation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1FCaD6ZEPo",
+    "pdf_path": "pdfs/2025-matchfixagent-language-agnostic-autonomous-repository-level-code-translation-validation-and-repair.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.16187v3.pdf",
+    "title": "MatchFixAgent: Language-Agnostic Autonomous Repository-Level Code Translation Validation and Repair",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1wMHi6FEsN",
+    "pdf_path": "pdfs/2025-mtsql-r1-towards-long-horizon-multi-turn-text-to-sql-via-agentic-training.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.12831v3.pdf",
+    "title": "MTSQL-R1: Towards Long-Horizon Multi-Turn Text-to-SQL via Agentic Training",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1wKHi6hEUd",
+    "pdf_path": "pdfs/2025-multi-agent-collaboration-via-evolving-orchestration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.19591v2.pdf",
+    "title": "Multi-Agent Collaboration via Evolving Orchestration",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV19tHi6LEGx",
+    "pdf_path": "pdfs/2025-non-collaborative-user-simulators-for-tool-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.23124v5.pdf",
+    "title": "Non-Collaborative User Simulators for Tool Agents",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1suHb6LEHq",
+    "pdf_path": "pdfs/2025-reducing-cost-of-llm-agents-with-trajectory-reduction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.23586v2.pdf",
+    "title": "Reducing Cost of LLM Agents with Trajectory Reduction",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV16vHt6BEoH",
+    "pdf_path": "pdfs/2026-attncompress-dynamic-attention-guided-trajectory-compression-for-software-engineering-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.08318v1.pdf",
+    "title": "AttnCompress: Dynamic Attention-Guided Trajectory Compression for Software Engineering Agents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1HgHi6ZEaV",
+    "pdf_path": "pdfs/2026-dagent-evaluate-then-grow-planning-for-deep-research-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.39154v1.pdf",
+    "title": "DAGent: Evaluate-then-Grow Planning for Deep Research Agents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1U9Hv6zEEf",
+    "pdf_path": "pdfs/2026-dr-mas-stable-reinforcement-learning-for-multi-agent-llm-systems.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.08847v2.pdf",
+    "title": "Dr. MAS: Stable Reinforcement Learning for Multi-Agent LLM Systems",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1igaD6nEVx",
+    "pdf_path": "pdfs/2026-effiholmes-differential-profiling-guided-repository-level-time-inefficiency-fix-localization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.03558v1.pdf",
+    "title": "EffiHolmes: Differential Profiling-Guided Repository Level Time Inefficiency Fix Localization",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV11bHt6kEL2",
+    "pdf_path": "pdfs/2026-fs-researcher-test-time-scaling-for-long-horizon-research-tasks-with-file-system-based-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.01566v2.pdf",
+    "title": "FS-Researcher: Test-Time Scaling for Long-Horizon Research Tasks with File-System-Based Agents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV18wH76HETd",
+    "pdf_path": "pdfs/2026-graphplanner-graph-memory-augmented-agentic-routing-for-multi-agent-llms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.23626v1.pdf",
+    "title": "GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1ncHn6UEQW",
+    "pdf_path": "pdfs/2026-hela-mem-hebbian-learning-and-associative-memory-for-llm-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.16839v1.pdf",
+    "title": "HeLa-Mem: Hebbian Learning and Associative Memory for LLM Agents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Ywak69EB5",
+    "pdf_path": "pdfs/2026-multifixer-a-coordinator-proposer-based-multi-agent-framework-for-fixing-multi-hunk-bugs.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.26591v1.pdf",
+    "title": "MultiFixer: A Coordinator-Proposer Based Multi-Agent Framework For Fixing Multi-Hunk Bugs",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1pFHn6JEW4",
+    "pdf_path": "pdfs/2026-ocr-memory-optical-context-retrieval-for-long-horizon-agent-memory.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.26622v1.pdf",
+    "title": "OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1oYak6aECx",
+    "pdf_path": "pdfs/2026-recodeagent-a-multi-agent-workflow-for-language-agnostic-translation-and-validation-of-large-scale-repositories.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.07341v4.pdf",
+    "title": "ReCodeAgent: A Multi-agent Workflow for Language-Agnostic Translation and Validation of Large-Scale Repositories",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1NFHi6vEhe",
+    "pdf_path": "pdfs/2026-se-ga-memory-augmented-self-evolution-for-gui-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.16883v1.pdf",
+    "title": "SE-GA: Memory-Augmented Self-Evolution for GUI Agents",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Vcak6sEcg",
+    "pdf_path": "pdfs/2026-tracedev-a-traceability-driven-multi-agent-framework-for-requirement-to-code-development.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.18886v1.pdf",
+    "title": "TraceDev: A Traceability-Driven Multi-agent Framework for Requirement-to-Code Development",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1y3H765EGH",
+    "pdf_path": "pdfs/2026-video2gui-synthesizing-large-scale-interaction-trajectories-for-generalized-gui-agent-pretraining.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.14747v1.pdf",
+    "title": "Video2GUI: Synthesizing Large-Scale Interaction Trajectories for Generalized GUI Agent Pretraining",
+    "year": 2026
+  }
+]

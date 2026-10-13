@@ -3,6 +3,8 @@ labs/*/pdfs/
 labs/*/summary/
 labs/*/summaries/
 labs/*/summary_json/
+labs/.summary_cache/
+labs/summarized_papers.json
 labs/*/failed.txt
 labs/knowledge_tree.html
 labs/knowledge_tree.json
@@ -18,3 +20,9 @@ labs/paper_rag_index.sqlite-*
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Robot literature assistant local state.
+.venv/
+config/robotlit.yaml
+data/robotlit/
+evals/*.report.json

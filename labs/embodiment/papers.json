@@ -19,5 +19,19 @@
     "pdf_url": "https://arxiv.org/pdf/2509.09674.pdf",
     "title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
     "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV17Jpg6SEvT",
+    "pdf_path": "pdfs/2025-cope-a-lightweight-complex-positional-encoding.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.18308v1.pdf",
+    "title": "CoPE: A Lightweight Complex Positional Encoding",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1ZJpg6UESi",
+    "pdf_path": "pdfs/2026-memory-attention.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.28399v1.pdf",
+    "title": "Memory Attention",
+    "year": 2026
   }
 ]

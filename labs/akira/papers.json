@@ -467,5 +467,12 @@
     "pdf_url": "https://arxiv.org/pdf/2610.10270v2.pdf",
     "title": "Video Prediction Policy 2:",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1JGHf6REHf",
+    "pdf_path": "pdfs/2023-meta-world-conditional-neural-processes.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2302.10320v1.pdf",
+    "title": "Meta-World Conditional Neural Processes",
+    "year": 2023
   }
 ]

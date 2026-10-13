@@ -83,16 +83,24 @@ Extractor modes:
   returns no papers.
 
 Bilibili channel links such as `https://space.bilibili.com/.../upload/video`
-are handled separately. The downloader uses `yt-dlp` to read recent video
-metadata, then asks the AI extractor to identify arXiv papers mentioned by the
+use the same local Chrome connection as Scholar when configured. The wrapper
+uses Chrome at `http://127.0.0.1:9222` by default. It waits for video cards to
+render and follows channel pagination up to the video limit, retaining the
+full card titles. Sign in to Bilibili in that Chrome profile. If uploads are
+hidden by login or verification, the tab stays open and the scanner waits for
+you to sign in, solve the check, and refresh, just as it does for Scholar.
+Full descriptions come from the public metadata API, with browser video pages
+as fallback. Without a Chrome connection, the Python CLI uses `yt-dlp`.
+The AI extractor then identifies arXiv papers mentioned by the
 videos. If an arXiv link or ID appears directly in the metadata, the static
 fallback can also pick it up. When a video still has no matched paper, the
 downloader searches arXiv with the video metadata before giving up; unresolved
 video URLs are appended to that lab's `failed.txt` for manual checking.
 The downloader reads each video's full title and description from Bilibili's
 public view API first, avoiding unnecessary playback-format requests and their
-412 retries. Per-video progress is printed as metadata arrives. yt-dlp is used
-as a fallback only if the view API fails. Metadata failures
+412 retries. Per-video progress is printed as metadata arrives. If the view API
+fails, the Chrome workflow reads the video page; the workflow without Chrome
+falls back to yt-dlp. Metadata failures
 are logged instead of silently discarding descriptions. arXiv searches use
 English title phrases and check result titles before accepting a match.
 Short names before a colon in video titles (such as `Steerable Policies`,
@@ -101,13 +109,19 @@ abstracts. The resolver prefers a matching named title or an abstract that
 introduces the method; ambiguous matches remain unresolved.
 Hybrid extraction continues with explicit arXiv links and title searches if
 the AI endpoint fails. Successful downloads clear their saved failure entries.
+For the local AI backend, a batch with no identified papers or explicit arXiv
+links gets a web-search lookup through `/responses`. The request uses full video
+context to disambiguate short names and excludes announcements without papers.
+Proxy errors and empty responses are reported as extraction failures.
 Papers with identified links download before optional title searches. Videos
 already represented in `papers.json` do not trigger another title search.
 All worker threads share a single arXiv API connection with at least three
 seconds between requests. Successful queries are reused within the run.
 HTTP 429 responses respect `Retry-After` (seconds or an HTTP date); without
-that header, retries wait 30 then 60 seconds. The cooldown also applies to
-the next query after retries are exhausted.
+that header, retries wait 30 then 60 seconds. If retries still exhaust with
+HTTP 429, new API searches are deferred for the rest of the run; cached results
+and downloads with known links remain available. Individual Bilibili arXiv
+requests have a maximum 30-second timeout, and resolving-video progress is logged.
 Videos about general news or discussions may have no identifiable paper;
 a video URL in `failed.txt` means paper identification failed, while a paper
 title means the PDF could not be downloaded.
@@ -157,12 +171,14 @@ can cause the AI model to return only newer papers;
 the static parser catches older BibTeX-backed entries from 2023 and 2024.
 It defaults to `--workers 1` to avoid rate limits when scanning all labs. Use
 `--workers N` or `DOWNLOAD_PAPER_WORKERS=N` to override it.
-For Google Scholar pages, the wrapper also attaches to Chrome at
+For Google Scholar and Bilibili pages, the wrapper attaches to Chrome at
 `http://127.0.0.1:9222` by default, so open Chrome first:
 
 ```bash
-google-chrome --remote-debugging-port=9222 --user-data-dir="$PWD/.x_chrome_profile" --profile-directory=Default
+google-chrome --remote-debugging-port=9222 --user-data-dir="$PWD/.x_chrome_profile" --profile-directory=Default &
 ./labs/download_paper.sh
+# Scan Bilibili channels using the same Chrome profile:
+./labs/download_paper.sh --bilibili-only
 ```
 
 Use `GOOGLE_SCHOLAR_CDP_URL=http://127.0.0.1:9223` if your Chrome DevTools port
@@ -184,6 +200,17 @@ DOWNLOAD_PAPER_TIMEOUT=3600 ./labs/download_paper.sh --dry-run
 
 After PDFs are downloaded, generate one Markdown summary per paper:
 
+The summarizer requests four concurrent workers shared across all selected labs.
+Use `--workers 1` for sequential processing or `--workers N` to adjust concurrency.
+For a local proxy, it reads `/health` at startup and caps workers to the reported
+available request slots. For example, three total slots with one occupied allow
+two summarizer workers. If capacity changes and the proxy returns HTTP 503,
+the request waits 30 seconds between retries, for up to the configured timeout
+(30 minutes by default), rather than exhausting four retries within seconds.
+Duplicate titles are coordinated so only one worker sends an AI request; other
+workers reuse its saved summary. Updates to the processed-paper list are serialized
+and written atomically. Actual speedup depends on the local proxy's capacity.
+
 ```bash
 ./labs/summarize_paper.sh --dry-run --lab 'airlab(basti)' --limit 1
 ./labs/summarize_paper.sh --lab 'airlab(basti)' --limit 1
@@ -202,12 +229,31 @@ labs/<lab_name(founder_name)>/summary/<year>-<paper-title>.md
 ```
 
 The summarizer reads `papers.json`, finds each paper's local `pdf_path`, then
-sends the raw PDF to the configured AI model so figures, charts, tables, and
-architecture diagrams can inform the summary. If the AI endpoint does not
-support raw PDF file parts, it falls back to `pdftotext` and sends extracted
-text. The summary follows the paper-share style: presentation-ready,
+uses `pdftotext` to send extracted paper text to the configured AI model by
+default. The local proxy at `http://127.0.0.1:8787/v1/chat/completions` silently
+drops PDF file parts, so raw PDF requests can produce summaries without source
+content. Text mode includes readable captions and tables but does not send figure
+images. Use `--source pdf` only with an endpoint that supports PDF file parts;
+request errors can trigger a fallback to extracted text. Use `--force` to
+regenerate existing summaries made without source content.
+Newly generated summaries are also saved in `labs/.summary_cache/<title-hash>.json`.
+The shared processed-paper list is `labs/summarized_papers.json`, mapping title
+hashes to normalized titles. It is loaded once at startup and saved atomically
+after each successful paper, so completed work survives interruption. Already
+summarized papers reuse their saved summaries without a local proxy request.
+If the list is missing or damaged, saved cache entries can restore it as papers
+are encountered. A missing or damaged summary is regenerated rather than skipped.
+The key is a SHA-256 hash of the title after Unicode, case, and whitespace
+normalization. Duplicate titles across labs and later runs reuse this local cache,
+while each lab receives its own Markdown and JSON files with its paper metadata.
+`--force` and `--all` refresh each unique title once per run, then reuse the fresh
+summary for duplicates. Existing summaries are not automatically imported into
+the cache; regenerate them to populate it. Identical titles share a summary even
+if the year or PDF differs. Delete a cache file or use `--force` to refresh it.
+The summary follows the paper-share style: presentation-ready,
 problem-first, and organized around:
 
+- Paper Summary (a fuller overview based primarily on the introduction)
 - TL;DR
 - Problem
 - Motivation
@@ -226,6 +272,7 @@ Useful options:
 
 ```bash
 ./labs/summarize_paper.sh --lab 'airlab(basti)' --limit 5
+./labs/summarize_paper.sh --workers 4
 ./labs/summarize_paper.sh --force --lab 'airlab(basti)'
 ./labs/summarize_paper.sh --all --lab 'airlab(basti)'
 ./labs/summarize_paper.sh --source text --lab 'airlab(basti)' --limit 1

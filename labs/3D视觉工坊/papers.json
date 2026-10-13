@@ -117,5 +117,12 @@
     "pdf_url": "https://arxiv.org/pdf/2607.28415v1.pdf",
     "title": "QQWorld: Quantile-Quantile Matching for World Model Regularization",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1vtpY6kEFh",
+    "pdf_path": "pdfs/2025-thinking-with-camera-a-unified-multimodal-model-for-camera-centric-understanding-and-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.08673.pdf",
+    "title": "Thinking with Camera: A Unified Multimodal Model for Camera-Centric Understanding and Generation",
+    "year": 2025
   }
 ]

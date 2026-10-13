@@ -26,5 +26,19 @@
     "pdf_url": "https://arxiv.org/pdf/2602.00923.pdf",
     "title": "SanD-Planner: Sample-Efficient Diffusion Planner in B-Spline Space for Robust Local Navigation",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1pS5i61ECq",
+    "pdf_path": "pdfs/2026-coco-inekf-state-estimation-with-learned-contact-covariances-in-dynamic-contact-rich-scenarios.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.15122v1.pdf",
+    "title": "CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1MoLr6gEfT",
+    "pdf_path": "pdfs/2026-viserdex-visual-sim-to-real-for-robust-dexterous-in-hand-reorientation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.11138v1.pdf",
+    "title": "ViserDex: Visual Sim-to-Real for Robust Dexterous In-hand Reorientation",
+    "year": 2026
   }
 ]
