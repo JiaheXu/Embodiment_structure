@@ -85,8 +85,9 @@ Extractor modes:
 Bilibili channel links such as `https://space.bilibili.com/.../upload/video`
 use the same local Chrome connection as Scholar when configured. The wrapper
 uses Chrome at `http://127.0.0.1:9222` by default. It waits for video cards to
-render and follows channel pagination up to the video limit, retaining the
-full card titles. Sign in to Bilibili in that Chrome profile. If uploads are
+render and reads only the videos shown at the supplied link, up to the video
+limit, retaining the full card titles. It does not advance to another page.
+Sign in to Bilibili in that Chrome profile. If uploads are
 hidden by login or verification, the tab stays open and the scanner waits for
 you to sign in, solve the check, and refresh, just as it does for Scholar.
 Full descriptions come from the public metadata API, with browser video pages
@@ -135,9 +136,9 @@ If upload listing remains blocked, channels with saved Bilibili URLs in
 `failed.txt` retry those videos through the public metadata API, up to the
 video limit. The log marks this as a partial scan: new uploads cannot be checked.
 Channels without saved video URLs still report a listing failure.
-By default, it reads up to 100 uploads. `yt-dlp` handles
-pagination across channel API pages; the browser's visible page size does not
-limit this scan. The downloader processes only entries returned by `yt-dlp`
+By default, the cap is 100 uploads; Chrome scans only the visible page even
+when it contains fewer videos. Without Chrome, `yt-dlp` handles
+pagination across channel API pages. The downloader processes only entries returned by `yt-dlp`
 and does not independently verify the channel's total upload count. Override the cap with:
 
 ```bash
@@ -236,6 +237,16 @@ content. Text mode includes readable captions and tables but does not send figur
 images. Use `--source pdf` only with an endpoint that supports PDF file parts;
 request errors can trigger a fallback to extracted text. Use `--force` to
 regenerate existing summaries made without source content.
+Text mode cuts off at the first recognized references, bibliography, appendix,
+or supplementary-material heading before whitespace normalization and the
+`--max-chars` limit. Extraction uses reading order to separate main-body columns
+from reference columns and recognizes spaced headings such as “R EFERENCES.”
+Inline mentions such as “see Appendix A” and table-of-contents
+entries do not trigger a cutoff. Papers without a recognized heading retain the
+existing character limit; there is no fixed nine-page cap. The prompt marks
+omitted sections as unavailable evidence. Raw `--source pdf` requests still send
+the full PDF. Existing summaries and cached summaries continue to be reused.
+
 Newly generated summaries are also saved in `labs/.summary_cache/<title-hash>.json`.
 The shared processed-paper list is `labs/summarized_papers.json`, mapping title
 hashes to normalized titles. It is loaded once at startup and saved atomically
@@ -282,6 +293,11 @@ SUMMARIZE_PAPER_TIMEOUT=3600 ./labs/summarize_paper.sh
 
 By default, existing summary files are skipped. Use `--force` or `--all` to
 regenerate summaries for papers that already have summary files.
+
+Each text-summary start log includes `chars: original -> sent`, where `sent`
+accounts for both back-matter removal and `--max-chars`. The completion log
+includes `elapsed: Ns` for extraction, AI processing, and saving the summary.
+Cache reuse is labeled `source: cache` and does not extract the PDF for counts.
 
 ## RAG Index
 

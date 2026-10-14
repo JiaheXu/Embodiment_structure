@@ -381,7 +381,7 @@
     "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:TY5xIG7f_2sC",
     "pdf_path": "pdfs/2024-the-teenager-s-problem-efficient-garment-decluttering-as-probabilistic-set-cover.pdf",
     "pdf_url": "https://arxiv.org/pdf/2310.16951v3.pdf",
-    "title": "The Teenager\u2019s Problem: Efficient Garment Decluttering as Probabilistic Set Cover",
+    "title": "The Teenager’s Problem: Efficient Garment Decluttering as Probabilistic Set Cover",
     "year": 2024
   },
   {
@@ -540,9 +540,10 @@
   },
   {
     "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:Y0RG-0fxPaAC",
+    "paper_title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
     "pdf_path": "pdfs/2023-open-x-embodiment-robotic-learning-datasets-and-rt-x-models.pdf",
     "pdf_url": "https://arxiv.org/pdf/2310.08864v9.pdf",
-    "title": "Open x-embodiment: Robotic learning datasets and rt-x models",
+    "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
     "year": 2023
   }
 ]

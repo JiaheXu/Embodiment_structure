@@ -189,3 +189,17 @@ def test_single_worker_continues_after_failed_paper(tmp_path):
     assert not summarizer.paper_summary_path(first, failed).exists()
     assert "Successful overview." in summarizer.paper_summary_path(second, successful).read_text()
     assert list(json.loads((tmp_path / "summarized_papers.json").read_text()).values()) == ["successful paper"]
+
+
+def test_canonical_paper_title_preserves_existing_summary_paths(tmp_path):
+    lab, paper = make_lab(tmp_path, 'video', 'Video caption')
+    old_md = summarizer.paper_summary_path(lab, paper)
+    old_json = summarizer.paper_summary_json_path(lab, paper)
+    paper.update(paper_title='GR00T N1: An Open Foundation Model for Generalist Humanoid Robots',
+                 summary_path=str(old_md.relative_to(lab)), summary_json_path=str(old_json.relative_to(lab)))
+    (lab/'papers.json').write_text(json.dumps([paper]))
+    loaded = summarizer.load_papers(lab)[0]
+    assert loaded['title'] == paper['paper_title']
+    assert summarizer.normalized_paper_title(paper) == paper['paper_title'].casefold()
+    assert summarizer.paper_summary_path(lab, loaded) == old_md
+    assert summarizer.paper_summary_json_path(lab, loaded) == old_json

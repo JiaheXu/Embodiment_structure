@@ -33,5 +33,12 @@
     "pdf_url": "https://arxiv.org/pdf/2609.28399v1.pdf",
     "title": "Memory Attention",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1MQpz6nEYi",
+    "pdf_path": "pdfs/2026-deep-kernel-hedging.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.34474v1.pdf",
+    "title": "Deep kernel hedging",
+    "year": 2026
   }
 ]

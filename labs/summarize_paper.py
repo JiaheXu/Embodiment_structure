@@ -5,6 +5,7 @@ import base64
 import hashlib
 import json
 import os
+import re
 import ssl
 import subprocess
 import sys
@@ -50,23 +51,32 @@ def load_papers(lab_dir: Path) -> list[dict[str, object]]:
     if not manifest.exists():
         return []
     data = json.loads(manifest.read_text())
-    return data if isinstance(data, list) else []
+    if not isinstance(data, list):
+        return []
+    for paper in data:
+        if paper.get("paper_title"):
+            paper["title"] = paper["paper_title"]
+    return data
 
 
 def paper_summary_path(lab_dir: Path, paper: dict[str, object]) -> Path:
+    if paper.get("summary_path"):
+        return lab_dir / str(paper["summary_path"])
     year = str(paper.get("year", "unknown"))
     title = str(paper.get("title", "paper"))
     return lab_dir / SUMMARY_DIR_NAME / f"{year}-{safe_filename(title)}.md"
 
 
 def paper_summary_json_path(lab_dir: Path, paper: dict[str, object]) -> Path:
+    if paper.get("summary_json_path"):
+        return lab_dir / str(paper["summary_json_path"])
     year = str(paper.get("year", "unknown"))
     title = str(paper.get("title", "paper"))
     return lab_dir / SUMMARY_JSON_DIR_NAME / f"{year}-{safe_filename(title)}.json"
 
 
 def normalized_paper_title(paper: dict[str, object]) -> str:
-    return " ".join(unicodedata.normalize("NFKC", str(paper.get("title") or "")).casefold().split())
+    return " ".join(unicodedata.normalize("NFKC", str(paper.get("paper_title") or paper.get("title") or "")).casefold().split())
 
 
 def paper_summary_cache_path(lab_dir: Path, paper: dict[str, object]) -> Path | None:
@@ -136,15 +146,47 @@ def select_papers_to_summarize(
     return sorted(selected, key=lambda paper: paper_summary_path(lab_dir, paper).name.casefold())
 
 
+BACK_MATTER_HEADING = re.compile(
+    r"^(?:(?:\d+(?:\.\d+)*|[IVXLCDM]+|[A-Z])[.)]?\s+)?"
+    r"(?:r\s*e\s*f\s*e\s*r\s*e\s*n\s*c\s*e\s*s|bibliography|works cited|"
+    r"append(?:ix|ices)(?:\s+[A-Z](?:\.\d+)*)?|"
+    r"supplement(?:ary|al)\s+(?:material|information|appendix))"
+    r"(?:\s*[:\u2014\u2013-](?:\s+.*)?|\.\s+.+)?$",
+    re.IGNORECASE,
+)
+
+
+def trim_back_matter(text: str) -> str:
+    offset = 0
+    for line in text.splitlines(keepends=True):
+        stripped = line.strip()
+        # Layout output can put a heading beside the other column's citations.
+        columns = re.split(r" {3,}|\t+", stripped, maxsplit=1)
+        contents_entry = re.search(r"(?:\.{2,}|\u2026)\s*\d+\s*$", stripped) or (
+            len(columns) == 2 and re.fullmatch(r"[.\s\u2026]*\d+", columns[1])
+        )
+        if not contents_entry and any(BACK_MATTER_HEADING.fullmatch(candidate) for candidate in (stripped, columns[0])):
+            return text[:offset]
+        offset += len(line)
+    return text
+
+
 def extract_pdf_text(pdf_path: Path, max_chars: int = DEFAULT_MAX_CHARS) -> str:
+    return extract_pdf_text_with_stats(pdf_path, max_chars)[0]
+
+
+def extract_pdf_text_with_stats(pdf_path: Path, max_chars: int = DEFAULT_MAX_CHARS) -> tuple[str, int]:
     result = subprocess.run(
-        ["pdftotext", "-layout", "-enc", "UTF-8", str(pdf_path), "-"],
+        # Reading order keeps main-body columns ahead of the references column.
+        ["pdftotext", "-enc", "UTF-8", str(pdf_path), "-"],
         check=True,
         capture_output=True,
         text=True,
     )
-    text = " ".join(result.stdout.split())
-    return text[:max_chars]
+    main_text = trim_back_matter(result.stdout)
+    text = " ".join(main_text.split())
+    original_chars = len(" ".join(result.stdout.split()))
+    return text[:max_chars], original_chars
 
 
 def _summary_json_schema_prompt(missing_phrase: str) -> str:
@@ -331,6 +373,9 @@ Paper metadata:
 - Paper URL: {pdf_url}
 - Page URL: {page_url}
 
+The supplied text may omit references, appendices, and supplementary sections.
+Do not infer details from omitted material; mark unsupported fields as unclear.
+
 Extracted paper text:
 {paper_text}
 """.strip()
@@ -514,7 +559,9 @@ def summarize_paper(
 ) -> Path | None:
     summary_path = paper_summary_path(lab_dir, paper)
     pdf_path = lab_dir / str(paper.get("pdf_path", ""))
+    start_log = f"[summary:paper] start: {lab_dir.name}: {paper.get('title', 'Unknown title')}"
     if dry_run:
+        print(f"{start_log} | source: dry-run", flush=True)
         print(f"[dry-run] summarize {paper.get('title')} -> {summary_path}")
         return summary_path
 
@@ -524,6 +571,7 @@ def summarize_paper(
     already_processed = cache_path is not None and processed_papers.get(cache_path.stem) == normalized_paper_title(paper)
     cached_summary = load_cached_summary(cache_path, paper) if cache_path is not None and not refresh_cache else None
     if cached_summary is not None:
+        print(f"{start_log} | source: cache", flush=True)
         print(f"[summary:cache] already summarized; reuse without AI request: {paper.get('title')}")
         raw_summary = json.dumps(cached_summary, ensure_ascii=False)
     else:
@@ -531,15 +579,16 @@ def summarize_paper(
             print(f"[summary:registry] saved summary missing or damaged; regenerate: {paper.get('title')}")
         raw_summary = None
     if raw_summary is None and source == "pdf":
+        print(f"{start_log} | source: pdf", flush=True)
         try:
             raw_summary = summarize_pdf_with_ai(paper, pdf_path, timeout=timeout)
         except (HTTPError, URLError, TimeoutError, RuntimeError) as exc:
             if is_retryable_network_error(exc):
                 raise
             print(f"[summary:fallback] raw PDF summary failed for {paper.get('title')}: {exc}", file=sys.stderr)
-            raw_summary = summarize_paper_from_text(paper, pdf_path, timeout=timeout, max_chars=max_chars)
+            raw_summary = summarize_paper_from_text(paper, pdf_path, timeout=timeout, max_chars=max_chars, lab_name=lab_dir.name)
     elif raw_summary is None:
-        raw_summary = summarize_paper_from_text(paper, pdf_path, timeout=timeout, max_chars=max_chars)
+        raw_summary = summarize_paper_from_text(paper, pdf_path, timeout=timeout, max_chars=max_chars, lab_name=lab_dir.name)
     summary_data = parse_summary_json_response(raw_summary)
     if not summary_data:
         raise RuntimeError("AI returned no usable summary JSON; paper was not marked as processed")
@@ -558,10 +607,13 @@ def summarize_paper(
     return summary_path
 
 
-def summarize_paper_from_text(paper: dict[str, object], pdf_path: Path, timeout: int, max_chars: int) -> str:
-    text = extract_pdf_text(pdf_path, max_chars=max_chars)
+def summarize_paper_from_text(paper: dict[str, object], pdf_path: Path, timeout: int, max_chars: int, *, lab_name: str | None = None) -> str:
+    text, original_chars = extract_pdf_text_with_stats(pdf_path, max_chars=max_chars)
     if not text.strip():
         raise RuntimeError(f"no text extracted from {pdf_path}")
+    if lab_name is None:
+        lab_name = (pdf_path.parent.parent.name if pdf_path.parent.name == "pdfs" else pdf_path.parent.name) or "unknown"
+    print(f"[summary:paper] start: {lab_name}: {paper.get('title', 'Unknown title')} | chars: {original_chars} -> {len(text)}", flush=True)
     prompt = build_summary_prompt(paper, text)
     return summarize_with_ai(prompt, timeout=timeout)
 
@@ -717,7 +769,7 @@ def run_summary_jobs(
         title = str(paper.get("title", "Unknown title"))
         cache_path = paper_summary_cache_path(lab_dir, paper)
         with title_locks[cache_path or paper_summary_path(lab_dir, paper)]:
-            print(f"[summary:paper] start: {lab_dir.name}: {title}")
+            started_at = time.monotonic()
             try:
                 output_path = summarize_paper(
                     lab_dir,
@@ -735,7 +787,8 @@ def run_summary_jobs(
                 return False
             if not dry_run and cache_path is not None:
                 refreshed_titles.add(cache_path)
-            print(f"[summary:paper] done: {output_path}")
+            elapsed = time.monotonic() - started_at
+            print(f"[summary:paper] done: {output_path} | elapsed: {elapsed:.1f}s", flush=True)
             return True
 
     done: dict[Path, int] = {}

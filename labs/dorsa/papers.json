@@ -386,9 +386,10 @@
   },
   {
     "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:ipzZ9siozwsC",
+    "paper_title": "OpenVLA: An Open-Source Vision-Language-Action Model",
     "pdf_path": "pdfs/2024-openvla-an-open-source-vision-language-action-model.pdf",
     "pdf_url": "https://arxiv.org/pdf/2406.09246v3.pdf",
-    "title": "Openvla: An open-source vision-language-action model",
+    "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
     "year": 2024
   },
   {
@@ -407,9 +408,10 @@
   },
   {
     "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:7T2F9Uy0os0C",
+    "paper_title": "Octo: An Open-Source Generalist Robot Policy",
     "pdf_path": "pdfs/2024-octo-an-open-source-generalist-robot-policy.pdf",
     "pdf_url": "https://arxiv.org/pdf/2405.12213v2.pdf",
-    "title": "Octo: An open-source generalist robot policy",
+    "title": "Octo: An Open-Source Generalist Robot Policy",
     "year": 2024
   },
   {
@@ -575,9 +577,10 @@
   },
   {
     "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:dQ2og3OwTAUC",
+    "paper_title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
     "pdf_path": "pdfs/2023-open-x-embodiment-robotic-learning-datasets-and-rt-x-models.pdf",
     "pdf_url": "https://arxiv.org/pdf/2310.08864v9.pdf",
-    "title": "Open x-embodiment: Robotic learning datasets and rt-x models",
+    "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
     "year": 2023
   },
   {

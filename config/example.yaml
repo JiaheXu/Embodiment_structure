@@ -1,0 +1,19 @@
+# Run `robotlit --config config/example.yaml ...` for the local pilot.
+source_roots:
+  papers: labs
+data_dir: data/robotlit
+database_url: sqlite:///data/robotlit/catalog.sqlite
+parser: native # native text only; install models extra and select docling for OCR/tables
+retrieval: lexical # install models extra and select bge after pinning revisions
+embedding_model: BAAI/bge-m3
+embedding_revision: null # immutable 40-character HF commit, required for bge
+reranker_model: BAAI/bge-reranker-v2-m3
+reranker_revision: null
+device: cpu
+document_timeout_seconds: 900
+lease_seconds: 600
+max_job_attempts: 3
+cloud_enabled: false
+llm_base_url: null # e.g. your existing compatible proxy's /v1 endpoint
+llm_model: null
+llm_api_key_env: ROBOTLIT_LLM_API_KEY

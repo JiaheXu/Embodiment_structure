@@ -5,3 +5,7 @@ python3 labs/download_paper.py \
   --lab homanga \
   --min-year 2023 \
   --timeout 120
+  
+google-chrome --remote-debugging-port=9222 --user-data-dir="$PWD/.x_chrome_profile" --profile-directory=Default
+
+./labs/download_paper.sh --bilibili-only

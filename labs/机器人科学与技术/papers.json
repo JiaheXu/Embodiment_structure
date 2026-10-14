@@ -1,0 +1,219 @@
+[
+  {
+    "page_url": "https://www.bilibili.com/video/BV1j1ub6qECD",
+    "pdf_path": "pdfs/2023-extreme-parkour-2024-cmu.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.14341.pdf",
+    "title": "Extreme Parkour\uff1a\u8ba9\u56db\u8db3\u673a\u5668\u4eba\u5b66\u4f1a\u6781\u9650\u8dd1\u9177\uff5c2024\u3010CMU\u3011",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1DT8u6WEiY",
+    "pdf_path": "pdfs/2025-holistic-fusion-2026-t-ro-eth-z-rich.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.06479.pdf",
+    "title": "Holistic Fusion\uff1a\u4e00\u4e2a\u5f00\u6e90\u6846\u67b6\u878d\u5408\u591a\u4f20\u611f\u5668\uff0c\u5b9e\u73b0\u8de8\u4efb\u52a1\u673a\u5668\u4eba\u5b9a\u4f4d\u4e0e\u72b6\u6001\u4f30\u8ba1\uff5c2026 T-RO\u3010ETH Z\u00fcrich\u3011",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV12w8v6XESA",
+    "pdf_path": "pdfs/2025-raptor-2026-uc-berkeley.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.11481.pdf",
+    "title": "RAPTOR\uff1a\u4e00\u4e2a\u7b56\u7565\u63a7\u5236\u4e0d\u540c\u56db\u65cb\u7ffc\uff0c\u65e0\u9700\u91cd\u65b0\u8bad\u7ec3\uff5c2026\u3010UC Berkeley\u3011",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1tD8T6jED3",
+    "pdf_path": "pdfs/2026-2026-iros-jsk.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.17320.pdf",
+    "title": "\u53cc\u81c2\u673a\u5668\u4eba\u4e5f\u80fd\u50cf\u733f\u7334\u4e00\u6837\u201c\u8361\u5355\u6760\u201d\uff1a\u5f3a\u5316\u5b66\u4e60\u5b9e\u73b0\u7a33\u5065\u81c2\u884c\uff5c2026 IROS\u3010\u4e1c\u4eac\u5927\u5b66 JSK\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV18UeF6uEL1",
+    "pdf_path": "pdfs/2026-2026-ra-l-eth-zurich-nvidia.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.28140.pdf",
+    "title": "\u63a5\u89e6\u5f15\u5bfc\u63a2\u7d22\uff1a\u56db\u8db3\u673a\u5668\u4eba\u5b66\u4f1a\u63a8\u3001\u62c9\u4e0e\u642c\u8fd0\u5927\u578b\u7269\u4f53\uff5c2026 RA-L\u3010\u6bd4\u8428\u5927\u5b66 \u00d7 ETH Zurich \u00d7 NVIDIA\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1getR62EYi",
+    "pdf_path": "pdfs/2026-2026.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.29769.pdf",
+    "title": "\u7a00\u758f\u4e09\u7ef4\u73af\u5883\u4e2d\u7684\u4eba\u5f62\u673a\u5668\u4eba\u611f\u77e5\u9a71\u52a8\u654f\u6377\u8fd0\u52a8\u63a7\u5236\uff5c2026\u3010\u82cf\u9ece\u4e16\u8054\u90a6\u7406\u5de5\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1uLpR6cECz",
+    "pdf_path": "pdfs/2026-all-you-need-is-low-fidelity-2026.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.36993.pdf",
+    "title": "All You Need Is Low Fidelity\uff1a\u4f4e\u4fdd\u771f\u4eff\u771f\u5b9e\u73b0\u673a\u5668\u9c7c\u63a7\u5236\u7b56\u7565\u7684\u96f6\u6837\u672c\u771f\u5b9e\u8fc1\u79fb\uff5c2026\u3010\u82cf\u9ece\u4e16\u8054\u90a6\u7406\u5de5\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1GfYs61E9f",
+    "pdf_path": "pdfs/2026-ame-2-2026.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.08485.pdf",
+    "title": "AME-2\uff1a\u57fa\u4e8e\u6ce8\u610f\u529b\u795e\u7ecf\u5730\u56fe\u7684\u654f\u6377\u6cdb\u5316\u8db3\u5f0f\u8fd0\u52a8\uff5c2026\u3010\u82cf\u9ece\u4e16\u8054\u90a6\u7406\u5de5\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1h7HD6JEcY",
+    "pdf_path": "pdfs/2026-draft-2026-mit.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.38405.pdf",
+    "title": "Draft\uff1a\u6539\u53c2\u6570\u5c31\u80fd\u751f\u6210\u673a\u5668\u4eba\uff0c\u63a2\u7d22\u5f62\u6001\u4e0e\u63a7\u5236\u534f\u540c\u8bbe\u8ba1\uff5c2026\u3010MIT\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1RRu96qE5j",
+    "pdf_path": "pdfs/2026-farm-2026-uc-berkeley-stanford.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.15476.pdf",
+    "title": "FARM\uff1a\u57fa\u4e8e\u5173\u7cfb\u7a7a\u95f4\u8bb0\u5fc6\u7684\u5f00\u653e\u8bcd\u6c47\u673a\u5668\u4eba\u76ee\u6807\u641c\u7d22\uff5c2026\u3010UC Berkeley \u00d7 Stanford\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Zvad6BEb1",
+    "pdf_path": "pdfs/2026-gm-loco-2026-georgia-tech.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.10286.pdf",
+    "title": "GM-Loco\uff1a\u8ba9\u4eba\u5f62\u673a\u5668\u4eba\u5728\u6c99\u5730\u7b49\u9897\u7c92\u5730\u5f62\u4e0a\u81ea\u9002\u5e94\u884c\u8d70\u3001\u5954\u8dd1\u4e0e\u8df3\u8dc3\uff5c2026\u3010Georgia Tech\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV19DKJ6hEP1",
+    "pdf_path": "pdfs/2026-gpc-2026-nvidia.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.29148.pdf",
+    "title": "\u8ba9\u673a\u5668\u4eba\u50cf\u8bed\u8a00\u6a21\u578b\u4e00\u6837\u5b66\u4e60\u8fd0\u52a8\uff1aGPC\u751f\u6210\u5f0f\u8fd0\u52a8\u57fa\u5ea7\u6a21\u578b\uff5c2026\u3010NVIDIA\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1jkMn6CEHE",
+    "pdf_path": "pdfs/2026-graph-as-policy-2026-berkeley-nvidia.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.05369.pdf",
+    "title": "Graph-as-Policy\uff1a\u591a\u667a\u80fd\u4f53\u751f\u6210\u673a\u5668\u4eba\u7b56\u7565\u56fe\uff0c\u5b9e\u73b0\u53ef\u81ea\u5b66\u4e60\u5de5\u4e1a\u81ea\u52a8\u5316\uff5c2026\u3010Berkeley \u00d7 NVIDIA\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1a2ad6cEoi",
+    "pdf_path": "pdfs/2026-hoi-retarget-2026-eth.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.34674.pdf",
+    "title": "\u4e0d\u53ea\u6a21\u4eff\u52a8\u4f5c\uff0c\u66f4\u8981\u4fdd\u6301\u63a5\u89e6\uff1aHOI-Retarget \u4eba\u5f62\u673a\u5668\u4eba\u52a8\u4f5c\u91cd\u5b9a\u5411\uff5c2026\u3010ETH\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1i94k6nEQ3",
+    "pdf_path": "pdfs/2026-humanoid-touch-dream-2026-cmu-bosch.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.13015.pdf",
+    "title": "Humanoid Touch Dream\uff1a\u8ba9\u4eba\u5f62\u673a\u5668\u4eba\u201c\u9884\u89c1\u89e6\u89c9\u201d\uff0c\u5b66\u4e60\u9ad8\u7cbe\u5ea6\u5168\u8eab\u7075\u5de7\u64cd\u4f5c\uff5c2026\u3010CMU \u00d7 Bosch\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1N9pq63EHH",
+    "pdf_path": "pdfs/2026-kamino-gpu-2026-corl-nvidia.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.16536.pdf",
+    "title": "Kamino\uff1a\u539f\u751f\u652f\u6301\u95ed\u94fe\u673a\u6784\u7684GPU\u5e76\u884c\u7269\u7406\u4eff\u771f\u5e73\u53f0\uff5c2026 CoRL\u3010\u8fea\u58eb\u5c3c \u00d7 NVIDIA\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV18A3c6JEC8",
+    "pdf_path": "pdfs/2026-ladderman-2026-amazon.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.05873.pdf",
+    "title": "LadderMan\uff1a\u4eba\u5f62\u673a\u5668\u4eba\u81ea\u4e3b\u6500\u722c\u68af\u5b50\u4e0e\u9ad8\u7a7a\u4f5c\u4e1a\uff5c2026\u3010Amazon\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1vPu46oETm",
+    "pdf_path": "pdfs/2026-pac-man-2026-caltech.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.28623.pdf",
+    "title": "PAC-MAN\uff1a\u8ba9\u4eba\u5f62\u673a\u5668\u4eba\u5b66\u4f1a\u201c\u8eb2\u7403\u201d\uff5c2026\u3010Caltech\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Zyub6MEMq",
+    "pdf_path": "pdfs/2026-polylayout-ai-2026-eth.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.03323.pdf",
+    "title": "PolyLayout\uff1a\u8ba9AI\u7406\u89e3\u6574\u4e2a\u5efa\u7b51\u7a7a\u95f4\u7684\u591a\u623f\u95f4\u4e09\u7ef4\u5e03\u5c40\uff5c2026\u3010ETH\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1tAKn6WEE2",
+    "pdf_path": "pdfs/2026-prioreye-2026-oxford.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.18398.pdf",
+    "title": "PriorEye\uff1a\u5229\u7528\u5730\u7406\u7a7a\u95f4\u89c6\u89c9\u5148\u9a8c\u63d0\u5347\u7aef\u5230\u7aef\u81ea\u52a8\u9a7e\u9a76\uff5c2026\u3010Oxford\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1s1gC6ZELD",
+    "pdf_path": "pdfs/2026-scan-planner-2026.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.19555.pdf",
+    "title": "\u3010\u5f00\u6e90\u3011SCAN-Planner\uff1a\u9762\u5411\u957f\u8ddd\u79bb\u56db\u8db3\u673a\u5668\u4eba\u5bfc\u822a\u7684\u7a7a\u95f4\u78b0\u649e\u611f\u77e5\u5c40\u90e8\u89c4\u5212\u5668\uff5c2026\u3010\u4e0a\u6d77\u4ea4\u901a\u5927\u5b66\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Mip96ZEtz",
+    "pdf_path": "pdfs/2026-simple-models-real-swimming-2026-icra-eth-zurich-epfl-n.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.23283.pdf",
+    "title": "Simple Models, Real Swimming\uff1a\u4ec5\u7528\u4e24\u6761\u771f\u5b9e\u8f68\u8ff9\u6784\u5efa\u4eff\u751f\u673a\u5668\u9c7c\u6570\u5b57\u5b6a\u751f\uff5c2026 ICRA\u3010ETH Zurich \u00d7 EPFL \u00d7 N",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1d78J64E7A",
+    "pdf_path": "pdfs/2026-transformer-transformer-2026-stanford.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.25798.pdf",
+    "title": "Transformer Transformer\uff1a\u8f93\u5165\u4efb\u52a1\u52a8\u4f5c\uff0c\u76f4\u63a5\u201c\u751f\u6210\u201d\u6700\u5408\u9002\u7684\u673a\u5668\u4eba\uff5c2026\u3010Stanford\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1rz3C6RENj",
+    "pdf_path": "pdfs/2026-tripody-2026-eth-z-rich.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.25781.pdf",
+    "title": "Tripody\uff1a\u9762\u5411\u9ad8\u7a7a\u65bd\u5de5\u4efb\u52a1\u7684\u9ad8\u521a\u5ea6\u4e09\u81ea\u7531\u5ea6\u5e76\u8054\u673a\u5668\u4eba\uff5c2026\u3010ETH Z\u00fcrich\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1ZjYM6uEtn",
+    "pdf_path": "pdfs/2026-vibe-2026-usc.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.09918.pdf",
+    "title": "ViBe\uff1a\u8ba9\u4eba\u5f62\u673a\u5668\u4eba\u201c\u770b\u89c1\u73af\u5883\u201d\u7684\u89c6\u89c9\u611f\u77e5\u5168\u8eab\u63a7\u5236\uff5c2026\u3010\u5357\u52a0\u5dde\u5927\u5b66 USC\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1ng3B6gEDq",
+    "pdf_path": "pdfs/2026-warl-2026-iros-jsk.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.24036.pdf",
+    "title": "WARL\uff1a\u7528\u201c\u865a\u62df\u529b\u201d\u589e\u5f3a\u63a2\u7d22\uff0c\u5b9e\u73b0\u8db3\u5f0f\u673a\u5668\u4eba\u4efb\u52a1\u65e0\u5173\u8fd0\u52a8\u5b66\u4e60\uff5c2026 IROS\u3010\u4e1c\u4eac\u5927\u5b66 JSK\u3011",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Pj4C6vEvX",
+    "pdf_path": "pdfs/2025-beyondmimic-from-motion-tracking-to-versatile-humanoid-control-via-guided-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.08241v4.pdf",
+    "title": "BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1dYhe6iE7p",
+    "pdf_path": "pdfs/2026-athenazero-a-low-inertia-bimanual-robot-for-dynamic-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.19194v1.pdf",
+    "title": "AthenaZero: A low-inertia, bimanual robot for dynamic manipulation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1CbaZ6nE8W",
+    "pdf_path": "pdfs/2026-delta-deformable-elevation-based-local-terrain-attention-encoder-for-sparse-terrain-quadrupedal-locomotion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.22033v1.pdf",
+    "title": "DELTA: Deformable Elevation-Based Local Terrain Attention Encoder for Sparse-Terrain Quadrupedal Locomotion",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Asgk6pEmP",
+    "pdf_path": "pdfs/2026-neuralactuator-neural-actuation-modeling-for-robot-dynamics-and-external-force-perception.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.11734v2.pdf",
+    "title": "NeuralActuator: Neural Actuation Modeling for Robot Dynamics and External Force Perception",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV19yad6aEw9",
+    "pdf_path": "pdfs/2026-scaling-rough-terrain-locomotion-with-automatic-curriculum-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.17428v1.pdf",
+    "title": "Scaling Rough Terrain Locomotion with Automatic Curriculum Reinforcement Learning",
+    "year": 2026
+  }
+]

@@ -3,7 +3,7 @@
     "page_url": "https://www.bilibili.com/video/BV13St66uE3V",
     "pdf_path": "pdfs/2026-complex-monge-amp-re-equations-with-boundary-values-a-variational-approach.pdf",
     "pdf_url": "https://arxiv.org/pdf/2610.13478v1.pdf",
-    "title": "Complex Monge-Amp{\u00e8}re equations with boundary values: a variational approach",
+    "title": "Complex Monge-Amp{è}re equations with boundary values: a variational approach",
     "year": 2026
   },
   {
@@ -124,5 +124,44 @@
     "pdf_url": "https://arxiv.org/pdf/2510.08673.pdf",
     "title": "Thinking with Camera: A Unified Multimodal Model for Camera-Centric Understanding and Generation",
     "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1nhji61Etp",
+    "paper_title": "PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image",
+    "pdf_path": "pdfs/2025-cvpr-26-physx-anything-3d.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.13648.pdf",
+    "summary_json_path": "summary_json/2025-cvpr-26-physx-anything-3d.json",
+    "summary_path": "summary/2025-cvpr-26-physx-anything-3d.md",
+    "title": "PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image",
+    "video_title": "CVPR'26开源 | PhysX-Anything：首个仿真就绪的物理3D生成框架",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1H8ji67Eir",
+    "pdf_path": "pdfs/2026-cvpr2026-dualprim.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.16133.pdf",
+    "title": "CVPR2026 | DualPrim：基于正负双基元的紧凑结构化三维重建",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1YAMt6WEha",
+    "pdf_path": "pdfs/2025-mcgs-slam-a-multi-camera-slam-framework-using-gaussian-splatting-for-high-fidelity-mapping.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.14191v4.pdf",
+    "title": "MCGS-SLAM: A Multi-Camera SLAM Framework Using Gaussian Splatting for High-Fidelity Mapping",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1a6Mv63EyG",
+    "pdf_path": "pdfs/2026-forceband-learning-forceful-manipulation-with-semg.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.26093v1.pdf",
+    "title": "ForceBand: Learning Forceful Manipulation with sEMG",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1iFME6eE9N",
+    "pdf_path": "pdfs/2026-lawam-latent-world-action-models-for-efficient-dynamics-aware-robot-policies.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.15768v1.pdf",
+    "title": "LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies",
+    "year": 2026
   }
 ]

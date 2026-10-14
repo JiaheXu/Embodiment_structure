@@ -1,23 +1,35 @@
 [
   {
     "page_url": "https://www.bilibili.com/video/BV1bhHC64ETw",
+    "paper_title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
     "pdf_path": "pdfs/2023-corl-2023-rt-2.pdf",
     "pdf_url": "https://arxiv.org/pdf/2307.15818v1.pdf",
-    "title": "\ud83c\udf93\u3010CoRL 2023\u3011RT-2\uff1a\u8ba9\u7f51\u7edc\u89c6\u89c9\u8bed\u8a00\u77e5\u8bc6\u8f6c\u5316\u4e3a\u673a\u5668\u4eba\u52a8\u4f5c",
+    "summary_json_path": "summary_json/2023-corl-2023-rt-2.json",
+    "summary_path": "summary/2023-corl-2023-rt-2.md",
+    "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+    "video_title": "🎓【CoRL 2023】RT-2：让网络视觉语言知识转化为机器人动作",
     "year": 2023
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1e7HC6KEFU",
+    "paper_title": "PaLM-E: An Embodied Multimodal Language Model",
     "pdf_path": "pdfs/2023-icml-2023-palm-e.pdf",
     "pdf_url": "https://arxiv.org/pdf/2303.03378v1.pdf",
-    "title": "\ud83c\udf93\u3010ICML 2023\u3011PaLM-E\uff1a\u8ba9\u591a\u6a21\u6001\u8bed\u8a00\u6a21\u578b\u7406\u89e3\u5e76\u89c4\u5212\u771f\u5b9e\u4e16\u754c",
+    "summary_json_path": "summary_json/2023-icml-2023-palm-e.json",
+    "summary_path": "summary/2023-icml-2023-palm-e.md",
+    "title": "PaLM-E: An Embodied Multimodal Language Model",
+    "video_title": "🎓【ICML 2023】PaLM-E：让多模态语言模型理解并规划真实世界",
     "year": 2023
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1D4HC6FEMK",
+    "paper_title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
     "pdf_path": "pdfs/2023-icra-2024-rt-x.pdf",
     "pdf_url": "https://arxiv.org/pdf/2310.08864v9.pdf",
-    "title": "\ud83c\udf93\u3010ICRA 2024\u3011RT-X\uff1a\u4e0d\u540c\u673a\u5668\u4eba\u7684\u7ecf\u9a8c\u5982\u4f55\u5171\u540c\u8bad\u7ec3\u4e00\u4e2a\u7b56\u7565",
+    "summary_json_path": "summary_json/2023-icra-2024-rt-x.json",
+    "summary_path": "summary/2023-icra-2024-rt-x.md",
+    "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+    "video_title": "🎓【ICRA 2024】RT-X：不同机器人的经验如何共同训练一个策略",
     "year": 2023
   },
   {
@@ -45,14 +57,18 @@
     "page_url": "https://www.bilibili.com/video/BV1YqHk6eEYC",
     "pdf_path": "pdfs/2024-0-a-vision-language-action-flow-model-for-general-robot-control.pdf",
     "pdf_url": "https://arxiv.org/pdf/2410.24164v4.pdf",
-    "title": "\u03c00: A Vision-Language-Action Flow Model for General Robot Control",
+    "title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
     "year": 2024
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1E8Hk6uEAg",
+    "paper_title": "OpenVLA: An Open-Source Vision-Language-Action Model",
     "pdf_path": "pdfs/2024-corl-2024-openvla.pdf",
     "pdf_url": "https://arxiv.org/pdf/2406.09246v3.pdf",
-    "title": "\ud83c\udf93\u3010CoRL 2024\u3011OpenVLA\uff1a\u5f00\u653e\u89c6\u89c9\u8bed\u8a00\u52a8\u4f5c\u6a21\u578b\u4e0e\u9ad8\u6548\u5fae\u8c03",
+    "summary_json_path": "summary_json/2024-corl-2024-openvla.json",
+    "summary_path": "summary/2024-corl-2024-openvla.md",
+    "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+    "video_title": "🎓【CoRL 2024】OpenVLA：开放视觉语言动作模型与高效微调",
     "year": 2024
   },
   {
@@ -64,16 +80,24 @@
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1sNHf68EkJ",
+    "paper_title": "VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon Reasoning Tasks",
     "pdf_path": "pdfs/2024-iccv-2025-vlabench.pdf",
     "pdf_url": "https://arxiv.org/pdf/2412.18194.pdf",
-    "title": "\u3010ICCV 2025\u3011\ud83c\udf93 VLABench\uff1a\u673a\u5668\u4eba\u542c\u61c2\u6307\u4ee4\uff0c\u4e3a\u4f55\u4ecd\u505a\u4e0d\u5b8c\u4efb\u52a1\uff1f",
+    "summary_json_path": "summary_json/2024-iccv-2025-vlabench.json",
+    "summary_path": "summary/2024-iccv-2025-vlabench.md",
+    "title": "VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon Reasoning Tasks",
+    "video_title": "【ICCV 2025】🎓 VLABench：机器人听懂指令，为何仍做不完任务？",
     "year": 2024
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1nsHk6kEM4",
+    "paper_title": "RDT-1B: A Diffusion Foundation Model for Bimanual Manipulation",
     "pdf_path": "pdfs/2024-iclr-2025-rdt-1b.pdf",
     "pdf_url": "https://arxiv.org/pdf/2410.07864v2.pdf",
-    "title": "\ud83c\udf93\u3010ICLR 2025\u3011RDT-1B\uff1a\u5927\u89c4\u6a21\u6269\u6563\u9884\u8bad\u7ec3\u5982\u4f55\u5b66\u4f1a\u53cc\u81c2\u64cd\u4f5c",
+    "summary_json_path": "summary_json/2024-iclr-2025-rdt-1b.json",
+    "summary_path": "summary/2024-iclr-2025-rdt-1b.md",
+    "title": "RDT-1B: A Diffusion Foundation Model for Bimanual Manipulation",
+    "video_title": "🎓【ICLR 2025】RDT-1B：大规模扩散预训练如何学会双臂操作",
     "year": 2024
   },
   {
@@ -92,30 +116,45 @@
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1nsHk6kEM4",
+    "paper_title": "RDT-1B: A Diffusion Foundation Model for Bimanual Manipulation",
     "pdf_path": "pdfs/2024-rdt-1b-a-diffusion-foundation-model-for-bimanual-manipulation.pdf",
     "pdf_url": "https://arxiv.org/pdf/2410.07864v2.pdf",
-    "title": "RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation",
+    "summary_json_path": "summary_json/2024-rdt-1b-a-diffusion-foundation-model-for-bimanual-manipulation.json",
+    "summary_path": "summary/2024-rdt-1b-a-diffusion-foundation-model-for-bimanual-manipulation.md",
+    "title": "RDT-1B: A Diffusion Foundation Model for Bimanual Manipulation",
     "year": 2024
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1MSHk6xEcb",
+    "paper_title": "Octo: An Open-Source Generalist Robot Policy",
     "pdf_path": "pdfs/2024-rss-2024-octo.pdf",
     "pdf_url": "https://arxiv.org/pdf/2405.12213v2.pdf",
-    "title": "\ud83c\udf93\u3010RSS 2024\u3011Octo\uff1a\u5f00\u653e\u673a\u5668\u4eba\u7b56\u7565\u5982\u4f55\u9002\u914d\u65b0\u4f20\u611f\u5668\u4e0e\u52a8\u4f5c\u7a7a\u95f4",
+    "summary_json_path": "summary_json/2024-rss-2024-octo.json",
+    "summary_path": "summary/2024-rss-2024-octo.md",
+    "title": "Octo: An Open-Source Generalist Robot Policy",
+    "video_title": "🎓【RSS 2024】Octo：开放机器人策略如何适配新传感器与动作空间",
     "year": 2024
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1YqHk6eEYC",
+    "paper_title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
     "pdf_path": "pdfs/2024-rss-2025-0.pdf",
     "pdf_url": "https://arxiv.org/pdf/2410.24164v4.pdf",
-    "title": "\ud83c\udf93\u3010RSS 2025\u3011\u03c00\uff1a\u4ece\u89c6\u89c9\u8bed\u8a00\u77e5\u8bc6\u5230\u8fde\u7eed\u7075\u5de7\u52a8\u4f5c",
+    "summary_json_path": "summary_json/2024-rss-2025-0.json",
+    "summary_path": "summary/2024-rss-2025-0.md",
+    "title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
+    "video_title": "🎓【RSS 2025】π0：从视觉语言知识到连续灵巧动作",
     "year": 2024
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1KtHt65EJe",
+    "paper_title": "Demonstrating GPU Parallelized Robot Simulation and Rendering for Generalizable Embodied AI with ManiSkill3",
     "pdf_path": "pdfs/2024-rss-2025-maniskill3-gpu.pdf",
     "pdf_url": "https://arxiv.org/pdf/2410.00425v2.pdf",
-    "title": "\ud83c\udf93\u3010RSS 2025\u3011ManiSkill3\uff1aGPU\u4eff\u771f\u5982\u4f55\u52a0\u901f\u89c6\u89c9\u673a\u5668\u4eba\u5b66\u4e60\uff1f",
+    "summary_json_path": "summary_json/2024-rss-2025-maniskill3-gpu.json",
+    "summary_path": "summary/2024-rss-2025-maniskill3-gpu.md",
+    "title": "Demonstrating GPU Parallelized Robot Simulation and Rendering for Generalizable Embodied AI with ManiSkill3",
+    "video_title": "🎓【RSS 2025】ManiSkill3：GPU仿真如何加速视觉机器人学习？",
     "year": 2024
   },
   {
@@ -127,16 +166,24 @@
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1ZaHy6yEse",
+    "paper_title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
     "pdf_path": "pdfs/2025-arxiv-2025-gr00t-n1.pdf",
     "pdf_url": "https://arxiv.org/pdf/2503.14734v2.pdf",
-    "title": "\ud83c\udf93\u3010arXiv 2025\u3011GR00T N1\uff1a\u7528\u5f02\u6784\u6570\u636e\u8bad\u7ec3\u901a\u7528\u4eba\u5f62\u673a\u5668\u4eba\u7b56\u7565",
+    "summary_json_path": "summary_json/2025-arxiv-2025-gr00t-n1.json",
+    "summary_path": "summary/2025-arxiv-2025-gr00t-n1.md",
+    "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+    "video_title": "🎓【arXiv 2025】GR00T N1：用异构数据训练通用人形机器人策略",
     "year": 2025
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1M6H46jEKP",
+    "paper_title": "RoboChallenge: Large-scale Real-robot Evaluation of Embodied Policies",
     "pdf_path": "pdfs/2025-arxiv-2025-robochallenge.pdf",
     "pdf_url": "https://arxiv.org/pdf/2510.17950v1.pdf",
-    "title": "\u3010arXiv 2025\u3011\ud83c\udf93 RoboChallenge\uff1a\u8fdc\u7a0b\u771f\u673a\u8bc4\u6d4b\u4e0e\u6d4b\u8bd5\u8005\u504f\u5dee",
+    "summary_json_path": "summary_json/2025-arxiv-2025-robochallenge.json",
+    "summary_path": "summary/2025-arxiv-2025-robochallenge.md",
+    "title": "RoboChallenge: Large-scale Real-robot Evaluation of Embodied Policies",
+    "video_title": "【arXiv 2025】🎓 RoboChallenge：远程真机评测与测试者偏差",
     "year": 2025
   },
   {
@@ -169,37 +216,57 @@
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1taH16eEmb",
+    "paper_title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
     "pdf_path": "pdfs/2025-rss-2025-fast.pdf",
     "pdf_url": "https://arxiv.org/pdf/2501.09747v1.pdf",
-    "title": "\ud83c\udf93\u3010RSS 2025\u3011FAST\uff1a\u7528\u52a8\u4f5c\u538b\u7f29\u6539\u5584\u673a\u5668\u4eba\u5b66\u4e60",
+    "summary_json_path": "summary_json/2025-rss-2025-fast.json",
+    "summary_path": "summary/2025-rss-2025-fast.md",
+    "title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
+    "video_title": "🎓【RSS 2025】FAST：用动作压缩改善机器人学习",
     "year": 2025
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1UDHy6aEyC",
+    "paper_title": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
     "pdf_path": "pdfs/2025-rss-2025-openvla-oft.pdf",
     "pdf_url": "https://arxiv.org/pdf/2502.19645v2.pdf",
-    "title": "\ud83c\udf93\u3010RSS 2025\u3011OpenVLA-OFT\uff1a\u91cd\u65b0\u8bbe\u8ba1\u5fae\u8c03\uff0c\u8ba9\u673a\u5668\u4eba\u66f4\u5feb\u66f4\u53ef\u9760",
+    "summary_json_path": "summary_json/2025-rss-2025-openvla-oft.json",
+    "summary_path": "summary/2025-rss-2025-openvla-oft.md",
+    "title": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
+    "video_title": "🎓【RSS 2025】OpenVLA-OFT：重新设计微调，让机器人更快更可靠",
     "year": 2025
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1mHHt67EVD",
+    "paper_title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
     "pdf_path": "pdfs/2026-arxiv-2026-robodojo.pdf",
     "pdf_url": "https://arxiv.org/pdf/2607.04434v3.pdf",
-    "title": "\u3010arXiv 2026\u3011\ud83c\udf93 RoboDojo\uff1a\u4ece\u4eff\u771f\u80fd\u529b\u8bca\u65ad\u5230\u6807\u51c6\u5316\u771f\u673a\u8bc4\u6d4b",
+    "summary_json_path": "summary_json/2026-arxiv-2026-robodojo.json",
+    "summary_path": "summary/2026-arxiv-2026-robodojo.md",
+    "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
+    "video_title": "【arXiv 2026】🎓 RoboDojo：从仿真能力诊断到标准化真机评测",
     "year": 2026
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1hupu6qExN",
+    "paper_title": "StellaVLA: In-Context Structured Demonstration for Generalizable Vision-Language-Action Models",
     "pdf_path": "pdfs/2026-arxiv-2026-stellavla.pdf",
     "pdf_url": "https://arxiv.org/pdf/2608.11671v1.pdf",
-    "title": "\ud83c\udf93\u3010arXiv 2026\u3011StellaVLA\uff1a\u7528\u7ed3\u6784\u5316\u793a\u8303\u63d0\u5347\u673a\u5668\u4eba\u7b56\u7565\u6cdb\u5316",
+    "summary_json_path": "summary_json/2026-arxiv-2026-stellavla.json",
+    "summary_path": "summary/2026-arxiv-2026-stellavla.md",
+    "title": "StellaVLA: In-Context Structured Demonstration for Generalizable Vision-Language-Action Models",
+    "video_title": "🎓【arXiv 2026】StellaVLA：用结构化示范提升机器人策略泛化",
     "year": 2026
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1WzpK6nEiJ",
+    "paper_title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
     "pdf_path": "pdfs/2026-arxiv-2026-zero-wam.pdf",
     "pdf_url": "https://arxiv.org/pdf/2608.26103v2.pdf",
-    "title": "\ud83c\udf93\u3010arXiv 2026\u3011Zero-WAM\uff1a\u770b\u4eba\u7c7b\u89c6\u9891\u6267\u884c\u672a\u89c1\u4efb\u52a1\uff0c\u65e0\u9700\u6d4b\u8bd5\u65f6\u8bad\u7ec3",
+    "summary_json_path": "summary_json/2026-arxiv-2026-zero-wam.json",
+    "summary_path": "summary/2026-arxiv-2026-zero-wam.md",
+    "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+    "video_title": "🎓【arXiv 2026】Zero-WAM：看人类视频执行未见任务，无需测试时训练",
     "year": 2026
   },
   {
@@ -211,16 +278,24 @@
   },
   {
     "page_url": "https://www.bilibili.com/video/BV12YpK6WEB2",
+    "paper_title": "RoboTTT: Context Scaling for Robot Policies",
     "pdf_path": "pdfs/2026-corl-2026-robottt.pdf",
     "pdf_url": "https://arxiv.org/pdf/2607.15275v1.pdf",
-    "title": "\ud83c\udf93\u3010CoRL 2026\u3011RoboTTT\uff1a\u7528\u6d4b\u8bd5\u65f6\u8bad\u7ec3\u6269\u5c55\u673a\u5668\u4eba\u7b56\u7565\u7684\u4e0a\u4e0b\u6587",
+    "summary_json_path": "summary_json/2026-corl-2026-robottt.json",
+    "summary_path": "summary/2026-corl-2026-robottt.md",
+    "title": "RoboTTT: Context Scaling for Robot Policies",
+    "video_title": "🎓【CoRL 2026】RoboTTT：用测试时训练扩展机器人策略的上下文",
     "year": 2026
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1XnpK6aE54",
+    "paper_title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
     "pdf_path": "pdfs/2026-corl-2026-wam-ttt.pdf",
     "pdf_url": "https://arxiv.org/pdf/2607.06988v2.pdf",
-    "title": "\u3010CoRL 2026\u3011\ud83c\udf93 WAM-TTT\uff1a\u770b\u4eba\u7c7b\u89c6\u9891\uff0c\u4e3a\u4e16\u754c\u52a8\u4f5c\u6a21\u578b\u5199\u5165\u6280\u80fd\u8bb0\u5fc6",
+    "summary_json_path": "summary_json/2026-corl-2026-wam-ttt.json",
+    "summary_path": "summary/2026-corl-2026-wam-ttt.md",
+    "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+    "video_title": "【CoRL 2026】🎓 WAM-TTT：看人类视频，为世界动作模型写入技能记忆",
     "year": 2026
   },
   {
@@ -232,16 +307,24 @@
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1eQHt6oEc8",
+    "paper_title": "RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots",
     "pdf_path": "pdfs/2026-iclr-2026-robocasa365-365.pdf",
     "pdf_url": "https://arxiv.org/pdf/2603.04356v1.pdf",
-    "title": "\ud83c\udf93\u3010ICLR 2026\u3011RoboCasa365\uff1a365\u4e2a\u53a8\u623f\u4efb\u52a1\uff0c\u901a\u7528\u673a\u5668\u4eba\u79bb\u65e5\u5e38\u751f\u6d3b\u591a\u8fdc\uff1f",
+    "summary_json_path": "summary_json/2026-iclr-2026-robocasa365-365.json",
+    "summary_path": "summary/2026-iclr-2026-robocasa365-365.md",
+    "title": "RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots",
+    "video_title": "🎓【ICLR 2026】RoboCasa365：365个厨房任务，通用机器人离日常生活多远？",
     "year": 2026
   },
   {
     "page_url": "https://www.bilibili.com/video/BV13mHy6vEBQ",
+    "paper_title": "RDT2: Exploring the Scaling Limit of UMI Data Towards Zero-Shot Cross-Embodiment Generalization",
     "pdf_path": "pdfs/2026-icml-2026-rdt2.pdf",
     "pdf_url": "https://arxiv.org/pdf/2602.03310v1.pdf",
-    "title": "\ud83c\udf93\u3010ICML 2026\u3011RDT2\uff1a\u7528\u4e07\u5c0f\u65f6\u4eba\u7c7b\u64cd\u4f5c\u6570\u636e\u5b66\u4e60\u8de8\u673a\u5668\u4eba\u63a7\u5236",
+    "summary_json_path": "summary_json/2026-icml-2026-rdt2.json",
+    "summary_path": "summary/2026-icml-2026-rdt2.md",
+    "title": "RDT2: Exploring the Scaling Limit of UMI Data Towards Zero-Shot Cross-Embodiment Generalization",
+    "video_title": "🎓【ICML 2026】RDT2：用万小时人类操作数据学习跨机器人控制",
     "year": 2026
   },
   {
@@ -281,9 +364,13 @@
   },
   {
     "page_url": "https://www.bilibili.com/video/BV1xkHo64EKk",
+    "paper_title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
     "pdf_path": "pdfs/2026-rss-2026-robolab.pdf",
     "pdf_url": "https://arxiv.org/pdf/2604.09860v4.pdf",
-    "title": "\u3010RSS 2026\u3011\ud83c\udf93 RoboLab\uff1a\u901a\u7528\u673a\u5668\u4eba\u7b56\u7565\u7684\u9ad8\u4fdd\u771f\u4eff\u771f\u8bca\u65ad",
+    "summary_json_path": "summary_json/2026-rss-2026-robolab.json",
+    "summary_path": "summary/2026-rss-2026-robolab.md",
+    "title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
+    "video_title": "【RSS 2026】🎓 RoboLab：通用机器人策略的高保真仿真诊断",
     "year": 2026
   },
   {

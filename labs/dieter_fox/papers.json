@@ -316,9 +316,10 @@
   },
   {
     "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:bkHTfdQVRd8C",
+    "paper_title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
     "pdf_path": "pdfs/2025-gr00t-n1-an-open-foundation-model-for-generalist-humanoid-robots.pdf",
     "pdf_url": "https://arxiv.org/pdf/2503.14734v2.pdf",
-    "title": "Gr00t n1: An open foundation model for generalist humanoid robots",
+    "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
     "year": 2025
   },
   {

@@ -187,5 +187,26 @@
     "pdf_url": "https://arxiv.org/pdf/2605.14747v1.pdf",
     "title": "Video2GUI: Synthesizing Large-Scale Interaction Trajectories for Generalized GUI Agent Pretraining",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1SKHd6wEfC",
+    "pdf_path": "pdfs/2024-aaai-2025-fulora.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.01880.pdf",
+    "title": "\u3010AAAI 2025\u3011\ud83c\udfc6FULORA\uff1a\u53cc\u667a\u80fd\u4f53\u9ad8\u6548\u5f15\u5bfc-\u63a2\u7d22\u7684\u77e5\u8bc6\u56fe\u8c31\u591a\u8df3\u63a8\u7406",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1DKHd6wEGu",
+    "pdf_path": "pdfs/2024-walk-wisely-on-graph-knowledge-graph-reasoning-with-dual-agents-via-efficient-guidance-exploration.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2408.01880.pdf",
+    "title": "Walk Wisely on Graph: Knowledge Graph Reasoning with Dual Agents via Efficient Guidance-Exploration",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1CpHd6nEsw",
+    "pdf_path": "pdfs/2025-agentic-reasoning-a-streamlined-framework-for-enhancing-llm-reasoning-with-agentic-tools.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.04644.pdf",
+    "title": "Agentic Reasoning: A Streamlined Framework for Enhancing LLM Reasoning with Agentic Tools",
+    "year": 2025
   }
 ]

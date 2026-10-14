@@ -435,9 +435,12 @@
   },
   {
     "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:FiDNX6EVdGUC",
+    "paper_title": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
     "pdf_path": "pdfs/2025-fine-tuning-vision-language-action-models-optimizing-speed-and-success.pdf",
     "pdf_url": "https://arxiv.org/pdf/2502.19645v2.pdf",
-    "title": "Fine-tuning vision-language-action models: Optimizing speed and success",
+    "summary_json_path": "summary_json/2025-fine-tuning-vision-language-action-models-optimizing-speed-and-success.json",
+    "summary_path": "summary/2025-fine-tuning-vision-language-action-models-optimizing-speed-and-success.md",
+    "title": "Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success",
     "year": 2025
   },
   {
@@ -449,9 +452,12 @@
   },
   {
     "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:sszUF3NjhM4C",
+    "paper_title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
     "pdf_path": "pdfs/2025-fast-efficient-action-tokenization-for-vision-language-action-models.pdf",
     "pdf_url": "https://arxiv.org/pdf/2501.09747v1.pdf",
-    "title": "Fast: Efficient action tokenization for vision-language-action models",
+    "summary_json_path": "summary_json/2025-fast-efficient-action-tokenization-for-vision-language-action-models.json",
+    "summary_path": "summary/2025-fast-efficient-action-tokenization-for-vision-language-action-models.md",
+    "title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
     "year": 2025
   },
   {
@@ -526,9 +532,12 @@
   },
   {
     "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:MAUkC_7iAq8C",
+    "paper_title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
     "pdf_path": "pdfs/2024-a-vision-language-action-flow-model-for-general-robot-control.pdf",
     "pdf_url": "https://arxiv.org/pdf/2410.24164.pdf",
-    "title": "A Vision-Language-Action Flow Model for General Robot Control",
+    "summary_json_path": "summary_json/2024-a-vision-language-action-flow-model-for-general-robot-control.json",
+    "summary_path": "summary/2024-a-vision-language-action-flow-model-for-general-robot-control.md",
+    "title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
     "year": 2024
   },
   {

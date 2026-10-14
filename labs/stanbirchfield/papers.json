@@ -71,9 +71,10 @@
   },
   {
     "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:WJVC3Jt7v1AC",
+    "paper_title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
     "pdf_path": "pdfs/2026-robolab-a-high-fidelity-simulation-benchmark-for-analysis-of-task-generalist-policies.pdf",
     "pdf_url": "https://arxiv.org/pdf/2604.09860.pdf",
-    "title": "Robolab: A high-fidelity simulation benchmark for analysis of task generalist policies",
+    "title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
     "year": 2026
   },
   {

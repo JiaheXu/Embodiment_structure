@@ -1,0 +1,21 @@
+# From the repository root:
+#   First-time setup: UV_PROJECT_ENVIRONMENT=.venv-robotlit uv sync --locked --extra test
+#   Start and attach: tmuxp load ./start.yaml
+#   Start detached:   tmuxp load -d ./start.yaml
+#   Reattach:         tmux attach -t robotlit
+#   Stop:             tmux kill-session -t robotlit
+# Web UI: http://127.0.0.1:8000
+session_name: robotlit
+start_directory: .
+suppress_history: false
+options:
+  default-shell: /bin/bash
+  history-limit: 100000
+windows:
+  - window_name: system
+    layout: even-vertical
+    panes:
+      - shell_command:
+          - source .venv-robotlit/bin/activate && robotlit serve --host 127.0.0.1 --port 8000
+      - shell_command:
+          - source .venv-robotlit/bin/activate && robotlit worker

@@ -108,7 +108,7 @@
     "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:fbc8zXXH2BUC",
     "pdf_path": "pdfs/2025-robotarena-scalable-robot-benchmarking-via-real-to-sim-translation.pdf",
     "pdf_url": "https://arxiv.org/pdf/2510.23571v3.pdf",
-    "title": "Robotarena\u221e: Scalable robot benchmarking via real-to-sim translation",
+    "title": "Robotarena∞: Scalable robot benchmarking via real-to-sim translation",
     "year": 2025
   },
   {
@@ -232,9 +232,10 @@
   },
   {
     "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:NXb4pA-qfm4C",
+    "paper_title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
     "pdf_path": "pdfs/2024-open-x-embodiment-robotic-learning-datasets-and-rt-x-models-open-x-embodiment-collaboration.pdf",
     "pdf_url": "https://arxiv.org/pdf/2310.08864v9.pdf",
-    "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models: Open X-Embodiment Collaboration",
+    "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
     "year": 2024
   },
   {

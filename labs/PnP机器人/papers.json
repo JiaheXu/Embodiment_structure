@@ -1,0 +1,30 @@
+[
+  {
+    "page_url": "https://www.bilibili.com/video/BV1eqWF6nEqN",
+    "pdf_path": "pdfs/2023-gam-gradient-attention-module-of-optimization-for-point-clouds-analysis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.10543v2.pdf",
+    "title": "GAM : Gradient Attention Module of Optimization for Point Clouds Analysis",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV134Hp6zEfs",
+    "pdf_path": "pdfs/2025-vlad-grasp-zero-shot-grasp-detection-via-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.05791v2.pdf",
+    "title": "VLAD-Grasp: Zero-shot Grasp Detection via Vision-Language Models",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1d8H76wETR",
+    "pdf_path": "pdfs/2026-datafarm-distribution-aligned-task-and-motion-planning-for-fine-tuning-vision-language-action-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.12316v1.pdf",
+    "title": "DATAFARM: Distribution-Aligned Task and Motion Planning for Fine-Tuning Vision-Language-Action Models",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1jdar6ZEFL",
+    "pdf_path": "pdfs/2026-patch-policy-efficient-embodied-control-via-dense-visual-representations.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.18236v1.pdf",
+    "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+    "year": 2026
+  }
+]

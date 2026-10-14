@@ -43,9 +43,10 @@
   },
   {
     "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:QD3KBmkZPeQC",
+    "paper_title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
     "pdf_path": "pdfs/2026-robodojo-a-unified-sim-and-real-benchmark-for-comprehensive-evaluation-of-generalist-robot-manipulation-policies.pdf",
     "pdf_url": "https://arxiv.org/pdf/2607.04434.pdf",
-    "title": "RoboDojo: A unified sim-and-real benchmark for comprehensive evaluation of generalist robot manipulation policies",
+    "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
     "year": 2026
   },
   {

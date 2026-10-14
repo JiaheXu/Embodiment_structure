@@ -1381,13 +1381,7 @@ _BILIBILI_CHANNEL_PAGE_SCRIPT = r"""(() => {
         if (empty && total === 0) return JSON.stringify({videos:[], has_more:false});
         return null;
     }
-    const next = [...document.querySelectorAll('button, .vui_pagenation--btn-side, .be-pager-next, [aria-label]')]
-        .find(el => /下一页|^next$/i.test(el.innerText?.trim() || el.getAttribute('aria-label') || ''));
-    const disabled = next && (next.disabled || next.getAttribute('aria-disabled') === 'true' ||
-        /disabled/.test(next.className));
-    const pn = Number(new URL(location.href).searchParams.get('pn') || 1);
-    const hasMore = next ? !disabled : total !== null && pn * videos.size < total;
-    return JSON.stringify({videos:[...videos.values()], has_more:hasMore});
+    return JSON.stringify({videos:[...videos.values()]});
 })()"""
 
 
@@ -1411,28 +1405,16 @@ def fetch_bilibili_video_metadata_from_chrome(url: str, timeout: int, limit: int
     seen: set[str] = set()
     if _bilibili_video_key(url):
         return [json.loads(fetch_text_from_remote_chrome(url, timeout, page_expression=_BILIBILI_VIDEO_PAGE_SCRIPT))]
-    page = 1
-    while len(entries) < limit:
-        parsed = urlparse(url)
-        params = dict(parse_qsl(parsed.query, keep_blank_values=True))
-        params['pn'] = str(page)
-        page_url = urlunparse(parsed._replace(query=urlencode(params)))
-        result = json.loads(fetch_text_from_remote_chrome(page_url, timeout, page_expression=_BILIBILI_CHANNEL_PAGE_SCRIPT))
-        before = len(entries)
-        for entry in result.get('videos', []):
-            video_url = str(entry.get('webpage_url') or '')
-            key = _bilibili_video_key(video_url)
-            if key and key not in seen:
-                entries.append(entry)
-                seen.add(key)
-                if len(entries) >= limit:
-                    break
-        print(f"[metadata:bilibili-chrome] page {page}: {len(entries)}/{limit} videos", flush=True)
-        if not result.get('has_more') or len(entries) >= limit:
+    result = json.loads(fetch_text_from_remote_chrome(url, timeout, page_expression=_BILIBILI_CHANNEL_PAGE_SCRIPT))
+    for entry in result.get('videos', []):
+        if len(entries) >= limit:
             break
-        if len(entries) == before:
-            raise RuntimeError('Bilibili Chrome pagination repeated a page without new videos')
-        page += 1
+        video_url = str(entry.get('webpage_url') or '')
+        key = _bilibili_video_key(video_url)
+        if key and key not in seen:
+            entries.append(entry)
+            seen.add(key)
+    print(f"[metadata:bilibili-chrome] visible page: {len(entries)}/{limit} videos", flush=True)
     videos = []
     for index, entry in enumerate(entries, start=1):
         video_url = str(entry['webpage_url'])
