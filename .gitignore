@@ -26,3 +26,5 @@ __pycache__/
 config/robotlit.yaml
 data/robotlit/
 evals/*.report.json
+
+.x_chrome_profile
