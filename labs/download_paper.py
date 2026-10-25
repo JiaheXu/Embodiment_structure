@@ -532,7 +532,7 @@ def extract_papers_from_video_text_response(
 def extract_papers_with_ai(html: str, base_url: str, min_year: int, timeout: int) -> list[PaperCandidate]:
     ai_url = os.environ.get("AI_BASE_URL") or os.environ.get("OPENAI_URL")
     ai_key = os.environ.get("AI_API_KEY") or os.environ.get("OPENAI_API_KEY")
-    ai_model = os.environ.get("AI_MODEL") or os.environ.get("OPENAI_MODEL") or "gpt-5.5"
+    ai_model = os.environ.get("AI_MODEL") or os.environ.get("OPENAI_MODEL") or "gpt-6-astra"
     if not ai_url:
         raise RuntimeError("AI_BASE_URL or OPENAI_URL is required for --extractor ai")
 
@@ -575,7 +575,7 @@ def extract_papers_from_bilibili_videos(
 ) -> list[PaperCandidate]:
     ai_url = os.environ.get("AI_BASE_URL") or os.environ.get("OPENAI_URL")
     ai_key = os.environ.get("AI_API_KEY") or os.environ.get("OPENAI_API_KEY")
-    ai_model = os.environ.get("AI_MODEL") or os.environ.get("OPENAI_MODEL") or "gpt-5.5"
+    ai_model = os.environ.get("AI_MODEL") or os.environ.get("OPENAI_MODEL") or "gpt-6-astra"
     if not ai_url:
         raise RuntimeError("AI_BASE_URL or OPENAI_URL is required for Bilibili AI extraction")
 

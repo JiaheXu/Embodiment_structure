@@ -1,0 +1,92 @@
+folder: yukezhu
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Generalist embodied learning, humanoid motion, and agentic recovery or adaptation.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 79
+  year_range:
+    start: 2024
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=mWGyYMsAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Adaptive generalist policies and failure recovery
+  description: Learning test-time adaptation, efficient action representations, and agent-guided recovery
+    or skill discovery.
+  representative_papers:
+  - title: 'Recova: Agent-Guided Failure Recovery for Autonomous Robotic Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:69ZgNCALVd0C
+    pdf_url: https://arxiv.org/pdf/2610.01178v1.pdf
+  - title: 'RoboTTT: Context Scaling for Robot Policies'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:HhcuHIWmDEUC
+    pdf_url: https://arxiv.org/pdf/2607.15275v1.pdf
+  - title: 'B-spline Policy: Accelerating Manipulation Policies via B-spline Action Representations'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:VN7nJs4JPk0C
+    pdf_url: https://arxiv.org/pdf/2607.09648v1.pdf
+  - title: 'GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:FiDNX6EVdGUC
+    pdf_url: https://arxiv.org/pdf/2607.05369.pdf
+  - title: 'ASPIRE: Agentic/Skills Discovery for Robotics'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:1DsIQWDZLl8C
+    pdf_url: https://arxiv.org/pdf/2607.00272v1.pdf
+- name: Humanoid motion and compliant control
+  description: Scaling motion tracking and modular motion generation with adaptive compliance.
+  representative_papers:
+  - title: 'Sonic: Supersizing motion tracking for natural humanoid whole-body control'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:L1USKYWJimsC
+    pdf_url: https://arxiv.org/pdf/2511.07820v4.pdf
+  - title: 'MotionBricks: Scalable Real-Time Motions with Modular Latent Generative Model and Smart Primitives'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:Dem6FJhTUoYC
+    pdf_url: https://arxiv.org/pdf/2604.24833v1.pdf
+  - title: 'Chip: Adaptive compliance for humanoid control through hindsight perturbation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:prdVHNxh-e8C
+    pdf_url: https://arxiv.org/pdf/2512.14689v2.pdf
+- name: Embodied memory, navigation, and world models
+  description: Using memory for sequential reasoning and navigation and training with predictive visual
+    simulation.
+  representative_papers:
+  - title: 'ASENA: Self-evolving Agents for Embodied Navigation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:mWEH9CqjF64C
+    pdf_url: https://arxiv.org/pdf/2609.39207v1.pdf
+  - title: 'Beyond Episodic Evaluation: Memory Architectural Bottlenecks in Sequential Embodied Question
+      Answering'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:rTD5ala9j4wC
+    pdf_url: https://arxiv.org/pdf/2607.21571v1.pdf
+  - title: Active region video diffusion for universal policies
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:WC9gN4BGCRcC
+    pdf_url: https://arxiv.org/pdf/2406.13301v2.pdf
+  - title: 'Isaac lab: A gpu-accelerated simulation framework for multi-modal robot learning'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:kw52XkFRtyQC
+    pdf_url: https://arxiv.org/pdf/2511.04831.pdf
+  - title: 'Amago-2: Breaking the multi-task barrier in meta-reinforcement learning with transformers'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:Aul-kAQHnToC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/9f40d2612d0b3b6f6c2a77da21b1067f-Paper-Conference.pdf
+  - title: Action-conditional implicit dynamics of deformable objects
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:_axFR9aDTf0C
+    pdf_url: https://patentimages.storage.googleapis.com/f3/aa/2c/1a0222bba05cb8/US12165258.pdf
+  - title: Multi-task interactive robot fleet learning with visual world models
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mWGyYMsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=mWGyYMsAAAAJ:nZcligLrVowC
+    pdf_url: https://arxiv.org/pdf/2410.22689v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

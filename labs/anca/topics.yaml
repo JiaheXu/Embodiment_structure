@@ -1,0 +1,84 @@
+folder: anca
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Human-centered AI alignment, interactive assistance, and language-conditioned decision making.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 53
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=UgHB5oAAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Learning from human preferences
+  description: Learning rewards and assistance policies from comparative language feedback and human interaction.
+  representative_papers:
+  - title: Active reward learning and iterative trajectory improvement from comparative language feedback
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:v1_lew4L6wgC
+    pdf_url: https://arxiv.org/pdf/2410.06401v1.pdf
+  - title: Learning to assist humans without inferring rewards
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:fbc8zXXH2BUC
+    pdf_url: https://arxiv.org/pdf/2411.02623v3.pdf
+  - title: Learning to influence human behavior with offline reinforcement learning
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:sNmaIFBj_lkC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/70f286e0fc977c0a3a64ef96849c8d7d-Paper-Conference.pdf
+  - title: Quantifying assistive robustness via the natural-adversarial frontier
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:QYdC8u9Cj1oC
+    pdf_url: https://arxiv.org/pdf/2310.10610v1.pdf
+- name: AI alignment and monitoring
+  description: Studying alignment failures, deception, monitorability, and human empowerment.
+  representative_papers:
+  - title: Benchmarking and Improving Monitors for Out-Of-Distribution Alignment Failure in LLMs
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:FiytvqdAVhgC
+    pdf_url: https://arxiv.org/pdf/2605.21602v2.pdf
+  - title: Training llm agents to empower humans
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:BzfGm06jWhQC
+    pdf_url: https://arxiv.org/pdf/2510.13709v2.pdf
+  - title: 'Chain of thought monitorability: A new and fragile opportunity for ai safety'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:ubry08Y2EpUC
+    pdf_url: https://arxiv.org/pdf/2507.11473.pdf
+  - title: 'When your ais deceive you: Challenges of partial observability in reinforcement learning from
+      human feedback'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:Ak0FvsSvgGUC
+    pdf_url: https://arxiv.org/pdf/2402.17747v5.pdf
+- name: Language-conditioned planning and control
+  description: Using goal-conditioned learning and temporal representations for instruction following
+    and dialogue.
+  representative_papers:
+  - title: 'Planning without search: Refining frontier llms with offline goal-conditioned rl'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:otzGkya1bYkC
+    pdf_url: https://arxiv.org/pdf/2505.18098v2.pdf
+  - title: 'Temporal representation alignment: Successor features enable emergent compositionality in
+      robot instruction following'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:0CzhzZyukY4C
+    pdf_url: https://arxiv.org/pdf/2502.05454v2.pdf
+  - title: Interactive dialogue agents via reinforcement learning on hindsight regenerations
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:AHdEip9mkN0C
+    pdf_url: https://arxiv.org/pdf/2411.05194v1.pdf
+  - title: 'Goal representations for instruction following: A semi-supervised language interface to control'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:mlAyqtXpCwEC
+    pdf_url: https://proceedings.mlr.press/v229/myers23a/myers23a.pdf
+  - title: Zero-shot goal-directed dialogue via rl on imagined conversations
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UgHB5oAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UgHB5oAAAAAJ:yFnVuubrUp4C
+    pdf_url: https://arxiv.org/pdf/2311.05584v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

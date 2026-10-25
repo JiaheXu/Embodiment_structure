@@ -1,0 +1,96 @@
+folder: shuran
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Dexterous and mobile robot learning with scalable demonstrations and multimodal hardware.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 83
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=5031vK4AAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Data-efficient continual robot learning
+  description: Collecting useful experience, rewriting trajectories, maintaining memory, and transferring
+    human priors.
+  representative_papers:
+  - title: 'EigenDEXplore: Structured Exploration for Dexterous Manipulation with Human Priors'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:3htObqc8RwsC
+    pdf_url: https://arxiv.org/pdf/2610.07681v1.pdf
+  - title: 'Mulligan: Performance-Guided Data Collection for Efficient On-Robot Learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:OcBU2YAGkTUC
+    pdf_url: https://arxiv.org/pdf/2610.05882v1.pdf
+  - title: 'NEEDLEWORK: Offline Rewriting of Robot Data with Verified Local Stitches'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:OR75R8vi5nAC
+    pdf_url: https://arxiv.org/pdf/2610.02339v1.pdf
+  - title: Memory Anchors for Continual Robot Learning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:ODE9OILHJdcC
+    pdf_url: https://arxiv.org/pdf/2608.26545.pdf
+  - title: Semantically controllable augmentations for generalizable robot learning
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:b1wdh0AR-JQC
+    pdf_url: https://arxiv.org/pdf/2409.00951v1.pdf
+  - title: 'Scaling up and distilling down: Language-guided robot skill acquisition'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:7T2F9Uy0os0C
+    pdf_url: https://arxiv.org/pdf/2307.14535v2.pdf
+  - title: 'Xskill: Cross embodiment skill discovery'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:kzcrU_BdoSEC
+    pdf_url: https://arxiv.org/pdf/2307.09955v2.pdf
+- name: Dexterous and mobile robot systems
+  description: Co-designing hands and humanoids, building teleoperation interfaces, and learning bimanual
+    mobile control.
+  representative_papers:
+  - title: 'Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:DJbcl8HfkQkC
+    pdf_url: https://arxiv.org/pdf/2607.25798.pdf
+  - title: 'ModPack: An Extensible Teleoperation Interface for Bimanual Mobile Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:HIFyuExEbWQC
+    pdf_url: https://arxiv.org/pdf/2607.19479v2.pdf
+  - title: 'Handroid: Bridging Dexterous Hand and Humanoid'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:4vMrXwiscB8C
+    pdf_url: https://arxiv.org/pdf/2607.16187v1.pdf
+  - title: 'Mixture of Frames Policy: Multi-Frame Action Denoising for Bimanual Mobile Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:dBIO0h50nwkC
+    pdf_url: https://arxiv.org/pdf/2607.11884v1.pdf
+  - title: 'Tidybot++: An open-source holonomic mobile manipulator for robot learning'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:lmc2jWPfTJgC
+    pdf_url: https://arxiv.org/pdf/2412.10447v1.pdf
+- name: Multimodal sensing and world simulation
+  description: Using tactile or contact sensing and predictive video models for physical interaction.
+  representative_papers:
+  - title: Fluorescence-enhanced Whisker Array with Vision-based Deformation Analysis for Underwater Source
+      Localization
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:fFSKOagxvKUC
+    pdf_url: https://arxiv.org/pdf/2610.07275v1.pdf
+  - title: Tactile-based object retrieval from granular media
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:EkHepimYqZsC
+    pdf_url: https://arxiv.org/pdf/2402.04536v3.pdf
+  - title: World simulation with video foundation models for physical ai
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:sNmaIFBj_lkC
+    pdf_url: https://arxiv.org/pdf/2511.00062.pdf
+  - title: 'Contacthandover: Contact-guided robot-to-human object handover'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5031vK4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=5031vK4AAAAJ:ML0RJ9NH7IQC
+    pdf_url: https://arxiv.org/pdf/2404.01402v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

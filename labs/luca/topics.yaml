@@ -1,0 +1,99 @@
+folder: luca
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Geometric robot perception, scene graphs, and certifiable estimation.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 72
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=U4kKRdMAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Metric-semantic mapping and scene graphs
+  description: Building hierarchical scene graphs and robust visual-inertial or semantic maps.
+  representative_papers:
+  - title: 'Argos: Adapt Rich Geometric Priors for Generalizable Online Scene-Change-Detection'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:cWzG1nlazyYC
+    pdf_url: https://arxiv.org/pdf/2610.10181v1.pdf
+  - title: 'Hydra++: Real-Time Hierarchical 3D Scene Graph Construction With Object-Level Shape Estimation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:mlAyqtXpCwEC
+    pdf_url: https://arxiv.org/pdf/2607.09455v1.pdf
+  - title: '3D Scene Graph Prediction: Generating Hierarchical Models from Partially Observed Environments'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:IRz6iEL74y4C
+    pdf_url: https://arxiv.org/pdf/2607.10879v2.pdf
+  - title: '3D Scene Graphs: Open Challenges and Future Directions'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:WJVC3Jt7v1AC
+    pdf_url: https://arxiv.org/pdf/2606.19383v1.pdf
+  - title: 'Kimera2: Robust and accurate metric-semantic slam in the real world'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:p__nRnzSRKYC
+    pdf_url: https://arxiv.org/pdf/2401.06323v1.pdf
+  - title: Multi-camera visual-inertial simultaneous localization and mapping for autonomous valet parking
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:z_wVstp3MssC
+    pdf_url: https://arxiv.org/pdf/2304.13182v3.pdf
+- name: Robust geometry and uncertainty
+  description: Certifying pose and shape estimates and calibrating uncertainty in visual or linguistic
+    spatial beliefs.
+  representative_papers:
+  - title: 'Uncertainty Quantification for Visual Object Pose Estimation: S-Lemma Ellipsoidal Bounds'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:9c2xU6iGI7YC
+    pdf_url: https://arxiv.org/pdf/2511.21666v2.pdf
+  - title: 'Language as a Sensor: Calibrated Spatial Belief Estimation in 3D Scenes from Natural Language'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:6ZxmRoH8BuwC
+    pdf_url: https://arxiv.org/pdf/2606.08666.pdf
+  - title: 'Buffer-x: Towards zero-shot point cloud registration in diverse scenes'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:xtoqd-5pKcoC
+    pdf_url: https://arxiv.org/pdf/2503.07940v3.pdf
+  - title: Outlier-Robust Training of Machine Learning Models
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:S16KYo8Pm5AC
+    pdf_url: https://arxiv.org/pdf/2501.00265.pdf
+  - title: 'CUPS: Improving Human Pose-Shape Estimators with Conformalized Deep Uncertainty'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:e_rmSamDkqQC
+    pdf_url: https://arxiv.org/pdf/2412.10431v1.pdf
+  - title: A certifiable algorithm for simultaneous shape estimation and object tracking
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:kuK5TVdYjLIC
+    pdf_url: https://arxiv.org/pdf/2406.16837.pdf
+  - title: 'VERF: runtime monitoring of pose estimation with neural radiance fields'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:zLWjf1WUPmwC
+    pdf_url: https://arxiv.org/pdf/2308.05939v1.pdf
+- name: Active perception and geometric robot learning
+  description: Selecting informative views and using geometric priors for reconstruction, VLA policies,
+    and dexterous grasps.
+  representative_papers:
+  - title: 'Matisse: Evidence-Space Reasoning for Active 3D Reconstruction'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:mNrWkgRL2YcC
+    pdf_url: https://arxiv.org/pdf/2609.38746v1.pdf
+  - title: Scalable Cross-Embodiment Dexterous Grasping via Morphology-Prior Diffusion
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:HIFyuExEbWQC
+    pdf_url: https://cdn.amazon.science/44/6f/24ec03264ff0a437d37046e8de7a/somo-eccv26-camera-ready.pdf
+  - title: Understanding the impact of geometric foundation models on vision-language-action models
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:a9-T7VOCCH8C
+    pdf_url: https://arxiv.org/pdf/2605.24642.pdf
+  - title: Non-submodular Visual Attention for Robot Navigation
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=U4kKRdMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=U4kKRdMAAAAJ:rmuvC79q63oC
+    pdf_url: https://arxiv.org/pdf/2510.00942v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

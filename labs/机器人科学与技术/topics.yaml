@@ -1,0 +1,80 @@
+folder: 机器人科学与技术
+source_type: video_channel
+summary_date: '2026-10-14'
+status: collection_based
+summary: Coverage of agile robot locomotion, morphology design, and perception-driven autonomy.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 31
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://space.bilibili.com/49975325/upload/video
+topics:
+- name: Agile legged and humanoid control
+  description: Covering parkour, brachiation, terrain adaptation, and generative motion control.
+  representative_papers:
+  - title: Extreme Parkour：让四足机器人学会极限跑酷｜2024【CMU】
+    year: 2023
+    page_url: https://www.bilibili.com/video/BV1j1ub6qECD
+    pdf_url: https://arxiv.org/pdf/2309.14341.pdf
+  - title: 双臂机器人也能像猿猴一样“荡单杠”：强化学习实现稳健臂行｜2026 IROS【东京大学 JSK】
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1tD8T6jED3
+    pdf_url: https://arxiv.org/pdf/2608.17320.pdf
+  - title: 稀疏三维环境中的人形机器人感知驱动敏捷运动控制｜2026【苏黎世联邦理工】
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1getR62EYi
+    pdf_url: https://arxiv.org/pdf/2608.29769.pdf
+  - title: AME-2：基于注意力神经地图的敏捷泛化足式运动｜2026【苏黎世联邦理工】
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1GfYs61E9f
+    pdf_url: https://arxiv.org/pdf/2601.08485.pdf
+  - title: GM-Loco：让人形机器人在沙地等颗粒地形上自适应行走、奔跑与跳跃｜2026【Georgia Tech】
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1Zvad6BEb1
+    pdf_url: https://arxiv.org/pdf/2609.10286.pdf
+  - title: 让机器人像语言模型一样学习运动：GPC生成式运动基座模型｜2026【NVIDIA】
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV19DKJ6hEP1
+    pdf_url: https://arxiv.org/pdf/2606.29148.pdf
+- name: Morphology, manipulation, and sim-to-real learning
+  description: Covering robot co-design, contact-guided large-object manipulation, and simulation transfer
+    for aquatic robots.
+  representative_papers:
+  - title: 接触引导探索：四足机器人学会推、拉与搬运大型物体｜2026 RA-L【比萨大学 × ETH Zurich × NVIDIA】
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV18UeF6uEL1
+    pdf_url: https://arxiv.org/pdf/2608.28140.pdf
+  - title: All You Need Is Low Fidelity：低保真仿真实现机器鱼控制策略的零样本真实迁移｜2026【苏黎世联邦理工】
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1uLpR6cECz
+    pdf_url: https://arxiv.org/pdf/2609.36993.pdf
+  - title: Draft：改参数就能生成机器人，探索形态与控制协同设计｜2026【MIT】
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1h7HD6JEcY
+    pdf_url: https://arxiv.org/pdf/2609.38405.pdf
+- name: State estimation and embodied navigation
+  description: Covering sensor fusion, transferable aerial control, and memory-based open-vocabulary object
+    search.
+  representative_papers:
+  - title: Holistic Fusion：一个开源框架融合多传感器，实现跨任务机器人定位与状态估计｜2026 T-RO【ETH Zürich】
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1DT8u6WEiY
+    pdf_url: https://arxiv.org/pdf/2504.06479.pdf
+  - title: RAPTOR：一个策略控制不同四旋翼，无需重新训练｜2026【UC Berkeley】
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV12w8v6XESA
+    pdf_url: https://arxiv.org/pdf/2509.11481.pdf
+  - title: FARM：基于关系空间记忆的开放词汇机器人目标搜索｜2026【UC Berkeley × Stanford】
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1RRu96qE5j
+    pdf_url: https://arxiv.org/pdf/2606.15476.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- Topics describe papers covered by this channel; authorship or affiliation with the channel is not implied.

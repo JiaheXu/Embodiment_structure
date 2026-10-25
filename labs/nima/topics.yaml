@@ -1,0 +1,93 @@
+folder: nima
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Contact-aware manipulation, tactile sensing, and compliant dexterous control.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 40
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=fE3FSqIAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Tactile sensing and perception
+  description: Building reproducible tactile sensors and estimating contact forces, poses, and deformation.
+  representative_papers:
+  - title: Scalable Open-Source Visuotactile Sensor for 6-Axis Contact Wrench Estimation in Tensegrity
+      Robots
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:OBSaB-F7qqsC
+    pdf_url: https://arxiv.org/pdf/2607.15633v1.pdf
+  - title: Visual-auditory extrinsic contact estimation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:kw52XkFRtyQC
+    pdf_url: https://arxiv.org/pdf/2409.14608v3.pdf
+  - title: 'GelSlim 4.0: Focusing on touch and reproducibility'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:7H_MAutzIkAC
+    pdf_url: https://arxiv.org/pdf/2409.19770v1.pdf
+  - title: Integrated object deformation and contact patch estimation from visuo-tactile feedback
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:7Hz3ACDFbsoC
+    pdf_url: https://arxiv.org/pdf/2305.14470v1.pdf
+  - title: 'CHSEL: Producing diverse plausible pose estimates from contact and free space data'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:vDZJ-YLwNdEC
+    pdf_url: https://arxiv.org/pdf/2305.08042v1.pdf
+- name: Compliant dexterity and sim-to-real transfer
+  description: Repairing dexterous policies through compliance and transferring tactile skills across
+    simulated or physical systems.
+  representative_papers:
+  - title: 'ReDex: Repairing Sim-to-Real Dexterous Policies by Finger-Level Compliant Interaction'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:mKu_rENv82IC
+    pdf_url: https://arxiv.org/pdf/2610.07525v1.pdf
+  - title: Tactile Sim2Real without Tactile Simulation via Bottlenecked Latent Reconstruction
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:sszUF3NjhM4C
+    pdf_url: https://arxiv.org/pdf/2608.15897v2.pdf
+  - title: 'TAP-VLA: Tactile Annotation Prompting for Vision Language Action Models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:MAUkC_7iAq8C
+    pdf_url: https://arxiv.org/pdf/2606.29089v1.pdf
+  - title: 'ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:HGTzPopzzJcC
+    pdf_url: https://arxiv.org/pdf/2608.19182v1.pdf
+- name: Contact mechanics and forceful manipulation
+  description: Learning whole-body force interaction, collaborative manipulation, and contact-constrained
+    in-hand motion.
+  representative_papers:
+  - title: 'HULK: Learning Whole-Body Forceful Loco-Manipulation for Humanoids'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:RoXSNcbkSzsC
+    pdf_url: https://arxiv.org/pdf/2610.08970v1.pdf
+  - title: 'Built different: Tactile perception to overcome cross-embodiment capability differences in
+      collaborative manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:owLR8QvbtFgC
+    pdf_url: https://arxiv.org/pdf/2409.14896v2.pdf
+  - title: 'GrOMP: Grasped Object Manifold Projection for Multimodal Imitation Learning of Manipulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:SjuI4pbJlxcC
+    pdf_url: https://arxiv.org/pdf/2512.03347v2.pdf
+  - title: Learning diffusion policies for robotic manipulation of timber joinery under fabrication uncertainty
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:WC9gN4BGCRcC
+    pdf_url: https://arxiv.org/pdf/2511.17774v4.pdf
+  - title: Bimanual In-hand Manipulation using Dual Limit Surfaces
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:WHdLCjDvYFkC
+    pdf_url: https://arxiv.org/pdf/2409.14698v1.pdf
+  - title: Precise object sliding with top contact via asymmetric dual limit surfaces
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fE3FSqIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=fE3FSqIAAAAJ:Ak0FvsSvgGUC
+    pdf_url: https://arxiv.org/pdf/2305.14289v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

@@ -1,0 +1,84 @@
+folder: russ
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Optimization-based motion planning and generative policies for constrained physical manipulation.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 24
+  year_range:
+    start: 2024
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=nxNkEiYAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Constrained motion planning and inverse kinematics
+  description: Planning on kinematic constraint manifolds with optimization, semidefinite relaxations,
+    and IK solvers.
+  representative_papers:
+  - title: Planning along Differentiable Charts of Constraint Manifolds with General-Purpose IK Solvers
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:3bvyWxjaHKcC
+    pdf_url: https://arxiv.org/pdf/2609.10905.pdf
+  - title: Semidefinite Relaxations for Collision-Free Motion Planning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:U_HPUtbDl20C
+    pdf_url: https://arxiv.org/pdf/2606.14063.pdf
+  - title: A framework for combining optimization-based and analytic inverse kinematics
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:Br1UauaknNIC
+    pdf_url: https://arxiv.org/pdf/2602.05092.pdf
+  - title: Planning along Differentiable Charts of Constraint Manifolds with the Inverse Function Theorem
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:-jrNzM816MMC
+    pdf_url: https://tommycohn.com/projects/workshops/cohn2026planning/cohn2026planning.pdf
+  - title: Sampling-Based Motion Planning with Discrete Configuration-Space Symmetries
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:1taIhTC69MYC
+    pdf_url: https://arxiv.org/pdf/2503.00614.pdf
+- name: Contact-rich manipulation
+  description: Combining contact-aware optimization and learned control for dexterous interaction.
+  representative_papers:
+  - title: Dexterous contact-rich manipulation via the contact trust region
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:WHdLCjDvYFkC
+    pdf_url: https://arxiv.org/pdf/2505.02291.pdf
+  - title: How Well do Diffusion Policies Learn Kinematic Constraint Manifolds?
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:jU7OWUQzBzMC
+    pdf_url: https://arxiv.org/pdf/2510.01404.pdf
+- name: Diffusion policies and sequence modeling
+  description: Learning from suboptimal data, evaluating long-context policies, and integrating predictive
+    video models.
+  representative_papers:
+  - title: 'Revisiting Open-Loop Execution in Robotics:'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:w0F2JDEymm0C
+    pdf_url: https://arxiv.org/pdf/2608.15938.pdf
+  - title: Training and Evaluating Diffusion Policies with Long Context Lengths
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:NDuN12AVoxsC
+    pdf_url: https://arxiv.org/pdf/2606.16447.pdf
+  - title: 'Ambient Diffusion Policy: Imitation Learning from Suboptimal Data in Robotics'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:PyEswDtIyv0C
+    pdf_url: https://arxiv.org/pdf/2606.12365.pdf
+  - title: Large video planner enables generalizable robot control
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:-mN3Mh-tlDkC
+    pdf_url: https://arxiv.org/pdf/2512.15840v2.pdf
+  - title: Empirical analysis of sim-and-real cotraining of diffusion policies for planar pushing from
+      pixels
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:kw52XkFRtyQC
+    pdf_url: https://arxiv.org/pdf/2503.22634.pdf
+  - title: 'Diffusion forcing: Next-token prediction meets full-sequence diffusion'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=nxNkEiYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=nxNkEiYAAAAJ:43bX7VzcjpAC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/2aee1c4159e48407d68fe16ae8e6e49e-Paper-Conference.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

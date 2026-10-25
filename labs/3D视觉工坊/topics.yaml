@@ -1,0 +1,70 @@
+folder: 3D视觉工坊
+source_type: video_channel
+summary_date: '2026-10-14'
+status: collection_based
+summary: 3D reconstruction, simulation assets, and robot world models in a mixed paper collection.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 23
+  year_range:
+    start: 2025
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://space.bilibili.com/483478083/upload/video
+topics:
+- name: 3D reconstruction and mapping
+  description: Reconstructing scenes using sequential geometry models and Gaussian splatting for mapping
+    and interaction.
+  representative_papers:
+  - title: 'STream3R: Scalable Sequential 3D Reconstruction with Causal Transformer'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1aj8w6NETq
+    pdf_url: https://arxiv.org/pdf/2508.10893v1.pdf
+  - title: CVPR2026 | DualPrim：基于正负双基元的紧凑结构化三维重建
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1H8ji67Eir
+    pdf_url: https://arxiv.org/pdf/2603.16133.pdf
+  - title: 'MCGS-SLAM: A Multi-Camera SLAM Framework Using Gaussian Splatting for High-Fidelity Mapping'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1YAMt6WEha
+    pdf_url: https://arxiv.org/pdf/2509.14191v4.pdf
+- name: Physical asset generation
+  description: Generating articulated and simulation-ready 3D objects for robot training.
+  representative_papers:
+  - title: 'Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1KZuR6sEwB
+    pdf_url: https://arxiv.org/pdf/2610.13947v1.pdf
+  - title: 'PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1nhji61Etp
+    pdf_url: https://arxiv.org/pdf/2511.13648.pdf
+- name: World models and VLA adaptation
+  description: Learning predictive representations and adapting vision-language-action policies to captured
+    scenes.
+  representative_papers:
+  - title: Noise Space Learning for VLA Adaptation
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1TdbG6sEzK
+    pdf_url: https://arxiv.org/pdf/2610.13943v1.pdf
+  - title: 'Splat2Act: From Captured Scenes to Personalized VLA Manipulation'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV16qpe6sEQA
+    pdf_url: https://arxiv.org/pdf/2610.13945v1.pdf
+  - title: 'AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV16qpe6sEQA
+    pdf_url: https://arxiv.org/pdf/2608.29242v2.pdf
+  - title: 'LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1iFME6eE9N
+    pdf_url: https://arxiv.org/pdf/2606.15768v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- Topics describe papers covered by this channel; authorship or affiliation with the channel is not implied.
+- The manifest contains unrelated or incidental entries; the summary prioritizes coherent themes supported
+  by the cited records.

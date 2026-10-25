@@ -26,5 +26,47 @@
     "pdf_url": "https://arxiv.org/pdf/2606.03441v3.pdf",
     "title": "\u6311\u6218\u65e0\u4eba\u673a\uff0c\u89c6\u573a\u89d2\u7269\u7406\u4e0a\u9650\uff1f\u5357\u79d1\u5927\u5468\u535a\u5b87\u56e2\u961f\u6700\u65b0\u63d0\u51fa PerchRL",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1W3aP6PEyS",
+    "pdf_path": "pdfs/2023-gaussian-splatting-slam.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2312.06741v2.pdf",
+    "title": "Gaussian Splatting SLAM",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1PpYD6KERh",
+    "pdf_path": "pdfs/2025-beyondmimic-from-motion-tracking-to-versatile-humanoid-control-via-guided-diffusion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.08241v4.pdf",
+    "title": "BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1opeq6QETU",
+    "pdf_path": "pdfs/2025-tract-regression-aware-fine-tuning-meets-chain-of-thought-reasoning-for-llm-as-a-judge.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.04381v2.pdf",
+    "title": "TRACT: Regression-Aware Fine-tuning Meets Chain-of-Thought Reasoning for LLM-as-a-Judge",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1uVYD6GE2M",
+    "pdf_path": "pdfs/2026-merope-metric-rotary-position-embedding-for-camera-controlled-video-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.01252v1.pdf",
+    "title": "MeRoPE: Metric Rotary Position Embedding for Camera-Controlled Video Generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1h3YT6REMo",
+    "pdf_path": "pdfs/2026-semantic-aware-physics-informed-geometry-grounded-weather-video-synthesis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.29020v1.pdf",
+    "title": "Semantic-Aware, Physics-Informed, Geometry-Grounded Weather Video Synthesis",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV15sap6TE96",
+    "pdf_path": "pdfs/2026-uavs-meet-embodied-intelligence-bridging-human-intents-and-flying-dynamics-via-harnessing-physical-digital-ai-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.18326v1.pdf",
+    "title": "UAVs Meet Embodied Intelligence: Bridging Human Intents and Flying Dynamics Via Harnessing Physical-Digital AI Agents",
+    "year": 2026
   }
 ]

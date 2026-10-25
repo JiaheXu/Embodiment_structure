@@ -1,0 +1,83 @@
+folder: goldberg
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Reliable manipulation and automation, including surgical robotics and deformable objects.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 78
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=8fztli4AAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Surgical automation
+  description: Planning sutures and learning perception-driven debridement and augmented surgical dexterity.
+  representative_papers:
+  - title: 'AGRO-SUVIDE: Agentic Robotics for Surgical Viscoelastic Debridement'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:n8FNryW2AHIC
+    pdf_url: https://arxiv.org/pdf/2609.34823v2.pdf
+  - title: 'MACAW: Reliable And Efficient Surgical Debridement Using Monocular Adaptive Compact Attention
+      Windows'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:2mikiJ1VBVsC
+    pdf_url: https://arxiv.org/pdf/2609.01961v1.pdf
+  - title: 'Suture-It: 3D Surgical Suture Planning with Adaptive-Width Ribbons'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:wTekDMGr9GkC
+    pdf_url: https://autolab.berkeley.edu/assets/publications/media/2026-08-Suture-It-CASE-Final.pdf
+  - title: 'Stitch 2.0: Extending augmented suturing with ekf needle estimation and thread management'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:pe4chHNxNLUC
+    pdf_url: https://arxiv.org/pdf/2510.25768v1.pdf
+  - title: 'Augmented dexterity: How robots can enhance human surgical skills'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:jPVjDSAV6m0C
+    pdf_url: https://autolab.berkeley.edu/assets/publications/media/Augmented-Dexterity-Science-Robotics-Oct-2024.pdf
+- name: Deformable object and precision manipulation
+  description: Tracing cables, handling one-dimensional objects, and using active gaze for precise interaction.
+  representative_papers:
+  - title: 'EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:0iM-huCvmk0C
+    pdf_url: https://arxiv.org/pdf/2610.03710v1.pdf
+  - title: 'TRACE: Interactive Bi-Directional Tracing of Monochrome Cables Amid Clutter'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:Np1obAXpBq8C
+    pdf_url: https://arxiv.org/pdf/2609.29103v1.pdf
+  - title: 'Handloom: Learned tracing of one-dimensional objects for inspection and manipulation'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:yNlG6JgpFqoC
+    pdf_url: https://arxiv.org/pdf/2303.08975v2.pdf
+  - title: Language embedded radiance fields for zero-shot task-oriented grasping
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:43B52WW2E64C
+    pdf_url: https://arxiv.org/pdf/2309.07970v2.pdf
+- name: Agentic robotics and policy learning
+  description: Discovering robot skills, representing automation policies, and evaluating vision-language
+    robotics.
+  representative_papers:
+  - title: 'QF3: Fast Flow RL with Filtered Q-Gradients'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:INdAjOZKYREC
+    pdf_url: https://arxiv.org/pdf/2610.08789v1.pdf
+  - title: Revisiting the" Push-T" Robot Manipulation Task with Agentic Robotics
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:_u2aKJ9e-CoC
+    pdf_url: https://arxiv.org/pdf/2608.18227v1.pdf
+  - title: 'GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:0kLwNjf3oFwC
+    pdf_url: https://arxiv.org/pdf/2607.05369.pdf
+  - title: 'RoboVista: Evaluating Vision Language Models for Diverse Robot Applications'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=8fztli4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8fztli4AAAAJ:l7iSsH4_Im4C
+    pdf_url: https://arxiv.org/pdf/2607.04610v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

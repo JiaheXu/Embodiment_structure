@@ -1,0 +1,30 @@
+folder: geek_UNCLE
+source_type: video_channel
+summary_date: '2026-10-14'
+status: limited_evidence
+summary: Only one saved paper is available, on evaluation of theory of mind.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 1
+  year_range:
+    start: 2026
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://space.bilibili.com/329756594/upload/video
+topics:
+- name: Theory-of-mind evaluation
+  description: Evaluating social reasoning within typed decision models; broader channel coverage cannot
+    be inferred.
+  representative_papers:
+  - title: 'Jev-ToM: Evaluating Theory of Mind in Typed Decision Models'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1uHaU6NECS
+    pdf_url: https://arxiv.org/pdf/2610.18610v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- Topics describe papers covered by this channel; authorship or affiliation with the channel is not implied.
+- The small saved collection limits confidence and breadth of this summary.

@@ -1,0 +1,86 @@
+folder: cewulu
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Reactive multimodal manipulation, embodied policy generalization, and human-guided dexterity.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 86
+  year_range:
+    start: 2025
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=zh-CN&user=QZVQEWAAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Force-aware reactive manipulation
+  description: Integrating force feedback and high-rate reactive execution into diffusion and VLA policies.
+  representative_papers:
+  - title: 'FP2: Equipping Robotic Foundation Models with Force Control'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:-6RzNnnwWf8C
+    pdf_url: https://arxiv.org/pdf/2609.37433v1.pdf
+  - title: 'HIRE: History-Conditioned Interaction Reasoning and High-Rate Execution for Visually Aliased
+      Precision Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:z6xuaG2dYH0C
+    pdf_url: https://arxiv.org/pdf/2609.30828v1.pdf
+  - title: 'FA-RDP: A Frequency-Adaptive Reactive Diffusion Policy for Contact-Rich Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:Wq2b2clWBLsC
+    pdf_url: https://arxiv.org/pdf/2607.28596.pdf
+  - title: 'Never Too Late for Force: Accelerating VLA Post-Training with Reactive Force Injection'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:RJOyoaXV5v8C
+    pdf_url: https://arxiv.org/pdf/2607.14236v2.pdf
+  - title: 'ImplicitRDP: An end-to-end visual-force diffusion policy with structural slow-fast learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:mWEH9CqjF64C
+    pdf_url: https://arxiv.org/pdf/2512.10946v2.pdf
+- name: Visual and geometric generalization
+  description: Using structure, tracking, and interactive visual-physical representations for transferable
+    policies.
+  representative_papers:
+  - title: Rethinking Visual Embodiment Dependence in Visuomotor Policies
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:A8cqit5AE6sC
+    pdf_url: https://arxiv.org/pdf/2609.16815v1.pdf
+  - title: 'StructPolicy: Structure-Guided Imitation Learning Robust to Visual Domain Shifts'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:eAlLMO4JVmQC
+    pdf_url: https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/4858.pdf
+  - title: 'Track4Action: Distilling world-centric 3d tracker into vision-language-action policies'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:isU91gLudPYC
+    pdf_url: https://arxiv.org/pdf/2608.03727v1.pdf
+  - title: 'Artgs: 3d gaussian splatting for interactive visual-physical modeling and manipulation of
+      articulated objects'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:w0F2JDEymm0C
+    pdf_url: https://arxiv.org/pdf/2507.02600v1.pdf
+- name: Human guidance and deployment adaptation
+  description: Retargeting hands, collecting demonstrations, detecting failures, and sharing control with
+    humans.
+  representative_papers:
+  - title: 'AnyDexRT: Calibration-Free Dexterous Hand Retargeting with Few-Shot Human Guidance'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:kJDgFkosVoMC
+    pdf_url: https://arxiv.org/pdf/2607.08341v1.pdf
+  - title: 'Armada: Autonomous online failure detection and human shared control empower scalable real-world
+      deployment and adaptation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:An6A6Jpfc1oC
+    pdf_url: https://arxiv.org/pdf/2510.02298v1.pdf
+  - title: 'Fsglove: An inertial-based hand tracking system with shape-aware calibration'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:69ZgNCALVd0C
+    pdf_url: https://arxiv.org/pdf/2509.21242v1.pdf
+  - title: 'Kalib: easy hand-eye calibration with reference point tracking'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=QZVQEWAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=QZVQEWAAAAAJ:YsrPvlHIBpEC
+    pdf_url: https://arxiv.org/pdf/2408.10562v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

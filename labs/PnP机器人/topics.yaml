@@ -1,0 +1,48 @@
+folder: PnP机器人
+source_type: video_channel
+summary_date: '2026-10-14'
+status: limited_evidence
+summary: A small collection covering embodied policies, task planning, grasping, and point-cloud learning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 4
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://space.bilibili.com/3494357768342155/upload/video
+topics:
+- name: Generalist manipulation policies
+  description: Improving embodied control through dense visual representations and VLA fine-tuning data.
+  representative_papers:
+  - title: 'DATAFARM: Distribution-Aligned Task and Motion Planning for Fine-Tuning Vision-Language-Action
+      Models'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1d8H76wETR
+    pdf_url: https://arxiv.org/pdf/2609.12316v1.pdf
+  - title: 'Patch Policy: Efficient Embodied Control via Dense Visual Representations'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1jdar6ZEFL
+    pdf_url: https://arxiv.org/pdf/2607.18236v1.pdf
+- name: Vision-language grasping
+  description: Using vision-language models for grasp detection without task-specific training.
+  representative_papers:
+  - title: 'VLAD-Grasp: Zero-shot Grasp Detection via Vision-Language Models'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV134Hp6zEfs
+    pdf_url: https://arxiv.org/pdf/2511.05791v2.pdf
+- name: Point-cloud representation learning
+  description: Optimizing attention mechanisms for point-cloud analysis.
+  representative_papers:
+  - title: 'GAM : Gradient Attention Module of Optimization for Point Clouds Analysis'
+    year: 2023
+    page_url: https://www.bilibili.com/video/BV1eqWF6nEqN
+    pdf_url: https://arxiv.org/pdf/2303.10543v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- Topics describe papers covered by this channel; authorship or affiliation with the channel is not implied.
+- The small saved collection limits confidence and breadth of this summary.

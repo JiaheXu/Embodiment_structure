@@ -1,0 +1,43 @@
+folder: jiahui_fu
+source_type: research_profile
+summary_date: '2026-10-14'
+status: limited_evidence
+summary: Zero-shot video-conditioned manipulation and spatial object understanding in a small collection.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 4
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=-FqjG8kAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Video-driven manipulation and planning
+  description: Converting generated videos into actionable motion and closed-loop long-horizon plans.
+  representative_papers:
+  - title: 'Novaflow: Zero-shot manipulation via actionable flow from generated videos'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-FqjG8kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-FqjG8kAAAAJ:Ehil0879vHcC
+    pdf_url: https://arxiv.org/pdf/2510.08568v1.pdf
+  - title: 'NovaPlan: Zero-shot long-horizon manipulation via closed-loop video language planning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-FqjG8kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-FqjG8kAAAAJ:8xutWZnSdmoC
+    pdf_url: https://arxiv.org/pdf/2602.20119v2.pdf
+- name: Visual object and spatial understanding
+  description: Recognizing novel objects from human videos and learning SE(3)-equivariant spatial representations.
+  representative_papers:
+  - title: 'Show, Don''t Tell: Detecting Novel Objects by Watching Human Videos'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-FqjG8kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-FqjG8kAAAAJ:GFxP56DSvIMC
+    pdf_url: https://arxiv.org/pdf/2603.12751v1.pdf
+  - title: 'NeuSE: Neural SE (3)-Equivariant Embedding for Consistent Spatial Understanding with Objects'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-FqjG8kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-FqjG8kAAAAJ:bz8QjSJIRt4C
+    pdf_url: https://arxiv.org/pdf/2303.07308v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- The small saved collection limits confidence and breadth of this summary.

@@ -1,0 +1,21 @@
+folder: 减论
+source_type: video_channel
+summary_date: '2026-10-14'
+status: insufficient_evidence
+summary: No research topics can be inferred from the currently saved files.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 0
+  year_range: null
+  source_files:
+  - link.txt
+  - failed.txt
+  source_urls:
+  - https://space.bilibili.com/3493104581610312/upload/video
+topics: []
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- Topics describe papers covered by this channel; authorship or affiliation with the channel is not implied.
+- The small saved collection limits confidence and breadth of this summary.
+- Only a source link and failure log are available; no paper evidence is saved.

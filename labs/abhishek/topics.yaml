@@ -1,0 +1,88 @@
+folder: abhishek
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Data-efficient robot learning, policy adaptation, and generalization across simulation and real
+  environments.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 55
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=1wLVDP4AAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Reinforcement learning and policy improvement
+  description: Improving generative policies using offline data, efficient fine-tuning, and exploration.
+  representative_papers:
+  - title: Support-Constrained RL Enables Real-World Policy Improvement without Real-World Experience
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:yB1At4FlUx8C
+    pdf_url: https://arxiv.org/pdf/2606.27475v1.pdf
+  - title: 'TMRL: Diffusion Timestep-Modulated Pretraining Enables Exploration for Efficient Policy Finetuning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:-_dYPAW6P2MC
+    pdf_url: https://arxiv.org/pdf/2605.12236v2.pdf
+  - title: 'OGPO: Sample Efficient Full-Finetuning of Generative Control Policies'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:9Nmd_mFXekcC
+    pdf_url: https://arxiv.org/pdf/2605.03065v4.pdf
+  - title: 'Rfs: Reinforcement learning with residual flow steering for dexterous manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:_Re3VWB3Y0AC
+    pdf_url: https://arxiv.org/pdf/2602.01789v3.pdf
+  - title: Using non-expert data to robustify imitation learning via offline reinforcement learning
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:tKAzc9rXhukC
+    pdf_url: https://arxiv.org/pdf/2510.19495.pdf
+- name: Sim-to-real adaptation and evaluation
+  description: Distilling simulated world models and evaluating generalist policies with real-to-sim benchmarks.
+  representative_papers:
+  - title: 'Simulation distillation: Pretraining world models in simulation for rapid real-world adaptation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:35r97b3x0nAC
+    pdf_url: https://arxiv.org/pdf/2603.15759v2.pdf
+  - title: 'Polaris: Scalable real-to-sim evaluations for generalist robot policies'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:ZfRJV9d4-WMC
+    pdf_url: https://arxiv.org/pdf/2512.16881v2.pdf
+  - title: 'The reality gap in robotics: Challenges, solutions, and best practices'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:7T2F9Uy0os0C
+    pdf_url: https://arxiv.org/pdf/2510.20808v1.pdf
+  - title: 'Roboarena: Distributed real-world evaluation of generalist robot policies'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:VL0QpB8kHFEC
+    pdf_url: https://arxiv.org/pdf/2506.18123v2.pdf
+  - title: 'Overcoming the sim-to-real gap: Leveraging simulation to learn to explore for real-world rl'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:t6usbXjVLHcC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/8fa068ffe59817175d176bd75641fe16-Paper-Conference.pdf
+- name: Representations, retrieval, and navigation
+  description: Using visual representations, retrieved demonstrations, and capability-aware language navigation.
+  representative_papers:
+  - title: 'Vamos: A hierarchical vision-language-action model for capability-modulated and steerable
+      navigation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:NJ774b8OgUMC
+    pdf_url: https://arxiv.org/pdf/2510.20818.pdf
+  - title: 'Peek: Guiding and minimal image representations for zero-shot generalization of robot manipulation
+      policies'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:UHK10RUVsp4C
+    pdf_url: https://arxiv.org/pdf/2509.18282v1.pdf
+  - title: Difference-aware retrieval policies for imitation learning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:nrtMV_XWKgEC
+    pdf_url: https://arxiv.org/pdf/2606.09758v1.pdf
+  - title: Semantically controllable augmentations for generalizable robot learning
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1wLVDP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=1wLVDP4AAAAJ:5ugPr518TE4C
+    pdf_url: https://arxiv.org/pdf/2409.00951v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

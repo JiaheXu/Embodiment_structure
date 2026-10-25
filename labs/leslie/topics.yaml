@@ -1,0 +1,89 @@
+folder: leslie
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Structured robot planning and world-model learning under partial observability.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 42
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=IcasIiwAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Task and motion planning
+  description: Combining symbolic planning, motion constraints, diffusion samplers, and foundation models.
+  representative_papers:
+  - title: 'Tiptop: A modular open-vocabulary planning system for robotic manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:xGWFX6Gbr9MC
+    pdf_url: https://arxiv.org/pdf/2603.09971.pdf
+  - title: Open-world task and motion planning via vision-language model generated constraints
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:TesyEGJKHF4C
+    pdf_url: https://arxiv.org/pdf/2411.08253v4.pdf
+  - title: Differentiable gpu-parallelized task and motion planning
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:xm0LlTxljI0C
+    pdf_url: https://arxiv.org/pdf/2411.11833v2.pdf
+  - title: 'Dimsam: Diffusion models as samplers for task and motion planning under partial observability'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:X0DADzN9RKwC
+    pdf_url: https://arxiv.org/pdf/2306.13196v3.pdf
+  - title: What planning problems can A relational neural network solve?
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:JWITY9-sCbMC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/ba90e56a74fd77d0ddec033dc199f0fa-Paper-Conference.pdf
+  - title: Compositional foundation models for hierarchical planning
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:c59VksA5Vz4C
+    pdf_url: https://arxiv.org/pdf/2309.08587v2.pdf
+  - title: Embodied lifelong learning for task and motion planning
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:dAp6zn-oMfAC
+    pdf_url: https://proceedings.mlr.press/v229/mendez-mendez23a/mendez-mendez23a.pdf
+- name: Open-world perception and uncertainty
+  description: Completing cluttered scenes, segmenting uncertain objects, and choosing reconstruction
+    models.
+  representative_papers:
+  - title: Which Reconstruction Model Should a Robot Use? Routing Image-to-3D Models for Cost-Aware Robotic
+      Manipulation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:rOcdG6UcVlcC
+    pdf_url: https://arxiv.org/pdf/2603.27797.pdf
+  - title: 'Scenecomplete: Open-world 3d scene completion in cluttered real world environments for robot
+      manipulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:FsLZdJ3BAzkC
+    pdf_url: https://arxiv.org/pdf/2410.23643v5.pdf
+  - title: Embodied uncertainty-aware object segmentation
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:m4fbC6XIj1kC
+    pdf_url: https://arxiv.org/pdf/2408.04760v1.pdf
+- name: Symbolic world models and program induction
+  description: Extracting predicates, estimating POMDPs, and inferring demonstrated intentions through
+    planning.
+  representative_papers:
+  - title: 'RAPID: Robot Agentic Programming from Demonstrations'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:JH5k92_tO-AC
+    pdf_url: https://arxiv.org/pdf/2609.30249v1.pdf
+  - title: 'From pixels to predicates: Learning symbolic world models via pretrained VLMs'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:YPNY0knpFBYC
+    pdf_url: https://arxiv.org/pdf/2501.00296v4.pdf
+  - title: Llm-guided probabilistic program induction for pomdp model estimation
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:DXE8ND7PrJAC
+    pdf_url: https://arxiv.org/pdf/2505.02216v2.pdf
+  - title: 'Rational Inverse Reasoning: Few-Shot Imitation by Inferring Intent through Planning'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:0sTkTiv_uMkC
+    pdf_url: https://arxiv.org/pdf/2508.08983v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

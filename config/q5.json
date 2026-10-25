@@ -1,9 +1,0 @@
-{
-  "resolved_terms": {"without accurate camera pose": "no externally supplied extrinsics at inference"},
-  "hard_requirements": [
-    {"id": "multiview", "facet": "policy.multiview_input", "operator": "eq", "value": true},
-    {"id": "poses", "facet": "camera.extrinsics_supplied_infer", "operator": "eq", "value": false}
-  ],
-  "search_queries": ["multi-view robot policy camera calibration extrinsics", "uncalibrated multi-camera manipulation"],
-  "evidence_targets": ["policy inputs", "training setup", "inference requirements"]
-}

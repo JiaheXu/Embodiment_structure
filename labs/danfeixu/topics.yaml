@@ -1,0 +1,103 @@
+folder: danfeixu
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Human-to-robot transfer, world-action models, and long-horizon manipulation planning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 69
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=J5D4kcoAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Human demonstration transfer
+  description: Adapting egocentric videos and whole-body demonstrations across embodiments.
+  representative_papers:
+  - title: 'EgoWAM: World Action Models Beyond Pixels with In-the-Wild Egocentric Human Data'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:1qzjygNMrQYC
+    pdf_url: https://arxiv.org/pdf/2607.08436v1.pdf
+  - title: 'WARP: Whole-Body Retargeting for Learning from Offline Human Demonstrations'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:mvPsJ3kp5DgC
+    pdf_url: https://arxiv.org/pdf/2606.29940v2.pdf
+  - title: 'Human2Any: Human-to-Robot Transfer via Constraint-Aware Compositional Planning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:BrmTIyaxlBUC
+    pdf_url: https://arxiv.org/pdf/2606.28813v1.pdf
+  - title: Emergence of human to robot transfer in vision-language-action models
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:738O_yMBCRsC
+    pdf_url: https://arxiv.org/pdf/2512.22414.pdf
+  - title: 'Egobridge: Domain adaptation for generalizable imitation from egocentric human data'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:p2g8aNsByqUC
+    pdf_url: https://arxiv.org/pdf/2509.19626v1.pdf
+  - title: 'Immimic: Cross-domain imitation from human videos via mapping and interpolation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:KxtntwgDAa4C
+    pdf_url: https://arxiv.org/pdf/2509.10952v1.pdf
+  - title: 'MimicTouch: Leveraging Multi-modal Human Tactile Demonstrations for Contact-rich Manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:SeFeTyx0c_EC
+    pdf_url: https://arxiv.org/pdf/2310.16917v4.pdf
+- name: World-action models and policy execution
+  description: Connecting predictive video models with executable actions and scheduling real-time policy
+    inference.
+  representative_papers:
+  - title: 'World-action models for robot learning and control: A survey'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:Mojj43d5GZwC
+    pdf_url: https://arxiv.org/pdf/2609.16074.pdf
+  - title: Action Chunk Scheduling for Batched Robot Policy Serving
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:kRWSkSYxWN8C
+    pdf_url: https://arxiv.org/pdf/2608.00337v1.pdf
+  - title: 'Static In, Dynamic Out: Counterfactual Action Augmentation for Moving Object Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:XiVPGOgt02cC
+    pdf_url: https://arxiv.org/pdf/2607.27890v1.pdf
+  - title: Understanding and Mitigating the Video-Action Generalization Gap via Temporal Ratio
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:wbdj-CoPYUoC
+    pdf_url: https://arxiv.org/pdf/2607.08127v1.pdf
+  - title: 'Learning to See While Learning to Act: Diffusion Models for Active Perception in Robot Imitation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:eflP2zaiRacC
+    pdf_url: https://arxiv.org/pdf/2606.23625.pdf
+- name: Compositional task and motion planning
+  description: Planning with constraints, object descriptors, affordance correspondences, and chained
+    skills.
+  representative_papers:
+  - title: 'GRAFT: Graph-Based Affordance Transfer via Part Correspondence'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:fQNAKQ3IYiAC
+    pdf_url: https://arxiv.org/pdf/2606.25241v1.pdf
+  - title: Energy-based Compositional Diffusion Planning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:V3AGJWp-ZtQC
+    pdf_url: https://arxiv.org/pdf/2606.21646.pdf
+  - title: 'NOD-TAMP: Multi-Step Manipulation Planning with Neural Object Descriptors'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:blknAaTinKkC
+    pdf_url: https://arxiv.org/pdf/2311.01530.pdf
+  - title: 'A survey of optimization-based task and motion planning: From classical to learning approaches'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:J_g5lzvAfSwC
+    pdf_url: https://arxiv.org/pdf/2404.02817.pdf
+  - title: 'Generative skill chaining: Long-horizon skill planning with diffusion models'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:JV2RwH3_ST0C
+    pdf_url: https://arxiv.org/pdf/2401.03360v1.pdf
+  - title: 'League: Guided skill learning and abstraction for long-horizon manipulation'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=J5D4kcoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=J5D4kcoAAAAJ:TFP_iSt0sucC
+    pdf_url: https://arxiv.org/pdf/2210.12631.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

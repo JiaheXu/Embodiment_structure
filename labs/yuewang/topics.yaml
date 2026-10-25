@@ -1,0 +1,101 @@
+folder: yuewang
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Dynamic 3D reconstruction, physical world modeling, and generalizable robot interaction.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 57
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=v-AEFIEAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Dynamic scenes and 3D perception
+  description: Reconstructing outdoor scenes and human bodies and learning geometric correspondence or
+    sensor alignment.
+  representative_papers:
+  - title: 'Fast SAM 3D Body: Accelerating SAM 3D Body for Real-Time Full-Body Human Mesh Recovery'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:NaGl4SEjCO4C
+    pdf_url: https://arxiv.org/pdf/2603.15603v1.pdf
+  - title: 'The Dynamic Prior: Understanding 3D Structures for Casual Dynamic Videos'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:vV6vV6tmYwMC
+    pdf_url: https://arxiv.org/pdf/2512.05398v1.pdf
+  - title: 'STORM: Spatio-Temporal Reconstruction Model for Large-Scale Outdoor Scenes'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:R3hNpaxXUhUC
+    pdf_url: https://arxiv.org/pdf/2501.00602v1.pdf
+  - title: 'DreamDrive: Generative 4D Scene Modeling from Street View Images'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:TQgYirikUcIC
+    pdf_url: https://arxiv.org/pdf/2501.00601v2.pdf
+  - title: Multiview Equivariance Improves 3D Correspondence Understanding with Minimal Feature Finetuning
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:e5wmG9Sq2KIC
+    pdf_url: https://arxiv.org/pdf/2411.19458v2.pdf
+  - title: Rethinking Directional Integration in Neural Radiance Fields
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:4DMP91E08xMC
+    pdf_url: https://arxiv.org/pdf/2311.16504v1.pdf
+  - title: 'Cross-dataset Sensor Alignment: Making Visual 3D Object Detector Generalize'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:YOwf2qJgpHMC
+    pdf_url: https://proceedings.mlr.press/v229/zheng23a/zheng23a.pdf
+- name: Physical world models and synthetic data
+  description: Generating robot demonstrations and controllable video using compositional models and physical
+    reconstruction.
+  representative_papers:
+  - title: 'RoboDream: Compositional World Models for Scalable Robot Data Synthesis'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:70eg2SAEIzsC
+    pdf_url: https://arxiv.org/pdf/2606.02577v1.pdf
+  - title: Representation Fr\'echet Loss for Visual Generation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:lSLTfruPkqcC
+    pdf_url: https://arxiv.org/pdf/2604.28190v1.pdf
+  - title: Seeing the Wind from a Falling Leaf
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:YFjsv_pBGBYC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/45197f019e9c0a5933a2277f700cab4b-Paper-Conference.pdf
+  - title: 'Martian World Model: Controllable Video Synthesis with Physically Accurate 3D Reconstructions'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:BqipwSGYUEgC
+    pdf_url: https://arxiv.org/pdf/2507.07978v2.pdf
+- name: Dexterous and humanoid learning
+  description: Learning multi-stage dexterity, visual imitation, real-to-sim grasps, and whole-body humanoid
+    interaction.
+  representative_papers:
+  - title: 'Concurrent Prehensile and Nonprehensile Manipulation: A Practical Approach to Multi-Stage
+      Dexterous Tasks'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:ldfaerwXgEUC
+    pdf_url: https://arxiv.org/pdf/2603.11655.pdf
+  - title: 'ICLR: In-Context Imitation Learning with Visual Reasoning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:M05iB0D1s5AC
+    pdf_url: https://arxiv.org/pdf/2603.07530v2.pdf
+  - title: The Neverwhere Visual Parkour Benchmark Suite
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:2P1L_qKh6hAC
+    pdf_url: https://arxiv.org/pdf/2609.16443v1.pdf
+  - title: 'D-REX: Differentiable Real-to-Sim-to-Real Engine for Learning Dexterous Grasping'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:RYcK_YlVTxYC
+    pdf_url: https://arxiv.org/pdf/2603.01151v1.pdf
+  - title: 'Ψ0: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:J_g5lzvAfSwC
+    pdf_url: https://arxiv.org/pdf/2603.12263v1.pdf
+  - title: 'Manipbench: Benchmarking vision-language models for low-level robot manipulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v-AEFIEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=v-AEFIEAAAAJ:RGFaLdJalmkC
+    pdf_url: https://arxiv.org/pdf/2505.09698v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

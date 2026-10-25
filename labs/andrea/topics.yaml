@@ -1,0 +1,84 @@
+folder: andrea
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Safe robot learning through uncertainty-aware world models and runtime policy steering.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 44
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=LUe32ToAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Safety filtering and guarantees
+  description: Learning control barrier functions and calibrated decision rules for safety constraints.
+  representative_papers:
+  - title: Rethinking Safety for Generalist Robots
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:35N4QoGY0k4C
+    pdf_url: https://arxiv.org/pdf/2609.06326v1.pdf
+  - title: 'How to Train Your Latent Control Barrier Function: Smooth Safety Filtering Under Hard-to-Model
+      Constraints'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:YFjsv_pBGBYC
+    pdf_url: https://arxiv.org/pdf/2511.18606.pdf
+  - title: How Well Do Latent World Models Understand Partially Observable Safety Constraints?
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:M3NEmzRMIkIC
+    pdf_url: https://arxiv.org/pdf/2510.06492.pdf
+  - title: Updating robot safety representations online from natural language feedback
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:hC7cP41nSMkC
+    pdf_url: https://arxiv.org/pdf/2409.14580.pdf
+  - title: 'Conformal decision theory: Safe autonomous decisions from imperfect predictions'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:aqlVkmm33-oC
+    pdf_url: https://arxiv.org/pdf/2310.05921.pdf
+- name: World-model-based robustness
+  description: Modeling disturbances and generating stress scenarios for policy evaluation and improvement.
+  representative_papers:
+  - title: Modeling Latent Disturbances for Robust Decision-Making in World Models
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:2P1L_qKh6hAC
+    pdf_url: https://arxiv.org/pdf/2610.07599v1.pdf
+  - title: ', Better, Faster, Longer: An Effective World Model for Robotic Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:NaGl4SEjCO4C
+    pdf_url: https://arxiv.org/pdf/2606.13672.pdf
+  - title: 'StressDream: Steering Video World Models for Robust Policy Evaluation and Improvement'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:ns9cj8rnVeAC
+    pdf_url: https://arxiv.org/pdf/2606.00267.pdf
+- name: Interactive policy steering
+  description: Adapting actions using vision, touch, language, verification, and uncertainty-aware requests
+    for feedback.
+  representative_papers:
+  - title: Inference-time Policy Steering via Vision and Touch
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:J_g5lzvAfSwC
+    pdf_url: https://arxiv.org/pdf/2606.14981.pdf
+  - title: 'Learning What to Say to Your VLA: Mostly Harmless Vision Language Action Model Steering'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:RGFaLdJalmkC
+    pdf_url: https://arxiv.org/pdf/2606.12299.pdf
+  - title: 'When to Act, Ask, or Learn: Uncertainty-Aware Policy Steering'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:GnPB-g6toBAC
+    pdf_url: https://arxiv.org/pdf/2602.22474.pdf
+  - title: 'Do what you say: Steering vision-language-action models via runtime reasoning-action alignment
+      verification'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:blknAaTinKkC
+    pdf_url: https://arxiv.org/pdf/2510.16281.pdf
+  - title: Robots that suggest safe alternatives
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LUe32ToAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LUe32ToAAAAJ:IWHjjKOFINEC
+    pdf_url: https://arxiv.org/pdf/2409.09883.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

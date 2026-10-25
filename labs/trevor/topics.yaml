@@ -1,0 +1,83 @@
+folder: trevor
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Visual representation learning, spatial reasoning, and embodied predictive models.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 87
+  year_range:
+    start: 2024
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=bh-uRFMAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: World models for robot control
+  description: Learning geometric motion, visuotactile prediction, and world models for planning or control.
+  representative_papers:
+  - title: 'World Motion Models: Flexible Sequence Modeling of SE (3) Trajectories'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:oMtqKo3K3HAC
+    pdf_url: https://arxiv.org/pdf/2610.01742v1.pdf
+  - title: 'DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:-0tLmPFCw2kC
+    pdf_url: https://arxiv.org/pdf/2609.24976.pdf
+  - title: Lifting embodied world models for planning and control
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:FepLwMwnKBMC
+    pdf_url: https://arxiv.org/pdf/2604.26182v2.pdf
+- name: Visual and spatial reasoning
+  description: Connecting inverse graphics, geometric reconstruction, continuous visual reasoning, and
+    motion understanding.
+  representative_papers:
+  - title: 'Loger: Long-context geometric reconstruction with hybrid memory'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:SoGhKUJvMTQC
+    pdf_url: https://arxiv.org/pdf/2603.03269v2.pdf
+  - title: Vision-as-inverse-graphics agent via interleaved multimodal reasoning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:C6rTQemI8T8C
+    pdf_url: https://arxiv.org/pdf/2601.11109v3.pdf
+  - title: 'Chain-of-visual-thought: Teaching vlms to see and think better with continuous visual tokens'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:hXZnTIgIr50C
+    pdf_url: https://arxiv.org/pdf/2511.19418v3.pdf
+  - title: 'Foundationmotion: Auto-labeling and reasoning about spatial movement in videos'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:cxS_fjKIGZMC
+    pdf_url: https://arxiv.org/pdf/2512.10927v1.pdf
+- name: Foundation model adaptation and evaluation
+  description: Studying visual generation versus understanding, adapting VLA models, and assessing compositional
+    benchmark reliability.
+  representative_papers:
+  - title: 'OmniTaskonomy: When Does Visual Generation Improve Visual Understanding?'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:OC7j4ufeY2cC
+    pdf_url: https://arxiv.org/pdf/2609.38079v1.pdf
+  - title: Mechanistic finetuning of vision-language-action models via few-shot demonstrations
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:f-E_jMG6T4AC
+    pdf_url: https://arxiv.org/pdf/2511.22697v1.pdf
+  - title: Visually prompted benchmarks are surprisingly fragile
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:6YFk0eKgftsC
+    pdf_url: https://arxiv.org/pdf/2512.17875v2.pdf
+  - title: 'Conme: Rethinking evaluation of compositional reasoning for modern vlms'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:ve7iT2ZEuL4C
+    pdf_url: https://arxiv.org/pdf/2406.08164v3.pdf
+  - title: When does perceptual alignment benefit vision representations?
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:_u2aKJ9e-CoC
+    pdf_url: https://arxiv.org/pdf/2410.10817v1.pdf
+  - title: Segment anything without supervision
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bh-uRFMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bh-uRFMAAAAJ:WTSGYGHz1bkC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/fa7f64b45970e6a7f8824781e7e01501-Paper-Conference.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

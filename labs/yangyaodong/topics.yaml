@@ -1,0 +1,103 @@
+folder: yangyaodong
+source_type: research_profile
+summary_date: '2026-10-14'
+status: attribution_unverified
+summary: Multi-agent learning, agent safety and alignment, and real-world dexterous robotics in the saved
+  collection.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 84
+  year_range:
+    start: 2025
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?user=6yL0xw8AAAAJ&hl=en&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Multi-agent reinforcement learning and games
+  description: Learning equilibria, strategic negotiation, robust multi-agent behaviors, and heterogeneous
+    collaboration.
+  representative_papers:
+  - title: Computing ex ante equilibrium in heterogeneous zero-sum team game
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:_tF6a-HnqWAC
+    pdf_url: https://arxiv.org/pdf/2410.01575v1.pdf
+  - title: A Game-Theoretic Negotiation Framework for Cross-Cultural Consensus
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:OzeSX8-yOCQC
+    pdf_url: https://aclanthology.org/2026.acl-long.49.pdf
+  - title: Learning Robust Multi-Agent Policies via Selective Adversarial Fault Induction
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:n3vGvpFsckwC
+    pdf_url: https://arxiv.org/pdf/2508.08800.pdf
+  - title: Sample-Efficient Regret-Minimizing Double Oracle in Two-Player Zero-Sum Extensive-Form Games
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:m4fbC6XIj1kC
+    pdf_url: https://wangchiyuan.com/static/uploads/RMDO_JMLR.pdf
+  - title: Heterogeneous agent collaborative reinforcement learning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:4aZ_i-5WJEQC
+    pdf_url: https://arxiv.org/pdf/2603.02604.pdf
+- name: AI agent safety and alignment
+  description: Evaluating agent boundaries, embodied robustness, safety logic, and deception defenses.
+  representative_papers:
+  - title: 'AgentBoundary: Counterfactual Evaluation of Safety in Tool-Using LLM Agents'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:Azgs6IHzeyYC
+    pdf_url: https://arxiv.org/pdf/2609.33658v1.pdf
+  - title: 'SafeMCP: Proactive Power Regulation for LLM Agent Defense via Environment-Grounded Look-Ahead
+      Reasoning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:37UQlXuwjP4C
+    pdf_url: https://arxiv.org/pdf/2606.01991v1.pdf
+  - title: 'RedVLA: Physical Red Teaming for Vision-Language-Action Models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:zUl2_INMlC4C
+    pdf_url: https://arxiv.org/pdf/2604.22591v2.pdf
+  - title: On robustness of vision-language-action model against multi-modal perturbations
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:PkcyUWeTMh0C
+    pdf_url: https://arxiv.org/pdf/2510.00037v6.pdf
+  - title: 'RoboSafe: Safeguarding Embodied Agents via Executable Safety Logic'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:wE-fMHVdjMkC
+    pdf_url: https://arxiv.org/pdf/2512.21220.pdf
+  - title: Constrained Language Model Policy Optimization via Risk-aware Stepwise Alignment
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:kJDgFkosVoMC
+    pdf_url: https://arxiv.org/pdf/2512.24263.pdf
+- name: Dexterous learning and human interaction
+  description: Learning from demonstrations and human motion priors while aligning embodied behavior with
+    human intent.
+  representative_papers:
+  - title: One Demonstration Is Enough for Real-World Robotic Reinforcement Learning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:naSTrk-c4S8C
+    pdf_url: https://arxiv.org/pdf/2607.01651.pdf
+  - title: 'LAMP: Latent Motion Prior-Guided Real-World Learning for Dexterous Hand Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:sJPMR1oEGYQC
+    pdf_url: https://arxiv.org/pdf/2607.06323v1.pdf
+  - title: Communication-Efficient Desire Alignment for Proactive Embodied Human–Agent Interaction
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:wSy_KLzO7YEC
+    pdf_url: https://arxiv.org/pdf/2505.22503v2.pdf
+  - title: 'EgoSteer: A Full-Stack System Towards Steerable Dexterous Manipulation from Egocentric Videos'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:9DLIHnF0jcYC
+    pdf_url: https://arxiv.org/pdf/2607.09701.pdf
+  - title: 'CDF-Glove: A Cable-Driven Force Feedback Glove for Dexterous Teleoperation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:s9ia6_kGH2AC
+    pdf_url: https://arxiv.org/pdf/2603.05804.pdf
+  - title: 'DexKnot: Generalizable Visuomotor Policy Learning for Dexterous Bag-Knotting Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=6yL0xw8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=6yL0xw8AAAAJ:RuPIJ_LgqDgC
+    pdf_url: https://arxiv.org/pdf/2603.07136.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- 'Attribution requires review: this Google Scholar profile is also linked by Negar Mehr. The summary
+  describes the saved collection, not a verified identity for this folder.'

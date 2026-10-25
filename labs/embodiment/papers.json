@@ -40,5 +40,47 @@
     "pdf_url": "https://arxiv.org/pdf/2609.34474v1.pdf",
     "title": "Deep kernel hedging",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1t6Jv6hEk6",
+    "pdf_path": "pdfs/2026-jeva.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.18773.pdf",
+    "title": "Jeva",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1t6Jv6hEk6",
+    "pdf_path": "pdfs/2026-llm-jeva-system1.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.18773.pdf",
+    "title": "\u3010LLM\u3011Jeva\uff1aSystem1\u6a21\u578b\u65b0\u8303\u5f0f",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hpnA62EDC",
+    "pdf_path": "pdfs/2026-play-policy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.22340.pdf",
+    "title": "Play Policy",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hpnA62EDC",
+    "pdf_path": "pdfs/2026-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.22340.pdf",
+    "title": "[Robotics] \u7075\u5de7\u64cd\u4f5c\u53ef\u4ee5\u901a\u8fc7\u73a9\u800d\u5b66\u4f1a",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1sqnA6TEuA",
+    "pdf_path": "pdfs/2026-speculative-forcing.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.22347.pdf",
+    "title": "Speculative Forcing",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1X9Ji66EV7",
+    "pdf_path": "pdfs/2026-local-support-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.02126v1.pdf",
+    "title": "Local Support Learning",
+    "year": 2026
   }
 ]

@@ -1,0 +1,102 @@
+folder: jeannette
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Dexterous and mobile manipulation with human priors, multimodal contact sensing, and reusable
+  policies.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 64
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=zh-CN&user=rjnJnEkAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Dexterous contact-rich manipulation
+  description: Learning human-guided exploration, tactile skills, precise assembly, and contact-geometric
+    generalization.
+  representative_papers:
+  - title: 'EigenDEXplore: Structured Exploration for Dexterous Manipulation with Human Priors'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:LO7wyVUgiFcC
+    pdf_url: https://arxiv.org/pdf/2610.07681v1.pdf
+  - title: 'SoTa: Soft Tactile Skins for Dexterous Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:8d8msizDQcsC
+    pdf_url: https://arxiv.org/pdf/2610.02338v1.pdf
+  - title: 'One demonstration, many objects: Generalizing manipulation via local contact geometry'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:_FM0Bhl9EiAC
+    pdf_url: https://arxiv.org/pdf/2609.01938v2.pdf
+  - title: Demystifying when and why vlas fail in contact-rich tasks and how to fix them
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:GtLg2Ama23sC
+    pdf_url: https://arxiv.org/pdf/2608.01402v1.pdf
+  - title: 'Play2Perfect: What Matters in Dexterous Play Pretraining for Precise Assembly?'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:YohjEiUPhakC
+    pdf_url: https://arxiv.org/pdf/2606.26428v3.pdf
+  - title: Gentle Object Retraction in Dense Clutter Using Multimodal Force Sensing and Imitation Learning
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:PoWvk5oyLR8C
+    pdf_url: https://arxiv.org/pdf/2508.19476v2.pdf
+  - title: 'Get a grip: Multi-finger grasp evaluation at scale enables robust sim-to-real transfer'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:epqYDVWIO7EC
+    pdf_url: https://arxiv.org/pdf/2410.23701.pdf
+  - title: 'Neural attention field: Emerging point relevance in 3d scenes for one-shot dexterous grasping'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:vDijr-p_gm4C
+    pdf_url: https://arxiv.org/pdf/2410.23039v1.pdf
+- name: Mobile robot assistance and collaboration
+  description: Learning bimanual mobile policies, decentralized collaboration, and personalized household
+    assistance.
+  representative_papers:
+  - title: 'MessyMem: Learning-from-Doing Memory for Mobile Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:FAceZFleit8C
+    pdf_url: https://arxiv.org/pdf/2609.15976v2.pdf
+  - title: 'Mixture of Frames Policy: Multi-Frame Action Denoising for Bimanual Mobile Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:Ri6SYOTghG4C
+    pdf_url: https://arxiv.org/pdf/2607.11884v1.pdf
+  - title: 'CHORUS: Decentralized Multi-Embodiment Collaboration with One VLA Policy'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:rmuvC79q63oC
+    pdf_url: https://arxiv.org/pdf/2606.12352v1.pdf
+  - title: 'Tidybot++: An open-source holonomic mobile manipulator for robot learning'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:URolC5Kub84C
+    pdf_url: https://arxiv.org/pdf/2412.10447v1.pdf
+  - title: 'Tidybot: Personalized robot assistance with large language models'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:hkOj_22Ku90C
+    pdf_url: https://arxiv.org/pdf/2305.05658v2.pdf
+  - title: 'Text2motion: From natural language instructions to feasible plans'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:VL0QpB8kHFEC
+    pdf_url: https://arxiv.org/pdf/2303.12153v5.pdf
+- name: Data curation and continual adaptation
+  description: Using deployment feedback, data editing, and influence-based curation for scalable robot
+    learning.
+  representative_papers:
+  - title: 'Masquerade: Learning from in-the-wild human videos using data-editing'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:SpbeaW3--B0C
+    pdf_url: https://arxiv.org/pdf/2508.09976v1.pdf
+  - title: 'Robot-powered data flywheels: Deploying robots in the wild for continual data collection and
+      foundation model adaptation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:foquWX3nUaYC
+    pdf_url: https://arxiv.org/pdf/2511.19647v1.pdf
+  - title: 'Cupid: Curating data your robot loves with influence functions'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=rjnJnEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=rjnJnEkAAAAJ:k8Z6L05lTy4C
+    pdf_url: https://arxiv.org/pdf/2506.19121v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

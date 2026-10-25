@@ -1,0 +1,95 @@
+folder: hewang
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Generalizable dexterity, garment manipulation, and embodied navigation.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 82
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=roCAWkoAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Dexterous grasping and tactile interaction
+  description: Generating task-oriented dexterous grasps and using tactile feedback for robust manipulation.
+  representative_papers:
+  - title: 'TacDexGrasp: Compliant and Robust Dexterous Grasping with Tactile Feedback'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:raTqNPD5sRQC
+    pdf_url: https://arxiv.org/pdf/2603.07040v1.pdf
+  - title: 'KPGrasp: Scalable Keypoint Flow Matching for Dexterous Grasp Generation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:F2UWTTQJPOcC
+    pdf_url: https://arxiv.org/pdf/2606.09314v1.pdf
+  - title: 'DexVLG: Dexterous Vision-Language-Grasp Model at Scale'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:3NQIlFlcGxIC
+    pdf_url: https://arxiv.org/pdf/2507.02747v1.pdf
+  - title: 'DexGraspNet 2.0: Learning Generative Dexterous Grasping in Large-scale Synthetic Cluttered
+      Scenes'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:7BrZ7Jt4UNcC
+    pdf_url: https://arxiv.org/pdf/2410.23004v1.pdf
+  - title: Enhancing generalizable 6D pose tracking of an in-hand object with tactile sensing
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:uDGL6kOW6j0C
+    pdf_url: https://arxiv.org/pdf/2210.04026.pdf
+- name: Garment and tool manipulation
+  description: Learning folding, hanger insertion, and cutting with synthesized demonstrations and transferable
+    affordances.
+  representative_papers:
+  - title: 'FoldNet++: a Large-Scale Synthetic Dataset for Robotic T-Shirt Folding and Unfolding'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:kzcSZmkxUKAC
+    pdf_url: https://arxiv.org/pdf/2607.15163.pdf
+  - title: 'FoldNet: Learning generalizable closed-loop policy for garment folding via keypoint-driven
+      asset and demonstration synthesis'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:-mN3Mh-tlDkC
+    pdf_url: https://arxiv.org/pdf/2505.09109v6.pdf
+  - title: 'Robohanger: Learning generalizable robotic hanger insertion for diverse garments'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:kWvqk_afx_IC
+    pdf_url: https://arxiv.org/pdf/2412.01083v4.pdf
+  - title: 'Scissorbot: Learning generalizable scissor skill for paper cutting via simulation, imitation,
+      and sim2real'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:MpfHP-DdYjUC
+    pdf_url: https://arxiv.org/pdf/2409.13966v2.pdf
+  - title: 'Ram: Retrieval-based affordance transfer for generalizable zero-shot robotic manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:nRpfm8aw39MC
+    pdf_url: https://arxiv.org/pdf/2407.04689v1.pdf
+- name: Adaptive embodied policies and navigation
+  description: Adapting world-action models, improving policies with RL, and learning lifelong spatial
+    navigation.
+  representative_papers:
+  - title: 'WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:5bg8sr1QxYwC
+    pdf_url: https://arxiv.org/pdf/2607.06988v2.pdf
+  - title: 'AllDayNav: Lifelong Navigation via Real-World Reinforcement Learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:oi2SiIJ9l4AC
+    pdf_url: https://arxiv.org/pdf/2606.10927v1.pdf
+  - title: Adaptive Q-Chunking for Offline-to-Online Reinforcement Learning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:ziOE8S1-AIUC
+    pdf_url: https://arxiv.org/pdf/2605.05544v1.pdf
+  - title: 'SPAN-Nav: Generalized Spatial Awareness for Versatile Vision-Language Navigation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:kF1pexMAQbMC
+    pdf_url: https://arxiv.org/pdf/2603.09163v2.pdf
+  - title: 'Code-as-monitor: Constraint-aware visual programming for reactive and proactive robotic failure
+      detection'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=roCAWkoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=roCAWkoAAAAJ:CB2v5VPnA5kC
+    pdf_url: https://arxiv.org/pdf/2412.04455v3.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

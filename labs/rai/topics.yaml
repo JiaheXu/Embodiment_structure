@@ -1,0 +1,91 @@
+folder: rai
+source_type: publication_page
+summary_date: '2026-10-14'
+status: collection_based
+summary: A mixed robotics collection covering contact-rich control, physical models, and embodied planning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 30
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://rai-inst.com/resources/?_type=papers
+topics:
+- name: Contact-rich dexterous manipulation
+  description: Planning and learning bimanual reorientation and dexterity with contact or friction models.
+  representative_papers:
+  - title: Dexterous Contact-Rich Manipulation via the Contact Trust Region
+    year: 2026
+    page_url: https://rai-inst.com/resources/papers/dexterous-contact-rich-manipulation-via-the-contact-trust-region/
+    pdf_url: https://arxiv.org/pdf/2505.02291v4.pdf
+  - title: Planning-Guided Diffusion Policy Learning for Contact-Rich Bimanual Object Reorientation
+    year: 2026
+    page_url: https://rai-inst.com/resources/papers/planning-guided-diffusion-policy-learning-for-contact-rich-bimanual-object-reorientation/
+    pdf_url: https://arxiv.org/pdf/2412.02676v2.pdf
+  - title: Robotic Dexterous Manipulation via Anisotropic Friction Modulation using Passive Rollers
+    year: 2026
+    page_url: https://rai-inst.com/resources/papers/robotic-dexterous-manipulation-via-anisotropic-friction-modulation-using-passive-rollers/
+    pdf_url: https://arxiv.org/pdf/2603.27452v1.pdf
+- name: Physical dynamics and simulation transfer
+  description: Learning deformable and equivariant object dynamics and transferring agile robot skills.
+  representative_papers:
+  - title: 'EMPM: Embodied MPM for Modeling and Simulation ofDeformable Objects'
+    year: 2026
+    page_url: https://rai-inst.com/resources/papers/empm-embodied-mpm-for-modeling-and-simulation-ofdeformable-objects/
+    pdf_url: https://arxiv.org/pdf/2601.17251v1.pdf
+  - title: Flip Stunts on Bicycle Robots using Iterative Motion Imitation
+    year: 2026
+    page_url: https://rai-inst.com/resources/papers/flip-stunts-on-bicycle-robots-using-iterative-motion-imitation/
+    pdf_url: https://arxiv.org/pdf/2603.27944v1.pdf
+  - title: Learning Equivariant Neural-Augmented Object Dynamics from Few Interactions
+    year: 2026
+    page_url: https://rai-inst.com/resources/papers/learning-equivariant-neural-augmented-object-dynamics-from-few-interactions/
+    pdf_url: https://arxiv.org/pdf/2605.02699v1.pdf
+  - title: 'Diffuse-CLoC: Guided Diffusion for Physics-based Character Look-ahead Control'
+    year: 2025
+    page_url: https://rai-inst.com/resources/papers/diffuse-cloc-guided-diffusion-for-physics-based-character-look-ahead-control/
+    pdf_url: https://arxiv.org/pdf/2503.11801v3.pdf
+  - title: 'High-Performance Reinforcement Learning on Spot: Optimizing Simulation Parameters with Distributional
+      Measures'
+    year: 2025
+    page_url: https://rai-inst.com/resources/papers/high-performance-reinforcement-learning-on-spot/
+    pdf_url: https://arxiv.org/pdf/2504.17857v3.pdf
+- name: Structured embodied planning
+  description: Learning predicates and hierarchical task abstractions and using videos or language for
+    navigation and manipulation.
+  representative_papers:
+  - title: Jointly Learning Predicates and Actions Enables Zero-Shot Skill Composition
+    year: 2026
+    page_url: https://rai-inst.com/resources/papers/jointly-learning-predicates-and-actions-enables-zero-shot-skill-composition/
+    pdf_url: https://arxiv.org/pdf/2605.20648v1.pdf
+  - title: 'NovaFlow: Zero-Shot Manipulation viaActionable Flow from Generated Videos'
+    year: 2026
+    page_url: https://rai-inst.com/resources/papers/novaflow-zero-shot-manipulation-viaactionable-flow-from-generated-videos/
+    pdf_url: https://arxiv.org/pdf/2510.08568v1.pdf
+  - title: 'ROVER: Recursive Reasoning Over Videos with Vision-Language Models for Embodied Tasks'
+    year: 2026
+    page_url: https://rai-inst.com/resources/papers/rover-recursive-reasoning-over-videos-with-vision-language-models-for-embodied-tasks/
+    pdf_url: https://arxiv.org/pdf/2508.01943v2.pdf
+  - title: 'ASHiTA: Automatic Scene-grounded Hierarchical Task Analysis'
+    year: 2025
+    page_url: https://rai-inst.com/resources/papers/ashita-automatic-scene-grounded-hierarchical-task-analysis/
+    pdf_url: https://arxiv.org/pdf/2504.06553v3.pdf
+  - title: Adaptive Language-Guided Abstraction from Contrastive Explanations
+    year: 2024
+    page_url: https://rai-inst.com/resources/papers/adaptive-language-guided-abstraction-from-contrastive-explanations/
+    pdf_url: https://arxiv.org/pdf/2409.08212v2.pdf
+  - title: 'D3Fields: Dynamic 3D Descriptor Fields for Zero-Shot Generalizable Rearrangement'
+    year: 2024
+    page_url: https://rai-inst.com/resources/papers/d3fields-dynamic-3d-descriptor-fields-for-zero-shot-generalizable-rearrangement/
+    pdf_url: https://arxiv.org/pdf/2309.16118v3.pdf
+  - title: 'VLFM: Vision-Language Frontier Maps for Zero-Shot Semantic Navigation'
+    year: 2023
+    page_url: https://rai-inst.com/resources/papers/vlfm-vision-language-frontier-maps-for-zero-shot-semantic-navigation/
+    pdf_url: https://arxiv.org/pdf/2312.03275v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

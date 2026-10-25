@@ -1,0 +1,92 @@
+folder: homanga
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Transferring human interaction videos into robot affordances, motions, and skills.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 26
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=zh-CN&user=wwW4HRQAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Human-video-to-robot transfer
+  description: Using egocentric and internet videos to reconstruct hand-object trajectories and generate
+    manipulation policies.
+  representative_papers:
+  - title: 'Track, Articulate, Act: Generating Articulation from Casual Human Videos'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:HoB7MX3m0LUC
+    pdf_url: https://arxiv.org/pdf/2609.19119v1.pdf
+  - title: Dexterous manipulation policies from rgb human videos via 3d hand-object trajectory reconstruction
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:vV6vV6tmYwMC
+    pdf_url: https://arxiv.org/pdf/2602.09013v2.pdf
+  - title: 'Flowing from reasoning to motion: Learning 3d hand trajectory prediction from egocentric human
+      interaction videos'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:J_g5lzvAfSwC
+    pdf_url: https://arxiv.org/pdf/2512.16907v2.pdf
+  - title: 'Track2Act: Predicting point tracks from internet videos enables generalizable robot manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:4JMBOYKVnBMC
+    pdf_url: https://arxiv.org/pdf/2405.01527v2.pdf
+  - title: Towards generalizable zero-shot manipulation via translating human interaction plans
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:hFOr9nPyWt4C
+    pdf_url: https://arxiv.org/pdf/2312.00775v1.pdf
+  - title: Zero-Shot Robot Manipulation from Passive Human Videos
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:ZeXyd9-uunAC
+    pdf_url: https://arxiv.org/pdf/2302.02011v1.pdf
+- name: Affordances and dexterous retargeting
+  description: Learning functional grasps, force-aware transfer, and physics-informed hand retargeting.
+  representative_papers:
+  - title: Functional Force-Aware Retargeting from Virtual Human Demos to Soft Robot Policies
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:70eg2SAEIzsC
+    pdf_url: https://arxiv.org/pdf/2604.01224v1.pdf
+  - title: 'Spider: Scalable physics-informed dexterous retargeting'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:RGFaLdJalmkC
+    pdf_url: https://arxiv.org/pdf/2511.09484v3.pdf
+  - title: 'Web2grasp: Learning functional grasps from web images of hand-object interactions'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:hMod-77fHWUC
+    pdf_url: https://arxiv.org/pdf/2505.05517v3.pdf
+  - title: Visual Affordance Prediction for Guiding Robot Exploration
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:hC7cP41nSMkC
+    pdf_url: https://arxiv.org/pdf/2305.17783v1.pdf
+- name: Embodied memory and coordination
+  description: Understanding persistent object memory, partner constraints, and compositional long-horizon
+    tasks.
+  representative_papers:
+  - title: What 30,000 Hours of Ego-centric Video Does Not Teach
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:rO6llkc54NcC
+    pdf_url: https://arxiv.org/pdf/2610.12464.pdf
+  - title: 'Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:3s1wT3WcHBgC
+    pdf_url: https://arxiv.org/pdf/2610.10538v1.pdf
+  - title: 'Watch, Infer, Coordinate: Inferring Robot Partner Constraints for Zero-Shot Coordination'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:SeFeTyx0c_EC
+    pdf_url: https://arxiv.org/pdf/2610.02170v1.pdf
+  - title: 'Lilo-vla: Compositional long-horizon manipulation via linked object-centric policies'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:35N4QoGY0k4C
+    pdf_url: https://arxiv.org/pdf/2602.21531v1.pdf
+  - title: 'Walk through Paintings: Egocentric World Models from Internet Priors'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=wwW4HRQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wwW4HRQAAAAJ:lSLTfruPkqcC
+    pdf_url: https://arxiv.org/pdf/2601.15284v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

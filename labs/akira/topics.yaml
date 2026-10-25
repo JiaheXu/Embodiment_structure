@@ -1,0 +1,97 @@
+folder: akira
+source_type: video_channel
+summary_date: '2026-10-14'
+status: collection_based
+summary: Coverage of generalist robot foundation models, human-video conditioning, and policy benchmarks.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 68
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://space.bilibili.com/3494360580622974/upload/video
+topics:
+- name: Vision-language-action foundation models
+  description: Scaling language-conditioned generalist policies and efficient action representations.
+  representative_papers:
+  - title: 'GR00T N1: An Open Foundation Model for Generalist Humanoid Robots'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1ZaHy6yEse
+    pdf_url: https://arxiv.org/pdf/2503.14734v2.pdf
+  - title: 'FAST: Efficient Action Tokenization for Vision-Language-Action Models'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1taH16eEmb
+    pdf_url: https://arxiv.org/pdf/2501.09747v1.pdf
+  - title: 'Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1UDHy6aEyC
+    pdf_url: https://arxiv.org/pdf/2502.19645v2.pdf
+  - title: 'π0: A Vision-Language-Action Flow Model for General Robot Control'
+    year: 2024
+    page_url: https://www.bilibili.com/video/BV1YqHk6eEYC
+    pdf_url: https://arxiv.org/pdf/2410.24164v4.pdf
+  - title: 'OpenVLA: An Open-Source Vision-Language-Action Model'
+    year: 2024
+    page_url: https://www.bilibili.com/video/BV1E8Hk6uEAg
+    pdf_url: https://arxiv.org/pdf/2406.09246v3.pdf
+- name: World-action models and test-time adaptation
+  description: Conditioning policies on human videos and expanding context for open-ended task generalization.
+  representative_papers:
+  - title: 'StellaVLA: In-Context Structured Demonstration for Generalizable Vision-Language-Action Models'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1hupu6qExN
+    pdf_url: https://arxiv.org/pdf/2608.11671v1.pdf
+  - title: 'Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1WzpK6nEiJ
+    pdf_url: https://arxiv.org/pdf/2608.26103v2.pdf
+  - title: 'RoboTTT: Context Scaling for Robot Policies'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV12YpK6WEB2
+    pdf_url: https://arxiv.org/pdf/2607.15275v1.pdf
+  - title: 'WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1XnpK6aE54
+    pdf_url: https://arxiv.org/pdf/2607.06988v2.pdf
+- name: Robot datasets, simulation, and evaluation
+  description: Using cross-embodiment datasets and large simulation or real-robot benchmarks.
+  representative_papers:
+  - title: 'RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot
+      Manipulation Policies'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1mHHt67EVD
+    pdf_url: https://arxiv.org/pdf/2607.04434v3.pdf
+  - title: 'RoboCasa365: A Large-Scale Simulation Framework for Training and Benchmarking Generalist Robots'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1eQHt6oEc8
+    pdf_url: https://arxiv.org/pdf/2603.04356v1.pdf
+  - title: 'RDT2: Exploring the Scaling Limit of UMI Data Towards Zero-Shot Cross-Embodiment Generalization'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV13mHy6vEBQ
+    pdf_url: https://arxiv.org/pdf/2602.03310v1.pdf
+  - title: 'RoboChallenge: Large-scale Real-robot Evaluation of Embodied Policies'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1M6H46jEKP
+    pdf_url: https://arxiv.org/pdf/2510.17950v1.pdf
+  - title: Demonstrating GPU Parallelized Robot Simulation and Rendering for Generalizable Embodied AI
+      with ManiSkill3
+    year: 2024
+    page_url: https://www.bilibili.com/video/BV1KtHt65EJe
+    pdf_url: https://arxiv.org/pdf/2410.00425v2.pdf
+  - title: 'VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon
+      Reasoning Tasks'
+    year: 2024
+    page_url: https://www.bilibili.com/video/BV1sNHf68EkJ
+    pdf_url: https://arxiv.org/pdf/2412.18194.pdf
+  - title: 'Open X-Embodiment: Robotic Learning Datasets and RT-X Models'
+    year: 2023
+    page_url: https://www.bilibili.com/video/BV1D4HC6FEMK
+    pdf_url: https://arxiv.org/pdf/2310.08864v9.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- Topics describe papers covered by this channel; authorship or affiliation with the channel is not implied.

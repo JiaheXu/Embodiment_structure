@@ -1,0 +1,62 @@
+folder: 具身智能之心
+source_type: video_channel
+summary_date: '2026-10-14'
+status: collection_based
+summary: Coverage of robot foundation models, tactile dexterity, and humanoid or cross-embodiment control.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 37
+  year_range:
+    start: 2026
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://space.bilibili.com/1961034195/upload/video
+topics:
+- name: World-action and generalist robot models
+  description: Reporting predictive robot architectures, failure-aware training, and VLA precision manipulation.
+  representative_papers:
+  - title: 机器人45分钟学会实验！中科大发布VLA-Precision，成功率达到98.3%
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV18dbN63Ef6
+    pdf_url: https://arxiv.org/pdf/2609.04355.pdf
+  - title: 'FACT: Failure-Aware Causal Training for World-Action Models'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1u2gP69EJV
+    pdf_url: https://arxiv.org/pdf/2608.10232.pdf
+  - title: 'FLEX-π: A MULTI-STREAM WORLD-ACTION MODEL WITH COMPUTE FLEXIBILITY'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1gngW6VExb
+    pdf_url: https://arxiv.org/pdf/2608.10860.pdf
+- name: Tactile and human demonstration data
+  description: Covering large tactile datasets and reconstruction of human motion for embodied learning.
+  representative_papers:
+  - title: 只靠眼睛不够用！新智具身开源 5000 小时触觉数据，给机器人补上“手感”
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1ukt36HEBT
+    pdf_url: https://arxiv.org/pdf/2608.29601.pdf
+  - title: 'Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1SkhX6VEPU
+    pdf_url: https://arxiv.org/pdf/2609.30187.pdf
+- name: Humanoid control and cross-embodiment navigation
+  description: Covering visual locomotion, shared whole-body control, and transferable navigation policies.
+  representative_papers:
+  - title: 单相机狂走1.5公里！X-Humanoid提出SOLO，机器人一口气爬完100多级台阶
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1h4tt6iEJH
+    pdf_url: https://arxiv.org/pdf/2608.26583.pdf
+  - title: 9种人形机器人一起学动作！复旦、同济联合提出X-WBC，不同机器人可以共享训练经验
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1boew6rEPJ
+    pdf_url: https://arxiv.org/pdf/2609.15213.pdf
+  - title: 单个策略适配不同架构机器人！上海AI Lab X-NavDP 做到业界顶尖跨本体视觉导航
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1ajub64E42
+    pdf_url: https://arxiv.org/pdf/2607.28560.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- Topics describe papers covered by this channel; authorship or affiliation with the channel is not implied.

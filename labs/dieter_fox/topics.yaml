@@ -1,0 +1,92 @@
+folder: dieter_fox
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Generalist manipulation with geometric perception, world models, and contact-aware adaptation.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 56
+  year_range:
+    start: 2025
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=DqXsbPAAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Contact-rich policy learning
+  description: Learning insertion and assembly with torque adaptation, active fine-tuning, and visuotactile
+    feedback.
+  representative_papers:
+  - title: Generalizable Robotic Insertion with World Models
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:tVbZQR0Ku0MC
+    pdf_url: https://arxiv.org/pdf/2609.28258v1.pdf
+  - title: 'TAM: Torque Adaptation Module for Robust Motion Transfer in Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:oKUQpTv76aEC
+    pdf_url: https://arxiv.org/pdf/2606.06218v2.pdf
+  - title: 'Refinery: Active Fine-tuning and Deployment-time Optimization for Contact-Rich Policies'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:Q53-OCnB6AQC
+    pdf_url: https://arxiv.org/pdf/2510.11019v1.pdf
+  - title: 'Vt-refine: Learning bimanual assembly with visuo-tactile feedback via simulation fine-tuning'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:w1G5vK4DiEkC
+    pdf_url: https://arxiv.org/pdf/2510.14930v2.pdf
+- name: Embodied action reasoning and generalization
+  description: Using spatial reasoning, video demonstrations, compact visual representations, and preference
+    alignment.
+  representative_papers:
+  - title: 'SeeTraceAct: Visibility-Aware Latent Planning from Cross-Embodiment Demonstration Videos'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:STWYWLtSq6gC
+    pdf_url: https://arxiv.org/pdf/2606.02745v1.pdf
+  - title: 'Peek: Guiding and minimal image representations for zero-shot generalization of robot manipulation
+      policies'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:x3zuONe3eqIC
+    pdf_url: https://arxiv.org/pdf/2509.18282v1.pdf
+  - title: 'Molmoact: Action reasoning models that can reason in space'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:ZD92IwzDgOkC
+    pdf_url: https://arxiv.org/pdf/2508.07917v4.pdf
+  - title: 'Grape: Generalizing robot policy via preference alignment'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:NXjrwPNzFTMC
+    pdf_url: https://arxiv.org/pdf/2411.19309v2.pdf
+  - title: 'Molmoact2: Action reasoning models for real-world deployment'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:prKdS1S5QkMC
+    pdf_url: https://arxiv.org/pdf/2605.02881v2.pdf
+- name: Grasping, tools, and robust evaluation
+  description: Generating grasps and robotic tools while assessing policy vulnerabilities and recovery.
+  representative_papers:
+  - title: 'Graspgen: A diffusion-based framework for 6-dof grasping with on-generator training'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:END1nS_e-6cC
+    pdf_url: https://arxiv.org/pdf/2507.13097.pdf
+  - title: 'Robo Eval: Where Robotic Manipulation Meets Structured and Scalable Evaluation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:5n9gSBKMxCsC
+    pdf_url: https://arxiv.org/pdf/2507.00435v2.pdf
+  - title: 'Robotsmith: Generative robotic tool design for acquisition of complex manipulation skills'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:vQKLzKM0twkC
+    pdf_url: https://arxiv.org/pdf/2506.14763v1.pdf
+  - title: 'Robomd: Uncovering robot vulnerabilities through semantic potential fields'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:Yeq4f8IuGg4C
+    pdf_url: https://arxiv.org/pdf/2412.02818v4.pdf
+  - title: 'OptiGrasp: optimized grasp pose detection using RGB images for warehouse picking robots'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:rhSvDnGaX0QC
+    pdf_url: https://arxiv.org/pdf/2409.19494v1.pdf
+  - title: 'Failsafe: Reasoning and recovery from failures in vision-language-action models'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DqXsbPAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=DqXsbPAAAAAJ:1UYbAEPjJNAC
+    pdf_url: https://arxiv.org/pdf/2510.01642v4.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

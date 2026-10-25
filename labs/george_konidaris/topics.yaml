@@ -1,0 +1,90 @@
+folder: george_konidaris
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Hierarchical robot planning, skill abstraction, and data-efficient reinforcement learning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 60
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=9UERvVEAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Skill discovery and symbolic abstraction
+  description: Learning options, predicates, actions, and initiation sets for reusable skills.
+  representative_papers:
+  - title: 'Going Beyond State-Reaching: Learning Abstractions for Intrinsically Motivated Option Discovery'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:Bg7qf7VwUHIC
+    pdf_url: https://arxiv.org/pdf/2609.36473v1.pdf
+  - title: Jointly Learning Predicates and Actions Enables Zero-Shot Skill Composition
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:5icHVeHT4IsC
+    pdf_url: https://arxiv.org/pdf/2605.20648v1.pdf
+  - title: 'SkillWrapper: Generative Predicate Invention for Task-level Robot Planning'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:0CzhzZyukY4C
+    pdf_url: https://arxiv.org/pdf/2511.18203v8.pdf
+  - title: Effectively learning initiation sets in hierarchical reinforcement learning
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:Ug5p-4gJ2f0C
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/e8da56eb93676e8f60ed2b696e44e7dc-Paper-Conference.pdf
+  - title: Synthesizing navigation abstractions for planning with portable manipulation skills
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:ruyezt5ZtCIC
+    pdf_url: https://proceedings.mlr.press/v229/rosen23a/rosen23a.pdf
+- name: Hierarchical task and skill planning
+  description: Combining black-box skills and abstractions for long-horizon planning.
+  representative_papers:
+  - title: 'Task and Skill Planning: Hierarchical Robot Planning with Black-Box Skills'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:nVrZBo8bIpAC
+    pdf_url: https://arxiv.org/pdf/2504.17901v3.pdf
+  - title: Least Commitment Planning for the Object Scouting Problem
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:3htObqc8RwsC
+    pdf_url: http://irl.cs.brown.edu/pubs/scouting_pop.pdf
+  - title: 'Epo: Hierarchical llm agents with environment preference optimization'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:8d8msizDQcsC
+    pdf_url: https://arxiv.org/pdf/2408.16090v2.pdf
+  - title: 'Mineplanner: A benchmark for long-horizon planning in large minecraft worlds'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:hCrLmN-GePgC
+    pdf_url: https://arxiv.org/pdf/2312.12891.pdf
+- name: Efficient adaptive robot learning
+  description: Learning under a practice budget and handling uncertainty, dynamics shift, and partial
+    observability.
+  representative_papers:
+  - title: Characterizing Replay Retention Under Dynamics Shift in Model-Based Reinforcement Learning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:jL-93Qbq4QoC
+    pdf_url: https://arxiv.org/pdf/2609.18167v1.pdf
+  - title: 'Deliberate Practice: Learning Robot Skills under a Budget'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:uDGL6kOW6j0C
+    pdf_url: https://arxiv.org/pdf/2608.13415.pdf
+  - title: 'Novaflow: Zero-shot manipulation via actionable flow from generated videos'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:r_AWSJRzSzQC
+    pdf_url: https://arxiv.org/pdf/2510.08568v1.pdf
+  - title: 'From Noise to Control: Parameterized Diffusion Policies'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:u-coK7KVo8oC
+    pdf_url: https://arxiv.org/pdf/2606.00336v1.pdf
+  - title: Accelerating residual reinforcement learning with uncertainty estimation
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:bKqednn6t2AC
+    pdf_url: https://arxiv.org/pdf/2506.17564.pdf
+  - title: Mitigating partial observability in sequential decision processes via the lambda discrepancy
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9UERvVEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9UERvVEAAAAJ:4fGpz3EwCPoC
+    pdf_url: https://arxiv.org/pdf/2407.07333v3.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

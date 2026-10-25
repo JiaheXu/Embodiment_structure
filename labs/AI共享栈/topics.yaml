@@ -1,0 +1,51 @@
+folder: AI共享栈
+source_type: video_channel
+summary_date: '2026-10-14'
+status: limited_evidence
+summary: Coverage of learning-based navigation, state estimation, and dexterous manipulation.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 6
+  year_range:
+    start: 2025
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://space.bilibili.com/220707258/upload/video
+topics:
+- name: Learning-based flight and navigation
+  description: Learning agile flight and diffusion-based local trajectory planning.
+  representative_papers:
+  - title: Learning Agile Quadrotor Flight in the Real World
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1bQKs6KEwG
+    pdf_url: https://arxiv.org/pdf/2602.10111v2.pdf
+  - title: 'SanD-Planner: Sample-Efficient Diffusion Planner in B-Spline Space for Robust Local Navigation'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1JN7t6sEXJ
+    pdf_url: https://arxiv.org/pdf/2602.00923.pdf
+- name: Contact-aware state estimation
+  description: Estimating robot state using learned contact uncertainty.
+  representative_papers:
+  - title: 'CoCo-InEKF: State Estimation with Learned Contact Covariances in Dynamic, Contact-Rich Scenarios'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1pS5i61ECq
+    pdf_url: https://arxiv.org/pdf/2605.15122v1.pdf
+- name: Visual dexterity and scene understanding
+  description: Transferring visual hand manipulation from simulation and segmenting scenes without supervision.
+  representative_papers:
+  - title: Scene-Centric Unsupervised Panoptic Segmentation
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1CwEf6DE2X
+    pdf_url: https://arxiv.org/pdf/2504.01955v1.pdf
+  - title: 'ViserDex: Visual Sim-to-Real for Robust Dexterous In-hand Reorientation'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1MoLr6gEfT
+    pdf_url: https://arxiv.org/pdf/2604.11138v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- Topics describe papers covered by this channel; authorship or affiliation with the channel is not implied.
+- The small saved collection limits confidence and breadth of this summary.

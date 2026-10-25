@@ -1,0 +1,100 @@
+folder: jiayuan_mao
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Structured embodied reasoning, program-based robot planning, and multimodal generative control.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 43
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=-xaOIZIAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Structured reasoning and concept grounding
+  description: Learning logical concepts and planning representations grounded in images, language, and
+    relations.
+  representative_papers:
+  - title: Metonymic Circuits for Abstract Concept Grounding in Vision Transformers
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:tOudhMTPpwUC
+    pdf_url: https://arxiv.org/pdf/2610.06928v1.pdf
+  - title: Composition-Grounded Instruction Synthesis for Visual Reasoning
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:_xSYboBqXhAC
+    pdf_url: https://arxiv.org/pdf/2510.15040.pdf
+  - title: 'Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:3s1wT3WcHBgC
+    pdf_url: https://arxiv.org/pdf/2410.07166v3.pdf
+  - title: Learning Iterative Reasoning through Energy Diffusion
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:lSLTfruPkqcC
+    pdf_url: https://arxiv.org/pdf/2406.11179v1.pdf
+  - title: Finding Structure in Logographic Writing with Library Learning
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:NaGl4SEjCO4C
+    pdf_url: https://arxiv.org/pdf/2405.06906v1.pdf
+  - title: What Planning Problems Can A Relational Neural Network Solve?
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:YFjsv_pBGBYC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/ba90e56a74fd77d0ddec033dc199f0fa-Paper-Conference.pdf
+  - title: What’s Left? Concept Grounding with Logic-Enhanced Foundation Models
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:NMxIlDl6LWMC
+    pdf_url: https://arxiv.org/pdf/2310.16035v1.pdf
+  - title: Learning Adaptive Planning Representations with Natural Language Guidance
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:BqipwSGYUEgC
+    pdf_url: https://arxiv.org/pdf/2312.08566.pdf
+- name: Agentic robot programming and planning
+  description: Generating robot programs, maintaining partner interaction patterns, and replanning through
+    video models.
+  representative_papers:
+  - title: 'RAPID: Robot Agentic Programming from Demonstrations'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:WbkHhVStYXYC
+    pdf_url: https://arxiv.org/pdf/2609.30249v1.pdf
+  - title: 'SIMLIFE: Pattern Understanding for Long-Horizon Human-Agent Partnership'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:K3LRdlH-MEoC
+    pdf_url: https://arxiv.org/pdf/2609.19610v2.pdf
+  - title: 'Guava: An Effective and Universal Harness for Embodied Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:u9iWguZQMMsC
+    pdf_url: https://arxiv.org/pdf/2606.18363.pdf
+  - title: Implicit state estimation via video replanning
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:bFI3QPDXJZMC
+    pdf_url: https://arxiv.org/pdf/2510.17315.pdf
+- name: Multimodal physical policy learning
+  description: Learning force-informed actions, grasp synthesis, multimodal policy consensus, and generative-model
+    RL.
+  representative_papers:
+  - title: Robot Learning with Visual Predicted Force
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:l7t_Zn2s7bgC
+    pdf_url: https://arxiv.org/pdf/2610.04741.pdf
+  - title: Understanding and Mitigating the Video-Action Generalization Gap via Temporal Ratio
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:738O_yMBCRsC
+    pdf_url: https://arxiv.org/pdf/2607.08127v1.pdf
+  - title: Adversarial game-theoretic algorithm for dexterous grasp synthesis
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:OU6Ihb5iCvQC
+    pdf_url: https://arxiv.org/pdf/2511.05809.pdf
+  - title: Multi-modal manipulation via multi-modal policy consensus
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:f2IySw72cVMC
+    pdf_url: https://arxiv.org/pdf/2509.23468.pdf
+  - title: 'V-GRPO: Online Reinforcement Learning for Denoising Generative Models Is Easier than You Think'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-xaOIZIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=-xaOIZIAAAAJ:uWQEDVKXjbEC
+    pdf_url: https://arxiv.org/pdf/2604.23380v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

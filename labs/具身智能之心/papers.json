@@ -257,5 +257,19 @@
     "pdf_url": "https://arxiv.org/pdf/2609.15213.pdf",
     "title": "X-WBC: A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1yjJr63ECG",
+    "pdf_path": "pdfs/2026-20.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.13354.pdf",
+    "title": "\u82f1\u4f1f\u8fbe\u4e0d\u6559\u673a\u5668\u4eba\u600e\u4e48\u88c5\uff0c\u5b83\u53cd\u800c\u81ea\u5df1\u5b66\u4f1a\u4e8620\u79cd\u88c5\u914d",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1YwJX6nEGQ",
+    "pdf_path": "pdfs/2026-sear-self-evolving-agentic-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.18792v1.pdf",
+    "title": "SEAR: Self-Evolving Agentic Robotics",
+    "year": 2026
   }
 ]

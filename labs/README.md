@@ -352,13 +352,15 @@ The wrapper exports:
 - `AI_API_KEY`
 - `AI_MODEL`
 
-It supports two backends:
+The wrapper uses the local proxy with `gpt-6-astra`:
 
 ```bash
-AI_BACKEND=local ./labs/download_paper.sh --dry-run
-AI_BACKEND=deepseek DEEPSEEK_API_KEY=... ./labs/download_paper.sh --dry-run
+./labs/download_paper.sh --dry-run
 ```
 
+`CODEX_PROXY_URL` or `CODEX_PROXY_BASE_URL` can change the proxy address, and
+`CODEX_PROXY_API_KEY` supplies a custom proxy credential. The wrapper always
+selects `gpt-6-astra` and overwrites stale AI backend/model environment settings.
 Optional local secrets and proxy settings can be put in:
 
 ```text

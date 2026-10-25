@@ -1,0 +1,95 @@
+folder: yonatan_bisk
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Grounded language, situated reasoning, and memory for embodied agents.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 59
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=bWoGh8UAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Language-grounded robot control
+  description: Aligning language with action representations and improving instruction following in generalist
+    policies.
+  representative_papers:
+  - title: 'Lost in Reconstruction: Aligning Action Representations with Language in Vision-Language-Action
+      Models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:gVv57TyPmFsC
+    pdf_url: https://arxiv.org/pdf/2608.10484v1.pdf
+  - title: 'Bridging language and action: A survey of language-conditioned robot manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:dBIO0h50nwkC
+    pdf_url: https://arxiv.org/pdf/2312.10807.pdf
+  - title: 'ELASTIC: Efficiently Learning to Adaptively Scale Test-Time Compute for Generative Control
+      Policies'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:Aul-kAQHnToC
+    pdf_url: https://arxiv.org/pdf/2606.31132v1.pdf
+  - title: Flatness Preserves Instruction Following in Vision-Language-Action Models
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:ZzlSgRqYykMC
+    pdf_url: https://arxiv.org/pdf/2606.23641v1.pdf
+  - title: Inductive Generalization for Robotic Manipulation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:_OXeSy2IsFwC
+    pdf_url: https://arxiv.org/pdf/2606.20999v1.pdf
+- name: Situated spatial reasoning and embodied memory
+  description: Evaluating observer-grounded spatial understanding and retrieving affordances or scene
+    memories.
+  representative_papers:
+  - title: 'Contextual Observer Grounding: Evaluating Situated Spatial Reasoning in Vision-Language Models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:gKiMpY-AVTkC
+    pdf_url: https://arxiv.org/pdf/2609.06880v1.pdf
+  - title: 'Affordance RAG: Hierarchical Multimodal Retrieval with Affordance-Aware Embodied Memory for
+      Mobile Manipulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:LhH-TYMQEocC
+    pdf_url: https://arxiv.org/pdf/2512.18987v1.pdf
+  - title: 'Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:umqufdRvDiIC
+    pdf_url: https://arxiv.org/pdf/2409.18313v5.pdf
+  - title: 'DegustaBot: Zero-Shot Visual Preference Estimation for Personalized Multi-Object Rearrangement'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:0izLItjtcgwC
+    pdf_url: https://arxiv.org/pdf/2407.08876v1.pdf
+  - title: Reasoning about the Unseen for Efficient Outdoor Object Navigation
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:gsN89kCJA0AC
+    pdf_url: https://arxiv.org/pdf/2309.10103v2.pdf
+- name: Social intelligence and language-agent evaluation
+  description: Studying reasoning behaviors, social expectations, and interactive social-intelligence
+    benchmarks.
+  representative_papers:
+  - title: 'Amplified Does Not Mean Predictive: Reasoning Behaviors in Thinking Models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:nVrZBo8bIpAC
+    pdf_url: https://arxiv.org/pdf/2608.13760v1.pdf
+  - title: Evaluation of ML Resource Utilization Requires Model Life Cycle Assessment
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:Ehil0879vHcC
+    pdf_url: https://arxiv.org/pdf/2606.07632v1.pdf
+  - title: When Should AI Read the Room? Public Perceptions of Social Intelligence in AI Agents
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:P7Ujq4OLJYoC
+    pdf_url: https://arxiv.org/pdf/2605.29938.pdf
+  - title: Gradient Localization Improves Lifelong Pretraining of Language Models
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:DUooU5lO8OsC
+    pdf_url: https://arxiv.org/pdf/2411.04448v1.pdf
+  - title: 'SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bWoGh8UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bWoGh8UAAAAJ:b1wdh0AR-JQC
+    pdf_url: https://arxiv.org/pdf/2310.11667v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

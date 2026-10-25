@@ -208,5 +208,271 @@
     "pdf_url": "https://arxiv.org/pdf/2502.04644.pdf",
     "title": "Agentic Reasoning: A Streamlined Framework for Enhancing LLM Reasoning with Agentic Tools",
     "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1KAHm6AEJ1",
+    "pdf_path": "pdfs/2024-dynamic-open-vocabulary-3d-scene-graphs-for-long-term-language-guided-mobile-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.11989v6.pdf",
+    "title": "Dynamic Open-Vocabulary 3D Scene Graphs for Long-term Language-Guided Mobile Manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1DKHd6wEAN",
+    "pdf_path": "pdfs/2025-graph2eval-automatic-multimodal-task-generation-for-agents-via-knowledge-graphs.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.00507v3.pdf",
+    "title": "Graph2Eval: Automatic Multimodal Task Generation for Agents via Knowledge Graphs",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1gKHy6YEAQ",
+    "pdf_path": "pdfs/2025-kerag-knowledge-enhanced-retrieval-augmented-generation-for-advanced-question-answering.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.04716v1.pdf",
+    "title": "KERAG: Knowledge-Enhanced Retrieval-Augmented Generation for Advanced Question Answering",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV19UHt6fEft",
+    "pdf_path": "pdfs/2025-stereoscopic-cylindrical-screen-scs-projection.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.12237v1.pdf",
+    "title": "Stereoscopic Cylindrical Screen (SCS) Projection",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1PpHd6HEWQ",
+    "pdf_path": "pdfs/2025-vistawise-building-cost-effective-agent-with-cross-modal-knowledge-graph-for-minecraft.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2508.18722v3.pdf",
+    "title": "VistaWise: Building Cost-Effective Agent with Cross-Modal Knowledge Graph for Minecraft",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1bmpA67EAg",
+    "pdf_path": "pdfs/2026-a-tree-based-rag-framework-for-evidence-intensive-qa-via-adaptive-planning-and-topology-aware-evidence-gathering.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.04981v1.pdf",
+    "title": "A Tree-based RAG Framework for Evidence-Intensive QA via Adaptive Planning and Topology-Aware Evidence Gathering",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1xgpA6kEGi",
+    "pdf_path": "pdfs/2026-beyond-chunk-local-extraction-cross-chunk-graph-augmentation-for-graphrag.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.28004v1.pdf",
+    "title": "Beyond Chunk-Local Extraction: Cross-Chunk Graph Augmentation for GraphRAG",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1KVHy6ZEWB",
+    "pdf_path": "pdfs/2026-evlink-source-grounded-evidence-linking-for-graph-rag.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.29695v1.pdf",
+    "title": "EvLink: Source-Grounded Evidence Linking for Graph RAG",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV141HS63E1W",
+    "pdf_path": "pdfs/2026-industryasseteqa-a-neurosymbolic-operational-intelligence-system-for-embodied-question-answering-in-industrial-asset-mai.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.23446v1.pdf",
+    "title": "IndustryAssetEQA: A Neurosymbolic Operational Intelligence System for Embodied Question Answering in Industrial Asset Maintenance",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV14jHy6dEcw",
+    "pdf_path": "pdfs/2026-integrated-exploration-and-sequential-manipulation-on-scene-graph-with-llm-based-situated-replanning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.04419v2.pdf",
+    "title": "Integrated Exploration and Sequential Manipulation on Scene Graph with LLM-based Situated Replanning",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV13ipA6REZL",
+    "pdf_path": "pdfs/2026-query-aware-flow-diffusion-for-graph-based-rag-with-retrieval-guarantees.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2605.18775v1.pdf",
+    "title": "Query-Aware Flow Diffusion for Graph-Based RAG with Retrieval Guarantees",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1qcJm62ES3",
+    "pdf_path": "pdfs/2024-explore-until-confident-efficient-exploration-for-embodied-question-answering.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.15941.pdf",
+    "title": "Explore until Confident: Efficient Exploration for Embodied Question Answering",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1SmJ86nEyQ",
+    "pdf_path": "pdfs/2024-repoformer-selective-retrieval-for-repository-level-code-completion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.10059.pdf",
+    "title": "Repoformer: Selective Retrieval for Repository-Level Code Completion",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1D1J86QEbX",
+    "pdf_path": "pdfs/2024-repograph-enhancing-ai-software-engineering-with-repository-level-code-graph.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.14684.pdf",
+    "title": "RepoGraph: Enhancing AI Software Engineering with Repository-level Code Graph",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV14fJC6nEs3",
+    "pdf_path": "pdfs/2026-arxiv-2026-efm-10-bap.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.01939.pdf",
+    "title": "\u3010arXiv 2026\u3011\ud83c\udf93EFM-10 & BAP\uff1a\u8ba9\u673a\u68b0\u81c2\u81ea\u5df1\u627e\u89c6\u89d2\uff0c\u63a2\u7d22\u4e0e\u805a\u7126\u64cd\u4f5c\u7684\u65b0\u95ee\u9898\u3001\u57fa\u51c6\u4e0e\u53cc\u81c2\u4e3b\u52a8\u611f\u77e5\u7b56\u7565",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV12wnu6sEux",
+    "pdf_path": "pdfs/2026-esem-2026-issue-auc-0-863.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.18280.pdf",
+    "title": "\u3010ESEM 2026\u3011\ud83c\udf93\u8f6f\u4ef6 Issue \u96be\u5ea6\u53ef\u9759\u6001\u9884\u6d4b\uff1aAUC 0.863 \u786e\u5b9a\u6027\u96be\u5ea6\u5c3a",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1fJJq6XEmQ",
+    "pdf_path": "pdfs/2026-from-historical-patches-to-repair-plans-outcome-conditioned-reasoning-for-repository-level-program-repair.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.23257.pdf",
+    "title": "From Historical Patches to Repair Plans: Outcome-Conditioned Reasoning for Repository-Level Program Repair",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1fJJq6XEmQ",
+    "pdf_path": "pdfs/2026-icml-2026-conrad.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.23257.pdf",
+    "title": "\u3010ICML 2026\u3011\ud83c\udf93ConRAD\uff1a\u4ece\u5386\u53f2\u8865\u4e01\u5012\u63a8\u51fa\u4fee\u590d\u8ba1\u5212",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV14fJC6nEs3",
+    "pdf_path": "pdfs/2026-towards-exploratory-and-focused-manipulation-with-bimanual-active-perception-a.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.01939.pdf",
+    "title": "Towards Exploratory and Focused Manipulation with Bimanual Active Perception: A",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV12wnu6sEux",
+    "pdf_path": "pdfs/2026-what-makes-software-issue-resolution-tasks-difficult-for-agents.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.18280.pdf",
+    "title": "What Makes Software Issue Resolution Tasks Difficult for Agents?",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1DhJy6bEyh",
+    "pdf_path": "pdfs/2023-compass-high-efficiency-deep-image-compression-with-arbitrary-scale-spatial-scalability.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2309.07926v2.pdf",
+    "title": "COMPASS: High-Efficiency Deep Image Compression with Arbitrary-scale Spatial Scalability",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1yoJ865ERS",
+    "pdf_path": "pdfs/2024-sbest-spectrum-based-fault-localization-without-fault-triggering-tests.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.00565v2.pdf",
+    "title": "SBEST: Spectrum-Based Fault Localization Without Fault-Triggering Tests",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1MxJ66jEiB",
+    "pdf_path": "pdfs/2025-agents-in-the-sandbox-end-to-end-crash-bug-reproduction-for-minecraft.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.20036v2.pdf",
+    "title": "Agents in the Sandbox: End-to-End Crash Bug Reproduction for Minecraft",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1U1J86QEfz",
+    "pdf_path": "pdfs/2025-coderag-finding-relevant-and-necessary-knowledge-for-retrieval-augmented-repository-level-code-completion.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.16112v1.pdf",
+    "title": "CodeRAG: Finding Relevant and Necessary Knowledge for Retrieval-Augmented Repository-Level Code Completion",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1YiJz6SERQ",
+    "pdf_path": "pdfs/2025-fea-bench-a-benchmark-for-evaluating-repository-level-code-generation-for-feature-implementation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.06680v2.pdf",
+    "title": "FEA-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1tmJz6GErm",
+    "pdf_path": "pdfs/2025-imitation-game-reproducing-deep-learning-bugs-leveraging-an-intelligent-agent.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.14990v3.pdf",
+    "title": "Imitation Game: Reproducing Deep Learning Bugs Leveraging an Intelligent Agent",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1Cunu6SE3K",
+    "pdf_path": "pdfs/2025-swe-factory-your-automated-factory-for-issue-resolution-training-data-and-evaluation-benchmarks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.10954v3.pdf",
+    "title": "SWE-Factory: Your Automated Factory for Issue Resolution Training Data and Evaluation Benchmarks",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1avJq6kEMN",
+    "pdf_path": "pdfs/2025-swe-flow-synthesizing-software-engineering-data-in-a-test-driven-manner.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.09003v2.pdf",
+    "title": "SWE-Flow: Synthesizing Software Engineering Data in a Test-Driven Manner",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1S1J86QEJ3",
+    "pdf_path": "pdfs/2025-swerank-software-issue-localization-with-code-ranking.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.07849v2.pdf",
+    "title": "SweRank: Software Issue Localization with Code Ranking",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1j3J66dEaF",
+    "pdf_path": "pdfs/2025-tdflow-agentic-workflows-for-test-driven-development.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.23761v2.pdf",
+    "title": "TDFlow: Agentic Workflows for Test Driven Development",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1TvHR6WEM7",
+    "pdf_path": "pdfs/2025-unraveling-sitt-social-influence-technique-taxonomy-and-detection-with-llms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.00061v1.pdf",
+    "title": "Unraveling SITT: Social Influence Technique Taxonomy and Detection with LLMs",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1BgJh6vEdE",
+    "pdf_path": "pdfs/2026-dream-rsi-recursive-self-improvement-through-evolving-worlds.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2609.14858v2.pdf",
+    "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1ncJ66YEdM",
+    "pdf_path": "pdfs/2026-empowering-autonomous-debugging-agents-with-efficient-dynamic-analysis.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.24212v1.pdf",
+    "title": "Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1i8Jz69ER5",
+    "pdf_path": "pdfs/2026-from-guessing-to-seeing-enhancing-llm-based-program-repair-via-trace-guided-multi-strategy-debate.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.02647v2.pdf",
+    "title": "From Guessing to Seeing: Enhancing LLM-Based Program Repair via Trace-Guided Multi-strategy Debate",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV12gJz6qEc3",
+    "pdf_path": "pdfs/2026-paichecker-uncovering-and-checking-pr-issue-misalignment-in-swe-bench-like-benchmarks.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.28587v2.pdf",
+    "title": "PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1WoH96JEeB",
+    "pdf_path": "pdfs/2026-sapave-towards-active-perception-and-manipulation-in-vision-language-action-models-for-robotics.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.12193v1.pdf",
+    "title": "SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV16KJh6MEq9",
+    "pdf_path": "pdfs/2026-swe-adept-an-llm-based-agentic-framework-for-deep-codebase-analysis-and-structured-issue-resolution.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.01327v3.pdf",
+    "title": "SWE-Adept: An LLM-Based Agentic Framework for Deep Codebase Analysis and Structured Issue Resolution",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV17FJm67EEA",
+    "pdf_path": "pdfs/2026-tos-a-team-of-specialists-ensemble-framework-for-stereo-sound-event-localization-and-detection-with-distance-estimation-.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.17611v1.pdf",
+    "title": "ToS: A Team of Specialists ensemble framework for Stereo Sound Event Localization and Detection with distance estimation in Video",
+    "year": 2026
   }
 ]

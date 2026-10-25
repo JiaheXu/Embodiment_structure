@@ -1,0 +1,65 @@
+folder: abhinav_gupta
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Learning transferable robot skills from human videos and visual representations.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 32
+  year_range:
+    start: 2023
+    end: 2025
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=bqL73OkAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Human-video-to-robot transfer
+  description: Predicting point tracks, generating human videos, and learning affordances for manipulation.
+  representative_papers:
+  - title: 'Track2act: Predicting point tracks from internet videos enables generalizable robot manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:VHymtrwLyIYC
+    pdf_url: https://arxiv.org/pdf/2405.01527v2.pdf
+  - title: 'Gen2act: Human video generation in novel scenarios enables generalizable robot manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:h-fwNd0rmTkC
+    pdf_url: https://arxiv.org/pdf/2409.16283v1.pdf
+  - title: 'Hrp: Human affordances for robotic pre-training'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:vMcOFpnEpxoC
+    pdf_url: https://arxiv.org/pdf/2407.18911v1.pdf
+- name: Visual representation learning
+  description: Pretraining visual features and converting pretrained representations into robot controllers.
+  representative_papers:
+  - title: Towards latent masked image modeling for self-supervised visual representation learning
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:n84Jz4DGfQYC
+    pdf_url: https://arxiv.org/pdf/2407.15837v1.pdf
+  - title: An unbiased look at datasets for visuo-motor pre-training
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:dJuzUO4sCEAC
+    pdf_url: https://arxiv.org/pdf/2310.09289v1.pdf
+  - title: 'Manipulate by seeing: Creating manipulation controllers from pre-trained representations'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:gNsIjQZ6FscC
+    pdf_url: https://arxiv.org/pdf/2303.08135v4.pdf
+- name: Hand-object interaction and touch
+  description: Predicting human hand-object interaction and using tactile sensing for dexterous hands.
+  representative_papers:
+  - title: 'Handsonvlm: Vision-language models for hand-object interaction prediction'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:6nNZn6i0kyMC
+    pdf_url: https://arxiv.org/pdf/2412.13187v2.pdf
+  - title: 'All the feels: A dexterous hand with large-area tactile sensing'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:4p5LGG1h9z0C
+    pdf_url: https://arxiv.org/pdf/2210.15658.pdf
+  - title: Diffusion-guided reconstruction of everyday hand-object interaction clips
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bqL73OkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=bqL73OkAAAAJ:rjBKtydo3wgC
+    pdf_url: https://arxiv.org/pdf/2309.05663v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

@@ -1,0 +1,76 @@
+folder: pieter_abbeel
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Robot reinforcement learning, humanoid interaction, and scalable visual world-model training.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 87
+  year_range:
+    start: 2025
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=zh-CN&user=vtwH6GkAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Humanoid and cross-embodiment manipulation
+  description: Learning whole-body interaction and reusable dexterous primitives from human data.
+  representative_papers:
+  - title: 'Workhorse: Learning Robust Whole-Body Humanoid Loco-Manipulation from Human Data'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vtwH6GkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vtwH6GkAAAAJ:HAmI6pRF5skC
+    pdf_url: https://arxiv.org/pdf/2610.09117v2.pdf
+  - title: 'GOTT: Object-centric Dexterous Manipulation with a Reusable Cross-Embodiment Primitive'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vtwH6GkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vtwH6GkAAAAJ:yNlG6JgpFqoC
+    pdf_url: https://arxiv.org/pdf/2610.03861.pdf
+  - title: Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vtwH6GkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vtwH6GkAAAAJ:JavbeY_VQWIC
+    pdf_url: https://arxiv.org/pdf/2609.38172v1.pdf
+  - title: Humanoid Safe Stop via Learned Stoppability Value
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vtwH6GkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vtwH6GkAAAAJ:iWL_APfBKHwC
+    pdf_url: https://arxiv.org/pdf/2609.02358v1.pdf
+  - title: 'VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vtwH6GkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vtwH6GkAAAAJ:WHBERAHVdrEC
+    pdf_url: https://arxiv.org/pdf/2606.30645v1.pdf
+- name: Reinforcement learning and self-improvement
+  description: Improving flow policies, practicing in reconstructed worlds, and exploring through touch
+    or state entropy.
+  representative_papers:
+  - title: 'QF3: Fast Flow RL with Filtered Q-Gradients'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vtwH6GkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vtwH6GkAAAAJ:AubyX3KqGToC
+    pdf_url: https://arxiv.org/pdf/2610.08789v1.pdf
+  - title: 'Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vtwH6GkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vtwH6GkAAAAJ:43B52WW2E64C
+    pdf_url: https://arxiv.org/pdf/2610.02204v1.pdf
+  - title: Tactile Curiosity Drives Robot Interaction
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vtwH6GkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vtwH6GkAAAAJ:-LHtoeeytlUC
+    pdf_url: https://arxiv.org/pdf/2609.40134v2.pdf
+  - title: 'SEMDICE: Off-policy State Entropy Maximization via Stationary Distribution Correction Estimation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vtwH6GkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vtwH6GkAAAAJ:ynsZFq2pu0MC
+    pdf_url: https://arxiv.org/pdf/2512.10042v1.pdf
+- name: World models and visual planning
+  description: Using predictive video and world models for generalizable robot control.
+  representative_papers:
+  - title: 'World model for robot learning: A comprehensive survey'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vtwH6GkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vtwH6GkAAAAJ:anDooRL1HQEC
+    pdf_url: https://arxiv.org/pdf/2605.00080.pdf
+  - title: Large video planner enables generalizable robot control
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vtwH6GkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vtwH6GkAAAAJ:10A3hb2jUxYC
+    pdf_url: https://arxiv.org/pdf/2512.15840v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- The manifest contains unrelated or incidental entries; the summary prioritizes coherent themes supported
+  by the cited records.

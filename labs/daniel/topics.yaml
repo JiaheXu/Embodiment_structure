@@ -1,0 +1,95 @@
+folder: daniel
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Dexterous and bimanual manipulation with tactile perception and challenging object materials.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 35
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=ECHSnpYAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Dexterous contact-rich control
+  description: Combining grasping, touch, and prehensile or nonprehensile skills for multi-stage manipulation.
+  representative_papers:
+  - title: 'HANDFUL: Sequential Grasp-Conditioned Dexterous Manipulation with Resource Awareness'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:pyW8ca7W8N0C
+    pdf_url: https://arxiv.org/pdf/2604.25126v2.pdf
+  - title: 'Concurrent Prehensile and Nonprehensile Manipulation: A Practical Approach to Multi-Stage
+      Dexterous Tasks'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:rO6llkc54NcC
+    pdf_url: https://arxiv.org/pdf/2603.11655.pdf
+  - title: When Does Touch Matter? Charting the Vision-Interaction Gap in Cluttered Dexterous Grasping
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:SP6oXDckpogC
+    pdf_url: https://arxiv.org/pdf/2609.24068v1.pdf
+  - title: 'FELT: Generating Tactile Signals from Vision for Visuo-Tactile Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:1sJd4Hv_s6UC
+    pdf_url: https://arxiv.org/pdf/2607.20683v1.pdf
+  - title: Learning to Singulate Objects in Packed Environments using a Dexterous Hand
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:R3hNpaxXUhUC
+    pdf_url: https://arxiv.org/pdf/2409.00643.pdf
+- name: Bimanual policies and synthetic data
+  description: Generating dual-arm demonstrations and learning geometry-aware manipulation policies.
+  representative_papers:
+  - title: 'ExStereo: Lifting 2D Vision-Language-Action Models to 3D with Explicit Stereo Representations'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:uWQEDVKXjbEC
+    pdf_url: https://arxiv.org/pdf/2610.04805v1.pdf
+  - title: 'CRAFT: Video Diffusion for Bimanual Robot Data Generation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:yD5IFk8b50cC
+    pdf_url: https://arxiv.org/pdf/2604.03552v1.pdf
+  - title: 'ICLR: In-Context Imitation Learning with Visual Reasoning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:3s1wT3WcHBgC
+    pdf_url: https://arxiv.org/pdf/2603.07530v2.pdf
+  - title: 'D-CODA: Diffusion for Coordinated Dual-Arm Data Augmentation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:iH-uZ7U-co4C
+    pdf_url: https://arxiv.org/pdf/2505.04860v2.pdf
+  - title: 'VoxAct-B: Voxel-Based Acting and Stabilizing Policy for Bimanual Manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:TQgYirikUcIC
+    pdf_url: https://arxiv.org/pdf/2407.04152v2.pdf
+- name: Deformable and granular manipulation
+  description: Handling fabric, bags, mixed materials, and granular terrain through perception and learning.
+  representative_papers:
+  - title: 'SCOOP''D: Learning Mixed-Liquid-Solid Scooping via Sim2Real Generative Policy'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:RGFaLdJalmkC
+    pdf_url: https://arxiv.org/pdf/2510.11566v1.pdf
+  - title: 'Granular Loco-Manipulation: Repositioning Rocks Through Strategic Sand Avalanche'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:TFP_iSt0sucC
+    pdf_url: https://arxiv.org/pdf/2505.12934v1.pdf
+  - title: 'GPT-Fabric: Smoothing and Folding Fabric by Leveraging Pre-Trained Foundation Models'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:hFOr9nPyWt4C
+    pdf_url: https://arxiv.org/pdf/2406.09640v2.pdf
+  - title: Learning Granular Media Avalanche Behavior for Indirectly Manipulating Obstacles on a Granular
+      Slope
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:HDshCWvjkbEC
+    pdf_url: https://arxiv.org/pdf/2407.01898.pdf
+  - title: Bagging by Learning to Singulate Layers Using Interactive Perception
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:L8Ckcad2t8MC
+    pdf_url: https://arxiv.org/pdf/2303.16898v2.pdf
+  - title: 'AutoBag: Learning to Open Plastic Bags and Insert Objects'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ECHSnpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ECHSnpYAAAAJ:dhFuZR0502QC
+    pdf_url: https://arxiv.org/pdf/2210.17217.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

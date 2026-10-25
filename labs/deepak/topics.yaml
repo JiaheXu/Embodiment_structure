@@ -1,0 +1,102 @@
+folder: deepak
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Robot learning with visual world models, generative policies, and dexterous hardware.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 59
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=AEsPCAUAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Predictive visual representations
+  description: Learning object-centric dynamics, video prediction, and transferable visual representations.
+  representative_papers:
+  - title: 'ParticleSplat: Self-supervised Object-centric Latent Particle Splatting'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:vbGhcppDl1QC
+    pdf_url: https://arxiv.org/pdf/2609.19463v1.pdf
+  - title: '3D-DLP: Self-supervised 3D Object-centric Scene Representation Learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:AvfA0Oy_GE0C
+    pdf_url: https://arxiv.org/pdf/2606.19451v1.pdf
+  - title: 'Vipra: Video prediction for robot actions'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:35r97b3x0nAC
+    pdf_url: https://arxiv.org/pdf/2511.07732v2.pdf
+  - title: 'Latent particle world models: Self-supervised object-centric stochastic dynamics modeling'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:EkHepimYqZsC
+    pdf_url: https://arxiv.org/pdf/2603.04553v1.pdf
+  - title: On the surprising effectiveness of attention transfer for vision transformers
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:5awf1xo2G04C
+    pdf_url: https://arxiv.org/pdf/2411.09702v1.pdf
+  - title: 'Diffusion-tta: Test-time adaptation of discriminative models via generative feedback'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:BrmTIyaxlBUC
+    pdf_url: https://arxiv.org/pdf/2311.16102v2.pdf
+- name: Generative control and robot planning
+  description: Improving manipulation through flow-based RL, reactive motion planning, and language-annotated
+    play.
+  representative_papers:
+  - title: 'FlowDPG: Deterministic policy gradient on flow matching policies for real-world manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:BUYA1_V_uYcC
+    pdf_url: https://arxiv.org/pdf/2606.22303v2.pdf
+  - title: Expanding the capabilities of reinforcement learning via text feedback
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:uc_IGeMz5qoC
+    pdf_url: https://arxiv.org/pdf/2602.02482.pdf
+  - title: 'Deep reactive policy: Learning reactive manipulator motion planning for dynamic environments'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:NJ774b8OgUMC
+    pdf_url: https://arxiv.org/pdf/2509.06953v1.pdf
+  - title: Continuously improving mobile manipulation with autonomous real-world rl
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:tkaPQYYpVKoC
+    pdf_url: https://arxiv.org/pdf/2409.20568v1.pdf
+  - title: 'Neural mp: A generalist neural motion planner'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:SdhP9T11ey4C
+    pdf_url: https://arxiv.org/pdf/2409.05864.pdf
+  - title: 'Playfusion: Skill acquisition via diffusion from language-annotated play'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:tS2w5q8j5-wC
+    pdf_url: https://arxiv.org/pdf/2312.04549v1.pdf
+- name: Dexterous hardware and embodied learning
+  description: Co-designing humanoids, force sensing, hands, and bimanual skills.
+  representative_papers:
+  - title: 'BRIDGE: An Open-Source Humanoid Platform via Morphology-Control Co-Design for Physical AI'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:p__nRnzSRKYC
+    pdf_url: https://arxiv.org/pdf/2609.03497v1.pdf
+  - title: 'FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:URolC5Kub84C
+    pdf_url: https://arxiv.org/pdf/2606.12406v2.pdf
+  - title: High Torque Density PCB Axial Flux Permanent Magnet Motor for Micro Robots
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:j8SEvjWlNXcC
+    pdf_url: https://arxiv.org/pdf/2509.23561v2.pdf
+  - title: Bimanual dexterity for complex tasks
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:dTyEYWd-f8wC
+    pdf_url: https://arxiv.org/pdf/2411.13677v1.pdf
+  - title: Designing anthropomorphic soft hands through interaction
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:eflP2zaiRacC
+    pdf_url: https://arxiv.org/pdf/2306.04784v3.pdf
+  - title: 'Deft: Dexterous fine-tuning for real-world hand policies'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=AEsPCAUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=AEsPCAUAAAAJ:vRqMK49ujn8C
+    pdf_url: https://arxiv.org/pdf/2310.19797v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

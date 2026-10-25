@@ -1,0 +1,122 @@
+folder: chenfanfu_jiang
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Physical simulation, differentiable graphics, and simulation-grounded robot learning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 67
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=zh-CN&user=jTivVMEAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Contact and continuum simulation
+  description: Building efficient simulators for material points, frictional contact, fracture, and coupled
+    rigid-deformable bodies.
+  representative_papers:
+  - title: 'BladeMaster: Real-Time Robotic Cutting Simulation with Online-Generated Persistent Discontinuities'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:Aul-kAQHnToC
+    pdf_url: https://arxiv.org/pdf/2609.27342v2.pdf
+  - title: Unified sparse framework for large-scale simulations using the material point method
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:GFxP56DSvIMC
+    pdf_url: https://arxiv.org/pdf/2605.28525v4.pdf
+  - title: Projective Affine Body Dynamics for Multibody Systems
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:ZzlSgRqYykMC
+    pdf_url: https://arxiv.org/pdf/2609.02675v1.pdf
+  - title: 'Grip: A general robotic incremental potential contact simulation dataset for unified deformable-rigid
+      coupled grasping'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:e_rmSamDkqQC
+    pdf_url: https://arxiv.org/pdf/2503.05020.pdf
+  - title: A convex formulation of material points and rigid bodies with GPU-accelerated async-coupling
+      for interactive simulation
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:-FonjvnnhkoC
+    pdf_url: https://arxiv.org/pdf/2503.05046.pdf
+  - title: A convex formulation of frictional contact for the material point method and rigid bodies
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:9Nmd_mFXekcC
+    pdf_url: https://arxiv.org/pdf/2403.13783.pdf
+  - title: 'Circumventing volumetric locking in explicit material point methods: A simple, efficient,
+      and general approach'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:hkOj_22Ku90C
+    pdf_url: https://arxiv.org/pdf/2209.02466.pdf
+  - title: Neural stress fields for reduced-order elastoplasticity and fracture
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:-_dYPAW6P2MC
+    pdf_url: https://arxiv.org/pdf/2310.17790v1.pdf
+  - title: Convergent incremental potential contact
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:_Re3VWB3Y0AC
+    pdf_url: https://arxiv.org/pdf/2307.15908v1.pdf
+- name: Geometry and differentiable graphics
+  description: Recovering and generating geometric or visual assets with physical and fabrication constraints.
+  representative_papers:
+  - title: 'HairCS: Reconstructing Strand-Based Hair from Hair Cards'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:8xutWZnSdmoC
+    pdf_url: https://arxiv.org/pdf/2609.16465v1.pdf
+  - title: 'VoroLight: Learning Voronoi Surface Meshes via Sphere Intersection'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:OTTXONDVkokC
+    pdf_url: https://arxiv.org/pdf/2512.12984v2.pdf
+  - title: 'VoroLight: Learning Quality Volumetric Voronoi Meshes from General Inputs'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:0N-VGjzr574C
+    pdf_url: https://arxiv.org/pdf/2512.12984.pdf
+  - title: 'Birth of a Painting: Differentiable Brushstroke Reconstruction'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:Ug5p-4gJ2f0C
+    pdf_url: https://arxiv.org/pdf/2511.13191.pdf
+  - title: Volumetric homogenization for knitwear simulation
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:yB1At4FlUx8C
+    pdf_url: https://arxiv.org/pdf/2405.12484v3.pdf
+  - title: 'Atlas3d: Physically constrained self-supporting text-to-3d for simulation and fabrication'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:hMsQuOkrut0C
+    pdf_url: https://arxiv.org/pdf/2405.18515v2.pdf
+- name: Simulation-grounded robot learning
+  description: Constructing physical worlds and converting human videos or simulated experience into robot
+    skills.
+  representative_papers:
+  - title: 'Skill2Real: Agentic Skill Learning for Zero-Shot Sim-to-Real Robot Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:lvd772isFD0C
+    pdf_url: https://arxiv.org/pdf/2610.02788.pdf
+  - title: 'WorldAgent: Verification-Guided Agentic Physical World Construction'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:5MTHONV0fEkC
+    pdf_url: https://arxiv.org/pdf/2609.33208.pdf
+  - title: 'ArticulateArena: A Metric for Articulated Kinematics'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:u-coK7KVo8oC
+    pdf_url: https://arxiv.org/pdf/2609.33931.pdf
+  - title: 'Learn2fold: Structured origami generation with world model planning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:kh2fBNsKQNwC
+    pdf_url: https://arxiv.org/pdf/2603.29585v2.pdf
+  - title: 'SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:_OXeSy2IsFwC
+    pdf_url: https://arxiv.org/pdf/2608.31167.pdf
+  - title: 'RoboEdit: Turning Human Manipulation Videos into Scalable Robot Experience'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:Ehil0879vHcC
+    pdf_url: https://arxiv.org/pdf/2608.18948v3.pdf
+  - title: 'FetchMan: Learning Visual Humanoid Loco-Manipulation Policies from Simulated Experiences'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=jTivVMEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jTivVMEAAAAJ:nZcligLrVowC
+    pdf_url: https://arxiv.org/pdf/2608.17027v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

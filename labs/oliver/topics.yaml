@@ -1,0 +1,89 @@
+folder: oliver
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Tactile interactive perception, robust manipulation, and recovery-oriented learning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 33
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=_tbXjP4AAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Tactile hardware and perception
+  description: Learning object-centric touch representations and evaluating or building tactile fingertips.
+  representative_papers:
+  - title: 'Making Waves: A Membrane-Coupled Delta Array for Manipulating Objects Below the Actuator Spacing'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:GtLg2Ama23sC
+    pdf_url: https://arxiv.org/pdf/2609.39652.pdf
+  - title: Learning with Object-centric Representations of Tactile Interactive Perception for Robot Manipulation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:9pM33mqn1YgC
+    pdf_url: https://arxiv.org/pdf/2609.33235v1.pdf
+  - title: 'TacO: Benchmarking Tactile Sensors for Object Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:rmuvC79q63oC
+    pdf_url: https://arxiv.org/pdf/2605.21976v1.pdf
+  - title: A multi-modal tactile fingertip design for robotic hands to enhance dexterous manipulation
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:FPJr55Dyh1AC
+    pdf_url: https://arxiv.org/pdf/2510.05382.pdf
+  - title: 'Tilde: Teleoperation for dexterous in-hand manipulation learning with a deltahand'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:VaXvl8Fpj5cC
+    pdf_url: https://arxiv.org/pdf/2405.18804.pdf
+- name: Adaptive manipulation and recovery
+  description: Controlling under uncertainty, steering with vision and touch, and learning local recovery
+    behaviors.
+  representative_papers:
+  - title: 'BEACON: Belief-Enabled Adaptive CONtrol for Imitation Learning Under Uncertainty'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:4fGpz3EwCPoC
+    pdf_url: https://arxiv.org/pdf/2609.22730v1.pdf
+  - title: Inference-time Policy Steering via Vision and Touch
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:kh2fBNsKQNwC
+    pdf_url: https://arxiv.org/pdf/2606.14981v1.pdf
+  - title: 'OGPO: Sample Efficient Full-Finetuning of Generative Control Policies'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:_axFR9aDTf0C
+    pdf_url: https://arxiv.org/pdf/2605.03065v4.pdf
+  - title: 'Recoverychaining: Learning local recovery policies for robust manipulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:M7yex6snE4oC
+    pdf_url: https://arxiv.org/pdf/2410.13979v2.pdf
+  - title: Leveraging Simulation-Based Model Preconditions for Fast Action Parameter Optimization with
+      Multiple Models
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:tuHXwOkdijsC
+    pdf_url: https://arxiv.org/pdf/2403.11313v1.pdf
+  - title: Efficient recovery learning using model predictive meta-reasoning
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:uWiczbcajpAC
+    pdf_url: https://arxiv.org/pdf/2209.13605.pdf
+- name: Grounded task reasoning and scene understanding
+  description: Synthesizing manipulation skills with language models and scene graphs, including cable
+    handling.
+  representative_papers:
+  - title: 'GTA-2: A Multi-VLM Framework for Synthesizing Robot Manipulation Skills via Grounded Task
+      Axes'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:bz8QjSJIRt4C
+    pdf_url: https://arxiv.org/pdf/2609.09808.pdf
+  - title: Autonomously Unweaving Multiple Cables Using Visual Feedback
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:ClCfbGk0d_YC
+    pdf_url: https://arxiv.org/pdf/2512.12468v1.pdf
+  - title: 'Grapheqa: Using 3d semantic scene graphs for real-time embodied question answering'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_tbXjP4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_tbXjP4AAAAJ:e_rmSamDkqQC
+    pdf_url: https://arxiv.org/pdf/2412.14480v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

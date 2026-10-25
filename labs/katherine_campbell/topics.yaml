@@ -1,0 +1,98 @@
+folder: katherine_campbell
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Interactive autonomy, crowd navigation, and multimodal robot planning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 54
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=UXNLsZUAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Human belief, trust, and intent
+  description: Modeling belief and trust during repeated interaction and inferring intent for assistive
+    navigation.
+  representative_papers:
+  - title: 'Belief-Aware Influence and Trust (BAIT): Shaping Human Belief During Repeated Human-Robot
+      Interaction'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:ZuybSZzF8UAC
+    pdf_url: https://arxiv.org/pdf/2607.25327v2.pdf
+  - title: Tactile-Based Human Intent Recognition for Robot Assistive Navigation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:_B80troHkn4C
+    pdf_url: https://arxiv.org/pdf/2509.16353v1.pdf
+  - title: Trust-Aware Embodied Bayesian Persuasion for Mixed-Autonomy
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:PELIpwtuRlgC
+    pdf_url: https://arxiv.org/pdf/2509.15404v1.pdf
+  - title: 'COMMET: A System for Human-Induced Conflicts in Mobile Manipulation of Everyday Tasks'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:eMMeJKvmdy0C
+    pdf_url: https://arxiv.org/pdf/2509.04836.pdf
+- name: Safe navigation and stress-tested planning
+  description: Planning around crowds and constraints and assessing robustness under perturbed observations.
+  representative_papers:
+  - title: Characterizing the Robustness of Black-Box LLM Planners Under Perturbed Observations with Adaptive
+      Stress Testing
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:eq2jaN3J8jMC
+    pdf_url: https://arxiv.org/pdf/2505.05665v4.pdf
+  - title: 'Height: Heterogeneous interaction graph transformer for robot navigation in crowded and constrained
+      environments'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:5Ul4iDaHHb8C
+    pdf_url: https://arxiv.org/pdf/2411.12150v4.pdf
+  - title: Cooperative advisory residual policies for congestion mitigation
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:tOudhMTPpwUC
+    pdf_url: https://arxiv.org/pdf/2407.00553v1.pdf
+  - title: Interaction-aware conformal prediction for crowd navigation
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:8AbLer7MMksC
+    pdf_url: https://arxiv.org/pdf/2502.06221v1.pdf
+  - title: 'Topology-Guided ORCA: Smooth Multi-Agent Motion Planning in Constrained Environments'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:tS2w5q8j5-wC
+    pdf_url: https://arxiv.org/pdf/2407.16771v2.pdf
+  - title: An attentional recurrent neural network for occlusion-aware proactive anomaly detection in
+      field robot navigation
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:1sJd4Hv_s6UC
+    pdf_url: https://arxiv.org/pdf/2309.16826v1.pdf
+- name: Multimodal physical manipulation
+  description: Combining geometry, touch, torque feedback, and asynchronous policies for robot control.
+  representative_papers:
+  - title: 'HapticWorld: an Interactive World Simulator with Real-time Torque Feedback'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:hkOj_22Ku90C
+    pdf_url: https://arxiv.org/pdf/2609.31924v1.pdf
+  - title: 'ARGUS: Aligning Robot Scene Geometry Under Shifting Views with Large 3D Vision Models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:1yQoGdGgb4wC
+    pdf_url: https://arxiv.org/pdf/2608.05579v1.pdf
+  - title: 'Brick-Composer: Using MLLMs for Assembly with Diverse Bricks'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:N5tVd3kTz84C
+    pdf_url: https://arxiv.org/pdf/2606.05445v1.pdf
+  - title: Multi-modal manipulation via multi-modal policy consensus
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:dTyEYWd-f8wC
+    pdf_url: https://arxiv.org/pdf/2509.23468.pdf
+  - title: 'DiscreteRTC: Discrete Diffusion Policies are Natural Asynchronous Executors'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:VL0QpB8kHFEC
+    pdf_url: https://arxiv.org/pdf/2604.25050v3.pdf
+  - title: 'Vtam: Video-tactile-action models for complex physical interaction beyond vlas'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UXNLsZUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UXNLsZUAAAAJ:ye4kPcJQO24C
+    pdf_url: https://arxiv.org/pdf/2603.23481v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

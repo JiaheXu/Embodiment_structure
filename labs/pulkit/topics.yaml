@@ -1,0 +1,120 @@
+folder: pulkit
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Data-efficient physical intelligence through dexterous hardware, simulation, and reinforcement
+  learning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 81
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=UpZmJI0AAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Dexterous hardware and human transfer
+  description: Developing wrists, teleoperation devices, tactile hands, and methods to learn from human
+    videos.
+  representative_papers:
+  - title: 'Dexwrist: A robotic wrist for constrained and dynamic manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:MLfJN-KU85MC
+    pdf_url: https://ieeexplore.ieee.org/iel8/7083369/7339444/11718016.pdf
+  - title: What matters when cotraining robot manipulation policies on everyday human videos?
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:NXb4pA-qfm4C
+    pdf_url: https://arxiv.org/pdf/2606.06627v1.pdf
+  - title: 'Dexop: A device for robotic transfer of dexterous human manipulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:i2xiXl-TujoC
+    pdf_url: https://arxiv.org/pdf/2509.04441.pdf
+  - title: 'Dart: Dexterous augmented reality teleoperation platform for large-scale robot data collection
+      in simulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:S16KYo8Pm5AC
+    pdf_url: https://arxiv.org/pdf/2411.02214.pdf
+  - title: 'Vegetable peeling: A case study in constrained dexterous manipulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:WA5NYHcadZ8C
+    pdf_url: https://arxiv.org/pdf/2407.07884.pdf
+  - title: 'Learning to look around: Enhancing teleoperation and learning with a human-like actuated neck'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:yB1At4FlUx8C
+    pdf_url: https://arxiv.org/pdf/2411.00704.pdf
+  - title: 'Eyesight hand: Design of a fully-actuated dexterous robot hand with integrated vision-based
+      tactile sensors and compliant actuation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:fEOibwPWpKIC
+    pdf_url: https://arxiv.org/pdf/2408.06265.pdf
+- name: Reinforcement learning and policy optimization
+  description: Learning from hindsight, optimizing diverse or diffusion policies, and scaling efficient
+    skill acquisition.
+  representative_papers:
+  - title: 'Learning More from Less: Reinforcement Learning from Hindsight'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:XvxMoLDsR5gC
+    pdf_url: https://arxiv.org/pdf/2607.09042.pdf
+  - title: 'Vector policy optimization: Training for diversity improves test-time search'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:anf4URPfarAC
+    pdf_url: https://arxiv.org/pdf/2605.22817v1.pdf
+  - title: From imitation to refinement-residual rl for precise assembly
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:epqYDVWIO7EC
+    pdf_url: https://arxiv.org/pdf/2407.16677v4.pdf
+  - title: Diffusion policy policy optimization
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:VLnqNzywnoUC
+    pdf_url: https://arxiv.org/pdf/2409.00588v3.pdf
+  - title: Going beyond heuristics by imposing policy improvement as a constraint
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:vDijr-p_gm4C
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/f96af360d2a1b1585c3e3a5b82ba4ef7-Paper-Conference.pdf
+  - title: Learning multimodal behaviors from scratch with diffusion policy gradient
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:kzcrU_BdoSEC
+    pdf_url: https://arxiv.org/pdf/2406.00681v1.pdf
+  - title: Robot learning with super-linear scaling
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:BUYA1_V_uYcC
+    pdf_url: https://arxiv.org/pdf/2412.01770.pdf
+  - title: 'Juicer: Data-efficient imitation learning for robotic assembly'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:hkOj_22Ku90C
+    pdf_url: https://arxiv.org/pdf/2404.03729v3.pdf
+- name: Compliant locomotion and sim-to-real control
+  description: Learning compliant whole-body behavior, legged manipulation, and real-to-sim-to-real adaptation.
+  representative_papers:
+  - title: 'Softmimic: Learning compliant whole-body control from examples'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:HbR8gkJAVGIC
+    pdf_url: https://arxiv.org/pdf/2510.17792v1.pdf
+  - title: Bridging the sim-to-real gap for athletic loco-manipulation
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:p__nRnzSRKYC
+    pdf_url: https://arxiv.org/pdf/2502.10894v1.pdf
+  - title: Learning force control for legged manipulation
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:JQOojiI6XY0C
+    pdf_url: https://arxiv.org/pdf/2405.01402v2.pdf
+  - title: Rapid locomotion via reinforcement learning
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:nb7KW1ujOQ8C
+    pdf_url: https://arxiv.org/pdf/2205.02824.pdf
+  - title: 'Reconciling reality through simulation: A real-to-sim-to-real approach for robust manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:b1wdh0AR-JQC
+    pdf_url: https://arxiv.org/pdf/2403.03949.pdf
+  - title: 'Dribblebot: Dynamic legged manipulation in the wild'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=UpZmJI0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=UpZmJI0AAAAJ:eJXPG6dFmWUC
+    pdf_url: https://arxiv.org/pdf/2304.01159v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- The manifest contains unrelated or incidental entries; the summary prioritizes coherent themes supported
+  by the cited records.

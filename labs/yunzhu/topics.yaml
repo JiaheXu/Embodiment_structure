@@ -1,0 +1,100 @@
+folder: yunzhu
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Model-based manipulation with learned physics, tactile feedback, and compositional planning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 53
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=WlA92lcAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Physical dynamics and robot world models
+  description: Learning generalist action models and material-adaptive residual dynamics for deformable
+    objects.
+  representative_papers:
+  - title: 'Hydra-0: Action Flow for Generalist World Modeling and Control'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:nb7KW1ujOQ8C
+    pdf_url: https://arxiv.org/pdf/2608.18077v1.pdf
+  - title: Learning Physics-Guided Residual Dynamics for Deformable Object Simulation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:dshw04ExmUIC
+    pdf_url: https://arxiv.org/pdf/2607.13451v1.pdf
+  - title: A review of learning-based dynamics models for robotic manipulation
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:zA6iFVUQeVQC
+    pdf_url: https://albertboai.com/assets/pdf/2025_scirobotics.adt1497.pdf
+  - title: 'AdaptiGraph: Material-Adaptive Graph-Based Neural Dynamics for Robotic Manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:k_IJM867U9cC
+    pdf_url: https://arxiv.org/pdf/2407.07889v1.pdf
+  - title: Model-Based Control with Sparse Neural Dynamics
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:7PzlFSSx8tAC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/142cdba4b8d1e03f9ee131ac86bb0afc-Paper-Conference.pdf
+- name: Multimodal interaction and evaluation
+  description: Using touch, interactive simulation, and real-to-sim-to-real systems for manipulation and
+    policy evaluation.
+  representative_papers:
+  - title: Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation of Soft-Body Interactions
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:yD5IFk8b50cC
+    pdf_url: https://arxiv.org/pdf/2511.04665v2.pdf
+  - title: Multi-Modal Manipulation via Multi-Modal Policy Consensus
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:cFHS6HbyZ2cC
+    pdf_url: https://arxiv.org/pdf/2509.23468.pdf
+  - title: 'Flexitac: A low-cost, open-source, scalable tactile sensing solution for robotic systems'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:CHSYGLWDkRkC
+    pdf_url: https://arxiv.org/pdf/2604.28156.pdf
+  - title: Efficient and Reliable Teleoperation through Real-to-Sim-to-Real Shared Autonomy
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:abG-DnoFyZgC
+    pdf_url: https://arxiv.org/pdf/2603.17016v2.pdf
+  - title: Interactive World Simulator for Robot Policy Training and Evaluation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:EUQCXRtRnyEC
+    pdf_url: https://arxiv.org/pdf/2603.08546v1.pdf
+  - title: 'Touch in the Wild: Learning Fine-Grained Manipulation with a Portable Visuo-Tactile Gripper'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:ZHo1McVdvXMC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/e1fcd183ab33714a8464e4e9a20ac710-Paper-Conference.pdf
+  - title: 'RoboPack: Learning Tactile-Informed Dynamics Models for Dense Packing'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:isC4tDSrTZIC
+    pdf_url: https://arxiv.org/pdf/2407.01418v1.pdf
+- name: Compositional language and video planning
+  description: Composing behaviors and keypoint constraints and imitating generated videos for general
+    robot tasks.
+  representative_papers:
+  - title: 'CoStream: Composing Simple Behaviors for Generalizable Complex Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:KxtntwgDAa4C
+    pdf_url: https://arxiv.org/pdf/2606.26423v2.pdf
+  - title: Robotic Manipulation by Imitating Generated Videos Without Physical Demonstrations
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:2P1L_qKh6hAC
+    pdf_url: https://arxiv.org/pdf/2507.00990v3.pdf
+  - title: 'ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:maZDTaKrznsC
+    pdf_url: https://arxiv.org/pdf/2409.01652v2.pdf
+  - title: 'Predicting Object Interactions with Behavior Primitives: An Application in Stowing Tasks'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:dhFuZR0502QC
+    pdf_url: https://arxiv.org/pdf/2309.16873v2.pdf
+  - title: 'VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WlA92lcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=WlA92lcAAAAJ:mVmsd5A6BfQC
+    pdf_url: https://arxiv.org/pdf/2307.05973v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

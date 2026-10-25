@@ -1,0 +1,104 @@
+folder: bowenwen
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Geometric robot perception, dynamic reconstruction, and scalable manipulation learning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 32
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=VSG7Z0kAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Object pose and stereo perception
+  description: Estimating novel-object poses, tracking 6D motion, and recovering depth with foundation
+    models.
+  representative_papers:
+  - title: 'Event6D: Event-based Novel Object 6D Pose Tracking'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:z2g7kDSNNyoC
+    pdf_url: https://arxiv.org/pdf/2603.28045v2.pdf
+  - title: 'Fast-FoundationStereo: Real-Time Zero-Shot Stereo Matching'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:KR6TXPE-FHQC
+    pdf_url: https://arxiv.org/pdf/2512.11130v2.pdf
+  - title: 'Any6D: Model-free 6D Pose Estimation of Novel Objects'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:svGagg1hbZMC
+    pdf_url: https://arxiv.org/pdf/2503.18673v2.pdf
+  - title: 'FoundationStereo: Zero-Shot Stereo Matching'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:za7pDTvVV8kC
+    pdf_url: https://arxiv.org/pdf/2501.09898v4.pdf
+  - title: 'Foundationpose: Unified 6d pose estimation and tracking of novel objects'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:prdVHNxh-e8C
+    pdf_url: https://arxiv.org/pdf/2312.08344v2.pdf
+  - title: 'BundleSDF: Neural 6-DoF Tracking and 3D Reconstruction of Unknown Objects'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:BUYA1_V_uYcC
+    pdf_url: https://arxiv.org/pdf/2303.14158v1.pdf
+- name: Hand-object and dynamic reconstruction
+  description: Reconstructing 4D interactions and completing point tracks for transferable dynamics.
+  representative_papers:
+  - title: '4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:3K1WWmVGZRgC
+    pdf_url: https://arxiv.org/pdf/2610.08782v1.pdf
+  - title: 'PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:VDARjI3xf8gC
+    pdf_url: https://arxiv.org/pdf/2609.19142v3.pdf
+  - title: 'L4P: Towards unified low-level 4D vision perception'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:gubd_9ZgCi8C
+    pdf_url: https://arxiv.org/pdf/2502.13078v3.pdf
+  - title: 'CARI4D: Category Agnostic 4D Reconstruction of Human-Object Interaction'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:cDbf6tmpeSoC
+    pdf_url: https://arxiv.org/pdf/2512.11988v3.pdf
+  - title: 'HO-Cap: A Capture System and Dataset for 3D Reconstruction and Pose Tracking of Hand-Object
+      Interaction'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:BOlwja0KXvYC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/f92532079ab50a5db4109ca8f0cb0849-Paper-Datasets_and_Benchmarks_Track.pdf
+- name: Synthetic data and embodied policies
+  description: Generating scenes and demonstrations and learning generalist manipulation or embodied reasoning.
+  representative_papers:
+  - title: 'RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation
+      Learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:NWFKKQzSIN4C
+    pdf_url: https://arxiv.org/pdf/2609.03199v2.pdf
+  - title: 'Hydra-0: Action Flow for Generalist World Modeling and Control'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:Q9ss7R9eeXsC
+    pdf_url: https://arxiv.org/pdf/2608.18077v1.pdf
+  - title: 'Simfoundry: Modular and automated scene generation for policy learning and evaluation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:HfY9tUF4VgMC
+    pdf_url: https://arxiv.org/pdf/2606.28276v4.pdf
+  - title: 'Vesta: A Generalist Embodied Reasoning Model'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:b2v3RnpdjZkC
+    pdf_url: https://arxiv.org/pdf/2606.20905.pdf
+  - title: 'GRAIL: Generating Humanoid Loco-Manipulation from 3D Assets and Video Priors'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:xpFxhiwfz1QC
+    pdf_url: https://arxiv.org/pdf/2606.05160v1.pdf
+  - title: 'SkillMimicGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:3lUAU8Oskd0C
+    pdf_url: https://arxiv.org/pdf/2410.18907v1.pdf
+  - title: 'MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VSG7Z0kAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VSG7Z0kAAAAJ:fFSKOagxvKUC
+    pdf_url: https://arxiv.org/pdf/2310.17596.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

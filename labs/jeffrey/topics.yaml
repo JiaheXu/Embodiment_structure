@@ -1,0 +1,95 @@
+folder: jeffrey
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Transferable robot skills, multimodal physical interaction, and assistive manipulation.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 49
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=zh-CN&user=7CKFg9EAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Skill transfer and adaptive policies
+  description: Retrieving and transferring skills, adapting VLA models, and recovering from failures.
+  representative_papers:
+  - title: 'SkillWeave: Weaving Heterogeneous Demonstrations into Long-Horizon Manipulation Skills'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:1qzjygNMrQYC
+    pdf_url: https://arxiv.org/pdf/2610.12046v1.pdf
+  - title: 'Not All Layers Need Tuning: Diagnosing and Directing Adaptation in Vision-Language-Action
+      Models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:mvPsJ3kp5DgC
+    pdf_url: https://arxiv.org/pdf/2609.18084v2.pdf
+  - title: Modality-Autoregressive World-Action Models
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:q3oQSFYPqjQC
+    pdf_url: https://arxiv.org/pdf/2609.17524v2.pdf
+  - title: Hierarchical Skill Retrieval for Data-Efficient Adaptation of Vision-Language-Action Models
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:eflP2zaiRacC
+    pdf_url: https://arxiv.org/pdf/2608.24042v1.pdf
+  - title: 'SemAnCorr: Semantic Anchored Correspondence for Zero-Shot Manipulation Skill Transfer'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:eJXPG6dFmWUC
+    pdf_url: https://arxiv.org/pdf/2607.28382v1.pdf
+  - title: 'FAR: Failure-Aware Retry for Test-Time Recovery and Continual Policy Improvement'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:VOx2b1Wkg3QC
+    pdf_url: https://arxiv.org/pdf/2607.01111v2.pdf
+- name: Multimodal contact and deformable interaction
+  description: Using vibrations, acoustics, and structural priors for physical manipulation.
+  representative_papers:
+  - title: 'VibeAct: Vibration to Actions for Contact-Rich Reactive Robot Dexterity'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:fQNAKQ3IYiAC
+    pdf_url: https://arxiv.org/pdf/2606.27344v2.pdf
+  - title: 'Hearing the slide: Acoustic-guided constraint learning for fast non-prehensile transport'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:Tiz5es2fbqcC
+    pdf_url: https://arxiv.org/pdf/2506.09169v1.pdf
+  - title: Visuo-acoustic hand pose and contact estimation
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:WbkHhVStYXYC
+    pdf_url: https://arxiv.org/pdf/2508.00852v1.pdf
+  - title: 'Ropotter: Toward robotic pottery and deformable object manipulation with structural priors'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:pyW8ca7W8N0C
+    pdf_url: https://arxiv.org/pdf/2408.02184v1.pdf
+  - title: 'Handloom: Learned tracing of one-dimensional objects for inspection and manipulation'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:HoB7MX3m0LUC
+    pdf_url: https://arxiv.org/pdf/2303.08975v2.pdf
+- name: Assistive robots and deployed systems
+  description: Capturing human demonstrations for bathing and haircare, and automating clinical logistics.
+  representative_papers:
+  - title: High Fidelity Capture, Reconstruction, and Transfer of Human Demonstrations for Robot-Assisted
+      Bathing
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:D_sINldO8mEC
+    pdf_url: https://arxiv.org/pdf/2608.09127v1.pdf
+  - title: 'ORB: Operating Room Bot, Automating Operating Room Logistics through Mobile Manipulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:K3LRdlH-MEoC
+    pdf_url: https://arxiv.org/pdf/2509.15600v1.pdf
+  - title: 'Inclusion in assistive haircare robotics: Practical and ethical considerations in hair manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:1sJd4Hv_s6UC
+    pdf_url: https://arxiv.org/pdf/2411.05137v1.pdf
+  - title: 'FogROS2-Config: Optimizing Latency and Cost for Multi-Cloud Robot Applications'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:SP6oXDckpogC
+    pdf_url: https://arxiv.org/pdf/2311.05600v2.pdf
+  - title: 'Fogros2-sgc: A ros2 cloud robotics platform for secure global connectivity'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=7CKFg9EAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=7CKFg9EAAAAJ:g5m5HwL7SMYC
+    pdf_url: https://arxiv.org/pdf/2306.17157.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

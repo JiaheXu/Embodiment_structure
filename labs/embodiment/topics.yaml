@@ -1,0 +1,54 @@
+folder: embodiment
+source_type: video_channel
+summary_date: '2026-10-14'
+status: limited_evidence
+summary: A small mixed collection centered on generalist vision-language-action policies.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 6
+  year_range:
+    start: 2024
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://space.bilibili.com/287009898/upload/video
+topics:
+- name: Vision-language-action policies
+  description: Learning general robot control and open-world generalization with flow-based VLA models.
+  representative_papers:
+  - title: 'π0: A Vision-Language-Action Flow Model for General Robot Control'
+    year: 2024
+    page_url: https://www.bilibili.com/video/BV1QdHj6sESj
+    pdf_url: https://arxiv.org/pdf/2410.24164.pdf
+  - title: 'π0.5: a Vision-Language-Action Model with Open-World Generalization'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1QdHj6sESj
+    pdf_url: https://arxiv.org/pdf/2504.16054.pdf
+- name: Reinforcement learning for VLA models
+  description: Scaling VLA policy training with reinforcement learning.
+  representative_papers:
+  - title: 'SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1CGH76CEQU
+    pdf_url: https://arxiv.org/pdf/2509.09674.pdf
+- name: Attention and positional representations
+  description: Exploring memory attention and complex positional encodings in a collection also containing
+    unrelated material.
+  representative_papers:
+  - title: 'CoPE: A Lightweight Complex Positional Encoding'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV17Jpg6SEvT
+    pdf_url: https://arxiv.org/pdf/2508.18308v1.pdf
+  - title: Memory Attention
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1ZJpg6UESi
+    pdf_url: https://arxiv.org/pdf/2609.28399v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- Topics describe papers covered by this channel; authorship or affiliation with the channel is not implied.
+- The small saved collection limits confidence and breadth of this summary.
+- The manifest contains unrelated or incidental entries; the summary prioritizes coherent themes supported
+  by the cited records.

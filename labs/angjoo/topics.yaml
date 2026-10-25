@@ -1,0 +1,102 @@
+folder: angjoo
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: 3D and 4D visual understanding, human motion reconstruction, and visually grounded robot learning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 67
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=Ci-_QYIAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Dynamic reconstruction and human motion
+  description: Recovering moving scenes, people, hands, and cameras from video.
+  representative_papers:
+  - title: 'Predict-Optimize-Distill: A Self-Improving Cycle for 4D Object Understanding'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:4fKUyHm3Qg0C
+    pdf_url: https://arxiv.org/pdf/2504.17441.pdf
+  - title: 'St4rtrack: Simultaneous 4d reconstruction and tracking in the world'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:tS2w5q8j5-wC
+    pdf_url: https://arxiv.org/pdf/2504.13152v1.pdf
+  - title: 'Shape of motion: 4d reconstruction from a single video'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:CHSYGLWDkRkC
+    pdf_url: https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_Shape_of_Motion_4D_Reconstruction_from_a_Single_Video_ICCV_2025_paper.pdf
+  - title: 'Megasam: Accurate, fast, and robust structure and motion from casual dynamic videos'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:Tiz5es2fbqcC
+    pdf_url: https://arxiv.org/pdf/2412.04463.pdf
+  - title: Estimating body and hand motion in an ego-sensed world
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:OU6Ihb5iCvQC
+    pdf_url: https://arxiv.org/pdf/2410.03665.pdf
+  - title: 'Humans in 4d: Reconstructing and tracking humans with transformers'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:ldfaerwXgEUC
+    pdf_url: https://arxiv.org/pdf/2305.20091.pdf
+- name: Neural scene representation and generation
+  description: Building, completing, and editing scenes with radiance fields and Gaussian splatting.
+  representative_papers:
+  - title: 'Fillerbuster: Unified Generative Scene Completion Model for Casual Captures'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:AXPGKjj_ei8C
+    pdf_url: https://arxiv.org/pdf/2502.05175.pdf
+  - title: 'gsplat: An open-source library for Gaussian splatting'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:KxtntwgDAa4C
+    pdf_url: https://arxiv.org/pdf/2409.06765v1.pdf
+  - title: 'Nerfiller: Completing scenes via generative 3d inpainting'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:4OULZ7Gr8RgC
+    pdf_url: https://arxiv.org/pdf/2312.04560v1.pdf
+  - title: 'Instruct-nerf2nerf: Editing 3d scenes with instructions'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:J_g5lzvAfSwC
+    pdf_url: https://arxiv.org/pdf/2303.12789v2.pdf
+  - title: 'Lerf: Language embedded radiance fields'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:NaGl4SEjCO4C
+    pdf_url: https://arxiv.org/pdf/2303.09553v1.pdf
+- name: Humanoid and generative policy learning
+  description: Using human motion, synthetic video, and flow-based policy optimization for robot control.
+  representative_papers:
+  - title: 'QF3: Fast Flow RL with Filtered Q-Gradients'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:LjlpjdlvIbIC
+    pdf_url: https://arxiv.org/pdf/2610.08789.pdf
+  - title: 'World Motion Models: Flexible Sequence Modeling of SE (3) Trajectories'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:5awf1xo2G04C
+    pdf_url: https://arxiv.org/pdf/2610.01742.pdf
+  - title: Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:eq2jaN3J8jMC
+    pdf_url: https://arxiv.org/pdf/2609.38172.pdf
+  - title: 'VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:PELIpwtuRlgC
+    pdf_url: https://arxiv.org/pdf/2606.30645.pdf
+  - title: 'Omniretarget: Interaction-preserving data generation for humanoid whole-body loco-manipulation
+      and scene interaction'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:BrmTIyaxlBUC
+    pdf_url: https://arxiv.org/pdf/2509.26633.pdf
+  - title: Flow matching policy gradients
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:eJXPG6dFmWUC
+    pdf_url: https://proceedings.iclr.cc/paper_files/paper/2026/file/3d43cc5692bf68944ee7cd31b97d0c11-Paper-Conference.pdf
+  - title: Visual imitation enables contextual humanoid control
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Ci-_QYIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Ci-_QYIAAAAJ:sSrBHYA8nusC
+    pdf_url: https://arxiv.org/pdf/2505.03729.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

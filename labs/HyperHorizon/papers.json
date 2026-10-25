@@ -642,5 +642,145 @@
     "pdf_url": "https://arxiv.org/pdf/2610.03516v1.pdf",
     "title": "XGenAct: Geometry-Enhanced World Action Models through Cross-Task Generation",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1wzJ66qE3W",
+    "pdf_path": "pdfs/2024-corl-2024-dynamic-3d-gaussian-tracking-for-graph-based-neural-dynamics-mo.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.18912v1.pdf",
+    "title": "\u3010CoRL 2024\uff5c\u673a\u5668\u4eba\u64cd\u4f5c\u3011Dynamic 3D Gaussian Tracking for Graph-Based Neural Dynamics Mo",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV133J16wESf",
+    "pdf_path": "pdfs/2024-eccv-2024-3dgs-manigaussian-dynamic-gaussian-splatting-for-multi-task-robotic-m.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2403.08321.pdf",
+    "title": "\u3010ECCV 2024\uff5c3DGS\u3011ManiGaussian:Dynamic Gaussian Splatting for Multi-task Robotic M",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1xpJ169EAo",
+    "pdf_path": "pdfs/2024-eccv-2024-track2act-predicting-point-tracks-from-internet-videos-enables.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.01527v2.pdf",
+    "title": "\u3010ECCV 2024\uff5c\u673a\u5668\u4eba\u64cd\u4f5c\u3011Track2Act:Predicting Point Tracks from Internet Videos enables",
+    "year": 2024
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1oSJ66fEF1",
+    "pdf_path": "pdfs/2025-iccv-2025-3d-phystwin-physics-informed-reconstruction-and-simulation-of-defor.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.17973.pdf",
+    "title": "\u3010ICCV 2025\uff5c3D\u91cd\u5efa\u3011PhysTwin:Physics-Informed Reconstruction and Simulation of Defor",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1XKJ16eETB",
+    "pdf_path": "pdfs/2026-3d-videomanip-dexterous-manipulation-policies-from-rgb-human-videos-via-3d-ha.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.09013v2.pdf",
+    "title": "\u30103D\u91cd\u5efa\u3011VideoManip:Dexterous Manipulation Policies from RGB Human Videos via 3D Ha",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1B1JS6WEeg",
+    "pdf_path": "pdfs/2023-cvpr-2024-3d-4d-gaussian-splatting-for-real-time-dynamic-scene-rendering.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.08528v3.pdf",
+    "title": "\u3010CVPR 2024\uff5c3D\u91cd\u5efa\u30114D Gaussian Splatting for Real-Time Dynamic Scene Rendering",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1uxn26eEi5",
+    "pdf_path": "pdfs/2023-iclr-2024-looped-transformers-are-better-at-learning-learning-algorithms.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2311.12424v3.pdf",
+    "title": "\u3010ICLR 2024\uff5c\u7f51\u7edc\u67b6\u6784\u3011Looped Transformers are Better at Learning Learning Algorithms",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV19dJS62EpW",
+    "pdf_path": "pdfs/2025-3d-any4d-unified-feed-forward-metric-4d-reconstruction.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.10935v1.pdf",
+    "title": "\u30103D\u91cd\u5efa\u3011Any4D:Unified Feed-Forward Metric 4D Reconstruction",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1sgnp64EZc",
+    "pdf_path": "pdfs/2025-eccv-2026-recurrent-autoregressive-diffusion-global-memory-meets-local-att.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.12940v2.pdf",
+    "title": "\u3010ECCV 2026\uff5c\u4e16\u754c\u6a21\u578b\u3011Recurrent Autoregressive Diffusion:Global Memory Meets Local Att",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1W5JD6eEKp",
+    "pdf_path": "pdfs/2025-gaf-gaussian-action-field-as-a-4d-representation-for-dynamic-world-modelin.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.14135.pdf",
+    "title": "\u3010\u4e16\u754c\u6a21\u578b\u3011GAF:Gaussian Action Field as a 4D Representation for Dynamic World Modelin",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1yvJS6cEuT",
+    "pdf_path": "pdfs/2025-iccv-2025-3d-spatialtrackerv2-3d-point-tracking-made-easy.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.12462v2.pdf",
+    "title": "\u3010ICCV 2025\uff5c3D\u7406\u89e3\u3011SpatialTrackerV2:3D Point Tracking Made Easy",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV14Pnp6hEur",
+    "pdf_path": "pdfs/2025-stable-video-infinity-infinite-length-video-generation-with-error-recyclin.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.09212v1.pdf",
+    "title": "\u3010\u89c6\u9891\u751f\u6210\u3011Stable Video Infinity:Infinite-Length Video Generation with Error Recyclin",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1pjJD6AEML",
+    "pdf_path": "pdfs/2026-3pointr-from-human-videos-to-robot-policies-with-3d-point-track-plans.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2603.08485v3.pdf",
+    "title": "\u3010\u673a\u5668\u4eba\u64cd\u4f5c\u30113PoinTr:From Human Videos to Robot Policies with 3D Point-Track Plans",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1pzn26REtD",
+    "pdf_path": "pdfs/2026-cvpr-2026-rehyat-recurrent-hybrid-attention-for-video-diffusion-transforme.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2601.04342v1.pdf",
+    "title": "\u3010CVPR 2026\uff5c\u89c6\u9891\u751f\u6210\u3011ReHyAt:Recurrent Hybrid Attention for Video Diffusion Transforme",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1f1n26SE5i",
+    "pdf_path": "pdfs/2026-eccv-2026-elt-elastic-looped-transformers-for-visual-generation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2604.09168v3.pdf",
+    "title": "\u3010ECCV 2026\uff5c\u7f51\u7edc\u67b6\u6784\u3011ELT:Elastic Looped Transformers for Visual Generation",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1R2J16TE3D",
+    "pdf_path": "pdfs/2026-icml-2026-3dgs-soma-a-real-to-sim-neural-simulator-for-robotic-soft-body-manipu.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.02402.pdf",
+    "title": "\u3010ICML 2026\uff5c3DGS\u3011SoMA:A Real-to-Sim Neural Simulator for Robotic Soft-body Manipu",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1neJ16jETN",
+    "pdf_path": "pdfs/2026-icml-2026-mvista-4d-view-consistent-4d-world-model-with-test-time-action-i.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2602.09878v2.pdf",
+    "title": "\u3010ICML 2026\uff5c\u4e16\u754c\u6a21\u578b\u3011MVISTA-4D:View-Consistent 4D World Model with Test-Time Action I",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1jxnp6jEev",
+    "pdf_path": "pdfs/2026-lift-loop-flow-transformers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.05538v1.pdf",
+    "title": "\u3010\u56fe\u50cf\u751f\u6210\u3011LiFT:Loop Flow Transformers",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1MUnm6BEVz",
+    "pdf_path": "pdfs/2023-looped-transformers-as-programmable-computers.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2301.13196v1.pdf",
+    "title": "Looped Transformers as Programmable Computers",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1YRJS67EKw",
+    "pdf_path": "pdfs/2025-efficiently-reconstructing-dynamic-scenes-one-d4rt-at-a-time.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.08924v2.pdf",
+    "title": "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+    "year": 2025
   }
 ]

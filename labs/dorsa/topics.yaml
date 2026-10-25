@@ -1,0 +1,95 @@
+folder: dorsa
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Generalizable robot learning with human interaction and scalable deployment data.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 84
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=ZaJEZpYAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Generalist policy improvement
+  description: Improving VLA policies with RL, world models, and cross-embodiment representations.
+  representative_papers:
+  - title: Reinforcement Learning for Real-Time Vision-Language-Action Policies
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:HtS1dXgVpQUC
+    pdf_url: https://arxiv.org/pdf/2609.18207.pdf
+  - title: 'One demonstration, many objects: Generalizing manipulation via local contact geometry'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:DJbcl8HfkQkC
+    pdf_url: https://arxiv.org/pdf/2609.01938v2.pdf
+  - title: Q-Learning With World Models
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:cWzG1nlazyYC
+    pdf_url: https://arxiv.org/pdf/2608.17163.pdf
+  - title: Do You Really Need to Pretrain Q-Functions for Online RL Fine-Tuning?
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:4vMrXwiscB8C
+    pdf_url: https://arxiv.org/pdf/2607.27203v2.pdf
+  - title: Cross-Embodiment Transfer via Behavior-Aligned Representations
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:OTTXONDVkokC
+    pdf_url: https://arxiv.org/pdf/2607.27549v1.pdf
+  - title: Invariance co-training for robot visual generalization
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:kh2fBNsKQNwC
+    pdf_url: https://arxiv.org/pdf/2512.05230v1.pdf
+- name: Scalable robot data collection
+  description: Collecting continual deployment data and retrieving or gamifying demonstrations for adaptation.
+  representative_papers:
+  - title: 'Robocade: Gamifying robot data collection'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:bz8QjSJIRt4C
+    pdf_url: https://arxiv.org/pdf/2512.21235v3.pdf
+  - title: 'Robot-powered data flywheels: Deploying robots in the wild for continual data collection and
+      foundation model adaptation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:Ri6SYOTghG4C
+    pdf_url: https://arxiv.org/pdf/2511.19647v1.pdf
+  - title: Data retrieval with importance weights for few-shot imitation learning
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:hCrLmN-GePgC
+    pdf_url: https://arxiv.org/pdf/2509.01657v1.pdf
+  - title: So you think you can scale up autonomous robot data collection?
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:BUYA1_V_uYcC
+    pdf_url: https://arxiv.org/pdf/2411.01813v1.pdf
+  - title: Data quality in imitation learning
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:AXPGKjj_ei8C
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/fe692980c5d9732cf153ce27947653a7-Paper-Conference.pdf
+- name: Human-robot collaboration and mobile manipulation
+  description: Building interactive control interfaces and adapting mobile manipulation through situated
+    collaboration.
+  representative_papers:
+  - title: 'VIA: Visual Interface Agent for Robot Control'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:QYdC8u9Cj1oC
+    pdf_url: https://arxiv.org/pdf/2607.11119v2.pdf
+  - title: 'Homer: Learning in-the-wild mobile manipulation via hybrid imitation and whole-body control'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:HbR8gkJAVGIC
+    pdf_url: https://arxiv.org/pdf/2506.01185v2.pdf
+  - title: 'Vocal sandbox: Continual learning and adaptation for situated human-robot collaboration'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:Z5m8FVwuT1cC
+    pdf_url: https://arxiv.org/pdf/2411.02599v1.pdf
+  - title: 'Gen2act: Human video generation in novel scenarios enables generalizable robot manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:4MWp96NkSFoC
+    pdf_url: https://arxiv.org/pdf/2409.16283v1.pdf
+  - title: Diverse conventions for human-AI collaboration
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZaJEZpYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ZaJEZpYAAAAJ:uLbwQdceFCQC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/4818263715b25dc137d393af8af6d2fc-Paper-Conference.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

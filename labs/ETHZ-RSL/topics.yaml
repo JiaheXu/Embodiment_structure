@@ -1,0 +1,70 @@
+folder: ETHZ-RSL
+source_type: video_channel
+summary_date: '2026-10-14'
+status: collection_based
+summary: Coverage of legged locomotion, terrain navigation, and whole-body robot interaction.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 41
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://space.bilibili.com/3546611609241716/upload/video
+topics:
+- name: Robust legged locomotion
+  description: Learning risk-aware quadrupedal control and transferring locomotion across robot morphologies.
+  representative_papers:
+  - title: Learning Risk-Aware Quadrupedal Locomotion using Distributional Reinforcement Learning
+    year: 2023
+    page_url: https://www.bilibili.com/video/BV1Aw4m1o7x6
+    pdf_url: https://arxiv.org/pdf/2309.14246.pdf
+  - title: Morphology-Conditioned World Model for Cross-Embodiment Quadrupedal Locomotion
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1rBpi6aEpp
+    pdf_url: https://arxiv.org/pdf/2604.08780.pdf
+  - title: Scaling Rough Terrain Locomotion with Automatic Curriculum Reinforcement Learning
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1MjaW6aEKo
+    pdf_url: https://arxiv.org/pdf/2601.17428v1.pdf
+- name: Perceptive local navigation
+  description: Using semantic and geometric perception for resilient navigation through difficult environments.
+  representative_papers:
+  - title: Resilient Legged Local Navigation
+    year: 2023
+    page_url: https://www.bilibili.com/video/BV1P4421D7Jc
+    pdf_url: https://arxiv.org/pdf/2310.03581.pdf
+  - title: 'ViPlanner: Visual Semantic Imperative Learning for Local Navigation'
+    year: 2023
+    page_url: https://www.bilibili.com/video/BV13m41117s5
+    pdf_url: https://arxiv.org/pdf/2310.00982.pdf
+  - title: 利用3D表征在狭窄空间中穿梭
+    year: 2024
+    page_url: https://www.bilibili.com/video/BV1qt42157UA
+    pdf_url: https://arxiv.org/pdf/2403.00187.pdf
+- name: Whole-body interaction and motion transfer
+  description: Retargeting human-object contact and coordinating locomotion with manipulation.
+  representative_papers:
+  - title: Learning to Open and Traverse Doors with a Legged Manipulator
+    year: 2024
+    page_url: https://www.bilibili.com/video/BV1So48e8E2R
+    pdf_url: https://arxiv.org/pdf/2409.04882.pdf
+  - title: 'Pedipulate: 利用四足机器人的腿来实现操纵技能'
+    year: 2024
+    page_url: https://www.bilibili.com/video/BV1VF4m1E7Nz
+    pdf_url: https://arxiv.org/pdf/2402.10837.pdf
+  - title: 'HOI-Retarget: Contact-Centric Retargeting for Human–Object Interaction'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1PXYc6aEr9
+    pdf_url: https://arxiv.org/pdf/2609.34674.pdf
+  - title: 通过基于扩散模型的运动生成与强化学习运动跟踪学习人形机器人的全身运动控制
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1tq7R67Ezz
+    pdf_url: https://arxiv.org/pdf/2604.17335.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- Topics describe papers covered by this channel; authorship or affiliation with the channel is not implied.

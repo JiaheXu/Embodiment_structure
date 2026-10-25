@@ -1,0 +1,101 @@
+folder: karenliu
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Physics-based motion synthesis and humanoid whole-body interaction.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 63
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=i28fU0MAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Humanoid control and navigation
+  description: Learning athletic motions, tracking skills, navigation, and loco-manipulation from human
+    or synthetic data.
+  representative_papers:
+  - title: Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:6ZxmRoH8BuwC
+    pdf_url: https://arxiv.org/pdf/2609.38172v1.pdf
+  - title: Learning Realistic Athletic Sprinting Without Demonstrations
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:_5tno0g5mFcC
+    pdf_url: https://arxiv.org/pdf/2609.11083v1.pdf
+  - title: 'Beyondmimic: From motion tracking to versatile humanoid control via guided diffusion'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:Ug5p-4gJ2f0C
+    pdf_url: https://arxiv.org/pdf/2508.08241v4.pdf
+  - title: Learning Humanoid Navigation From Human Data
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:2VqYfGB8ITEC
+    pdf_url: https://arxiv.org/pdf/2604.00416.pdf
+  - title: 'VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:anf4URPfarAC
+    pdf_url: https://arxiv.org/pdf/2606.30645v1.pdf
+- name: Physics-based character motion
+  description: Synthesizing character, hand, and human-object motion using diffusion, dynamics, and structured
+    poses.
+  representative_papers:
+  - title: Generating Detailed Character Motion from Blocking Poses
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:WJVC3Jt7v1AC
+    pdf_url: https://arxiv.org/pdf/2509.16064v1.pdf
+  - title: 'Learning to ball: Composing policies for long-horizon basketball moves'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:Ri6SYOTghG4C
+    pdf_url: https://arxiv.org/pdf/2509.22442v1.pdf
+  - title: Human-object interaction from human-level instructions
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:WZBGuue-350C
+    pdf_url: https://arxiv.org/pdf/2406.17840v3.pdf
+  - title: Constrained diffusion with trust sampling
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:8d8msizDQcsC
+    pdf_url: https://arxiv.org/pdf/2411.10932v1.pdf
+  - title: 'Fürelise: Capturing and physically synthesizing hand motion of piano performance'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:tuHXwOkdijsC
+    pdf_url: https://arxiv.org/pdf/2410.05791v1.pdf
+  - title: 'Pdp: Physics-based character animation via diffusion policy'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:vbGhcppDl1QC
+    pdf_url: https://arxiv.org/pdf/2406.00960v2.pdf
+  - title: 'Drop: Dynamics responses from human motion prior and projective dynamics'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:yB1At4FlUx8C
+    pdf_url: https://arxiv.org/pdf/2309.13742v1.pdf
+- name: Dexterity and biomechanics
+  description: Learning precise assembly and cross-embodiment manipulation while studying balance and
+    digital human anatomy.
+  representative_papers:
+  - title: 'Play2Perfect: What Matters in Dexterous Play Pretraining for Precise Assembly?'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:mlAyqtXpCwEC
+    pdf_url: https://arxiv.org/pdf/2606.26428v3.pdf
+  - title: 'Cloak: Zero-Shot Cross-Embodiment Manipulation by Masking the End-Effector from the VLA'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:0izLItjtcgwC
+    pdf_url: https://arxiv.org/pdf/2606.22836v2.pdf
+  - title: Perturbation Recovery Time Identifies Subtle Human Balance Impairments and Features
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:q3CdL3IzO_QC
+    pdf_url: https://www.biorxiv.org/content/10.1101/2025.06.26.661833.full.pdf
+  - title: 'From skin to skeleton: Towards biomechanically accurate 3d digital humans'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:EkHepimYqZsC
+    pdf_url: https://arxiv.org/pdf/2509.06607v1.pdf
+  - title: Reinforcement learning enables real-time planning and control of agile maneuvers for soft robot
+      arms
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=i28fU0MAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=i28fU0MAAAAJ:ClCfbGk0d_YC
+    pdf_url: https://proceedings.mlr.press/v229/jitosho23a/jitosho23a.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

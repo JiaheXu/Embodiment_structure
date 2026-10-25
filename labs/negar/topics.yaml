@@ -1,0 +1,199 @@
+folder: negar
+lab: Intelligent Control Lab (ICON)
+principal_investigator: Negar Mehr
+summary_date: '2026-10-14'
+status: raw_pdf_based
+summary: Safe and intelligent interaction among humans and autonomous systems, combining game-theoretic
+  planning, constrained control, decentralized learning, neural mapping, and foundation-model-guided skill
+  acquisition.
+coverage:
+  basis: Direct review of text extracted from raw PDFs, including methods, experiments, conclusions, and
+    limitations.
+  catalog_records: 39
+  distinct_documents_reviewed: 38
+  catalog_year_range:
+    start: 2023
+    end: 2026
+  pdf_version_year_range:
+    start: 2021
+    end: 2026
+  source_files:
+  - papers.json
+  - pdfs/
+  context_url: https://iconlab.negarmehr.com/
+  overview_file: research_overview.md
+topics:
+- name: Multi-agent coordination and strategic imitation
+  description: Learning compatible actions and interaction modes when agents act independently or have
+    distinct objectives.
+  representative_papers:
+  - title: 'ALTER: Residual Denoising Enables Sample-Efficient Multi-Agent Coordination on Demand'
+    catalog_year: 2026
+    pdf_version_date: '2026-09-29'
+    pdf_path: pdfs/2026-residual-denoising-enables-sample-efficient-multi-agent-coordination-on-demand.pdf
+  - title: 'MIMIC-D: Multi-modal Imitation for Multi-agent Coordination with Decentralized Diffusion Policies'
+    catalog_year: 2026
+    pdf_version_date: '2026-09-09'
+    pdf_path: pdfs/2026-mimic-d-multi-modal-imitation-for-multi-agent-coordination-with-decentralized-diffusion-policies.pdf
+  - title: 'Matching Multiple Experts: On the Exploitability of Multi-Agent Imitation Learning'
+    catalog_year: 2026
+    pdf_version_date: '2026-02-24'
+    pdf_path: pdfs/2026-matching-multiple-experts-on-the-exploitability-of-multi-agent-imitation-learning.pdf
+  - title: 'MultiNash-PF: A particle filtering approach for computing multiple local generalized Nash
+      equilibria in trajectory games'
+    catalog_year: 2025
+    pdf_version_date: '2025-08-10'
+    pdf_path: pdfs/2025-multinash-pf-a-particle-filtering-approach-for-computing-multiple-local-generalized-nash-equilibria-in-trajectory-games.pdf
+- name: Provably constrained robot control and runtime safety
+  description: Enforcing modeled safety constraints and physically admissible motion through policy structure,
+    trajectory projections, or action masking.
+  representative_papers:
+  - title: 'Any-Body Guard: Universal Safeguarding for Manipulation Policies via Action Masking'
+    catalog_year: 2026
+    pdf_version_date: '2026-06-21'
+    pdf_path: pdfs/2026-any-body-guard-universal-safeguarding-for-manipulation-policies-via-action-masking.pdf
+  - title: Learning Control Policies to Provably Satisfy Hard Affine Constraints for Black-Box Hybrid
+      Dynamical Systems
+    catalog_year: 2026
+    pdf_version_date: '2026-09-26'
+    pdf_path: pdfs/2026-learning-control-policies-to-provably-satisfy-hard-affine-constraints-for-black-box-hybrid-dynamical-systems.pdf
+  - title: 'DDAT: Diffusion Policies Enforcing Dynamically Admissible Robot Trajectories'
+    catalog_year: 2025
+    pdf_version_date: '2025-04-26'
+    pdf_path: pdfs/2025-ddat-diffusion-policies-enforcing-dynamically-admissible-robot-trajectories.pdf
+  - title: Learning to provably satisfy high relative degree constraints for black-box systems
+    catalog_year: 2024
+    pdf_version_date: '2024-07-29'
+    pdf_path: pdfs/2024-learning-to-provably-satisfy-high-relative-degree-constraints-for-black-box-systems.pdf
+  - title: 'POLICEd RL: Learning Closed-Loop Robot Control Policies with Provable Satisfaction of Hard
+      Constraints'
+    catalog_year: 2024
+    pdf_version_date: '2024-11-05'
+    pdf_path: pdfs/2024-policed-rl-learning-closed-loop-robot-control-policies-with-provable-satisfaction-of-hard-constraints.pdf
+- name: Human behavior and inverse interaction learning
+  description: Inferring other agents' objectives and perception limitations, and choosing actions that
+    reveal intentions.
+  representative_papers:
+  - title: When should a leader act suboptimally? The role of inferability in repeated Stackelberg games
+    catalog_year: 2025
+    pdf_version_date: '2025-05-31'
+    pdf_path: pdfs/2025-when-should-a-leader-act-suboptimally-the-role-of-inferability-in-repeated-stackelberg-games.pdf
+  - title: Multi-agent inverse reinforcement learning in real world unstructured pedestrian crowds
+    catalog_year: 2025
+    pdf_version_date: '2025-03-26'
+    pdf_path: pdfs/2025-multi-agent-inverse-reinforcement-learning-in-real-world-unstructured-pedestrian-crowds.pdf
+  - title: Understanding and Imitating Human-Robot Motion with Restricted Visual Fields
+    catalog_year: 2025
+    pdf_version_date: '2025-08-10'
+    pdf_path: pdfs/2025-understanding-and-imitating-human-robot-motion-with-restricted-visual-fields.pdf
+  - title: Active inverse learning in stackelberg trajectory games
+    catalog_year: 2025
+    pdf_version_date: '2024-10-11'
+    pdf_path: pdfs/2025-active-inverse-learning-in-stackelberg-trajectory-games.pdf
+  - title: 'Maximum-Entropy Multi-Agent Dynamic Games: Forward and Inverse Solutions'
+    catalog_year: 2023
+    pdf_version_date: '2021-10-03'
+    pdf_path: pdfs/2023-maximum-entropy-multi-agent-dynamic-games-forward-and-inverse-solutions-arxiv.pdf
+- name: Distributed and continual neural mapping
+  description: Maintaining consistent geometric maps despite packet loss, asynchronous updates, scene
+    changes, and limited memory.
+  representative_papers:
+  - title: 'UDON: Uncertainty-weighted Distributed Optimization for Multi-Robot Neural Implicit Mapping'
+    catalog_year: 2026
+    pdf_version_date: '2026-03-19'
+    pdf_path: pdfs/2026-udon-uncertainty-weighted-distributed-optimization-for-multi-robot-neural-implicit-mapping-under-extreme-communication-c.pdf
+  - title: 'TACO: Temporal Consensus Optimization for Continual Neural Mapping'
+    catalog_year: 2026
+    pdf_version_date: '2026-05-28'
+    pdf_path: pdfs/2026-taco-temporal-consensus-optimization-for-continual-neural-mapping.pdf
+  - title: 'RAMEN: Real-time Asynchronous Multi-agent Neural Implicit Mapping'
+    catalog_year: 2025
+    pdf_version_date: '2025-04-26'
+    pdf_path: pdfs/2025-ramen-real-time-asynchronous-multi-agent-neural-implicit-mapping.pdf
+  - title: Distributed nerf learning for collaborative multi-robot perception
+    catalog_year: 2024
+    pdf_version_date: '2024-09-30'
+    pdf_path: pdfs/2024-distributed-nerf-learning-for-collaborative-multi-robot-perception.pdf
+- name: Foundation-model-guided robot learning
+  description: Using language and vision models to generate curricula, attribute team rewards, coach training,
+    or write high-level control code.
+  representative_papers:
+  - title: 'HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation'
+    catalog_year: 2026
+    pdf_version_date: '2026-09-29'
+    pdf_path: pdfs/2026-hugo-llms-as-whole-body-policy-code-designers-for-humanoid-loco-manipulation.pdf
+  - title: 'CRAFT: Coaching Reinforcement Learning Autonomously Using Foundation Models for Multi-Robot
+      Coordination'
+    catalog_year: 2025
+    pdf_version_date: '2026-06-05'
+    pdf_path: pdfs/2025-craft-coaching-reinforcement-learning-autonomously-using-foundation-models-for-multi-robot-coordination-tasks.pdf
+  - title: 'CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills'
+    catalog_year: 2025
+    pdf_version_date: '2025-04-14'
+    pdf_path: pdfs/2025-curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.pdf
+  - title: Leveraging large language models for effective and explainable multi-agent credit assignment
+    catalog_year: 2025
+    pdf_version_date: '2025-02-24'
+    pdf_path: pdfs/2025-leveraging-large-language-models-for-effective-and-explainable-multi-agent-credit-assignment.pdf
+- name: Continual learning and skill retention
+  description: Acquiring new policies or coordination behaviors while preserving earlier capabilities
+    without replaying original demonstrations.
+  representative_papers:
+  - title: 'ALTER: Residual Denoising Enables Sample-Efficient Multi-Agent Coordination on Demand'
+    catalog_year: 2026
+    pdf_version_date: '2026-09-29'
+    pdf_path: pdfs/2026-residual-denoising-enables-sample-efficient-multi-agent-coordination-on-demand.pdf
+  - title: 'SAMBAR: Selective Anchoring for VLA Knowledge Acquisition and Retention'
+    catalog_year: 2026
+    pdf_version_date: '2026-09-26'
+    pdf_path: pdfs/2026-sambar-selective-anchoring-via-method-of-multipliers-for-balanced-knowledge-acquisition-and-retention-in-vision-language.pdf
+- name: Scalable optimization and assembly planning
+  description: Making constrained planning tractable with GPU batching, game structure, distributed optimization,
+    and graph-based assembly sequencing.
+  representative_papers:
+  - title: 'Scaling Nonlinear Optimization: Many Problems One GPU'
+    catalog_year: 2026
+    pdf_version_date: '2026-06-24'
+    pdf_path: pdfs/2026-scaling-nonlinear-optimization-many-problems-one-gpu.pdf
+  - title: 'Strategic decision-making in multiagent domains: A weighted constrained potential dynamic
+      game approach'
+    catalog_year: 2025
+    pdf_version_date: '2025-03-21'
+    pdf_path: pdfs/2025-strategic-decision-making-in-multiagent-domains-a-weighted-constrained-potential-dynamic-game-approach.pdf
+  - title: 'ORASP: Optimal Robotic Assembly Sequence Planning'
+    catalog_year: 2023
+    pdf_version_date: '2025-02-24'
+    pdf_path: pdfs/2023-optimal-robotic-assembly-sequence-planning-a-sequential-decision-making-approach.pdf
+  - title: Efficient constrained multi-agent trajectory optimization using dynamic potential games
+    catalog_year: 2023
+    pdf_version_date: '2023-08-04'
+    pdf_path: pdfs/2023-efficient-constrained-multi-agent-trajectory-optimization-using-dynamic-potential-games.pdf
+  - title: 'Distributed potential ilqr: Scalable game-theoretic trajectory planning for multi-agent interactions'
+    catalog_year: 2023
+    pdf_version_date: '2023-03-08'
+    pdf_path: pdfs/2023-distributed-potential-ilqr-scalable-game-theoretic-trajectory-planning-for-multi-agent-interactions.pdf
+- name: Transportation and resource allocation
+  description: Controlling capacities or prices and modeling heterogeneous preferences to improve congested
+    network outcomes.
+  representative_papers:
+  - title: 'Congestion Games with Heterogeneous Valuations: An Optimal Transport Approach'
+    catalog_year: 2026
+    pdf_version_date: '2026-07-03'
+    pdf_path: pdfs/2026-congestion-games-with-heterogeneous-valuations-an-optimal-transport-approach.pdf
+  - title: Pricing for Multi-modal Pickup and Delivery Problems with Heterogeneous Users
+    catalog_year: 2024
+    pdf_version_date: '2024-11-15'
+    pdf_path: pdfs/2024-pricing-for-multi-modal-pickup-and-delivery-problems-with-heterogeneous.pdf
+  - title: Learning to Influence Vehicles' Routing in Mixed-Autonomy Networks by Dynamically Controlling
+      the Headway of Autonomous Cars
+    catalog_year: 2023
+    pdf_version_date: '2023-03-07'
+    pdf_path: pdfs/2023-learning-to-influence-vehicles-routing-in-mixed-autonomy-networks-by-dynamically-controlling-the-headway-of-autonomous-c.pdf
+limitations:
+- Empirical results and safety guarantees apply to each paper's stated assumptions, tasks, and evaluation
+  settings.
+- Two crowd-learning catalog entries contain the same PDF and count as one document.
+- The malformed maximum-entropy download was preserved; a separately saved valid 2021 arXiv preprint supports
+  that entry.
+- Chronology uses dates printed on saved PDF versions; catalog years may denote later publication or earlier
+  acquisition.

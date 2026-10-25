@@ -1,0 +1,100 @@
+folder: tom_silver
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Learning symbolic abstractions and integrating robot skills with task and motion planning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 26
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=zh-CN&user=CMcsygMAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Predicate and abstract model learning
+  description: Discovering symbolic concepts and world models for generalized and bilevel planning.
+  representative_papers:
+  - title: 'Recover, Discover, Plan: Learning Skills and Concepts from Robot Failures'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:NhqRSupF_l8C
+    pdf_url: https://arxiv.org/pdf/2606.18328v2.pdf
+  - title: 'Slap: Shortcut learning for abstract planning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:a0OBvERweLwC
+    pdf_url: https://arxiv.org/pdf/2511.01107v2.pdf
+  - title: 'Exopredicator: Learning abstract models of dynamic worlds for robot planning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:cFHS6HbyZ2cC
+    pdf_url: https://arxiv.org/pdf/2509.26255v3.pdf
+  - title: 'From pixels to predicates: Learning symbolic world models via pretrained VLMs'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:EUQCXRtRnyEC
+    pdf_url: https://arxiv.org/pdf/2501.00296v4.pdf
+  - title: Unifying deep predicate invention with pre-trained foundation models
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:pyW8ca7W8N0C
+    pdf_url: https://arxiv.org/pdf/2512.17992v2.pdf
+  - title: Generalized planning in pddl domains with pretrained large language models
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:NaGl4SEjCO4C
+    pdf_url: https://arxiv.org/pdf/2305.11014v2.pdf
+  - title: Predicate invention for bilevel planning
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:J_g5lzvAfSwC
+    pdf_url: https://arxiv.org/pdf/2203.09634.pdf
+  - title: Learning Efficient Abstract Planning Models that Choose What to Predict
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:RGFaLdJalmkC
+    pdf_url: https://proceedings.mlr.press/v229/kumar23a/kumar23a.pdf
+  - title: Embodied active learning of relational state abstractions for bilevel planning
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:ns9cj8rnVeAC
+    pdf_url: https://arxiv.org/pdf/2303.04912v2.pdf
+- name: Task-and-motion-guided policy learning
+  description: Using planning and coding agents to generate useful demonstrations and fine-tune VLA policies.
+  representative_papers:
+  - title: Coding Agents for Generalized Task and Motion Planning Problems
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:nb7KW1ujOQ8C
+    pdf_url: https://arxiv.org/pdf/2609.30233v1.pdf
+  - title: 'TANDEM: Task and Motion Planning with As-Needed Demonstrations for Efficient Vision-Language-Action
+      Model Fine-tuning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:P5F9QuxV20EC
+    pdf_url: https://arxiv.org/pdf/2609.28314v1.pdf
+  - title: 'DATAFARM: Distribution-Aligned Task and Motion Planning for Fine-Tuning Vision-Language-Action
+      Models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:1sJd4Hv_s6UC
+    pdf_url: https://arxiv.org/pdf/2609.12316v1.pdf
+  - title: 'Practice makes perfect: Planning to learn skill parameter policies'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:vV6vV6tmYwMC
+    pdf_url: https://arxiv.org/pdf/2402.15025v2.pdf
+- name: Physical world models and personalized assistance
+  description: Learning residual dynamics, benchmarking physical reasoning, and adapting assistive robots
+    to user preferences.
+  representative_papers:
+  - title: 'EMPIRIC: Experiment-Driven Learning of Residual World Models for Robot Planning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:KxtntwgDAa4C
+    pdf_url: https://arxiv.org/pdf/2609.35047v1.pdf
+  - title: 'KinDER: A Physical Reasoning Benchmark for Robot Learning and Planning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:b0M2c_1WBrUC
+    pdf_url: https://arxiv.org/pdf/2604.25788.pdf
+  - title: 'Prioritouch: Adapting to user contact preferences for whole-arm physical human-robot interaction'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:dfsIfKJdRG4C
+    pdf_url: https://arxiv.org/pdf/2509.18447v1.pdf
+  - title: 'Feast: A flexible mealtime-assistance system towards in-the-wild personalization'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=CMcsygMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=CMcsygMAAAAJ:u_35RYKgDlwC
+    pdf_url: https://arxiv.org/pdf/2506.14968.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

@@ -1,0 +1,77 @@
+folder: JoshuaTenenbaum
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Cognitive modeling, probabilistic reasoning, and program-based world understanding.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 67
+  year_range:
+    start: 2025
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=rRJ9wTJMUB8C&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Human cognition and theory of mind
+  description: Modeling social inference and comparing human and machine cognition.
+  representative_papers:
+  - title: 'CogGym: Towards Large-Scale Comparative Evaluation of Human and Machine Cognition'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&pagesize=100&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:zEYdoEEwLqEC
+    pdf_url: https://arxiv.org/pdf/2609.21259v1.pdf
+  - title: Theories of Mind as Domain-Specific Languages of Thought
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&pagesize=100&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:d4Uf0zfqV5IC
+    pdf_url: https://arxiv.org/pdf/2609.19598v1.pdf
+  - title: Inverse planning of social interactions in relationships
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&pagesize=100&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:xggF7591RyAC
+    pdf_url: https://arxiv.org/pdf/2609.01639.pdf
+  - title: On benchmarking human-like intelligence in machines
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&pagesize=100&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:5McdzzY_mmwC
+    pdf_url: https://arxiv.org/pdf/2502.20502v2.pdf
+  - title: Using Theory of Mind to Arbitrate between Social and Non-social Learning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&pagesize=100&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:1AS7WB7zg6gC
+    pdf_url: https://arxiv.org/pdf/2607.28601v1.pdf
+- name: Probabilistic and program-based reasoning
+  description: Learning and reasoning through language, code, and structured hypotheses.
+  representative_papers:
+  - title: 'Code to Control: Synthesizing Parameterized Reactive Controllers'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&pagesize=100&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:6HoeAlFIZOwC
+    pdf_url: https://arxiv.org/pdf/2609.38733v1.pdf
+  - title: Induction and Inquiry via Probabilistic Reasoning over Language and Code
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&pagesize=100&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:7XCffrwrS2sC
+    pdf_url: https://arxiv.org/pdf/2609.01815v1.pdf
+  - title: Pragmatic Reasoning in Design
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&pagesize=100&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:PWMd_Z0sy-4C
+    pdf_url: https://arxiv.org/pdf/2607.26322.pdf
+  - title: Code-enabled language models can outperform reasoning models on diverse tasks
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&pagesize=100&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:zmHQPunddckC
+    pdf_url: https://arxiv.org/pdf/2510.20909v1.pdf
+- name: World models and inverse graphics
+  description: Recovering dynamic scene structure and learning predictive physical models for planning.
+  representative_papers:
+  - title: '4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&pagesize=100&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:5Klqo5HVOaoC
+    pdf_url: https://arxiv.org/pdf/2610.03715v1.pdf
+  - title: 'EMPIRIC: Experiment-Driven Learning of Residual World Models for Robot Planning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&pagesize=100&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:whNN5KpgZFsC
+    pdf_url: https://arxiv.org/pdf/2609.35047v1.pdf
+  - title: Benchmarking World-Model Learning with Environment-Level Queries
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rRJ9wTJMUB8C&pagesize=100&sortby=pubdate&citation_for_view=rRJ9wTJMUB8C:aSKcRT6rTsQC
+    pdf_url: https://arxiv.org/pdf/2510.19788v4.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

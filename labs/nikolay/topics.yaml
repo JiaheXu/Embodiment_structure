@@ -1,0 +1,97 @@
+folder: nikolay
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Safe robot control, spatial mapping, and long-horizon dexterous manipulation.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 79
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=RTkSatQAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Safety and uncertainty-aware control
+  description: Learning barrier functions and safe goal sets for occluded navigation and robust stabilization.
+  representative_papers:
+  - title: 'OcclusionCBF: Backup control barrier functions for safe navigation among hidden dynamic obstacles'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:KUbvn5osdkgC
+    pdf_url: https://arxiv.org/pdf/2609.06342v1.pdf
+  - title: A Unified Perspective on Conformal Prediction and Wasserstein Distributionally Robust Optimization
+      for Uncertainty Quantification
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:g3aElNc5_aQC
+    pdf_url: https://arxiv.org/pdf/2608.29789.pdf
+  - title: 'Control Barrier Corridors: From Safety Functions to Safe Goal Sets'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:epqYDVWIO7EC
+    pdf_url: https://arxiv.org/pdf/2603.06494v1.pdf
+  - title: Stabilization of Nonlinear Systems through Control Barrier Functions
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:eMMeJKvmdy0C
+    pdf_url: https://arxiv.org/pdf/2408.08398.pdf
+  - title: Feasibility analysis and regularity characterization of distributionally robust safe stabilizing
+      controllers
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:kRWSkSYxWN8C
+    pdf_url: https://arxiv.org/pdf/2311.05813v2.pdf
+  - title: 'EAST: Environment aware safe tracking using planning and control co-design'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:eflP2zaiRacC
+    pdf_url: https://arxiv.org/pdf/2310.01363v3.pdf
+- name: Spatial mapping and multi-robot perception
+  description: Building multimodal geometric-semantic maps and coordinated robot localization systems.
+  representative_papers:
+  - title: 'HIGS: Hierarchical Implicit Grids for Joint Geometric and Semantic Scene Understanding'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:TIZ-Mc8IlK0C
+    pdf_url: https://arxiv.org/pdf/2609.38620v1.pdf
+  - title: 'OREN-X: Octree Residual Network for Real-Time Multi-Modal Mapping'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:tYavs44e6CUC
+    pdf_url: https://arxiv.org/pdf/2609.29157v1.pdf
+  - title: 'From Distances to Trajectories: Real-Time Signed Distance Function Mapping and Distance-Accelerated
+      Motion Planning for UAVs'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:Z5m8FVwuT1cC
+    pdf_url: https://arxiv.org/pdf/2607.19306v1.pdf
+  - title: 'Slideslam: Sparse, lightweight, decentralized metric-semantic slam for multirobot navigation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:WA5NYHcadZ8C
+    pdf_url: https://arxiv.org/pdf/2406.17249v7.pdf
+  - title: Learning to identify graphs from node trajectories in multi-robot networks
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:LPZeul_q3PIC
+    pdf_url: https://arxiv.org/pdf/2307.04374v2.pdf
+- name: Long-horizon physical interaction
+  description: Learning bimanual dexterity, tool use, and environment representations for mobile manipulation.
+  representative_papers:
+  - title: 'PatternDex: Learning Interaction Patterns to Guide Reinforcement Learning of Bimanual Dexterous
+      Manipulation of Articulated Objects'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:gsN89kCJA0AC
+    pdf_url: https://arxiv.org/pdf/2610.04765v1.pdf
+  - title: 'SERF: Spatiotemporal Environment and Robot Feature Map for Long-Horizon Mobile Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:p__nRnzSRKYC
+    pdf_url: https://arxiv.org/pdf/2606.12956v1.pdf
+  - title: 'DexFuture: Hierarchical Future-State Visuomotor Targeting for Bimanual Dexterous Tool Use'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:BwyfMAYsbu0C
+    pdf_url: https://arxiv.org/pdf/2606.05699v1.pdf
+  - title: A shared-autonomy construction robotic system for overhead works
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:VLnqNzywnoUC
+    pdf_url: https://arxiv.org/pdf/2511.09695.pdf
+  - title: Variable-frequency model learning and predictive control for jumping maneuvers on legged robots
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RTkSatQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=RTkSatQAAAAJ:WqliGbK-hY8C
+    pdf_url: https://arxiv.org/pdf/2407.14749v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

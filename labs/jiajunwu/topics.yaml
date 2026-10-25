@@ -1,0 +1,66 @@
+folder: jiajunwu
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Physical and spatial world understanding, inverse graphics, and predictive robot learning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 89
+  year_range:
+    start: 2025
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=2efgcS0AAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: World-action models and robot interaction
+  description: Connecting predictive representations, visual tracks, and local contact geometry to robot
+    actions.
+  representative_papers:
+  - title: 'OpenWAM: An Open Framework for Composable World-Action Models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2efgcS0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=2efgcS0AAAAJ:sJK75vZXtG0C
+    pdf_url: https://arxiv.org/pdf/2610.07922v1.pdf
+  - title: 'One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2efgcS0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=2efgcS0AAAAJ:cB__R-XWw9UC
+    pdf_url: https://arxiv.org/pdf/2609.01938v2.pdf
+  - title: 'TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2efgcS0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=2efgcS0AAAAJ:cRMvf6lLvU8C
+    pdf_url: https://arxiv.org/pdf/2608.24101v3.pdf
+- name: Inverse graphics and spatial reasoning
+  description: Recovering dynamic scenes and testing topological or general visual reasoning.
+  representative_papers:
+  - title: '4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2efgcS0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=2efgcS0AAAAJ:Nufq_to8ts0C
+    pdf_url: https://arxiv.org/pdf/2610.03715v1.pdf
+  - title: 'MindTopo: Can Foundation Models Reason in Topological Space?'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2efgcS0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=2efgcS0AAAAJ:7VEv-pLvLSsC
+    pdf_url: https://arxiv.org/pdf/2609.11900v1.pdf
+  - title: 'Visual General Intelligence: A White Paper'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2efgcS0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=2efgcS0AAAAJ:9LpHyFPp1DQC
+    pdf_url: https://arxiv.org/pdf/2608.25924.pdf
+- name: Video and motion modeling
+  description: Understanding long videos and generating or forecasting human and animal motion.
+  representative_papers:
+  - title: 'Kirin: Animal Motion Generation from In-the-Wild Video'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2efgcS0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=2efgcS0AAAAJ:d4tt_xEv1X8C
+    pdf_url: https://arxiv.org/pdf/2609.01823v1.pdf
+  - title: Linear Scaling Video VLMs for Long Video Understanding
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2efgcS0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=2efgcS0AAAAJ:RfUwGJFMQ-0C
+    pdf_url: https://arxiv.org/pdf/2605.31598.pdf
+  - title: Autoregressive Flow Matching for Motion Prediction
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2efgcS0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=2efgcS0AAAAJ:J3LtWjKFLicC
+    pdf_url: https://arxiv.org/pdf/2512.22688v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

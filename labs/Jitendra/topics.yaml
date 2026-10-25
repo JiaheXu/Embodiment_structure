@@ -1,0 +1,86 @@
+folder: Jitendra
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Visual learning for robot interaction, human motion transfer, and multimodal perception.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 90
+  year_range:
+    start: 2024
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=aOklxsQAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Humanoid learning from human video
+  description: Transferring human movements and video predictions into physically plausible robot trajectories.
+  representative_papers:
+  - title: Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:jKT558fuBk8C
+    pdf_url: https://arxiv.org/pdf/2609.38172v1.pdf
+  - title: Coordinated humanoid manipulation with choice policies
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:rpSJNIKeXWsC
+    pdf_url: https://arxiv.org/pdf/2512.25072v1.pdf
+  - title: 'Foundationmotion: Auto-labeling and reasoning about spatial movement in videos'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:Cvh0bltMcLgC
+    pdf_url: https://arxiv.org/pdf/2512.10927v1.pdf
+  - title: From generated human videos to physically plausible robot trajectories
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:cdwqcPQS8ssC
+    pdf_url: https://arxiv.org/pdf/2512.05094.pdf
+  - title: Learning from massive human videos for universal humanoid pose control
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:NU-BerS4NX4C
+    pdf_url: https://arxiv.org/pdf/2412.14172v1.pdf
+  - title: Humanoid locomotion as next token prediction
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:q1zXlPLtbUIC
+    pdf_url: https://arxiv.org/pdf/2402.19469v1.pdf
+- name: Embodied visual representations
+  description: Learning visual understanding, scene representations, and motion forecasting for embodied
+    systems.
+  representative_papers:
+  - title: 'OmniTaskonomy: When Does Visual Generation Improve Visual Understanding?'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:uPCvBZYD9qUC
+    pdf_url: https://arxiv.org/pdf/2609.38079v1.pdf
+  - title: 'AgentSTAR: Agentic Shape Tracking and Reconstruction from Monocular Videos'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:cww_0JKUTDwC
+    pdf_url: https://arxiv.org/pdf/2609.24487v1.pdf
+  - title: A Scene Language Model for Open-Vocabulary Scene Mapping
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:YGhAHpnIhDoC
+    pdf_url: https://arxiv.org/pdf/2609.21400.pdf
+  - title: Forecasting motion in the wild
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:ehoypfNsBj8C
+    pdf_url: https://arxiv.org/pdf/2604.01015v1.pdf
+- name: Tactile and force-aware manipulation
+  description: Combining visual, tactile, and physiological signals for physical interaction.
+  representative_papers:
+  - title: 'Learning Physical Interaction: A Survey of Tactile-and Force-aware Robot Learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:j2GSQqY3pL0C
+    pdf_url: https://arxiv.org/pdf/2608.07558.pdf
+  - title: 'ForceBand: Learning Forceful Manipulation with sEMG'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:XeErXHja3Z8C
+    pdf_url: https://arxiv.org/pdf/2606.26093v1.pdf
+  - title: 'NeuralFeels with neural fields: Visuotactile perception for in-hand manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:DquSII9TDu4C
+    pdf_url: https://arxiv.org/pdf/2312.13469.pdf
+  - title: Digitizing touch with an artificial multimodal fingertip
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aOklxsQAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aOklxsQAAAAJ:pUxgyZctzPYC
+    pdf_url: https://arxiv.org/pdf/2411.02479v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

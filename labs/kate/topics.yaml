@@ -1,0 +1,90 @@
+folder: kate
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Generative physical scenes, spatial perception, and scalable embodied learning.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 51
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=FWp7728AAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: 3D and 4D perception and generation
+  description: Tracking scenes and generating compositional meshes or dynamic worlds for spatial understanding.
+  representative_papers:
+  - title: 'TrackEverything: Long Horizon Dense Tracking via De-Duplicating 3D Scene Representations'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:eq2jaN3J8jMC
+    pdf_url: https://arxiv.org/pdf/2609.30222v1.pdf
+  - title: 'Qwen-3d: A generalist 3d vision-language model for spatial understanding'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:olpn-zPbct0C
+    pdf_url: https://arxiv.org/pdf/2608.02980.pdf
+  - title: 'Partcrafter: Structured 3d mesh generation via compositional latent diffusion transformers'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:sSrBHYA8nusC
+    pdf_url: https://arxiv.org/pdf/2506.05573v1.pdf
+  - title: 'Alltracker: Efficient dense point tracking at high resolution'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:B3FOqHPlNUQC
+    pdf_url: https://arxiv.org/pdf/2506.07310v2.pdf
+  - title: 'Dreamscene4d: Dynamic multi-object scene generation from monocular videos'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:xtRiw3GOFMkC
+    pdf_url: https://arxiv.org/pdf/2405.02280v2.pdf
+- name: Scalable simulation and robot data
+  description: Generating robot interactions, tactile simulations, and real-to-sim benchmarks for dexterous
+    learning.
+  representative_papers:
+  - title: 'SkillWeaver: Agentic Exploration over Neural Interaction Skills for Scalable Robot Data Generation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:5awf1xo2G04C
+    pdf_url: https://arxiv.org/pdf/2609.36171v1.pdf
+  - title: 'EmbodiedSWE: Coding Agents for Long Horizon Dexterous Robotics'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:SdhP9T11ey4C
+    pdf_url: https://arxiv.org/pdf/2609.27308v2.pdf
+  - title: 'HIGenNTO: Scalable Humanoid Interaction Generation via Noise-Space Trajectory Optimization'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:9vf0nzSNQJEC
+    pdf_url: https://arxiv.org/pdf/2609.22611v1.pdf
+  - title: 'Tactile Genesis: Exploring Tactile Sensors at Scale for Learning Dexterous Tasks'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:HE397vMXCloC
+    pdf_url: https://arxiv.org/pdf/2606.22332v2.pdf
+  - title: 'Robotarena∞: Scalable robot benchmarking via real-to-sim translation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:PELIpwtuRlgC
+    pdf_url: https://arxiv.org/pdf/2510.23571v3.pdf
+  - title: 'Robogen: Towards unleashing infinite data for automated robot learning via generative simulation'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:yD5IFk8b50cC
+    pdf_url: https://arxiv.org/pdf/2311.01455v3.pdf
+- name: Embodied policies and agent memory
+  description: Learning 3D manipulation policies and memory-augmented instructable agents.
+  representative_papers:
+  - title: 'GeomVLA: Unifying Scene, Motion, and Action in 3D'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:dTyEYWd-f8wC
+    pdf_url: https://arxiv.org/pdf/2609.13812v2.pdf
+  - title: '3d flowmatch actor: Unified 3d policy for single-and dual-arm manipulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:D_sINldO8mEC
+    pdf_url: https://arxiv.org/pdf/2508.11002v2.pdf
+  - title: 'Vlm agents generate their own memories: Distilling experience into embodied programs of thought'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:p2g8aNsByqUC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/8ac50fd0a4eeeb1f077b17bb7c5353c3-Paper-Conference.pdf
+  - title: Open-ended instructable embodied agents with memory-augmented large language models
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FWp7728AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=FWp7728AAAAJ:4OULZ7Gr8RgC
+    pdf_url: https://arxiv.org/pdf/2310.15127v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

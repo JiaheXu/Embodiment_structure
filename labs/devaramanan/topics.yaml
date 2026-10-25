@@ -1,0 +1,97 @@
+folder: devaramanan
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Visual perception across modalities, dynamic 3D reconstruction, and embodied foundation models.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 78
+  year_range:
+    start: 2024
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=9B8PoXUAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Multimodal detection and driving perception
+  description: Learning object detection, scene flow, and foundational representations for LiDAR and radar.
+  representative_papers:
+  - title: 'AevaScenes: An FMCW LiDAR Dataset and Benchmark for Long-Range Perception'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:6VlyvFCUEfcC
+    pdf_url: https://arxiv.org/pdf/2609.33230v1.pdf
+  - title: 'UniFlow: Zero-Shot LiDAR Scene Flow for Autonomous Driving'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:oTdOBqtIf_kC
+    pdf_url: https://arxiv.org/pdf/2511.18254v3.pdf
+  - title: 'DetPO: In-Context Learning with Multi-modal LLMs for Few-Shot Object Detection'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:BOlwja0KXvYC
+    pdf_url: https://arxiv.org/pdf/2603.23455v2.pdf
+  - title: 'UniFlow: Towards Zero-Shot LiDAR Scene Flow for Autonomous Vehicles via Cross-Domain Generalization'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:lYAcb2jw7qUC
+    pdf_url: https://arxiv.org/pdf/2511.18254.pdf
+  - title: Towards foundational models for single-chip radar
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:t-hv7AR41mYC
+    pdf_url: https://arxiv.org/pdf/2509.12482v1.pdf
+  - title: Revisiting few-shot object detection with vision-language models
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:G1UMdFYMoxkC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/22b2067b8f680812624032025864c5a1-Paper-Datasets_and_Benchmarks_Track.pdf
+- name: Dynamic 3D reconstruction
+  description: Recovering point trajectories, 4D motion, novel views, and deformable scene geometry.
+  representative_papers:
+  - title: 'PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:7Frjd3zlGBUC
+    pdf_url: https://arxiv.org/pdf/2609.19142v3.pdf
+  - title: 'FrameCrafter: Novel View Synthesis as Video Completion'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:ndLnGcHYRF0C
+    pdf_url: https://arxiv.org/pdf/2604.08500v2.pdf
+  - title: 'Point4D: Long-range 4D Motion Reconstruction'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:orDZ08hpP44C
+    pdf_url: https://arxiv.org/pdf/2609.09145v1.pdf
+  - title: 'FixAnything: 3D-Consistent Rendering Refinement via Video Generative Priors'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:WwIwg2wKZ0QC
+    pdf_url: https://arxiv.org/pdf/2608.23549v1.pdf
+  - title: 'Monofusion: Sparse-view 4d reconstruction via monocular fusion'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:RtRctb2lSbAC
+    pdf_url: https://arxiv.org/pdf/2507.23782v2.pdf
+  - title: 'Deformgs: Scene flow in highly deformable scenes for deformable object manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:D_tqNUsBuKoC
+    pdf_url: https://arxiv.org/pdf/2312.00583v2.pdf
+- name: Embodied policies and visual model evaluation
+  description: Adapting VLA models and world-action models while testing general visual reasoning.
+  representative_papers:
+  - title: Mechanistic Finetuning of Vision-Language-Action Models via Few-Shot Demonstrations
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:EaFouW7jFu4C
+    pdf_url: https://arxiv.org/pdf/2511.22697v1.pdf
+  - title: 'MimicAgent: Quadruped Skills via Prompt-to-Trajectory Generation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:Azgs6IHzeyYC
+    pdf_url: https://arxiv.org/pdf/2609.24145v1.pdf
+  - title: Modality-Autoregressive World-Action Models
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:xm0LlTxljI0C
+    pdf_url: https://arxiv.org/pdf/2609.17524v2.pdf
+  - title: 'Visual General Intelligence: A White Paper'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:DXE8ND7PrJAC
+    pdf_url: https://arxiv.org/pdf/2608.25924.pdf
+  - title: 'Naturalbench: Evaluating vision-language models on natural adversarial samples'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9B8PoXUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9B8PoXUAAAAJ:1tZ8xJnm2c8C
+    pdf_url: https://arxiv.org/pdf/2410.14669v4.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

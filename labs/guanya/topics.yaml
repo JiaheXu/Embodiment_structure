@@ -1,0 +1,96 @@
+folder: guanya
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Learning and optimization for agile whole-body, aerial, and safe robot control.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 83
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=joR1Z4UAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Humanoid whole-body control
+  description: Learning motion tracking, loco-manipulation, accurate end-effector control, and safe stopping.
+  representative_papers:
+  - title: Precise SE (3) End-Effector Tracking in Whole-Body Humanoid Control
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:kzcrU_BdoSEC
+    pdf_url: https://arxiv.org/pdf/2610.09479v1.pdf
+  - title: Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:W5xh706n7nkC
+    pdf_url: https://arxiv.org/pdf/2609.38172v1.pdf
+  - title: Humanoid Safe Stop via Learned Stoppability Value
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:_Ybze24A_UAC
+    pdf_url: https://arxiv.org/pdf/2609.02358v1.pdf
+  - title: Evolution of humanoid locomotion control
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:tS2w5q8j5-wC
+    pdf_url: https://www.thetracelab.com/uploads/1/1/3/0/113094493/evolution_of_humanoid_locomotion_control_1203.pdf
+  - title: Learning sim-to-real humanoid locomotion in 15 minutes
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:geHnlv5EZngC
+    pdf_url: https://arxiv.org/pdf/2512.01996v1.pdf
+  - title: 'Resmimic: From general motion tracking to humanoid whole-body loco-manipulation via residual
+      learning'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:XiSMed-E-HIC
+    pdf_url: https://arxiv.org/pdf/2510.05070v2.pdf
+- name: Model-predictive planning and trajectory optimization
+  description: Using manifold guidance, feedback sampling, diffusion optimization, and learned dynamics.
+  representative_papers:
+  - title: 'Trajectory Planning without Trajectory Data: A Manifold-Guided Approach'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:UHK10RUVsp4C
+    pdf_url: https://arxiv.org/pdf/2610.08863.pdf
+  - title: Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:JQOojiI6XY0C
+    pdf_url: https://arxiv.org/pdf/2608.19443v1.pdf
+  - title: Model-based diffusion for trajectory optimization
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:YFjsv_pBGBYC
+    pdf_url: https://arxiv.org/pdf/2407.01573v1.pdf
+  - title: Model predictive control for aggressive driving over uneven terrain
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:k_IJM867U9cC
+    pdf_url: https://arxiv.org/pdf/2311.12284v3.pdf
+- name: Aerial control and simulation transfer
+  description: Planning contact-aware aerial manipulation and adaptive flight, with simulation tools for
+    robot learning.
+  representative_papers:
+  - title: 'AM-Bench: A Modular Simulation Suite and Benchmark for Aerial Manipulation Policy Learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:uLbwQdceFCQC
+    pdf_url: https://arxiv.org/pdf/2609.00641.pdf
+  - title: 'Spider: Scalable physics-informed dexterous retargeting'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:vRqMK49ujn8C
+    pdf_url: https://arxiv.org/pdf/2511.09484v3.pdf
+  - title: 'Genesis: A universal and generative physics engine for robotics and beyond'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:1sJd4Hv_s6UC
+    pdf_url: https://arxiv.org/pdf/2401.01454.pdf
+  - title: 'Flying calligrapher: Contact-aware motion and force planning and control for aerial manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:BqipwSGYUEgC
+    pdf_url: https://arxiv.org/pdf/2407.05587v2.pdf
+  - title: 'Datt: Deep adaptive trajectory tracking for quadrotor control'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:4JMBOYKVnBMC
+    pdf_url: https://arxiv.org/pdf/2310.09053v3.pdf
+  - title: Systems and methods for robust learning-based control during forward and landing flight under
+      uncertain conditions
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=joR1Z4UAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=joR1Z4UAAAAJ:WF5omc3nYNoC
+    pdf_url: https://patentimages.storage.googleapis.com/37/4c/9f/aa61ea45f445be/US11693373.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

@@ -1,0 +1,103 @@
+folder: shubham
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Dynamic visual reconstruction and human-video-driven robot manipulation.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 44
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=06rffEkAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: 3D and 4D video reconstruction
+  description: Recovering camera geometry, dynamic motion, and hand trajectories from sparse or monocular
+    observations.
+  representative_papers:
+  - title: 'Point4D: Long-range 4D Motion Reconstruction'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:NXb4pA-qfm4C
+    pdf_url: https://arxiv.org/pdf/2609.09145v1.pdf
+  - title: 'Rayrope: Projective ray positional encoding for multi-view attention'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:9pM33mqn1YgC
+    pdf_url: https://arxiv.org/pdf/2601.15275v3.pdf
+  - title: 'Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:anf4URPfarAC
+    pdf_url: https://arxiv.org/pdf/2606.23688v1.pdf
+  - title: Predicting 4d hand trajectory from monocular videos
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:edDO8Oi4QzsC
+    pdf_url: https://arxiv.org/pdf/2501.08329v1.pdf
+  - title: Sparse-view pose estimation and reconstruction via analysis by generative synthesis
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:q3CdL3IzO_QC
+    pdf_url: https://arxiv.org/pdf/2412.03570v1.pdf
+  - title: 'Upfusion: Novel view diffusion from unposed sparse view observations'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:oNZyr7d5Mn4C
+    pdf_url: https://arxiv.org/pdf/2312.06661v2.pdf
+  - title: 'Cameras as Rays: Pose Estimation via Ray Diffusion'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:WZBGuue-350C
+    pdf_url: https://arxiv.org/pdf/2402.14817v3.pdf
+  - title: Diffusion-guided reconstruction of everyday hand-object interaction clips
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:LI9QrySNdTsC
+    pdf_url: https://arxiv.org/pdf/2309.05663v1.pdf
+- name: Visual imitation and manipulation generalization
+  description: Learning reactive flow policies, hierarchical skills, and one-shot human imitation.
+  representative_papers:
+  - title: An Empirical Study on What Matters for Viewpoint-Generalizable Policies in Visual Imitation
+      Learning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:HtEfBTGE9r8C
+    pdf_url: https://arxiv.org/pdf/2609.32762v1.pdf
+  - title: Reactive Real-time Flow Policies
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:0izLItjtcgwC
+    pdf_url: https://arxiv.org/pdf/2607.26055.pdf
+  - title: 'GHOST: Hierarchical Sub-Goal Policies for Generalizing Robot Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:LO7wyVUgiFcC
+    pdf_url: https://arxiv.org/pdf/2606.10025v1.pdf
+  - title: 'Demodiffusion: One-shot human imitation using pre-trained diffusion policy'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:_axFR9aDTf0C
+    pdf_url: https://arxiv.org/pdf/2506.20668v3.pdf
+  - title: 'Gen2act: Human video generation in novel scenarios enables generalizable robot manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:Dip1O2bNi0gC
+    pdf_url: https://arxiv.org/pdf/2409.16283v1.pdf
+- name: Generative appearance and physical modeling
+  description: Modeling relighting, materials, and contact-grounded real-to-sim reconstruction.
+  representative_papers:
+  - title: Contact-guided real2sim from monocular video with planar scene primitives
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:FAceZFleit8C
+    pdf_url: https://arxiv.org/pdf/2512.14696v3.pdf
+  - title: 'Lightswitch: Multi-view relighting with material-guided diffusion'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:rmuvC79q63oC
+    pdf_url: https://arxiv.org/pdf/2508.06494v1.pdf
+  - title: Temporal score rescaling for temperature sampling in diffusion and flow models
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:Ri6SYOTghG4C
+    pdf_url: https://arxiv.org/pdf/2510.01184v2.pdf
+  - title: 'Uniphy: Learning a unified constitutive model for inverse physics simulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:5qfkUJPXOUwC
+    pdf_url: https://arxiv.org/pdf/2505.16971.pdf
+  - title: 'Mesh2tex: Generating mesh textures from image queries'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=06rffEkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=06rffEkAAAAJ:kuK5TVdYjLIC
+    pdf_url: https://arxiv.org/pdf/2304.05868v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

@@ -1,0 +1,90 @@
+folder: zackory
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Assistive robotics and shared autonomy with adaptive policies and multimodal interfaces.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 48
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=wElkTtIAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Shared autonomy and interactive learning
+  description: Blending teleoperation with learned policies and adapting shared control through interaction.
+  representative_papers:
+  - title: 'BlenDAgger: Blended Shared Control for Interactive Imitation Learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:abG-DnoFyZgC
+    pdf_url: https://arxiv.org/pdf/2609.37599v1.pdf
+  - title: 'SAPS: Shared Autonomy for Policy Steering by Blending Teleoperation with a Pretrained VLA'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:cFHS6HbyZ2cC
+    pdf_url: https://arxiv.org/pdf/2606.15568.pdf
+  - title: Incremental learning for robot shared autonomy
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:maZDTaKrznsC
+    pdf_url: https://arxiv.org/pdf/2410.06315.pdf
+- name: Personalized assistive manipulation
+  description: Transferring human demonstrations into bathing or feeding robots and assessing assistive
+    robustness.
+  representative_papers:
+  - title: High Fidelity Capture, Reconstruction, and Transfer of Human Demonstrations for Robot-Assisted
+      Bathing
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:f2IySw72cVMC
+    pdf_url: https://arxiv.org/pdf/2608.09127v1.pdf
+  - title: Towards an llm-based speech interface for robot-assisted feeding
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:M3NEmzRMIkIC
+    pdf_url: https://arxiv.org/pdf/2410.20624v1.pdf
+  - title: Quantifying assistive robustness via the natural-adversarial frontier
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:-f6ydRqryjwC
+    pdf_url: https://arxiv.org/pdf/2310.10610v1.pdf
+- name: Adaptive physical AI and novel robot systems
+  description: Learning post-deployment adaptation, long-horizon values, and natural-language reasoning
+    with sensing or compliant hardware.
+  representative_papers:
+  - title: An Empirical Study on What Matters for Viewpoint-Generalizable Policies in Visual Imitation
+      Learning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:NhqRSupF_l8C
+    pdf_url: https://arxiv.org/pdf/2609.32762v1.pdf
+  - title: 'SeeQ: Training Generalist Value Functions for Long-Horizon Robotic Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:b0M2c_1WBrUC
+    pdf_url: https://arxiv.org/pdf/2609.22085v2.pdf
+  - title: Tendon-Driven Continuum Robot with Modular Stiffness and In-Situ Self Pose Estimation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:EUQCXRtRnyEC
+    pdf_url: https://arxiv.org/pdf/2609.16256v2.pdf
+  - title: Continual Field-Adaptive Models (CFAMs) for Post-Deployment Physical AI
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:_xSYboBqXhAC
+    pdf_url: https://arxiv.org/pdf/2609.04552v2.pdf
+  - title: Training Robots to Reason in Natural Language via Reinforcement Learning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:bFI3QPDXJZMC
+    pdf_url: https://arxiv.org/pdf/2608.26053.pdf
+  - title: Programmable online stiffness modulation for optimized aquatic locomotion
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:yD5IFk8b50cC
+    pdf_url: https://www.nature.com/articles/s44182-026-00099-8_reference.pdf
+  - title: 'Robocap: Robotic classification and precision pouring of diverse liquids and granular media
+      with capacitive sensing'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:TFP_iSt0sucC
+    pdf_url: https://arxiv.org/pdf/2405.07423v2.pdf
+  - title: 'Emgbench: Benchmarking out-of-distribution generalization and adaptation for electromyography'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wElkTtIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=wElkTtIAAAAJ:JV2RwH3_ST0C
+    pdf_url: https://arxiv.org/pdf/2410.23625v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

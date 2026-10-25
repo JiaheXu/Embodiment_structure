@@ -1,0 +1,74 @@
+folder: panpancai
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Symbolic and uncertainty-aware planning for robots and autonomous driving.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 15
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=MZfL0qUAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Symbolic task planning
+  description: Learning PDDL domains and task abstractions from demonstrations and vision-language models.
+  representative_papers:
+  - title: 'PO-PDDL: Learning Symbolic POMDPs from Visual Demonstrations for Robot Planning Under Uncertainty'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:hFOr9nPyWt4C
+    pdf_url: https://arxiv.org/pdf/2606.15654v2.pdf
+  - title: 'Unidomain: Pretraining a unified pddl domain from real-world demonstrations for generalizable
+      robot task planning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:7PzlFSSx8tAC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/b8358a00e5b870194b974ddf8dd415c3-Paper-Conference.pdf
+  - title: 'Uniplan: Vision-language task planning for mobile manipulation with unified pddl formulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:qUcmZB5y_30C
+    pdf_url: https://arxiv.org/pdf/2602.08537v1.pdf
+  - title: Mimic intent, not just trajectories
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:L8Ckcad2t8MC
+    pdf_url: https://arxiv.org/pdf/2602.08602v3.pdf
+- name: Planning under partial observability
+  description: Maintaining hypotheses and solving POMDPs for manipulation and autonomous driving.
+  representative_papers:
+  - title: 'Tru-pomdp: Task planning under uncertainty via tree of hypotheses and open-ended pomdps'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:mVmsd5A6BfQC
+    pdf_url: https://arxiv.org/pdf/2506.02860v2.pdf
+  - title: 'Vec-QMDP: Vectorized POMDP Planning on CPUs for Real-Time Autonomous Driving'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:ZeXyd9-uunAC
+    pdf_url: https://arxiv.org/pdf/2602.08334v2.pdf
+  - title: 'Hi-drive: Hierarchical pomdp planning for safe autonomous driving in diverse urban environments'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:dhFuZR0502QC
+    pdf_url: https://arxiv.org/pdf/2409.18411v2.pdf
+- name: Embodied perception and control
+  description: Integrating active perception, force-aware VLA policies, and whole-body motion planning.
+  representative_papers:
+  - title: 'Forcevla: Enhancing vla models with a force-aware moe for contact-rich manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:hC7cP41nSMkC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/8633b46e12cc5f2ee1f05a6ca2c65b38-Paper-Conference.pdf
+  - title: 'I-perceive: A foundation model for active perception with language instructions'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:-f6ydRqryjwC
+    pdf_url: https://arxiv.org/pdf/2603.00600.pdf
+  - title: 'World modeling makes a better planner: Dual preference optimization for embodied task planning'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:4DMP91E08xMC
+    pdf_url: https://aclanthology.org/2025.acl-long.1044.pdf
+  - title: Neural randomized planning for whole body robot motion
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=MZfL0qUAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=MZfL0qUAAAAJ:4TOpqqG69KYC
+    pdf_url: https://arxiv.org/pdf/2405.11317v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

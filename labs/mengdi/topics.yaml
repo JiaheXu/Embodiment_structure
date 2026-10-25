@@ -1,0 +1,91 @@
+folder: mengdi
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: The saved collection centers on humanoid learning, sim-to-real adaptation, and feedback-guided
+  control.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 24
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=zh-CN&user=A1yMyYEAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Humanoid and dexterous policy learning
+  description: Learning whole-body interaction, tactile adaptation, racket skills, and human-video-based
+    dexterity.
+  representative_papers:
+  - title: 'Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:SP6oXDckpogC
+    pdf_url: https://arxiv.org/pdf/2609.35450v2.pdf
+  - title: 'Humanoid Badminton: Learning Dynamic Racket Skills from Limited Human Motion Data'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:UxriW0iASnsC
+    pdf_url: https://arxiv.org/pdf/2609.31840v1.pdf
+  - title: 'Weave: Learning Whole-Body Dexterous Loco-Manipulation from Human-Object Interactions'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:dshw04ExmUIC
+    pdf_url: https://arxiv.org/pdf/2609.16683v1.pdf
+  - title: 'Dex-x: Learning visual-tactile dexterous manipulation from human videos with simulated interaction'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:xtRiw3GOFMkC
+    pdf_url: https://arxiv.org/pdf/2609.07747v3.pdf
+  - title: 'Guardians as you fall: Active mode transition for safe falling'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:ldfaerwXgEUC
+    pdf_url: https://arxiv.org/pdf/2310.04828v1.pdf
+- name: Sim-to-real identification and evaluation
+  description: Using system identification, causal discovery, and calibrated simulation for policy transfer
+    and evaluation.
+  representative_papers:
+  - title: 'R2S-Eval: Robot Evaluation with Real-to-Sim Calibration via Vision-Language Models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:NhqRSupF_l8C
+    pdf_url: https://arxiv.org/pdf/2609.03276v1.pdf
+  - title: 'Dynamics as prompts: In-context learning for sim-to-real system identifications'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:dfsIfKJdRG4C
+    pdf_url: https://arxiv.org/pdf/2410.20357v2.pdf
+  - title: What went wrong? closing the sim-to-real gap via differentiable causal discovery
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:pqnbT2bcN3wC
+    pdf_url: https://arxiv.org/pdf/2306.15864v2.pdf
+- name: Feedback-guided generative control
+  description: Learning action representations, constrained demonstrations, language rewards, and adaptive
+    replanning.
+  representative_papers:
+  - title: Rethinking Causal Action Tokenization with Conditional Annealing in Flow Matching
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:uWQEDVKXjbEC
+    pdf_url: https://arxiv.org/pdf/2609.35469v1.pdf
+  - title: Scaling verification can be more effective than scaling policy learning for vision-language-action
+      alignment
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:EUQCXRtRnyEC
+    pdf_url: https://arxiv.org/pdf/2602.12281v2.pdf
+  - title: 'Momagen: Generating demonstrations under soft and hard constraints for multi-step bimanual
+      mobile manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:bFI3QPDXJZMC
+    pdf_url: https://arxiv.org/pdf/2510.18316v4.pdf
+  - title: 'ROSETTA: Constructing code-based reward from unconstrained language preference'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:f2IySw72cVMC
+    pdf_url: https://proceedings.iclr.cc/paper_files/paper/2026/file/329c7e0ede6a7e229a7915da7b4bd7bd-Paper-Conference.pdf
+  - title: Embodied executable policy learning with language-based scene summarization
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:RGFaLdJalmkC
+    pdf_url: https://arxiv.org/pdf/2306.05696v1.pdf
+  - title: Adaptive online replanning with diffusion models
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A1yMyYEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=A1yMyYEAAAAJ:SeFeTyx0c_EC
+    pdf_url: https://arxiv.org/pdf/2310.09629v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

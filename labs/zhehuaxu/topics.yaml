@@ -1,0 +1,102 @@
+folder: zhehuaxu
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Adaptive visual robot learning, dexterous generalist policies, and long-horizon world-action
+  models.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 77
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?user=t9HPFawAAAAJ&hl=en&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Human-to-robot dexterous transfer
+  description: Learning high-DOF bimanual or mobile dexterity from human motion and egocentric demonstrations.
+  representative_papers:
+  - title: 'Hermes: Human-to-robot embodied learning from multi-source motion data for mobile dexterous
+      manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:738O_yMBCRsC
+    pdf_url: https://arxiv.org/pdf/2508.20085v3.pdf
+  - title: 'Dexora: Open-source vla for high-dof bimanual dexterity'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:1qzjygNMrQYC
+    pdf_url: https://arxiv.org/pdf/2605.18722v1.pdf
+  - title: 'Unidex: A robot foundation suite for universal dexterous hand control from egocentric human
+      videos'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:mvPsJ3kp5DgC
+    pdf_url: https://arxiv.org/pdf/2603.22264.pdf
+  - title: 'Dtactive: A vision-based tactile sensor with active surface'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:pyW8ca7W8N0C
+    pdf_url: https://arxiv.org/pdf/2410.08337.pdf
+  - title: 'H-index: Visual reinforcement learning with hand-informed representations for dexterous manipulation'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:BqipwSGYUEgC
+    pdf_url: https://arxiv.org/pdf/2310.01404v2.pdf
+- name: Adaptive reinforcement and imitation learning
+  description: Steering policies with latent RL and learning visual control through distillation or expert
+    mixtures.
+  representative_papers:
+  - title: 'X-distill: Cross-architecture vision distillation for visuomotor learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:VOx2b1Wkg3QC
+    pdf_url: https://arxiv.org/pdf/2601.11269v1.pdf
+  - title: 'Beyond Action Residuals: Real-World Robot Policy Steering via Bottleneck Latent Reinforcement
+      Learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:V3AGJWp-ZtQC
+    pdf_url: https://arxiv.org/pdf/2605.19919v1.pdf
+  - title: 'Entropy regularizing activation: Boosting continuous control, large language models, and image
+      classification with activation as entropy constraints'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:LPZeul_q3PIC
+    pdf_url: https://proceedings.iclr.cc/paper_files/paper/2026/file/36636f1009939960aa2f9e28d28c8a7d-Paper-Conference.pdf
+  - title: 'Rl-100: Performant robotic manipulation with real-world reinforcement learning'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:tS2w5q8j5-wC
+    pdf_url: https://arxiv.org/pdf/2510.14830v4.pdf
+  - title: 'Make-an-agent: A generalizable policy network generator with behavior-prompted diffusion'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:EUQCXRtRnyEC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/223eb69a2f2fb97fde58eaa958babb7a-Paper-Conference.pdf
+  - title: 'Mentor: Mixture-of-experts network with task-oriented perturbation for visual reinforcement
+      learning'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:a0OBvERweLwC
+    pdf_url: https://arxiv.org/pdf/2410.14972v3.pdf
+  - title: Generalizable visual reinforcement learning with segment anything model
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:J_g5lzvAfSwC
+    pdf_url: https://arxiv.org/pdf/2312.17116v1.pdf
+- name: World-action models and long-horizon skills
+  description: Learning persistent-memory world models and decomposed diffusion policies with failure
+    recovery.
+  representative_papers:
+  - title: 'Memorywam: Efficient world action modeling with persistent memory'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:5ugPr518TE4C
+    pdf_url: https://arxiv.org/pdf/2606.20562v1.pdf
+  - title: 'Moe-dp: An moe-enhanced diffusion policy for robust long-horizon robotic manipulation with
+      skill decomposition and failure recovery'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:4fKUyHm3Qg0C
+    pdf_url: https://arxiv.org/pdf/2511.05007v1.pdf
+  - title: Galaxy Open-World Dataset and G0 Dual-System VLA Model
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:K3LRdlH-MEoC
+    pdf_url: https://arxiv.org/pdf/2509.00576v1.pdf
+  - title: 4d visual pre-training for robot learning
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=t9HPFawAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=t9HPFawAAAAJ:WbkHhVStYXYC
+    pdf_url: https://arxiv.org/pdf/2508.17230v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

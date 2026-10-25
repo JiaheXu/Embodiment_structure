@@ -1,0 +1,120 @@
+folder: 白拾的物理AI组会
+source_type: video_channel
+summary_date: '2026-10-14'
+status: collection_based
+summary: The saved collection primarily covers LLM agent systems, software automation, and long-horizon
+  memory.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 30
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://space.bilibili.com/98639326/upload/video
+topics:
+- name: Multi-agent orchestration and learning
+  description: Coordinating agents, routing tasks, and using RL or hierarchical search to improve collaboration.
+  representative_papers:
+  - title: 'AgentSwift: Efficient LLM Agent Design via Value-guided Hierarchical Search'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1TAH76DEHp
+    pdf_url: https://arxiv.org/pdf/2506.06017v2.pdf
+  - title: End-to-End Optimization of LLM-Driven Multi-Agent Search Systems via Heterogeneous-Group-Based
+      Reinforcement Learning
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1Gcak6sEW4
+    pdf_url: https://arxiv.org/pdf/2506.02718v2.pdf
+  - title: Multi-Agent Collaboration via Evolving Orchestration
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1wKHi6hEUd
+    pdf_url: https://arxiv.org/pdf/2505.19591v2.pdf
+  - title: 'Dr. MAS: Stable Reinforcement Learning for Multi-Agent LLM Systems'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1U9Hv6zEEf
+    pdf_url: https://arxiv.org/pdf/2602.08847v2.pdf
+  - title: 'GraphPlanner: Graph Memory-Augmented Agentic Routing for Multi-Agent LLMs'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV18wH76HETd
+    pdf_url: https://arxiv.org/pdf/2604.23626v1.pdf
+  - title: 'TraceDev: A Traceability-Driven Multi-agent Framework for Requirement-to-Code Development'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1Vcak6sEcg
+    pdf_url: https://arxiv.org/pdf/2607.18886v1.pdf
+- name: Agent memory and efficiency
+  description: Compressing trajectories and managing associative, visual, or filesystem memory for long
+    tasks.
+  representative_papers:
+  - title: 'LightMem: Lightweight and Efficient Memory-Augmented Generation'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1nPHn62Em5
+    pdf_url: https://arxiv.org/pdf/2510.18866v4.pdf
+  - title: Reducing Cost of LLM Agents with Trajectory Reduction
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1suHb6LEHq
+    pdf_url: https://arxiv.org/pdf/2509.23586v2.pdf
+  - title: 'AttnCompress: Dynamic Attention-Guided Trajectory Compression for Software Engineering Agents'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV16vHt6BEoH
+    pdf_url: https://arxiv.org/pdf/2609.08318v1.pdf
+  - title: 'FS-Researcher: Test-Time Scaling for Long-Horizon Research Tasks with File-System-Based Agents'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV11bHt6kEL2
+    pdf_url: https://arxiv.org/pdf/2602.01566v2.pdf
+  - title: 'HeLa-Mem: Hebbian Learning and Associative Memory for LLM Agents'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1ncHn6UEQW
+    pdf_url: https://arxiv.org/pdf/2604.16839v1.pdf
+  - title: 'OCR-Memory: Optical Context Retrieval for Long-Horizon Agent Memory'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1pFHn6JEW4
+    pdf_url: https://arxiv.org/pdf/2604.26622v1.pdf
+  - title: 'SE-GA: Memory-Augmented Self-Evolution for GUI Agents'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1NFHi6vEhe
+    pdf_url: https://arxiv.org/pdf/2605.16883v1.pdf
+- name: Software and tool automation
+  description: Applying agents to debugging, repository repair, testing, code translation, and GUI interaction.
+  representative_papers:
+  - title: 'ChatDBG: Augmenting Debugging with Large Language Models'
+    year: 2024
+    page_url: https://www.bilibili.com/video/BV1jgaD6nE4k
+    pdf_url: https://arxiv.org/pdf/2403.16354.pdf
+  - title: Enhancing Open-Domain Task-Solving Capability of LLMs via Autonomous Tool Integration from
+      GitHub
+    year: 2023
+    page_url: https://www.bilibili.com/video/BV1C3H765EJF
+    pdf_url: https://arxiv.org/pdf/2312.17294v3.pdf
+  - title: 'AutoRestTest: A Tool for Automated REST API Testing Using LLMs and MARL'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV12AH76SErG
+    pdf_url: https://arxiv.org/pdf/2501.08600v2.pdf
+  - title: 'MatchFixAgent: Language-Agnostic Autonomous Repository-Level Code Translation Validation and
+      Repair'
+    year: 2025
+    page_url: https://www.bilibili.com/video/BV1FCaD6ZEPo
+    pdf_url: https://arxiv.org/pdf/2509.16187v3.pdf
+  - title: 'EffiHolmes: Differential Profiling-Guided Repository Level Time Inefficiency Fix Localization'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1igaD6nEVx
+    pdf_url: https://arxiv.org/pdf/2608.03558v1.pdf
+  - title: 'MultiFixer: A Coordinator-Proposer Based Multi-Agent Framework For Fixing Multi-Hunk Bugs'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1Ywak69EB5
+    pdf_url: https://arxiv.org/pdf/2607.26591v1.pdf
+  - title: 'ReCodeAgent: A Multi-agent Workflow for Language-Agnostic Translation and Validation of Large-Scale
+      Repositories'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1oYak6aECx
+    pdf_url: https://arxiv.org/pdf/2604.07341v4.pdf
+  - title: 'Video2GUI: Synthesizing Large-Scale Interaction Trajectories for Generalized GUI Agent Pretraining'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1y3H765EGH
+    pdf_url: https://arxiv.org/pdf/2605.14747v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- Topics describe papers covered by this channel; authorship or affiliation with the channel is not implied.

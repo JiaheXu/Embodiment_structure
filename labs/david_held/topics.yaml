@@ -1,0 +1,107 @@
+folder: david_held
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Generalizable manipulation using 3D representations, learned dynamics, and adaptive policies.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 44
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=0QtU-NsAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Object-centric representations and dynamics
+  description: Learning 3D object representations and stochastic particle dynamics for manipulation.
+  representative_papers:
+  - title: 'ParticleSplat: Self-supervised Object-centric Latent Particle Splatting'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:35r97b3x0nAC
+    pdf_url: https://arxiv.org/pdf/2609.19463v1.pdf
+  - title: '3D-DLP: Self-supervised 3D Object-centric Scene Representation Learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:_Re3VWB3Y0AC
+    pdf_url: https://arxiv.org/pdf/2606.19451v1.pdf
+  - title: 'Latent particle world models: Self-supervised object-centric stochastic dynamics modeling'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:kzcrU_BdoSEC
+    pdf_url: https://arxiv.org/pdf/2603.04553v1.pdf
+- name: Generalizable manipulation and transfer
+  description: Learning grasps, tool use, placement, articulated-object manipulation, and human-to-robot
+    transfer.
+  representative_papers:
+  - title: 'H2RBench: A Real-to-Sim Benchmark for Evaluating Human-to-Robot Transfer'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:fEOibwPWpKIC
+    pdf_url: https://arxiv.org/pdf/2609.24778.pdf
+  - title: 'JAMB: Joint Action-Motion Diffusion for Bimanual Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:-_dYPAW6P2MC
+    pdf_url: https://arxiv.org/pdf/2609.25322v2.pdf
+  - title: 'From Grasps to Dexterity: Large-Scale Grasp Pretraining for Dexterous Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:tzM49s52ZIMC
+    pdf_url: https://arxiv.org/pdf/2606.30749v1.pdf
+  - title: 'GHOST: Hierarchical Sub-Goal Policies for Generalizing Robot Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:tKAzc9rXhukC
+    pdf_url: https://arxiv.org/pdf/2606.10025v1.pdf
+  - title: Disentangled Point Diffusion for Precise Object Placement
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:NJ774b8OgUMC
+    pdf_url: https://arxiv.org/pdf/2604.11793v1.pdf
+  - title: Planning from Point Clouds over Continuous Actions for Multi-object Rearrangement
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:dQ2og3OwTAUC
+    pdf_url: https://arxiv.org/pdf/2509.04645v1.pdf
+  - title: Non-rigid relative placement through 3d dense diffusion
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:SdhP9T11ey4C
+    pdf_url: https://arxiv.org/pdf/2410.19247v2.pdf
+  - title: Learning generalizable tool-use skills through trajectory generation
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:wbdj-CoPYUoC
+    pdf_url: https://arxiv.org/pdf/2310.00156v5.pdf
+  - title: 'Flowbothd: History-aware diffuser handling ambiguities in articulated objects manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:5awf1xo2G04C
+    pdf_url: https://arxiv.org/pdf/2410.07078v3.pdf
+  - title: 'Flowbot++: Learning generalized articulated objects manipulation via articulation projection'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:1qzjygNMrQYC
+    pdf_url: https://arxiv.org/pdf/2306.12893v4.pdf
+- name: Policy adaptation and assistive interaction
+  description: Adapting to dynamics and feedback, with applications to force-aware robot-assisted dressing.
+  representative_papers:
+  - title: 'Scouting the Dynamics Gap: Test-Time Policy Adaptation via Action-Outcome Feedback'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:j8SEvjWlNXcC
+    pdf_url: https://arxiv.org/pdf/2609.36107v1.pdf
+  - title: An Empirical Study on What Matters for Viewpoint-Generalizable Policies in Visual Imitation
+      Learning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:uJ-U7cs_P_0C
+    pdf_url: https://arxiv.org/pdf/2609.32762v1.pdf
+  - title: Real-world offline reinforcement learning from vision language model feedback
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:ye4kPcJQO24C
+    pdf_url: https://arxiv.org/pdf/2411.05273.pdf
+  - title: Geometric red-teaming for robotic manipulation
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:UHK10RUVsp4C
+    pdf_url: https://arxiv.org/pdf/2509.12379v1.pdf
+  - title: Force-Modulated Visual Policy for Robot-Assisted Dressing with Arm Motions
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:JQOojiI6XY0C
+    pdf_url: https://arxiv.org/pdf/2509.12741v1.pdf
+  - title: 'One policy to dress them all: Learning to dress people with diverse poses and garments'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0QtU-NsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=0QtU-NsAAAAJ:V3AGJWp-ZtQC
+    pdf_url: https://arxiv.org/pdf/2306.12372v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

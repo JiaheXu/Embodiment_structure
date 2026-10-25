@@ -1,0 +1,85 @@
+folder: HyperHorizon
+source_type: video_channel
+summary_date: '2026-10-14'
+status: collection_based
+summary: Coverage of geometric perception, 3D generation, and geometry-grounded world-action models.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 92
+  year_range:
+    start: 2026
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://space.bilibili.com/11470647/upload/video
+topics:
+- name: 3D and 4D reconstruction
+  description: Reconstructing and tracking dynamic scenes with geometric representations and Gaussian
+    splatting.
+  representative_papers:
+  - title: 'ARROW: Arbitrary Reconstruction and Tracking of 4D Observations in the Wild'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1v1p36DEio
+    pdf_url: https://arxiv.org/pdf/2610.01314v1.pdf
+  - title: 'DensiTok: Making Feed-Forward 3D Gaussian Splatting See More Views Than It Is Given'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1pYp36fEHT
+    pdf_url: https://arxiv.org/pdf/2610.07958.pdf
+  - title: 'Reconstructing the Dynamic World: A Representation-Centric View of 4D Scene Reconstruction'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1UrpG6GEEw
+    pdf_url: https://arxiv.org/pdf/2609.39960.pdf
+  - title: Sparse-View 4D Gaussian Splatting via Spatiotemporal Priors and Generative Assistance
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV18jp366ERv
+    pdf_url: https://arxiv.org/pdf/2610.04606.pdf
+- name: Scene generation and spatial understanding
+  description: Generating compositional 3D scenes and reasoning about occupancy, objects, and scene graphs.
+  representative_papers:
+  - title: 'AdaOcc: Adaptive 3D Occupancy Prediction for Embodied Tasks'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1SrpG6GEBr
+    pdf_url: https://arxiv.org/pdf/2609.38864v1.pdf
+  - title: 'DistScene: Object-to-Scene Distillation for 3D Scene Generation'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1hVp36kEfW
+    pdf_url: https://arxiv.org/pdf/2610.06960v1.pdf
+  - title: 'OpenSplatGraph: From Dense Semantic Maps to Structured Scene Graphs for Open-Vocabulary Robot
+      Perception'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1nYp36fEaQ
+    pdf_url: https://arxiv.org/pdf/2610.07569.pdf
+  - title: 'SPOON: Towards Coherent Compositional 3D Scene Generation from Uncalibrated Multi-view Images'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1DipG61EeK
+    pdf_url: https://arxiv.org/pdf/2609.39590.pdf
+- name: World-action models and navigation
+  description: Connecting explicit geometry and future prediction to robot actions and vision-language
+    navigation.
+  representative_papers:
+  - title: 'DepthWorld: 3D World Model for Robot Manipulation'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1xsp36NEiA
+    pdf_url: https://arxiv.org/pdf/2610.08780v1.pdf
+  - title: 'DiffWAM: A Fast and Efficient Navigation World Action Model'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV121pG6zEGw
+    pdf_url: https://arxiv.org/pdf/2609.39763v1.pdf
+  - title: 'PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1uop36VEoC
+    pdf_url: https://arxiv.org/pdf/2610.02840v1.pdf
+  - title: 'StageVLN: Spatial and Trajectory Auxiliary Guidance for Efficient Vision-Language Navigation'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1dxpG6pEkD
+    pdf_url: https://arxiv.org/pdf/2610.05664v1.pdf
+  - title: 'UniWAM: Unified World-Action Model'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1Zzp36REBH
+    pdf_url: https://arxiv.org/pdf/2610.02054.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- Topics describe papers covered by this channel; authorship or affiliation with the channel is not implied.

@@ -1,0 +1,96 @@
+folder: lerrel
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Practical robot learning with human demonstrations, contact sensing, and accessible hardware.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 44
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=pmVPj94AAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Contact-rich policies and sensing
+  description: Learning touch-driven manipulation and contact-conditioned behaviors with customizable
+    tactile sensors.
+  representative_papers:
+  - title: 'Touch begins where vision ends: Generalizable policies for contact-rich manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:HeT0ZceujKMC
+    pdf_url: https://arxiv.org/pdf/2506.13762v1.pdf
+  - title: 'Contact-Anchored Policies: Contact Conditioning Creates Strong Robot Utility Models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:lvd772isFD0C
+    pdf_url: https://arxiv.org/pdf/2602.09017v1.pdf
+  - title: 'eflesh: Highly customizable magnetic touch sensing using cut-cell microstructures'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:yMeIxYmEMEAC
+    pdf_url: https://arxiv.org/pdf/2506.09994v1.pdf
+  - title: 'Feel the force: Contact-driven learning from humans'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:fFSKOagxvKUC
+    pdf_url: https://arxiv.org/pdf/2506.01944v1.pdf
+  - title: 'That sounds right: Auditory self-supervision for dynamic robot manipulation'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:XD-gHx7UXLsC
+    pdf_url: https://proceedings.mlr.press/v229/thankaraj23a/thankaraj23a.pdf
+- name: Human demonstrations and transferable representations
+  description: Learning dexterity from smart glasses and using visual or 3D features for cross-domain
+    control.
+  representative_papers:
+  - title: 'Patch Policy: Efficient Embodied Control via Dense Visual Representations'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:BJbdYPG6LGMC
+    pdf_url: https://arxiv.org/pdf/2607.18236v1.pdf
+  - title: 'Dexterity from smart lenses: Multi-fingered robot manipulation with in-the-wild human demonstrations'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:ZzlSgRqYykMC
+    pdf_url: https://arxiv.org/pdf/2511.16661v1.pdf
+  - title: 'Point bridge: 3d representations for cross domain policy learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:u-coK7KVo8oC
+    pdf_url: https://arxiv.org/pdf/2601.16212v4.pdf
+  - title: 'Egozero: Robot learning from smart glasses'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:OR75R8vi5nAC
+    pdf_url: https://arxiv.org/pdf/2505.20290v2.pdf
+  - title: 'Dynamo: In-domain dynamics pretraining for visuo-motor control'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:HtEfBTGE9r8C
+    pdf_url: https://arxiv.org/pdf/2409.12192v2.pdf
+  - title: 'Baku: An efficient transformer for multi-task policy learning'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:bz8QjSJIRt4C
+    pdf_url: https://arxiv.org/pdf/2406.07539v2.pdf
+  - title: 'Dino-wm: World models on pre-trained visual features enable zero-shot planning'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:DUooU5lO8OsC
+    pdf_url: https://arxiv.org/pdf/2411.04983v2.pdf
+- name: Accessible robot systems
+  description: Building open dexterous hands, personal mobile manipulators, home robots, and laboratory
+    robot kits.
+  representative_papers:
+  - title: 'WetRobo: A Reproducible Robot Kit for Coding Agents in Biological Laboratories'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:Ak0FvsSvgGUC
+    pdf_url: https://arxiv.org/pdf/2609.18435.pdf
+  - title: 'Ruka-v2: Tendon Driven Open-Source Dexterous Hand with Wrist and Abduction for Robot Learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:tH6gc1N1XXoC
+    pdf_url: https://arxiv.org/pdf/2603.26660v2.pdf
+  - title: 'YOR: Your Own Mobile Manipulator for Generalizable Robotics'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:5MTHONV0fEkC
+    pdf_url: https://arxiv.org/pdf/2602.11150v1.pdf
+  - title: On bringing robots home
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=pmVPj94AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=pmVPj94AAAAJ:L7CI7m0gUJcC
+    pdf_url: https://arxiv.org/pdf/2311.16098.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

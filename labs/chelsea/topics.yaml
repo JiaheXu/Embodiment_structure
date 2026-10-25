@@ -1,0 +1,96 @@
+folder: chelsea
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Generalist robot learning through data collection, reinforcement learning, world models, and
+  feedback.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 85
+  year_range:
+    start: 2024
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=zh-CN&user=vfPE6hgAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Data-efficient adaptation and collection
+  description: Choosing useful real-robot data and improving generalist policies with RL fine-tuning.
+  representative_papers:
+  - title: 'Mulligan: Performance-Guided Data Collection for Efficient On-Robot Learning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:s85pQhAUCrAC
+    pdf_url: https://arxiv.org/pdf/2610.05882v1.pdf
+  - title: Reinforcement Learning for Real-Time Vision-Language-Action Policies
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:t-hv7AR41mYC
+    pdf_url: https://arxiv.org/pdf/2609.18207.pdf
+  - title: Do You Really Need to Pretrain Q-Functions for Online RL Fine-Tuning?
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:YTuZlYwrTOUC
+    pdf_url: https://arxiv.org/pdf/2607.27203v2.pdf
+  - title: Improving Robotic Generalist Policies via Flow Reversal Steering
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:zwpXiJ37cpgC
+    pdf_url: https://arxiv.org/pdf/2606.13675v2.pdf
+  - title: Invariance co-training for robot visual generalization
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:Xz60mAmATU4C
+    pdf_url: https://arxiv.org/pdf/2512.05230v1.pdf
+  - title: Calibrating language models with adaptive temperature scaling
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:WHdLCjDvYFkC
+    pdf_url: https://aclanthology.org/2024.emnlp-main.1007.pdf
+- name: World models and visual dexterity
+  description: Learning predictive dynamics and transferring simulated dexterous skills.
+  representative_papers:
+  - title: Q-Learning With World Models
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:SxCCDk4iOpsC
+    pdf_url: https://arxiv.org/pdf/2608.17163.pdf
+  - title: Pre-training Visual Dexterity in Simulation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:BJrgspguQaEC
+    pdf_url: https://arxiv.org/pdf/2608.15917v2.pdf
+  - title: 'Polaris: Scalable real-to-sim evaluations for generalist robot policies'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:g5Ck-dwhA_QC
+    pdf_url: https://arxiv.org/pdf/2512.16881v2.pdf
+  - title: Affordance-guided reinforcement learning via visual prompting
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:LPtt_HFRSbwC
+    pdf_url: https://arxiv.org/pdf/2407.10341.pdf
+- name: Preference alignment and verification
+  description: Aligning robot behavior through freeform preferences, verification, and feedback-based
+    optimization.
+  representative_papers:
+  - title: Scaling verification can be more effective than scaling policy learning for vision-language-action
+      alignment
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:1tZ8xJnm2c8C
+    pdf_url: https://arxiv.org/pdf/2602.12281v2.pdf
+  - title: 'LLM-as-a-Verifier: A general-purpose verification framework'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:-uzm3Y7AvW0C
+    pdf_url: https://arxiv.org/pdf/2607.05391.pdf
+  - title: Freeform Preference Learning for Robotic Manipulation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:ZqE1mSdD_DYC
+    pdf_url: https://arxiv.org/pdf/2606.32027v3.pdf
+  - title: 'Feedback descent: Open-ended text optimization via pairwise comparison'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:aIdbFUkbNIkC
+    pdf_url: https://arxiv.org/pdf/2511.07919v2.pdf
+  - title: Scaling laws for reward model overoptimization in direct alignment algorithms
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:PYBJJbyH-FwC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/e45caa3d5273d105b8d045e748636957-Paper-Conference.pdf
+  - title: A critical evaluation of ai feedback for aligning large language models
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=vfPE6hgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=vfPE6hgAAAAJ:ubry08Y2EpUC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/33870b3e099880cd8e705cd07173ac27-Paper-Conference.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

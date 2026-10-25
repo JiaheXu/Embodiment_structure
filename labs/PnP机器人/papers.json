@@ -26,5 +26,26 @@
     "pdf_url": "https://arxiv.org/pdf/2607.18236v1.pdf",
     "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
     "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1t3pj6JE8f",
+    "pdf_path": "pdfs/2025-0-5-a-vision-language-action-model-with-open-world-generalization.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2504.16054.pdf",
+    "title": "\u03c00.5: a Vision-Language-Action Model with Open-World Generalization",
+    "year": 2025
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1hdnM68Es5",
+    "pdf_path": "pdfs/2026-t2-z.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2610.22364.pdf",
+    "title": "\u4e0d\u540c\u6469\u64e6\u529b\u673a\u5668\u4eba\u5c31\u7ffb\u8f66\uff1f\u65af\u5766\u798f\u65b0\u4f5cT2-z\u5728\u7ebf\u81ea\u9002\u5e94\u73af\u5883\u9690\u53d8\u91cf",
+    "year": 2026
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV1zRJd6rEhp",
+    "pdf_path": "pdfs/2026-nvidia-isaac-sim.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2606.03551v1.pdf",
+    "title": "NVIDIA Isaac Sim:",
+    "year": 2026
   }
 ]

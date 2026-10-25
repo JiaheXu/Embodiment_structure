@@ -1,0 +1,30 @@
+[
+  {
+    "page_url": "https://www.bilibili.com/video/BV16Par6eEHq",
+    "pdf_path": "pdfs/2023-generative-agents-interactive-simulacra-of-human-behavior.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2304.03442.pdf",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV16Par6eEHq",
+    "pdf_path": "pdfs/2023-reflexion-language-agents-with-verbal-reinforcement-learning.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2303.11366.pdf",
+    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV16Par6eEHq",
+    "pdf_path": "pdfs/2023-swe-bench-can-language-models-resolve-real-world-github-issues.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2310.06770.pdf",
+    "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "year": 2023
+  },
+  {
+    "page_url": "https://www.bilibili.com/video/BV16Par6eEHq",
+    "pdf_path": "pdfs/2024-bench-a-benchmark-for-tool-agent-user-interaction-in-real-world-domains.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2406.12045.pdf",
+    "title": "\u03c4-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+    "year": 2024
+  }
+]

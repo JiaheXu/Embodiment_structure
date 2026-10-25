@@ -1,0 +1,44 @@
+folder: 深蓝学院
+source_type: video_channel
+summary_date: '2026-10-14'
+status: limited_evidence
+summary: A small collection covering visuotactile dexterity and vision-based drone perching.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 4
+  year_range:
+    start: 2026
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://space.bilibili.com/320203065/upload/video
+topics:
+- name: Visuotactile world-action models
+  description: Covering tactile future prediction and world-action models for dexterous hands.
+  representative_papers:
+  - title: 把世界动作模型推进到指尖！22自由度双手灵巧手，终于学会“预判打滑”了？
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1mrpg6eEh3
+    pdf_url: https://arxiv.org/pdf/2609.24976.pdf
+  - title: 'DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1mrpg6eEh3
+    pdf_url: https://arxiv.org/pdf/2609.24976.pdf
+- name: Agile visual flight
+  description: Covering reinforcement learning for perching on rapidly moving or inclined platforms.
+  representative_papers:
+  - title: 'PerchRL: Vision-Based Agile Perching on Inclined Platforms under Rapid and Irregular Motion'
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1Ytpg6GE9z
+    pdf_url: https://arxiv.org/pdf/2606.03441v3.pdf
+  - title: 挑战无人机，视场角物理上限？南科大周博宇团队最新提出 PerchRL
+    year: 2026
+    page_url: https://www.bilibili.com/video/BV1Ytpg6GE9z
+    pdf_url: https://arxiv.org/pdf/2606.03441v3.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- Topics describe papers covered by this channel; authorship or affiliation with the channel is not implied.
+- The small saved collection limits confidence and breadth of this summary.

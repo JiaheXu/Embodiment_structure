@@ -1,0 +1,92 @@
+folder: donghao
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Generalist manipulation, embodied spatial understanding, and synthetic robot training environments.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 93
+  year_range:
+    start: 2024
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=xLFL4sMAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Bimanual and dexterous manipulation
+  description: Learning coordinated dual-arm behaviors and open-vocabulary task-oriented grasps.
+  representative_papers:
+  - title: 'BiRoAD: Learning Shared and Role-Adaptive Representations for Bimanual Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:wMgC3FpKEyYC
+    pdf_url: https://arxiv.org/pdf/2609.23445v1.pdf
+  - title: 'OpenDexGrasp: Open-vocabulary Task-Oriented Dexterous Grasping'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:4xDN1ZYqzskC
+    pdf_url: https://arxiv.org/pdf/2609.18117v2.pdf
+  - title: 'TARGO: benchmarking target-driven object grasping under occlusions'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:tKAzc9rXhukC
+    pdf_url: https://arxiv.org/pdf/2407.06168v1.pdf
+  - title: 'Robocoin: An open-sourced bimanual robotic data collection for integrated manipulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:u-coK7KVo8oC
+    pdf_url: https://arxiv.org/pdf/2511.17441v3.pdf
+- name: Robot simulation and data synthesis
+  description: Building synthetic environments and benchmarks for garments, flat objects, appliances,
+    and humanoid interaction.
+  representative_papers:
+  - title: 'AppliancePlan: Scaling Manual-Grounded Appliance Manipulation with Data Synthesis and Unified
+      Planning'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:PVgj2kMGcgYC
+    pdf_url: https://arxiv.org/pdf/2608.15863v1.pdf
+  - title: 'FlatLab: A Unified Methodology Framework and Simulation-Based Benchmark for Robotic Manipulation
+      of Flat Objects'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:LgRImbQfgY4C
+    pdf_url: https://arxiv.org/pdf/2608.14049.pdf
+  - title: 'RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot
+      Manipulation Policies'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:QD3KBmkZPeQC
+    pdf_url: https://arxiv.org/pdf/2607.04434.pdf
+  - title: 'SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:6yz0xqPARnAC
+    pdf_url: https://arxiv.org/pdf/2605.20373.pdf
+  - title: 'Twinaligner: Visual-dynamic alignment empowers physics-aware real2sim2real for robotic manipulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:5MTHONV0fEkC
+    pdf_url: https://arxiv.org/pdf/2512.19390v1.pdf
+  - title: 'GarmentLab: A Unified Simulation and Benchmark for Garment Manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:olpn-zPbct0C
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/15f80ec0fed53885d2ca6272edb96ede-Paper-Conference.pdf
+- name: Embodied spatial reasoning and navigation
+  description: Evaluating spatial understanding, generating navigation instructions, and planning demand-driven
+    exploration.
+  representative_papers:
+  - title: 'VTInstructor: Visual Trajectory Prompting for Navigation Instruction Generation in Continuous
+      Environments'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:NyGDZy8z5eUC
+    pdf_url: https://arxiv.org/pdf/2608.15284v1.pdf
+  - title: 'Embodied3DBench: Benchmarking Low-Level Embodied Spatial Intelligence of Vision Language Models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:2tRrZ1ZAMYUC
+    pdf_url: https://arxiv.org/pdf/2605.29074v1.pdf
+  - title: 'MO-DDN: A Coarse-to-Fine Attribute-based Exploration Agent for Multi-object Demand-driven
+      Navigation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:bnK-pcrLprsC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/7565f036ceb20a2c74d341bfaa9fffad-Paper-Conference.pdf
+  - title: 'RAD: A dataset and benchmark for real-life anomaly detection with robotic observations'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xLFL4sMAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=xLFL4sMAAAAJ:_Ybze24A_UAC
+    pdf_url: https://arxiv.org/pdf/2410.00713.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

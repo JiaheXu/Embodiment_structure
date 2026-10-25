@@ -1,0 +1,96 @@
+folder: stanbirchfield
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: 3D robot perception, generalist embodied reasoning, and simulation-grounded manipulation.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 43
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=_bKTUqAAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Geometric perception and reconstruction
+  description: Estimating depth, object poses, point tracks, and deformable scene flow.
+  representative_papers:
+  - title: 'GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:bKqednn6t2AC
+    pdf_url: https://arxiv.org/pdf/2610.11215v1.pdf
+  - title: 'PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:DJbcl8HfkQkC
+    pdf_url: https://arxiv.org/pdf/2609.19142v3.pdf
+  - title: 'Deformgs: Scene flow in highly deformable scenes for deformable object manipulation'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:hCrLmN-GePgC
+    pdf_url: https://arxiv.org/pdf/2312.00583v2.pdf
+  - title: Stereo depth estimation using deep neural networks
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:lmc2jWPfTJgC
+    pdf_url: https://patentimages.storage.googleapis.com/c5/cf/0b/9ff9a5e7ca30fc/US12039436.pdf
+  - title: 'Handal: A dataset of real-world manipulable object categories with pose annotations, affordances,
+      and reconstructions'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:kz9GbA2Ns4gC
+    pdf_url: https://arxiv.org/pdf/2308.01477.pdf
+  - title: 'Diff-dope: Differentiable deep object pose estimation'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:oNZyr7d5Mn4C
+    pdf_url: https://arxiv.org/pdf/2310.00463v1.pdf
+- name: Embodied reasoning and world-action models
+  description: Learning generalist action models, grounded visual question answering, and long-horizon
+    manipulation reasoning.
+  representative_papers:
+  - title: 'Hydra-0: Action Flow for Generalist World Modeling and Control'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:cWzG1nlazyYC
+    pdf_url: https://arxiv.org/pdf/2608.18077v1.pdf
+  - title: 'PROBE: Manipulation-Grounded Visual Question Answering with VLM Agents'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:mNrWkgRL2YcC
+    pdf_url: https://arxiv.org/pdf/2608.17129.pdf
+  - title: 'Vesta: A Generalist Embodied Reasoning Model'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:4vMrXwiscB8C
+    pdf_url: https://arxiv.org/pdf/2606.20905.pdf
+  - title: 'See What I See, Know What I Think: Dense Latent Communication Across Heterogeneous Agents'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:HIFyuExEbWQC
+    pdf_url: https://arxiv.org/pdf/2606.13594.pdf
+  - title: 'VoLo: A Physical Orchestrator for Open-Vocabulary Long-Horizon Manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:dBIO0h50nwkC
+    pdf_url: https://arxiv.org/pdf/2606.07723.pdf
+- name: Grasping and sim-to-real evaluation
+  description: Generating grasps and simulation tasks and evaluating spatial models or policy transfer.
+  representative_papers:
+  - title: 'Graspgen: A diffusion-based framework for 6-dof grasping with on-generator training'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:_FM0Bhl9EiAC
+    pdf_url: https://arxiv.org/pdf/2507.13097.pdf
+  - title: 'Robot policy evaluation for sim-to-real transfer: A benchmarking perspective'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:bz8QjSJIRt4C
+    pdf_url: https://arxiv.org/pdf/2508.11117.pdf
+  - title: 'Grs: Generating robotic simulation tasks from real-world images'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:0N-VGjzr574C
+    pdf_url: https://arxiv.org/pdf/2410.15536v3.pdf
+  - title: 'Robospatial: Teaching spatial understanding to 2d and 3d vision-language models for robotics'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:ClCfbGk0d_YC
+    pdf_url: https://arxiv.org/pdf/2411.16537v5.pdf
+  - title: Mitigating covariate shift in imitation learning for autonomous vehicles using latent space
+      generative world models
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_bKTUqAAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=_bKTUqAAAAAJ:edDO8Oi4QzsC
+    pdf_url: https://arxiv.org/pdf/2409.16663v5.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

@@ -1,0 +1,83 @@
+folder: sergey
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Generalist robot learning and reinforcement learning for adaptive, language-conditioned behavior.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 82
+  year_range:
+    start: 2025
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=zh-CN&user=8R35rCwAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Generalist robot policy adaptation
+  description: Adapting foundation policies with semantic RL, instruction supervision, and action chunking.
+  representative_papers:
+  - title: 'Learning to Act While Waiting: RL Finetuning of Generalist Robot Policies Under Inference
+      Latency'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:pfJNqKtVkuoC
+    pdf_url: https://arxiv.org/pdf/2608.23831v2.pdf
+  - title: 'Cast: Counterfactual labels improve instruction following in vision-language-action models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:Np1obAXpBq8C
+    pdf_url: https://arxiv.org/pdf/2508.13446v2.pdf
+  - title: Why Does Action Chunking Improve Behavioral Cloning Performance in Robotic Control?
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:cAWJABFkdiUC
+    pdf_url: https://arxiv.org/pdf/2608.02547v1.pdf
+  - title: Adapting Generalist Robot Policies with Semantic Reinforcement Learning
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:djcsc3XHdKAC
+    pdf_url: https://arxiv.org/pdf/2606.31958v1.pdf
+  - title: Emergence of human to robot transfer in vision-language-action models
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:9fRKRCJz75UC
+    pdf_url: https://arxiv.org/pdf/2512.22414.pdf
+  - title: 'Posterior behavioral cloning: Pretraining bc policies for efficient rl finetuning'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:5N-NJrZHaHcC
+    pdf_url: https://arxiv.org/pdf/2512.16911v1.pdf
+- name: Reinforcement learning and exploration
+  description: Learning long-horizon behaviors, process rewards, empowerment, and robust multi-agent training.
+  representative_papers:
+  - title: The Geometry of Empowerment
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:SoGhKUJvMTQC
+    pdf_url: https://arxiv.org/pdf/2610.07796v2.pdf
+  - title: Long-Horizon Language Model Reinforcement Learning via Progressive Point Matching
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:6xXPb0EiZccC
+    pdf_url: https://arxiv.org/pdf/2609.07303v1.pdf
+  - title: 'One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:AbQWx2m_oG8C
+    pdf_url: https://arxiv.org/pdf/2608.12253v2.pdf
+  - title: Learning Process Rewards via Success Visitation Matching for Efficient RL
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:Z7R3Ocg27JUC
+    pdf_url: https://arxiv.org/pdf/2606.23640v1.pdf
+  - title: 'VIMPO: Value-Implicit Policy Optimization for LLMs'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:rwEhk56xNqMC
+    pdf_url: https://arxiv.org/pdf/2606.20008v1.pdf
+- name: Robot evaluation and deployment efficiency
+  description: Evaluating generalist policies across simulation and reality while handling inference latency.
+  representative_papers:
+  - title: 'Learning to Act While Waiting: RL Finetuning of Generalist Robot Policies Under Inference
+      Latency'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:pfJNqKtVkuoC
+    pdf_url: https://arxiv.org/pdf/2608.23831v2.pdf
+  - title: 'Polaris: Scalable real-to-sim evaluations for generalist robot policies'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=8R35rCwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=8R35rCwAAAAJ:YanO1q2l3soC
+    pdf_url: https://arxiv.org/pdf/2512.16881v2.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.

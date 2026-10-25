@@ -292,5 +292,26 @@
     "pdf_url": "https://arxiv.org/pdf/2302.03573v2.pdf",
     "title": "Local neural descriptor fields: Locally conditioned object representations for manipulation",
     "year": 2023
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:rCNdntzdTkkC",
+    "pdf_path": "pdfs/2024-from-pixels-to-predicates-learning-symbolic-world-models-via-pretrained-vision-language-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2501.00296.pdf",
+    "title": "From pixels to predicates: Learning symbolic world models via pretrained vision-language models",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:4Yq6kJLCcecC",
+    "pdf_path": "pdfs/2024-scenecomplete-open-world-3d-scene-completion-in-complex-real-world-environments-for-robot-manipulation.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2410.23643.pdf",
+    "title": "Scenecomplete: Open-world 3d scene completion in complex real world environments for robot manipulation",
+    "year": 2024
+  },
+  {
+    "page_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IcasIiwAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IcasIiwAAAAJ:orDZ08hpP44C",
+    "pdf_path": "pdfs/2024-set-it-up-functional-object-arrangement-with-compositional-generative-models.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.11928.pdf",
+    "title": "\u201cSet it up\u201d: Functional object arrangement with compositional generative models",
+    "year": 2024
   }
 ]

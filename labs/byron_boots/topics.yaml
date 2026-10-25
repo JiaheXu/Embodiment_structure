@@ -1,0 +1,92 @@
+folder: byron_boots
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Model-based robot learning and predictive control for navigation and physical interaction.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 37
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=kXB8FBoAAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Model-predictive control and planning
+  description: Combining learned dynamics and optimization for aggressive driving, flight, and object
+    transport.
+  representative_papers:
+  - title: Model predictive adversarial imitation learning for planning from observation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:ODE9OILHJdcC
+    pdf_url: https://arxiv.org/pdf/2507.21533v2.pdf
+  - title: Planning from Observation and Interaction
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:r_AWSJRzSzQC
+    pdf_url: https://arxiv.org/pdf/2602.24121.pdf
+  - title: Dynamic non-prehensile object transport via model-predictive reinforcement learning
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:dBIO0h50nwkC
+    pdf_url: https://arxiv.org/pdf/2412.00086v1.pdf
+  - title: Dynamics models in the aggressive off-road driving regime
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:umqufdRvDiIC
+    pdf_url: https://arxiv.org/pdf/2405.16487v1.pdf
+  - title: Model predictive control for aggressive driving over uneven terrain
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:anf4URPfarAC
+    pdf_url: https://arxiv.org/pdf/2311.12284v3.pdf
+  - title: 'Datt: Deep adaptive trajectory tracking for quadrotor control'
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:GtLg2Ama23sC
+    pdf_url: https://arxiv.org/pdf/2310.09053v3.pdf
+- name: Safe imitation and sim-to-real learning
+  description: Learning from observation and non-expert data with safety and simulation-transfer methods.
+  representative_papers:
+  - title: 'Vamos: A hierarchical vision-language-action model for capability-modulated and steerable
+      navigation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:fFSKOagxvKUC
+    pdf_url: https://arxiv.org/pdf/2510.20818.pdf
+  - title: Discriminative Barrier Functions for Safe Adversarial Imitation Learning from Observation
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:F9fV5C73w3QC
+    pdf_url: https://arxiv.org/pdf/2607.13938.pdf
+  - title: Using non-expert data to robustify imitation learning via offline reinforcement learning
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:3htObqc8RwsC
+    pdf_url: https://arxiv.org/pdf/2510.19495.pdf
+  - title: 'Overcoming the sim-to-real gap: Leveraging simulation to learn to explore for real-world rl'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:OTTXONDVkokC
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/8fa068ffe59817175d176bd75641fe16-Paper-Conference.pdf
+  - title: Adversarial model for offline reinforcement learning
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:86PQX7AUzd4C
+    pdf_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/0429ececfb199efc93182990169e73bb-Paper-Conference.pdf
+- name: Multimodal robot perception
+  description: Learning tactile representations, elevation uncertainty, and semantic 3D perception.
+  representative_papers:
+  - title: Details matter for indoor open-vocabulary 3d instance segmentation
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:OcBU2YAGkTUC
+    pdf_url: https://arxiv.org/pdf/2507.23134.pdf
+  - title: 'Tactile beyond pixels: Multisensory touch representations for robot manipulation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:yFnVuubrUp4C
+    pdf_url: https://arxiv.org/pdf/2506.14754v1.pdf
+  - title: Uncertainty-aware Accurate Elevation Modeling for Off-road Navigation via Neural Processes
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:OR75R8vi5nAC
+    pdf_url: https://arxiv.org/pdf/2508.03890v2.pdf
+  - title: 'Sparsh: Self-supervised touch representations for vision-based tactile sensing'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kXB8FBoAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=kXB8FBoAAAAJ:2VqYfGB8ITEC
+    pdf_url: https://arxiv.org/pdf/2410.24090v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
+- 'Suspicious manifest years excluded from the coverage range: 2088.'

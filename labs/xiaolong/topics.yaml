@@ -1,0 +1,87 @@
+folder: xiaolong
+source_type: research_profile
+summary_date: '2026-10-14'
+status: collection_based
+summary: Dexterous robot learning, multimodal world models, and human-video-to-robot transfer.
+coverage:
+  basis: Local papers.json titles; representative records selected to support each inferred topic.
+  paper_count: 94
+  year_range:
+    start: 2023
+    end: 2026
+  source_files:
+  - papers.json
+  - link.txt
+  source_urls:
+  - https://scholar.google.com/citations?hl=en&user=Y8O9N_0AAAAJ&view_op=list_works&sortby=pubdate&pagesize=100&cstart=0
+topics:
+- name: Dexterous force-aware interaction
+  description: Learning hand control, force-aware retargeting, tactile representations, and teleoperation.
+  representative_papers:
+  - title: 'FINGR: Learning Dexterous Hand Control for Real-World Rubik''s Cube Solving'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:x21FZCSn4ZoC
+    pdf_url: https://arxiv.org/pdf/2609.33973v2.pdf
+  - title: 'Reforce: Learning force-aware retargeting for dexterous manipulation'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:7Frjd3zlGBUC
+    pdf_url: https://arxiv.org/pdf/2608.15560v1.pdf
+  - title: 'TactX: Learning Shared Tactile Representations Across Diverse Sensors'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:orDZ08hpP44C
+    pdf_url: https://arxiv.org/pdf/2606.31236v1.pdf
+  - title: Generating Robot Hands from Human Demonstrations
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:Vr2j17o0sqMC
+    pdf_url: https://arxiv.org/pdf/2606.20549.pdf
+  - title: 'ConTrack: Constrained Hand Motion Tracking with Adaptive Trade-off Control'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:N4u4nq0IxgcC
+    pdf_url: https://arxiv.org/pdf/2606.03177v2.pdf
+  - title: 'Ace-f: A cross embodiment foldable system with force feedback for dexterous teleoperation'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:ji7lAbPyDbYC
+    pdf_url: https://arxiv.org/pdf/2511.20887.pdf
+- name: Reliable physical world models
+  description: Learning deformable-object physics and detecting failures or hallucinations in predictive
+    robot models.
+  representative_papers:
+  - title: 'FACT: Failure-Aware Causal Training for World-Action Models'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:xm0LlTxljI0C
+    pdf_url: https://arxiv.org/pdf/2608.10232v1.pdf
+  - title: Hallucination in World Models is Predictable and Preventable
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:DXE8ND7PrJAC
+    pdf_url: https://arxiv.org/pdf/2606.27326v1.pdf
+  - title: 'EgoPhys: Learning Generalizable Physics Models of Deformable Objects from Egocentric Video'
+    year: 2026
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:lg2tdxc6qMwC
+    pdf_url: https://arxiv.org/pdf/2606.16202v1.pdf
+  - title: Finetuning offline world models in the real world
+    year: 2023
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:Wq2b2clWBLsC
+    pdf_url: https://arxiv.org/pdf/2310.16029v1.pdf
+- name: Human-video learning and 3D scene interaction
+  description: Scaling egocentric manipulation and using feature splatting or generated physical scenes
+    for robot learning.
+  representative_papers:
+  - title: 'In-n-on: Scaling egocentric manipulation with in-the-wild and on-task data'
+    year: 2025
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:AZju0d2GQJ0C
+    pdf_url: https://arxiv.org/pdf/2511.15704v1.pdf
+  - title: Visual Manipulation with Legs
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:BmWJbWwHJAwC
+    pdf_url: https://arxiv.org/pdf/2410.11345v3.pdf
+  - title: Language-driven physics-based scene synthesis and editing via feature splatting
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:9DLIHnF0jcYC
+    pdf_url: https://arxiv.org/pdf/2404.01223v1.pdf
+  - title: 'GraspSplats: Efficient Manipulation with 3D Feature Splatting'
+    year: 2024
+    page_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y8O9N_0AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=Y8O9N_0AAAAJ:BJrgspguQaEC
+    pdf_url: https://arxiv.org/pdf/2409.02084v1.pdf
+limitations:
+- Topics are inferred from representative saved paper titles; this is not a complete or live-verified
+  lab research agenda.
