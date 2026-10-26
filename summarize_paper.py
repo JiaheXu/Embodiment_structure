@@ -21,10 +21,7 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
-if __package__ in {None, ""}:
-    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-
-from labs.download_paper import (
+from download_paper import (
     DEFAULT_TIMEOUT_SECONDS,
     discover_lab_dirs,
     format_lab_progress,

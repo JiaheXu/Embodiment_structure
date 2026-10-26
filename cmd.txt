@@ -1,13 +1,13 @@
 cd /home/jiahe/Embodiment_structure
 
 GOOGLE_SCHOLAR_CITATION_DELAY_SECONDS=5.0 \
-python3 labs/download_paper.py \
+python3 download_paper.py \
   --lab negar \
   --min-year 2023 \
   --timeout 120
   
 google-chrome --remote-debugging-port=9222 --user-data-dir="$PWD/.x_chrome_profile" --profile-directory=Default
 
-./labs/download_paper.sh --bilibili-only
+./download_paper.sh --bilibili-only
 
-./labs/summarize_paper.sh --workers 3 --lan xiaolong
+./summarize_paper.sh --workers 3 --lan xiaolong

@@ -2370,8 +2370,8 @@ def _run_yt_dlp_json(args: list[str], timeout: int) -> object:
             if bilibili_request and "412" in message:
                 message += (
                     "\nBilibili blocked this request; cookies alone may not suffice. You can also try:\n"
-                    "  python3 labs/download_paper.py --bilibili-only --dry-run --bilibili-cookies-from-browser chrome\n"
-                    "  python3 labs/download_paper.py --bilibili-only --dry-run --bilibili-cookies /path/to/bilibili-cookies.txt"
+                    "  python3 download_paper.py --bilibili-only --dry-run --bilibili-cookies-from-browser chrome\n"
+                    "  python3 download_paper.py --bilibili-only --dry-run --bilibili-cookies /path/to/bilibili-cookies.txt"
                 )
             raise RuntimeError(f"yt-dlp failed: {message}") from exc
     try:

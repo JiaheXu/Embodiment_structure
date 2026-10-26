@@ -2,7 +2,6 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_ROOT="$(cd -- "${SCRIPT_DIR}/.." && pwd)"
 LOCAL_ENV_FILE="${SCRIPT_DIR}/local_env.sh"
 
 if [ -f "${LOCAL_ENV_FILE}" ]; then
@@ -57,5 +56,5 @@ export OPENAI_URL OPENAI_BASE_URL OPENAI_API_KEY OPENAI_MODEL
 export CODEX_PROXY_URL CODEX_PROXY_BASE_URL
 export DEEPSEEK_URL DEEPSEEK_BASE_URL DEEPSEEK_MODEL
 
-cd "${PROJECT_ROOT}"
+cd "${SCRIPT_DIR}"
 exec python3 "${SCRIPT_DIR}/summarize_paper.py" --timeout "${SUMMARIZE_PAPER_TIMEOUT:-1800}" "$@"

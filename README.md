@@ -1,7 +1,7 @@
 # Lab Paper Collection
 
-This directory stores lab publication sources and the downloader used to collect
-recent papers.
+The repository root contains the downloader and summarizer. The `labs/`
+directory stores publication sources, PDFs, summaries, and metadata.
 
 ## Directory Rules
 
@@ -21,13 +21,13 @@ recent papers.
 Main script:
 
 ```bash
-python3 labs/download_paper.py
+python3 download_paper.py
 ```
 
 Safer preview mode:
 
 ```bash
-python3 labs/download_paper.py --dry-run
+python3 download_paper.py --dry-run
 ```
 
 The downloader scans lab folders in parallel with 2 workers by default. Inside
@@ -57,16 +57,16 @@ is saved and added to `papers.json`; unrecovered titles go to `failed.txt`.
 Useful options:
 
 ```bash
-python3 labs/download_paper.py --dry-run --limit 1
-python3 labs/download_paper.py --lab goldberg --dry-run
-python3 labs/download_paper.py --min-year 2024
-python3 labs/download_paper.py --timeout 1800
-python3 labs/download_paper.py --workers 4
-python3 labs/download_paper.py --extractor static
-python3 labs/download_paper.py --extractor ai
-python3 labs/download_paper.py --extractor hybrid
-python3 labs/download_paper.py --bilibili-only --dry-run
-python3 labs/download_paper.py --bilibili-only --dry-run --bilibili-cookies-from-browser chrome
+python3 download_paper.py --dry-run --limit 1
+python3 download_paper.py --lab goldberg --dry-run
+python3 download_paper.py --min-year 2024
+python3 download_paper.py --timeout 1800
+python3 download_paper.py --workers 4
+python3 download_paper.py --extractor static
+python3 download_paper.py --extractor ai
+python3 download_paper.py --extractor hybrid
+python3 download_paper.py --bilibili-only --dry-run
+python3 download_paper.py --bilibili-only --dry-run --bilibili-cookies-from-browser chrome
 ```
 
 The default timeout is 1800 seconds, or 30 minutes. This timeout applies to
@@ -142,17 +142,17 @@ pagination across channel API pages. The downloader processes only entries retur
 and does not independently verify the channel's total upload count. Override the cap with:
 
 ```bash
-BILIBILI_VIDEO_LIMIT=50 ./labs/download_paper.sh --bilibili-only --dry-run
+BILIBILI_VIDEO_LIMIT=50 ./download_paper.sh --bilibili-only --dry-run
 ```
 
 If Bilibili returns `412 Request is blocked by server`, provide cookies for
 `yt-dlp`:
 
 ```bash
-BILIBILI_COOKIES=/path/to/bilibili-cookies.txt ./labs/download_paper.sh --dry-run
-BILIBILI_COOKIES_FROM_BROWSER=chrome ./labs/download_paper.sh --dry-run
-python3 labs/download_paper.py --bilibili-only --dry-run --bilibili-cookies-from-browser chrome
-python3 labs/download_paper.py --bilibili-only --dry-run --bilibili-cookies /path/to/bilibili-cookies.txt
+BILIBILI_COOKIES=/path/to/bilibili-cookies.txt ./download_paper.sh --dry-run
+BILIBILI_COOKIES_FROM_BROWSER=chrome ./download_paper.sh --dry-run
+python3 download_paper.py --bilibili-only --dry-run --bilibili-cookies-from-browser chrome
+python3 download_paper.py --bilibili-only --dry-run --bilibili-cookies /path/to/bilibili-cookies.txt
 ```
 
 ## AI Launch Script
@@ -160,8 +160,8 @@ python3 labs/download_paper.py --bilibili-only --dry-run --bilibili-cookies /pat
 Use the launch wrapper when extraction should go through the local proxy:
 
 ```bash
-./labs/download_paper.sh --dry-run --limit 1
-./labs/download_paper.sh
+./download_paper.sh --dry-run --limit 1
+./download_paper.sh
 ```
 
 The wrapper runs `--extractor hybrid`: it asks the AI model for paper links,
@@ -177,9 +177,9 @@ For Google Scholar and Bilibili pages, the wrapper attaches to Chrome at
 
 ```bash
 google-chrome --remote-debugging-port=9222 --user-data-dir="$PWD/.x_chrome_profile" --profile-directory=Default &
-./labs/download_paper.sh
+./download_paper.sh
 # Scan Bilibili channels using the same Chrome profile:
-./labs/download_paper.sh --bilibili-only
+./download_paper.sh --bilibili-only
 ```
 
 Use `GOOGLE_SCHOLAR_CDP_URL=http://127.0.0.1:9223` if your Chrome DevTools port
@@ -194,7 +194,7 @@ citation requests with shorter fetch timeouts. Unresolved checks leave the tab o
 The wrapper passes `--timeout "${DOWNLOAD_PAPER_TIMEOUT:-1800}"`. To override:
 
 ```bash
-DOWNLOAD_PAPER_TIMEOUT=3600 ./labs/download_paper.sh --dry-run
+DOWNLOAD_PAPER_TIMEOUT=3600 ./download_paper.sh --dry-run
 ```
 
 ## Paper Summaries
@@ -213,14 +213,14 @@ workers reuse its saved summary. Updates to the processed-paper list are seriali
 and written atomically. Actual speedup depends on the local proxy's capacity.
 
 ```bash
-./labs/summarize_paper.sh --dry-run --lab 'airlab(basti)' --limit 1
-./labs/summarize_paper.sh --lab 'airlab(basti)' --limit 1
+./summarize_paper.sh --dry-run --lab 'airlab(basti)' --limit 1
+./summarize_paper.sh --lab 'airlab(basti)' --limit 1
 ```
 
 Main script:
 
 ```bash
-python3 labs/summarize_paper.py
+python3 summarize_paper.py
 ```
 
 Summary files are written to:
@@ -282,13 +282,13 @@ problem-first, and organized around:
 Useful options:
 
 ```bash
-./labs/summarize_paper.sh --lab 'airlab(basti)' --limit 5
-./labs/summarize_paper.sh --workers 4
-./labs/summarize_paper.sh --force --lab 'airlab(basti)'
-./labs/summarize_paper.sh --all --lab 'airlab(basti)'
-./labs/summarize_paper.sh --source text --lab 'airlab(basti)' --limit 1
-./labs/summarize_paper.sh --max-chars 120000
-SUMMARIZE_PAPER_TIMEOUT=3600 ./labs/summarize_paper.sh
+./summarize_paper.sh --lab 'airlab(basti)' --limit 5
+./summarize_paper.sh --workers 4
+./summarize_paper.sh --force --lab 'airlab(basti)'
+./summarize_paper.sh --all --lab 'airlab(basti)'
+./summarize_paper.sh --source text --lab 'airlab(basti)' --limit 1
+./summarize_paper.sh --max-chars 120000
+SUMMARIZE_PAPER_TIMEOUT=3600 ./summarize_paper.sh
 ```
 
 By default, existing summary files are skipped. Use `--force` or `--all` to
@@ -355,7 +355,7 @@ The wrapper exports:
 The wrapper uses the local proxy with `gpt-6-astra`:
 
 ```bash
-./labs/download_paper.sh --dry-run
+./download_paper.sh --dry-run
 ```
 
 `CODEX_PROXY_URL` or `CODEX_PROXY_BASE_URL` can change the proxy address, and
@@ -364,7 +364,7 @@ selects `gpt-6-astra` and overwrites stale AI backend/model environment settings
 Optional local secrets and proxy settings can be put in:
 
 ```text
-labs/local_env.sh
+local_env.sh
 ```
 
 Do not commit secrets.
@@ -393,10 +393,10 @@ paper count, and per-year counts since the minimum year.
 
 ## Agent Notes
 
-- Keep downloader code in `labs/`, not a separate `lab/` directory.
-- Prefer `./labs/download_paper.sh` for AI extraction because it sets the local
+- Keep pipeline code in the repository root; keep lab data under `labs/`.
+- Prefer `./download_paper.sh` for AI extraction because it sets the local
   proxy and model environment consistently, while still using hybrid fallback.
-- Keep `python3 labs/download_paper.py --dry-run ...` working for local static
+- Keep `python3 download_paper.py --dry-run ...` working for local static
   testing.
 - Lab folders are scanned in parallel by default with 2 workers. Keep each
   individual lab's paper downloads and manifest writes sequential unless there

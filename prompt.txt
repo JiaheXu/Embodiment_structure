@@ -1,0 +1,83 @@
+I’m designing a local research library and assistant. Here is the context from our previous discussion.
+
+BACKGROUND AND REQUIREMENTS
+
+- I have approximately 5,000 computer vision and robot-learning papers, plus existing summaries.
+- The system will run on Linux/Ubuntu.
+- Papers and accumulated knowledge should persist locally.
+- Sending paper excerpts and project context to cloud models is acceptable.
+- I want to use Codex/GPT and/or Claude as the reasoning agent.
+- We have discussed setup commands, but have NOT installed or tested the system or inspected my actual summaries.
+
+I need the system to:
+1. Answer technical questions with citations to original papers.
+2. Compare methods, assumptions, inputs/outputs, training data, evaluation settings, results, and limitations.
+3. Identify research trends across my collection.
+4. Recommend approaches and experiments for my current research problems.
+5. Accumulate knowledge across sessions and update it when papers arrive.
+6. Account for the entire collection, rather than only retrieve a few similar papers.
+
+Example questions:
+- Find world-action models, object-centric methods, and bimanual dexterous VLA papers.
+- Find multi-view methods that do not require accurate camera poses.
+- Suggest how to combine a main RGBD camera with RGB-only wrist cameras in my 3DFA model.
+
+IMPORTANT DISTINCTIONS
+
+- Indexing a PDF does not mean an agent has read and analyzed it.
+- Reading an existing summary does not establish full-text coverage.
+- Summaries are lossy; the system must revisit original text, figures, tables, equations, and appendices when needed.
+- Missing information must remain “unknown,” not be interpreted as a negative finding.
+- Published evidence and the agent’s proposed hypotheses must be distinguishable.
+- Trend claims should specify the collection and date coverage.
+
+WORKING ARCHITECTURE RECOMMENDATION
+
+A hybrid system combining:
+1. Original PDFs and existing summaries.
+2. Structured per-paper records, stored in SQLite.
+3. An LLM-maintained Markdown wiki containing topic syntheses, method comparisons, contradictions, trends, and open questions.
+4. Keyword and semantic retrieval over paper records, wiki pages, and extracted evidence.
+5. Local project notes describing my constraints, experiments, and failures.
+6. A local agent client, potentially Codex CLI, connected through MCP.
+
+Use existing summaries to bootstrap the library. Audit their quality and provenance, enrich missing details from PDFs, and track reading coverage. Use resumable batch jobs with checkpoints, retries, source versions, and token accounting.
+
+Answering modes:
+- Focused Q&A: retrieve relevant material and verify source evidence.
+- Research advice: combine project context, cross-paper knowledge, and source verification.
+- Whole-library review: examine every paper record in batches, investigate uncertain cases, and report coverage. This is more expensive than ordinary Q&A.
+
+Local files and databases hold the durable knowledge. The cloud model receives selected context and requests local tool actions. Useful findings persist only when the workflow actually saves them. This does not train the papers into model weights.
+
+POTENTIALLY USEFUL PROJECTS
+
+- Karpathy’s LLM Wiki design:
+  https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+  Architectural proposal, not a turnkey application. Its example does not validate 5,000-paper operation.
+
+- LLM Wiki implementation:
+  https://github.com/lucasastorian/llmwiki
+  Candidate foundation for local Markdown knowledge, browsing, source citations, and MCP access.
+
+- QMD:
+  https://github.com/tobi/qmd
+  Candidate local hybrid search component; not a complete research assistant.
+
+- PaperQA2:
+  https://github.com/Future-House/paper-qa
+  Candidate evidence-based Q&A backend. Stores indexes and prior answers; its default workflow retrieves selected evidence.
+
+- Zotero MCP:
+  https://github.com/54yyyu/zotero-mcp
+  Optional library-management and assistant-access layer.
+
+- Local Deep Research:
+  https://github.com/LearningCircuit/local-deep-research
+  Optional investigations over external sources and local documents.
+
+CURRENT DECISION STATUS
+
+The preferred architecture is LLM Wiki + structured records + hybrid retrieval, with custom ingestion and coverage tracking. Specific repository choices remain provisional; no 5,000-paper benchmark has been run. We should add components only when they solve a demonstrated need.
+
+Continue from here by refining the architecture, assessing how to reuse my existing summaries, and identifying the minimum custom engineering needed. Avoid restarting the broad tool survey.

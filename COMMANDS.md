@@ -20,67 +20,67 @@ Use the wrapper for normal runs. It sets the local AI endpoint/model defaults.
 Normal runs skip Bilibili channels; use `--bilibili-only` to process them explicitly.
 
 ```bash
-./labs/download_paper.sh
+./download_paper.sh
 ```
 
 Dry run:
 
 ```bash
-./labs/download_paper.sh --dry-run
+./download_paper.sh --dry-run
 ```
 
 One specific lab:
 
 ```bash
-./labs/download_paper.sh --lab 'airlab(basti)'
-./labs/download_paper.sh --lab '3D视觉工坊'
+./download_paper.sh --lab 'airlab(basti)'
+./download_paper.sh --lab '3D视觉工坊'
 ```
 
 Only test one lab without downloading:
 
 ```bash
-./labs/download_paper.sh --lab 'airlab(basti)' --dry-run
+./download_paper.sh --lab 'airlab(basti)' --dry-run
 ```
 
 Limit how many labs are scanned:
 
 ```bash
-./labs/download_paper.sh --limit 5
+./download_paper.sh --limit 5
 ```
 
 Choose extractor mode:
 
 ```bash
-./labs/download_paper.sh --extractor static
-./labs/download_paper.sh --extractor ai
-./labs/download_paper.sh --extractor hybrid
+./download_paper.sh --extractor static
+./download_paper.sh --extractor ai
+./download_paper.sh --extractor hybrid
 ```
 
 Year cutoff:
 
 ```bash
-./labs/download_paper.sh --min-year 2024
+./download_paper.sh --min-year 2024
 ```
 
 Parallel workers:
 
 ```bash
-./labs/download_paper.sh
-./labs/download_paper.sh --workers 4
-DOWNLOAD_PAPER_WORKERS=4 ./labs/download_paper.sh
+./download_paper.sh
+./download_paper.sh --workers 4
+DOWNLOAD_PAPER_WORKERS=4 ./download_paper.sh
 ```
 
 Longer timeout:
 
 ```bash
-DOWNLOAD_PAPER_TIMEOUT=3600 ./labs/download_paper.sh
+DOWNLOAD_PAPER_TIMEOUT=3600 ./download_paper.sh
 ```
 
 All labs with an attached Chrome session for Google Scholar:
 
 ```bash
 google-chrome --remote-debugging-port=9222 --user-data-dir="$PWD/.x_chrome_profile" --profile-directory=Default
-./labs/download_paper.sh
+./download_paper.sh
 ```
 
 Scholar tabs are opened automatically in the attached Chrome session and closed
@@ -93,31 +93,31 @@ automatically, with no terminal confirmation needed.
 Only Bilibili labs:
 
 ```bash
-./labs/download_paper.sh --bilibili-only
+./download_paper.sh --bilibili-only
 ```
 
 Dry run only Bilibili labs:
 
 ```bash
-./labs/download_paper.sh --bilibili-only --dry-run
+./download_paper.sh --bilibili-only --dry-run
 ```
 
 Limit recent Bilibili videos:
 
 ```bash
-BILIBILI_VIDEO_LIMIT=50 ./labs/download_paper.sh --bilibili-only --dry-run
+BILIBILI_VIDEO_LIMIT=50 ./download_paper.sh --bilibili-only --dry-run
 ```
 
 Use browser cookies when Bilibili blocks anonymous requests:
 
 ```bash
-./labs/download_paper.sh --bilibili-cookies-from-browser chrome
+./download_paper.sh --bilibili-cookies-from-browser chrome
 ```
 
 Use a cookies.txt file:
 
 ```bash
-./labs/download_paper.sh --bilibili-cookies /path/to/bilibili-cookies.txt
+./download_paper.sh --bilibili-cookies /path/to/bilibili-cookies.txt
 ```
 
 ## Summarize Papers
@@ -125,55 +125,55 @@ Use a cookies.txt file:
 Summarize all pending papers:
 
 ```bash
-./labs/summarize_paper.sh
+./summarize_paper.sh
 ```
 
 Summarize one lab:
 
 ```bash
-./labs/summarize_paper.sh --lab 'airlab(basti)'
+./summarize_paper.sh --lab 'airlab(basti)'
 ```
 
 Limit papers per lab:
 
 ```bash
-./labs/summarize_paper.sh --lab 'airlab(basti)' --limit 5
+./summarize_paper.sh --lab 'airlab(basti)' --limit 5
 ```
 
 Dry run:
 
 ```bash
-./labs/summarize_paper.sh --lab 'airlab(basti)' --dry-run
+./summarize_paper.sh --lab 'airlab(basti)' --dry-run
 ```
 
 Regenerate existing summaries for one lab:
 
 ```bash
-./labs/summarize_paper.sh --force --lab 'airlab(basti)'
+./summarize_paper.sh --force --lab 'airlab(basti)'
 ```
 
 Regenerate all summaries:
 
 ```bash
-./labs/summarize_paper.sh --all
+./summarize_paper.sh --all
 ```
 
 Use extracted text instead of raw PDF input:
 
 ```bash
-./labs/summarize_paper.sh --source text --lab 'airlab(basti)' --limit 1
+./summarize_paper.sh --source text --lab 'airlab(basti)' --limit 1
 ```
 
 Increase extracted text size:
 
 ```bash
-./labs/summarize_paper.sh --max-chars 120000
+./summarize_paper.sh --max-chars 120000
 ```
 
 Longer timeout:
 
 ```bash
-SUMMARIZE_PAPER_TIMEOUT=3600 ./labs/summarize_paper.sh
+SUMMARIZE_PAPER_TIMEOUT=3600 ./summarize_paper.sh
 ```
 
 ## Rebuild Summaries From Scratch
@@ -188,7 +188,7 @@ find labs -type d -name summary_json -exec rm -rf {} +
 Then re-run:
 
 ```bash
-./labs/summarize_paper.sh
+./summarize_paper.sh
 ```
 
 ## Build RAG Index
@@ -261,21 +261,21 @@ http://127.0.0.1:8006/rag_ui.html
 Use local OpenAI-compatible proxy:
 
 ```bash
-AI_BACKEND=local ./labs/download_paper.sh --dry-run
-AI_BACKEND=local ./labs/summarize_paper.sh --dry-run
+AI_BACKEND=local ./download_paper.sh --dry-run
+AI_BACKEND=local ./summarize_paper.sh --dry-run
 ```
 
 Use DeepSeek:
 
 ```bash
-AI_BACKEND=deepseek DEEPSEEK_API_KEY=... ./labs/download_paper.sh --dry-run
-AI_BACKEND=deepseek DEEPSEEK_API_KEY=... ./labs/summarize_paper.sh --dry-run
+AI_BACKEND=deepseek DEEPSEEK_API_KEY=... ./download_paper.sh --dry-run
+AI_BACKEND=deepseek DEEPSEEK_API_KEY=... ./summarize_paper.sh --dry-run
 ```
 
 Optional local secrets and proxy settings:
 
 ```text
-labs/local_env.sh
+local_env.sh
 ```
 
 Do not commit secrets.
@@ -285,14 +285,14 @@ Do not commit secrets.
 Download and summarize one lab:
 
 ```bash
-./labs/download_paper.sh --lab 'airlab(basti)'
-./labs/summarize_paper.sh --lab 'airlab(basti)'
+./download_paper.sh --lab 'airlab(basti)'
+./summarize_paper.sh --lab 'airlab(basti)'
 ```
 
 Re-summarize one lab and rebuild RAG:
 
 ```bash
-./labs/summarize_paper.sh --force --lab 'airlab(basti)'
+./summarize_paper.sh --force --lab 'airlab(basti)'
 python3 labs/build_rag_index.py
 ```
 
@@ -301,7 +301,7 @@ Full refresh after deleting summaries:
 ```bash
 find labs -type d -name summary -exec rm -rf {} +
 find labs -type d -name summary_json -exec rm -rf {} +
-./labs/summarize_paper.sh
+./summarize_paper.sh
 python3 labs/build_rag_index.py
 ```
 
