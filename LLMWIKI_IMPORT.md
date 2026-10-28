@@ -16,9 +16,20 @@ python3 prepare_llmwiki.py --dry-run
 # Import every collection, including papers without summaries.
 python3 prepare_llmwiki.py
 
+# Export only PDFs or only Markdown.
+python3 prepare_llmwiki.py --pdf_only
+python3 prepare_llmwiki.py --md_only
+
 # Repeat after downloading papers or generating/updating summaries.
 python3 prepare_llmwiki.py
 ```
+
+The flags `--pdf_only` and `--md_only` are mutually exclusive; omit both to
+export both types. PDF-only mode also skips the Markdown catalog and collection
+pages. Both modes retain the hidden JSON import state. Existing files of the
+excluded type are left untouched, and switching modes preserves importer
+ownership for later updates. Source validation and deduplication still run in
+either mode, including unreadable-PDF checks.
 
 Preview a single collection in a separate destination:
 
@@ -40,7 +51,7 @@ modification time, and change time all match the previous import.
   sources/
     catalog.md
     collections/<collection>-<stable-hash>.md
-    papers/<paper-id>/
+    papers/2025-cvpr-26-physx-anything-3d/
       2025-cvpr-26-physx-anything-3d.md
       2025-cvpr-26-physx-anything-3d.pdf
       summaries/<hash>/<original-name>.md  # distinct alternate accounts
@@ -55,8 +66,14 @@ Paper identity uses arXiv IDs or DOI URLs, then PDF checksums. An unidentified
 PDF can join an identified paper only when its bytes match unambiguously.
 Titles alone never merge papers. Unknown records receive checksum-based IDs.
 ArXiv versions share a paper directory; different PDF bytes are retained.
-Exported PDFs and Markdown summaries retain their original filenames. IDs stay
-in the paper directory and catalog for deduplication. Alternate accounts use
+Exported PDFs and Markdown summaries retain their original filenames. Each paper
+directory uses the primary PDF's original filename without its extension (or the
+summary's filename when no PDF exists). Generic source stems such as
+`2026-paper` or `2026-2026` use a year/title directory name instead; Chinese
+characters are preserved. IDs stay in the metadata and catalog for deduplication.
+When separate papers share a directory name, later papers in ID
+order append `--<paper-id>` to their directory name until it is unique; the
+original PDF and Markdown filenames stay unchanged. Alternate accounts use
 separate checksum subdirectories, so even matching original filenames remain
 unchanged. JSON-only summaries and missing-summary placeholders use the matching
 original stem with `.md`.
@@ -97,7 +114,7 @@ files, and never deletes old files. Removed/renamed source records can therefore
 leave old output behind; retained paths are listed in the catalog for review.
 A partial `--lab` import cannot replace a catalog covering additional collections.
 
-Existing generated filenames are migrated automatically. Start the local app
+Existing generated filenames and paper directories are migrated automatically. Start the local app
 before migrating an initialized workspace: indexed files are renamed through
 its local API at `127.0.0.1:8000`, preserving document IDs, annotations, and
 extracted content. Existing PDFs are moved rather than copied again. Collection

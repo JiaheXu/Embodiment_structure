@@ -121,7 +121,13 @@ def rename_outputs(destination, renames):
         time.sleep(2.1)
 
 
-def import_labs(labs_root, destination, dry_run=False, lab_names=()):
+def import_labs(labs_root, destination, dry_run=False, lab_names=(), pdf_only=False, md_only=False):
+    if pdf_only and md_only:
+        raise ValueError('pdf_only and md_only are mutually exclusive')
+
+    def selected(relative):
+        return not (pdf_only and relative.endswith('.md') or md_only and relative.endswith('.pdf'))
+
     root, dest = Path(labs_root).resolve(), Path(destination).resolve()
     if not root.is_dir():
         raise ValueError(f'Source directory does not exist: {root}')
@@ -294,6 +300,8 @@ def import_labs(labs_root, destination, dry_run=False, lab_names=()):
     outputs, papers, renames, rename_owners, rename_history = {}, {}, {}, {}, {}
 
     def migrate(old, new):
+        if not selected(new):
+            return
         if old and old != new and old in previous.get('outputs', {}):
             rename_owners[new] = previous['outputs'][old]
             if (dest / old).exists() or (dest / new).exists():
@@ -308,10 +316,13 @@ def import_labs(labs_root, destination, dry_run=False, lab_names=()):
                 renames[old] = new
 
     def output(relative, content, sha=None):
+        if not selected(relative):
+            return
         if isinstance(content, str):
             content = content.encode('utf-8')
         outputs[relative] = (content, sha or hashlib.sha256(content).hexdigest())
 
+    directory_owners = {}
     for key, occurrences in sorted(groups.items()):
         memberships = sorted({r['collection'] for r in occurrences})
         pdfs, summaries = {}, {}
@@ -331,9 +342,17 @@ def import_labs(labs_root, destination, dry_run=False, lab_names=()):
             primary_summary = max(summaries, key=lambda h: (summaries[h]['version'], len(summaries[h]['summary_text']), h)) if summaries else None
         chosen = summaries.get(primary_summary) or pdfs.get(primary_pdf) or occurrences[0]
         urls = sorted({u for r in occurrences for u in r['urls']})
-        base = 'sources/papers/' + key
         original = pdfs.get(primary_pdf) or chosen
         basename = Path(original['files'].get('pdf') or original['files'].get('summary') or original['files'].get('structured_summary') or original['metadata'].get('pdf_path') or key).stem
+        if re.fullmatch(r'\d{4}-(?:paper|\d{4})(?:--.*)?', basename):
+            title_slug = re.sub(r'[\W_]+', '-', original['title'].lower()).strip('-').encode('utf-8')[:120].decode('utf-8', errors='ignore')
+            basename = basename[:4] + '-' + (title_slug if title_slug not in ('', 'paper', basename) else key)
+        if basename in ('', '.', '..'):
+            raise ValueError(f'Invalid paper directory name: {basename!r}')
+        base = 'sources/papers/' + basename
+        while base in directory_owners:
+            base += '--' + key
+        directory_owners[base] = key
         pdf_outputs = []
         for sha, r in sorted(pdfs.items()):
             filename = Path(r['files']['pdf']).name
@@ -360,7 +379,7 @@ def import_labs(labs_root, destination, dry_run=False, lab_names=()):
             provenance += '**Identity needs review. Do not attribute claims to a paper until these conflicts are resolved:**\n\n' + '\n'.join('- ' + note for note in review_notes) + '\n\n'
         for r in occurrences:
             provenance += '- ' + r['collection'] + ': ' + ', '.join('`' + p + '`' for p in r['files'].values()) + '\n'
-        if pdf_outputs:
+        if pdf_outputs and not md_only:
             provenance += '\nPDFs: ' + ', '.join('[' + Path(p).name + '](' + quote(str(Path(p).relative_to(base))) + ')' for p in pdf_outputs) + '\n'
         summary_outputs = []
         for sha, r in sorted(summaries.items()):
@@ -421,7 +440,7 @@ def import_labs(labs_root, destination, dry_run=False, lab_names=()):
     for old_paper in previous.get('papers', {}).values():
         if any(r['files'].get('pdf') in ignored_pdfs for r in old_paper['occurrences']):
             for relative in old_paper['pdf_files'] + old_paper['summary_files']:
-                if relative not in outputs and (dest / relative).exists():
+                if selected(relative) and relative not in outputs and (dest / relative).exists():
                     path = dest / relative
                     if not path.resolve().is_relative_to(dest) or path.is_symlink() or digest(path) != old_outputs[relative]['sha256']:
                         raise ValueError(f'Destination modified or unmanaged file conflict: {path}')
@@ -453,18 +472,19 @@ def import_labs(labs_root, destination, dry_run=False, lab_names=()):
         changed.append(relative)
     reused = {new for new in renames.values() if rename_owners[new]['sha256'] == outputs[new][1]}
     changed = [r for r in changed if r not in reused]
-    stale = sorted(set(old_outputs) - set(outputs) - set(to_hide) - set(rename_history))
+    stale = sorted({p for p in old_outputs if selected(p)} - set(outputs) - set(to_hide) - set(rename_history))
     if stale:
         warnings.append(f'{len(stale)} old generated files retained; nothing is deleted. See retained_files in catalog.')
     catalog = {'schema_version': 1, 'naming': 'original', 'source_root': str(root), 'papers': papers,
                'collections': {name: {'source_type': c['source_type'], 'file': collection_outputs[name]} for name, c in collections.items()},
-               'inputs': inputs, 'outputs': {rel: {'sha256': sha} for rel, (_, sha) in outputs.items()},
+               'inputs': inputs, 'outputs': {**{rel: info for rel, info in old_outputs.items() if not selected(rel)},
+                                             **{rel: {'sha256': sha} for rel, (_, sha) in outputs.items()}},
                'retained_files': sorted((set(stale) | set(previous.get('retained_files', []))) - set(to_hide) - set(rename_history)),
                'renamed_files': {**previous.get('renamed_files', {}), **rename_history},
                'pdf_text_checks': checks, 'ignored_pdfs': ignored_pdfs,
                'ignored_outputs': ignored_outputs, 'warnings': warnings}
-    report = {'papers': len(papers), 'collections': len(collections), 'pdf_files': sum(len(p['pdf_files']) for p in papers.values()),
-              'summary_files': sum(len(p['summary_files']) for p in papers.values()),
+    report = {'papers': len(papers), 'collections': len(collections), 'pdf_files': 0 if md_only else sum(len(p['pdf_files']) for p in papers.values()),
+              'summary_files': 0 if pdf_only else sum(len(p['summary_files']) for p in papers.values()),
               'papers_without_pdf': sum(not p['pdf_files'] for p in papers.values()),
               'papers_without_summary': sum(p['summary_status'] == 'missing' for p in papers.values()),
               'papers_needing_review': sum(p['review_required'] for p in papers.values()),
@@ -524,9 +544,13 @@ def main():
     parser.add_argument('--destination', type=Path, default=Path.home() / 'research')
     parser.add_argument('--lab', action='append', default=[], help='Limit to a collection; repeat for several')
     parser.add_argument('--dry-run', action='store_true', help='Plan and validate without writing files')
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument('--pdf_only', action='store_true', help='Export only PDFs; skip Markdown output')
+    mode.add_argument('--md_only', action='store_true', help='Export only Markdown; skip PDF output')
     args = parser.parse_args()
     try:
-        report = import_labs(args.labs_root, args.destination, args.dry_run, args.lab)
+        report = import_labs(args.labs_root, args.destination, args.dry_run, args.lab,
+                             pdf_only=args.pdf_only, md_only=args.md_only)
     except (OSError, ValueError, TypeError) as exc:
         parser.exit(1, f'Import failed: {exc}\n')
     print(json_text(report), end='')

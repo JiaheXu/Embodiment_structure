@@ -164,8 +164,8 @@ def format_nonzero_year_counts(years: Iterable[int]) -> str:
 
 
 def safe_filename(title: str) -> str:
-    slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
-    return slug[:120] or "paper"
+    slug = re.sub(r"[\W_]+", "-", title.lower()).strip("-")
+    return slug.encode('utf-8')[:120].decode('utf-8', errors='ignore') or "paper"
 
 
 def is_bilibili_url(url: str) -> bool:
