@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Copy a lab-paper archive into deduplicated LLM Wiki sources; never edit the archive."""
+"""Copy a lab-paper archive into deduplicated LLM Wiki sources (PDFs only by default); never edit the archive."""
 
 import argparse
 from collections import defaultdict
@@ -121,9 +121,22 @@ def rename_outputs(destination, renames):
         time.sleep(2.1)
 
 
-def import_labs(labs_root, destination, dry_run=False, lab_names=(), pdf_only=False, md_only=False):
+def import_labs(labs_root, destination, dry_run=False, lab_names=(), pdf_only=None, md_only=False, with_md=False):
+    """Import PDFs only by default (one directory per paper under sources/papers/).
+
+    Markdown summaries, collection pages and the catalog page are written only with
+    with_md=True (CLI --with-md); the research layer reads summary JSON in place from
+    labs/ instead. md_only writes the Markdown side alone; pdf_only is the default and
+    is kept for compatibility.
+    """
     if pdf_only and md_only:
         raise ValueError('pdf_only and md_only are mutually exclusive')
+    if with_md and md_only:
+        raise ValueError('with_md and md_only are mutually exclusive')
+    if with_md and pdf_only:
+        raise ValueError('with_md and pdf_only are mutually exclusive')
+    if pdf_only is None:
+        pdf_only = not (md_only or with_md)
 
     def selected(relative):
         return not (pdf_only and relative.endswith('.md') or md_only and relative.endswith('.pdf'))
@@ -545,12 +558,14 @@ def main():
     parser.add_argument('--lab', action='append', default=[], help='Limit to a collection; repeat for several')
     parser.add_argument('--dry-run', action='store_true', help='Plan and validate without writing files')
     mode = parser.add_mutually_exclusive_group()
-    mode.add_argument('--pdf_only', action='store_true', help='Export only PDFs; skip Markdown output')
+    mode.add_argument('--pdf_only', action='store_true', help='Export only PDFs (the default); kept for compatibility')
+    mode.add_argument('--with-md', '--with_md', dest='with_md', action='store_true',
+                      help='Also write Markdown summaries, collection pages and the catalog page next to the PDFs')
     mode.add_argument('--md_only', action='store_true', help='Export only Markdown; skip PDF output')
     args = parser.parse_args()
     try:
         report = import_labs(args.labs_root, args.destination, args.dry_run, args.lab,
-                             pdf_only=args.pdf_only, md_only=args.md_only)
+                             pdf_only=True if args.pdf_only else None, md_only=args.md_only, with_md=args.with_md)
     except (OSError, ValueError, TypeError) as exc:
         parser.exit(1, f'Import failed: {exc}\n')
     print(json_text(report), end='')

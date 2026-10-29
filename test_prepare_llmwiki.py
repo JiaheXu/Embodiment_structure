@@ -59,7 +59,7 @@ class ImportTests(unittest.TestCase):
 
     def test_export_uses_original_pdf_and_markdown_filenames(self):
         self.paper('A', '2025-cvpr-26-physx-anything-3d', 'https://arxiv.org/pdf/2501.12345')
-        import_labs(self.labs, self.dest)
+        import_labs(self.labs, self.dest, with_md=True)
         folder = self.dest / 'sources/papers/2025-cvpr-26-physx-anything-3d'
         self.assertTrue((folder / '2025-cvpr-26-physx-anything-3d.pdf').is_file())
         self.assertTrue((folder / '2025-cvpr-26-physx-anything-3d.md').is_file())
@@ -77,15 +77,34 @@ class ImportTests(unittest.TestCase):
                     self.assertEqual(report['pdf_bytes_to_copy'], 0)
                     self.assertNotIn('](one.pdf)', (dest / 'sources/papers/one/one.md').read_text())
                 self.assertEqual(import_labs(self.labs, dest, **{mode: True})['files_written'], 0)
-                import_labs(self.labs, dest)
+                import_labs(self.labs, dest, with_md=True)
                 excluded_file = dest / ('sources/papers/one/one' + excluded)
                 before = excluded_file.read_bytes(), excluded_file.stat().st_mtime_ns
                 (folder / 'summary/one.md').write_text('# Updated summary')
                 import_labs(self.labs, dest, **{mode: True})
                 self.assertEqual((excluded_file.read_bytes(), excluded_file.stat().st_mtime_ns), before)
-                import_labs(self.labs, dest)
+                import_labs(self.labs, dest, with_md=True)
                 self.assertTrue(list((dest / 'sources').rglob('*.pdf')))
                 self.assertTrue(list((dest / 'sources').rglob('*.md')))
+
+    def test_default_export_is_pdf_only_and_with_md_adds_markdown(self):
+        folder = self.paper('A', 'one', 'https://arxiv.org/pdf/2501.12345')
+        report = import_labs(self.labs, self.dest)
+        self.assertEqual(sorted(p.name for p in (self.dest / 'sources').rglob('*') if p.is_file()), ['one.pdf'])
+        self.assertEqual((report['pdf_files'], report['summary_files']), (1, 0))
+        self.assertFalse((self.dest / 'sources/catalog.md').exists())
+        self.assertEqual(import_labs(self.labs, self.dest)['files_written'], 0)
+        report = import_labs(self.labs, self.dest, with_md=True)
+        self.assertTrue((self.dest / 'sources/papers/one/one.md').is_file())
+        self.assertTrue((self.dest / 'sources/catalog.md').is_file())
+        self.assertEqual(report['summary_files'], 1)
+        (folder / 'summary/one.md').write_text('# Updated summary')
+        self.assertEqual(import_labs(self.labs, self.dest)['files_written'], 0)
+        self.assertNotIn('Updated summary', (self.dest / 'sources/papers/one/one.md').read_text())
+        with self.assertRaisesRegex(ValueError, 'mutually exclusive'):
+            import_labs(self.labs, self.dest, with_md=True, md_only=True)
+        with self.assertRaisesRegex(ValueError, 'mutually exclusive'):
+            import_labs(self.labs, self.dest, with_md=True, pdf_only=True)
 
     def test_only_flags_are_mutually_exclusive(self):
         self.paper('A', 'one', 'https://arxiv.org/pdf/2501.12345')
@@ -95,12 +114,12 @@ class ImportTests(unittest.TestCase):
 
     def test_distinct_papers_with_same_original_name_get_separate_directories(self):
         self.paper('A', 'shared-name', 'https://arxiv.org/pdf/2608.21031')
-        import_labs(self.labs, self.dest)
+        import_labs(self.labs, self.dest, with_md=True)
         first = self.dest / 'sources/papers/shared-name/shared-name.pdf'
         inode = first.stat().st_ino
         self.paper('B', 'shared-name', 'https://arxiv.org/pdf/2608.29769', pdf=pdf_bytes('other'))
         self.paper('C', 'shared-name--arxiv-2608.29769', 'https://arxiv.org/pdf/2609.11111', pdf=pdf_bytes('third'))
-        report = import_labs(self.labs, self.dest)
+        report = import_labs(self.labs, self.dest, with_md=True)
         self.assertEqual(report['papers'], 3)
         self.assertEqual(first.stat().st_ino, inode)
         second = self.dest / 'sources/papers/shared-name--arxiv-2608.29769/shared-name.pdf'
@@ -109,7 +128,7 @@ class ImportTests(unittest.TestCase):
         for summary in (self.dest / 'sources/papers').rglob('*.md'):
             for link in re.findall(r'\]\(([^)]+\.pdf)\)', summary.read_text()):
                 self.assertTrue((summary.parent / unquote(link)).is_file(), link)
-        self.assertEqual(import_labs(self.labs, self.dest)['files_written'], 0)
+        self.assertEqual(import_labs(self.labs, self.dest, with_md=True)['files_written'], 0)
         for mode in ('pdf_only', 'md_only'):
             dest = self.root / mode
             import_labs(self.labs, dest, **{mode: True})
@@ -119,7 +138,7 @@ class ImportTests(unittest.TestCase):
     def test_generic_source_name_uses_descriptive_title_for_directory(self):
         folder = self.paper('A', '2026-paper', 'https://arxiv.org/pdf/2608.29769')
         (folder / 'summary/2026-paper.md').write_text('# Learning Agile Perceptive Traversal\n\nA summary.')
-        import_labs(self.labs, self.dest)
+        import_labs(self.labs, self.dest, with_md=True)
         self.assertTrue((self.dest / 'sources/papers/2026-learning-agile-perceptive-traversal/2026-paper.pdf').is_file())
         self.assertFalse(list((self.dest / 'sources/papers').glob('2026-paper*')))
 
@@ -132,7 +151,7 @@ class ImportTests(unittest.TestCase):
 
     def test_legacy_filenames_migrate_without_recopying_pdf(self):
         self.paper('A', 'original-paper', 'https://arxiv.org/pdf/2501.12345')
-        import_labs(self.labs, self.dest)
+        import_labs(self.labs, self.dest, with_md=True)
         state = self.dest / '.llmwiki-import/catalog.json'
         catalog = json.loads(state.read_text())
         paper = catalog['papers']['arxiv-2501.12345']
@@ -156,8 +175,8 @@ class ImportTests(unittest.TestCase):
 
         with patch('prepare_llmwiki.rename_outputs', side_effect=interrupted_rename):
             with self.assertRaisesRegex(OSError, 'Simulated interruption'):
-                import_labs(self.labs, self.dest)
-        report = import_labs(self.labs, self.dest)
+                import_labs(self.labs, self.dest, with_md=True)
+        report = import_labs(self.labs, self.dest, with_md=True)
         renamed = self.dest / 'sources/papers/original-paper/original-paper.pdf'
         self.assertTrue(renamed.is_file())
         self.assertEqual(renamed.stat().st_ino, inode)
@@ -168,12 +187,12 @@ class ImportTests(unittest.TestCase):
         self.assertEqual(final_catalog['retained_files'], [])
         summary = (renamed.parent / 'original-paper.md').read_text()
         self.assertIn('](original-paper.pdf)', summary)
-        self.assertEqual(import_labs(self.labs, self.dest)['files_written'], 0)
+        self.assertEqual(import_labs(self.labs, self.dest, with_md=True)['files_written'], 0)
 
     def test_duplicate_original_names_keep_all_versions_and_working_pdf_links(self):
         self.paper('A', 'original', 'https://arxiv.org/pdf/2501.12345v1')
         self.paper('B', 'original', 'https://arxiv.org/pdf/2501.12345v2', pdf=pdf_bytes('updated'), summary='An alternative account')
-        import_labs(self.labs, self.dest)
+        import_labs(self.labs, self.dest, with_md=True)
         paper = self.dest / 'sources/papers/original'
         self.assertEqual([p.name for p in paper.rglob('*.pdf')], ['original.pdf', 'original.pdf'])
         summaries = list(paper.rglob('*.md'))
@@ -193,7 +212,7 @@ class ImportTests(unittest.TestCase):
             return real_check(path)
 
         with patch('prepare_llmwiki.pdf_issue', side_effect=concurrent_summary_update):
-            report = import_labs(self.labs, self.dest)
+            report = import_labs(self.labs, self.dest, with_md=True)
         generated = self.dest / 'sources/papers/one/one.md'
         self.assertIn(original.rstrip(), generated.read_text())
         self.assertIn('Written by the existing summarizer.', summary.read_text())
@@ -203,7 +222,7 @@ class ImportTests(unittest.TestCase):
         self.paper('Lab-A', 'first', 'https://arxiv.org/pdf/2501.12345v1.pdf')
         self.paper('Channel-B', 'renamed', 'https://arxiv.org/abs/2501.12345v2', pdf=pdf_bytes('updated'), summary='## Method\nA different account.')
         before = self.snapshot()
-        report = import_labs(self.labs, self.dest)
+        report = import_labs(self.labs, self.dest, with_md=True)
         self.assertEqual(report['papers'], 1)
         paper = self.dest / 'sources/papers/renamed'
         self.assertEqual(len(list(paper.rglob('*.pdf'))), 2)
@@ -219,7 +238,7 @@ class ImportTests(unittest.TestCase):
     def test_checksum_matches_unidentified_paper_to_identified_copy(self):
         self.paper('A', 'one', 'https://arxiv.org/pdf/2501.12345')
         self.paper('B', 'two', 'https://example.org/download/paper.pdf')
-        report = import_labs(self.labs, self.dest)
+        report = import_labs(self.labs, self.dest, with_md=True)
         self.assertEqual(report['papers'], 1)
         self.assertEqual(len(list((self.dest / 'sources').rglob('*.pdf'))), 1)
 
@@ -233,26 +252,26 @@ class ImportTests(unittest.TestCase):
 
     def test_rerun_is_idempotent_and_preserves_wiki_and_local_edits(self):
         folder = self.paper('A', 'one', 'https://arxiv.org/pdf/2501.12345')
-        import_labs(self.labs, self.dest)
+        import_labs(self.labs, self.dest, with_md=True)
         wiki = self.dest / 'wiki/overview.md'
         wiki.parent.mkdir()
         wiki.write_text('User wiki')
         summary = self.dest / 'sources/papers/one/one.md'
         old_mtime = summary.stat().st_mtime_ns
-        report = import_labs(self.labs, self.dest)
+        report = import_labs(self.labs, self.dest, with_md=True)
         self.assertEqual(report['files_written'], 0)
         self.assertEqual(summary.stat().st_mtime_ns, old_mtime)
         summary.write_text('User edit')
         (folder / 'summary/one.md').write_text('Upstream change')
         with self.assertRaisesRegex(ValueError, 'modified|conflict'):
-            import_labs(self.labs, self.dest)
+            import_labs(self.labs, self.dest, with_md=True)
         self.assertEqual(summary.read_text(), 'User edit')
         self.assertEqual(wiki.read_text(), 'User wiki')
 
     def test_orphan_markdown_and_missing_pdf_are_preserved_and_reported(self):
         folder = self.paper('A', 'one', 'https://arxiv.org/pdf/2501.12345', pdf=None)
         (folder / 'summary/orphan.md').write_text('# Orphan\n\nAn independent note.')
-        report = import_labs(self.labs, self.dest)
+        report = import_labs(self.labs, self.dest, with_md=True)
         self.assertEqual(report['papers'], 2)
         self.assertTrue(report['warnings'])
         self.assertEqual(len(list((self.dest / 'sources/papers').glob('*/*.md'))), 2)
@@ -261,14 +280,14 @@ class ImportTests(unittest.TestCase):
         folder = self.paper('A', 'one', 'https://arxiv.org/pdf/2501.12345')
         (folder / 'papers.json').write_text(json.dumps([{'pdf_path': '../../outside.pdf'}]))
         with self.assertRaisesRegex(ValueError, 'outside|escape'):
-            import_labs(self.labs, self.dest)
+            import_labs(self.labs, self.dest, with_md=True)
         (folder / 'papers.json').write_text('[]')
         outside = self.root / 'outside'
         outside.mkdir()
         self.dest.mkdir()
         (self.dest / 'sources').symlink_to(outside, target_is_directory=True)
         with self.assertRaisesRegex(ValueError, 'symlink|outside|escape'):
-            import_labs(self.labs, self.dest)
+            import_labs(self.labs, self.dest, with_md=True)
         self.assertEqual(list(outside.iterdir()), [])
 
     def test_destination_cannot_overlap_original_archive(self):
@@ -279,7 +298,7 @@ class ImportTests(unittest.TestCase):
     def test_identifier_mismatch_is_flagged_in_sources_and_report(self):
         folder = self.paper('A', 'one', 'https://arxiv.org/pdf/2501.12345')
         (folder / 'summary/one.md').write_text('# Wrong identity\n\n- **Paper:** https://arxiv.org/pdf/2501.99999\n')
-        report = import_labs(self.labs, self.dest)
+        report = import_labs(self.labs, self.dest, with_md=True)
         self.assertEqual(report['papers_needing_review'], 1)
         self.assertIn('Identity needs review', (self.dest / 'sources/papers/one/one.md').read_text())
 
@@ -287,7 +306,7 @@ class ImportTests(unittest.TestCase):
         folder = self.paper('A', 'one', 'https://doi.org/10.1234/Example', summary=None)
         (folder / 'summary_json/one.json').write_text(json.dumps({'method': 'A structured-only summary', 'index_tags': {'task': ['navigation']}}))
         (folder / 'pdfs/unlisted.pdf').write_bytes(pdf_bytes('unlisted'))
-        report = import_labs(self.labs, self.dest)
+        report = import_labs(self.labs, self.dest, with_md=True)
         self.assertEqual(report['papers'], 2)
         self.assertEqual(report['pdf_files'], 2)
         summaries = [p.read_text() for p in (self.dest / 'sources/papers').glob('*/*.md')]
@@ -296,15 +315,15 @@ class ImportTests(unittest.TestCase):
 
     def test_changed_source_updates_only_importer_owned_output(self):
         folder = self.paper('A', 'one', 'https://arxiv.org/pdf/2501.12345')
-        import_labs(self.labs, self.dest)
+        import_labs(self.labs, self.dest, with_md=True)
         (folder / 'summary/one.md').write_text('# Updated\n\nAn updated method.')
-        import_labs(self.labs, self.dest)
+        import_labs(self.labs, self.dest, with_md=True)
         self.assertIn('An updated method.', (self.dest / 'sources/papers/one/one.md').read_text())
 
     def test_partial_import_cannot_discard_existing_catalog_entries(self):
         self.paper('A', 'one', 'https://arxiv.org/pdf/2501.12345')
         self.paper('B', 'two', 'https://arxiv.org/pdf/2501.99999', pdf=pdf_bytes('other'))
-        import_labs(self.labs, self.dest)
+        import_labs(self.labs, self.dest, with_md=True)
         before = (self.dest / '.llmwiki-import/catalog.json').read_bytes()
         with self.assertRaisesRegex(ValueError, 'Partial import'):
             import_labs(self.labs, self.dest, lab_names=['A'])
@@ -315,7 +334,7 @@ class ImportTests(unittest.TestCase):
         self.paper('A', 'empty', 'https://arxiv.org/pdf/2501.99999', pdf=pdf_bytes(''))
         self.paper('B', 'valid', 'https://arxiv.org/pdf/2501.11111')
         before = self.snapshot()
-        report = import_labs(self.labs, self.dest)
+        report = import_labs(self.labs, self.dest, with_md=True)
         self.assertEqual(report['papers'], 1)
         self.assertEqual(report['ignored_pdf_files'], 2)
         self.assertEqual(len(list((self.dest / 'sources/papers').rglob('*.pdf'))), 1)
@@ -324,18 +343,18 @@ class ImportTests(unittest.TestCase):
     def test_valid_version_survives_an_unreadable_duplicate(self):
         self.paper('A', 'broken', 'https://arxiv.org/pdf/2501.12345v2', pdf=b'not a PDF')
         self.paper('B', 'valid', 'https://arxiv.org/pdf/2501.12345v1')
-        report = import_labs(self.labs, self.dest)
+        report = import_labs(self.labs, self.dest, with_md=True)
         self.assertEqual(report['papers'], 1)
         self.assertEqual(report['pdf_files'], 1)
         self.assertEqual(report['ignored_pdf_files'], 1)
 
     def test_previously_imported_unreadable_record_is_hidden_without_deletion(self):
         folder = self.paper('A', 'one', 'https://arxiv.org/pdf/2501.12345')
-        import_labs(self.labs, self.dest)
+        import_labs(self.labs, self.dest, with_md=True)
         generated = self.dest / 'sources/papers/one/one.pdf'
         original_copy = generated.read_bytes()
         (folder / 'pdfs/one.pdf').write_bytes(b'corrupt replacement')
-        report = import_labs(self.labs, self.dest)
+        report = import_labs(self.labs, self.dest, with_md=True)
         self.assertEqual(report['papers'], 0)
         self.assertFalse(generated.exists())
         hidden = list((self.dest / '.llmwiki-import/ignored').rglob('*.pdf'))

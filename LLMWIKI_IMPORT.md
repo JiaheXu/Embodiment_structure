@@ -2,7 +2,8 @@
 
 `prepare_llmwiki.py` uses the Python standard library and the existing
 `pdftotext` command (Poppler, also used by the summary pipeline). It reads `labs/`
-and copies structured sources into `~/research`; it never writes to `labs/`,
+and copies the PDFs into `~/research`, one directory per unique paper under
+`sources/papers/`; it never writes to `labs/`,
 changes the existing `wiki/`, or edits LLM Wiki's SQLite database.
 
 ## Run
@@ -13,19 +14,23 @@ From `~/Embodiment_structure`:
 # Inspect the complete plan without writing anything.
 python3 prepare_llmwiki.py --dry-run
 
-# Import every collection, including papers without summaries.
+# Import every collection: PDFs only, which is the default and the agreed layout.
 python3 prepare_llmwiki.py
 
-# Export only PDFs or only Markdown.
-python3 prepare_llmwiki.py --pdf_only
+# Also write Markdown summaries, collection pages and the catalog page (opt-in),
+# or write only the Markdown side.
+python3 prepare_llmwiki.py --with-md
 python3 prepare_llmwiki.py --md_only
 
 # Repeat after downloading papers or generating/updating summaries.
 python3 prepare_llmwiki.py
 ```
 
-The flags `--pdf_only` and `--md_only` are mutually exclusive; omit both to
-export both types. PDF-only mode also skips the Markdown catalog and collection
+PDF-only is the default (`--pdf_only` is accepted for compatibility). The
+research layer in `~/local_knowledge_ai` reads the summary JSON in place from
+`labs/`, so Markdown summaries are not needed in `~/research`; `--with-md`
+restores them. `--with-md`, `--pdf_only` and `--md_only` are mutually
+exclusive. PDF-only mode also skips the Markdown catalog and collection
 pages. Both modes retain the hidden JSON import state. Existing files of the
 excluded type are left untouched, and switching modes preserves importer
 ownership for later updates. Source validation and deduplication still run in
