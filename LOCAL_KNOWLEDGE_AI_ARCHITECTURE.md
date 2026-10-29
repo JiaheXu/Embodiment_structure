@@ -791,6 +791,7 @@ Rules:
 | `research conflicts`, `research versions`, `research digest`, `research figures`, `research external`, `research annotations` | the derived-page, figure, enrichment, and annotation jobs (D19 to D28) |
 | `research experiment add\|list\|update` | experiment records (D25) |
 | `research backup [--to DIR]`, `research restore DIR` | backup and restore (D27) |
+| `research docs` | regenerate `docs/AS_BUILT.md`, `docs/ISSUES.md`, `docs/QUESTIONS.md` from the code, the workspace, the backlog, and the last dev-loop run |
 | `research images --paper ID \| --set NAME [--pages N-M]` | render pages ahead of demand (D39) |
 | `research topic add\|revise\|sweep\|show\|render NAME`, `research topic discover`, `research topic drift`, `research topic promote CANDIDATE` | topics, discovery clustering, drift check, promotion (D30, D33) |
 | `research serve` | start API, watcher, and (later) UI |
@@ -862,7 +863,7 @@ Version 1, after the research layer works: a Python chat application with a conv
 
 - Unit tests per research module with fixtures drawn from real `summary_json` files and small PDFs.
 - Integration runs on `~/research-dev` (100 papers, section 3) before any run on `~/research`; the dev workspace is deleted and re-imported whenever its state is in doubt.
-- Development loop: `tests/dev/devloop.py` scores the system against `tests/dev/questions.yaml` on the dev workspace. Each question carries a build step, a truth rule computed from the raw inputs by code that shares nothing with the research layer, and a system query; set answers are scored by recall and precision, counts exactly, and questions whose step is not built yet report `not_built`. A build step is done when the loop reports no failures through that step, the unit tests pass, the round is recorded in `tests/dev/ROUNDS.md` with its judgement and open items in `tests/dev/backlog.yaml`, and the documents are updated: this file's section 15 row and decision log, the sections the round touched, the dev README, CLI help and `AGENTS.md` when they changed, and the backup copy in `~/Embodiment_structure` (`tests/dev/README.md`).
+- Development loop: `tests/dev/devloop.py` scores the system against `tests/dev/questions.yaml` on the dev workspace. Each question carries a build step, a truth rule computed from the raw inputs by code that shares nothing with the research layer, and a system query; set answers are scored by recall and precision, counts exactly, and questions whose step is not built yet report `not_built`. A build step is done when the loop reports no failures through that step, the unit tests pass, the round is recorded in `tests/dev/ROUNDS.md` with its judgement and open items in `tests/dev/backlog.yaml`, and the documents are updated (`docs/README.md` lists the set): the generated `docs/AS_BUILT.md`, `docs/ISSUES.md`, and `docs/QUESTIONS.md` via `research docs`; this file's section 15 row and decision log and the sections the round touched; `docs/DATA_FLOW.md` when a stage changed; grades for manual answers; CLI help and `AGENTS.md` when they changed; and the backup copy in `~/Embodiment_structure` (`tests/dev/README.md`).
 - Loader idempotence: two loads produce no duplicate rows.
 - Locator precision on a labeled set of 100 claims.
 - Relation precision on a labeled set of 50 citation pairs and 30 baseline pairs.
