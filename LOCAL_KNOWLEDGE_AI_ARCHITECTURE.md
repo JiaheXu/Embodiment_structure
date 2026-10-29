@@ -556,7 +556,7 @@ Input: one URL from the user. Accepted kinds and what is fetched:
 
 Flow:
 
-1. The fetched file is written under `sources/candidates/<candidate_id>/` and indexed by the watcher like any source. It gets a `paper` row with `scope = candidate` and `paper_id` `arxiv-…` when an arXiv id is found, else `url-<sha256[:24]>`. If the arXiv id already exists in the collection, the mode runs against the existing paper and says so.
+1. The fetched file is written under `sources/candidates/<year>-<title-slug>/<year>-<title-slug>.pdf`, the importer's human-readable naming (title from PDF page 1, year from the arXiv id; a collision gets a numeric suffix), and indexed by the watcher like any source. It gets a `paper` row with `scope = candidate` and `paper_id` `arxiv-…` when an arXiv id is found, else `url-<sha256[:24]>`; the paper id lives in the database, never in the path. If the arXiv id already exists in the collection, the mode runs against the existing paper and says so.
 2. A temporary record is built by the deep-read job (section 9.9) for the candidate only, so it carries page locators from the start. Coverage rows are written for it like for any paper.
 3. Matching, deterministic and cheap: facet overlap (modality, action space, embodiment, benchmark, dataset, task family, method family), citation overlap (its reference section against `paper`, in both directions), FTS over its `tldr` and method text against `chunks_fts`, and relation neighbors of the top matches.
 4. Report, written by the Ask service with the provider adapter over compact records of the matches, then verified against pages for every number used:
@@ -565,7 +565,7 @@ Flow:
    - gaps: components for which the collection holds nothing, stated as an absence in this collection with the denominator, never as an absence in the field;
    - improvement proposals, each labeled `hypothesis`, each citing the papers it is built from.
 5. The report is a page under `wiki/questions/` with frontmatter `candidate_id`, `paper_ids`, `snapshot`, `denominator`, `unclassified`, `coverage`, and an `answer` row (D23).
-6. Promotion: `research link --promote CANDIDATE` moves the source under `sources/papers/`, sets `scope = in_focus`, and runs the normal per-paper pipeline (section 9.2). Without promotion the candidate stays out of every denominator and sweep.
+6. Promotion: `research link --promote CANDIDATE` moves the directory under `sources/papers/` keeping its `<year>-<title-slug>` name, sets `scope = in_focus`, writes the catalog entry, and runs the normal per-paper pipeline (section 9.2). Without promotion the candidate stays out of every denominator and sweep.
 
 Rules: the system fetches only the URL the user gave and the one PDF or arXiv id that page names; fetched text is data and never carries instructions; nothing fetched is ever written into another paper's record; the candidate is deleted on request together with its rows.
 
@@ -748,7 +748,7 @@ At 7 papers per day: a few CPU-minutes and under 50k tokens. Rules:
     papers/<basename>/<basename>.pdf          copy of labs/<lab>/pdfs/<basename>.pdf (primary bytes)
                      versions/<sha24>/<f>.pdf other PDF bytes of the same paper, predecessor_id
                      (llmwiki image assets)   only if llmwiki's extractor ever writes them; its files
-    candidates/<candidate_id>/<file>.pdf      link analysis fetches, scope = candidate
+    candidates/<year>-<title-slug>/<same>.pdf link analysis fetches, scope = candidate; same naming as papers/
   wiki/ …                                     section 9.6 directories
   .llmwiki/index.db                           llmwiki's index
   .research/page_images/<content_hash>/pN.png rendered pages on demand (D39), ignored by the watcher
@@ -765,7 +765,7 @@ Rules:
 2. **Copies, not links.** The importer copies each deduplicated PDF from `labs/`, verifying the copy's hash, and rewrites it only when the source bytes change. Hardlinks were considered (same filesystem, 34 GB saved) and rejected by the user: disk is not a constraint, and copies keep the workspace independent of in-place rewrites in `labs/`. Symlinks are rejected by both the importer and the `read` guard.
 3. **Flat per-paper directories under the existing basenames.** Identity is `paper_id` in `research.db`, not the folder name. The 2,045 legacy pages and their 7,908 footnotes reference the current paths, so directories are not renamed to `paper_id`, now or later.
 4. **Labs as data, not folders.** The `labs/` tree is collection-centric and cannot express the 644 papers that belong to more than one collection; `lab` rows, `paper.lab_id`, the other collections in `bib_json`, and `wiki/hubs/labs/` carry that structure instead.
-5. **Versions and candidates.** The importer keeps the primary PDF at the top of the paper directory and any other bytes for the same paper under `versions/<sha256[:24]>/`, each with its own `asset_version` row; candidates stay under `sources/candidates/` until promotion moves them under `sources/papers/`.
+5. **Versions and candidates.** The importer keeps the primary PDF at the top of the paper directory and any other bytes for the same paper under `versions/<sha256[:24]>/`, each with its own `asset_version` row; candidates stay under `sources/candidates/` until promotion moves them under `sources/papers/`. Every directory, whether imported or fetched, is named `<year>-<title-slug>` so a person can read the listing; paper ids appear only in the database and on pages.
 6. **Importer defaults.** `prepare_llmwiki.py` writes PDFs only by default; `--with-md` is the opt-in for Markdown summaries, collection pages, and the catalog page, which the research layer does not use.
 
 ### 9.14 Backup and restore (D27)
