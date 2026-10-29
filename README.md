@@ -11,6 +11,15 @@ directory stores publication sources, PDFs, summaries, and metadata.
 - Each lab folder must contain a `link.txt` file.
 - `link.txt` contains the publication page or profile page for that lab.
 - Downloaded PDFs go in `labs/<lab_name(founder_name)>/pdfs/`.
+- PDF file names follow the document naming rule shared with the research library
+  (`local_knowledge_ai/ARCHITECTURE.md` section 9.19): `<year>-<title-slug>.pdf`, where the
+  title is the paper's own title and the year its arXiv submission year when the PDF comes from
+  arXiv (looked up through the arXiv API at download time); otherwise the first page of the PDF
+  supplies the title when the listing title is not Latin, else the listing title and year are
+  used. `papers.json` keeps the original listing as `source_title` and `listing_year`, and says
+  in `title_source` where the name came from (`arxiv`, `pdf_page1`, `listing`). Existing files
+  are never renamed by the downloader; the importer dedupes by content hash and the research
+  layer picks the paper-like title across occurrences.
 - The downloader records seen papers in
   `labs/<lab_name(founder_name)>/papers.json`.
 - Failed PDF downloads are recorded by paper title in

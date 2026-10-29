@@ -168,6 +168,103 @@ def safe_filename(title: str) -> str:
     return slug.encode('utf-8')[:120].decode('utf-8', errors='ignore') or "paper"
 
 
+# ---------------------------------------------------------------------------------------------
+# Document naming rule, shared with the research library (local_knowledge_ai, ARCHITECTURE.md
+# section 9.19): every PDF is `<year>-<title-slug>.pdf` where the title is the paper's own title
+# and the year the arXiv submission year when the paper comes from arXiv. The listing title (a
+# Scholar row or a Bilibili video headline) and the listing year are kept in papers.json as
+# `source_title` and `listing_year`, so nothing is lost and the importer still dedupes by hash.
+
+def paper_basename(title: str, year: int | str | None, fallback: str = "paper") -> str:
+    """`<year>-<title-slug>`; identical to the research layer's rule."""
+    slug = safe_filename(title or "")
+    if slug == "paper":
+        slug = fallback
+    return f"{year or 'undated'}-{slug}"
+
+
+def latin_ratio(text: str) -> float:
+    letters = [c for c in text if c.isalpha()]
+    return (sum(1 for c in letters if c.isascii()) / len(letters)) if letters else 0.0
+
+
+_TITLE_CONTINUE = {"of", "with", "and", "for", "via", "using", "from", "in", "on", "to", "the", "a", "an", "by", "through", "under", "at", "or"}
+_TITLE_STOP = re.compile(r"arxiv|proceedings|conference|journal|university|@|https?://|\bvol\.|preprint|accepted|submitted|copyright|^abstract\b|^\d", re.I)
+
+
+def title_from_first_page(text: str) -> str | None:
+    """A paper title read from page-1 text: the first Latin, multi-word, non-boilerplate line, joined with
+    continuation lines. Same heuristic as the research layer's loader."""
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    for index, line in enumerate(lines[:25]):
+        words = line.split()
+        if len(words) < 3 or len(line) > 160 or latin_ratio(line) < 0.8 or _TITLE_STOP.search(line):
+            continue
+        if sum(1 for c in line if c.isupper()) == 0 or line.endswith((",", ";")) and len(words) < 6:
+            continue
+        title = line
+        for offset in (1, 2):
+            if index + offset >= len(lines):
+                break
+            nxt = lines[index + offset]
+            dangling = title.endswith(":") or title.split()[-1].lower() in _TITLE_CONTINUE
+            continuation = (1 <= len(nxt.split()) <= 12 and latin_ratio(nxt) >= 0.8 and not _TITLE_STOP.search(nxt)
+                            and not re.search(r"\d|,|@", nxt) and (dangling or nxt[:1].islower() or len(title) < 45))
+            if not continuation:
+                break
+            title = f"{title} {nxt}"
+        return title.rstrip(" .:")
+    return None
+
+
+def pdf_first_page_text(path: Path, timeout: int = 60) -> str:
+    try:
+        result = subprocess.run(["pdftotext", "-enc", "UTF-8", "-f", "1", "-l", "1", str(path), "-"], capture_output=True, timeout=timeout)
+    except (OSError, subprocess.TimeoutExpired):
+        return ""
+    return result.stdout.decode("utf-8", errors="replace") if result.returncode == 0 else ""
+
+
+def arxiv_id_from_url(url: str) -> str | None:
+    match = re.search(r"arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})(?:v\d+)?", url or "", re.IGNORECASE)
+    return match.group(1) if match else None
+
+
+def resolve_arxiv_metadata(pdf_url: str, timeout: int) -> tuple[str, int] | None:
+    """(title, submission year) from the arXiv API for an arXiv PDF URL, or None."""
+    arxiv_id = arxiv_id_from_url(pdf_url)
+    if not arxiv_id:
+        return None
+    try:
+        atom = fetch_text(f"https://export.arxiv.org/api/query?id_list={arxiv_id}&max_results=1", timeout=min(timeout, 30))
+        root = ElementTree.fromstring(atom)
+    except (HTTPError, URLError, TimeoutError, IncompleteRead, ssl.SSLError, ElementTree.ParseError, OSError):
+        return None
+    namespace = {"atom": "http://www.w3.org/2005/Atom"}
+    entry = root.find("atom:entry", namespace)
+    if entry is None:
+        return None
+    title = _xml_child_text(entry, "atom:title", namespace)
+    year = int(f"20{arxiv_id[:2]}")  # the id encodes the submission month; `published` agrees for new-style ids
+    return (clean_title(title), year) if title else None
+
+
+def canonical_paper_name(paper: PaperCandidate, pdf_path: Path | None, timeout: int,
+                         arxiv_lookup: Callable[[str, int], tuple[str, int] | None] = None) -> dict[str, object]:
+    """The title, year and file name a downloaded paper gets: arXiv metadata first, then the PDF's first
+    page when the listing title is not Latin, else the listing itself. Records where each came from."""
+    lookup = arxiv_lookup or resolve_arxiv_metadata
+    title, year, source = paper.title, paper.year, "listing"
+    found = lookup(paper.pdf_url, timeout) if paper.pdf_url else None
+    if found:
+        title, year, source = found[0], found[1], "arxiv"
+    elif latin_ratio(title) < 0.5 and pdf_path is not None and pdf_path.is_file():
+        from_page = title_from_first_page(pdf_first_page_text(pdf_path))
+        if from_page:
+            title, source = from_page, "pdf_page1"
+    return {"title": title, "year": year, "title_source": source, "filename": f"{paper_basename(title, year)}.pdf"}
+
+
 def is_bilibili_url(url: str) -> bool:
     host = urlparse(url).netloc.lower()
     return host == "bilibili.com" or host.endswith(".bilibili.com") or host == "b23.tv"
@@ -745,7 +842,9 @@ def filter_new_papers(lab_dir: Path, candidates: Iterable[PaperCandidate]) -> li
     manifest = load_manifest(lab_dir)
     known_urls = {item.get("pdf_url", "") for item in manifest}
     known_titles = {safe_filename(str(item.get("title", ""))) for item in manifest}
+    known_titles |= {safe_filename(str(item.get("source_title", ""))) for item in manifest if item.get("source_title")}
     existing_pdf_names = {path.name.lower() for path in (lab_dir / PDF_DIR_NAME).glob("*.pdf")}
+    existing_pdf_names |= {Path(str(item.get("pdf_path", ""))).name.lower() for item in manifest if item.get("pdf_path")}
 
     new_papers: list[PaperCandidate] = []
     for paper in candidates:
@@ -878,11 +977,24 @@ def download_new_papers(
                 print(f"[error] {paper.title}: {exc}", file=sys.stderr)
                 continue
             record["pdf_url"] = recovered.pdf_url
+        # Document naming rule: the paper's own title and arXiv year name the file; the listing stays in the record.
+        named = canonical_paper_name(PaperCandidate(paper.title, paper.year, paper.page_url, str(record["pdf_url"])), pdf_path, timeout)
+        if named["filename"] != filename:
+            renamed_path = lab_dir / PDF_DIR_NAME / named["filename"]
+            if not renamed_path.exists():
+                pdf_path.rename(renamed_path)
+                pdf_path = renamed_path
+            record["pdf_path"] = str(pdf_path.relative_to(lab_dir))
+        record["source_title"] = paper.title
+        record["listing_year"] = paper.year
+        record["title"] = named["title"]
+        record["year"] = named["year"]
+        record["title_source"] = named["title_source"]
         manifest.append(record)
         save_manifest(lab_dir, manifest)
         clear_failed_paper(lab_dir, paper)
         downloaded += 1
-        print(f"[download] {paper.title} -> {pdf_path}")
+        print(f"[download] {named['title']} -> {pdf_path}")
         time.sleep(DOWNLOAD_PDF_DELAY_SECONDS)
     return downloaded, manifest
 
