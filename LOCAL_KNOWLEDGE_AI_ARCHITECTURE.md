@@ -1,8 +1,6 @@
-<!-- Backup copy of ~/local_knowledge_ai/ARCHITECTURE.md (branch docs/architecture, commit 9d09e17, copied 2026-10-29). The original is authoritative; refresh this copy with: cp ~/local_knowledge_ai/ARCHITECTURE.md ~/Embodiment_structure/LOCAL_KNOWLEDGE_AI_ARCHITECTURE.md -->
-
 # Local Research Library: System Specification
 
-Version 1.8, 2026-10-29. Status: planning complete, no open items; the build order in section 15 is the agreed starting point. No code exists yet.
+Version 1.12, 2026-10-29. Status: planning complete, no open items; the build order in section 15 is the agreed starting point. No code exists yet.
 
 This document is self-contained. A reader who has not seen the earlier discussion can start from here. Measured facts about the existing archive come from `~/Embodiment_structure/SUMMARY_AUDIT.md`.
 
@@ -73,6 +71,8 @@ Everything durable lives on the user's Ubuntu machine. Cloud models receive sele
 | D35 | Orchestration | `research update` is the one idempotent chain that brings the knowledge system up to date after papers land; `research nightly` runs it, re-renders topic pages, launches the single open-ended agent session over MCP, and renders the digest when due; `research install-timer` installs it as a systemd user timer. Three cadences: the watcher (continuous, model-free), `update` (per batch, nearly model-free), the nightly agent (the only open-ended model session). An update never touches findings, experiment records, user annotations, or the bodies of question pages. Staleness is computed and stored by the research layer, because this fork has no `propagate_staleness` and local mode never sets `documents.stale_since`. Section 9.17. | 2026-10-29 | decided |
 | D36 | Load and scheduling | Routine intake is 3 to 7 papers per day (50 to 190 per month by arXiv date in 2026); one-day spikes in download history were bulk pulls when labs were added. Per paper, `research update` costs 20 to 60 s of extraction CPU, seconds for everything else, and one classification call of about 6k input and 1k output tokens: a few CPU-minutes and under 50k tokens per day. The nightly agent session is capped at 20 stale pages with carry-over and a task budget. Bulk additions run through the same chain in the background, resumable. The only heavy one-time costs are the bootstrap topic sweeps (4M to 12M tokens) and the locator pass; extraction is already complete for 3,278 papers. Whole-library sweeps, deep reads, link analyses, and topic redefinitions run only when the user triggers them. Retiring the legacy builder lowers background load below today's level. Section 9.18. | 2026-10-29 | decided |
 | D37 | Update triggers | The update chain is triggerable by the timer, by the user from a terminal (`research update --all`, `research nightly --now`), by an agent through an `update` MCP tool, and by the UI through `/research/update`, all with the same chain and caps. One chain at a time per workspace, enforced by a job lease: a trigger during a running chain attaches to that job. The `update` tool never starts a nightly agent session from inside an agent session unless `run_nightly_agent` is explicitly set. Every job row records its trigger (timer, cli, agent with session id, ui). Section 9.17. | 2026-10-29 | decided |
+| D38 | Source layout | `sources/papers/<basename>/` holds the PDF only, one flat directory per unique paper under the importer's existing basenames, which are not renamed. PDFs are copied from `labs/` (the user chose copies over hardlinks; disk is not a constraint, and copies keep the workspace independent of in-place rewrites in `labs/`). Other PDF bytes for the same paper sit in the same directory under `versions/<sha256[:24]>/<filename>`, as the importer already does, linked by `asset_version.predecessor_id`. Candidates from link analysis live under `sources/candidates/<id>/`. Summaries are never copied: the loader reads `summary_json` in place from `labs/`, and the readable per-paper Markdown is the rendered `wiki/papers/<paper_id>.md`. The `labs/` hierarchy stays the generator's and is modeled as `lab` rows and lab hubs, not as folders in the workspace. Section 9.19. | 2026-10-29 | decided |
+| D39 | Page images | No page images exist today: llmwiki's extractor keeps only images embedded in a PDF and wrote none for this collection, and nothing renders pages. Pages are rendered on demand with `pdftoppm` at 150 dpi into `~/research/.research/page_images/<content_hash>/p<N>.png`, research-owned, outside `sources/`, keyed by content hash so a re-imported identical PDF reuses them. Rendering is triggered by `evidence`, `figures`, deep read, link analysis, and the UI page viewer, and by `research images` for a set. The `figures` coverage layer is `done` when every page that carries a caption has a render. llmwiki's own image extraction stays at its default; any asset it writes beside a PDF is llmwiki's file. Sections 7.2, 9.13, 9.19. | 2026-10-29 | decided |
 | D34 | Initial topics | Forty fixed topics chosen by the user from the keyword inventory (`docs/keywords_inventory.md`, local only), listed in section 9.16 with their phrase-presence upper bounds. Nine phrases were deliberately left as facets or clustering candidates, not topics. Initial pass: 40 sweeps at 100k to 300k tokens each, 4M to 12M input tokens; afterwards one call per new paper against all 40 definitions. | 2026-10-29 | decided |
 
 ---
@@ -83,7 +83,8 @@ Everything durable lives on the user's Ubuntu machine. Cloud models receive sele
 |---|---|---|
 | `~/Embodiment_structure` | Generator. Downloads PDFs per lab or channel, writes `papers.json`, summarizes each PDF into schema-v1 JSON plus Markdown. | None. The `prepare_llmwiki.py` importer moves into the fork. |
 | `~/local_knowledge_ai` | The system. Fork of llmwiki with the research layer, research MCP tools, CLI, and later the Python UI. | All new code. |
-| `~/research` | Workspace on disk: sources, wiki, `index.db`, `research.db`. | New `research.db`, rendered pages, hub directories, `legacy/`. |
+| `~/research` | Workspace on disk: sources, wiki, `index.db`, `research.db`. | New `research.db`, rendered page directories, `sources/candidates/` (D38). |
+| `~/research-dev` | Development workspace: 100 papers from four whole collections (`ETHZ-RSL`, `vikash_kumar`, `具身智能之心`, `mengdi`; 101 PDFs, one `versions/` case, 9 non-arXiv ids, no summaries missing), imported 2026-10-29 with the PDF-only default. Every build step is exercised here first; `~/research` is touched only after a step passes on it. | Its own `index.db` and `research.db`; disposable, re-creatable with `prepare_llmwiki.py --destination ~/research-dev --lab …`. |
 | `~/llmwiki` | Older copy with the batch wiki builder (`wiki_build.py`, systemd unit `llmwiki-refresh.service`). | Runs to completion, then the unit is disabled and the copy retired (D14). |
 
 ---
@@ -104,7 +105,9 @@ Everything durable lives on the user's Ubuntu machine. Cloud models receive sele
 | Numeric fidelity | 94% of numbers in results fields appear verbatim in the PDF text (300-pair sample); attribution not yet audited |
 | Unknown density | median 9.5% of leaf strings; highest in deployment (47%) and training-cost (36%) fields |
 | Workspace | 3,281 papers in the importer catalog with ids `arxiv-…`, `doi-…`, `sha256-…` and `pdf_sha256`; 35 unreadable PDFs ignored; `index.db` 1.4 GB |
+| `sources/papers` on disk | 34 GB of PDF copies, no non-PDF files; produced by `prepare_llmwiki.py --pdf_only`, now the importer's default |
 | `index.db` contents | 3,259 ready sources, 20 failed; 64,800 pages, numbered from 1; 157,409 chunks; 2,294 wiki pages; `documents.content_hash` equals the file sha256; `document_references`: 7,908 `cites` (wiki footnote to PDF) and 13,427 `links_to` (wiki to wiki) |
+| Page images | none exist: no PNG or JPG under `sources/`, the image cache is empty; `pdftoppm` and `pdftocairo` are installed |
 | `pdftotext` page breaks | form-feed count equals `pdfinfo` page count, so the 90,000-character cap maps to exact pages |
 | Existing wiki | Chinese pages with page-level PDF footnotes: 2,045 entity pages (every one carries `source:`, 1,404 also `source_id`, the `documents.id` of its PDF), 248 concept pages, `overview.md`; builder writes about 800 pages per day (808, 823, 415 by 13:30 on the three days measured), about 1,200 sources left |
 | Local model endpoints | Codex proxy expected at `127.0.0.1:8787` (OpenAI chat completions, drops file parts; not running at measurement time); Ollama at `127.0.0.1:11434` with `qwen3.5` and `qwen2.5`; an Anthropic gateway configured for Claude Code; Codex CLI on `gpt-6.1-sol` |
@@ -363,7 +366,7 @@ Stored as separate columns, never collapsed:
 |---|---|
 | `pdf` | PDF bytes present and readable |
 | `text` | Page text extracted into `index.db` |
-| `figures` | Page images available for the pages that contain figures |
+| `figures` | Rendered page images exist for every page that carries a figure or table caption (D39); `partial` lists the pages still missing |
 | `summary_text` | Pages the generator actually saw (`summary_saw_pages` from the 90k cap) |
 | `appendix` | Appendix pages read by any analysis step |
 | `record` | A `paper_record` exists; `detail_json.depth` ∈ {bootstrap, deep} (D18) |
@@ -429,7 +432,7 @@ A. BOOTSTRAP (once, section 9.1)
    research.db ─render─► wiki/papers, wiki/hubs, wiki/topics      legacy pages ─mark─► superseded_by
 
 B. ROUTINE UPDATE (per batch, `research update`, section 9.17)        model calls
-   1 import    labs → sources/papers, asset_version                         none
+   1 import    labs → sources/papers (copies)   , asset_version                         none
    2 extract   watcher or reconcile → index.db pages, chunks, images         none
    3 load      → paper, paper_record, date, scope, lab                       none
    4 facets    → field_value (deterministic vocab mapping)                   none
@@ -460,7 +463,7 @@ D. READS (user or agent; nothing here mutates records)
 ### 9.1 Bootstrap over the existing archive (once)
 
 0. In parallel, no research code involved: the legacy builder finishes its run (D14), and the generator produces the 404 missing summaries through `summarize_paper.sh`. The `research` CLI wraps that run as a job whose config records the model name from the environment, the 90,000-character cap, and the sha256 of `summarize_paper.py`, so these records get real provenance without any generator change.
-1. Importer: already run; 3,281 papers in the catalog. Re-run from the fork to confirm identity rules; `paper_id` and `pdf_sha256` are taken from the catalog (D12).
+1. Importer: already run; 3,281 papers in the catalog. Re-run from the fork to confirm identity rules; `paper_id` and `pdf_sha256` are taken from the catalog (D12). The re-run is a no-op for the 3,278 existing copies (hashes unchanged) and records their `asset_version` rows (D38).
 2. Loader: 3,692 summary files dedupe by bytes to 3,096 `asset_version` rows and records (`depth = bootstrap`); the 378 category stubs are skipped; papers without a record get `coverage.record = missing` (404 before step 0 completes). Papers with empty `index_tags.robot` get `scope = out_of_focus`. One `lab` row per collection and `paper.lab_id` are set here (D20).
 3. Locators: `summary_saw_pages` from `pdftotext` form feeds; numeric claims resolved against `index.db` page text; legacy footnotes loaded as hints. A record whose claims resolve below the mismatch threshold is marked `suspect`. No model calls.
 4. Facets: deterministic mapping of `index_tags` to the vocabularies; unmapped tags kept raw and reported. The model pass over unmapped tags is build step 7, after the provider adapter exists.
@@ -596,7 +599,9 @@ All deterministic jobs; each page lists its snapshot, denominator, and coverage 
 
 ### 9.13 Figures (D28)
 
-`figures.py` scans each page's text for caption lines (`Figure N`, `Fig. N`, `Table N`, with their first sentence) and writes `figure` rows with page and the page-image path when the extractor produced one. The `figures` MCP tool and the UI resolve "the figure that shows …" by FTS over captions, then open the page image. The local extractor leaves `document_pages.elements` empty, so captions are the only deterministic source until an element-producing extractor is configured.
+`figures.py` scans each page's text for caption lines (`Figure N`, `Fig. N`, `Table N`, with their first sentence) and writes `figure` rows with page and `image_ref`, the rendered page path from D39, produced on first request. The `figures` MCP tool and the UI resolve "the figure that shows …" by FTS over captions, then open the rendered page. The local extractor leaves `document_pages.elements` empty and extracted no embedded images for this collection, so captions plus page renders are the only deterministic source until an element-producing extractor is configured.
+
+Page rendering (D39): `figures.py` also owns `render_page(content_hash, page)`, which runs `pdftoppm -r 150 -f N -l N -png` on the PDF named by `asset_version.content_hash` and writes `~/research/.research/page_images/<content_hash>/p<N>.png`; a second request for the same page returns the existing file. The `.research/` directory is listed in `.llmwikiignore` so the watcher never indexes renders. `research images --paper ID | --set NAME [--pages N-M]` renders ahead of time; nothing renders the whole collection by default (about 64,800 pages).
 
 ### 9.15 Topics (D30, D31)
 
@@ -732,6 +737,34 @@ At 7 papers per day: a few CPU-minutes and under 50k tokens. Rules:
 4. **User-triggered only:** whole-library sweeps (about 2M tokens each), deep reads, link analyses, and topic redefinitions. Nothing schedules them.
 5. **Background load** falls once the legacy builder in `~/llmwiki`, which has run a Codex session continuously since 2026-10-27, is retired (D14); the nightly session is bounded by rule 1 and the watcher and `update` are model-free except for classification.
 
+### 9.19 Source layout (D38)
+
+```
+~/research/
+  sources/
+    papers/<basename>/<basename>.pdf          copy of labs/<lab>/pdfs/<basename>.pdf (primary bytes)
+                     versions/<sha24>/<f>.pdf other PDF bytes of the same paper, predecessor_id
+                     (llmwiki image assets)   only if llmwiki's extractor ever writes them; its files
+    candidates/<candidate_id>/<file>.pdf      link analysis fetches, scope = candidate
+  wiki/ …                                     section 9.6 directories
+  .llmwiki/index.db                           llmwiki's index
+  .research/page_images/<content_hash>/pN.png rendered pages on demand (D39), ignored by the watcher
+  research.db
+~/Embodiment_structure/labs/<lab>/
+    pdfs/*.pdf  summary_json/*.json  summary/*.md  papers.json     unchanged, read in place
+```
+
+What a paper directory is expected to hold: the PDF, a later arXiv version if one arrived, and nothing of ours. Everything else about the paper is elsewhere: page text in `index.db`; record, facets, claims, relations, coverage, and memberships in `research.db`; the readable page at `wiki/papers/<paper_id>.md`; page renders under `.research/page_images/`; the original summary in `labs/`.
+
+Rules:
+
+1. **PDF only under `sources/`.** llmwiki's watcher, `relative_path`, and the `read` path guard all require a file to be inside the workspace, so PDFs must appear there. Nothing else does: `summary_json` is read in place from `labs/` by the loader, with `asset_version.path` pointing at the original; the generator's Markdown mirrors are not used. The per-paper readable page is `wiki/papers/<paper_id>.md`, rendered from the record, so a summary file next to the PDF would only invite agents to cite it as evidence.
+2. **Copies, not links.** The importer copies each deduplicated PDF from `labs/`, verifying the copy's hash, and rewrites it only when the source bytes change. Hardlinks were considered (same filesystem, 34 GB saved) and rejected by the user: disk is not a constraint, and copies keep the workspace independent of in-place rewrites in `labs/`. Symlinks are rejected by both the importer and the `read` guard.
+3. **Flat per-paper directories under the existing basenames.** Identity is `paper_id` in `research.db`, not the folder name. The 2,045 legacy pages and their 7,908 footnotes reference the current paths, so directories are not renamed to `paper_id`, now or later.
+4. **Labs as data, not folders.** The `labs/` tree is collection-centric and cannot express the 644 papers that belong to more than one collection; `lab` rows, `paper.lab_id`, the other collections in `bib_json`, and `wiki/hubs/labs/` carry that structure instead.
+5. **Versions and candidates.** The importer keeps the primary PDF at the top of the paper directory and any other bytes for the same paper under `versions/<sha256[:24]>/`, each with its own `asset_version` row; candidates stay under `sources/candidates/` until promotion moves them under `sources/papers/`.
+6. **Importer defaults.** `prepare_llmwiki.py` writes PDFs only by default; `--with-md` is the opt-in for Markdown summaries, collection pages, and the catalog page, which the research layer does not use.
+
 ### 9.14 Backup and restore (D27)
 
 `research backup [--to DIR]` writes `research.db` and `index.db` with SQLite's online backup API (consistent under WAL while the watcher runs), `wiki/` and `sources/` manifests as tarballs (sources by hash list, with the PDFs themselves optional because they are reproducible from `labs/`), and a manifest with hashes. `research restore DIR` rebuilds a workspace from one and reports every missing file. The restore test in section 14 runs on every release.
@@ -758,6 +791,7 @@ At 7 papers per day: a few CPU-minutes and under 50k tokens. Rules:
 | `research conflicts`, `research versions`, `research digest`, `research figures`, `research external`, `research annotations` | the derived-page, figure, enrichment, and annotation jobs (D19 to D28) |
 | `research experiment add\|list\|update` | experiment records (D25) |
 | `research backup [--to DIR]`, `research restore DIR` | backup and restore (D27) |
+| `research images --paper ID \| --set NAME [--pages N-M]` | render pages ahead of demand (D39) |
 | `research topic add\|revise\|sweep\|show\|render NAME`, `research topic discover`, `research topic drift`, `research topic promote CANDIDATE` | topics, discovery clustering, drift check, promotion (D30, D33) |
 | `research serve` | start API, watcher, and (later) UI |
 | `research jobs`, `research usage` | job status and token accounting |
@@ -827,6 +861,8 @@ Version 1, after the research layer works: a Python chat application with a conv
 ## 14. Testing and acceptance
 
 - Unit tests per research module with fixtures drawn from real `summary_json` files and small PDFs.
+- Integration runs on `~/research-dev` (100 papers, section 3) before any run on `~/research`; the dev workspace is deleted and re-imported whenever its state is in doubt.
+- Development loop: `tests/dev/devloop.py` scores the system against `tests/dev/questions.yaml` on the dev workspace. Each question carries a build step, a truth rule computed from the raw inputs by code that shares nothing with the research layer, and a system query; set answers are scored by recall and precision, counts exactly, and questions whose step is not built yet report `not_built`. A build step is done when the loop reports no failures through that step, the unit tests pass, the round is recorded in `tests/dev/ROUNDS.md` with its judgement and open items in `tests/dev/backlog.yaml`, and the documents are updated: this file's section 15 row and decision log, the sections the round touched, the dev README, CLI help and `AGENTS.md` when they changed, and the backup copy in `~/Embodiment_structure` (`tests/dev/README.md`).
 - Loader idempotence: two loads produce no duplicate rows.
 - Locator precision on a labeled set of 100 claims.
 - Relation precision on a labeled set of 50 citation pairs and 30 baseline pairs.
@@ -840,6 +876,8 @@ Version 1, after the research layer works: a Python chat application with a conv
 - Restore test: back up, restore into an empty directory, compare row counts and page hashes.
 - Date test: `paper.date` for every arXiv paper equals the id's YYMM; the 771 venue-year disagreements are reported, not silently overwritten.
 - Topic test: the two example topics (steering, WAM VLA) swept with the user grading 30 dispositions each; a new paper triaged at ingest appears on the topic page without a sweep; revising a definition leaves the old version's chart reproducible.
+- Image test: `evidence` for a claim on page N creates exactly `.research/page_images/<hash>/pN.png`, a second call creates nothing, the watcher indexes nothing under `.research/`.
+- Layout test: after the importer re-run every PDF under `sources/papers` has the hash the catalog records and no non-PDF importer output exists under `sources/`; a changed PDF in `labs/` is recopied and reindexed by the watcher.
 - Trigger test: an `update` tool call during a running chain returns the running job id and starts no second chain; the tool called from a session without `run_nightly_agent` starts no agent session; `triggered_by` is set on every job created by the timer, CLI, tool, and route.
 - Update test: run `research update` twice on the same batch, second run makes no row or page changes and reports zero delta; kill it mid-stage and rerun, final state identical; a changed record marks exactly the pages that cite it stale and no finding, experiment, annotation, or question body changes.
 - Policy test: a candidate topic from clustering has no memberships and appears in no count; promoting it creates a user-origin topic and a sweep; the drift check flags a topic whose members were split across two clusters in a fixture graph.
@@ -854,7 +892,7 @@ Version 1.3 (D32). Steps 0a and 0b need no research code and run while step 1 is
 |---|---|---|
 | 0a | Legacy builder finishes; unit disabled; `~/llmwiki` retired (D14) | `progress.json` at the last readable source; no process writing under `wiki/` |
 | 0b | Generator run for the 404 missing summaries, wrapped as a job with model, cap, and script hash recorded | 404 new summary files; run manifest saved |
-| 1 | `research.db` migrations, identity from the catalog, dates from arXiv ids (D31), importer moved in, loader with byte dedupe, deterministic facet mapping, `summary_saw_pages`, coverage, labs (D20), backup and restore (D27); `research update` with stages 1 to 4 and 10, gaining a stage as each later step lands | counts reconcile: 3,692 files, 3,096 distinct records, papers with and without a record, 35 ignored and 20 failed PDFs as coverage rows; second load adds no rows; restore test passes |
+| 1 | `research.db` migrations, identity from the catalog, dates from arXiv ids (D31), importer moved in (PDF-only default, D38), loader with byte dedupe, deterministic facet mapping, `summary_saw_pages`, coverage, labs (D20), backup and restore (D27); `research update` with stages 1 to 4 and 10, gaining a stage as each later step lands | counts reconcile: 3,692 files, 3,096 distinct records, papers with and without a record, 35 ignored and 20 failed PDFs as coverage rows; second load adds no rows; restore test passes. **Round 1 (2026-10-29) on `~/research-dev`:** 100 papers, 101 PDFs, 82 records (108 summary assets), 16 step-1 questions pass, second load adds no rows, 35 unit tests; open items B001 to B004 in `tests/dev/backlog.yaml`; not yet run on `~/research`, restore test not yet written |
 | 2 | Locators, claims, mismatch rule; figure caption index (D28); 100-claim labeled set; 30-pair attribution audit using resolved pages | locator precision and audit misattribution rate measured; v2 trigger evaluated and recorded in the decision log; figures found for a labeled set of 30 captions |
 | 3 | Renderer to `wiki/papers/` and `wiki/hubs/` (including lab hubs); legacy marking (after 0a) | pages for all records pass `lint`; byte-identical on rerender; every legacy entity page with a rendered counterpart carries `superseded_by` |
 | 4 | Citation relations from reference sections; facet-derived relations; baseline resolution by string matching; conflict detector (D19); version diff pages (D21) | in-collection citation graph; precision on 50 citation pairs, 30 baseline pairs, 30 conflict pairs; contradictions page rendered |
